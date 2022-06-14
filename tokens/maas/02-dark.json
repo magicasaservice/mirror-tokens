@@ -1,0 +1,85 @@
+{
+  "colors": {
+    "background": {
+      "default": {
+        "type": "color",
+        "description": "Primary background colors.",
+        "value": "{colors.shade.black}"
+      },
+      "subtle": {
+        "value": "{palette.grey.100}",
+        "type": "color",
+        "description": "Provides visual rest and contrast against the default background."
+      },
+      "emphasis": {
+        "value": "{palette.grey.10}",
+        "type": "color",
+        "description": "Provides the highest contrast against the default background, such as in tooltips."
+      },
+      "inset": {
+        "value": "{palette.grey.90}",
+        "type": "color",
+        "description": "Can be used instead of the default background to create a focal point, such as in conversations or activity feeds."
+      }
+    },
+    "foreground": {
+      "default": {
+        "type": "color",
+        "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
+        "value": "{colors.shade.white}"
+      },
+      "muted": {
+        "value": "{palette.grey.40}",
+        "type": "color",
+        "description": "Use for content that is secondary or that provides additional context but is not critical to understanding the flow of an interface."
+      },
+      "subtle": {
+        "value": "{palette.grey.60}",
+        "type": "color",
+        "description": "Use for placeholder text, icons or decorative foregrounds."
+      },
+      "emphasis": {
+        "value": "{palette.grey.100}",
+        "type": "color",
+        "description": "Emphasis is the text color designed to combine with -emphasis backgrounds for optimal contrast."
+      }
+    },
+    "accent": {
+      "default": {
+        "value": "{palette.red.50}",
+        "type": "color",
+        "description": "Accent or primary color is the global default brand colors. "
+      },
+      "bg": {
+        "value": "rgba({palette.blue.60},{lightness.90})",
+        "type": "color",
+        "description": "Accent or primary color is the global default brand colors. "
+      },
+      "active": {
+        "value": "rgba({palette.blue.60},{lightness.10})",
+        "type": "color",
+        "description": "Accent or primary color is the global default brand colors. "
+      }
+    },
+    "shade": {
+      "white": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000",
+        "type": "color"
+      }
+    },
+    "transparent": {
+      "accent": {
+        "value": "rgba({colors.accent.default}, 0.5)",
+        "type": "color"
+      },
+      "warning": {
+        "value": "rgba({palette.red.50}, 0.5)",
+        "type": "color"
+      }
+    }
+  }
+}
