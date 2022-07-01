@@ -1,5 +1,5 @@
 {
-  "comp": {
+  "component": {
     "button": {
       "height": {
         "base": {
@@ -7,20 +7,20 @@
           "type": "sizing"
         },
         "sm": {
-          "value": "{comp.button.height.base} * 1.5",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.button.height.base} * 1.5"
         },
         "md": {
-          "value": "{comp.button.height.base} * 2",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.button.height.base} * 2"
         },
         "lg": {
-          "value": "{comp.button.height.base} * 2.5",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.button.height.base} * 2.5"
         },
         "xl": {
-          "value": "{comp.button.height.base} * 3",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.button.height.base} * 3"
         }
       }
     },
@@ -29,25 +29,29 @@
         "default": {
           "bg": {
             "type": "color",
-            "value": "{theme.color.accent.default}"
+            "value": "{theme.color.primary.bg.default}"
+          },
+          "fg": {
+            "type": "color",
+            "value": "{theme.color.fg.onAccent}"
           }
         },
         "hover": {
           "bg": {
             "type": "color",
-            "value": "{theme.color.accent.default}"
+            "value": "{theme.color.primary.bg.default}"
           }
         },
         "active": {
           "bg": {
             "type": "color",
-            "value": "{theme.color.accent.default}"
+            "value": "{theme.color.primary.bg.default}"
           }
         },
         "focus": {
           "bg": {
             "type": "color",
-            "value": "{theme.color.accent.default}"
+            "value": "{theme.color.primary.bg.default}"
           }
         }
       }

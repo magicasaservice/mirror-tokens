@@ -1,60 +1,69 @@
 {
   "theme": {
     "color": {
-      "bg": {
-        "default": {
-          "type": "color",
-          "description": "Primary background color.",
-          "value": "{core.color.white}"
+      "surface": {
+        "bg": {
+          "default": {
+            "type": "color",
+            "description": "Primary background color.",
+            "value": "{core.color.white}"
+          },
+          "subtle": {
+            "type": "color",
+            "description": "Provides visual rest and contrast against the default background.",
+            "value": "{core.color.grey.10}"
+          },
+          "inset": {
+            "type": "color",
+            "description": "Can be used instead of the default background to create a focal point, such as in conversations or activity feeds.",
+            "value": "{core.color.grey.10}"
+          },
+          "emphasis": {
+            "type": "color",
+            "description": "Provides the highest contrast against the default background, such as in tooltips.",
+            "value": "{core.color.grey.100}"
+          }
         },
-        "subtle": {
-          "type": "color",
-          "description": "Provides visual rest and contrast against the default background.",
-          "value": "{core.color.grey.10}"
-        },
-        "inset": {
-          "type": "color",
-          "description": "Can be used instead of the default background to create a focal point, such as in conversations or activity feeds.",
-          "value": "{core.color.grey.10}"
-        },
-        "emphasis": {
-          "type": "color",
-          "description": "Provides the highest contrast against the default background, such as in tooltips.",
-          "value": "{core.color.grey.100}"
+        "fg": {
+          "default": {
+            "type": "color",
+            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
+            "value": "{core.color.black}"
+          },
+          "muted": {
+            "type": "color",
+            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
+            "value": "{core.color.grey.50}"
+          },
+          "subtle": {
+            "type": "color",
+            "description": "Use for placeholder text, icons or decorative foregrounds.",
+            "value": "{core.color.grey.20}"
+          },
+          "emphasis": {
+            "type": "color",
+            "description": "On emphasis is the text color designed to combine with -emphasis backgrounds for optimal contrast.",
+            "value": "{core.color.white}"
+          }
         }
       },
-      "fg": {
-        "default": {
-          "type": "color",
-          "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
-          "value": "{core.color.black}"
-        },
-        "muted": {
-          "type": "color",
-          "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
-          "value": "{core.color.grey.50}"
-        },
-        "subtle": {
-          "type": "color",
-          "description": "Use for placeholder text, icons or decorative foregrounds.",
-          "value": "{core.color.grey.20}"
-        },
-        "onEmphasis": {
-          "type": "color",
-          "description": "On emphasis is the text color designed to combine with -emphasis backgrounds for optimal contrast.",
-          "value": "{core.color.white}"
-        },
-        "onAccent": {
-          "type": "color",
-          "description": "On emphasis is the text color designed to combine with -emphasis backgrounds for optimal contrast.",
-          "value": "{core.color.white}"
-        }
-      },
-      "accent": {
-        "default": {
-          "type": "color",
-          "description": "Accent color",
-          "value": "{core.color.blue.60}"
+      "primary": {
+        "bg": {
+          "default": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.blue.50}"
+          },
+          "hover": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.blue.60}"
+          },
+          "active": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.blue.70}"
+          }
         }
       }
     }
