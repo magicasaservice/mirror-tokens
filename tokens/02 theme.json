@@ -13,11 +13,6 @@
             "description": "Provides visual rest and contrast against the default background.",
             "value": "{core.color.grey.10}"
           },
-          "inset": {
-            "type": "color",
-            "description": "Can be used instead of the default background to create a focal point, such as in conversations or activity feeds.",
-            "value": "{core.color.grey.10}"
-          },
           "emphasis": {
             "type": "color",
             "description": "Provides the highest contrast against the default background, such as in tooltips.",
@@ -40,10 +35,20 @@
             "description": "Use for placeholder text, icons or decorative foregrounds.",
             "value": "{core.color.grey.20}"
           },
-          "emphasis": {
+          "on-emphasis": {
             "type": "color",
             "description": "On emphasis is the text color designed to combine with -emphasis backgrounds for optimal contrast.",
             "value": "{core.color.white}"
+          },
+          "on-emphasis-muted": {
+            "type": "color",
+            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
+            "value": "{core.color.grey.50}"
+          },
+          "on-emphasis-subtle": {
+            "type": "color",
+            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
+            "value": "{core.color.grey.90}"
           }
         }
       },
@@ -60,6 +65,38 @@
             "value": "{core.color.blue.60}"
           },
           "active": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.blue.70}"
+          },
+          "focus": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.blue.70}"
+          }
+        },
+        "fg": {
+          "onPrimary": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.white}"
+          },
+          "muted": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.white}"
+          },
+          "hover": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.blue.60}"
+          },
+          "active": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.color.blue.70}"
+          },
+          "focus": {
             "type": "color",
             "description": "Accent color",
             "value": "{core.color.blue.70}"
