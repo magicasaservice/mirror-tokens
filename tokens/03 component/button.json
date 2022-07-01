@@ -1,8 +1,24 @@
 {
   "button": {
-    "sizing": {
-      "height": {
-        "value": "{sizing.default}",
+    "height": {
+      "base": {
+        "value": "{sizing.base}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{button.height.base} * 1.5",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{button.height.base} * 2",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{button.height.base} * 2.5",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{button.height.base} * 3",
         "type": "sizing"
       }
     },
@@ -32,24 +48,6 @@
             "type": "color"
           }
         }
-      }
-    },
-    "sm": {
-      "height": {
-        "value": "{button.sizing.height} * 1.5",
-        "type": "sizing"
-      }
-    },
-    "md": {
-      "height": {
-        "value": "{button.sizing.height} * 2",
-        "type": "sizing"
-      }
-    },
-    "lg": {
-      "height": {
-        "value": "{button.sizing.height} * 2.5",
-        "type": "sizing"
       }
     }
   }
