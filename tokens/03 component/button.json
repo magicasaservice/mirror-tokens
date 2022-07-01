@@ -1,25 +1,27 @@
 {
-  "button": {
-    "height": {
-      "base": {
-        "value": "{core.sizing.base}",
-        "type": "sizing"
-      },
-      "sm": {
-        "value": "{button.height.base} * 1.5",
-        "type": "sizing"
-      },
-      "md": {
-        "value": "{button.height.base} * 2",
-        "type": "sizing"
-      },
-      "lg": {
-        "value": "{button.height.base} * 2.5",
-        "type": "sizing"
-      },
-      "xl": {
-        "value": "{button.height.base} * 3",
-        "type": "sizing"
+  "comp": {
+    "button": {
+      "height": {
+        "base": {
+          "value": "{core.sizing.base}",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "{comp.button.height.base} * 1.5",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{comp.button.height.base} * 2",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{comp.button.height.base} * 2.5",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{comp.button.height.base} * 3",
+          "type": "sizing"
+        }
       }
     },
     "color": {
