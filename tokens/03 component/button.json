@@ -7,6 +7,10 @@
             "value": "{core.sizing.base}",
             "type": "sizing"
           },
+          "xs": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.base} * 1.5"
+          },
           "sm": {
             "type": "sizing",
             "value": "{component.button.sizing.height.base} * 2"
@@ -68,6 +72,10 @@
           "value": "{core.border-radius.full}",
           "type": "borderRadius"
         },
+        "xs": {
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.xs} / 4"
+        },
         "sm": {
           "type": "borderRadius",
           "value": "{component.button.sizing.height.sm} / 4"
@@ -83,6 +91,10 @@
       },
       "spacing": {
         "padding": {
+          "xs": {
+            "value": "{component.button.sizing.height.base} * 0.5",
+            "type": "spacing"
+          },
           "sm": {
             "value": "{component.button.sizing.height.base} * 0.75",
             "type": "spacing"
@@ -97,12 +109,20 @@
           }
         },
         "gap": {
+          "xs": {
+            "value": "{component.button.spacing.padding.xs} / 2",
+            "type": "spacing"
+          },
           "sm": {
-            "value": "{component.button.sizing.height.base} * 0.25",
+            "value": "{component.button.spacing.padding.sm} / 2",
             "type": "spacing"
           },
           "md": {
-            "value": "{component.button.sizing.height.base} * 0.5",
+            "value": "{component.button.spacing.padding.md} / 2",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{component.button.spacing.padding.lg} / 2",
             "type": "spacing"
           }
         }
