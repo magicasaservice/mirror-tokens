@@ -1,22 +1,24 @@
 {
   "component": {
     "button": {
-      "height": {
-        "base": {
-          "value": "{core.sizing.base}",
-          "type": "sizing"
-        },
-        "sm": {
-          "type": "sizing",
-          "value": "{component.button.height.base} * 2"
-        },
-        "md": {
-          "type": "sizing",
-          "value": "{component.button.height.base} * 2.5"
-        },
-        "lg": {
-          "type": "sizing",
-          "value": "{component.button.height.base} * 3"
+      "sizing": {
+        "height": {
+          "base": {
+            "value": "{core.sizing.base}",
+            "type": "sizing"
+          },
+          "sm": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.base} * 2"
+          },
+          "md": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.base} * 2.5"
+          },
+          "lg": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.base} * 3"
+          }
         }
       },
       "color": {
@@ -67,8 +69,42 @@
           "type": "borderRadius"
         },
         "sm": {
-          "value": "{core.border-radius.2}",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.sm} / 4"
+        },
+        "md": {
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.md} / 4"
+        },
+        "lg": {
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.lg} / 4"
+        }
+      },
+      "spacing": {
+        "padding": {
+          "sm": {
+            "value": "{component.button.sizing.height.base} * 0.75",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "{component.button.sizing.height.base}",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{component.button.sizing.height.base} * 1.25",
+            "type": "spacing"
+          }
+        },
+        "gap": {
+          "sm": {
+            "value": "{component.button.sizing.height.base} * 0.25",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "{component.button.sizing.height.base} * 0.5",
+            "type": "spacing"
+          }
         }
       }
     }
