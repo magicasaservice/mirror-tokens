@@ -48,12 +48,26 @@
               "type": "color",
               "value": "{theme.color.primary.bg.focus}"
             }
+          },
+          "disabled": {
+            "bg": {
+              "type": "color",
+              "value": "{core.color.grey.10}"
+            },
+            "fg-on-disabled": {
+              "type": "color",
+              "value": "{core.color.grey.40}"
+            }
           }
         }
       },
-      "radius": {
+      "border-radius": {
         "full": {
           "value": "{core.border-radius.full}",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "{core.border-radius.2}",
           "type": "borderRadius"
         }
       }
