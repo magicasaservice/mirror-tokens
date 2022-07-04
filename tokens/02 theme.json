@@ -28,7 +28,7 @@
           "muted": {
             "type": "color",
             "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
-            "value": "rgba({core.color.grey.100}, 0.5)"
+            "value": "rgba({core.color.grey.100},0.55)"
           },
           "subtle": {
             "type": "color",
@@ -43,12 +43,12 @@
           "on-emphasis-muted": {
             "type": "color",
             "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
-            "value": "{core.color.grey.50}"
+            "value": "{core.color.grey.60}"
           },
           "on-emphasis-subtle": {
             "type": "color",
             "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
-            "value": "{core.color.grey.90}"
+            "value": "{core.color.grey.80}"
           }
         }
       },
@@ -104,7 +104,7 @@
           "on-primary-muted": {
             "type": "color",
             "description": "Accent color",
-            "value": "{core.color.white}"
+            "value": "rgba({core.color.white}, 0.55)"
           }
         }
       }
