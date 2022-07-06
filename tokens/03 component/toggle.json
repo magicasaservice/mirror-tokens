@@ -10,6 +10,14 @@
           "small": {
             "value": "{component.toggle.sizing.height.base} * 1.5",
             "type": "sizing"
+          },
+          "medium": {
+            "value": "{component.toggle.sizing.height.base} * 1.75",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{component.toggle.sizing.height.base} * 2",
+            "type": "sizing"
           }
         },
         "inset": {
@@ -22,6 +30,28 @@
           "small": {
             "value": "{component.toggle.sizing.height.small} * 2 - {component.toggle.sizing.inset.default}",
             "type": "sizing"
+          },
+          "medium": {
+            "value": "{component.toggle.sizing.height.medium} * 2 - {component.toggle.sizing.inset.default}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{component.toggle.sizing.height.large} * 2 - {component.toggle.sizing.inset.default}",
+            "type": "sizing"
+          }
+        }
+      },
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{theme.color.primary.bg.default}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{theme.color.primary.fg.on-primary}",
+            "type": "color"
           }
         }
       }
@@ -31,6 +61,14 @@
         "height": {
           "small": {
             "value": "{component.toggle.sizing.height.small} - {component.toggle.sizing.inset.default}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{component.toggle.sizing.height.medium} - {component.toggle.sizing.inset.default}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{component.toggle.sizing.height.large} - {component.toggle.sizing.inset.default}",
             "type": "sizing"
           }
         }
