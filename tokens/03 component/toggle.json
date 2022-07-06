@@ -72,7 +72,7 @@
     },
     "toggle-nob": {
       "sizing": {
-        "height": {
+        "default": {
           "small": {
             "value": "{component.toggle.sizing.height.small} - {component.toggle.sizing.inset.default}",
             "type": "sizing"
@@ -83,6 +83,20 @@
           },
           "large": {
             "value": "{component.toggle.sizing.height.large} - {component.toggle.sizing.inset.default}",
+            "type": "sizing"
+          }
+        },
+        "pressed": {
+          "small": {
+            "value": "{component.toggle.sizing.height.small} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.small}/4)",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{component.toggle.sizing.height.medium} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.medium}/4)",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{component.toggle.sizing.height.large} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.large}/4)",
             "type": "sizing"
           }
         }
