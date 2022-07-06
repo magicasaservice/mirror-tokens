@@ -7,15 +7,15 @@
             "value": "16px",
             "type": "sizing"
           },
-          "small": {
+          "sm": {
             "value": "{component.toggle.sizing.height.base} * 1.5",
             "type": "sizing"
           },
-          "medium": {
+          "md": {
             "value": "{component.toggle.sizing.height.base} * 1.75",
             "type": "sizing"
           },
-          "large": {
+          "lg": {
             "value": "{component.toggle.sizing.height.base} * 2",
             "type": "sizing"
           }
@@ -27,16 +27,16 @@
           }
         },
         "width": {
-          "small": {
-            "value": "{component.toggle.sizing.height.small} * 2 - {component.toggle.sizing.inset.default}",
+          "sm": {
+            "value": "{component.toggle.sizing.height.sm} * 2 - {component.toggle.sizing.inset.default}",
             "type": "sizing"
           },
-          "medium": {
-            "value": "{component.toggle.sizing.height.medium} * 2 - {component.toggle.sizing.inset.default}",
+          "md": {
+            "value": "{component.toggle.sizing.height.md} * 2 - {component.toggle.sizing.inset.default}",
             "type": "sizing"
           },
-          "large": {
-            "value": "{component.toggle.sizing.height.large} * 2 - {component.toggle.sizing.inset.default}",
+          "lg": {
+            "value": "{component.toggle.sizing.height.lg} * 2 - {component.toggle.sizing.inset.default}",
             "type": "sizing"
           }
         }
@@ -64,7 +64,7 @@
         }
       },
       "box-shadow": {
-        "default": {
+        "nob": {
           "value": "{theme.box-shadow.control.small}",
           "type": "boxShadow"
         }
@@ -73,30 +73,30 @@
     "toggle-nob": {
       "sizing": {
         "default": {
-          "small": {
-            "value": "{component.toggle.sizing.height.small} - {component.toggle.sizing.inset.default}",
+          "sm": {
+            "value": "{component.toggle.sizing.height.sm} - {component.toggle.sizing.inset.default}",
             "type": "sizing"
           },
-          "medium": {
-            "value": "{component.toggle.sizing.height.medium} - {component.toggle.sizing.inset.default}",
+          "md": {
+            "value": "{component.toggle.sizing.height.md} - {component.toggle.sizing.inset.default}",
             "type": "sizing"
           },
-          "large": {
-            "value": "{component.toggle.sizing.height.large} - {component.toggle.sizing.inset.default}",
+          "lg": {
+            "value": "{component.toggle.sizing.height.lg} - {component.toggle.sizing.inset.default}",
             "type": "sizing"
           }
         },
         "pressed": {
-          "small": {
-            "value": "{component.toggle.sizing.height.small} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.small}/4)",
+          "sm": {
+            "value": "{component.toggle.sizing.height.sm} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.sm}/4)",
             "type": "sizing"
           },
-          "medium": {
-            "value": "{component.toggle.sizing.height.medium} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.medium}/4)",
+          "md": {
+            "value": "{component.toggle.sizing.height.md} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.md}/4)",
             "type": "sizing"
           },
-          "large": {
-            "value": "{component.toggle.sizing.height.large} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.large}/4)",
+          "lg": {
+            "value": "{component.toggle.sizing.height.lg} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.lg}/4)",
             "type": "sizing"
           }
         }
