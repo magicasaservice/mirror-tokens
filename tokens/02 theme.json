@@ -87,6 +87,27 @@
             "value": "rgba({core.color.white}, 0.55)"
           }
         }
+      },
+      "disabled": {
+        "bg": {
+          "default": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "rgba({core.color.grey.100},{core.transparency.10})"
+          }
+        },
+        "fg": {
+          "default": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "rgba({core.color.grey.100},{core.transparency.30})"
+          },
+          "on-disabled": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "rgba({core.color.grey.100},{core.transparency.40})"
+          }
+        }
       }
     },
     "sizing": {
@@ -96,7 +117,7 @@
       }
     },
     "box-shadow": {
-      "action": {
+      "control": {
         "small": {
           "value": {
             "x": "0",
