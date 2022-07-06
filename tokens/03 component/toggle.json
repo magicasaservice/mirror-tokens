@@ -43,15 +43,19 @@
       },
       "color": {
         "bg": {
-          "default": {
-            "value": "{theme.color.primary.bg.default}",
-            "type": "color"
+          "active": {
+            "type": "color",
+            "value": "{theme.color.control.primary.bg.default}"
+          },
+          "inactive": {
+            "type": "color",
+            "value": "{theme.color.control.inactive.bg.default}"
           }
         },
         "fg": {
           "default": {
-            "value": "{theme.color.primary.fg.on-primary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.control.primary.fg.on-primary}"
           }
         }
       },

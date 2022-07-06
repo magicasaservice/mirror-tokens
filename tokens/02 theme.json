@@ -32,80 +32,113 @@
           }
         }
       },
-      "primary": {
-        "bg": {
-          "default": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.50}"
+      "control": {
+        "primary": {
+          "bg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.50}"
+            },
+            "hover": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.60}"
+            },
+            "active": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.70}"
+            },
+            "focus": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.70}"
+            }
           },
-          "hover": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.60}"
-          },
-          "active": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.70}"
-          },
-          "focus": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.70}"
+          "fg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.50}"
+            },
+            "hover": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.60}"
+            },
+            "active": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.70}"
+            },
+            "focus": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.blue.70}"
+            },
+            "on-primary": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.white}"
+            },
+            "on-primary-muted": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.white}, 0.55)"
+            }
           }
         },
-        "fg": {
-          "default": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.50}"
+        "disabled": {
+          "bg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.grey.100},{core.transparency.10})"
+            }
           },
-          "hover": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.60}"
-          },
-          "active": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.70}"
-          },
-          "focus": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.blue.70}"
-          },
-          "on-primary": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "{core.color.white}"
-          },
-          "on-primary-muted": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "rgba({core.color.white}, 0.55)"
-          }
-        }
-      },
-      "disabled": {
-        "bg": {
-          "default": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "rgba({core.color.grey.100},{core.transparency.10})"
+          "fg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.grey.100},{core.transparency.40})"
+            },
+            "on-disabled": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.grey.100},{core.transparency.40})"
+            },
+            "on-disabled-muted": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.white}, 0.55)"
+            }
           }
         },
-        "fg": {
-          "default": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "rgba({core.color.grey.100},{core.transparency.30})"
+        "inactive": {
+          "bg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.grey.100},{core.transparency.30})"
+            }
           },
-          "on-disabled": {
-            "type": "color",
-            "description": "Accent color",
-            "value": "rgba({core.color.grey.100},{core.transparency.40})"
+          "fg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.grey.100},{core.transparency.40})"
+            },
+            "on-inactive": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.grey.100},{core.transparency.40})"
+            },
+            "on-inactive-muted": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.white}, 0.55)"
+            }
           }
         }
       }
