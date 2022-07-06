@@ -1,1 +1,40 @@
-{}
+{
+  "component": {
+    "toggle": {
+      "sizing": {
+        "height": {
+          "base": {
+            "value": "16px",
+            "type": "sizing"
+          },
+          "small": {
+            "value": "{component.toggle.sizing.height.base} * 1.5",
+            "type": "sizing"
+          }
+        },
+        "inset": {
+          "default": {
+            "value": "4px",
+            "type": "sizing"
+          }
+        },
+        "width": {
+          "small": {
+            "value": "{component.toggle.sizing.height.small} * 2 - {component.toggle.sizing.inset.default}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "toggle-nob": {
+      "sizing": {
+        "height": {
+          "small": {
+            "value": "{component.toggle.sizing.height.small} - {component.toggle.sizing.inset.default}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}
