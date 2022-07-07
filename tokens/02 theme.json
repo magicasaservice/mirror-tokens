@@ -222,9 +222,46 @@
       "control": {
         "xs": {
           "value": {
-            "fontFamily": "{core.font-family.sans}",
-            "fontWeight": "{core.font-weight.500}",
-            "fontSize": "{theme.font-size.control.xs}"
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.xs}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.sm}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.md}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.lg}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.xl}",
+            "lineHeight": "{theme.line-height.control.default}"
           },
           "type": "typography"
         }
@@ -232,13 +269,13 @@
     },
     "line-height": {
       "control": {
-        "base": {
-          "value": "140%",
+        "default": {
+          "value": "120%",
           "type": "lineHeights"
         }
       },
       "heading": {
-        "base": {
+        "default": {
           "value": "100%",
           "type": "lineHeights"
         }
@@ -255,9 +292,27 @@
           "type": "lineHeights"
         },
         "long": {
-          "value": "140%",
+          "value": "150%",
           "type": "lineHeights"
         }
+      }
+    },
+    "font-weight": {
+      "control": {
+        "default": {
+          "value": "{core.font-weight.500}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "font-family": {
+      "sans": {
+        "value": "{core.font-family.sans}",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "{core.font-family.mono}",
+        "type": "fontFamilies"
       }
     }
   }
