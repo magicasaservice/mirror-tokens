@@ -34,31 +34,31 @@
       },
       "control": {
         "primary": {
+          "base": {
+            "type": "color",
+            "description": "Accent color",
+            "value": "{core.hue.blue}, {core.saturation.100}"
+          },
           "bg": {
-            "base": {
-              "type": "color",
-              "description": "Accent color",
-              "value": "{core.hue.blue}, {core.saturation.100}"
-            },
             "default": {
               "type": "color",
               "description": "Accent color",
-              "value": "hsla({theme.color.control.primary.bg.base}, {core.lightness.50})"
+              "value": "hsla({theme.color.control.primary.base}, {core.lightness.50})"
             },
             "hover": {
               "type": "color",
               "description": "Accent color",
-              "value": "hsla({theme.color.control.primary.bg.base}, {core.lightness.60})"
+              "value": "hsla({theme.color.control.primary.base}, {core.lightness.60})"
             },
             "active": {
               "type": "color",
               "description": "Accent color",
-              "value": "hsla({theme.color.control.primary.bg.base}, {core.lightness.70})"
+              "value": "hsla({theme.color.control.primary.base}, {core.lightness.70})"
             },
             "focus": {
               "type": "color",
               "description": "Accent color",
-              "value": "hsla({theme.color.control.primary.bg.base}, {core.lightness.70})"
+              "value": "hsla({theme.color.control.primary.base}, {core.lightness.70})"
             }
           },
           "fg": {
