@@ -159,7 +159,18 @@
     "box-shadow": {
       "drop-shadow": {
         "control": {
-          "small": {
+          "xs": {
+            "value": {
+              "x": "0",
+              "y": "2",
+              "blur": "{core.sizing.1}",
+              "spread": "0",
+              "color": "rgba({core.color.black}, {core.transparency.30})",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          },
+          "sm": {
             "value": {
               "x": "0",
               "y": "2px",
@@ -170,6 +181,18 @@
             },
             "type": "boxShadow"
           }
+        }
+      }
+    },
+    "font-size": {
+      "base": {
+        "value": "{core.font-size.base}",
+        "type": "fontSizes"
+      },
+      "control": {
+        "xs": {
+          "value": "{theme.font-size.base} * 0.75",
+          "type": "fontSizes"
         }
       }
     }
