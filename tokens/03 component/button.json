@@ -1,0 +1,136 @@
+{
+  "component": {
+    "button": {
+      "sizing": {
+        "base": {
+          "value": "{theme.sizing.base}",
+          "type": "sizing"
+        },
+        "height": {
+          "xs": {
+            "type": "sizing",
+            "value": "{component.button.sizing.base} * 1.5"
+          },
+          "sm": {
+            "type": "sizing",
+            "value": "{component.button.sizing.base} * 2"
+          },
+          "md": {
+            "type": "sizing",
+            "value": "{component.button.sizing.base} * 2.5"
+          },
+          "lg": {
+            "type": "sizing",
+            "value": "{component.button.sizing.base} * 3"
+          },
+          "xl": {
+            "type": "sizing",
+            "value": "{component.button.sizing.base} * 3"
+          }
+        }
+      },
+      "color": {
+        "primary": {
+          "default": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.default}"
+            },
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.fg.on-primary}"
+            }
+          },
+          "hover": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.hover}"
+            }
+          },
+          "active": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.active}"
+            }
+          },
+          "focus": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.active}"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.disabled.bg.default}"
+            },
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.control.disabled.fg.default}"
+            }
+          }
+        }
+      },
+      "border-radius": {
+        "full": {
+          "value": "{core.border-radius.full}",
+          "type": "borderRadius"
+        },
+        "xs": {
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.xs} / 4"
+        },
+        "sm": {
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.sm} / 4"
+        },
+        "md": {
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.md} / 4"
+        },
+        "lg": {
+          "type": "borderRadius",
+          "value": "{component.button.sizing.height.lg} / 4"
+        }
+      },
+      "spacing": {
+        "padding": {
+          "xs": {
+            "value": "{component.button.sizing.base} * 0.5",
+            "type": "spacing"
+          },
+          "sm": {
+            "value": "{component.button.sizing.base} * 0.75",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "{component.button.sizing.base}",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{component.button.sizing.base} * 1.25",
+            "type": "spacing"
+          }
+        },
+        "gap": {
+          "xs": {
+            "value": "{component.button.spacing.padding.xs} / 2",
+            "type": "spacing"
+          },
+          "sm": {
+            "value": "{component.button.spacing.padding.sm} / 2",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "{component.button.spacing.padding.md} / 2",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{component.button.spacing.padding.lg} / 2",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "theme": {
+    "color": {
+      "surface": {
+        "bg": {
+          "default": {
+            "type": "color",
+            "description": "Primary background color.",
+            "value": "{core.color.white}"
+          },
+          "subtle": {
+            "type": "color",
+            "description": "Provides visual rest and contrast against the default background.",
+            "value": "{core.color.grey.10}"
+          }
+        },
+        "fg": {
+          "default": {
+            "type": "color",
+            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
+            "value": "{core.color.black}"
+          },
+          "muted": {
+            "type": "color",
+            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
+            "value": "rgba({core.color.grey.100},0.55)"
+          },
+          "subtle": {
+            "type": "color",
+            "description": "Use for placeholder text, icons or decorative foregrounds.",
+            "value": "{core.color.grey.20}"
+          }
+        }
+      },
+      "control": {
+        "primary": {
+          "base": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.hue.blue}, {core.saturation.100}"
+            }
+          },
+          "bg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
+            },
+            "hover": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.60})"
+            },
+            "active": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.70})"
+            }
+          },
+          "fg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
+            },
+            "hover": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.60})"
+            },
+            "active": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.70})"
+            },
+            "on-primary": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.white}"
+            },
+            "on-primary-muted": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.white}, {core.transparency.60})"
+            }
+          }
+        },
+        "disabled": {
+          "bg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.black}, {core.transparency.10})"
+            }
+          },
+          "fg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.black}, {core.transparency.20})"
+            },
+            "on-disabled": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.black}, {core.transparency.40})"
+            },
+            "on-disabled-muted": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.white}, {core.transparency.60})"
+            }
+          }
+        },
+        "inactive": {
+          "bg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.black},{core.transparency.40})"
+            }
+          },
+          "fg": {
+            "default": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.black},{core.transparency.40})"
+            },
+            "on-inactive": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "{core.color.white}"
+            },
+            "on-inactive-muted": {
+              "type": "color",
+              "description": "Accent color",
+              "value": "rgba({core.color.white}, {core.transparency.60})"
+            }
+          }
+        }
+      }
+    },
+    "sizing": {
+      "base": {
+        "value": "{core.sizing.base}",
+        "type": "sizing"
+      }
+    },
+    "box-shadow": {
+      "drop-shadow": {
+        "control": {
+          "xs": {
+            "value": {
+              "x": "0",
+              "y": "2",
+              "blur": "{core.sizing.1}",
+              "spread": "0",
+              "color": "rgba({core.color.black}, {core.transparency.30})",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          },
+          "sm": {
+            "value": {
+              "x": "0",
+              "y": "2px",
+              "blur": "{core.sizing.1}",
+              "spread": "0",
+              "color": "rgba({core.color.black}, {core.transparency.30})",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
+          }
+        }
+      }
+    },
+    "font-size": {
+      "base": {
+        "value": "{core.font-size.base}",
+        "type": "fontSizes"
+      },
+      "control": {
+        "xs": {
+          "value": "{core.font-size.base} * 0.75 + 1px",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{theme.font-size.control.xs} + 1px",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{theme.font-size.control.sm} + 1px",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{theme.font-size.control.md} + 1px",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{theme.font-size.control.lg} + 1px",
+          "type": "fontSizes"
+        }
+      },
+      "heading": {
+        "5": {
+          "value": "{core.font-size.base}",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "typography": {
+      "control": {
+        "xs": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.xs}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.sm}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.md}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.lg}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.xl}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "line-height": {
+      "control": {
+        "default": {
+          "value": "120%",
+          "type": "lineHeights"
+        }
+      },
+      "heading": {
+        "default": {
+          "value": "100%",
+          "type": "lineHeights"
+        }
+      },
+      "title": {
+        "default": {
+          "value": "90%",
+          "type": "lineHeights"
+        }
+      },
+      "body": {
+        "short": {
+          "value": "140%",
+          "type": "lineHeights"
+        },
+        "long": {
+          "value": "150%",
+          "type": "lineHeights"
+        }
+      }
+    },
+    "font-weight": {
+      "control": {
+        "default": {
+          "value": "{core.font-weight.500}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "font-family": {
+      "sans": {
+        "value": "{core.font-family.sans}",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "{core.font-family.mono}",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}
