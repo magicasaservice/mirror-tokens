@@ -5,29 +5,24 @@
         "bg": {
           "default": {
             "type": "color",
-            "description": "Primary background color.",
             "value": "{core.color.white}"
           },
           "subtle": {
             "type": "color",
-            "description": "Provides visual rest and contrast against the default background.",
             "value": "{core.color.grey.10}"
           }
         },
         "fg": {
           "default": {
             "type": "color",
-            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
             "value": "{core.color.black}"
           },
           "muted": {
             "type": "color",
-            "description": "Primary color for text and icons in any given interface. It should be used for body content, titles and labels.",
             "value": "rgba({core.color.grey.100},0.55)"
           },
           "subtle": {
             "type": "color",
-            "description": "Use for placeholder text, icons or decorative foregrounds.",
             "value": "{core.color.grey.20}"
           }
         }
@@ -37,51 +32,42 @@
           "base": {
             "default": {
               "type": "color",
-              "description": "Accent color",
               "value": "{core.hue.blue}, {core.saturation.100}"
             }
           },
           "bg": {
             "default": {
               "type": "color",
-              "description": "Accent color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
             },
             "hover": {
               "type": "color",
-              "description": "Accent color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.60})"
             },
             "active": {
               "type": "color",
-              "description": "Accent color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.70})"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "description": "Accent color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
             },
             "hover": {
               "type": "color",
-              "description": "Accent color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.60})"
             },
             "active": {
               "type": "color",
-              "description": "Accent color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.70})"
             },
             "on-primary": {
               "type": "color",
-              "description": "Accent color",
               "value": "{core.color.white}"
             },
             "on-primary-muted": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
           }
@@ -90,24 +76,20 @@
           "bg": {
             "default": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.black}, {core.transparency.10})"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.black}, {core.transparency.20})"
             },
             "on-disabled": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.black}, {core.transparency.40})"
             },
             "on-disabled-muted": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
           }
@@ -116,24 +98,20 @@
           "bg": {
             "default": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.black},{core.transparency.40})"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.black},{core.transparency.40})"
             },
             "on-inactive": {
               "type": "color",
-              "description": "Accent color",
               "value": "{core.color.white}"
             },
             "on-inactive-muted": {
               "type": "color",
-              "description": "Accent color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
           }
