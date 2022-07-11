@@ -1,6 +1,6 @@
 {
   "component": {
-    "input": {
+    "button": {
       "sizing": {
         "base": {
           "value": "{theme.sizing.base}",
@@ -9,23 +9,23 @@
         "height": {
           "xs": {
             "type": "sizing",
-            "value": "{component.input.sizing.base} * 1.5"
+            "value": "{component.button.sizing.base} * 1.5"
           },
           "sm": {
             "type": "sizing",
-            "value": "{component.input.sizing.base} * 2"
+            "value": "{component.button.sizing.base} * 2"
           },
           "md": {
             "type": "sizing",
-            "value": "{component.input.sizing.base} * 2.5"
+            "value": "{component.button.sizing.base} * 2.5"
           },
           "lg": {
             "type": "sizing",
-            "value": "{component.input.sizing.base} * 3"
+            "value": "{component.button.sizing.base} * 3"
           },
           "xl": {
             "type": "sizing",
-            "value": "{component.input.sizing.base} * 3"
+            "value": "{component.button.sizing.base} * 3"
           }
         }
       },
@@ -78,56 +78,56 @@
         },
         "xs": {
           "type": "borderRadius",
-          "value": "{component.input.sizing.height.xs} / 4"
+          "value": "{component.button.sizing.height.xs} / 4"
         },
         "sm": {
           "type": "borderRadius",
-          "value": "{component.input.sizing.height.sm} / 4"
+          "value": "{component.button.sizing.height.sm} / 4"
         },
         "md": {
           "type": "borderRadius",
-          "value": "{component.input.sizing.height.md} / 4"
+          "value": "{component.button.sizing.height.md} / 4"
         },
         "lg": {
           "type": "borderRadius",
-          "value": "{component.input.sizing.height.lg} / 4"
+          "value": "{component.button.sizing.height.lg} / 4"
         }
       },
       "spacing": {
         "padding": {
           "xs": {
             "type": "spacing",
-            "value": "{component.input.sizing.base} * 0.5"
+            "value": "{component.button.sizing.base} * 0.5"
           },
           "sm": {
             "type": "spacing",
-            "value": "{component.input.sizing.base} * 0.75"
+            "value": "{component.button.sizing.base} * 0.75"
           },
           "md": {
             "type": "spacing",
-            "value": "{component.input.sizing.base}"
+            "value": "{component.button.sizing.base}"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.input.sizing.base} * 1.25"
+            "value": "{component.button.sizing.base} * 1.25"
           }
         },
         "gap": {
           "xs": {
             "type": "spacing",
-            "value": "{component.input.spacing.padding.xs} / 2"
+            "value": "{component.button.spacing.padding.xs} / 2"
           },
           "sm": {
             "type": "spacing",
-            "value": "{component.input.spacing.padding.sm} / 2"
+            "value": "{component.button.spacing.padding.sm} / 2"
           },
           "md": {
             "type": "spacing",
-            "value": "{component.input.spacing.padding.md} / 2"
+            "value": "{component.button.spacing.padding.md} / 2"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.input.spacing.padding.lg} / 2"
+            "value": "{component.button.spacing.padding.lg} / 2"
           }
         }
       }
