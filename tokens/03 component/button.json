@@ -61,14 +61,6 @@
             "bg-light": {
               "type": "color",
               "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50}, {core.transparency.30})"
-            },
-            "fg-on-bg": {
-              "type": "color",
-              "value": "{theme.color.control.accent.fg.on-bg}"
-            },
-            "fg-on-bg-light": {
-              "type": "color",
-              "value": "{theme.color.control.accent.fg.on-bg-light}"
             }
           },
           "active": {
@@ -79,20 +71,16 @@
             "bg-light": {
               "type": "color",
               "value": "{component.button.color.accent.hover.bg-light}"
-            },
-            "fg-on-bg": {
-              "type": "color",
-              "value": "{theme.color.control.accent.fg.on-bg}"
-            },
-            "fg-on-bg-light": {
-              "type": "color",
-              "value": "{component.button.color.accent.default.fg-on-bg-light}"
             }
           },
           "focus": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.accent.bg.active}"
+              "value": "{theme.color.control.accent.bg.default}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50}, {core.transparency.20})"
             }
           },
           "disabled": {
