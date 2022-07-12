@@ -54,7 +54,7 @@
               "type": "color",
               "value": "{theme.color.control.primary.bg.hover}"
             },
-            "bg-copy": {
+            "bg-light": {
               "type": "color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.40})"
             },
@@ -66,11 +66,11 @@
           "pressed": {
             "bg": {
               "type": "color",
-              "value": "{component.button.color.primary.hover.bg}"
-            },
-            "fg": {
-              "type": "color",
               "value": "{theme.color.control.primary.bg.pressed}"
+            },
+            "fg-on-light": {
+              "type": "color",
+              "value": "{theme.color.control.primary.fg.default}"
             }
           },
           "focus": {
