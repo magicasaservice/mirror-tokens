@@ -217,6 +217,16 @@
                 "type": "color",
                 "value": "{theme.color.control.secondary.bg.light.hover}"
               }
+            },
+            "ghost": {
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.10})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.secondary.bg.ghost.hover}"
+              }
             }
           },
           "fg": {
