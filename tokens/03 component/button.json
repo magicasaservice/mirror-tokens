@@ -40,156 +40,6 @@
             "value": "{theme.color.control.disabled.fg.on-bg}"
           }
         },
-        "primary": {
-          "default": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.primary.bg.normal.default}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.primary.default}, {core.lightness.50}, {core.transparency.20})"
-            },
-            "fg": {
-              "type": "color",
-              "value": "{theme.color.control.primary.fg.default}"
-            },
-            "fg-on-bg": {
-              "type": "color",
-              "value": "{theme.color.control.primary.fg.on-normal}"
-            }
-          },
-          "hover": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.primary.bg.normal.hover}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.primary.default}, {core.lightness.50}, {core.transparency.30})"
-            }
-          },
-          "active": {
-            "bg": {
-              "type": "color",
-              "value": "{component.button.color.primary.hover.bg}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "{component.button.color.primary.hover.bg-light}"
-            }
-          },
-          "focus": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.primary.bg.normal.default}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.primary.default}, {core.lightness.50}, {core.transparency.20})"
-            }
-          }
-        },
-        "danger": {
-          "default": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.danger.bg.normal.default}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.danger.default}, {core.lightness.50}, {core.transparency.20})"
-            },
-            "fg": {
-              "type": "color",
-              "value": "{theme.color.control.danger.fg.default}"
-            },
-            "fg-on-bg": {
-              "type": "color",
-              "value": "{theme.color.control.danger.fg.on-normal}"
-            }
-          },
-          "hover": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.danger.bg.normal.hover}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.danger.default}, {core.lightness.50}, {core.transparency.30})"
-            }
-          },
-          "active": {
-            "bg": {
-              "type": "color",
-              "value": "{component.button.color.danger.hover.bg}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "{component.button.color.danger.hover.bg-light}"
-            }
-          },
-          "focus": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.danger.bg.normal.default}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.danger.default}, {core.lightness.50}, {core.transparency.20})"
-            }
-          }
-        },
-        "secondary": {
-          "default": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.secondary.bg.normal.default}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.20})"
-            },
-            "fg": {
-              "type": "color",
-              "value": "{theme.color.control.secondary.fg.default}"
-            },
-            "fg-on-bg": {
-              "type": "color",
-              "value": "{theme.color.control.secondary.fg.on-normal}"
-            }
-          },
-          "hover": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.secondary.bg.normal.hover}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.30})"
-            }
-          },
-          "active": {
-            "bg": {
-              "type": "color",
-              "value": "{component.button.color.secondary.hover.bg}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "{component.button.color.secondary.hover.bg-light}"
-            }
-          },
-          "focus": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.secondary.bg.normal.default}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.20})"
-            }
-          }
-        },
         "accent": {
           "normal": {
             "default": {
@@ -198,6 +48,10 @@
                 "type": "color"
               },
               "fg": {
+                "value": "{theme.color.control.accent.fg.default}",
+                "type": "color"
+              },
+              "fg-on-normal": {
                 "value": "{theme.color.control.accent.fg.on-normal}",
                 "type": "color"
               }
@@ -220,10 +74,6 @@
               "bg": {
                 "value": "{theme.color.control.accent.bg.light.default}",
                 "type": "color"
-              },
-              "fg": {
-                "value": "{theme.color.control.accent.fg.default}",
-                "type": "color"
               }
             },
             "hover": {
@@ -240,12 +90,70 @@
             }
           },
           "ghost": {
-            "default": {
-              "fg": {
-                "value": "{theme.color.control.accent.fg.default}",
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.light.hover}",
                 "type": "color"
               }
             },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.light.active}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "primary": {
+          "normal": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.normal.default}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{theme.color.control.primary.fg.default}",
+                "type": "color"
+              },
+              "fg-on-normal": {
+                "value": "{theme.color.control.primary.fg.on-normal}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.normal.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.normal.active}",
+                "type": "color"
+              }
+            }
+          },
+          "light": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.light.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.light.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.light.active}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
             "hover": {
               "bg": {
                 "value": "{theme.color.control.accent.bg.light.hover}",
