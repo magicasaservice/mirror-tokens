@@ -93,6 +93,60 @@
             "type": "color",
             "value": "{theme.color.control.disabled.fg.default}"
           }
+        },
+        "primary": {
+          "default": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.default}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.20})"
+            },
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.fg.default}"
+            },
+            "fg-on-bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.fg.on-bg}"
+            },
+            "fg-on-bg-light": {
+              "type": "color",
+              "value": "{theme.color.control.primary.fg.on-bg-light}"
+            }
+          },
+          "hover": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.hover}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.30})"
+            }
+          },
+          "active": {
+            "bg": {
+              "type": "color",
+              "value": "{component.button.color.primary.hover.bg}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "{component.button.color.primary.hover.bg-light}"
+            }
+          },
+          "focus": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.default}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.20})"
+            }
+          }
         }
       },
       "border-radius": {
