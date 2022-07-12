@@ -34,7 +34,7 @@
           "default": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.accent.bg.solid.default}"
+              "value": "{theme.color.control.accent.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
@@ -52,7 +52,7 @@
           "hover": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.accent.bg.solid.hover}"
+              "value": "{theme.color.control.accent.bg.normal.hover}"
             },
             "bg-light": {
               "type": "color",
@@ -72,11 +72,35 @@
           "focus": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.accent.bg.solid.default}"
+              "value": "{theme.color.control.accent.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
               "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.20})"
+            }
+          },
+          "normal": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.normal.default}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{core.color.white}",
+                "type": "color"
+              }
+            }
+          },
+          "light": {
+            "default": {
+              "bg": {
+                "value": "{core.color.blue.50}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{core.color.white}",
+                "type": "color"
+              }
             }
           }
         },
@@ -94,7 +118,7 @@
           "default": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.solid.default}"
+              "value": "{theme.color.control.primary.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
@@ -112,7 +136,7 @@
           "hover": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.solid.hover}"
+              "value": "{theme.color.control.primary.bg.normal.hover}"
             },
             "bg-light": {
               "type": "color",
@@ -132,7 +156,7 @@
           "focus": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.solid.default}"
+              "value": "{theme.color.control.primary.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
@@ -144,7 +168,7 @@
           "default": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.danger.bg.solid.default}"
+              "value": "{theme.color.control.danger.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
@@ -162,7 +186,7 @@
           "hover": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.danger.bg.solid.hover}"
+              "value": "{theme.color.control.danger.bg.normal.hover}"
             },
             "bg-light": {
               "type": "color",
@@ -182,7 +206,7 @@
           "focus": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.danger.bg.solid.default}"
+              "value": "{theme.color.control.danger.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
@@ -194,7 +218,7 @@
           "default": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.secondary.bg.solid.default}"
+              "value": "{theme.color.control.secondary.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
@@ -212,7 +236,7 @@
           "hover": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.secondary.bg.solid.hover}"
+              "value": "{theme.color.control.secondary.bg.normal.hover}"
             },
             "bg-light": {
               "type": "color",
@@ -232,7 +256,7 @@
           "focus": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.secondary.bg.solid.default}"
+              "value": "{theme.color.control.secondary.bg.normal.default}"
             },
             "bg-light": {
               "type": "color",
