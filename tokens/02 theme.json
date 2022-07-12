@@ -7,6 +7,24 @@
             "type": "color",
             "value": "{core.hue.blue}, {core.saturation.100}"
           }
+        },
+        "primary": {
+          "default": {
+            "type": "color",
+            "value": "{core.hue.grey}, {core.saturation.10}"
+          }
+        },
+        "secondary": {
+          "default": {
+            "type": "color",
+            "value": "{core.hue.grey}, {core.saturation.10}"
+          }
+        },
+        "danger": {
+          "default": {
+            "type": "color",
+            "value": "{core.hue.red}, {core.saturation.100}"
+          }
         }
       },
       "surface": {
@@ -83,30 +101,40 @@
           }
         },
         "primary": {
-          "base": {
-            "default": {
-              "type": "color",
-              "value": "{core.hue.grey}, {core.saturation.10}"
-            }
-          },
           "bg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
+            "solid": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.primary.default}, {core.lightness.90})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.primary.default}, {core.lightness.100})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.primary.bg.solid.hover}"
+              }
             },
-            "hover": {
-              "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.100})"
-            },
-            "active": {
-              "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.100})"
+            "light": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.primary.default}, {core.lightness.50}, {core.transparency.20})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.primary.default}, {core.lightness.50}, {core.transparency.30})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.primary.bg.light.hover}"
+              }
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
+              "value": "hsla({theme.color.base.primary.default}, {core.lightness.90})"
             },
             "on-bg": {
               "type": "color",
@@ -119,34 +147,44 @@
           }
         },
         "secondary": {
-          "base": {
-            "default": {
-              "type": "color",
-              "value": "{core.hue.grey}, {core.saturation.10}"
-            }
-          },
           "bg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.10})"
+            "solid": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.10})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.20})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.secondary.bg.solid.hover}"
+              }
             },
-            "hover": {
-              "type": "color",
-              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.20})"
-            },
-            "active": {
-              "type": "color",
-              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.20})"
+            "light": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.10})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.20})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.secondary.bg.solid.hover}"
+              }
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.60})"
+              "value": "hsla({theme.color.base.secondary.default}, {core.lightness.60})"
             },
             "on-bg": {
               "type": "color",
-              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.60})"
+              "value": "hsla({theme.color.base.secondary.default}, {core.lightness.60})"
             },
             "on-bg-muted": {
               "type": "color",
@@ -155,30 +193,26 @@
           }
         },
         "danger": {
-          "base": {
-            "default": {
-              "type": "color",
-              "value": "{core.hue.red}, {core.saturation.100}"
-            }
-          },
           "bg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.50})"
-            },
-            "hover": {
-              "type": "color",
-              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.60})"
-            },
-            "active": {
-              "type": "color",
-              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.60})"
+            "solid": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.danger.default}, {core.lightness.50})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.danger.default}, {core.lightness.60})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.danger.bg.solid.hover}"
+              }
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.60})"
+              "value": "hsla({theme.color.base.danger.default}, {core.lightness.60})"
             },
             "on-bg": {
               "type": "color",
