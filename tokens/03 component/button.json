@@ -38,7 +38,7 @@
             },
             "bg-light": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.30})"
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.20})"
             },
             "fg": {
               "type": "color",
@@ -49,6 +49,20 @@
               "value": "{theme.color.control.primary.fg.on-primary}"
             }
           },
+          "active": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.primary.bg.pressed}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.30})"
+            },
+            "fg-on-light": {
+              "type": "color",
+              "value": "{theme.color.control.primary.fg.default}"
+            }
+          },
           "hover": {
             "bg": {
               "type": "color",
@@ -56,21 +70,11 @@
             },
             "bg-light": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.40})"
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.30})"
             },
             "fg": {
               "type": "color",
               "value": "{theme.color.control.primary.bg.hover}"
-            }
-          },
-          "pressed": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.primary.bg.pressed}"
-            },
-            "fg-on-light": {
-              "type": "color",
-              "value": "{theme.color.control.primary.fg.default}"
             }
           },
           "focus": {
