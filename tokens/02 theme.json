@@ -105,6 +105,16 @@
                 "type": "color",
                 "value": "{theme.color.control.accent.bg.light.hover}"
               }
+            },
+            "ghost": {
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.10})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.accent.bg.ghost.hover}"
+              }
             }
           },
           "fg": {
@@ -112,11 +122,11 @@
               "type": "color",
               "value": "hsla({theme.color.base.accent.default}, {core.lightness.60})"
             },
-            "on-bg": {
+            "on-normal": {
               "type": "color",
               "value": "{core.color.white}"
             },
-            "on-bg-muted": {
+            "on-normal-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
@@ -158,11 +168,11 @@
               "type": "color",
               "value": "hsla({theme.color.base.primary.default}, {core.lightness.90})"
             },
-            "on-bg": {
+            "on-normal": {
               "type": "color",
               "value": "{core.color.white}"
             },
-            "on-bg-muted": {
+            "on-normal-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
@@ -204,11 +214,11 @@
               "type": "color",
               "value": "hsla({theme.color.base.secondary.default}, {core.lightness.60})"
             },
-            "on-bg": {
+            "on-normal": {
               "type": "color",
               "value": "hsla({theme.color.base.secondary.default}, {core.lightness.60})"
             },
-            "on-bg-muted": {
+            "on-normal-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
@@ -250,11 +260,11 @@
               "type": "color",
               "value": "hsla({theme.color.base.danger.default}, {core.lightness.60})"
             },
-            "on-bg": {
+            "on-normal": {
               "type": "color",
               "value": "{core.color.white}"
             },
-            "on-bg-muted": {
+            "on-normal-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
