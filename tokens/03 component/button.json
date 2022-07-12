@@ -139,6 +139,56 @@
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.20})"
             }
           }
+        },
+        "danger": {
+          "default": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.danger.bg.default}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.50}, {core.transparency.20})"
+            },
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.control.danger.fg.default}"
+            },
+            "fg-on-bg": {
+              "type": "color",
+              "value": "{theme.color.control.danger.fg.on-bg}"
+            }
+          },
+          "hover": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.danger.bg.hover}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.50}, {core.transparency.30})"
+            }
+          },
+          "active": {
+            "bg": {
+              "type": "color",
+              "value": "{component.button.color.danger.hover.bg}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "{component.button.color.danger.hover.bg-light}"
+            }
+          },
+          "focus": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.danger.bg.default}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.50}, {core.transparency.20})"
+            }
+          }
         }
       },
       "border-radius": {
