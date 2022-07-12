@@ -183,43 +183,85 @@
       },
       "grey": {
         "10": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.10})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.10})",
           "type": "color"
         },
         "20": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.20})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.20})",
           "type": "color"
         },
         "30": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.30})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.30})",
           "type": "color"
         },
         "40": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.40})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.40})",
           "type": "color"
         },
         "50": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.50})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.50})",
           "type": "color"
         },
         "60": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.60})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.60})",
           "type": "color"
         },
         "70": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.70})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.70})",
           "type": "color"
         },
         "80": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.80})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.80})",
           "type": "color"
         },
         "90": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.90})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.90})",
           "type": "color"
         },
         "100": {
-          "value": "hsl({core.hue.grey}, {core.saturation.0}, {core.lightness.100})",
+          "value": "hsl({core.hue.grey}, {core.saturation.10}, {core.lightness.100})",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "10": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.10})",
+          "type": "color"
+        },
+        "20": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.20})",
+          "type": "color"
+        },
+        "30": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.30})",
+          "type": "color"
+        },
+        "40": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.40})",
+          "type": "color"
+        },
+        "50": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.50})",
+          "type": "color"
+        },
+        "60": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.60})",
+          "type": "color"
+        },
+        "70": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.70})",
+          "type": "color"
+        },
+        "80": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.80})",
+          "type": "color"
+        },
+        "90": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.90})",
+          "type": "color"
+        },
+        "100": {
+          "value": "hsl({core.hue.neutral}, {core.saturation.0}, {core.lightness.100})",
           "type": "color"
         }
       }
@@ -245,8 +287,13 @@
         "type": "color",
         "description": "Green hue token for palette"
       },
-      "grey": {
+      "neutral": {
         "value": "0",
+        "type": "color",
+        "description": "Neutral hue token for palette"
+      },
+      "grey": {
+        "value": "220",
         "type": "color",
         "description": "Grey hue token for palette"
       }
