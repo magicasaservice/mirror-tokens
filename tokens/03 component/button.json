@@ -40,31 +40,17 @@
               "type": "color",
               "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50}, {core.transparency.20})"
             },
-            "fg-on-accent": {
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.control.accent.fg.default}"
+            },
+            "fg-on-bg": {
               "type": "color",
               "value": "{theme.color.control.accent.fg.on-accent}"
             },
-            "fg-on-accent-light": {
+            "fg-on-bg-light": {
               "type": "color",
               "value": "{theme.color.control.accent.fg.on-accent-light}"
-            },
-            "fg": {
-              "type": "color",
-              "value": "{theme.color.control.accent.bg.default}"
-            }
-          },
-          "active": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.accent.bg.default}"
-            },
-            "bg-light": {
-              "type": "color",
-              "value": "{component.button.color.accent.hover.bg-light}"
-            },
-            "fg-on-light": {
-              "type": "color",
-              "value": "{theme.color.control.accent.fg.default}"
             }
           },
           "hover": {
@@ -76,9 +62,31 @@
               "type": "color",
               "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50}, {core.transparency.30})"
             },
-            "fg": {
+            "fg-on-bg": {
               "type": "color",
-              "value": "{theme.color.control.accent.bg.hover}"
+              "value": "{theme.color.control.accent.fg.on-accent}"
+            },
+            "fg-on-bg-light": {
+              "type": "color",
+              "value": "{theme.color.control.accent.fg.on-accent-light}"
+            }
+          },
+          "active": {
+            "bg": {
+              "type": "color",
+              "value": "{component.button.color.accent.hover.bg}"
+            },
+            "bg-light": {
+              "type": "color",
+              "value": "{component.button.color.accent.hover.bg-light}"
+            },
+            "fg-on-bg": {
+              "type": "color",
+              "value": "{theme.color.control.accent.fg.on-accent}"
+            },
+            "fg-on-light-bg": {
+              "type": "color",
+              "value": "{component.button.color.accent.default.fg-on-bg-light}"
             }
           },
           "focus": {
