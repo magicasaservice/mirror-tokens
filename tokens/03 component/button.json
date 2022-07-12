@@ -22,10 +22,6 @@
           "lg": {
             "type": "sizing",
             "value": "{component.button.sizing.base} * 3"
-          },
-          "xl": {
-            "type": "sizing",
-            "value": "{component.button.sizing.base} * 3"
           }
         }
       },
@@ -298,10 +294,6 @@
         }
       },
       "border-radius": {
-        "full": {
-          "value": "{core.border-radius.full}",
-          "type": "borderRadius"
-        },
         "xs": {
           "type": "borderRadius",
           "value": "{component.button.sizing.height.xs} / 4"
@@ -317,6 +309,10 @@
         "lg": {
           "type": "borderRadius",
           "value": "{component.button.sizing.height.lg} / 4"
+        },
+        "full": {
+          "value": "{core.border-radius.full}",
+          "type": "borderRadius"
         }
       },
       "spacing": {
