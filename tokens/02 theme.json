@@ -77,22 +77,28 @@
           }
         },
         "disabled": {
+          "base": {
+            "default": {
+              "type": "color",
+              "value": "{core.hue.black}, {core.saturation.0}"
+            }
+          },
           "bg": {
             "default": {
               "type": "color",
-              "value": "rgba({core.color.black}, {core.transparency.10})"
+              "value": "hsla({theme.color.control.disabled.base.default}, {core.lightness.100}, {core.transparency.10}) "
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "rgba({core.color.black}, {core.transparency.20})"
+              "value": "hsla({theme.color.control.disabled.base.default}, {core.lightness.100}, {core.transparency.20}) "
             },
-            "on-disabled": {
+            "on-bg": {
               "type": "color",
-              "value": "rgba({core.color.black}, {core.transparency.40})"
+              "value": "hsla({theme.color.control.disabled.base.default}, {core.lightness.100}, {core.transparency.40}) "
             },
-            "on-disabled-muted": {
+            "on-bg-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
@@ -102,19 +108,25 @@
           "bg": {
             "default": {
               "type": "color",
-              "value": "rgba({core.color.black},{core.transparency.40})"
+              "value": "hsla({theme.color.control.inactive.base.default}, {core.lightness.100}, {core.transparency.40})"
+            }
+          },
+          "base": {
+            "default": {
+              "type": "color",
+              "value": "{core.hue.black}, {core.saturation.0}"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "rgba({core.color.black},{core.transparency.40})"
+              "value": "hsla({theme.color.control.inactive.base.default}, {core.lightness.100}, {core.transparency.40})"
             },
-            "on-inactive": {
+            "on-bg": {
               "type": "color",
               "value": "{core.color.white}"
             },
-            "on-inactive-muted": {
+            "on-bg-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
