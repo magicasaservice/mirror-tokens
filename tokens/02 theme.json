@@ -25,6 +25,18 @@
             "type": "color",
             "value": "{core.hue.red}, {core.saturation.100}"
           }
+        },
+        "disabled": {
+          "default": {
+            "type": "color",
+            "value": "{core.hue.black}, {core.saturation.0}"
+          }
+        },
+        "inactive": {
+          "default": {
+            "type": "color",
+            "value": "{core.hue.black}, {core.saturation.0}"
+          }
         }
       },
       "surface": {
@@ -50,6 +62,16 @@
           "subtle": {
             "type": "color",
             "value": "{core.color.grey.20}"
+          }
+        },
+        "dimmer": {
+          "default": {
+            "type": "color",
+            "value": "hsla({core.hue.black}, {core.saturation.0}, {core.lightness.100}, {core.transparency.20})"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "hsla({core.hue.black}, {core.saturation.0}, {core.lightness.100}, {core.transparency.10})"
           }
         }
       },
@@ -207,6 +229,20 @@
                 "type": "color",
                 "value": "{theme.color.control.danger.bg.solid.hover}"
               }
+            },
+            "light": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.danger.default}, {core.lightness.50}, {core.transparency.10})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.danger.default}, {core.lightness.50}, {core.transparency.20})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.danger.bg.light.hover}"
+              }
             }
           },
           "fg": {
@@ -225,26 +261,20 @@
           }
         },
         "disabled": {
-          "base": {
-            "default": {
-              "type": "color",
-              "value": "{core.hue.black}, {core.saturation.0}"
-            }
-          },
           "bg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.disabled.base.default}, {core.lightness.100}, {core.transparency.10}) "
+              "value": "hsla({theme.color.base.disabled.default}, {core.lightness.100}, {core.transparency.10}) "
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.disabled.base.default}, {core.lightness.100}, {core.transparency.20}) "
+              "value": "hsla({theme.color.base.disabled.default}, {core.lightness.100}, {core.transparency.20}) "
             },
             "on-bg": {
               "type": "color",
-              "value": "hsla({theme.color.control.disabled.base.default}, {core.lightness.100}, {core.transparency.40}) "
+              "value": "hsla({theme.color.base.disabled.default}, {core.lightness.100}, {core.transparency.40}) "
             },
             "on-bg-muted": {
               "type": "color",
@@ -253,22 +283,16 @@
           }
         },
         "inactive": {
-          "base": {
-            "default": {
-              "type": "color",
-              "value": "{core.hue.black}, {core.saturation.0}"
-            }
-          },
           "bg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.inactive.base.default}, {core.lightness.100}, {core.transparency.40})"
+              "value": "hsla({theme.color.base.inactive.default}, {core.lightness.100}, {core.transparency.40})"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.inactive.base.default}, {core.lightness.100}, {core.transparency.40})"
+              "value": "hsla({theme.color.base.inactive.default}, {core.lightness.100}, {core.transparency.40})"
             },
             "on-bg": {
               "type": "color",
