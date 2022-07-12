@@ -30,57 +30,61 @@
         }
       },
       "color": {
-        "primary": {
+        "accent": {
           "default": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.default}"
+              "value": "{theme.color.control.accent.bg.default}"
             },
             "bg-light": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.20})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50}, {core.transparency.20})"
+            },
+            "fg-on-accent": {
+              "type": "color",
+              "value": "{theme.color.control.accent.fg.on-accent}"
+            },
+            "fg-on-accent-light": {
+              "type": "color",
+              "value": "{theme.color.control.accent.fg.on-accent-light}"
             },
             "fg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.default}"
-            },
-            "fg-on-primary": {
-              "type": "color",
-              "value": "{theme.color.control.primary.fg.on-primary}"
+              "value": "{theme.color.control.accent.bg.default}"
             }
           },
           "active": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.pressed}"
+              "value": "{component.button.color.accent.default.bg}"
             },
             "bg-light": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.30})"
+              "value": "{component.button.color.accent.default.bg-light}"
             },
             "fg-on-light": {
               "type": "color",
-              "value": "{theme.color.control.primary.fg.default}"
+              "value": "{theme.color.control.accent.fg.default}"
             }
           },
           "hover": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.hover}"
+              "value": "{theme.color.control.accent.bg.hover}"
             },
             "bg-light": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50}, {core.transparency.30})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50}, {core.transparency.30})"
             },
             "fg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.hover}"
+              "value": "{theme.color.control.accent.bg.hover}"
             }
           },
           "focus": {
             "bg": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.pressed}"
+              "value": "{theme.color.control.accent.bg.active}"
             }
           },
           "disabled": {

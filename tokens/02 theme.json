@@ -28,7 +28,7 @@
         }
       },
       "control": {
-        "primary": {
+        "accent": {
           "base": {
             "default": {
               "type": "color",
@@ -38,37 +38,41 @@
           "bg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50})"
             },
             "hover": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.60})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
             },
-            "pressed": {
+            "active": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50})"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50})"
             },
             "hover": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.60})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
             },
-            "pressed": {
+            "active": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.50})"
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50})"
             },
-            "on-primary": {
+            "on-accent": {
               "type": "color",
               "value": "{core.color.white}"
             },
-            "on-primary-muted": {
+            "on-accent-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
+            },
+            "on-accent-light": {
+              "type": "color",
+              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
             }
           }
         },
