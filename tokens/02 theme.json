@@ -191,6 +191,42 @@
               "value": "rgba({core.color.white}, {core.transparency.60})"
             }
           }
+        },
+        "secondary": {
+          "base": {
+            "default": {
+              "type": "color",
+              "value": "{core.hue.grey}, {core.saturation.10}"
+            }
+          },
+          "bg": {
+            "default": {
+              "type": "color",
+              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.10})"
+            },
+            "hover": {
+              "type": "color",
+              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.20})"
+            },
+            "active": {
+              "type": "color",
+              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.20})"
+            }
+          },
+          "fg": {
+            "default": {
+              "type": "color",
+              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.50})"
+            },
+            "on-bg": {
+              "type": "color",
+              "value": "hsla({theme.color.control.secondary.base.default}, {core.lightness.60})"
+            },
+            "on-bg-muted": {
+              "type": "color",
+              "value": "rgba({core.color.white}, {core.transparency.60})"
+            }
+          }
         }
       }
     },
