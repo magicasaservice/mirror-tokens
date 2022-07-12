@@ -54,10 +54,6 @@
               "type": "color",
               "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
             },
-            "hover": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
-            },
             "on-bg": {
               "type": "color",
               "value": "{core.color.white}"
@@ -65,10 +61,6 @@
             "on-bg-muted": {
               "type": "color",
               "value": "rgba({core.color.white}, {core.transparency.60})"
-            },
-            "on-bg-light": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
             }
           }
         },
@@ -101,16 +93,16 @@
           }
         },
         "inactive": {
-          "bg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.color.control.inactive.base.default}, {core.lightness.100}, {core.transparency.40})"
-            }
-          },
           "base": {
             "default": {
               "type": "color",
               "value": "{core.hue.black}, {core.saturation.0}"
+            }
+          },
+          "bg": {
+            "default": {
+              "type": "color",
+              "value": "hsla({theme.color.control.inactive.base.default}, {core.lightness.100}, {core.transparency.40})"
             }
           },
           "fg": {
@@ -138,15 +130,15 @@
           "bg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.80})"
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
             },
             "hover": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.100})"
             },
             "active": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
+              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.100})"
             }
           },
           "fg": {
@@ -154,13 +146,41 @@
               "type": "color",
               "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
             },
+            "on-bg": {
+              "type": "color",
+              "value": "{core.color.white}"
+            },
+            "on-bg-muted": {
+              "type": "color",
+              "value": "rgba({core.color.white}, {core.transparency.60})"
+            }
+          }
+        },
+        "danger": {
+          "base": {
+            "default": {
+              "type": "color",
+              "value": "{core.hue.red}, {core.saturation.100}"
+            }
+          },
+          "bg": {
+            "default": {
+              "type": "color",
+              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.50})"
+            },
             "hover": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
+              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.60})"
             },
             "active": {
               "type": "color",
-              "value": "hsla({theme.color.control.primary.base.default}, {core.lightness.90})"
+              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.60})"
+            }
+          },
+          "fg": {
+            "default": {
+              "type": "color",
+              "value": "hsla({theme.color.control.danger.base.default}, {core.lightness.60})"
             },
             "on-bg": {
               "type": "color",
