@@ -1,6 +1,14 @@
 {
   "theme": {
     "color": {
+      "base": {
+        "accent": {
+          "default": {
+            "type": "color",
+            "value": "{core.hue.blue}, {core.saturation.100}"
+          }
+        }
+      },
       "surface": {
         "bg": {
           "default": {
@@ -29,44 +37,40 @@
       },
       "control": {
         "accent": {
-          "base": {
-            "default": {
-              "type": "color",
-              "value": "{core.hue.blue}, {core.saturation.100}"
-            }
-          },
           "bg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50})"
+            "solid": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.60})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.accent.bg.solid.hover}"
+              }
             },
-            "hover": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
-            },
-            "active": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
-            }
-          },
-          "bg-light": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.50})"
-            },
-            "hover": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
-            },
-            "active": {
-              "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
+            "light": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.10})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.20})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.accent.bg.light.hover}"
+              }
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.control.accent.base.default}, {core.lightness.60})"
+              "value": "hsla({theme.color.base.accent.default}, {core.lightness.60})"
             },
             "on-bg": {
               "type": "color",
