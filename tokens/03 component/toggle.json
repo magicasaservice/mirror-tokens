@@ -2,28 +2,26 @@
   "component": {
     "toggle": {
       "sizing": {
-        "base": {
-          "default": {
+        "knob": {
+          "base": {
             "value": "{core.sizing.base}",
             "type": "sizing"
           },
-          "inset": {
-            "value": "{component.toggle.sizing.base.default} * 0.25",
+          "step": {
+            "value": "{component.toggle.sizing.knob.base} * 0.25",
             "type": "sizing"
-          }
-        },
-        "knob": {
+          },
           "default": {
             "sm": {
-              "value": "{component.toggle.sizing.base.default}",
+              "value": "{component.toggle.sizing.knob.base}",
               "type": "sizing"
             },
             "md": {
-              "value": "{component.toggle.sizing.knob.default.sm} + {component.toggle.sizing.base.inset}",
+              "value": "{component.toggle.sizing.knob.default.sm} + {component.toggle.sizing.knob.step}",
               "type": "sizing"
             },
             "lg": {
-              "value": "{component.toggle.sizing.knob.default.md} + {component.toggle.sizing.base.inset}",
+              "value": "{component.toggle.sizing.knob.default.md} + {component.toggle.sizing.knob.step}",
               "type": "sizing"
             }
           },
@@ -45,15 +43,15 @@
         "frame": {
           "width": {
             "sm": {
-              "value": "{component.toggle.sizing.knob.default.sm} * 2 + {component.toggle.sizing.base.inset}",
+              "value": "{component.toggle.sizing.knob.default.sm} * 2 + {component.toggle.sizing.knob.step}",
               "type": "sizing"
             },
             "md": {
-              "value": "{component.toggle.sizing.knob.default.md} * 2 + {component.toggle.sizing.base.inset}",
+              "value": "{component.toggle.sizing.knob.default.md} * 2 + {component.toggle.sizing.knob.step}",
               "type": "sizing"
             },
             "lg": {
-              "value": "{component.toggle.sizing.knob.default.lg} * 2 + {component.toggle.sizing.base.inset}",
+              "value": "{component.toggle.sizing.knob.default.lg} * 2 + {component.toggle.sizing.knob.step}",
               "type": "sizing"
             }
           }
@@ -88,7 +86,7 @@
         }
       },
       "spacing": {
-        "padding": {
+        "default": {
           "value": "2px",
           "type": "spacing"
         }
