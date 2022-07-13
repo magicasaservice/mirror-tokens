@@ -382,28 +382,40 @@
     },
     "font-size": {
       "base": {
-        "value": "{core.font-size.base}",
+        "value": "{core.font-size.base} * 0.625",
+        "type": "fontSizes"
+      },
+      "step": {
+        "value": "1px",
         "type": "fontSizes"
       },
       "control": {
+        "xxs": {
+          "value": "{theme.font-size.base}",
+          "type": "fontSizes"
+        },
         "xs": {
-          "value": "{core.font-size.base} * 0.6875 + 1px",
+          "value": "{theme.font-size.control.xxs} + {theme.font-size.step}",
           "type": "fontSizes"
         },
         "sm": {
-          "value": "{theme.font-size.control.xs} + 1px",
+          "value": "{theme.font-size.control.xs} + {theme.font-size.step}",
           "type": "fontSizes"
         },
         "md": {
-          "value": "{theme.font-size.control.sm} + 1px",
+          "value": "{theme.font-size.control.sm} + {theme.font-size.step}",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{theme.font-size.control.md} + 1px",
+          "value": "{theme.font-size.control.md} + {theme.font-size.step}",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{theme.font-size.control.lg} + 1px",
+          "value": "{theme.font-size.control.lg} + {theme.font-size.step}",
+          "type": "fontSizes"
+        },
+        "xxl": {
+          "value": "{theme.font-size.control.xl} + {theme.font-size.step}",
           "type": "fontSizes"
         }
       },
@@ -416,6 +428,15 @@
     },
     "typography": {
       "control": {
+        "xxs": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.xxs}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
         "xs": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
@@ -457,6 +478,15 @@
             "fontFamily": "{theme.font-family.sans}",
             "fontWeight": "{theme.font-weight.control.default}",
             "fontSize": "{theme.font-size.control.xl}",
+            "lineHeight": "{theme.line-height.control.default}"
+          },
+          "type": "typography"
+        },
+        "xxl": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.control.default}",
+            "fontSize": "{theme.font-size.control.xxl}",
             "lineHeight": "{theme.line-height.control.default}"
           },
           "type": "typography"
@@ -509,6 +539,16 @@
       "mono": {
         "value": "{core.font-family.mono}",
         "type": "fontFamilies"
+      }
+    },
+    "text-case": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
       }
     }
   }
