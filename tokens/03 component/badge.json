@@ -1,0 +1,350 @@
+{
+  "component": {
+    "badge": {
+      "sizing": {
+        "base": {
+          "value": "{theme.sizing.base}",
+          "type": "sizing"
+        }
+      },
+      "color": {
+        "disabled": {
+          "bg": {
+            "type": "color",
+            "value": "{theme.color.control.disabled.bg.default}"
+          },
+          "fg": {
+            "type": "color",
+            "value": "{theme.color.control.disabled.fg.on-bg}"
+          }
+        },
+        "accent": {
+          "normal": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.normal.default}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{theme.color.control.accent.fg.default}",
+                "type": "color"
+              },
+              "fg-on-normal": {
+                "value": "{theme.color.control.accent.fg.on-normal}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.normal.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.normal.active}",
+                "type": "color"
+              }
+            }
+          },
+          "light": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.light.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.light.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.light.active}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.light.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.accent.bg.light.active}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "primary": {
+          "normal": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.normal.default}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{theme.color.control.primary.fg.default}",
+                "type": "color"
+              },
+              "fg-on-normal": {
+                "value": "{theme.color.control.primary.fg.on-normal}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.normal.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.normal.active}",
+                "type": "color"
+              }
+            }
+          },
+          "light": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.light.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.light.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.light.active}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.ghost.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.primary.bg.ghost.active}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "normal": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.normal.default}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{theme.color.control.secondary.fg.default}",
+                "type": "color"
+              },
+              "fg-on-normal": {
+                "value": "{theme.color.control.secondary.fg.on-normal}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.normal.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.normal.active}",
+                "type": "color"
+              }
+            }
+          },
+          "light": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.light.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.light.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.light.active}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.ghost.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.secondary.bg.ghost.active}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "danger": {
+          "normal": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.normal.default}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{theme.color.control.danger.fg.default}",
+                "type": "color"
+              },
+              "fg-on-normal": {
+                "value": "{theme.color.control.danger.fg.on-normal}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.normal.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.normal.active}",
+                "type": "color"
+              }
+            }
+          },
+          "light": {
+            "default": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.light.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.light.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.light.active}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "hover": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.ghost.hover}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "bg": {
+                "value": "{theme.color.control.danger.bg.ghost.active}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      },
+      "border-radius": {
+        "xs": {
+          "type": "borderRadius",
+          "value": "{component.badge.sizing.height.xs} / 4"
+        },
+        "sm": {
+          "type": "borderRadius",
+          "value": "{component.badge.sizing.height.sm} / 4"
+        },
+        "md": {
+          "type": "borderRadius",
+          "value": "{component.badge.sizing.height.md} / 4"
+        },
+        "lg": {
+          "type": "borderRadius",
+          "value": "{component.badge.sizing.height.lg} / 4"
+        },
+        "full": {
+          "value": "{core.border-radius.full}",
+          "type": "borderRadius"
+        }
+      },
+      "spacing": {
+        "padding": {
+          "xs": {
+            "type": "spacing",
+            "value": "{component.badge.sizing.base} * 0.5"
+          },
+          "sm": {
+            "type": "spacing",
+            "value": "{component.badge.sizing.base} * 0.75"
+          },
+          "md": {
+            "type": "spacing",
+            "value": "{component.badge.sizing.base}"
+          },
+          "lg": {
+            "type": "spacing",
+            "value": "{component.badge.sizing.base} * 1.25"
+          }
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "2px",
+          "type": "borderWidth"
+        }
+      },
+      "typography": {
+        "xs": {
+          "value": "{theme.typography.control.xs}",
+          "type": "typography"
+        },
+        "sm": {
+          "value": "{theme.typography.control.sm}",
+          "type": "typography"
+        },
+        "md": {
+          "value": "{theme.typography.control.md}",
+          "type": "typography"
+        },
+        "lg": {
+          "value": "{theme.typography.control.lg}",
+          "type": "typography"
+        },
+        "xl": {
+          "value": "{theme.typography.control.xl}",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}
