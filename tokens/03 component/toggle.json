@@ -2,42 +2,60 @@
   "component": {
     "toggle": {
       "sizing": {
-        "height": {
-          "base": {
-            "value": "16px",
-            "type": "sizing"
-          },
-          "sm": {
-            "value": "{component.toggle.sizing.height.base} * 1.5",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "{component.toggle.sizing.height.base} * 1.75",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{component.toggle.sizing.height.base} * 2",
-            "type": "sizing"
-          }
-        },
-        "inset": {
+        "base": {
           "default": {
-            "value": "4px",
+            "value": "{core.sizing.base}",
+            "type": "sizing"
+          },
+          "inset": {
+            "value": "{component.toggle.sizing.base.default} * 0.25",
             "type": "sizing"
           }
         },
-        "width": {
-          "sm": {
-            "value": "{component.toggle.sizing.height.sm} * 2 - {component.toggle.sizing.inset.default}",
-            "type": "sizing"
+        "knob": {
+          "default": {
+            "sm": {
+              "value": "{component.toggle.sizing.base.default}",
+              "type": "sizing"
+            },
+            "md": {
+              "value": "{component.toggle.sizing.knob.default.sm} + {component.toggle.sizing.base.inset}",
+              "type": "sizing"
+            },
+            "lg": {
+              "value": "{component.toggle.sizing.knob.default.md} + {component.toggle.sizing.base.inset}",
+              "type": "sizing"
+            }
           },
-          "md": {
-            "value": "{component.toggle.sizing.height.md} * 2 - {component.toggle.sizing.inset.default}",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{component.toggle.sizing.height.lg} * 2 - {component.toggle.sizing.inset.default}",
-            "type": "sizing"
+          "pressed": {
+            "sm": {
+              "value": "{component.toggle.sizing.knob.default.sm} * 1.25",
+              "type": "sizing"
+            },
+            "md": {
+              "value": "{component.toggle.sizing.knob.default.md} * 1.25",
+              "type": "sizing"
+            },
+            "lg": {
+              "value": "{component.toggle.sizing.knob.default.lg} * 1.25",
+              "type": "sizing"
+            }
+          }
+        },
+        "frame": {
+          "width": {
+            "sm": {
+              "value": "{component.toggle.sizing.knob.default.sm} * 2 + {component.toggle.sizing.base.inset}",
+              "type": "sizing"
+            },
+            "md": {
+              "value": "{component.toggle.sizing.knob.default.md} * 2 + {component.toggle.sizing.base.inset}",
+              "type": "sizing"
+            },
+            "lg": {
+              "value": "{component.toggle.sizing.knob.default.lg} * 2 + {component.toggle.sizing.base.inset}",
+              "type": "sizing"
+            }
           }
         }
       },
@@ -68,37 +86,11 @@
           "type": "boxShadow",
           "value": "{theme.box-shadow.drop-shadow.control.xs}"
         }
-      }
-    },
-    "toggle-nob": {
-      "sizing": {
-        "default": {
-          "sm": {
-            "value": "{component.toggle.sizing.height.sm} - {component.toggle.sizing.inset.default}",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "{component.toggle.sizing.height.md} - {component.toggle.sizing.inset.default}",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{component.toggle.sizing.height.lg} - {component.toggle.sizing.inset.default}",
-            "type": "sizing"
-          }
-        },
-        "pressed": {
-          "sm": {
-            "value": "{component.toggle.sizing.height.sm} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.sm}/4)",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "{component.toggle.sizing.height.md} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.md}/4)",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{component.toggle.sizing.height.lg} - {component.toggle.sizing.inset.default} + ({component.toggle.sizing.height.lg}/4)",
-            "type": "sizing"
-          }
+      },
+      "spacing": {
+        "padding": {
+          "value": "2px",
+          "type": "spacing"
         }
       }
     }
