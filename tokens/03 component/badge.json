@@ -276,44 +276,20 @@
         }
       },
       "border-radius": {
-        "xs": {
+        "default": {
           "type": "borderRadius",
-          "value": "{component.badge.sizing.height.xs} / 4"
+          "value": "{component.badge.sizing.base} / 4"
         },
-        "sm": {
-          "type": "borderRadius",
-          "value": "{component.badge.sizing.height.sm} / 4"
-        },
-        "md": {
-          "type": "borderRadius",
-          "value": "{component.badge.sizing.height.md} / 4"
-        },
-        "lg": {
-          "type": "borderRadius",
-          "value": "{component.badge.sizing.height.lg} / 4"
-        },
-        "full": {
+        "rounded": {
           "value": "{core.border-radius.full}",
           "type": "borderRadius"
         }
       },
       "spacing": {
         "padding": {
-          "xs": {
+          "default": {
             "type": "spacing",
             "value": "{component.badge.sizing.base} * 0.5"
-          },
-          "sm": {
-            "type": "spacing",
-            "value": "{component.badge.sizing.base} * 0.75"
-          },
-          "md": {
-            "type": "spacing",
-            "value": "{component.badge.sizing.base}"
-          },
-          "lg": {
-            "type": "spacing",
-            "value": "{component.badge.sizing.base} * 1.25"
           }
         }
       },
@@ -324,24 +300,8 @@
         }
       },
       "typography": {
-        "xs": {
+        "default": {
           "value": "{theme.typography.control.xs}",
-          "type": "typography"
-        },
-        "sm": {
-          "value": "{theme.typography.control.sm}",
-          "type": "typography"
-        },
-        "md": {
-          "value": "{theme.typography.control.md}",
-          "type": "typography"
-        },
-        "lg": {
-          "value": "{theme.typography.control.lg}",
-          "type": "typography"
-        },
-        "xl": {
-          "value": "{theme.typography.control.xl}",
           "type": "typography"
         }
       }
