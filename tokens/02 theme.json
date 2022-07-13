@@ -431,33 +431,33 @@
           "type": "fontSizes"
         },
         "h5": {
-          "value": "{theme.font-size.control.xs} + {theme.font-size.control.scale}",
+          "value": "{theme.font-size.headline.base}",
           "type": "fontSizes"
         },
-        "md": {
-          "value": "{theme.font-size.control.sm} + {theme.font-size.control.scale}",
+        "h4": {
+          "value": "{theme.font-size.headline.h5} * {theme.font-size.scale.headline}",
           "type": "fontSizes"
         },
-        "lg": {
-          "value": "{theme.font-size.control.md} + {theme.font-size.control.scale}",
+        "h3": {
+          "value": "{theme.font-size.headline.h4} * {theme.font-size.scale.headline}",
           "type": "fontSizes"
         },
-        "xl": {
-          "value": "{theme.font-size.control.lg} + {theme.font-size.control.scale}",
+        "h2": {
+          "value": "{theme.font-size.headline.h3} * {theme.font-size.scale.headline}",
           "type": "fontSizes"
         },
         "h1": {
-          "value": "{theme.font-size.control.xl} + {theme.font-size.control.scale}",
+          "value": "{theme.font-size.headline.h2} * {theme.font-size.scale.headline}",
           "type": "fontSizes"
         }
       },
       "scale": {
         "control": {
-          "value": "1px",
+          "value": "{core.font-size.step.1px}",
           "type": "fontSizes"
         },
         "headline": {
-          "value": "1.250",
+          "value": "{core.font-size.scale.perfect-fifth}",
           "type": "fontSizes"
         }
       }
