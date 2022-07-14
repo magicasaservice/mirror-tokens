@@ -29,7 +29,7 @@
                 "value": "{theme.color.control.accent.fg.default}",
                 "type": "color"
               },
-              "fg-on-bg": {
+              "fg-on-normal": {
                 "value": "{theme.color.control.accent.fg.on-normal}",
                 "type": "color"
               }
@@ -93,7 +93,7 @@
                 "value": "{theme.color.control.primary.fg.default}",
                 "type": "color"
               },
-              "fg-on-bg": {
+              "fg-on-normal": {
                 "value": "{theme.color.control.primary.fg.on-normal}",
                 "type": "color"
               }
@@ -157,7 +157,7 @@
                 "value": "{theme.color.control.secondary.fg.default}",
                 "type": "color"
               },
-              "fg-on-bg": {
+              "fg-on-normal": {
                 "value": "{theme.color.control.secondary.fg.on-normal}",
                 "type": "color"
               }
@@ -221,7 +221,7 @@
                 "value": "{theme.color.control.danger.fg.default}",
                 "type": "color"
               },
-              "fg-on-bg": {
+              "fg-on-normal": {
                 "value": "{theme.color.control.danger.fg.on-normal}",
                 "type": "color"
               }
@@ -289,13 +289,13 @@
         "padding": {
           "default": {
             "type": "spacing",
-            "value": "{component.badge.sizing.base} * 0.375"
+            "value": "{component.badge.sizing.base} * 0.25"
           }
         }
       },
       "border-width": {
         "default": {
-          "value": "{theme.border-width.1}",
+          "value": "1px",
           "type": "borderWidth"
         }
       },
@@ -304,7 +304,17 @@
           "type": "typography",
           "value": "{theme.typography.control.badge.default}"
         }
+      },
+      "text-case": {
+        "default": {
+          "value": "{theme.text-case.uppercase}",
+          "type": "textCase"
+        }
       }
     }
+  },
+  "serif": {
+    "value": "Times",
+    "type": "fontFamilies"
   }
 }
