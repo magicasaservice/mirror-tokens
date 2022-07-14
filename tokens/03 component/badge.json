@@ -29,7 +29,7 @@
                 "value": "{theme.color.control.accent.fg.default}",
                 "type": "color"
               },
-              "fg-on-normal": {
+              "fg-on-bg": {
                 "value": "{theme.color.control.accent.fg.on-normal}",
                 "type": "color"
               }
@@ -93,7 +93,7 @@
                 "value": "{theme.color.control.primary.fg.default}",
                 "type": "color"
               },
-              "fg-on-normal": {
+              "fg-on-bg": {
                 "value": "{theme.color.control.primary.fg.on-normal}",
                 "type": "color"
               }
@@ -157,7 +157,7 @@
                 "value": "{theme.color.control.secondary.fg.default}",
                 "type": "color"
               },
-              "fg-on-normal": {
+              "fg-on-bg": {
                 "value": "{theme.color.control.secondary.fg.on-normal}",
                 "type": "color"
               }
@@ -221,7 +221,7 @@
                 "value": "{theme.color.control.danger.fg.default}",
                 "type": "color"
               },
-              "fg-on-normal": {
+              "fg-on-bg": {
                 "value": "{theme.color.control.danger.fg.on-normal}",
                 "type": "color"
               }
@@ -289,7 +289,7 @@
         "padding": {
           "default": {
             "type": "spacing",
-            "value": "{component.badge.sizing.base} * 0.25"
+            "value": "{component.badge.sizing.base} * 0.375"
           }
         }
       },
@@ -304,17 +304,7 @@
           "type": "typography",
           "value": "{theme.typography.control.badge.default}"
         }
-      },
-      "text-case": {
-        "default": {
-          "value": "{theme.text-case.uppercase}",
-          "type": "textCase"
-        }
       }
     }
-  },
-  "serif": {
-    "value": "Times",
-    "type": "fontFamilies"
   }
 }
