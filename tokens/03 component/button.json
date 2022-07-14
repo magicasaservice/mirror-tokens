@@ -22,6 +22,10 @@
           "lg": {
             "type": "sizing",
             "value": "{component.button.sizing.base} * 3"
+          },
+          "xl": {
+            "type": "sizing",
+            "value": "{component.button.sizing.base} * 3.5"
           }
         }
       },
@@ -350,6 +354,12 @@
           "lg": {
             "type": "spacing",
             "value": "{component.button.spacing.padding.lg} / 2"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "2px",
+            "type": "spacing"
           }
         }
       },
