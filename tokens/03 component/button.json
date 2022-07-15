@@ -7,10 +7,6 @@
           "type": "sizing"
         },
         "height": {
-          "xs": {
-            "type": "sizing",
-            "value": "{component.button.sizing.base} * 1.5"
-          },
           "sm": {
             "type": "sizing",
             "value": "{component.button.sizing.base} * 2"
@@ -298,10 +294,6 @@
         }
       },
       "border-radius": {
-        "xs": {
-          "type": "borderRadius",
-          "value": "{component.button.sizing.height.xs} / 4 + 2px"
-        },
         "sm": {
           "type": "borderRadius",
           "value": "{component.button.sizing.height.sm} / 3"
@@ -325,10 +317,6 @@
       },
       "spacing": {
         "padding": {
-          "xs": {
-            "type": "spacing",
-            "value": "{component.button.sizing.base} * 0.5"
-          },
           "sm": {
             "type": "spacing",
             "value": "{component.button.sizing.base} * 0.75"
@@ -347,10 +335,6 @@
           }
         },
         "gap": {
-          "xs": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.xs} / 2"
-          },
           "sm": {
             "type": "spacing",
             "value": "{component.button.spacing.padding.sm} / 2"
@@ -382,25 +366,23 @@
         }
       },
       "typography": {
-        "xs": {
-          "type": "typography",
-          "value": "{theme.typography.control.button.xs}"
-        },
-        "sm": {
-          "type": "typography",
-          "value": "{theme.typography.control.button.sm}"
-        },
-        "md": {
-          "type": "typography",
-          "value": "{theme.typography.control.button.md}"
-        },
-        "lg": {
-          "type": "typography",
-          "value": "{theme.typography.control.button.lg}"
-        },
-        "xl": {
-          "type": "typography",
-          "value": "{theme.typography.control.button.xl}"
+        "label": {
+          "sm": {
+            "type": "typography",
+            "value": "{theme.typography.control.button.sm}"
+          },
+          "md": {
+            "type": "typography",
+            "value": "{theme.typography.control.button.md}"
+          },
+          "lg": {
+            "type": "typography",
+            "value": "{theme.typography.control.button.lg}"
+          },
+          "xl": {
+            "type": "typography",
+            "value": "{theme.typography.control.button.xl}"
+          }
         }
       }
     }
