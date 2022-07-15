@@ -95,11 +95,11 @@
             "light": {
               "default": {
                 "type": "color",
-                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.20})"
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.10})"
               },
               "hover": {
                 "type": "color",
-                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.30})"
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.20})"
               },
               "active": {
                 "type": "color",
@@ -109,7 +109,7 @@
             "ghost": {
               "hover": {
                 "type": "color",
-                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.20})"
+                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50}, {core.transparency.10})"
               },
               "active": {
                 "type": "color",
@@ -165,7 +165,7 @@
             "ghost": {
               "hover": {
                 "type": "color",
-                "value": "hsla({theme.color.base.primary.default}, {core.lightness.50}, {core.transparency.20})"
+                "value": "hsla({theme.color.base.primary.default}, {core.lightness.50}, {core.transparency.10})"
               },
               "active": {
                 "type": "color",
@@ -207,11 +207,11 @@
             "light": {
               "default": {
                 "type": "color",
-                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.20})"
+                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.10})"
               },
               "hover": {
                 "type": "color",
-                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.30})"
+                "value": "hsla({theme.color.base.secondary.default}, {core.lightness.50}, {core.transparency.20})"
               },
               "active": {
                 "type": "color",
@@ -433,7 +433,7 @@
       },
       "control": {
         "base": {
-          "value": "{theme.font-size.default} * 0.875",
+          "value": "{theme.font-size.default} * 0.9375",
           "type": "fontSizes"
         },
         "3xs": {
