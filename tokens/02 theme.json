@@ -5,35 +5,35 @@
         "bg": {
           "default": {
             "type": "color",
-            "value": "{core.color.white}"
+            "value": "{theme.color.palette.white}"
           },
           "subtle": {
             "type": "color",
-            "value": "hsl({theme.config.color.chroma.grey}, {theme.config.color.lightness.5})"
+            "value": "{theme.color.palette.grey.5}"
           }
         },
         "fg": {
           "default": {
             "type": "color",
-            "value": "hsl({theme.config.color.chroma.grey}, {theme.config.color.lightness.95})"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
+            "value": "{theme.color.palette.grey.95}"
           },
           "muted": {
             "type": "color",
-            "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.95}, {theme.config.color.transparency.50})"
+            "value": "{theme.color.palette.grey.60}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{theme.color.palette.grey.20}"
           }
         },
         "dimmer": {
           "default": {
             "type": "color",
-            "value": "hsla({core.hue.black}, {core.saturation.0}, {core.lightness.95}, {core.transparency.20})"
+            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.100}, {theme.config.color.transparency.20})"
           },
           "subtle": {
             "type": "color",
-            "value": "hsla({core.hue.black}, {core.saturation.0}, {core.lightness.95}, {core.transparency.10})"
+            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.100}, {theme.config.color.transparency.5})"
           }
         }
       },
@@ -86,7 +86,7 @@
             },
             "on-normal": {
               "type": "color",
-              "value": "{core.color.white}"
+              "value": "{theme.color.palette.white}"
             },
             "on-normal-muted": {
               "type": "color",
@@ -308,6 +308,14 @@
         }
       },
       "palette": {
+        "black": {
+          "value": "{core.color.black}",
+          "type": "color"
+        },
+        "white": {
+          "value": "{core.color.white}",
+          "type": "color"
+        },
         "blue": {
           "5": {
             "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.5})",
