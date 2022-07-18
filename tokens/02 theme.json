@@ -290,15 +290,15 @@
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.color.base.inactive.default}, {core.lightness.95}, {core.transparency.40})"
+              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.60}, {theme.config.color.transparency.50})"
             },
             "on-bg": {
               "type": "color",
-              "value": "{core.color.white}"
+              "value": "hsl({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0})"
             },
             "on-bg-muted": {
               "type": "color",
-              "value": "rgba({core.color.white}, {core.transparency.60})"
+              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.60})"
             }
           }
         }
