@@ -1,44 +1,6 @@
 {
   "theme": {
     "color": {
-      "base": {
-        "accent": {
-          "default": {
-            "type": "color",
-            "value": "{core.hue.blue}, {core.saturation.100}"
-          }
-        },
-        "primary": {
-          "default": {
-            "type": "color",
-            "value": "{core.hue.grey}, {core.saturation.10}"
-          }
-        },
-        "secondary": {
-          "default": {
-            "type": "color",
-            "value": "{core.hue.grey}, {core.saturation.10}"
-          }
-        },
-        "danger": {
-          "default": {
-            "type": "color",
-            "value": "{core.hue.red}, {core.saturation.100}"
-          }
-        },
-        "disabled": {
-          "default": {
-            "type": "color",
-            "value": "{core.hue.black}, {core.saturation.0}"
-          }
-        },
-        "inactive": {
-          "default": {
-            "type": "color",
-            "value": "{core.hue.black}, {core.saturation.0}"
-          }
-        }
-      },
       "surface": {
         "bg": {
           "default": {
@@ -81,7 +43,7 @@
             "normal": {
               "default": {
                 "type": "color",
-                "value": "hsla({theme.color.base.accent.default}, {core.lightness.50})"
+                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50})"
               },
               "hover": {
                 "type": "color",
@@ -348,43 +310,43 @@
       "palette": {
         "blue": {
           "10": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.10})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.10})",
             "type": "color"
           },
           "20": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.20})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.20})",
             "type": "color"
           },
           "30": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.30})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.30})",
             "type": "color"
           },
           "40": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.40})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.40})",
             "type": "color"
           },
           "50": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.50})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.50})",
             "type": "color"
           },
           "60": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.60})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.60})",
             "type": "color"
           },
           "70": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.70})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.70})",
             "type": "color"
           },
           "80": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.80})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.80})",
             "type": "color"
           },
           "90": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.90})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.90})",
             "type": "color"
           },
           "100": {
-            "value": "hsl({theme.config.color.hue.black}, {theme.config.color.saturation.100}, {theme.config.color.lightness.95})",
+            "value": "hsl({theme.config.color.hue.blue}, {theme.config.color.saturation.100}, {theme.config.color.lightness.95})",
             "type": "color"
           }
         },
