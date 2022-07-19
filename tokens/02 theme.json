@@ -983,7 +983,7 @@
         "default": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.semibold}",
+            "fontWeight": "{theme.font-weight.body.default}",
             "fontSize": "{theme.font-size.control.md}",
             "lineHeight": "{theme.line-height.control.default}",
             "textCase": ""
@@ -1025,7 +1025,7 @@
     "font-weight": {
       "body": {
         "default": {
-          "value": "{theme.config.font-weight.400}",
+          "value": "{core.font-size.default}",
           "type": "fontWeights"
         },
         "strong": {
@@ -1314,15 +1314,15 @@
         },
         "scale": {
           "control": {
-            "value": "{core.font-size.step.1px}",
+            "value": "{core.scale.step.1px}",
             "type": "other"
           },
           "headline": {
-            "value": "{core.font-size.scale.perfect-fifth}",
+            "value": "{core.scale.ratio.minor-third}",
             "type": "other"
           },
           "title": {
-            "value": "{core.font-size.scale.perfect-fifth}",
+            "value": "{core.scale.ratio.perfect-fifth}",
             "type": "other"
           }
         }
@@ -1366,6 +1366,12 @@
         },
         "900": {
           "value": "Heavy",
+          "type": "other"
+        }
+      },
+      "sizing": {
+        "default": {
+          "value": "{core.font-size.default}",
           "type": "other"
         }
       }
