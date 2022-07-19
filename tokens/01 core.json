@@ -237,6 +237,10 @@
         "value": "Magic Ui Pro",
         "type": "fontFamilies"
       },
+      "serif": {
+        "value": "Margiela Serif",
+        "type": "fontFamilies"
+      },
       "mono": {
         "value": "IBM Plex Mono",
         "type": "fontFamilies"
@@ -353,42 +357,60 @@
           "type": "other"
         }
       }
-    }
-  },
-  "text-decoration": {
-    "none": {
-      "value": "none",
-      "type": "textDecoration"
     },
-    "underline": {
-      "value": "underline",
-      "type": "textDecoration"
+    "text-decoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "line-through": {
+        "value": "line-through",
+        "type": "textDecoration"
+      }
     },
-    "line-through": {
-      "value": "line-through",
-      "type": "textDecoration"
-    }
-  },
-  "text-case": {
-    "default": {
-      "value": "{theme.text-case.none}",
-      "type": "textCase"
+    "text-case": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "lowercase": {
+        "value": "lowercase",
+        "type": "textCase"
+      },
+      "capitalize": {
+        "value": "capitalize",
+        "type": "textCase"
+      }
     },
-    "none": {
-      "value": "none",
-      "type": "textCase"
-    },
-    "uppercase": {
-      "value": "uppercase",
-      "type": "textCase"
-    },
-    "lowercase": {
-      "value": "lowercase",
-      "type": "textCase"
-    },
-    "capitalize": {
-      "value": "capitalize",
-      "type": "textCase"
+    "border-width": {
+      "0": {
+        "value": "0",
+        "type": "borderWidth"
+      },
+      "1": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "2": {
+        "value": "2px",
+        "type": "borderWidth"
+      },
+      "3": {
+        "value": "3px",
+        "type": "borderWidth"
+      },
+      "4": {
+        "value": "4px",
+        "type": "borderWidth"
+      }
     }
   }
 }
