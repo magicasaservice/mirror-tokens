@@ -3,7 +3,7 @@
     "badge": {
       "sizing": {
         "base": {
-          "value": "{theme.sizing.base}",
+          "value": "{theme.config.sizing.default}",
           "type": "sizing"
         }
       },
@@ -278,7 +278,7 @@
       "border-radius": {
         "default": {
           "type": "borderRadius",
-          "value": "{component.badge.sizing.base} / 4"
+          "value": "{theme.config.sizing.default} / 4"
         },
         "rounded": {
           "value": "{core.border-radius.full}",
