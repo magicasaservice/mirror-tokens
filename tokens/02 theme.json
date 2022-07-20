@@ -711,19 +711,19 @@
           "type": "fontSizes"
         },
         "h4": {
-          "value": "{theme.font-size.headline.h5} * {theme.config.scale.headline.font-size}",
+          "value": "{theme.font-size.headline.h5} * {theme.config.scale.text.headline}",
           "type": "fontSizes"
         },
         "h3": {
-          "value": "{theme.font-size.headline.h4} * {theme.config.scale.headline.font-size}",
+          "value": "{theme.font-size.headline.h4} * {theme.config.scale.text.headline}",
           "type": "fontSizes"
         },
         "h2": {
-          "value": "{theme.font-size.headline.h3} * {theme.config.scale.headline.font-size}",
+          "value": "{theme.font-size.headline.h3} * {theme.config.scale.text.headline}",
           "type": "fontSizes"
         },
         "h1": {
-          "value": "{theme.font-size.headline.h2} * {theme.config.scale.headline.font-size}",
+          "value": "{theme.font-size.headline.h2} * {theme.config.scale.text.headline}",
           "type": "fontSizes"
         }
       }
@@ -1085,7 +1085,7 @@
           "type": "other"
         },
         "handle": {
-          "value": "{theme.config.sizing.default} + {theme.config.scale.handle.sizing}",
+          "value": "{theme.config.sizing.default} + {theme.config.scale.component.toggle}",
           "type": "other"
         }
       },
@@ -1336,25 +1336,19 @@
             "type": "other"
           }
         },
-        "headline": {
-          "font-size": {
+        "text": {
+          "headline": {
             "value": "{core.scale.ratio.minor-third}",
             "type": "other"
-          }
-        },
-        "title": {
-          "font-size": {
+          },
+          "title": {
             "value": "{core.scale.ratio.perfect-fifth}",
             "type": "other"
           }
         },
-        "handle": {
-          "sizing": {
+        "component": {
+          "toggle": {
             "value": "{core.scale.step.4px}",
-            "type": "other"
-          },
-          "border-radius": {
-            "value": "{core.scale.step.2px}",
             "type": "other"
           }
         }
@@ -1455,15 +1449,15 @@
       },
       "handle": {
         "2xs": {
-          "value": "{theme.sizing.handle.xs} - {theme.config.scale.handle.sizing}",
+          "value": "{theme.sizing.handle.xs} - {theme.config.scale.component.toggle}",
           "type": "sizing"
         },
         "xs": {
-          "value": "{theme.sizing.handle.sm} - {theme.config.scale.handle.sizing}",
+          "value": "{theme.sizing.handle.sm} - {theme.config.scale.component.toggle}",
           "type": "sizing"
         },
         "sm": {
-          "value": "{theme.sizing.handle.md} - {theme.config.scale.handle.sizing}",
+          "value": "{theme.sizing.handle.md} - {theme.config.scale.component.toggle}",
           "type": "sizing"
         },
         "md": {
@@ -1471,15 +1465,15 @@
           "type": "sizing"
         },
         "lg": {
-          "value": "{theme.sizing.control.md} + {theme.config.scale.handle.sizing}",
+          "value": "{theme.sizing.control.md} + {theme.config.scale.component.toggle}",
           "type": "sizing"
         },
         "xl": {
-          "value": "{theme.sizing.handle.lg} + {theme.config.scale.handle.sizing}",
+          "value": "{theme.sizing.handle.lg} + {theme.config.scale.component.toggle}",
           "type": "sizing"
         },
         "2xl": {
-          "value": "{theme.sizing.handle.xl} + {theme.config.scale.handle.sizing}",
+          "value": "{theme.sizing.handle.xl} + {theme.config.scale.component.toggle}",
           "type": "sizing"
         }
       }
