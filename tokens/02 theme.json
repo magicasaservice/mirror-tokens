@@ -591,7 +591,7 @@
       }
     },
     "box-shadow": {
-      "drop-shadow": {
+      "control": {
         "xs": {
           "value": {
             "x": "0",
@@ -641,6 +641,17 @@
             "x": "0",
             "y": "32px",
             "blur": "40px",
+            "spread": "0",
+            "color": "{theme.config.box-shadow.color}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "handle": {
+          "value": {
+            "x": "0",
+            "y": "2px",
+            "blur": "4px",
             "spread": "0",
             "color": "{theme.config.box-shadow.color}",
             "type": "dropShadow"
