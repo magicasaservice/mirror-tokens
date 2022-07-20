@@ -3,17 +3,17 @@
     "button": {
       "sizing": {
         "height": {
-          "sm": {
-            "type": "sizing",
-            "value": "{theme.sizing.control.sm}"
-          },
-          "md": {
+          "default": {
             "type": "sizing",
             "value": "{theme.sizing.control.md}"
           },
+          "sm": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.default} - {theme.config.scale.control.sizing}"
+          },
           "lg": {
             "type": "sizing",
-            "value": "{theme.sizing.control.lg}"
+            "value": "{component.button.sizing.height.default} + {theme.config.scale.control.sizing}"
           },
           "xl": {
             "type": "sizing",
@@ -292,19 +292,19 @@
       "border-radius": {
         "sm": {
           "type": "borderRadius",
-          "value": "{theme.border-radius.control.sm}"
+          "value": "{component.button.border-radius.default} - {theme.config.scale.control.border-radius}"
         },
-        "md": {
+        "default": {
           "type": "borderRadius",
           "value": "{theme.border-radius.control.md}"
         },
         "lg": {
           "type": "borderRadius",
-          "value": "{theme.border-radius.control.lg}"
+          "value": "{component.button.border-radius.default} + {theme.config.scale.control.border-radius}"
         },
         "xl": {
           "type": "borderRadius",
-          "value": "{theme.border-radius.control.xl}"
+          "value": "{component.button.border-radius.lg} + {theme.config.scale.control.border-radius}"
         },
         "rounded": {
           "value": "{theme.border-radius.control.rounded}",
@@ -313,17 +313,17 @@
       },
       "spacing": {
         "padding": {
+          "default": {
+            "type": "spacing",
+            "value": "{component.button.sizing.height.default} / 2.5"
+          },
           "sm": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.md} - {theme.config.scale.control.spacing}"
-          },
-          "md": {
-            "type": "spacing",
-            "value": "{component.button.sizing.height.md} / 2.5"
+            "value": "{component.button.spacing.padding.default} - {theme.config.scale.control.spacing}"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.md} + {theme.config.scale.control.spacing}"
+            "value": "{component.button.spacing.padding.default} + {theme.config.scale.control.spacing}"
           },
           "xl": {
             "type": "spacing",
@@ -331,13 +331,13 @@
           }
         },
         "gap": {
+          "default": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.default} / 2"
+          },
           "sm": {
             "type": "spacing",
             "value": "{component.button.spacing.padding.sm} / 2"
-          },
-          "md": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.md} / 2"
           },
           "lg": {
             "type": "spacing",
