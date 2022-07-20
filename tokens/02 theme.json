@@ -570,13 +570,13 @@
           "bg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.60}, {theme.config.color.transparency.50})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.50})"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.60}, {theme.config.color.transparency.50})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.50})"
             },
             "on-bg": {
               "type": "color",
@@ -598,7 +598,7 @@
             "y": "1px",
             "blur": "2px",
             "spread": "0",
-            "color": "{theme.config.box-shadow.color}",
+            "color": "{theme.config.box-shadow.color.light}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -609,7 +609,7 @@
             "y": "8px",
             "blur": "16px",
             "spread": "0",
-            "color": "{theme.config.box-shadow.color}",
+            "color": "{theme.config.box-shadow.color.light}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -620,7 +620,7 @@
             "y": "16px",
             "blur": "24px",
             "spread": "0",
-            "color": "{theme.config.box-shadow.color}",
+            "color": "{theme.config.box-shadow.color.light}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -631,7 +631,7 @@
             "y": "24px",
             "blur": "32px",
             "spread": "0",
-            "color": "{theme.config.box-shadow.color}",
+            "color": "{theme.config.box-shadow.color.light}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -642,7 +642,7 @@
             "y": "32px",
             "blur": "40px",
             "spread": "0",
-            "color": "{theme.config.box-shadow.color}",
+            "color": "{theme.config.box-shadow.color.light}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -650,10 +650,10 @@
         "handle": {
           "value": {
             "x": "0",
-            "y": "2px",
-            "blur": "4px",
+            "y": "1px",
+            "blur": "2px",
             "spread": "0",
-            "color": "{theme.config.box-shadow.color}",
+            "color": "{theme.config.box-shadow.color.medium}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -663,19 +663,19 @@
     "font-size": {
       "control": {
         "3xs": {
-          "value": "{theme.font-size.control.2xs} - {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.2xs} - {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         },
         "2xs": {
-          "value": "{theme.font-size.control.xs} - {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.xs} - {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         },
         "xs": {
-          "value": "{theme.font-size.control.sm} - {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.sm} - {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         },
         "sm": {
-          "value": "{theme.font-size.control.md} - {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.md} - {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         },
         "md": {
@@ -683,19 +683,19 @@
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{theme.font-size.control.md} + {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.md} + {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{theme.font-size.control.lg} + {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.lg} + {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         },
         "2xl": {
-          "value": "{theme.font-size.control.xl} + {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.xl} + {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         },
         "3xl": {
-          "value": "{theme.font-size.control.2xl} + {theme.config.font-size.scale.control}",
+          "value": "{theme.font-size.control.2xl} + {theme.config.scale.control.font-size}",
           "type": "fontSizes"
         }
       },
@@ -711,19 +711,19 @@
           "type": "fontSizes"
         },
         "h4": {
-          "value": "{theme.font-size.headline.h5} * {theme.config.font-size.scale.headline}",
+          "value": "{theme.font-size.headline.h5} * {theme.config.scale.headline.font-size}",
           "type": "fontSizes"
         },
         "h3": {
-          "value": "{theme.font-size.headline.h4} * {theme.config.font-size.scale.headline}",
+          "value": "{theme.font-size.headline.h4} * {theme.config.scale.headline.font-size}",
           "type": "fontSizes"
         },
         "h2": {
-          "value": "{theme.font-size.headline.h3} * {theme.config.font-size.scale.headline}",
+          "value": "{theme.font-size.headline.h3} * {theme.config.scale.headline.font-size}",
           "type": "fontSizes"
         },
         "h1": {
-          "value": "{theme.font-size.headline.h2} * {theme.config.font-size.scale.headline}",
+          "value": "{theme.font-size.headline.h2} * {theme.config.scale.headline.font-size}",
           "type": "fontSizes"
         }
       }
@@ -1307,19 +1307,41 @@
             "value": "{theme.config.font-size.base.default} * 0.875",
             "type": "other"
           }
-        },
-        "scale": {
-          "control": {
+        }
+      },
+      "scale": {
+        "control": {
+          "font-size": {
             "value": "{core.scale.step.1px}",
             "type": "other"
-          },
-          "headline": {
+          }
+        },
+        "headline": {
+          "font-size": {
             "value": "{core.scale.ratio.minor-third}",
             "type": "other"
-          },
-          "title": {
+          }
+        },
+        "title": {
+          "font-size": {
             "value": "{core.scale.ratio.perfect-fifth}",
             "type": "other"
+          }
+        },
+        "step": {
+          "control": {
+            "sizing": {
+              "value": "{core.scale.step.8px}",
+              "type": "other"
+            },
+            "spacing": {
+              "value": "{core.scale.step.4px}",
+              "type": "other"
+            },
+            "border-radius": {
+              "value": "{core.scale.step.2px}",
+              "type": "other"
+            }
           }
         }
       },
@@ -1365,33 +1387,33 @@
           "type": "other"
         }
       },
-      "scale": {
-        "step": {
-          "control": {
-            "sizing": {
-              "value": "{core.scale.step.8px}",
-              "type": "other"
-            },
-            "spacing": {
-              "value": "{core.scale.step.4px}",
-              "type": "other"
-            },
-            "border-radius": {
-              "value": "{core.scale.step.2px}",
-              "type": "other"
-            }
-          }
-        }
-      },
       "box-shadow": {
         "color": {
-          "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.20})",
-          "type": "other"
+          "light": {
+            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.10})",
+            "type": "other"
+          },
+          "regular": {
+            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.20})",
+            "type": "other"
+          },
+          "medium": {
+            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
+            "type": "other"
+          },
+          "heavy": {
+            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.40})",
+            "type": "other"
+          }
         }
       }
     },
     "sizing": {
       "control": {
+        "2xs": {
+          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        },
         "xs": {
           "value": "{theme.sizing.control.sm} - {theme.config.scale.step.control.sizing}",
           "type": "sizing"
@@ -1410,6 +1432,40 @@
         },
         "xl": {
           "value": "{theme.sizing.control.lg} + {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        },
+        "2xl": {
+          "value": "{theme.sizing.control.xl} + {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        }
+      },
+      "input": {
+        "2xs": {
+          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        },
+        "xs": {
+          "value": "{theme.sizing.control.sm} - {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "{theme.sizing.control.md} - {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{theme.config.sizing.default} * 2",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{theme.sizing.control.md} + {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{theme.sizing.control.lg} + {theme.config.scale.step.control.sizing}",
+          "type": "sizing"
+        },
+        "2xl": {
+          "value": "{theme.sizing.control.xl} + {theme.config.scale.step.control.sizing}",
           "type": "sizing"
         }
       }

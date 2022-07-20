@@ -66,6 +66,10 @@
           "inactive": {
             "type": "color",
             "value": "{theme.color.control.inactive.bg.default}"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "{theme.color.control.disabled.bg.default}"
           }
         },
         "fg": {
@@ -73,16 +77,20 @@
             "type": "color",
             "value": "{theme.color.control.accent.fg.on-normal}"
           },
-          "disabled": {
+          "disabled-active": {
             "type": "color",
-            "value": "{theme.color.control.accent.fg.on-normal-muted}"
+            "value": "{theme.color.palette.blue.30}"
+          },
+          "disabled-inactive": {
+            "type": "color",
+            "value": "{theme.color.palette.grey.20}"
           }
         }
       },
       "box-shadow": {
-        "knob": {
+        "handle": {
           "type": "boxShadow",
-          "value": "{theme.box-shadow.control.xs}"
+          "value": "{theme.box-shadow.control.handle}"
         }
       },
       "spacing": {
