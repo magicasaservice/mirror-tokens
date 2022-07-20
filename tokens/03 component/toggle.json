@@ -94,12 +94,32 @@
     },
     "border-radius": {
       "handle": {
-        "value": "{core.border-radius.full}",
-        "type": "borderRadius"
+        "sm": {
+          "value": "{component.border-radius.handle.md} - {theme.config.scale.handle.border-radius}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{theme.border-radius.control.md}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{component.border-radius.handle.md} + {theme.config.scale.handle.border-radius}",
+          "type": "borderRadius"
+        }
       },
       "track": {
-        "value": "{core.border-radius.full}",
-        "type": "borderRadius"
+        "sm": {
+          "value": "{component.border-radius.handle.sm} + {theme.config.scale.handle.border-radius}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{component.border-radius.handle.md} + {theme.config.scale.handle.border-radius}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{component.border-radius.handle.lg} + {theme.config.scale.handle.border-radius}",
+          "type": "borderRadius"
+        }
       }
     }
   }
