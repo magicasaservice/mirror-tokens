@@ -1079,6 +1079,14 @@
         "default": {
           "value": "16px",
           "type": "other"
+        },
+        "control": {
+          "value": "{theme.config.sizing.default} * 2.5",
+          "type": "other"
+        },
+        "handle": {
+          "value": "{theme.config.sizing.default} + {theme.config.scale.handle.sizing}",
+          "type": "other"
         }
       },
       "color": {
@@ -1339,6 +1347,12 @@
             "value": "{core.scale.ratio.perfect-fifth}",
             "type": "other"
           }
+        },
+        "handle": {
+          "sizing": {
+            "value": "{core.scale.step.4px}",
+            "type": "other"
+          }
         }
       },
       "font-weight": {
@@ -1419,7 +1433,7 @@
           "type": "sizing"
         },
         "md": {
-          "value": "{theme.config.sizing.default} * 2.5",
+          "value": "{theme.config.sizing.control}",
           "type": "sizing"
         },
         "lg": {
@@ -1435,33 +1449,33 @@
           "type": "sizing"
         }
       },
-      "input": {
+      "handle": {
         "2xs": {
-          "value": "{theme.sizing.control.xs} - {theme.config.scale.control.sizing}",
+          "value": "{theme.sizing.handle.xs} - {theme.config.scale.handle.sizing}",
           "type": "sizing"
         },
         "xs": {
-          "value": "{theme.sizing.control.sm} - {theme.config.scale.control.sizing}",
+          "value": "{theme.sizing.handle.sm} - {theme.config.scale.handle.sizing}",
           "type": "sizing"
         },
         "sm": {
-          "value": "{theme.sizing.control.md} - {theme.config.scale.control.sizing}",
+          "value": "{theme.sizing.handle.md} - {theme.config.scale.handle.sizing}",
           "type": "sizing"
         },
         "md": {
-          "value": "{theme.config.sizing.default} * 2",
+          "value": "{theme.config.sizing.handle}",
           "type": "sizing"
         },
         "lg": {
-          "value": "{theme.sizing.control.md} + {theme.config.scale.control.sizing}",
+          "value": "{theme.sizing.control.md} + {theme.config.scale.handle.sizing}",
           "type": "sizing"
         },
         "xl": {
-          "value": "{theme.sizing.control.lg} + {theme.config.scale.control.sizing}",
+          "value": "{theme.sizing.handle.lg} + {theme.config.scale.handle.sizing}",
           "type": "sizing"
         },
         "2xl": {
-          "value": "{theme.sizing.control.xl} + {theme.config.scale.control.sizing}",
+          "value": "{theme.sizing.handle.xl} + {theme.config.scale.handle.sizing}",
           "type": "sizing"
         }
       }
