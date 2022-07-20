@@ -2,40 +2,32 @@
   "component": {
     "toggle": {
       "sizing": {
-        "knob": {
-          "base": {
-            "value": "{theme.config.sizing.default}",
-            "type": "sizing"
-          },
-          "step": {
-            "value": "{component.toggle.sizing.knob.base} * 0.25",
-            "type": "sizing"
-          },
+        "handle": {
           "default": {
             "sm": {
-              "value": "{component.toggle.sizing.knob.base}",
+              "value": "{component.toggle.sizing.handle.default.md} - {theme.config.scale.handle.sizing}",
               "type": "sizing"
             },
             "md": {
-              "value": "{component.toggle.sizing.knob.default.sm} + {component.toggle.sizing.knob.step}",
+              "value": "{theme.sizing.handle.md}",
               "type": "sizing"
             },
             "lg": {
-              "value": "{component.toggle.sizing.knob.default.md} + {component.toggle.sizing.knob.step}",
+              "value": "{component.toggle.sizing.handle.default.md} + {theme.config.scale.handle.sizing}",
               "type": "sizing"
             }
           },
           "pressed": {
             "sm": {
-              "value": "{component.toggle.sizing.knob.default.sm} * 1.25",
+              "value": "{component.toggle.sizing.handle.default.sm} * {core.scale.ratio.major-third}",
               "type": "sizing"
             },
             "md": {
-              "value": "{component.toggle.sizing.knob.default.md} * 1.25",
+              "value": "{component.toggle.sizing.handle.default.md} * {core.scale.ratio.major-third}",
               "type": "sizing"
             },
             "lg": {
-              "value": "{component.toggle.sizing.knob.default.lg} * 1.25",
+              "value": "{component.toggle.sizing.handle.default.lg} * {core.scale.ratio.major-third}",
               "type": "sizing"
             }
           }
@@ -43,16 +35,16 @@
         "frame": {
           "width": {
             "sm": {
-              "value": "{component.toggle.sizing.knob.default.sm} * 2 + {component.toggle.sizing.knob.step}",
-              "type": "sizing"
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.sm} * 2 + {theme.config.scale.handle.sizing}"
             },
             "md": {
-              "value": "{component.toggle.sizing.knob.default.md} * 2 + {component.toggle.sizing.knob.step}",
-              "type": "sizing"
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.md} * 2 + {theme.config.scale.handle.sizing}"
             },
             "lg": {
-              "value": "{component.toggle.sizing.knob.default.lg} * 2 + {component.toggle.sizing.knob.step}",
-              "type": "sizing"
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.lg} * 2 + {theme.config.scale.handle.sizing}"
             }
           }
         }
