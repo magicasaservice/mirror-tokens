@@ -2,26 +2,22 @@
   "component": {
     "button": {
       "sizing": {
-        "base": {
-          "value": "{theme.config.sizing.default}",
-          "type": "sizing"
-        },
         "height": {
           "sm": {
             "type": "sizing",
-            "value": "{component.button.sizing.base} * 2"
+            "value": "{theme.sizing.control.sm}"
           },
           "md": {
             "type": "sizing",
-            "value": "{component.button.sizing.base} * 2.5"
+            "value": "{theme.sizing.control.md}"
           },
           "lg": {
             "type": "sizing",
-            "value": "{component.button.sizing.base} * 3"
+            "value": "{theme.sizing.control.lg}"
           },
           "xl": {
             "type": "sizing",
-            "value": "{component.button.sizing.base} * 3.5"
+            "value": "{theme.sizing.control.xl}"
           }
         }
       },
@@ -296,19 +292,19 @@
       "border-radius": {
         "sm": {
           "type": "borderRadius",
-          "value": "{component.button.sizing.height.sm} / 3"
+          "value": "{theme.border-radius.control.sm}"
         },
         "md": {
           "type": "borderRadius",
-          "value": "{component.button.sizing.height.md} / 3"
+          "value": "{theme.border-radius.control.md}"
         },
         "lg": {
           "type": "borderRadius",
-          "value": "{component.button.sizing.height.lg} / 3"
+          "value": "{theme.border-radius.control.lg}"
         },
         "xl": {
           "type": "borderRadius",
-          "value": "{component.button.sizing.height.xl} / 3"
+          "value": "{theme.border-radius.control.xl}"
         },
         "rounded": {
           "value": "{core.border-radius.full}",
@@ -319,19 +315,19 @@
         "padding": {
           "sm": {
             "type": "spacing",
-            "value": "{component.button.sizing.base} * 0.75"
+            "value": "{component.button.spacing.padding.md} - {theme.config.scale.step.control.sizing}"
           },
           "md": {
             "type": "spacing",
-            "value": "{component.button.sizing.base}"
+            "value": "{component.button.sizing.height.md} / 2.5"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.button.sizing.base} * 1.25"
+            "value": "{component.button.spacing.padding.md} + {theme.config.scale.step.control.sizing}"
           },
           "xl": {
             "type": "spacing",
-            "value": "{component.button.sizing.base} * 1.5"
+            "value": "{component.button.spacing.padding.lg} + {theme.config.scale.step.control.sizing}"
           }
         },
         "gap": {

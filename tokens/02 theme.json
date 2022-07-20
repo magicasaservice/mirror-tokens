@@ -1081,7 +1081,7 @@
     "config": {
       "sizing": {
         "default": {
-          "value": "{core.font-size.default}",
+          "value": "16px",
           "type": "other"
         }
       },
@@ -1367,6 +1367,68 @@
         "900": {
           "value": "Heavy",
           "type": "other"
+        }
+      },
+      "scale": {
+        "step": {
+          "control": {
+            "sizing": {
+              "value": "{core.scale.step.4px}",
+              "type": "other"
+            },
+            "border-radius": {
+              "value": "{core.scale.step.2px}",
+              "type": "other"
+            }
+          }
+        }
+      }
+    },
+    "sizing": {
+      "control": {
+        "sm": {
+          "value": "{theme.sizing.control.md} - {core.scale.step.8px}",
+          "type": "sizing"
+        },
+        "xs": {
+          "value": "{theme.sizing.control.sm} - {core.scale.step.8px}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{theme.config.sizing.default} * 2.5",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{theme.sizing.control.md} + {core.scale.step.8px}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{theme.sizing.control.lg} + {core.scale.step.8px}",
+          "type": "sizing"
+        }
+      }
+    },
+    "border-radius": {
+      "control": {
+        "xs": {
+          "value": "{theme.border-radius.control.sm} - {theme.config.scale.step.control.border-radius}",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.control.border-radius}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "({theme.sizing.control.md} / 2.5) - {theme.config.scale.step.control.border-radius}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{theme.border-radius.control.md} + {theme.config.scale.step.control.border-radius}",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "{theme.border-radius.control.lg} + {theme.config.scale.step.control.border-radius}",
+          "type": "borderRadius"
         }
       }
     }
