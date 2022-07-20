@@ -4,43 +4,43 @@
       "sizing": {
         "handle": {
           "default": {
-            "sm": {
-              "value": "{component.toggle.sizing.handle.default.md} - {theme.config.scale.component.toggle}",
-              "type": "sizing"
-            },
-            "md": {
+            "default": {
               "value": "{theme.sizing.control.xs}",
               "type": "sizing"
             },
+            "sm": {
+              "value": "{component.toggle.sizing.handle.default.default} - {theme.config.scale.component.toggle}",
+              "type": "sizing"
+            },
             "lg": {
-              "value": "{component.toggle.sizing.handle.default.md} + {theme.config.scale.component.toggle}",
+              "value": "{component.toggle.sizing.handle.default.default} + {theme.config.scale.component.toggle}",
               "type": "sizing"
             }
           },
           "pressed": {
-            "sm": {
-              "value": "{component.toggle.sizing.handle.default.sm} * {core.scale.ratio.major-third}",
-              "type": "sizing"
+            "default": {
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.default} * {core.scale.ratio.major-third}"
             },
-            "md": {
-              "value": "{component.toggle.sizing.handle.default.md} * {core.scale.ratio.major-third}",
-              "type": "sizing"
+            "sm": {
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.sm} * {core.scale.ratio.major-third}"
             },
             "lg": {
-              "value": "{component.toggle.sizing.handle.default.lg} * {core.scale.ratio.major-third}",
-              "type": "sizing"
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.lg} * {core.scale.ratio.major-third}"
             }
           }
         },
         "track": {
           "width": {
+            "default": {
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.default} * 2 + {theme.config.scale.component.toggle}"
+            },
             "sm": {
               "type": "sizing",
               "value": "{component.toggle.sizing.handle.default.sm} * 2 + {theme.config.scale.component.toggle}"
-            },
-            "md": {
-              "type": "sizing",
-              "value": "{component.toggle.sizing.handle.default.md} * 2 + {theme.config.scale.component.toggle}"
             },
             "lg": {
               "type": "sizing",
@@ -94,26 +94,26 @@
     },
     "border-radius": {
       "handle": {
-        "sm": {
-          "value": "{component.border-radius.handle.md} - {theme.config.scale.control.border-radius}",
-          "type": "borderRadius"
-        },
-        "md": {
+        "default": {
           "value": "{theme.border-radius.control.md}",
           "type": "borderRadius"
         },
+        "sm": {
+          "value": "{component.border-radius.handle.default} - {theme.config.scale.control.border-radius}",
+          "type": "borderRadius"
+        },
         "lg": {
-          "value": "{component.border-radius.handle.md} + {theme.config.scale.control.border-radius}",
+          "value": "{component.border-radius.handle.default} + {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         }
       },
       "track": {
-        "sm": {
-          "value": "{component.border-radius.handle.sm} + {theme.config.scale.control.border-radius}",
+        "default": {
+          "value": "{component.border-radius.handle.default} + {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
-        "md": {
-          "value": "{component.border-radius.handle.md} + {theme.config.scale.control.border-radius}",
+        "sm": {
+          "value": "{component.border-radius.handle.sm} + {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
         "lg": {
