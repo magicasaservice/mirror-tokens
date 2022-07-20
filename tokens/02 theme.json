@@ -1314,6 +1314,18 @@
           "font-size": {
             "value": "{core.scale.step.1px}",
             "type": "other"
+          },
+          "sizing": {
+            "value": "{core.scale.step.8px}",
+            "type": "other"
+          },
+          "spacing": {
+            "value": "{core.scale.step.4px}",
+            "type": "other"
+          },
+          "border-radius": {
+            "value": "{core.scale.step.2px}",
+            "type": "other"
           }
         },
         "headline": {
@@ -1326,22 +1338,6 @@
           "font-size": {
             "value": "{core.scale.ratio.perfect-fifth}",
             "type": "other"
-          }
-        },
-        "step": {
-          "control": {
-            "sizing": {
-              "value": "{core.scale.step.8px}",
-              "type": "other"
-            },
-            "spacing": {
-              "value": "{core.scale.step.4px}",
-              "type": "other"
-            },
-            "border-radius": {
-              "value": "{core.scale.step.2px}",
-              "type": "other"
-            }
           }
         }
       },
@@ -1411,15 +1407,15 @@
     "sizing": {
       "control": {
         "2xs": {
-          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.xs} - {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "xs": {
-          "value": "{theme.sizing.control.sm} - {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.sm} - {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "sm": {
-          "value": "{theme.sizing.control.md} - {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.md} - {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "md": {
@@ -1427,29 +1423,29 @@
           "type": "sizing"
         },
         "lg": {
-          "value": "{theme.sizing.control.md} + {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.md} + {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "xl": {
-          "value": "{theme.sizing.control.lg} + {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.lg} + {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "2xl": {
-          "value": "{theme.sizing.control.xl} + {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.xl} + {theme.config.scale.control.sizing}",
           "type": "sizing"
         }
       },
       "input": {
         "2xs": {
-          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.xs} - {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "xs": {
-          "value": "{theme.sizing.control.sm} - {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.sm} - {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "sm": {
-          "value": "{theme.sizing.control.md} - {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.md} - {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "md": {
@@ -1457,15 +1453,15 @@
           "type": "sizing"
         },
         "lg": {
-          "value": "{theme.sizing.control.md} + {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.md} + {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "xl": {
-          "value": "{theme.sizing.control.lg} + {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.lg} + {theme.config.scale.control.sizing}",
           "type": "sizing"
         },
         "2xl": {
-          "value": "{theme.sizing.control.xl} + {theme.config.scale.step.control.sizing}",
+          "value": "{theme.sizing.control.xl} + {theme.config.scale.control.sizing}",
           "type": "sizing"
         }
       }
@@ -1473,23 +1469,23 @@
     "border-radius": {
       "control": {
         "xs": {
-          "value": "{theme.border-radius.control.sm} - {theme.config.scale.step.control.border-radius}",
+          "value": "{theme.border-radius.control.sm} - {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
         "sm": {
-          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.control.border-radius}",
+          "value": "{theme.border-radius.control.md} - {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
         "md": {
-          "value": "({theme.sizing.control.md} / 2.5) - {theme.config.scale.step.control.border-radius}",
+          "value": "({theme.sizing.control.md} / 2.5) - {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{theme.border-radius.control.md} + {theme.config.scale.step.control.border-radius}",
+          "value": "{theme.border-radius.control.md} + {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
         "xl": {
-          "value": "{theme.border-radius.control.lg} + {theme.config.scale.step.control.border-radius}",
+          "value": "{theme.border-radius.control.lg} + {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
         "rounded": {
