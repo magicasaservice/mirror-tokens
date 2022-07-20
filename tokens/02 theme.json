@@ -592,75 +592,60 @@
     },
     "box-shadow": {
       "drop-shadow": {
-        "control": {
-          "xs": {
-            "value": {
-              "x": "0",
-              "y": "2",
-              "blur": "{core.font-size.default}",
-              "spread": "0",
-              "color": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
-              "type": "dropShadow"
-            },
-            "type": "boxShadow"
+        "xs": {
+          "value": {
+            "x": "0",
+            "y": "1px",
+            "blur": "2px",
+            "spread": "0",
+            "color": "{theme.config.box-shadow.color}",
+            "type": "dropShadow"
           },
-          "sm": {
-            "value": {
-              "x": "0",
-              "y": "{core.font-size.default}",
-              "blur": "{core.font-size.default} * 2",
-              "spread": "0",
-              "color": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
-              "type": "dropShadow"
-            },
-            "type": "boxShadow"
-          },
-          "md": {
-            "value": {
-              "x": "0",
-              "y": "{core.font-size.default} * 2",
-              "blur": "{core.font-size.default} * 4",
-              "spread": "0",
-              "color": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
-              "type": "dropShadow"
-            },
-            "type": "boxShadow"
-          },
-          "lg": {
-            "value": {
-              "x": "0",
-              "y": "{core.font-size.default} * 4",
-              "blur": "{core.font-size.default} * 8",
-              "spread": "0",
-              "color": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
-              "type": "dropShadow"
-            },
-            "type": "boxShadow"
-          },
-          "xl": {
-            "value": {
-              "x": "0",
-              "y": "{core.font-size.default} * 10",
-              "blur": "{core.font-size.default} * 12",
-              "spread": "0",
-              "color": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
-              "type": "dropShadow"
-            },
-            "type": "boxShadow"
-          }
+          "type": "boxShadow"
         },
-        "toggle-knob": {
-          "default": {
-            "value": {
-              "x": "0",
-              "y": "2",
-              "blur": "4",
-              "spread": "0",
-              "color": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
-              "type": "dropShadow"
-            },
-            "type": "boxShadow"
-          }
+        "sm": {
+          "value": {
+            "x": "0",
+            "y": "8px",
+            "blur": "16px",
+            "spread": "0",
+            "color": "{theme.config.box-shadow.color}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "md": {
+          "value": {
+            "x": "0",
+            "y": "16px",
+            "blur": "24px",
+            "spread": "0",
+            "color": "{theme.config.box-shadow.color}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "lg": {
+          "value": {
+            "x": "0",
+            "y": "24px",
+            "blur": "32px",
+            "spread": "0",
+            "color": "{theme.config.box-shadow.color}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "xl": {
+          "value": {
+            "x": "0",
+            "y": "32px",
+            "blur": "40px",
+            "spread": "0",
+            "color": "{theme.config.box-shadow.color}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         }
       }
     },
@@ -1385,6 +1370,12 @@
               "type": "other"
             }
           }
+        }
+      },
+      "box-shadow": {
+        "color": {
+          "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.20})",
+          "type": "other"
         }
       }
     },
