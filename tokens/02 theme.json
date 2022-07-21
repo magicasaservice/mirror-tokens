@@ -643,7 +643,7 @@
               "y": "32px",
               "blur": "40px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.light}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -654,7 +654,7 @@
               "y": "40px",
               "blur": "48px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.light}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -665,7 +665,7 @@
               "y": "48px",
               "blur": "56px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.light}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -676,7 +676,7 @@
               "y": "56px",
               "blur": "64px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.light}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -687,7 +687,7 @@
               "y": "64px",
               "blur": "72px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.light}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -700,7 +700,7 @@
               "y": "1px",
               "blur": "2px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.medium}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -711,7 +711,7 @@
               "y": "8px",
               "blur": "16px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -722,7 +722,7 @@
               "y": "16px",
               "blur": "24px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -733,7 +733,7 @@
               "y": "24px",
               "blur": "32px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -744,7 +744,7 @@
               "y": "32px",
               "blur": "40px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -755,7 +755,7 @@
               "y": "40px",
               "blur": "48px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -766,7 +766,7 @@
               "y": "48px",
               "blur": "56px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -777,7 +777,7 @@
               "y": "56px",
               "blur": "64px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -788,7 +788,7 @@
               "y": "64px",
               "blur": "72px",
               "spread": "0",
-              "color": "{theme.config.box-shadow.color.light}",
+              "color": "{theme.config.box-shadow.strong}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -1544,16 +1544,12 @@
           "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.10})",
           "type": "other"
         },
-        "regular": {
+        "default": {
           "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.20})",
           "type": "other"
         },
-        "medium": {
+        "strong": {
           "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.30})",
-          "type": "other"
-        },
-        "heavy": {
-          "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.saturation.0}, {theme.config.color.transparency.40})",
           "type": "other"
         }
       }
