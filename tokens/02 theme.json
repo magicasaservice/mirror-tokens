@@ -1581,39 +1581,39 @@
     "border-radius": {
       "control": {
         "3xs": {
-          "value": "{theme.border-radius.control.2xs} - {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.2xs} - {theme.config.scale.step.2xs}",
           "type": "borderRadius"
         },
         "2xs": {
-          "value": "{theme.border-radius.control.xs} - {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.xs} - {theme.config.scale.step.xs}",
           "type": "borderRadius"
         },
         "xs": {
-          "value": "{theme.border-radius.control.sm} - {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.sm} - {theme.config.scale.step.xs}",
           "type": "borderRadius"
         },
         "sm": {
-          "value": "{theme.border-radius.control.md} - {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.xs}",
           "type": "borderRadius"
         },
         "md": {
-          "value": "({theme.sizing.control.md} / 2.5) - {theme.config.scale.control.border-radius}",
+          "value": "({theme.sizing.control.md} / 2.5)",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{theme.border-radius.control.md} + {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.md} + {theme.config.scale.step.xs}",
           "type": "borderRadius"
         },
         "xl": {
-          "value": "{theme.border-radius.control.lg} + {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.lg} + {theme.config.scale.step.xs}",
           "type": "borderRadius"
         },
         "2xl": {
-          "value": "{theme.border-radius.control.xl} + {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.xl} + {theme.config.scale.step.xs}",
           "type": "borderRadius"
         },
         "3xl": {
-          "value": "{theme.border-radius.control.2xl} + {theme.config.scale.control.border-radius}",
+          "value": "{theme.border-radius.control.2xl} + {theme.config.scale.step.xs}",
           "type": "borderRadius"
         },
         "rounded": {
@@ -1622,8 +1622,8 @@
         }
       }
     },
-    "control": {
-      "border-width": {
+    "border-width": {
+      "control": {
         "sm": {
           "value": "{core.border-width.1}",
           "type": "borderWidth"
