@@ -3,13 +3,13 @@
     "button": {
       "sizing": {
         "height": {
-          "default": {
-            "type": "sizing",
-            "value": "{theme.sizing.control.md}"
-          },
           "sm": {
             "type": "sizing",
             "value": "{component.button.sizing.height.default} - {theme.config.scale.control.sizing}"
+          },
+          "default": {
+            "type": "sizing",
+            "value": "{theme.sizing.control.md}"
           },
           "lg": {
             "type": "sizing",
@@ -313,13 +313,13 @@
       },
       "spacing": {
         "padding": {
-          "default": {
-            "type": "spacing",
-            "value": "{component.button.sizing.height.default} / 2.5"
-          },
           "sm": {
             "type": "spacing",
             "value": "{component.button.spacing.padding.default} - {theme.config.scale.control.spacing}"
+          },
+          "default": {
+            "type": "spacing",
+            "value": "{component.button.sizing.height.default} / 2.5"
           },
           "lg": {
             "type": "spacing",
@@ -331,13 +331,13 @@
           }
         },
         "gap": {
-          "default": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.default} / 2"
-          },
           "sm": {
             "type": "spacing",
             "value": "{component.button.spacing.padding.sm} / 2"
+          },
+          "default": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.default} / 2"
           },
           "lg": {
             "type": "spacing",
@@ -367,7 +367,7 @@
             "type": "typography",
             "value": "{theme.typography.control.productive.sm}"
           },
-          "md": {
+          "default": {
             "type": "typography",
             "value": "{theme.typography.control.productive.md}"
           },
