@@ -9,11 +9,11 @@
               "type": "sizing"
             },
             "sm": {
-              "value": "{component.toggle.sizing.handle.default.default} - {theme.config.scale.component.toggle}",
+              "value": "{component.toggle.sizing.handle.default.default} - {theme.config.scale.step.xs}",
               "type": "sizing"
             },
             "lg": {
-              "value": "{component.toggle.sizing.handle.default.default} + {theme.config.scale.component.toggle}",
+              "value": "{component.toggle.sizing.handle.default.default} + {theme.config.scale.step.xs}",
               "type": "sizing"
             }
           },
@@ -36,15 +36,15 @@
           "width": {
             "default": {
               "type": "sizing",
-              "value": "{component.toggle.sizing.handle.default.default} * 2 + {theme.config.scale.component.toggle}"
+              "value": "{component.toggle.sizing.handle.default.default} * 2 + {component.toggle.spacing.default}"
             },
             "sm": {
               "type": "sizing",
-              "value": "{component.toggle.sizing.handle.default.sm} * 2 + {theme.config.scale.component.toggle}"
+              "value": "{component.toggle.sizing.handle.default.sm} * 2 + {component.toggle.spacing.default}"
             },
             "lg": {
               "type": "sizing",
-              "value": "{component.toggle.sizing.handle.default.lg} * 2 + {theme.config.scale.component.toggle}"
+              "value": "{component.toggle.sizing.handle.default.lg} * 2 + {component.toggle.spacing.default}"
             }
           }
         }
@@ -82,12 +82,12 @@
       "box-shadow": {
         "handle": {
           "type": "boxShadow",
-          "value": "{theme.box-shadow.control.handle}"
+          "value": "{theme.box-shadow.control.light.3xs}"
         }
       },
       "spacing": {
         "default": {
-          "value": "2px",
+          "value": "{theme.config.scale.step.2xs}",
           "type": "spacing"
         }
       }
@@ -95,15 +95,15 @@
     "border-radius": {
       "handle": {
         "default": {
-          "value": "{theme.border-radius.control.md}",
+          "value": "{theme.border-radius.control.rounded}",
           "type": "borderRadius"
         },
         "sm": {
-          "value": "{component.border-radius.handle.default} - {theme.config.scale.control.border-radius}",
+          "value": "{component.border-radius.handle.default} - {theme.config.scale.step.2xs}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{component.border-radius.handle.default} + {theme.config.scale.control.border-radius}",
+          "value": "{component.border-radius.handle.default} + {theme.config.scale.step.2xs}",
           "type": "borderRadius"
         }
       },
@@ -113,11 +113,11 @@
           "type": "borderRadius"
         },
         "sm": {
-          "value": "{component.border-radius.handle.sm} + {theme.config.scale.control.border-radius}",
+          "value": "{component.border-radius.handle.sm} + {theme.config.scale.step.2xs}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{component.border-radius.handle.lg} + {theme.config.scale.control.border-radius}",
+          "value": "{component.border-radius.handle.lg} + {theme.config.scale.step.2xs}",
           "type": "borderRadius"
         }
       }
