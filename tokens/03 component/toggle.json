@@ -4,12 +4,12 @@
       "sizing": {
         "handle": {
           "default": {
-            "default": {
-              "value": "{theme.sizing.control.xs}",
-              "type": "sizing"
-            },
             "sm": {
               "value": "{component.toggle.sizing.handle.default.default} - {theme.config.scale.step.xs}",
+              "type": "sizing"
+            },
+            "default": {
+              "value": "{theme.sizing.control.xs}",
               "type": "sizing"
             },
             "lg": {
@@ -18,13 +18,13 @@
             }
           },
           "pressed": {
-            "default": {
-              "type": "sizing",
-              "value": "{component.toggle.sizing.handle.default.default} * {theme.config.scale.ratio.md}"
-            },
             "sm": {
               "type": "sizing",
               "value": "{component.toggle.sizing.handle.default.sm} * {theme.config.scale.ratio.md}"
+            },
+            "default": {
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.default} * {theme.config.scale.ratio.md}"
             },
             "lg": {
               "type": "sizing",
@@ -34,13 +34,13 @@
         },
         "track": {
           "width": {
-            "default": {
-              "type": "sizing",
-              "value": "{component.toggle.sizing.handle.default.default} * 2 + {component.toggle.spacing.default}"
-            },
             "sm": {
               "type": "sizing",
               "value": "{component.toggle.sizing.handle.default.sm} * 2 + {component.toggle.spacing.default}"
+            },
+            "default": {
+              "type": "sizing",
+              "value": "{component.toggle.sizing.handle.default.default} * 2 + {component.toggle.spacing.default}"
             },
             "lg": {
               "type": "sizing",
@@ -94,12 +94,12 @@
     },
     "border-radius": {
       "handle": {
-        "default": {
-          "value": "{theme.border-radius.control.rounded}",
-          "type": "borderRadius"
-        },
         "sm": {
           "value": "{component.border-radius.handle.default} - {theme.config.scale.step.2xs}",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{theme.border-radius.control.rounded}",
           "type": "borderRadius"
         },
         "lg": {
@@ -108,12 +108,12 @@
         }
       },
       "track": {
-        "default": {
-          "value": "{component.border-radius.handle.default} + {theme.config.scale.control.border-radius}",
-          "type": "borderRadius"
-        },
         "sm": {
           "value": "{component.border-radius.handle.sm} + {theme.config.scale.step.2xs}",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{component.border-radius.handle.default} + {theme.config.scale.control.border-radius}",
           "type": "borderRadius"
         },
         "lg": {
