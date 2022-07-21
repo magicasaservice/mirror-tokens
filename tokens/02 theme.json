@@ -837,29 +837,7 @@
       },
       "default": {
         "default": {
-          "value": "{theme.config.font-size.base.default}",
-          "type": "fontSizes"
-        }
-      },
-      "headline": {
-        "h5": {
-          "value": "{theme.config.font-size.base.default}",
-          "type": "fontSizes"
-        },
-        "h4": {
-          "value": "{theme.font-size.headline.h5} * {theme.config.scale.text.headline}",
-          "type": "fontSizes"
-        },
-        "h3": {
-          "value": "{theme.font-size.headline.h4} * {theme.config.scale.text.headline}",
-          "type": "fontSizes"
-        },
-        "h2": {
-          "value": "{theme.font-size.headline.h3} * {theme.config.scale.text.headline}",
-          "type": "fontSizes"
-        },
-        "h1": {
-          "value": "{theme.font-size.headline.h2} * {theme.config.scale.text.headline}",
+          "value": "{theme.config.font-size.default}",
           "type": "fontSizes"
         }
       }
@@ -1189,10 +1167,6 @@
         "control": {
           "value": "{theme.config.sizing.default} * 2.5",
           "type": "other"
-        },
-        "handle": {
-          "value": "{theme.config.sizing.default} + {theme.config.scale.component.toggle}",
-          "type": "other"
         }
       },
       "color": {
@@ -1412,13 +1386,13 @@
         }
       },
       "font-size": {
+        "default": {
+          "value": "{core.font-size.default}",
+          "type": "other"
+        },
         "base": {
-          "default": {
-            "value": "{core.font-size.default}",
-            "type": "other"
-          },
           "control": {
-            "value": "{theme.config.font-size.base.default} * 0.875",
+            "value": "{theme.config.font-size.default} * 0.875",
             "type": "other"
           }
         }
@@ -1439,22 +1413,6 @@
           },
           "border-radius": {
             "value": "{core.scale.step.2}",
-            "type": "other"
-          }
-        },
-        "text": {
-          "headline": {
-            "value": "{core.scale.ratio.minor-third}",
-            "type": "other"
-          },
-          "title": {
-            "value": "{core.scale.ratio.perfect-fifth}",
-            "type": "other"
-          }
-        },
-        "component": {
-          "toggle": {
-            "value": "{core.scale.step.8}",
             "type": "other"
           }
         },
