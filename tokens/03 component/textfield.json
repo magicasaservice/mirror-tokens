@@ -1,0 +1,128 @@
+{
+  "component": {
+    "textfield": {
+      "sizing": {
+        "height": {
+          "sm": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.default} - {theme.config.scale.control.sizing}"
+          },
+          "default": {
+            "type": "sizing",
+            "value": "{theme.sizing.control.md}"
+          },
+          "lg": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.default} + {theme.config.scale.control.sizing}"
+          },
+          "xl": {
+            "type": "sizing",
+            "value": "{component.button.sizing.height.lg} + {theme.config.scale.control.sizing}"
+          }
+        }
+      },
+      "border-radius": {
+        "sm": {
+          "type": "borderRadius",
+          "value": "{component.button.border-radius.default} - {theme.config.scale.control.border-radius}"
+        },
+        "default": {
+          "type": "borderRadius",
+          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}"
+        },
+        "lg": {
+          "type": "borderRadius",
+          "value": "{component.button.border-radius.default} + {theme.config.scale.control.border-radius}"
+        },
+        "xl": {
+          "type": "borderRadius",
+          "value": "{component.button.border-radius.lg} + {theme.config.scale.control.border-radius}"
+        },
+        "rounded": {
+          "value": "{theme.border-radius.control.rounded}",
+          "type": "borderRadius"
+        }
+      },
+      "spacing": {
+        "padding": {
+          "sm": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.default} - {theme.config.scale.control.spacing}"
+          },
+          "default": {
+            "type": "spacing",
+            "value": "{component.button.sizing.height.default} / 2.5"
+          },
+          "lg": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.default} + {theme.config.scale.control.spacing}"
+          },
+          "xl": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.lg} + {theme.config.scale.control.spacing}"
+          }
+        },
+        "gap": {
+          "sm": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.sm} / 2"
+          },
+          "default": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.default} / 2"
+          },
+          "lg": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.lg} / 2"
+          },
+          "xl": {
+            "type": "spacing",
+            "value": "{component.button.spacing.padding.xl} / 2"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "2px",
+            "type": "spacing"
+          }
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{theme.border-width.control.sm}",
+          "type": "borderWidth"
+        }
+      },
+      "typography": {
+        "label": {
+          "sm": {
+            "type": "typography",
+            "value": "{theme.typography.control.productive.sm}"
+          },
+          "default": {
+            "type": "typography",
+            "value": "{theme.typography.control.productive.md}"
+          },
+          "lg": {
+            "type": "typography",
+            "value": "{theme.typography.control.productive.lg}"
+          },
+          "xl": {
+            "type": "typography",
+            "value": "{theme.typography.control.productive.xl}"
+          }
+        }
+      },
+      "color": {
+        "outline": {
+          "default": {
+            "border": {
+              "value": "{theme.color.control.primary.bg.light.default}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}

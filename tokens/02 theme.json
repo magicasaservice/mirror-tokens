@@ -370,6 +370,10 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})"
             },
+            "muted": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.20})"
+            },
             "on-normal": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0})"
@@ -425,6 +429,10 @@
             "default": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.primary}, {theme.config.color.lightness.90})"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.primary}, {theme.config.color.lightness.60})"
             },
             "on-normal": {
               "type": "color",
@@ -1114,7 +1122,7 @@
     },
     "font-family": {
       "sans": {
-        "value": "Magic Ui Pro",
+        "value": "Magic UI Pro",
         "type": "fontFamilies"
       },
       "serif": {
