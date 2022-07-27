@@ -1012,7 +1012,7 @@
             "xs": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.default}",
+                "fontWeight": "{theme.font-weight.light}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xs}"
               },
@@ -1021,7 +1021,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.default}",
+                "fontWeight": "{theme.font-weight.light}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.sm}"
               },
@@ -1030,7 +1030,7 @@
             "md": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.default}",
+                "fontWeight": "{theme.font-weight.light}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.md}"
               },
@@ -1039,7 +1039,7 @@
             "lg": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.default}",
+                "fontWeight": "{theme.font-weight.light}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.lg}"
               },
@@ -1048,7 +1048,7 @@
             "xl": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.default}",
+                "fontWeight": "{theme.font-weight.light}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xl}"
               },
@@ -1358,6 +1358,10 @@
     "font-weight": {
       "default": {
         "value": "{theme.config.font-weight.400}",
+        "type": "fontWeights"
+      },
+      "light": {
+        "value": "{theme.config.font-weight.100}",
         "type": "fontWeights"
       },
       "text": {
