@@ -333,24 +333,24 @@
         "gap": {
           "sm": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.sm} / 2"
+            "value": "{component.button.spacing.gap.default} - {theme.config.scale.control.gap}"
           },
           "default": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.default} / 2"
+            "value": "{theme.font-size.symbol.md} / 4"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.lg} / 2"
+            "value": "{component.button.spacing.gap.default} + {theme.config.scale.control.gap}"
           },
           "xl": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.xl} / 2"
+            "value": "{component.button.spacing.gap.lg} + {theme.config.scale.control.gap}"
           }
         },
-        "text": {
+        "label": {
           "default": {
-            "value": "2px",
+            "value": "{theme.config.scale.control.spacing}",
             "type": "spacing"
           }
         }
@@ -365,37 +365,37 @@
         "label": {
           "sm": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.sm}"
+            "value": "{theme.typography.control.strong.text.sm}"
           },
           "default": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.md}"
+            "value": "{theme.typography.control.strong.text.md}"
           },
           "lg": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.lg}"
+            "value": "{theme.typography.control.strong.text.lg}"
           },
           "xl": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.xl}"
+            "value": "{theme.typography.control.strong.text.xl}"
           }
         },
         "symbol": {
           "sm": {
             "type": "typography",
-            "value": "{theme.typography.control.symbol.sm}"
+            "value": "{theme.typography.control.strong.symbol.sm}"
           },
           "default": {
             "type": "typography",
-            "value": "{theme.typography.control.symbol.md}"
+            "value": "{theme.typography.control.strong.symbol.md}"
           },
           "lg": {
             "type": "typography",
-            "value": "{theme.typography.control.symbol.lg}"
+            "value": "{theme.typography.control.strong.symbol.lg}"
           },
           "xl": {
             "type": "typography",
-            "value": "{theme.typography.control.symbol.xl}"
+            "value": "{theme.typography.control.strong.symbol.xl}"
           }
         }
       }
