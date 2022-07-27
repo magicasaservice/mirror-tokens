@@ -14,10 +14,6 @@
           "lg": {
             "type": "sizing",
             "value": "{component.button.sizing.height.default} + {theme.config.scale.control.sizing}"
-          },
-          "xl": {
-            "type": "sizing",
-            "value": "{component.button.sizing.height.lg} + {theme.config.scale.control.sizing}"
           }
         }
       },
@@ -47,37 +43,29 @@
         "padding": {
           "sm": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.default} - {theme.config.scale.control.spacing}"
+            "value": "{component.textfield.sizing.height.sm} / 4"
           },
           "default": {
             "type": "spacing",
-            "value": "{component.button.sizing.height.default} / 2.5"
+            "value": "{component.textfield.sizing.height.default} / 4"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.default} + {theme.config.scale.control.spacing}"
-          },
-          "xl": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.lg} + {theme.config.scale.control.spacing}"
+            "value": "{component.textfield.sizing.height.lg} / 4"
           }
         },
         "gap": {
           "sm": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.sm} / 2"
+            "value": "{component.textfield.spacing.padding.sm} - {theme.config.scale.step.2xs}"
           },
           "default": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.default} / 2"
+            "value": "{component.textfield.spacing.padding.default} - {theme.config.scale.step.2xs}"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.button.spacing.padding.lg} / 2"
-          },
-          "xl": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.xl} / 2"
+            "value": "{component.textfield.spacing.padding.lg} - {theme.config.scale.step.2xs}"
           }
         },
         "text": {
@@ -116,12 +104,14 @@
         }
       },
       "color": {
-        "outline": {
-          "default": {
-            "border": {
-              "value": "{theme.color.control.primary.bg.light.default}",
-              "type": "color"
-            }
+        "default": {
+          "fg": {
+            "value": "{theme.color.control.inactive.bg.default}",
+            "type": "color"
+          },
+          "fg-muted": {
+            "value": "{theme.color.control.primary.bg.light.default}",
+            "type": "color"
           }
         },
         "focus-ring": {
