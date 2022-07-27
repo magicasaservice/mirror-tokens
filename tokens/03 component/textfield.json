@@ -20,15 +20,15 @@
       "border-radius": {
         "sm": {
           "type": "borderRadius",
-          "value": "{component.textfield.border-radius.default} - {theme.config.scale.control.border-radius}"
+          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}"
         },
         "default": {
           "type": "borderRadius",
-          "value": "{theme.border-radius.control.sm} + 2px"
+          "value": "{component.button.border-radius.default} + {theme.config.scale.control.border-radius}"
         },
         "lg": {
           "type": "borderRadius",
-          "value": "{component.textfield.border-radius.default} + {theme.config.scale.control.border-radius}"
+          "value": "{component.button.border-radius.lg} + {theme.config.scale.control.border-radius}"
         }
       },
       "spacing": {
@@ -107,7 +107,7 @@
         "label": {
           "default": {
             "type": "typography",
-            "value": "{theme.typography.control.productive.text.3xs}"
+            "value": "{theme.typography.control.strong.text.2xs}"
           }
         },
         "symbol": {
@@ -127,12 +127,12 @@
       },
       "color": {
         "default": {
-          "bg": {
-            "value": "{theme.color.control.inactive.bg.subtle}",
-            "type": "color"
-          },
           "border": {
             "value": "{theme.color.control.inactive.bg.muted}",
+            "type": "color"
+          },
+          "bg": {
+            "value": "{theme.color.control.inactive.bg.subtle}",
             "type": "color"
           },
           "fg": {
@@ -167,20 +167,6 @@
           },
           "fg": {
             "value": "{theme.color.control.danger.fg.default}",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "bg": {
-            "value": "{theme.color.control.disabled.bg.subtle}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{theme.color.control.inactive.bg.muted}",
-            "type": "color"
-          },
-          "fg": {
-            "value": "{theme.color.control.inactive.fg.default}",
             "type": "color"
           }
         }
