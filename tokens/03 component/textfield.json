@@ -20,15 +20,15 @@
       "border-radius": {
         "sm": {
           "type": "borderRadius",
-          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}"
+          "value": "{component.textfield.border-radius.default} - {theme.config.scale.control.border-radius}"
         },
         "default": {
           "type": "borderRadius",
-          "value": "{component.button.border-radius.default} + {theme.config.scale.control.border-radius}"
+          "value": "{theme.border-radius.control.sm} + 2px"
         },
         "lg": {
           "type": "borderRadius",
-          "value": "{component.button.border-radius.lg} + {theme.config.scale.control.border-radius}"
+          "value": "{component.textfield.border-radius.default} + {theme.config.scale.control.border-radius}"
         }
       },
       "spacing": {
@@ -107,7 +107,7 @@
         "label": {
           "default": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.text.2xs}"
+            "value": "{theme.typography.control.productive.text.3xs}"
           }
         },
         "symbol": {
