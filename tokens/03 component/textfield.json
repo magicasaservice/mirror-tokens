@@ -135,12 +135,16 @@
       },
       "color": {
         "default": {
-          "fg": {
-            "value": "{theme.color.control.inactive.bg.default}",
+          "bg": {
+            "value": "{theme.color.control.inactive.bg.muted}",
             "type": "color"
           },
-          "fg-muted": {
-            "value": "{theme.color.control.primary.bg.light.default}",
+          "fg": {
+            "value": "{theme.color.control.inactive.fg.default}",
+            "type": "color"
+          },
+          "fg-muted-copy": {
+            "value": "{theme.color.control.inactive.fg.muted}",
             "type": "color"
           }
         },
