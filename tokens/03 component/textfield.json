@@ -5,38 +5,30 @@
         "height": {
           "sm": {
             "type": "sizing",
-            "value": "{component.button.sizing.height.default} - {theme.config.scale.control.sizing}"
+            "value": "{component.textfield.sizing.height.default} - {theme.config.scale.control.sizing}"
           },
           "default": {
             "type": "sizing",
-            "value": "{theme.sizing.control.md}"
+            "value": "{theme.sizing.control.md} + {theme.config.scale.control.sizing}"
           },
           "lg": {
             "type": "sizing",
-            "value": "{component.button.sizing.height.default} + {theme.config.scale.control.sizing}"
+            "value": "{component.textfield.sizing.height.default} + {theme.config.scale.control.sizing}"
           }
         }
       },
       "border-radius": {
         "sm": {
           "type": "borderRadius",
-          "value": "{component.button.border-radius.default} - {theme.config.scale.control.border-radius}"
+          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}"
         },
         "default": {
           "type": "borderRadius",
-          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}"
+          "value": "{component.button.border-radius.default} + {theme.config.scale.control.border-radius}"
         },
         "lg": {
           "type": "borderRadius",
-          "value": "{component.button.border-radius.default} + {theme.config.scale.control.border-radius}"
-        },
-        "xl": {
-          "type": "borderRadius",
           "value": "{component.button.border-radius.lg} + {theme.config.scale.control.border-radius}"
-        },
-        "rounded": {
-          "value": "{theme.border-radius.control.rounded}",
-          "type": "borderRadius"
         }
       },
       "spacing": {
