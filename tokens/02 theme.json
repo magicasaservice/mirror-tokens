@@ -802,19 +802,6 @@
             "type": "boxShadow"
           }
         }
-      },
-      "focus-ring": {
-        "md": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "4px",
-            "color": "{component.button.color.accent.light.default.bg}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
       }
     },
     "font-size": {
@@ -1909,11 +1896,11 @@
           "type": "borderWidth"
         },
         "md": {
-          "value": "{core.border-width.2}",
+          "value": "{core.border-width.4}",
           "type": "borderWidth"
         },
         "lg": {
-          "value": "{core.border-width.3}",
+          "value": "{theme.focus-ring.control.md} + {theme.config.scale.step.3xs}",
           "type": "borderWidth"
         }
       }
