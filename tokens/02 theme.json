@@ -331,6 +331,10 @@
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.50})"
               },
+              "subtle": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
+              },
               "hover": {
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})"
@@ -507,13 +511,17 @@
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.50})"
               },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.danger.bg.normal.hover}"
+              },
               "hover": {
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.60})"
               },
-              "active": {
+              "subtle": {
                 "type": "color",
-                "value": "{theme.color.control.danger.bg.normal.hover}"
+                "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               }
             },
             "light": {
@@ -544,7 +552,7 @@
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.70})"
+              "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.60})"
             },
             "on-normal": {
               "type": "color",
@@ -578,11 +586,11 @@
           "bg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.40}, {theme.config.color.transparency.100})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.60})"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.40}, {theme.config.color.transparency.60})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.40})"
             },
             "subtle": {
               "type": "color",
@@ -592,11 +600,11 @@
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.100})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.80})"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.80})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.60})"
             },
             "on-bg": {
               "type": "color",

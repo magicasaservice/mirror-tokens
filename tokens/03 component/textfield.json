@@ -136,21 +136,45 @@
       "color": {
         "default": {
           "bg": {
+            "value": "{theme.color.control.inactive.bg.subtle}",
+            "type": "color"
+          },
+          "border": {
             "value": "{theme.color.control.inactive.bg.muted}",
             "type": "color"
           },
           "fg": {
             "value": "{theme.color.control.inactive.fg.default}",
             "type": "color"
-          },
-          "fg-muted-copy": {
-            "value": "{theme.color.control.inactive.fg.muted}",
-            "type": "color"
           }
         },
         "focus": {
-          "ring": {
+          "border": {
+            "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})",
+            "type": "color"
+          },
+          "focus-ring": {
             "value": "{component.button.color.accent.light.hover.bg}",
+            "type": "color"
+          }
+        },
+        "filled": {
+          "fg": {
+            "value": "{theme.color.surface.fg.default}",
+            "type": "color"
+          }
+        },
+        "danger": {
+          "bg": {
+            "value": "{theme.color.control.danger.bg.normal.subtle}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{theme.color.control.danger.bg.normal.default}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{theme.color.control.danger.fg.default}",
             "type": "color"
           }
         }
