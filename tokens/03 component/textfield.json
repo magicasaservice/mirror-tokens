@@ -69,9 +69,25 @@
           }
         },
         "text": {
-          "default": {
-            "value": "2px",
-            "type": "spacing"
+          "padding": {
+            "default": {
+              "value": "2px",
+              "type": "spacing"
+            }
+          },
+          "gap": {
+            "sm": {
+              "value": "2px - {component.textfield.spacing.text.gap.default}",
+              "type": "spacing"
+            },
+            "default": {
+              "value": "2px",
+              "type": "spacing"
+            },
+            "lg": {
+              "value": "2px + {component.textfield.spacing.text.gap.default}",
+              "type": "spacing"
+            }
           }
         }
       },
@@ -85,21 +101,35 @@
         "input": {
           "sm": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.text.sm}"
+            "value": "{theme.typography.control.productive.text.sm}"
           },
           "default": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.text.md}"
+            "value": "{theme.typography.control.productive.text.md}"
           },
           "lg": {
             "type": "typography",
-            "value": "{theme.typography.control.strong.text.lg}"
+            "value": "{theme.typography.control.productive.text.lg}"
           }
         },
         "label": {
           "default": {
             "type": "typography",
             "value": "{theme.typography.control.strong.text.2xs}"
+          }
+        },
+        "symbol": {
+          "sm": {
+            "type": "typography",
+            "value": "{theme.typography.control.productive.symbol.md}"
+          },
+          "default": {
+            "type": "typography",
+            "value": "{theme.typography.control.productive.symbol.lg}"
+          },
+          "lg": {
+            "type": "typography",
+            "value": "{theme.typography.control.productive.symbol.xl}"
           }
         }
       },
@@ -114,18 +144,16 @@
             "type": "color"
           }
         },
-        "focus-ring": {
-          "default": {
-            "border": {
-              "value": "{component.button.color.accent.light.hover.bg}",
-              "type": "color"
-            }
+        "focus": {
+          "ring": {
+            "value": "{component.button.color.accent.light.hover.bg}",
+            "type": "color"
           }
         }
       },
       "focus-ring": {
         "default": {
-          "value": "{theme.border-width.control.lg}",
+          "value": "{theme.focus-ring.control.lg}",
           "type": "borderWidth"
         }
       }
