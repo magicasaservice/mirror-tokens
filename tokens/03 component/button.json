@@ -319,7 +319,7 @@
           },
           "default": {
             "type": "spacing",
-            "value": "{component.button.sizing.height.default} / 2"
+            "value": "{component.button.sizing.height.default} / 2.5"
           },
           "lg": {
             "type": "spacing",
@@ -363,6 +363,24 @@
       },
       "typography": {
         "label": {
+          "sm": {
+            "type": "typography",
+            "value": "{theme.typography.control.strong.sm}"
+          },
+          "default": {
+            "type": "typography",
+            "value": "{theme.typography.control.strong.md}"
+          },
+          "lg": {
+            "type": "typography",
+            "value": "{theme.typography.control.strong.lg}"
+          },
+          "xl": {
+            "type": "typography",
+            "value": "{theme.typography.control.strong.xl}"
+          }
+        },
+        "symbol": {
           "sm": {
             "type": "typography",
             "value": "{theme.typography.control.strong.sm}"

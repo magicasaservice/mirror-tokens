@@ -842,6 +842,28 @@
           "value": "{theme.font-size.control.2xl} + {theme.config.scale.step.3xs}",
           "type": "fontSizes"
         }
+      },
+      "symbol": {
+        "xs": {
+          "value": "{theme.font-size.symbol.sm} - {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{theme.font-size.symbol.md} - {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{core.font-size.default}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{theme.font-size.symbol.md} + {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{theme.font-size.symbol.lg} + {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        }
       }
     },
     "typography": {
@@ -1202,6 +1224,17 @@
             },
             "type": "typography"
           }
+        },
+        "symbol": {
+          "md": {
+            "value": {
+              "fontFamily": "{theme.font-family.symbols}",
+              "fontWeight": "{theme.font-weight.medium}",
+              "lineHeight": "",
+              "fontSize": "{theme.font-size.symbol.md}"
+            },
+            "type": "typography"
+          }
         }
       }
     },
@@ -1246,6 +1279,10 @@
       },
       "ui": {
         "value": "{theme.font-family.sans}",
+        "type": "fontFamilies"
+      },
+      "symbols": {
+        "value": "Magic UI Symbols",
         "type": "fontFamilies"
       }
     },
