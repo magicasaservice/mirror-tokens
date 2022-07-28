@@ -568,17 +568,17 @@
           "bg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.30}, {theme.config.color.transparency.50})"
+              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
             }
           },
           "fg": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.40}, {theme.config.color.transparency.50})"
+              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.50}, {theme.config.color.transparency.50})"
             },
             "on-bg": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.secondary}, {theme.config.color.lightness.40}, {theme.config.color.transparency.50})"
+              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.50}, {theme.config.color.transparency.50})"
             }
           }
         },
@@ -639,7 +639,7 @@
             "value": {
               "x": "0",
               "y": "1px",
-              "blur": "2px",
+              "blur": "1px",
               "spread": "0",
               "color": "{theme.config.box-shadow.color.light}",
               "type": "dropShadow"
@@ -740,7 +740,7 @@
             "value": {
               "x": "0",
               "y": "1px",
-              "blur": "2px",
+              "blur": "1px",
               "spread": "0",
               "color": "{theme.config.box-shadow.color.strong}",
               "type": "dropShadow"
