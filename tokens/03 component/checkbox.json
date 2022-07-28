@@ -1,0 +1,40 @@
+{
+  "component": {
+    "checkbox": {
+      "sizing": {
+        "sm": {
+          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
+          "type": "sizing"
+        },
+        "default": {
+          "value": "{theme.sizing.control.xs}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{theme.sizing.control.xs} + {theme.config.scale.step.xs}",
+          "type": "sizing"
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{theme.border-width.control.md}",
+          "type": "borderWidth"
+        }
+      },
+      "border-radius": {
+        "sm": {
+          "value": "{component.checkbox.border-radius.default} - {theme.config.scale.step.2xs}",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{theme.border-radius.control.xs}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{component.checkbox.border-radius.default} + {theme.config.scale.step.2xs}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}
