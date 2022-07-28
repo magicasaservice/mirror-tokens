@@ -848,6 +848,10 @@
     },
     "font-size": {
       "control": {
+        "4xs": {
+          "value": "{theme.font-size.control.3xs} - {theme.config.scale.step.3xs}",
+          "type": "fontSizes"
+        },
         "3xs": {
           "value": "{theme.font-size.control.2xs} - {theme.config.scale.step.3xs}",
           "type": "fontSizes"
@@ -912,6 +916,19 @@
       "control": {
         "productive": {
           "text": {
+            "4xs": {
+              "value": {
+                "fontFamily": "{theme.font-family.ui}",
+                "fontWeight": "{theme.font-weight.text}",
+                "fontSize": "{theme.font-size.control.4xs}",
+                "lineHeight": "{theme.line-height.control.default}",
+                "textCase": "",
+                "letterSpacing": "",
+                "paragraphSpacing": "",
+                "textDecoration": ""
+              },
+              "type": "typography"
+            },
             "3xs": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
@@ -1080,6 +1097,19 @@
         },
         "expressive": {
           "text": {
+            "4xs": {
+              "value": {
+                "fontFamily": "{theme.font-family.ui}",
+                "fontWeight": "{theme.font-weight.strong}",
+                "fontSize": "{theme.font-size.control.4xs}",
+                "lineHeight": "{theme.line-height.control.default}",
+                "textCase": "{core.text-case.uppercase}",
+                "letterSpacing": "{theme.letter-spacing.md}",
+                "paragraphSpacing": "",
+                "textDecoration": ""
+              },
+              "type": "typography"
+            },
             "3xs": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
@@ -1248,6 +1278,19 @@
         },
         "strong": {
           "text": {
+            "4xs": {
+              "value": {
+                "fontFamily": "{theme.font-family.ui}",
+                "fontWeight": "{theme.font-weight.medium}",
+                "fontSize": "{theme.font-size.control.4xs}",
+                "lineHeight": "{theme.line-height.control.default}",
+                "textCase": "",
+                "letterSpacing": "",
+                "paragraphSpacing": "",
+                "textDecoration": ""
+              },
+              "type": "typography"
+            },
             "3xs": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
