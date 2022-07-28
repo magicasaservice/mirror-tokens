@@ -615,6 +615,20 @@
               "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.60})"
             }
           }
+        },
+        "focus": {
+          "bg": {
+            "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})",
+            "type": "color"
+          },
+          "border": {
+            "value": "{theme.color.control.focus.bg}",
+            "type": "color"
+          },
+          "focus-ring": {
+            "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})",
+            "type": "color"
+          }
         }
       }
     },
@@ -1920,7 +1934,7 @@
     "focus-ring": {
       "control": {
         "sm": {
-          "value": "{core.border-width.1}",
+          "value": "{theme.focus-ring.control.md} - {theme.config.scale.step.2xs}",
           "type": "borderWidth"
         },
         "md": {
@@ -1928,7 +1942,7 @@
           "type": "borderWidth"
         },
         "lg": {
-          "value": "{theme.focus-ring.control.md} + {theme.config.scale.step.3xs}",
+          "value": "{theme.focus-ring.control.md} + {theme.config.scale.step.2xs}",
           "type": "borderWidth"
         }
       }

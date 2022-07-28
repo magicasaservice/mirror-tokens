@@ -68,7 +68,15 @@
             }
           },
           "gap": {
+            "sm": {
+              "value": "0px",
+              "type": "spacing"
+            },
             "default": {
+              "value": "1px",
+              "type": "spacing"
+            },
+            "lg": {
               "value": "2px",
               "type": "spacing"
             }
@@ -78,6 +86,10 @@
       "border-width": {
         "default": {
           "value": "{theme.border-width.control.sm}",
+          "type": "borderWidth"
+        },
+        "strong": {
+          "value": "{theme.border-width.control.md}",
           "type": "borderWidth"
         }
       },
@@ -134,11 +146,11 @@
         },
         "focus": {
           "border": {
-            "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})",
+            "value": "{theme.color.control.focus.border}",
             "type": "color"
           },
           "focus-ring": {
-            "value": "{component.button.color.accent.light.hover.bg}",
+            "value": "{theme.color.control.focus.focus-ring}",
             "type": "color"
           }
         },
@@ -165,7 +177,7 @@
       },
       "focus-ring": {
         "default": {
-          "value": "{theme.focus-ring.control.lg}",
+          "value": "{theme.focus-ring.control.md}",
           "type": "borderWidth"
         }
       }
