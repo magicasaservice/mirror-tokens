@@ -90,35 +90,35 @@
           "value": "{theme.config.scale.step.2xs}",
           "type": "spacing"
         }
-      }
-    },
-    "border-radius": {
-      "handle": {
-        "sm": {
-          "value": "{component.border-radius.handle.default} - {theme.config.scale.step.2xs}",
-          "type": "borderRadius"
-        },
-        "default": {
-          "value": "{theme.border-radius.control.rounded}",
-          "type": "borderRadius"
-        },
-        "lg": {
-          "value": "{component.border-radius.handle.default} + {theme.config.scale.step.2xs}",
-          "type": "borderRadius"
-        }
       },
-      "track": {
-        "sm": {
-          "value": "{component.border-radius.handle.sm} + {theme.config.scale.step.2xs}",
-          "type": "borderRadius"
+      "border-radius": {
+        "handle": {
+          "sm": {
+            "value": "{component.toggle.border-radius.handle.default} - {theme.config.scale.step.2xs}",
+            "type": "borderRadius"
+          },
+          "default": {
+            "value": "{theme.border-radius.control.rounded}",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "{component.toggle.border-radius.handle.default} + {theme.config.scale.step.2xs}",
+            "type": "borderRadius"
+          }
         },
-        "default": {
-          "value": "{component.border-radius.handle.default} + {theme.config.scale.control.border-radius}",
-          "type": "borderRadius"
-        },
-        "lg": {
-          "value": "{component.border-radius.handle.lg} + {theme.config.scale.step.2xs}",
-          "type": "borderRadius"
+        "track": {
+          "sm": {
+            "value": "{component.toggle.border-radius.handle.sm} + {theme.config.scale.step.2xs}",
+            "type": "borderRadius"
+          },
+          "default": {
+            "value": "{component.toggle.border-radius.handle.default} + {theme.config.scale.control.border-radius}",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "{component.toggle.border-radius.handle.lg} + {theme.config.scale.step.2xs}",
+            "type": "borderRadius"
+          }
         }
       }
     }
