@@ -87,10 +87,6 @@
         "default": {
           "value": "{theme.border-width.control.sm}",
           "type": "borderWidth"
-        },
-        "strong": {
-          "value": "{theme.border-width.control.md}",
-          "type": "borderWidth"
         }
       },
       "typography": {
@@ -131,12 +127,12 @@
       },
       "color": {
         "default": {
-          "border": {
-            "value": "{theme.color.control.inactive.bg.muted}",
-            "type": "color"
-          },
           "bg": {
             "value": "{theme.color.control.inactive.bg.subtle}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{theme.color.control.inactive.bg.muted}",
             "type": "color"
           },
           "fg": {
