@@ -1104,7 +1104,7 @@
                 "fontSize": "{theme.font-size.control.4xs}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
-                "letterSpacing": "{theme.letter-spacing.md}",
+                "letterSpacing": "{theme.font-size.control.4xs} / 10 * {theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
               },
@@ -1924,6 +1924,10 @@
       },
       "font-size": {
         "default": {
+          "value": "16px",
+          "type": "other"
+        },
+        "default-copy": {
           "value": "16px",
           "type": "other"
         }
