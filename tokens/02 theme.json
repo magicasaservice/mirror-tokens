@@ -890,6 +890,14 @@
         }
       },
       "symbol": {
+        "3xs": {
+          "value": "{theme.font-size.symbol.2xs} - {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        },
+        "2xs": {
+          "value": "{theme.font-size.symbol.xs} - {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        },
         "xs": {
           "value": "{theme.font-size.symbol.sm} - {theme.config.scale.step.2xs}",
           "type": "fontSizes"
@@ -908,6 +916,14 @@
         },
         "xl": {
           "value": "{theme.font-size.symbol.lg} + {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "{theme.font-size.symbol.xl} + {theme.config.scale.step.2xs}",
+          "type": "fontSizes"
+        },
+        "3xl": {
+          "value": "{theme.font-size.symbol.2xl} + {theme.config.scale.step.2xs}",
           "type": "fontSizes"
         }
       }
@@ -1090,6 +1106,24 @@
                 "fontWeight": "{theme.font-weight.light}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xl}"
+              },
+              "type": "typography"
+            },
+            "2xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.symbols}",
+                "fontWeight": "{theme.font-weight.light}",
+                "lineHeight": "",
+                "fontSize": "{theme.font-size.symbol.2xl}"
+              },
+              "type": "typography"
+            },
+            "3xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.symbols}",
+                "fontWeight": "{theme.font-weight.light}",
+                "lineHeight": "",
+                "fontSize": "{theme.font-size.symbol.3xl}"
               },
               "type": "typography"
             }

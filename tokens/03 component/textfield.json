@@ -15,6 +15,20 @@
             "type": "sizing",
             "value": "{component.textfield.sizing.height.default} + {theme.config.scale.control.sizing}"
           }
+        },
+        "symbol": {
+          "sm": {
+            "type": "sizing",
+            "value": "{component.textfield.sizing.symbol.default} - {theme.config.scale.step.2xs}"
+          },
+          "default": {
+            "type": "sizing",
+            "value": "{theme.font-size.symbol.xl}"
+          },
+          "lg": {
+            "type": "sizing",
+            "value": "{component.textfield.sizing.symbol.default} + {theme.config.scale.step.2xs}"
+          }
         }
       },
       "border-radius": {
@@ -35,35 +49,35 @@
         "padding": {
           "sm": {
             "type": "spacing",
-            "value": "{component.textfield.sizing.height.sm} / 4"
+            "value": "({component.textfield.sizing.height.sm} - {component.textfield.sizing.symbol.sm}) / 2"
           },
           "default": {
             "type": "spacing",
-            "value": "{component.textfield.sizing.height.default} / 4"
+            "value": "({component.textfield.sizing.height.default} - {component.textfield.sizing.symbol.default}) / 2"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.textfield.sizing.height.lg} / 4"
+            "value": "({component.textfield.sizing.height.lg} - {component.textfield.sizing.symbol.lg}) / 2"
           }
         },
         "gap": {
           "sm": {
             "type": "spacing",
-            "value": "{component.textfield.spacing.padding.sm} - {theme.config.scale.step.2xs}"
+            "value": "{component.textfield.spacing.padding.sm} - {theme.config.scale.step.md}"
           },
           "default": {
             "type": "spacing",
-            "value": "{component.textfield.spacing.padding.default} - {theme.config.scale.step.2xs}"
+            "value": "{component.textfield.spacing.padding.default} - {theme.config.scale.step.md}"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.textfield.spacing.padding.lg} - {theme.config.scale.step.2xs}"
+            "value": "{component.textfield.spacing.padding.lg} - {theme.config.scale.step.md}"
           }
         },
         "text": {
           "padding": {
             "default": {
-              "value": "4px",
+              "value": "6px",
               "type": "spacing"
             }
           },
@@ -113,15 +127,15 @@
         "symbol": {
           "sm": {
             "type": "typography",
-            "value": "{theme.typography.control.productive.symbol.md}"
+            "value": "{theme.typography.control.productive.symbol.lg}"
           },
           "default": {
             "type": "typography",
-            "value": "{theme.typography.control.productive.symbol.lg}"
+            "value": "{theme.typography.control.productive.symbol.xl}"
           },
           "lg": {
             "type": "typography",
-            "value": "{theme.typography.control.productive.symbol.xl}"
+            "value": "{theme.typography.control.productive.symbol.2xl}"
           }
         }
       },
