@@ -331,10 +331,6 @@
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.50})"
               },
-              "subtle": {
-                "type": "color",
-                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
-              },
               "hover": {
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})"
@@ -342,6 +338,10 @@
               "active": {
                 "type": "color",
                 "value": "{theme.color.control.accent.bg.normal.hover}"
+              },
+              "subtle": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               }
             },
             "light": {
@@ -566,17 +566,23 @@
         },
         "disabled": {
           "bg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
+            "normal": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
+              }
             },
             "muted": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
+              }
             },
             "subtle": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.5})"
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
+              }
             }
           },
           "fg": {
@@ -592,17 +598,31 @@
         },
         "inactive": {
           "bg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.60})"
+            "normal": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.60})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.70})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.inactive.bg.normal.hover}"
+              }
             },
             "muted": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+              }
             },
             "subtle": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
+              }
             }
           },
           "fg": {
@@ -1067,7 +1087,7 @@
             "xs": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.default}",
+                "fontWeight": "{theme.font-weight.text}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xs}"
               },
@@ -1076,7 +1096,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.default}",
+                "fontWeight": "{theme.font-weight.text}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.sm}"
               },
@@ -1266,7 +1286,7 @@
             "xs": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xs}"
               },
@@ -1275,7 +1295,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.sm}"
               },
@@ -1305,6 +1325,24 @@
                 "fontWeight": "{theme.font-weight.medium}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xl}"
+              },
+              "type": "typography"
+            },
+            "2xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.symbols}",
+                "fontWeight": "{theme.font-weight.medium}",
+                "lineHeight": "",
+                "fontSize": "{theme.font-size.symbol.2xl}"
+              },
+              "type": "typography"
+            },
+            "3xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.symbols}",
+                "fontWeight": "{theme.font-weight.medium}",
+                "lineHeight": "",
+                "fontSize": "{theme.font-size.symbol.3xl}"
               },
               "type": "typography"
             }
@@ -1447,7 +1485,7 @@
             "xs": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xs}"
               },
@@ -1456,7 +1494,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.sm}"
               },
@@ -1486,6 +1524,24 @@
                 "fontWeight": "{theme.font-weight.medium}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xl}"
+              },
+              "type": "typography"
+            },
+            "2xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.symbols}",
+                "fontWeight": "{theme.font-weight.medium}",
+                "lineHeight": "",
+                "fontSize": "{theme.font-size.symbol.2xl}"
+              },
+              "type": "typography"
+            },
+            "3xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.symbols}",
+                "fontWeight": "{theme.font-weight.medium}",
+                "lineHeight": "",
+                "fontSize": "{theme.font-size.symbol.3xl}"
               },
               "type": "typography"
             }

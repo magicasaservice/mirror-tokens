@@ -3,15 +3,15 @@
     "checkbox": {
       "sizing": {
         "sm": {
-          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
+          "value": "{component.checkbox.sizing.default} - {theme.config.scale.step.xs}",
           "type": "sizing"
         },
         "default": {
-          "value": "{theme.sizing.control.xs}",
+          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
           "type": "sizing"
         },
         "lg": {
-          "value": "{theme.sizing.control.xs} + {theme.config.scale.step.xs}",
+          "value": "{component.checkbox.sizing.default} + {theme.config.scale.step.xs}",
           "type": "sizing"
         }
       },
@@ -27,12 +27,118 @@
           "type": "borderRadius"
         },
         "default": {
-          "value": "{theme.border-radius.control.xs}",
+          "value": "{theme.border-radius.control.xs} - {theme.config.scale.step.3xs}",
           "type": "borderRadius"
         },
         "lg": {
           "value": "{component.checkbox.border-radius.default} + {theme.config.scale.step.2xs}",
           "type": "borderRadius"
+        }
+      },
+      "typography": {
+        "symbol": {
+          "sm": {
+            "value": "{theme.typography.control.strong.symbol.xs}",
+            "type": "typography"
+          },
+          "default": {
+            "value": "{theme.typography.control.strong.symbol.md}",
+            "type": "typography"
+          },
+          "lg": {
+            "value": "{theme.typography.control.strong.symbol.xl}",
+            "type": "typography"
+          }
+        }
+      },
+      "spacing": {
+        "default": {
+          "value": "2px",
+          "type": "spacing"
+        }
+      },
+      "symbol": {
+        "sm": {
+          "value": "{component.checkbox.symbol.default} - {theme.config.scale.step.xs}",
+          "type": "sizing"
+        },
+        "default": {
+          "value": "{theme.sizing.control.2xs}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{component.checkbox.symbol.default} + {theme.config.scale.step.xs}",
+          "type": "sizing"
+        }
+      },
+      "focus-ring": {
+        "default": {
+          "value": "{theme.focus-ring.control.md}",
+          "type": "borderWidth"
+        }
+      }
+    }
+  },
+  "compnent": {
+    "checkbox": {
+      "color": {
+        "unchecked": {
+          "default": {
+            "bg": {
+              "value": "{theme.color.control.inactive.bg.subtle.default}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{theme.color.control.inactive.bg.normal.default}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "border": {
+              "value": "{theme.color.control.focus.border}",
+              "type": "color"
+            },
+            "focus-ring": {
+              "value": "{theme.color.control.focus.focus-ring}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{theme.color.control.disabled.bg.subtle.default}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{theme.color.control.disabled.bg.muted.default}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{theme.color.control.disabled.bg.normal.default}",
+              "type": "color"
+            }
+          }
+        },
+        "checked": {
+          "default": {
+            "bg": {
+              "value": "{theme.color.control.accent.bg.normal.default}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{theme.color.control.accent.fg.on-normal}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "border": {
+              "value": "{theme.color.control.focus.border}",
+              "type": "color"
+            },
+            "focus-ring": {
+              "value": "{theme.color.control.focus.focus-ring}",
+              "type": "color"
+            }
+          }
         }
       }
     }
