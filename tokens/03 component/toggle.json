@@ -50,32 +50,42 @@
         }
       },
       "color": {
-        "bg": {
-          "active": {
-            "type": "color",
-            "value": "{theme.color.control.accent.bg.normal.default}"
-          },
-          "inactive": {
-            "type": "color",
-            "value": "{theme.color.control.inactive.bg.normal.default}"
+        "on": {
+          "default": {
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.accent.bg.normal.default}"
+            },
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.control.accent.fg.on-normal}"
+            }
           },
           "disabled": {
-            "type": "color",
-            "value": "{theme.color.control.disabled.bg.normal.default}"
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.palette.blue.30}"
+            }
           }
         },
-        "fg": {
+        "off": {
           "default": {
-            "type": "color",
-            "value": "{theme.color.control.accent.fg.on-normal}"
+            "bg": {
+              "type": "color",
+              "value": "{theme.color.control.inactive.bg.normal.default}"
+            }
           },
-          "disabled-active": {
+          "disabled": {
+            "fg": {
+              "type": "color",
+              "value": "{theme.color.control.disabled.bg.normal.solid}"
+            }
+          }
+        },
+        "focus": {
+          "focus-ring": {
             "type": "color",
-            "value": "{theme.color.palette.blue.30}"
-          },
-          "disabled-inactive": {
-            "type": "color",
-            "value": "{theme.color.palette.neutral.10}"
+            "value": "{theme.color.control.focus.focus-ring.default}"
           }
         }
       },
