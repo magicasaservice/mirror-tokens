@@ -627,32 +627,44 @@
             "muted": {
               "default": {
                 "type": "color",
-                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
               }
             },
             "subtle": {
               "default": {
                 "type": "color",
-                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               }
             }
           },
           "fg": {
-            "default": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60})"
+            "normal": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60})"
+              }
             },
             "muted": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.60})"
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.60}, {theme.config.color.transparency.60})"
+              }
+            },
+            "subtle": {
+              "default": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
+              }
             },
             "on-bg": {
-              "type": "color",
-              "value": "hsl({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0})"
-            },
-            "on-bg-muted": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.60})"
+              "default": {
+                "type": "color",
+                "value": "hsl({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0})"
+              },
+              "muted": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.60})"
+              }
             }
           }
         },
