@@ -52,9 +52,17 @@
         }
       },
       "spacing": {
-        "default": {
-          "value": "2px",
-          "type": "spacing"
+        "box": {
+          "default": {
+            "value": "2px",
+            "type": "spacing"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "2px",
+            "type": "spacing"
+          }
         }
       },
       "symbol": {
@@ -95,25 +103,13 @@
           },
           "focus": {
             "border": {
-              "value": "{theme.color.control.focus.border}",
-              "type": "color"
-            },
-            "focus-ring": {
-              "value": "{theme.color.control.focus.focus-ring}",
+              "value": "{theme.color.control.focus.border.default}",
               "type": "color"
             }
           },
-          "disabled": {
-            "bg": {
-              "value": "{theme.color.control.disabled.bg.subtle.default}",
-              "type": "color"
-            },
+          "active": {
             "border": {
-              "value": "{theme.color.control.disabled.bg.muted.default}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{theme.color.control.disabled.bg.normal.default}",
+              "value": "{theme.color.control.focus.border.active}",
               "type": "color"
             }
           }
@@ -124,20 +120,36 @@
               "value": "{theme.color.control.accent.bg.normal.default}",
               "type": "color"
             },
-            "border": {
+            "fg-on-checked": {
               "value": "{theme.color.control.accent.fg.on-normal}",
               "type": "color"
             }
           },
-          "focus": {
-            "border": {
-              "value": "{theme.color.control.focus.border}",
-              "type": "color"
-            },
-            "focus-ring": {
-              "value": "{theme.color.control.focus.focus-ring}",
+          "active": {
+            "bg": {
+              "value": "{theme.color.control.focus.bg.active}",
               "type": "color"
             }
+          }
+        },
+        "focus": {
+          "focus-ring": {
+            "value": "{theme.color.control.focus.focus-ring.default}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "bg": {
+            "value": "{theme.color.control.disabled.bg.subtle.default}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{theme.color.control.disabled.bg.muted.default}",
+            "type": "color"
+          },
+          "fg-on-disabled": {
+            "value": "{theme.color.control.disabled.bg.normal.default}",
+            "type": "color"
           }
         }
       }

@@ -646,16 +646,30 @@
         },
         "focus": {
           "bg": {
-            "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})",
-            "type": "color"
+            "default": {
+              "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.50})",
+              "type": "color"
+            },
+            "active": {
+              "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})",
+              "type": "color"
+            }
           },
           "border": {
-            "value": "{theme.color.control.focus.bg}",
-            "type": "color"
+            "default": {
+              "value": "{theme.color.control.focus.bg.default}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{theme.color.control.focus.bg.active}",
+              "type": "color"
+            }
           },
           "focus-ring": {
-            "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})",
-            "type": "color"
+            "default": {
+              "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})",
+              "type": "color"
+            }
           }
         }
       }
