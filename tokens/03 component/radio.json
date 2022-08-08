@@ -1,0 +1,150 @@
+{
+  "component": {
+    "radio": {
+      "sizing": {
+        "sm": {
+          "type": "sizing",
+          "value": "{component.radio.sizing.default} - {theme.config.scale.step.xs}"
+        },
+        "default": {
+          "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
+          "type": "sizing"
+        },
+        "lg": {
+          "type": "sizing",
+          "value": "{component.radio.sizing.default} + {theme.config.scale.step.xs}"
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{theme.border-width.control.sm}",
+          "type": "borderWidth"
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "{theme.border-radius.control.rounded}",
+          "type": "borderRadius"
+        }
+      },
+      "typography": {
+        "symbol": {
+          "sm": {
+            "value": "{theme.typography.control.strong.symbol.xs}",
+            "type": "typography"
+          },
+          "default": {
+            "value": "{theme.typography.control.strong.symbol.md}",
+            "type": "typography"
+          },
+          "lg": {
+            "value": "{theme.typography.control.strong.symbol.xl}",
+            "type": "typography"
+          }
+        }
+      },
+      "spacing": {
+        "box": {
+          "default": {
+            "value": "2px",
+            "type": "spacing"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "2px",
+            "type": "spacing"
+          }
+        }
+      },
+      "symbol": {
+        "sm": {
+          "type": "sizing",
+          "value": "{component.radio.symbol.default} - {theme.config.scale.step.xs}"
+        },
+        "default": {
+          "value": "{theme.sizing.control.2xs}",
+          "type": "sizing"
+        },
+        "lg": {
+          "type": "sizing",
+          "value": "{component.radio.symbol.default} + {theme.config.scale.step.xs}"
+        }
+      },
+      "focus-ring": {
+        "default": {
+          "value": "{theme.focus-ring.control.default}",
+          "type": "borderWidth"
+        }
+      }
+    }
+  },
+  "compnent": {
+    "radio": {
+      "color": {
+        "unselected": {
+          "default": {
+            "bg": {
+              "value": "{theme.color.control.inactive.bg.muted.default}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{theme.color.control.inactive.fg.muted.default}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "border": {
+              "value": "{theme.color.control.focus.border.default}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "border": {
+              "value": "{theme.color.control.focus.border.active}",
+              "type": "color"
+            }
+          }
+        },
+        "selected": {
+          "default": {
+            "bg": {
+              "value": "{theme.color.control.accent.bg.normal.default}",
+              "type": "color"
+            },
+            "fg-on-checked": {
+              "value": "{theme.color.control.accent.fg.on-normal}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "bg": {
+              "value": "{theme.color.control.focus.bg.active}",
+              "type": "color"
+            }
+          }
+        },
+        "focus": {
+          "focus-ring": {
+            "value": "{theme.color.control.focus.focus-ring.default}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "bg": {
+            "value": "{theme.color.control.disabled.bg.subtle.default}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{theme.color.control.disabled.bg.muted.default}",
+            "type": "color"
+          },
+          "fg-on-disabled": {
+            "value": "{theme.color.control.disabled.bg.normal.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
