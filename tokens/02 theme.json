@@ -652,12 +652,28 @@
               "default": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+              },
+              "active": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
               }
             },
             "subtle": {
               "default": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
+              },
+              "hover": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
+              },
+              "active": {
+                "type": "color",
+                "value": "{theme.color.control.inactive.bg.subtle.hover}"
               }
             }
           },
@@ -713,7 +729,7 @@
               "type": "color"
             }
           },
-          "focus-ring": {
+          "ring": {
             "default": {
               "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})",
               "type": "color"

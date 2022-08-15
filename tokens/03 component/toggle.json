@@ -50,7 +50,7 @@
         }
       },
       "color": {
-        "on": {
+        "unselected": {
           "default": {
             "bg": {
               "type": "color",
@@ -68,7 +68,7 @@
             }
           }
         },
-        "off": {
+        "selected": {
           "default": {
             "bg": {
               "type": "color",
@@ -83,9 +83,9 @@
           }
         },
         "focus": {
-          "focus-ring": {
+          "ring": {
             "type": "color",
-            "value": "{theme.color.control.focus.focus-ring.default}"
+            "value": "{theme.color.control.focus.ring.default}"
           }
         }
       },
