@@ -72,11 +72,9 @@
         }
       },
       "color": {
-        "default": {
-          "fg": {
-            "value": "{theme.color.control.accent.fg.on-normal}",
-            "type": "color"
-          }
+        "fg": {
+          "value": "{theme.color.control.accent.fg.on-normal}",
+          "type": "color"
         },
         "focus": {
           "ring": {
@@ -89,96 +87,62 @@
             "value": "{theme.color.control.disabled.bg.subtle.default}",
             "type": "color"
           },
-          "border": {
-            "value": "{theme.color.control.disabled.bg.muted.default}",
-            "type": "color"
-          },
           "fg": {
             "value": "{theme.color.control.disabled.bg.normal.default}",
             "type": "color"
+          },
+          "border": {
+            "value": "{theme.color.control.disabled.bg.muted.default}",
+            "type": "color"
           }
         },
-        "outline": {
-          "unselected": {
+        "unselected": {
+          "outline": {
             "default": {
               "border": {
                 "value": "{theme.color.control.inactive.fg.muted.default}",
                 "type": "color"
               }
-            },
-            "focus": {
-              "border": {
-                "value": "{theme.color.control.focus.border.default}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "border": {
-                "value": "{theme.color.control.focus.border.active}",
-                "type": "color"
-              }
             }
           },
-          "selected": {
-            "default": {
-              "bg": {
-                "value": "{theme.color.control.accent.bg.normal.default}",
-                "type": "color"
-              }
-            },
-            "focus": {
-              "bg": {
-                "value": "{theme.color.control.focus.bg.default}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.focus.bg.active}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "solid": {
-          "unselected": {
+          "solid": {
             "default": {
               "bg": {
                 "value": "{theme.color.control.inactive.bg.muted.default}",
                 "type": "color"
               }
-            },
-            "focus": {
-              "border": {
-                "value": "{theme.color.control.focus.border.default}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "border": {
-                "value": "{theme.color.control.focus.border.active}",
-                "type": "color"
-              }
             }
           },
-          "selected": {
-            "default": {
-              "bg": {
-                "value": "{theme.color.control.accent.bg.normal.default}",
-                "type": "color"
-              }
-            },
-            "focus": {
-              "bg": {
-                "value": "{theme.color.control.focus.bg.default}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.focus.bg.active}",
-                "type": "color"
-              }
+          "focus": {
+            "border": {
+              "value": "{theme.color.control.focus.border.default}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "border": {
+              "value": "{theme.color.control.focus.border.active}",
+              "type": "color"
+            }
+          }
+        },
+        "selected": {
+          "default": {
+            "bg": {
+              "value": "{theme.color.control.accent.bg.normal.default}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "bg": {
+              "value": "{theme.color.control.focus.bg.default}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "bg": {
+              "value": "{theme.color.control.focus.bg.active}",
+              "type": "color"
             }
           }
         }
