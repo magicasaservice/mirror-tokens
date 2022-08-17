@@ -4,25 +4,29 @@
       "sizing": {
         "sm": {
           "type": "sizing",
-          "value": "{component.radio.sizing.default} - {theme.config.scale.step.xs}"
+          "value": "{component.radio.sizing.md} - {theme.config.scale.step.xs}"
         },
-        "default": {
+        "md": {
           "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
           "type": "sizing"
         },
         "lg": {
           "type": "sizing",
-          "value": "{component.radio.sizing.default} + {theme.config.scale.step.xs}"
+          "value": "{component.radio.sizing.md} + {theme.config.scale.step.xs}"
         }
       },
       "border-width": {
-        "default": {
+        "box": {
           "value": "{theme.border-width.control.sm}",
+          "type": "borderWidth"
+        },
+        "focus-ring": {
+          "value": "{theme.focus-ring.control.default}",
           "type": "borderWidth"
         }
       },
       "border-radius": {
-        "default": {
+        "box": {
           "value": "{theme.border-radius.control.rounded}",
           "type": "borderRadius"
         }
@@ -33,7 +37,7 @@
             "value": "{theme.typography.control.strong.symbol.xs}",
             "type": "typography"
           },
-          "default": {
+          "md": {
             "value": "{theme.typography.control.strong.symbol.md}",
             "type": "typography"
           },
@@ -45,46 +49,58 @@
       },
       "spacing": {
         "box": {
-          "default": {
-            "value": "2px",
-            "type": "spacing"
-          }
+          "value": "2px",
+          "type": "spacing"
         },
         "label": {
-          "default": {
-            "value": "2px",
-            "type": "spacing"
-          }
+          "value": "2px",
+          "type": "spacing"
         }
       },
       "symbol": {
         "sm": {
           "type": "sizing",
-          "value": "{component.radio.symbol.default} - {theme.config.scale.step.xs}"
+          "value": "{component.radio.symbol.md} - {theme.config.scale.step.xs}"
         },
-        "default": {
+        "md": {
           "value": "{theme.sizing.control.2xs}",
           "type": "sizing"
         },
         "lg": {
           "type": "sizing",
-          "value": "{component.radio.symbol.default} + {theme.config.scale.step.xs}"
-        }
-      },
-      "focus-ring": {
-        "default": {
-          "value": "{theme.focus-ring.control.default}",
-          "type": "borderWidth"
+          "value": "{component.radio.symbol.md} + {theme.config.scale.step.xs}"
         }
       },
       "color": {
+        "default": {
+          "fg": {
+            "value": "{theme.color.control.accent.fg.on-normal}",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "ring": {
+            "value": "{theme.color.control.focus.ring.default}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "bg": {
+            "value": "{theme.color.control.disabled.bg.subtle.default}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{theme.color.control.disabled.bg.muted.default}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{theme.color.control.disabled.bg.normal.default}",
+            "type": "color"
+          }
+        },
         "outline": {
           "unselected": {
             "default": {
-              "bg": {
-                "value": "{theme.color.control.inactive.bg.muted.default}",
-                "type": "color"
-              },
               "border": {
                 "value": "{theme.color.control.inactive.fg.muted.default}",
                 "type": "color"
@@ -108,9 +124,11 @@
               "bg": {
                 "value": "{theme.color.control.accent.bg.normal.default}",
                 "type": "color"
-              },
-              "fg-on-checked": {
-                "value": "{theme.color.control.accent.fg.on-normal}",
+              }
+            },
+            "focus": {
+              "bg": {
+                "value": "{theme.color.control.focus.bg.default}",
                 "type": "color"
               }
             },
@@ -120,26 +138,6 @@
                 "type": "color"
               }
             }
-          },
-          "disabled": {
-            "bg": {
-              "value": "{theme.color.control.disabled.bg.subtle.default}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{theme.color.control.disabled.bg.muted.default}",
-              "type": "color"
-            },
-            "fg-on-disabled": {
-              "value": "{theme.color.control.disabled.bg.normal.default}",
-              "type": "color"
-            }
-          }
-        },
-        "focus": {
-          "ring": {
-            "value": "{theme.color.control.focus.ring.default}",
-            "type": "color"
           }
         },
         "solid": {
@@ -168,9 +166,11 @@
               "bg": {
                 "value": "{theme.color.control.accent.bg.normal.default}",
                 "type": "color"
-              },
-              "fg-on-checked": {
-                "value": "{theme.color.control.accent.fg.on-normal}",
+              }
+            },
+            "focus": {
+              "bg": {
+                "value": "{theme.color.control.focus.bg.default}",
                 "type": "color"
               }
             },
@@ -179,16 +179,6 @@
                 "value": "{theme.color.control.focus.bg.active}",
                 "type": "color"
               }
-            }
-          },
-          "disabled": {
-            "bg": {
-              "value": "{theme.color.control.disabled.bg.subtle.default}",
-              "type": "color"
-            },
-            "fg-on-disabled": {
-              "value": "{theme.color.control.disabled.bg.normal.default}",
-              "type": "color"
             }
           }
         }
