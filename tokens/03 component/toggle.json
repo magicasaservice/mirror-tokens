@@ -50,42 +50,40 @@
         }
       },
       "color": {
-        "unchecked": {
-          "default": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.accent.bg.normal.default}"
-            },
-            "fg": {
-              "type": "color",
-              "value": "{theme.color.control.accent.fg.on-normal}"
-            }
-          },
-          "disabled": {
+        "fg": {
+          "type": "color",
+          "value": "{theme.color.control.accent.fg.on-normal}"
+        },
+        "focus": {
+          "ring": {
+            "type": "color",
+            "value": "{theme.color.control.focus.ring.default}"
+          }
+        },
+        "disabled": {
+          "checked": {
             "fg": {
               "type": "color",
               "value": "{theme.color.palette.blue.30}"
             }
-          }
-        },
-        "checked": {
-          "default": {
-            "bg": {
-              "type": "color",
-              "value": "{theme.color.control.inactive.bg.normal.default}"
-            }
           },
-          "disabled": {
+          "unchecked": {
             "fg": {
               "type": "color",
               "value": "{theme.color.control.disabled.bg.normal.solid}"
             }
           }
         },
-        "focus": {
-          "ring": {
+        "unchecked": {
+          "bg": {
             "type": "color",
-            "value": "{theme.color.control.focus.ring.default}"
+            "value": "{theme.color.control.inactive.bg.normal.default}"
+          }
+        },
+        "checked": {
+          "bg": {
+            "type": "color",
+            "value": "{theme.color.control.accent.bg.normal.default}"
           }
         }
       },
@@ -132,10 +130,8 @@
         }
       },
       "focus-ring": {
-        "default": {
-          "value": "{theme.focus-ring.control.default}",
-          "type": "borderWidth"
-        }
+        "value": "{theme.focus-ring.control.default}",
+        "type": "borderWidth"
       }
     }
   }
