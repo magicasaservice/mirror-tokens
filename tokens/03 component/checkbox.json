@@ -3,15 +3,15 @@
     "checkbox": {
       "sizing": {
         "sm": {
-          "value": "{component.checkbox.sizing.md} - {theme.config.scale.step.xs}",
+          "value": "{component.checkbox.sizing.default} - {theme.config.scale.step.xs}",
           "type": "sizing"
         },
-        "md": {
+        "default": {
           "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
           "type": "sizing"
         },
         "lg": {
-          "value": "{component.checkbox.sizing.md} + {theme.config.scale.step.xs}",
+          "value": "{component.checkbox.sizing.default} + {theme.config.scale.step.xs}",
           "type": "sizing"
         }
       },
@@ -27,15 +27,15 @@
       },
       "border-radius": {
         "sm": {
-          "value": "{component.checkbox.border-radius.md} - {theme.config.scale.step.2xs}",
+          "value": "{component.checkbox.border-radius.default} - {theme.config.scale.step.2xs}",
           "type": "borderRadius"
         },
-        "md": {
+        "default": {
           "value": "{theme.border-radius.control.xs} - {theme.config.scale.step.3xs}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{component.checkbox.border-radius.md} + {theme.config.scale.step.2xs}",
+          "value": "{component.checkbox.border-radius.default} + {theme.config.scale.step.2xs}",
           "type": "borderRadius"
         }
       },
@@ -45,7 +45,7 @@
             "value": "{theme.typography.control.strong.symbol.xs}",
             "type": "typography"
           },
-          "md": {
+          "default": {
             "value": "{theme.typography.control.strong.symbol.md}",
             "type": "typography"
           },
@@ -67,15 +67,15 @@
       },
       "symbol": {
         "sm": {
-          "value": "{component.checkbox.symbol.md} - {theme.config.scale.step.xs}",
+          "value": "{component.checkbox.symbol.default} - {theme.config.scale.step.xs}",
           "type": "sizing"
         },
-        "md": {
+        "default": {
           "value": "{theme.sizing.control.2xs}",
           "type": "sizing"
         },
         "lg": {
-          "value": "{component.checkbox.symbol.md} + {theme.config.scale.step.xs}",
+          "value": "{component.checkbox.symbol.default} + {theme.config.scale.step.xs}",
           "type": "sizing"
         }
       }

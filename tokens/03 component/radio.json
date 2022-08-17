@@ -4,15 +4,15 @@
       "sizing": {
         "sm": {
           "type": "sizing",
-          "value": "{component.radio.sizing.md} - {theme.config.scale.step.xs}"
+          "value": "{component.radio.sizing.default} - {theme.config.scale.step.xs}"
         },
-        "md": {
+        "default": {
           "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
           "type": "sizing"
         },
         "lg": {
           "type": "sizing",
-          "value": "{component.radio.sizing.md} + {theme.config.scale.step.xs}"
+          "value": "{component.radio.sizing.default} + {theme.config.scale.step.xs}"
         }
       },
       "border-width": {
@@ -37,7 +37,7 @@
             "value": "{theme.typography.control.strong.symbol.xs}",
             "type": "typography"
           },
-          "md": {
+          "default": {
             "value": "{theme.typography.control.strong.symbol.md}",
             "type": "typography"
           },
@@ -60,15 +60,15 @@
       "symbol": {
         "sm": {
           "type": "sizing",
-          "value": "{component.radio.symbol.md} - {theme.config.scale.step.xs}"
+          "value": "{component.radio.symbol.default} - {theme.config.scale.step.xs}"
         },
-        "md": {
+        "default": {
           "value": "{theme.sizing.control.2xs}",
           "type": "sizing"
         },
         "lg": {
           "type": "sizing",
-          "value": "{component.radio.symbol.md} + {theme.config.scale.step.xs}"
+          "value": "{component.radio.symbol.default} + {theme.config.scale.step.xs}"
         }
       },
       "color": {
@@ -96,7 +96,7 @@
             "type": "color"
           }
         },
-        "unselected": {
+        "unchecked": {
           "outline": {
             "default": {
               "border": {
@@ -126,7 +126,7 @@
             }
           }
         },
-        "selected": {
+        "checked": {
           "default": {
             "bg": {
               "value": "{theme.color.control.accent.bg.normal.default}",
