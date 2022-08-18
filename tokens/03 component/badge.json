@@ -217,6 +217,10 @@
       },
       "spacing": {
         "padding": {
+          "sm": {
+            "type": "spacing",
+            "value": "{component.badge.sizing.height.default} * 0.25"
+          },
           "default": {
             "type": "spacing",
             "value": "{component.badge.sizing.height.default} * 0.375"
@@ -265,7 +269,7 @@
           "type": "letterSpacing"
         },
         "lg": {
-          "value": "{theme.letter-spacing.md}",
+          "value": "{theme.letter-spacing.lg}",
           "type": "letterSpacing"
         }
       },
@@ -274,7 +278,7 @@
           "value": "{core.text-case.none}",
           "type": "textCase"
         },
-        "expressive": {
+        "uppercase": {
           "value": "{core.text-case.uppercase}",
           "type": "textCase"
         }
