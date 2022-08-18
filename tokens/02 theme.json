@@ -1245,7 +1245,7 @@
             "3xs": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.3xs}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1258,7 +1258,7 @@
             "2xs": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.2xs}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1271,7 +1271,7 @@
             "xs": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.xs}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1284,7 +1284,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.sm}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1297,7 +1297,7 @@
             "md": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.md}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1310,7 +1310,7 @@
             "lg": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.lg}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1323,7 +1323,7 @@
             "xl": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.xl}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1336,7 +1336,7 @@
             "2xl": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.2xl}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1349,7 +1349,7 @@
             "3xl": {
               "value": {
                 "fontFamily": "{theme.font-family.ui}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.3xl}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "{core.text-case.uppercase}",
@@ -1364,7 +1364,7 @@
             "xs": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xs}"
               },
@@ -1373,7 +1373,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.strong}",
+                "fontWeight": "{theme.font-weight.stronger}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.sm}"
               },
@@ -1382,7 +1382,7 @@
             "md": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.md}"
               },
@@ -1391,7 +1391,7 @@
             "lg": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.lg}"
               },
@@ -1400,7 +1400,7 @@
             "xl": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.xl}"
               },
@@ -1409,7 +1409,7 @@
             "2xl": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.2xl}"
               },
@@ -1418,7 +1418,7 @@
             "3xl": {
               "value": {
                 "fontFamily": "{theme.font-family.symbols}",
-                "fontWeight": "{theme.font-weight.medium}",
+                "fontWeight": "{theme.font-weight.strong}",
                 "lineHeight": "",
                 "fontSize": "{theme.font-size.symbol.3xl}"
               },
@@ -1658,6 +1658,10 @@
       },
       "strong": {
         "value": "{theme.config.font-weight.600}",
+        "type": "fontWeights"
+      },
+      "stronger": {
+        "value": "{theme.config.font-weight.700}",
         "type": "fontWeights"
       }
     },

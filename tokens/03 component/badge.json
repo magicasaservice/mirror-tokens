@@ -3,10 +3,8 @@
     "badge": {
       "sizing": {
         "height": {
-          "default": {
-            "value": "{theme.sizing.control.2xs}",
-            "type": "sizing"
-          }
+          "value": "{theme.sizing.control.2xs}",
+          "type": "sizing"
         }
       },
       "color": {
@@ -208,7 +206,7 @@
       "border-radius": {
         "default": {
           "type": "borderRadius",
-          "value": "{theme.config.sizing.default} / 4"
+          "value": "{theme.border-radius.control.2xs}"
         },
         "rounded": {
           "value": "{theme.border-radius.control.rounded}",
@@ -219,22 +217,22 @@
         "padding": {
           "default": {
             "type": "spacing",
-            "value": "{component.badge.sizing.height.default} * 0.375"
+            "value": "{component.badge.sizing.height} * 0.375"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.badge.sizing.height.default} * 0.5"
+            "value": "{component.badge.sizing.height} * 0.5"
           }
         }
       },
       "border-width": {
-        "default": {
+        "box": {
           "value": "1px",
           "type": "borderWidth"
         }
       },
       "typography": {
-        "default": {
+        "label": {
           "type": "typography",
           "value": "{theme.typography.control.expressive.text.4xs}"
         }
