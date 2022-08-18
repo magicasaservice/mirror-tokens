@@ -233,10 +233,60 @@
           "type": "borderWidth"
         }
       },
-      "typography": {
+      "font-family": {
         "default": {
-          "type": "typography",
-          "value": "{theme.typography.control.expressive.text.4xs}"
+          "value": "{theme.font-family.ui}",
+          "type": "fontFamilies"
+        }
+      },
+      "font-weight": {
+        "default": {
+          "value": "{theme.font-weight.medium}",
+          "type": "fontWeights"
+        },
+        "lg": {
+          "value": "{theme.font-weight.strong}",
+          "type": "fontWeights"
+        }
+      },
+      "font-size": {
+        "default": {
+          "value": "{theme.font-size.control.4xs}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{theme.font-size.control.3xs}",
+          "type": "fontSizes"
+        }
+      },
+      "letter-spacing": {
+        "default": {
+          "value": "{theme.letter-spacing.xs}",
+          "type": "letterSpacing"
+        },
+        "lg": {
+          "value": "{theme.letter-spacing.md}",
+          "type": "letterSpacing"
+        }
+      },
+      "text-decoration": {
+        "default": {
+          "value": "{core.text-case.none}",
+          "type": "textCase"
+        },
+        "expressive": {
+          "value": "{core.text-case.uppercase}",
+          "type": "textCase"
+        }
+      },
+      "line-height": {
+        "default": {
+          "value": "{theme.line-height.control.sm}",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "{theme.line-height.control.default}",
+          "type": "lineHeights"
         }
       }
     }

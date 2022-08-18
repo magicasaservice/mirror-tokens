@@ -1235,7 +1235,7 @@
                 "fontWeight": "{theme.font-weight.strong}",
                 "fontSize": "{theme.font-size.control.4xs}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.font-size.control.4xs} / 10 * {theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1248,7 +1248,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.3xs}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1261,7 +1261,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.2xs}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1274,7 +1274,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.xs}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1287,7 +1287,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.sm}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1300,7 +1300,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.md}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1313,7 +1313,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.lg}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1326,7 +1326,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.xl}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1339,7 +1339,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.2xl}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1352,7 +1352,7 @@
                 "fontWeight": "{theme.font-weight.stronger}",
                 "fontSize": "{theme.font-size.control.3xl}",
                 "lineHeight": "{theme.line-height.control.default}",
-                "textCase": "{core.text-case.uppercase}",
+                "textCase": "",
                 "letterSpacing": "{theme.letter-spacing.md}",
                 "paragraphSpacing": "",
                 "textDecoration": ""
@@ -1633,8 +1633,16 @@
           "value": "100%",
           "type": "lineHeights"
         },
+        "sm": {
+          "value": "130%",
+          "type": "lineHeights"
+        },
         "default": {
           "value": "140%",
+          "type": "lineHeights"
+        },
+        "md": {
+          "value": "150%",
           "type": "lineHeights"
         }
       }
@@ -1692,8 +1700,16 @@
         "value": "0px",
         "type": "letterSpacing"
       },
+      "3xs": {
+        "value": "0.125",
+        "type": "letterSpacing"
+      },
+      "2xs": {
+        "value": "{theme.letter-spacing.3xs} * {theme.config.scale.ratio.3xl}",
+        "type": "letterSpacing"
+      },
       "xs": {
-        "value": "0.5",
+        "value": "{theme.letter-spacing.2xs} * {theme.config.scale.ratio.3xl}",
         "type": "letterSpacing"
       },
       "sm": {
