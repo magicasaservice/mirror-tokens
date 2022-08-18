@@ -331,6 +331,10 @@
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.50})"
               },
+              "muted": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+              },
               "subtle": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
@@ -541,9 +545,13 @@
                 "type": "color",
                 "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.50})"
               },
+              "muted": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+              },
               "subtle": {
                 "type": "color",
-                "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.30}, {theme.config.color.transparency.50})"
+                "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               },
               "active": {
                 "type": "color",
@@ -588,6 +596,10 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.60})"
             },
+            "muted": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.20})"
+            },
             "on-normal": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0})"
@@ -595,6 +607,16 @@
             "on-normal-muted": {
               "type": "color",
               "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.60})"
+            }
+          },
+          "border": {
+            "default": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.60})"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.20})"
             }
           }
         },
