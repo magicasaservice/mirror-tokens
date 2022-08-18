@@ -3,8 +3,10 @@
     "badge": {
       "sizing": {
         "height": {
-          "value": "{theme.sizing.control.2xs}",
-          "type": "sizing"
+          "default": {
+            "value": "{theme.sizing.control.2xs}",
+            "type": "sizing"
+          }
         }
       },
       "color": {
@@ -217,22 +219,22 @@
         "padding": {
           "default": {
             "type": "spacing",
-            "value": "{component.badge.sizing.height} * 0.375"
+            "value": "{component.badge.sizing.height.default} * 0.375"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.badge.sizing.height} * 0.5"
+            "value": "{component.badge.sizing.height.default} * 0.5"
           }
         }
       },
       "border-width": {
-        "box": {
+        "default": {
           "value": "1px",
           "type": "borderWidth"
         }
       },
       "typography": {
-        "label": {
+        "default": {
           "type": "typography",
           "value": "{theme.typography.control.expressive.text.4xs}"
         }
