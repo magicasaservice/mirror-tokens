@@ -208,7 +208,7 @@
       "border-radius": {
         "default": {
           "type": "borderRadius",
-          "value": "{theme.border-radius.control.2xs}"
+          "value": "{theme.config.sizing.default} / 4"
         },
         "rounded": {
           "value": "{theme.border-radius.control.rounded}",
@@ -217,10 +217,6 @@
       },
       "spacing": {
         "padding": {
-          "sm": {
-            "type": "spacing",
-            "value": "{component.badge.sizing.height.default} * 0.25"
-          },
           "default": {
             "type": "spacing",
             "value": "{component.badge.sizing.height.default} * 0.375"
@@ -237,60 +233,10 @@
           "type": "borderWidth"
         }
       },
-      "font-family": {
+      "typography": {
         "default": {
-          "value": "{theme.font-family.ui}",
-          "type": "fontFamilies"
-        }
-      },
-      "font-weight": {
-        "default": {
-          "value": "{theme.font-weight.medium}",
-          "type": "fontWeights"
-        },
-        "lg": {
-          "value": "{theme.font-weight.strong}",
-          "type": "fontWeights"
-        }
-      },
-      "font-size": {
-        "default": {
-          "value": "{theme.font-size.control.4xs}",
-          "type": "fontSizes"
-        },
-        "lg": {
-          "value": "{theme.font-size.control.3xs}",
-          "type": "fontSizes"
-        }
-      },
-      "letter-spacing": {
-        "default": {
-          "value": "{theme.letter-spacing.xs}",
-          "type": "letterSpacing"
-        },
-        "lg": {
-          "value": "{theme.letter-spacing.lg}",
-          "type": "letterSpacing"
-        }
-      },
-      "text-decoration": {
-        "default": {
-          "value": "{core.text-case.none}",
-          "type": "textCase"
-        },
-        "uppercase": {
-          "value": "{core.text-case.uppercase}",
-          "type": "textCase"
-        }
-      },
-      "line-height": {
-        "default": {
-          "value": "{theme.line-height.control.sm}",
-          "type": "lineHeights"
-        },
-        "lg": {
-          "value": "{theme.line-height.control.default}",
-          "type": "lineHeights"
+          "type": "typography",
+          "value": "{theme.typography.control.expressive.text.4xs}"
         }
       }
     }
