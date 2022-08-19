@@ -16,11 +16,13 @@
         }
       },
       "border-width": {
-        "box": {
+        "default": {
           "value": "{theme.border-width.control.sm}",
           "type": "borderWidth"
-        },
-        "focus-ring": {
+        }
+      },
+      "focus-ring": {
+        "default": {
           "value": "{theme.focus-ring.control.default}",
           "type": "borderWidth"
         }
@@ -53,16 +55,6 @@
             "value": "{theme.typography.control.strong.symbol.xl}",
             "type": "typography"
           }
-        }
-      },
-      "spacing": {
-        "box": {
-          "value": "2px",
-          "type": "spacing"
-        },
-        "label": {
-          "value": "2px",
-          "type": "spacing"
         }
       },
       "symbol": {
