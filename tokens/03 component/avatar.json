@@ -125,39 +125,39 @@
       },
       "font-size": {
         "3xs": {
-          "value": "{component.avatar.sizing.3xs} * 0.333",
+          "value": "{component.avatar.sizing.3xs} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "2xs": {
-          "value": "{component.avatar.sizing.2xs} * 0.333",
+          "value": "{component.avatar.sizing.2xs} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "xs": {
-          "value": "{component.avatar.sizing.xs} * 0.333",
+          "value": "{component.avatar.sizing.xs} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "sm": {
-          "value": "{component.avatar.sizing.sm} * 0.333",
+          "value": "{component.avatar.sizing.sm} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "default": {
-          "value": "{component.avatar.sizing.default} * 0.333",
+          "value": "{component.avatar.sizing.default} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{component.avatar.sizing.lg} * 0.333",
+          "value": "{component.avatar.sizing.lg} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{component.avatar.sizing.xl} * 0.333",
+          "value": "{component.avatar.sizing.xl} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "2xl": {
-          "value": "{component.avatar.sizing.2xl} * 0.333",
+          "value": "{component.avatar.sizing.2xl} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         },
         "3xl": {
-          "value": "{component.avatar.sizing.3xl} * 0.333",
+          "value": "{component.avatar.sizing.3xl} * {theme.config.scale.control.initials}",
           "type": "fontSizes"
         }
       },
@@ -169,7 +169,7 @@
       },
       "font-weight": {
         "default": {
-          "value": "{theme.font-weight.strong}",
+          "value": "{theme.font-weight.medium}",
           "type": "fontWeights"
         }
       },
@@ -189,6 +189,16 @@
         "default": {
           "value": "{core.text-case.uppercase}",
           "type": "textCase"
+        }
+      },
+      "color": {
+        "bg": {
+          "value": "{theme.color.surface.bg.muted}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{theme.color.surface.fg.muted}",
+          "type": "color"
         }
       }
     }
