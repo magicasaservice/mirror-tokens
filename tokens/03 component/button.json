@@ -22,6 +22,12 @@
         }
       },
       "color": {
+        "focus": {
+          "ring": {
+            "value": "{theme.color.control.focus.ring.default}",
+            "type": "color"
+          }
+        },
         "disabled": {
           "bg": {
             "type": "color",
@@ -429,6 +435,12 @@
             "type": "typography",
             "value": "{theme.typography.control.strong.symbol.xl}"
           }
+        }
+      },
+      "focus-ring": {
+        "default": {
+          "value": "{theme.focus-ring.control.default}",
+          "type": "borderWidth"
         }
       }
     }
