@@ -31,24 +31,34 @@
           "type": "sizing"
         },
         "2xl": {
-          "value": "{component.dot.sizing.xl} + 1px",
+          "value": "{component.dot.sizing.xl} + 4px",
           "type": "sizing"
         },
         "3xl": {
-          "value": "{component.dot.sizing.2xl} + 1px",
+          "value": "{component.dot.sizing.2xl} + 4px",
           "type": "sizing"
         }
       },
       "position": {
         "square": {
-          "sm": {
-            "value": "1",
-            "type": "other"
-          }
+          "value": "-2px",
+          "type": "other"
         },
         "rounded": {
-          "sm": {
-            "value": "1",
+          "default": {
+            "value": "-1px",
+            "type": "other"
+          },
+          "xl": {
+            "value": "2px",
+            "type": "other"
+          },
+          "2xl": {
+            "value": "4px",
+            "type": "other"
+          },
+          "3xl": {
+            "value": "6px",
             "type": "other"
           }
         }
@@ -65,19 +75,25 @@
         "status": {
           "online": {
             "fg": {
-              "value": "{theme.color.palette.green.50}",
+              "value": "{theme.color.palette.green.60}",
               "type": "color"
             }
           },
           "offline": {
             "fg": {
-              "value": "{theme.color.palette.red.50}",
+              "value": "{theme.color.palette.red.60}",
               "type": "color"
             }
           },
           "busy": {
             "fg": {
-              "value": "{theme.color.palette.orange.50}",
+              "value": "{theme.color.palette.orange.60}",
+              "type": "color"
+            }
+          },
+          "neutral": {
+            "fg": {
+              "value": "{theme.color.surface.bg.emphasis}",
               "type": "color"
             }
           }
