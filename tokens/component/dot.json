@@ -64,12 +64,16 @@
         },
         "status": {
           "online": {
-            "value": "{theme.color.palette.green.50}",
-            "type": "color"
+            "fg": {
+              "value": "{theme.color.palette.green.50}",
+              "type": "color"
+            }
           },
           "offline": {
-            "value": "{theme.color.palette.red.50}",
-            "type": "color"
+            "fg": {
+              "value": "{theme.color.palette.red.50}",
+              "type": "color"
+            }
           }
         }
       }
