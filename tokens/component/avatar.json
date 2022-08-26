@@ -2,41 +2,79 @@
   "component": {
     "avatar": {
       "sizing": {
-        "3xs": {
-          "value": "{component.avatar.sizing.2xs} - {theme.config.scale.step.xs}",
-          "type": "sizing"
-        },
         "2xs": {
-          "value": "{component.avatar.sizing.sm} * 0.75",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.avatar.sizing.xs} - {theme.config.scale.control.sizing}"
         },
         "xs": {
-          "value": "{component.avatar.sizing.2xs} + {theme.config.scale.step.xs}",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.avatar.sizing.sm} - {theme.config.scale.control.sizing}"
         },
         "sm": {
-          "value": "{component.avatar.sizing.default} - {theme.config.scale.step.md}",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.avatar.sizing.default} - {theme.config.scale.control.sizing}"
         },
         "default": {
-          "value": "{theme.sizing.control.md}",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{theme.sizing.control.md}"
         },
         "lg": {
-          "value": "{component.avatar.sizing.default} + {theme.config.scale.step.md}",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.avatar.sizing.default} + {theme.config.scale.control.sizing}"
         },
         "xl": {
-          "value": "{component.avatar.sizing.2xl} - {theme.config.scale.step.4xl}",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.avatar.sizing.lg} + {theme.config.scale.control.sizing}"
         },
         "2xl": {
-          "value": "{theme.sizing.control.2xl} + {component.avatar.sizing.sm}",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.avatar.sizing.xl} + {theme.config.scale.control.sizing}"
         },
         "3xl": {
-          "value": "{component.avatar.sizing.2xl} + {theme.config.scale.step.4xl}",
-          "type": "sizing"
+          "type": "sizing",
+          "value": "{component.avatar.sizing.2xl} + {theme.config.scale.step.4xl}"
+        },
+        "4xl": {
+          "type": "sizing",
+          "value": "{component.avatar.sizing.3xl} + {theme.config.scale.step.4xl}"
+        },
+        "inline": {
+          "2xs": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.2xs} - {theme.config.scale.control.sizing}"
+          },
+          "xs": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.xs} - {theme.config.scale.control.sizing}"
+          },
+          "sm": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.sm} - {theme.config.scale.control.sizing}"
+          },
+          "default": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.default} - {theme.config.scale.control.sizing}"
+          },
+          "lg": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.lg} - {theme.config.scale.control.sizing}"
+          },
+          "xl": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.xl} - {theme.config.scale.control.sizing}"
+          },
+          "2xl": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.2xl} - {theme.config.scale.control.sizing}"
+          },
+          "3xl": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.3xl} - {theme.config.scale.control.sizing}"
+          },
+          "4xl": {
+            "type": "sizing",
+            "value": "{component.avatar.sizing.4xl} - {theme.config.scale.control.sizing}"
+          }
         }
       },
       "border-radius": {
