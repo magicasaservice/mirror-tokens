@@ -78,86 +78,82 @@
         }
       },
       "border-radius": {
-        "square": {
-          "3xs": {
-            "value": "{component.avatar.border-radius.square.2xs} - {theme.config.scale.step.2xs}",
-            "type": "borderRadius"
-          },
-          "2xs": {
-            "value": "{component.avatar.border-radius.square.xs} - {theme.config.scale.step.2xs}",
-            "type": "borderRadius"
-          },
-          "xs": {
-            "value": "{component.avatar.border-radius.square.sm} - {theme.config.scale.step.2xs}",
-            "type": "borderRadius"
-          },
-          "sm": {
-            "value": "{component.avatar.border-radius.square.default} - {theme.config.scale.step.2xs}",
-            "type": "borderRadius"
-          },
-          "default": {
-            "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}",
-            "type": "borderRadius"
-          },
-          "lg": {
-            "value": "{component.avatar.border-radius.square.default} + {theme.config.scale.step.2xs}",
-            "type": "borderRadius"
-          },
-          "xl": {
-            "value": "{component.avatar.border-radius.square.lg} + {theme.config.scale.step.xs}",
-            "type": "borderRadius"
-          },
-          "2xl": {
-            "value": "{component.avatar.border-radius.square.xl} + {theme.config.scale.step.sm}",
-            "type": "borderRadius"
-          },
-          "3xl": {
-            "value": "{component.avatar.border-radius.square.2xl} + {theme.config.scale.step.md}",
-            "type": "borderRadius"
-          },
-          "inline": {
-            "3xs": {
-              "value": "{component.avatar.border-radius.square.3xs} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "2xs": {
-              "value": "{component.avatar.border-radius.square.2xs} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "xs": {
-              "value": "{component.avatar.border-radius.square.xs} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "sm": {
-              "value": "{component.avatar.border-radius.square.sm} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "default": {
-              "value": "{component.avatar.border-radius.square.default} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "lg": {
-              "value": "{component.avatar.border-radius.square.lg} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "xl": {
-              "value": "{component.avatar.border-radius.square.xl} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "2xl": {
-              "value": "{component.avatar.border-radius.square.2xl} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            },
-            "3xl": {
-              "value": "{component.avatar.border-radius.square.3xl} - {theme.config.scale.control.border-radius}",
-              "type": "borderRadius"
-            }
-          }
+        "2xs": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.xs} - {theme.config.scale.control.border-radius}"
+        },
+        "xs": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.sm} - {theme.config.scale.control.border-radius}"
+        },
+        "sm": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.default} - {theme.config.scale.control.border-radius}"
+        },
+        "default": {
+          "type": "borderRadius",
+          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}"
+        },
+        "lg": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.default} + {theme.config.scale.control.border-radius}"
+        },
+        "xl": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.lg} + {theme.config.scale.control.border-radius}"
+        },
+        "2xl": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.xl} + {theme.config.scale.control.border-radius}"
+        },
+        "3xl": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.2xl} + {theme.config.scale.control.border-radius}"
+        },
+        "4xl": {
+          "type": "borderRadius",
+          "value": "{component.avatar.border-radius.3xl} + {theme.config.scale.control.border-radius}"
         },
         "rounded": {
+          "value": "{theme.border-radius.control.rounded}",
+          "type": "borderRadius"
+        },
+        "inline": {
+          "2xs": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.2xs} - {theme.config.scale.step.xs}"
+          },
+          "xs": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.xs} - {theme.config.scale.step.xs}}"
+          },
+          "sm": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.sm} - {theme.config.scale.step.xs}}"
+          },
           "default": {
-            "value": "{theme.border-radius.control.rounded}",
-            "type": "borderRadius"
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.default} - {theme.config.scale.step.xs}}"
+          },
+          "lg": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.lg} - {theme.config.scale.step.xs}}"
+          },
+          "xl": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.xl} - {theme.config.scale.step.xs}}"
+          },
+          "2xl": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.2xl} - {theme.config.scale.step.xs}}"
+          },
+          "3xl": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.3xl} - {theme.config.scale.step.xs}}"
+          },
+          "4xl": {
+            "type": "borderRadius",
+            "value": "{component.avatar.border-radius.4xl} - {theme.config.scale.step.xs}}"
           }
         }
       },
