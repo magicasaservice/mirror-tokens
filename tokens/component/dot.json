@@ -2,10 +2,6 @@
   "component": {
     "dot": {
       "sizing": {
-        "3xs": {
-          "value": "{component.dot.sizing.2xs} - 1px",
-          "type": "sizing"
-        },
         "2xs": {
           "value": "{component.dot.sizing.xs} - 1px",
           "type": "sizing"
@@ -97,6 +93,26 @@
               "type": "color"
             }
           }
+        }
+      },
+      "border-width": {
+        "sm": {
+          "value": "2px",
+          "type": "borderWidth"
+        },
+        "default": {
+          "value": "3px",
+          "type": "borderWidth"
+        },
+        "lg": {
+          "value": "4px",
+          "type": "borderWidth"
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "{theme.border-radius.control.rounded}",
+          "type": "borderRadius"
         }
       }
     }
