@@ -3,11 +3,11 @@
     "avatar-group": {
       "spacing": {
         "xs": {
-          "value": "{component.avatar-group.spacing.sm} - 1px",
+          "value": "{component.avatar-group.spacing.sm} + 1px",
           "type": "spacing"
         },
         "sm": {
-          "value": "{component.avatar-group.spacing.default} - 1px",
+          "value": "{component.avatar-group.spacing.default} + 1px",
           "type": "spacing"
         },
         "default": {
@@ -15,18 +15,54 @@
           "type": "spacing"
         },
         "lg": {
-          "value": "{component.avatar-group.spacing.default} + 1px",
+          "value": "{component.avatar-group.spacing.default} - 1px",
           "type": "spacing"
         },
         "xl": {
-          "value": "{component.avatar-group.spacing.lg} + 1px",
+          "value": "{component.avatar-group.spacing.lg} - 1px",
           "type": "spacing"
         }
       },
       "typography": {
+        "xs": {
+          "value": "{theme.typography.control.strong.text.3xs}",
+          "type": "typography"
+        },
         "sm": {
           "value": "{theme.typography.control.strong.text.xs}",
           "type": "typography"
+        },
+        "default": {
+          "value": "{theme.typography.control.strong.text.md}",
+          "type": "typography"
+        },
+        "lg": {
+          "value": "{theme.typography.control.strong.text.xl}",
+          "type": "typography"
+        },
+        "xl": {
+          "value": "{theme.typography.control.strong.text.3xl}",
+          "type": "typography"
+        }
+      },
+      "color": {
+        "fg": {
+          "value": "{theme.color.palette.grey.60}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{theme.color.palette.grey.10}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{theme.color.surface.bg.subtle}",
+          "type": "color"
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{theme.border-width.control.md}",
+          "type": "borderWidth"
         }
       }
     }
