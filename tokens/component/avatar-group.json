@@ -1,0 +1,34 @@
+{
+  "component": {
+    "avatar-group": {
+      "spacing": {
+        "xs": {
+          "value": "{component.avatar-group.spacing.sm} - 1px",
+          "type": "spacing"
+        },
+        "sm": {
+          "value": "{component.avatar-group.spacing.default} - 1px",
+          "type": "spacing"
+        },
+        "default": {
+          "value": "-3px",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{component.avatar-group.spacing.default} + 1px",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{component.avatar-group.spacing.lg} + 1px",
+          "type": "spacing"
+        }
+      },
+      "typography": {
+        "sm": {
+          "value": "{theme.typography.control.strong.text.xs}",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}
