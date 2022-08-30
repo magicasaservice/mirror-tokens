@@ -1081,6 +1081,10 @@
         "3xl": {
           "value": "{theme.font-size.control.2xl} + {theme.config.scale.step.3xs}",
           "type": "fontSizes"
+        },
+        "4xl": {
+          "value": "{theme.font-size.control.3xl} + {theme.config.scale.step.3xs}",
+          "type": "fontSizes"
         }
       },
       "symbol": {
@@ -1248,6 +1252,19 @@
                 "fontFamily": "{theme.font-family.ui}",
                 "fontWeight": "{theme.font-weight.text}",
                 "fontSize": "{theme.font-size.control.3xl}",
+                "lineHeight": "{theme.line-height.control.default}",
+                "textCase": "",
+                "letterSpacing": "",
+                "paragraphSpacing": "",
+                "textDecoration": ""
+              },
+              "type": "typography"
+            },
+            "4xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.ui}",
+                "fontWeight": "{theme.font-weight.text}",
+                "fontSize": "{theme.font-size.control.4xl}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "",
                 "letterSpacing": "",
@@ -1454,6 +1471,19 @@
                 "textDecoration": ""
               },
               "type": "typography"
+            },
+            "4xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.ui}",
+                "fontWeight": "{theme.font-weight.stronger}",
+                "fontSize": "{theme.font-size.control.4xl}",
+                "lineHeight": "{theme.line-height.control.default}",
+                "textCase": "{core.text-case.uppercase}",
+                "letterSpacing": "{theme.letter-spacing.md}",
+                "paragraphSpacing": "",
+                "textDecoration": ""
+              },
+              "type": "typography"
             }
           },
           "symbol": {
@@ -1646,6 +1676,19 @@
                 "fontFamily": "{theme.font-family.ui}",
                 "fontWeight": "{theme.font-weight.medium}",
                 "fontSize": "{theme.font-size.control.3xl}",
+                "lineHeight": "{theme.line-height.control.default}",
+                "textCase": "",
+                "letterSpacing": "",
+                "paragraphSpacing": "",
+                "textDecoration": ""
+              },
+              "type": "typography"
+            },
+            "4xl": {
+              "value": {
+                "fontFamily": "{theme.font-family.ui}",
+                "fontWeight": "{theme.font-weight.medium}",
+                "fontSize": "{theme.font-size.control.4xl}",
                 "lineHeight": "{theme.line-height.control.default}",
                 "textCase": "",
                 "letterSpacing": "",
