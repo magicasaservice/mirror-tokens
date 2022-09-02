@@ -352,9 +352,13 @@
             "value": "{theme.color.palette.grey.5}"
           },
           "transparent": {
+            "muted": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.70}, {theme.config.color.transparency.30})"
+            },
             "subtle": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.95}, {theme.config.color.transparency.20})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.95}, {theme.config.color.transparency.30})"
             },
             "emphasis": {
               "type": "color",
