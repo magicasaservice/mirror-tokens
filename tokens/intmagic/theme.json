@@ -1058,15 +1058,60 @@
     },
     "typography": {
       "headline": {
+        "1": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans-alt}",
+            "fontWeight": "{theme.font-weight.text}",
+            "lineHeight": "{theme.line-height.control.100}",
+            "fontSize": "{theme.font-size.headline.1}",
+            "letterSpacing": "{theme.letter-spacing.negative.xs}",
+            "paragraphSpacing": "{theme.paragraph-spacing.default}",
+            "textDecoration": "{theme.text-decoration.default}",
+            "textCase": "{theme.text-case.default}"
+          },
+          "type": "typography"
+        },
+        "2": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans-alt}",
+            "fontWeight": "{theme.font-weight.text}",
+            "lineHeight": "{theme.line-height.control.xs}",
+            "fontSize": "{theme.font-size.headline.2}",
+            "letterSpacing": "{theme.letter-spacing.negative.xs}",
+            "paragraphSpacing": "{theme.paragraph-spacing.default}",
+            "textDecoration": "{theme.text-decoration.default}",
+            "textCase": "{theme.text-case.default}"
+          },
+          "type": "typography"
+        },
         "3": {
           "value": {
             "fontFamily": "{theme.font-family.sans-alt}",
             "fontWeight": "{theme.font-weight.medium}",
-            "lineHeight": "{theme.line-height.control.100}",
-            "fontSize": "{core.font-size.default}",
-            "letterSpacing": "{theme.letter-spacing.3xs}"
+            "lineHeight": "{theme.line-height.control.sm}",
+            "fontSize": "{theme.font-size.headline.3}",
+            "letterSpacing": "{theme.letter-spacing.default}",
+            "paragraphSpacing": "{theme.paragraph-spacing.default}",
+            "textDecoration": "{theme.text-decoration.default}",
+            "textCase": "{theme.text-case.default}"
           },
           "type": "typography"
+        }
+      }
+    },
+    "font-size": {
+      "headline": {
+        "1": {
+          "value": "{theme.font-size.headline.2} * {theme.config.scale.ratio.up.3xl}",
+          "type": "fontSizes"
+        },
+        "2": {
+          "value": "{theme.font-size.headline.3} * {theme.config.scale.ratio.up.3xl}",
+          "type": "fontSizes"
+        },
+        "3": {
+          "value": "{theme.config.font-size.default}",
+          "type": "fontSizes"
         }
       }
     }
