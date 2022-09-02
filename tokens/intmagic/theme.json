@@ -350,6 +350,16 @@
           "emphasis": {
             "type": "color",
             "value": "{theme.color.palette.grey.5}"
+          },
+          "transparent": {
+            "subtle": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.95}, {theme.config.color.transparency.20})"
+            },
+            "emphasis": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.5}, {theme.config.color.transparency.20})"
+            }
           }
         },
         "fg": {
