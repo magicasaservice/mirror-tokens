@@ -1829,6 +1829,10 @@
         "value": "Magic UI Pro",
         "type": "fontFamilies"
       },
+      "sans-alt": {
+        "value": "Wand UI Pro",
+        "type": "fontFamilies"
+      },
       "serif": {
         "value": "Times",
         "type": "fontFamilies"
@@ -1851,33 +1855,65 @@
         "value": "0px",
         "type": "letterSpacing"
       },
-      "3xs": {
-        "value": "0.125",
-        "type": "letterSpacing"
+      "positive": {
+        "3xs": {
+          "value": "0.125",
+          "type": "letterSpacing"
+        },
+        "2xs": {
+          "value": "{theme.letter-spacing.positive.3xs} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "xs": {
+          "value": "{theme.letter-spacing.positive.2xs} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "sm": {
+          "value": "{theme.letter-spacing.positive.xs} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "md": {
+          "value": "{theme.letter-spacing.positive.sm} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "lg": {
+          "value": "{theme.letter-spacing.positive.md} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "xl": {
+          "value": "{theme.letter-spacing.positive.lg} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        }
       },
-      "2xs": {
-        "value": "{theme.letter-spacing.3xs} * {theme.config.scale.ratio.up.3xl}",
-        "type": "letterSpacing"
-      },
-      "xs": {
-        "value": "{theme.letter-spacing.2xs} * {theme.config.scale.ratio.up.3xl}",
-        "type": "letterSpacing"
-      },
-      "sm": {
-        "value": "{theme.letter-spacing.xs} * {theme.config.scale.ratio.up.3xl}",
-        "type": "letterSpacing"
-      },
-      "md": {
-        "value": "{theme.letter-spacing.sm} * {theme.config.scale.ratio.up.3xl}",
-        "type": "letterSpacing"
-      },
-      "lg": {
-        "value": "{theme.letter-spacing.md} * {theme.config.scale.ratio.up.3xl}",
-        "type": "letterSpacing"
-      },
-      "xl": {
-        "value": "{theme.letter-spacing.lg} * {theme.config.scale.ratio.up.3xl}",
-        "type": "letterSpacing"
+      "negative": {
+        "3xs": {
+          "value": "-0.125",
+          "type": "letterSpacing"
+        },
+        "2xs": {
+          "value": "{theme.letter-spacing.negative.3xs} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "xs": {
+          "value": "{theme.letter-spacing.negative.2xs} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "sm": {
+          "value": "{theme.letter-spacing.negative.xs} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "md": {
+          "value": "{theme.letter-spacing.negative.sm} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "lg": {
+          "value": "{theme.letter-spacing.negative.md} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        },
+        "xl": {
+          "value": "{theme.letter-spacing.negative.lg} * {theme.config.scale.ratio.up.3xl}",
+          "type": "letterSpacing"
+        }
       }
     },
     "config": {
