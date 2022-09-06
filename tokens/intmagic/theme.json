@@ -1140,6 +1140,19 @@
             "textCase": "{component.badge.text-case.default}"
           },
           "type": "typography"
+        },
+        "callout": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.medium}",
+            "lineHeight": "{theme.line-height.control.sm}",
+            "fontSize": "15px",
+            "letterSpacing": "{theme.letter-spacing.default}",
+            "paragraphSpacing": "{theme.paragraph-spacing.default}",
+            "textDecoration": "{theme.text-decoration.default}",
+            "textCase": "{component.badge.text-case.default}"
+          },
+          "type": "typography"
         }
       },
       "body": {
@@ -1160,7 +1173,7 @@
           "value": {
             "fontFamily": "{theme.font-family.sans}",
             "fontWeight": "{theme.font-weight.default}",
-            "lineHeight": "{theme.line-height.control.md}",
+            "lineHeight": "{theme.line-height.control.default}",
             "fontSize": "{core.font-size.default}",
             "letterSpacing": "{theme.letter-spacing.positive.2xs}",
             "paragraphSpacing": "{theme.paragraph-spacing.default}",
@@ -1174,10 +1187,10 @@
         "default": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.text}",
+            "fontWeight": "{theme.font-weight.medium}",
             "lineHeight": "{theme.line-height.control.xl}",
             "fontSize": "{theme.font-size.control.3xs}",
-            "letterSpacing": "{theme.letter-spacing.positive.2xs}",
+            "letterSpacing": "{theme.letter-spacing.default}",
             "paragraphSpacing": "{theme.paragraph-spacing.default}",
             "textDecoration": "{theme.text-decoration.default}",
             "textCase": "{component.badge.text-case.default}"
@@ -1187,10 +1200,10 @@
         "short": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.text}",
+            "fontWeight": "{theme.font-weight.strong}",
             "lineHeight": "{theme.line-height.control.lg}",
             "fontSize": "{theme.font-size.control.3xs}",
-            "letterSpacing": "{theme.letter-spacing.positive.2xs}",
+            "letterSpacing": "{theme.letter-spacing.default}",
             "paragraphSpacing": "{theme.paragraph-spacing.default}",
             "textDecoration": "{theme.text-decoration.default}",
             "textCase": "{component.badge.text-case.default}"
