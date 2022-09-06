@@ -242,11 +242,11 @@
         },
         "grey": {
           "5": {
-            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.10}, {theme.config.color.lightness.5})",
+            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.5}, {theme.config.color.lightness.5})",
             "type": "color"
           },
           "10": {
-            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.10}, {theme.config.color.lightness.10})",
+            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.5}, {theme.config.color.lightness.10})",
             "type": "color"
           },
           "20": {
@@ -274,15 +274,15 @@
             "type": "color"
           },
           "80": {
-            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.10}, {theme.config.color.lightness.80})",
+            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.5}, {theme.config.color.lightness.80})",
             "type": "color"
           },
           "90": {
-            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.10}, {theme.config.color.lightness.90})",
+            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.5}, {theme.config.color.lightness.90})",
             "type": "color"
           },
           "95": {
-            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.10}, {theme.config.color.lightness.95})",
+            "value": "hsl({theme.config.color.hue.grey}, {theme.config.color.saturation.5}, {theme.config.color.lightness.95})",
             "type": "color"
           }
         },
@@ -1105,6 +1105,19 @@
             "lineHeight": "{theme.line-height.control.sm}",
             "fontSize": "{theme.font-size.headline.3}",
             "letterSpacing": "{theme.letter-spacing.default}",
+            "paragraphSpacing": "{theme.paragraph-spacing.default}",
+            "textDecoration": "{theme.text-decoration.default}",
+            "textCase": "{theme.text-case.default}"
+          },
+          "type": "typography"
+        },
+        "4": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans-alt}",
+            "fontWeight": "{theme.font-weight.stronger}",
+            "lineHeight": "{theme.line-height.control.100}",
+            "fontSize": "96px",
+            "letterSpacing": "{theme.letter-spacing.negative.sm}",
             "paragraphSpacing": "{theme.paragraph-spacing.default}",
             "textDecoration": "{theme.text-decoration.default}",
             "textCase": "{theme.text-case.default}"
