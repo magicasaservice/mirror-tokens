@@ -387,7 +387,7 @@
         "dimmer": {
           "default": {
             "type": "color",
-            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.100}, {theme.config.color.transparency.20})"
+            "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.100}, {theme.config.color.transparency.50})"
           },
           "subtle": {
             "type": "color",
@@ -710,6 +710,10 @@
               "type": "color",
               "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
             },
+            "solid": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.20})"
+            },
             "muted": {
               "default": {
                 "type": "color",
@@ -738,7 +742,7 @@
             },
             "on-bg": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.30})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
             }
           }
         },
@@ -773,7 +777,7 @@
             "subtle": {
               "default": {
                 "type": "color",
-                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
+                "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               },
               "hover": {
                 "type": "color",
@@ -1086,7 +1090,7 @@
         "default": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.text}",
+            "fontWeight": "{theme.font-weight.medium}",
             "lineHeight": "{theme.line-height.control.sm}",
             "fontSize": "32px",
             "letterSpacing": "{theme.letter-spacing.default}",
@@ -1099,7 +1103,7 @@
         "short": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.text}",
+            "fontWeight": "{theme.font-weight.medium}",
             "lineHeight": "{theme.line-height.control.xs}",
             "fontSize": "32px",
             "letterSpacing": "{theme.letter-spacing.default}",
@@ -1114,7 +1118,7 @@
         "default": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.text}",
+            "fontWeight": "{theme.font-weight.medium}",
             "lineHeight": "{theme.line-height.control.md}",
             "fontSize": "20px",
             "letterSpacing": "{theme.letter-spacing.default}",
@@ -1127,7 +1131,7 @@
         "short": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.text}",
+            "fontWeight": "{theme.font-weight.medium}",
             "lineHeight": "{theme.line-height.control.sm}",
             "fontSize": "20px",
             "letterSpacing": "{theme.letter-spacing.default}",
@@ -1155,7 +1159,7 @@
         "default": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.default}",
+            "fontWeight": "{theme.font-weight.text}",
             "lineHeight": "{theme.line-height.control.lg}",
             "fontSize": "{core.font-size.default}",
             "letterSpacing": "{theme.letter-spacing.positive.2xs}",
@@ -1168,7 +1172,7 @@
         "short": {
           "value": {
             "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.default}",
+            "fontWeight": "{theme.font-weight.text}",
             "lineHeight": "{theme.line-height.control.default}",
             "fontSize": "{core.font-size.default}",
             "letterSpacing": "{theme.letter-spacing.positive.2xs}",
