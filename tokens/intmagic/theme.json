@@ -1120,6 +1120,34 @@
           "type": "typography"
         }
       },
+      "h2": {
+        "default": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.medium}",
+            "lineHeight": "{theme.line-height.control.sm}",
+            "fontSize": "28px",
+            "letterSpacing": "{theme.letter-spacing.negative.3xs}",
+            "paragraphSpacing": "{theme.paragraph-spacing.default}",
+            "textDecoration": "{theme.text-decoration.default}",
+            "textCase": "{component.badge.text-case.default}"
+          },
+          "type": "typography"
+        },
+        "short": {
+          "value": {
+            "fontFamily": "{theme.font-family.sans}",
+            "fontWeight": "{theme.font-weight.medium}",
+            "lineHeight": "{theme.line-height.control.xs}",
+            "fontSize": "28px",
+            "letterSpacing": "{theme.letter-spacing.negative.3xs}",
+            "paragraphSpacing": "{theme.paragraph-spacing.default}",
+            "textDecoration": "{theme.text-decoration.default}",
+            "textCase": "{component.badge.text-case.default}"
+          },
+          "type": "typography"
+        }
+      },
       "h3": {
         "default": {
           "value": {
@@ -1852,34 +1880,6 @@
               "type": "typography"
             }
           }
-        }
-      },
-      "h2": {
-        "default": {
-          "value": {
-            "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.medium}",
-            "lineHeight": "{theme.line-height.control.sm}",
-            "fontSize": "28px",
-            "letterSpacing": "{theme.letter-spacing.negative.3xs}",
-            "paragraphSpacing": "{theme.paragraph-spacing.default}",
-            "textDecoration": "{theme.text-decoration.default}",
-            "textCase": "{component.badge.text-case.default}"
-          },
-          "type": "typography"
-        },
-        "short": {
-          "value": {
-            "fontFamily": "{theme.font-family.sans}",
-            "fontWeight": "{theme.font-weight.medium}",
-            "lineHeight": "{theme.line-height.control.xs}",
-            "fontSize": "28px",
-            "letterSpacing": "{theme.letter-spacing.negative.3xs}",
-            "paragraphSpacing": "{theme.paragraph-spacing.default}",
-            "textDecoration": "{theme.text-decoration.default}",
-            "textCase": "{component.badge.text-case.default}"
-          },
-          "type": "typography"
         }
       }
     },
