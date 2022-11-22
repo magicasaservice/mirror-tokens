@@ -402,7 +402,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{theme.color.control.accent.bg.hover}"
+              "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.70})"
             },
             "light": {
               "default": {
@@ -419,7 +419,7 @@
               },
               "active": {
                 "type": "color",
-                "value": "{theme.color.control.accent.bg.light.hover}"
+                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.50})"
               }
             },
             "ghost": {
@@ -429,7 +429,7 @@
               },
               "active": {
                 "type": "color",
-                "value": "{theme.color.control.accent.bg.ghost.hover}"
+                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
               }
             }
           },
