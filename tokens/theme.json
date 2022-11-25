@@ -354,15 +354,19 @@
           "light": {
             "default": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.90})"
+              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.95})"
             },
             "subtle": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.10}, {theme.config.color.transparency.80})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.5}, {theme.config.color.transparency.95})"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.10}, {theme.config.color.transparency.90})"
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.10}, {theme.config.color.transparency.95})"
+            },
+            "emphasis": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.95}, {theme.config.color.transparency.95})"
             }
           }
         },
