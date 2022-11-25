@@ -339,17 +339,31 @@
             "type": "color",
             "value": "{theme.color.palette.white}"
           },
-          "muted": {
-            "type": "color",
-            "value": "{theme.color.palette.grey.10}"
-          },
           "subtle": {
             "type": "color",
             "value": "{theme.color.palette.grey.5}"
           },
+          "muted": {
+            "type": "color",
+            "value": "{theme.color.palette.grey.10}"
+          },
           "emphasis": {
             "type": "color",
             "value": "{theme.color.palette.grey.95}"
+          },
+          "light": {
+            "default": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.neutral}, {theme.config.color.lightness.0}, {theme.config.color.transparency.80})"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.95}, {theme.config.color.transparency.5})"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.grey}, {theme.config.color.lightness.95}, {theme.config.color.transparency.10})"
+            }
           }
         },
         "fg": {
