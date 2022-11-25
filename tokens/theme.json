@@ -388,14 +388,6 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.50})"
             },
-            "muted": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
-            },
-            "subtle": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
-            },
             "hover": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.60})"
@@ -404,14 +396,18 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.accent}, {theme.config.color.lightness.70})"
             },
+            "subtle": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+            },
             "light": {
               "default": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.30})"
-              },
-              "muted": {
-                "type": "color",
-                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
               },
               "hover": {
                 "type": "color",
@@ -420,6 +416,10 @@
               "active": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.50})"
+              },
+              "muted": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.accent}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
               }
             },
             "ghost": {
@@ -470,26 +470,22 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.primary}, {theme.config.color.lightness.80})"
             },
-            "muted": {
-              "type": "color",
-              "value": "hsl({theme.config.color.chroma.primary}, {theme.config.color.lightness.60})"
-            },
             "hover": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.primary}, {theme.config.color.lightness.90})"
             },
             "active": {
               "type": "color",
-              "value": "{theme.color.control.primary.bg.hover}"
+              "value": "hsl({theme.config.color.chroma.primary}, {theme.config.color.lightness.95})"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.primary}, {theme.config.color.lightness.60})"
             },
             "light": {
               "default": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.primary}, {theme.config.color.lightness.70}, {theme.config.color.transparency.30})"
-              },
-              "muted": {
-                "type": "color",
-                "value": "hsla({theme.config.color.chroma.primary}, {theme.config.color.lightness.70}, {theme.config.color.transparency.20})"
               },
               "hover": {
                 "type": "color",
@@ -498,6 +494,10 @@
               "active": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.primary}, {theme.config.color.lightness.70}, {theme.config.color.transparency.50})"
+              },
+              "muted": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.primary}, {theme.config.color.lightness.70}, {theme.config.color.transparency.20})"
               }
             },
             "ghost": {
@@ -548,10 +548,6 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.secondary}, {theme.config.color.lightness.20})"
             },
-            "muted": {
-              "type": "color",
-              "value": "hsl({theme.config.color.chroma.secondary}, {theme.config.color.lightness.10})"
-            },
             "hover": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.secondary}, {theme.config.color.lightness.30})"
@@ -560,14 +556,14 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.secondary}, {theme.config.color.lightness.40})"
             },
+            "muted": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.secondary}, {theme.config.color.lightness.10})"
+            },
             "light": {
               "default": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.secondary}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
-              },
-              "muted": {
-                "type": "color",
-                "value": "hsla({theme.config.color.chroma.secondary}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               },
               "hover": {
                 "type": "color",
@@ -576,6 +572,10 @@
               "active": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.secondary}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+              },
+              "muted": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.secondary}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               }
             },
             "ghost": {
@@ -622,14 +622,6 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.50})"
             },
-            "muted": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
-            },
-            "subtle": {
-              "type": "color",
-              "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
-            },
             "hover": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.60})"
@@ -638,14 +630,18 @@
               "type": "color",
               "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.70})"
             },
+            "muted": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
+            },
             "light": {
               "default": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.20})"
-              },
-              "muted": {
-                "type": "color",
-                "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               },
               "hover": {
                 "type": "color",
@@ -654,6 +650,10 @@
               "active": {
                 "type": "color",
                 "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.40})"
+              },
+              "muted": {
+                "type": "color",
+                "value": "hsla({theme.config.color.chroma.danger}, {theme.config.color.lightness.50}, {theme.config.color.transparency.10})"
               }
             },
             "ghost": {
@@ -671,6 +671,10 @@
             "default": {
               "type": "color",
               "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.60})"
+            },
+            "hover": {
+              "type": "color",
+              "value": "hsl({theme.config.color.chroma.danger}, {theme.config.color.lightness.70})"
             },
             "muted": {
               "type": "color",
