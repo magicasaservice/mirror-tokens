@@ -3,8 +3,16 @@
     "badge": {
       "sizing": {
         "height": {
+          "sm": {
+            "value": "{component.badge.sizing.height.default} - {theme.config.scale.step.xs}",
+            "type": "sizing"
+          },
           "default": {
-            "value": "{theme.sizing.control.2xs}",
+            "value": "{theme.sizing.control.xs} - {theme.config.scale.step.xs}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{component.badge.sizing.height.default} + {theme.config.scale.step.xs}",
             "type": "sizing"
           }
         }
@@ -140,9 +148,17 @@
         }
       },
       "border-radius": {
+        "sm": {
+          "type": "borderRadius",
+          "value": "{component.badge.border-radius.default} - {theme.config.scale.step.2xs}"
+        },
         "default": {
           "type": "borderRadius",
-          "value": "{theme.config.sizing.default} / 4"
+          "value": "6px"
+        },
+        "lg": {
+          "type": "borderRadius",
+          "value": "{component.badge.border-radius.default} + {theme.config.scale.step.2xs}"
         },
         "rounded": {
           "value": "{theme.border-radius.control.rounded}",
@@ -153,15 +169,29 @@
         "padding": {
           "sm": {
             "type": "spacing",
-            "value": "{component.badge.sizing.height.default} * 0.25"
+            "value": "{component.badge.spacing.padding.default} - {theme.config.scale.step.2xs}"
           },
           "default": {
             "type": "spacing",
-            "value": "{component.badge.sizing.height.default} * 0.375"
+            "value": "6px"
           },
           "lg": {
             "type": "spacing",
-            "value": "{component.badge.sizing.height.default} * 0.5"
+            "value": "{component.badge.spacing.padding.default} + {theme.config.scale.step.2xs}"
+          },
+          "rounded": {
+            "sm": {
+              "type": "spacing",
+              "value": "{component.badge.spacing.padding.rounded.default} - {theme.config.scale.step.2xs}"
+            },
+            "default": {
+              "type": "spacing",
+              "value": "{component.badge.spacing.padding.default} + {theme.config.scale.step.2xs}"
+            },
+            "lg": {
+              "type": "spacing",
+              "value": "{component.badge.spacing.padding.rounded.default} + {theme.config.scale.step.2xs}"
+            }
           }
         }
       },
@@ -179,11 +209,11 @@
       },
       "font-weight": {
         "default": {
-          "value": "{theme.font-weight.medium}",
+          "value": "{theme.font-weight.strong}",
           "type": "fontWeights"
         },
         "expressive": {
-          "value": "{theme.font-weight.strong}",
+          "value": "{theme.font-weight.stronger}",
           "type": "fontWeights"
         }
       },
@@ -192,24 +222,42 @@
           "value": "{theme.line-height.control.sm}",
           "type": "lineHeights"
         },
-        "expressive": {
+        "alt": {
           "value": "{theme.line-height.control.default}",
           "type": "lineHeights"
         }
       },
       "font-size": {
-        "default": {
+        "sm": {
           "value": "{theme.font-size.control.3xs}",
           "type": "fontSizes"
         },
-        "expressive": {
-          "value": "{theme.font-size.control.4xs}",
+        "default": {
+          "value": "{theme.font-size.control.2xs}",
           "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{theme.font-size.control.xs}",
+          "type": "fontSizes"
+        },
+        "expressive": {
+          "sm": {
+            "value": "{theme.font-size.control.4xs}",
+            "type": "fontSizes"
+          },
+          "default": {
+            "value": "{theme.font-size.control.3xs}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{theme.font-size.control.2xs}",
+            "type": "fontSizes"
+          }
         }
       },
       "letter-spacing": {
         "default": {
-          "value": "{theme.letter-spacing.xs}",
+          "value": "0",
           "type": "letterSpacing"
         },
         "expressive": {
