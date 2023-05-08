@@ -8,7 +8,13 @@ This repository is intended to power our own design system as well as serving as
 
 ## Construction
 
-Our design tokens are structured in three hierachical layers: `1. config`, `2. application`, `3. components`. The specificity of each layer topples the one prior. Tokens from each layer can either reference the layer below or include a finite value.
+Our design tokens are structured in three hierachical layers: 
+
+1. `Config`
+2. `Application`
+3. `Components`
+
+The specificity of each layer topples the one prior. Tokens from each layer can either reference the layer below or include a finite value.
 
 ```
          __________
