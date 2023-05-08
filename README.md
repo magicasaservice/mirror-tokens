@@ -4,7 +4,7 @@
 
 ## 💡 Intention
 
-This repository is intended to power our own design system as well as serving as a blueprint for all future design system project.
+This repository is intended to power our own design system as well as serve as a blueprint for all future design system projects.
 
 ## 🚧 Construction
 
