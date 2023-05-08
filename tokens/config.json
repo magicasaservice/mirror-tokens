@@ -1,41 +1,5 @@
 {
   "config": {
-    "typography": {
-      "control": {
-        "text": {
-          "value": {
-            "fontFamily": "{config.fontFamily.control}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "120%",
-            "fontSize": "0.875rem"
-          },
-          "type": "typography",
-          "description": "!Important: Do not use letterSpacing, paragraphSpacing, paragraphIndent, textDecoration or textCase"
-        },
-        "symbol": {
-          "value": {
-            "fontFamily": "{config.fontFamily.symbol}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "120%",
-            "fontSize": "1rem"
-          },
-          "type": "typography",
-          "description": "!Important: Do not use letterSpacing, paragraphSpacing, paragraphIndent, textDecoration or textCase"
-        }
-      },
-      "label": {
-        "text": {
-          "value": {
-            "fontFamily": "{config.fontFamily.control}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "120%",
-            "fontSize": "0.875rem"
-          },
-          "type": "typography",
-          "description": "!Important: Do not use letterSpacing, paragraphSpacing, paragraphIndent, textDecoration or textCase"
-        }
-      }
-    },
     "fontFamily": {
       "primary": {
         "value": "test",
@@ -205,6 +169,66 @@
         "padding": {
           "value": "1.25rem",
           "type": "dimension"
+        }
+      }
+    },
+    "typography": {
+      "control": {
+        "text": {
+          "fontFamily": {
+            "value": "{config.fontFamily.control}",
+            "type": "other"
+          },
+          "fontWeight": {
+            "value": "{config.fontWeight.medium}",
+            "type": "other"
+          },
+          "fontSize": {
+            "value": "0.875rem",
+            "type": "other"
+          },
+          "lineHeight": {
+            "value": "120%",
+            "type": "other"
+          }
+        },
+        "symbol": {
+          "fontFamily": {
+            "value": "{config.fontFamily.symbol}",
+            "type": "other"
+          },
+          "fontWeight": {
+            "value": "{config.fontWeight.medium}",
+            "type": "other"
+          },
+          "fontSize": {
+            "value": "1rem",
+            "type": "other"
+          },
+          "lineHeight": {
+            "value": "120%",
+            "type": "other"
+          }
+        }
+      },
+      "label": {
+        "text": {
+          "fontFamily": {
+            "value": "{config.fontFamily.control}",
+            "type": "other"
+          },
+          "fontWeight": {
+            "value": "{config.fontWeight.medium}",
+            "type": "other"
+          },
+          "fontSize": {
+            "value": "0.875rem",
+            "type": "other"
+          },
+          "lineHeight": {
+            "value": "120%",
+            "type": "other"
+          }
         }
       }
     }
