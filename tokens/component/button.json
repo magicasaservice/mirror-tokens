@@ -1,442 +1,524 @@
 {
   "component": {
     "button": {
-      "sizing": {
-        "height": {
+      "typography": {
+        "symbol": {
           "sm": {
-            "type": "sizing",
-            "value": "{component.button.sizing.height.default} - {theme.config.scale.control.sizing}"
+            "value": "{app.typography.control.text.sm}",
+            "type": "typography"
           },
-          "default": {
-            "type": "sizing",
-            "value": "{theme.sizing.control.md}"
+          "md": {
+            "value": "{app.typography.control.text.md}",
+            "type": "typography"
           },
           "lg": {
-            "type": "sizing",
-            "value": "{component.button.sizing.height.default} + {theme.config.scale.control.sizing}"
+            "value": "{app.typography.control.text.lg}",
+            "type": "typography"
+          }
+        },
+        "text": {
+          "sm": {
+            "value": "{app.typography.control.text.sm}",
+            "type": "typography"
           },
-          "xl": {
-            "type": "sizing",
-            "value": "{component.button.sizing.height.lg} + {theme.config.scale.control.sizing}"
+          "md": {
+            "value": "{config.typography.control.text}",
+            "type": "typography"
+          },
+          "lg": {
+            "value": "{app.typography.control.text.lg}",
+            "type": "typography"
           }
         }
       },
       "color": {
-        "focus": {
-          "ring": {
-            "value": "{theme.color.control.focus.ring.default}",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "bg": {
-            "type": "color",
-            "value": "{theme.color.control.disabled.bg.subtle.default}"
-          },
-          "fg": {
-            "type": "color",
-            "value": "{theme.color.control.disabled.fg.on-bg}"
-          }
-        },
         "primary": {
-          "bg": {
-            "value": "{theme.color.control.primary.bg.default}",
-            "type": "color"
-          },
-          "fg": {
-            "value": "{theme.color.control.primary.fg.default}",
-            "type": "color"
-          },
-          "fg-copy": {
-            "value": "{theme.color.control.primary.fg.default}",
-            "type": "color"
-          },
-          "fg-emphasis": {
-            "value": "{theme.color.control.primary.fg.on-normal}",
-            "type": "color"
-          },
-          "outline": {
-            "border": {
-              "value": "{theme.color.control.primary.border.default}",
-              "type": "color"
-            }
-          },
-          "hover": {
+          "solid": {
             "bg": {
-              "value": "{theme.color.control.primary.bg.hover}",
-              "type": "color"
-            }
-          },
-          "active": {
-            "bg": {
-              "value": "{theme.color.control.primary.bg.active}",
-              "type": "color"
-            }
-          },
-          "light": {
-            "bg": {
-              "value": "{theme.color.control.primary.bg.light.default}",
-              "type": "color"
-            },
-            "outline": {
-              "border": {
-                "value": "{theme.color.control.primary.border.light.default}",
+              "default": {
+                "value": "{app.color.component.primary.bg.solid}",
                 "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.primary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.primary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.primary.bg.light.hover}",
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onSolid}",
                 "type": "color"
               }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.primary.translucent.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.primary.translucent.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
             },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.primary.bg.light.active}",
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               }
             }
           },
           "ghost": {
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.primary.bg.ghost.hover}",
-                "type": "color"
+            "bg": {
+              "hover": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.primary.translucent.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.primary.translucent.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.primary.bg.ghost.active}",
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
+              }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.primary.border.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.primary.border.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.primary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.primary.border.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.primary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "hover-copy": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "text": {
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "hover-copy": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             }
           }
         },
         "secondary": {
-          "bg": {
-            "value": "{theme.color.control.secondary.bg.default}",
-            "type": "color"
-          },
-          "fg": {
-            "value": "{theme.color.control.secondary.fg.default}",
-            "type": "color"
-          },
-          "fg-emphasis": {
-            "value": "{theme.color.control.secondary.fg.on-normal}",
-            "type": "color"
-          },
-          "outline": {
-            "border": {
-              "value": "{theme.color.control.secondary.border.default}",
-              "type": "color"
-            }
-          },
-          "hover": {
+          "solid": {
             "bg": {
-              "value": "{theme.color.control.secondary.bg.hover}",
-              "type": "color"
-            }
-          },
-          "active": {
-            "bg": {
-              "value": "{theme.color.control.secondary.bg.active}",
-              "type": "color"
-            }
-          },
-          "light": {
-            "bg": {
-              "value": "{theme.color.control.secondary.bg.light.default}",
-              "type": "color"
-            },
-            "outline": {
-              "border": {
-                "value": "{theme.color.control.secondary.border.light.default}",
+              "default": {
+                "value": "{app.color.component.secondary.bg.solid}",
                 "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.secondary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.secondary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.secondary.bg.light.hover}",
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.onSolid}",
                 "type": "color"
               }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.secondary.bg.translucent}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.secondary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.secondary.translucent.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.secondary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.secondary.translucent.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
             },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.secondary.bg.light.active}",
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.onTranslucent}",
                 "type": "color"
               }
             }
           },
           "ghost": {
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.secondary.bg.ghost.hover}",
-                "type": "color"
+            "bg": {
+              "hover": {
+                "value": "{app.color.component.secondary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.secondary.translucent.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.secondary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.secondary.translucent.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.secondary.bg.ghost.active}",
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.solid}",
                 "type": "color"
               }
             }
-          }
-        },
-        "accent": {
-          "bg": {
-            "value": "{theme.color.control.accent.bg.default}",
-            "type": "color"
-          },
-          "fg": {
-            "value": "{theme.color.control.accent.fg.default}",
-            "type": "color"
-          },
-          "fg-emphasis": {
-            "value": "{theme.color.control.accent.fg.on-normal}",
-            "type": "color"
           },
           "outline": {
             "border": {
-              "value": "{theme.color.control.accent.border.default}",
-              "type": "color"
-            }
-          },
-          "hover": {
-            "bg": {
-              "value": "{theme.color.control.accent.bg.hover}",
-              "type": "color"
-            }
-          },
-          "active": {
-            "bg": {
-              "value": "{theme.color.control.accent.bg.active}",
-              "type": "color"
-            }
-          },
-          "light": {
-            "bg": {
-              "value": "{theme.color.control.accent.bg.light.muted}",
-              "type": "color"
-            },
-            "outline": {
-              "border": {
-                "value": "{theme.color.control.accent.border.light.default}",
+              "default": {
+                "value": "{app.color.component.secondary.border.solid}",
                 "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.secondary.border.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.secondary.border.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.accent.bg.light.hover}",
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.solid}",
                 "type": "color"
-              }
-            },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.accent.bg.light.active}",
-                "type": "color"
-              }
-            }
-          },
-          "ghost": {
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.accent.bg.ghost.hover}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.accent.bg.ghost.active}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "danger": {
-          "bg": {
-            "value": "{theme.color.control.danger.bg.default}",
-            "type": "color"
-          },
-          "fg": {
-            "value": "{theme.color.control.danger.fg.default}",
-            "type": "color"
-          },
-          "fg-emphasis": {
-            "value": "{theme.color.control.danger.fg.on-normal}",
-            "type": "color"
-          },
-          "outline": {
-            "border": {
-              "value": "{theme.color.control.danger.border.default}",
-              "type": "color"
-            }
-          },
-          "hover": {
-            "bg": {
-              "value": "{theme.color.control.danger.bg.hover}",
-              "type": "color"
-            }
-          },
-          "active": {
-            "bg": {
-              "value": "{theme.color.control.danger.bg.active}",
-              "type": "color"
-            }
-          },
-          "light": {
-            "bg": {
-              "value": "{theme.color.control.danger.bg.light.default}",
-              "type": "color"
-            },
-            "outline": {
-              "border": {
-                "value": "{theme.color.control.danger.border.light.default}",
-                "type": "color"
-              }
-            },
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.danger.bg.light.hover}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.danger.bg.light.active}",
-                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.secondary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "hover-copy": {
+                "value": "{app.color.component.secondary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             }
           },
-          "ghost": {
-            "hover": {
-              "bg": {
-                "value": "{theme.color.control.danger.bg.ghost.hover}",
+          "text": {
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.solid}",
                 "type": "color"
-              }
-            },
-            "active": {
-              "bg": {
-                "value": "{theme.color.control.danger.bg.ghost.active}",
-                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.secondary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "hover-copy": {
+                "value": "{app.color.component.secondary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.secondary.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             }
           }
         }
-      },
-      "border-radius": {
-        "sm": {
-          "type": "borderRadius",
-          "value": "{component.button.border-radius.default} - {theme.config.scale.control.border-radius}"
-        },
-        "default": {
-          "type": "borderRadius",
-          "value": "{theme.border-radius.control.md} - {theme.config.scale.step.2xs}"
-        },
-        "lg": {
-          "type": "borderRadius",
-          "value": "{component.button.border-radius.default} + {theme.config.scale.control.border-radius}"
-        },
-        "xl": {
-          "type": "borderRadius",
-          "value": "{component.button.border-radius.lg} + {theme.config.scale.control.border-radius}"
-        },
-        "rounded": {
-          "value": "{theme.border-radius.control.rounded}",
-          "type": "borderRadius"
-        }
-      },
-      "spacing": {
-        "padding": {
+      }
+    },
+    "dimension": {
+      "control": {
+        "height": {
           "sm": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.default} - {theme.config.scale.control.spacing}"
+            "value": "{app.dimension.control.height.sm}",
+            "type": "dimension"
           },
-          "default": {
-            "type": "spacing",
-            "value": "{component.button.sizing.height.default} / 2.5"
+          "md": {
+            "value": "{app.dimension.control.height.md}",
+            "type": "dimension"
           },
           "lg": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.default} + {theme.config.scale.control.spacing}"
+            "value": "{app.dimension.control.height.lg}",
+            "type": "dimension"
+          }
+        },
+        "padding": {
+          "sm": {
+            "value": "{app.dimension.control.padding.sm}",
+            "type": "dimension"
           },
-          "xl": {
-            "type": "spacing",
-            "value": "{component.button.spacing.padding.lg} + {theme.config.scale.control.spacing}"
+          "md": {
+            "value": "{app.dimension.control.padding.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.padding.lg}",
+            "type": "dimension"
           }
         },
         "gap": {
-          "sm": {
-            "type": "spacing",
-            "value": "{component.button.spacing.gap.default} - {theme.config.scale.control.gap}"
-          },
-          "default": {
-            "type": "spacing",
-            "value": "{theme.font-size.symbol.md} / 2"
-          },
-          "lg": {
-            "type": "spacing",
-            "value": "{component.button.spacing.gap.default} + {theme.config.scale.control.gap}"
-          },
-          "xl": {
-            "type": "spacing",
-            "value": "{component.button.spacing.gap.lg} + {theme.config.scale.control.gap}"
+          "md": {
+            "value": "{app.dimension.control.gap.md}",
+            "type": "dimension"
           }
         },
-        "label": {
-          "default": {
-            "value": "{theme.config.scale.control.spacing} / 2",
-            "type": "spacing"
-          }
-        }
-      },
-      "border-width": {
-        "default": {
-          "value": "{theme.border-width.control.md}",
-          "type": "borderWidth"
-        }
-      },
-      "typography": {
-        "label": {
+        "radius": {
           "sm": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.text.sm}"
+            "value": "{app.dimension.control.radius.sm}",
+            "type": "dimension"
           },
-          "default": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.text.md}"
+          "md": {
+            "value": "{app.dimension.control.radius.md}",
+            "type": "dimension"
           },
           "lg": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.text.lg}"
-          },
-          "xl": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.text.xl}"
+            "value": "{app.dimension.control.radius.lg}",
+            "type": "dimension"
           }
-        },
-        "symbol": {
-          "sm": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.symbol.sm}"
-          },
-          "default": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.symbol.md}"
-          },
-          "lg": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.symbol.lg}"
-          },
-          "xl": {
-            "type": "typography",
-            "value": "{theme.typography.control.strong.symbol.xl}"
-          }
-        }
-      },
-      "focus-ring": {
-        "default": {
-          "value": "{theme.focus-ring.control.default}",
-          "type": "borderWidth"
         }
       }
     }

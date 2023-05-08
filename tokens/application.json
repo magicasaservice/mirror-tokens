@@ -1,0 +1,641 @@
+{
+  "app": {
+    "dimension": {
+      "control": {
+        "height": {
+          "sm": {
+            "value": "{component.dimension.control.height.md} - 0.5rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.height}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{component.dimension.control.height.md} + 0.5rem",
+            "type": "dimension"
+          }
+        },
+        "padding": {
+          "sm": {
+            "value": "{app.dimension.control.padding.md} - 0.25rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.padding}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.padding.md} + 0.25rem",
+            "type": "dimension"
+          }
+        },
+        "gap": {
+          "md": {
+            "value": "{config.dimension.control.gap}",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "sm": {
+            "value": "{app.dimension.control.radius.md} - 0.125rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.radius}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.radius.md} + 0.125rem",
+            "type": "dimension"
+          }
+        }
+      },
+      "label": {
+        "height": {
+          "sm": {
+            "value": "{component.dimension.control.height.md} - 0.5rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.height}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{component.dimension.control.height.md} + 0.5rem",
+            "type": "dimension"
+          }
+        },
+        "padding": {
+          "sm": {
+            "value": "{app.dimension.control.padding.md} - 0.25rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.padding}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.padding.md} + 0.25rem",
+            "type": "dimension"
+          }
+        },
+        "gap": {
+          "md": {
+            "value": "{config.dimension.control.gap}",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "sm": {
+            "value": "{app.dimension.control.radius.md} - 0.125rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.radius}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.radius.md} + 0.125rem",
+            "type": "dimension"
+          }
+        }
+      }
+    },
+    "color": {
+      "elevation": {
+        "low": {
+          "surface": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 98%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.low.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.low.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 98%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.low.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.low.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "base": {
+          "surface": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 96%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.base.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.base.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 96%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.base.border.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.base.border.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "shadow": {
+            "default": {
+              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 0%, 0.2)",
+              "type": "color"
+            }
+          }
+        },
+        "high": {
+          "surface": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 94%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.high.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.high.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 94%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.high.border.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.high.border.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "shadow": {
+            "default": {
+              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 0%, 0.2)",
+              "type": "color"
+            }
+          }
+        },
+        "higher": {
+          "surface": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 92%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.higher.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.higher.surface.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 92%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.elevation.higher.border.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.elevation.higher.border.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.neutral.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "shadow": {
+            "default": {
+              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 0%, 0.2)",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "component": {
+        "primary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 20%)"
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 40%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 30%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
+            }
+          }
+        }
+      }
+    },
+    "modifier": {
+      "color": {
+        "primary": {
+          "solid": {
+            "hover": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.4",
+              "type": "other"
+            }
+          },
+          "translucent": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          }
+        },
+        "secondary": {
+          "solid": {
+            "hover": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.4",
+              "type": "other"
+            }
+          },
+          "translucent": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          }
+        },
+        "neutral": {
+          "solid": {
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "translucent": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          }
+        }
+      }
+    },
+    "typography": {
+      "control": {
+        "text": {
+          "sm": {
+            "value": {
+              "fontFamily": "{config.typography.control.text.fontFamily}",
+              "fontWeight": "{config.typography.control.text.fontWeight}",
+              "lineHeight": "{config.typography.control.text.lineHeight}",
+              "fontSize": "{config.typography.control.text.fontSize} - 0.125rem"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{config.typography.control.text.fontFamily}",
+              "fontWeight": "{config.typography.control.text.fontWeight}",
+              "lineHeight": "{config.typography.control.text.lineHeight}",
+              "fontSize": "{config.typography.control.text.fontSize}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{config.typography.control.text.fontFamily}",
+              "fontWeight": "{config.typography.control.text.fontWeight}",
+              "lineHeight": "{config.typography.control.text.lineHeight}",
+              "fontSize": "{config.typography.control.text.fontSize} + 0.125rem"
+            },
+            "type": "typography"
+          }
+        },
+        "symbol": {
+          "sm": {
+            "value": {
+              "fontFamily": "{config.typography.control.symbol.fontFamily}",
+              "fontWeight": "{config.typography.control.symbol.fontWeight}",
+              "lineHeight": "{config.typography.control.symbol.lineHeight}",
+              "fontSize": "{config.typography.control.symbol.fontSize} - 0.125rem"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{config.typography.control.symbol.fontFamily}",
+              "fontWeight": "{config.typography.control.symbol.fontWeight}",
+              "lineHeight": "{config.typography.control.symbol.lineHeight}",
+              "fontSize": "{config.typography.control.symbol.fontSize}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{config.typography.control.symbol.fontFamily}",
+              "fontWeight": "{config.typography.control.symbol.fontWeight}",
+              "lineHeight": "{config.typography.control.symbol.lineHeight}",
+              "fontSize": "{config.typography.control.symbol.fontSize} + 0.125rem"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "label": {
+        "text": {
+          "sm": {
+            "value": {
+              "fontFamily": "{config.typography.label.text.fontFamily}",
+              "fontWeight": "{config.typography.label.text.fontWeight}",
+              "lineHeight": "{config.typography.label.text.lineHeight}",
+              "fontSize": "{config.typography.label.text.fontSize} - 0.125rem"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{config.typography.label.text.fontFamily}",
+              "fontWeight": "{config.typography.label.text.fontWeight}",
+              "lineHeight": "{config.typography.label.text.lineHeight}",
+              "fontSize": "{config.typography.label.text.fontSize}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{config.typography.label.text.fontFamily}",
+              "fontWeight": "{config.typography.label.text.fontWeight}",
+              "lineHeight": "{config.typography.label.text.lineHeight}",
+              "fontSize": "{config.typography.label.text.fontSize} + 0.125rem"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}
