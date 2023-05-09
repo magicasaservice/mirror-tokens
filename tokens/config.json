@@ -175,21 +175,35 @@
     "typography": {
       "control": {
         "text": {
-          "fontFamily": {
-            "value": "{config.fontFamily.control}",
-            "type": "other"
-          },
           "fontWeight": {
             "value": "{config.fontWeight.medium}",
             "type": "other"
           },
-          "fontSize": {
-            "value": "0.875rem",
+          "fontFamily": {
+            "value": "{config.fontFamily.control}",
             "type": "other"
           },
           "lineHeight": {
             "value": "120%",
             "type": "other"
+          },
+          "fontSize": {
+            "sm": {
+              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
+              "type": "other"
+            },
+            "md": {
+              "value": "{config.typography.control.text.fontSize.base}",
+              "type": "other"
+            },
+            "lg": {
+              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
+              "type": "other"
+            },
+            "base": {
+              "value": "0.875rem",
+              "type": "other"
+            }
           }
         },
         "symbol": {
@@ -201,13 +215,27 @@
             "value": "{config.fontWeight.medium}",
             "type": "other"
           },
-          "fontSize": {
-            "value": "1rem",
-            "type": "other"
-          },
           "lineHeight": {
             "value": "120%",
             "type": "other"
+          },
+          "fontSize": {
+            "sm": {
+              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
+              "type": "other"
+            },
+            "md": {
+              "value": "{config.typography.control.text.fontSize.base}",
+              "type": "other"
+            },
+            "lg": {
+              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
+              "type": "other"
+            },
+            "base": {
+              "value": "1rem",
+              "type": "other"
+            }
           }
         }
       },
@@ -221,13 +249,27 @@
             "value": "{config.fontWeight.medium}",
             "type": "other"
           },
-          "fontSize": {
-            "value": "0.875rem",
-            "type": "other"
-          },
           "lineHeight": {
             "value": "120%",
             "type": "other"
+          },
+          "fontSize": {
+            "sm": {
+              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
+              "type": "other"
+            },
+            "md": {
+              "value": "{config.typography.control.text.fontSize.base}",
+              "type": "other"
+            },
+            "lg": {
+              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
+              "type": "other"
+            },
+            "base": {
+              "value": "0.875rem",
+              "type": "other"
+            }
           }
         }
       }
