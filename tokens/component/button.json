@@ -118,7 +118,7 @@
               "value": "{app.color.component.primary.fg.solid.hover}",
               "type": "color"
             },
-            "hover-copy": {
+            "active": {
               "value": "{app.color.component.primary.fg.solid.active}",
               "type": "color"
             }
@@ -137,14 +137,142 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
+                    "value": "{app.modifier.color.primary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "value": "{app.color.component.primary.fg.solid.default}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.primary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "secondary": {
+        "solid": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.secondary.bg.solid.default}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{app.color.component.secondary.bg.solid.hover}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.secondary.bg.solid.active}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.secondary.fg.onSolid.default}",
+              "type": "color"
+            }
+          }
+        },
+        "translucent": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.secondary.bg.translucent.default}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{app.color.component.secondary.bg.translucent.hover}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.secondary.bg.translucent.active}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.secondary.fg.onTranslucent.default}",
+              "type": "color"
+            }
+          }
+        },
+        "ghost": {
+          "bg": {
+            "hover": {
+              "value": "{app.color.component.secondary.bg.translucent.hover}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.secondary.bg.translucent.active}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.secondary.fg.solid.default}",
+              "type": "color"
+            }
+          }
+        },
+        "outline": {
+          "border": {
+            "default": {
+              "value": "{app.color.component.secondary.border.solid.default}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{app.color.component.secondary.border.solid.hover}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.secondary.border.solid.active}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.secondary.fg.solid.default}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{app.color.component.secondary.fg.solid.hover}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.secondary.fg.solid.active}",
+              "type": "color"
+            }
+          }
+        },
+        "text": {
+          "fg": {
+            "default": {
+              "value": "{app.color.component.secondary.fg.solid.default}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{app.color.component.secondary.fg.solid.default}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
                     "value": "{app.modifier.color.secondary.solid.hover}",
                     "space": "hsl"
                   }
                 }
               }
             },
-            "hover-copy": {
-              "value": "{app.color.component.primary.fg.solid.default}",
+            "active": {
+              "value": "{app.color.component.secondary.fg.solid.default}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
