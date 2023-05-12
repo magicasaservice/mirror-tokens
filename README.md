@@ -19,13 +19,13 @@ The specificity of each layer topples the one prior. Tokens from each layer can 
 ```
          __________
         /          \
-       / Components \
+       / components \
       /______________\
      /                \
-    /    Application   \
+    /    application   \
    /____________________\
   /                      \
- /         Config         \
+ /         config         \
 /__________________________\
 ```
 
@@ -34,19 +34,19 @@ The specificity of each layer topples the one prior. Tokens from each layer can 
 To customize the design tokens, each of the layers’ tokens can be overwritten within a layer injected directly above it into the hierachical structure. This is intended for features such as adusted mobile styles or dark mode.
 
 ```
-            __________
-           /          \
-          / Components \
-         /______________\
-        /                \
-       /     Dark Mode    \
-      /____________________\
-     /                      \
-    /       Application      \
-   /__________________________\
-  /                            \
- /            Config            \
-/________________________________\
+            ___________
+           /           \
+          /  component  \
+         /_______________\
+        /                 \
+       / application--dark \
+      /_____________________\
+     /                       \
+    /       application       \
+   /___________________________\
+  /                             \
+ /            config             \
+/_________________________________\
 ```
 
 ## 🧰 Tooling
