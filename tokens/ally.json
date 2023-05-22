@@ -1,0 +1,199 @@
+{
+  "app": {
+    "dimension": {
+      "control": {
+        "radius": {
+          "sm": {
+            "value": "999px",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "999px",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "999px",
+            "type": "dimension"
+          }
+        }
+      },
+      "label": {
+        "radius": {
+          "sm": {
+            "value": "999px",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "999px",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "999px",
+            "type": "dimension"
+          }
+        }
+      }
+    },
+    "color": {
+      "component": {
+        "primary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 20%)"
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 70%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 75%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 30%)"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
+            }
+          }
+        }
+      }
+    },
+    "typography": {
+      "control": {
+        "text": {
+          "sm": {
+            "value": {
+              "fontFamily": "{config.typography.control.text.fontFamily}",
+              "fontWeight": "{config.typography.control.text.fontWeight}",
+              "lineHeight": "{config.typography.control.text.lineHeight}",
+              "fontSize": "{config.typography.control.text.fontSize} - 0.125rem"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{config.typography.control.text.fontFamily}",
+              "fontWeight": "{config.typography.control.text.fontWeight}",
+              "lineHeight": "{config.typography.control.text.lineHeight}",
+              "fontSize": "{config.typography.control.text.fontSize}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{config.typography.control.text.fontFamily}",
+              "fontWeight": "{config.typography.control.text.fontWeight}",
+              "lineHeight": "{config.typography.control.text.lineHeight}",
+              "fontSize": "{config.typography.control.text.fontSize} + 0.125rem"
+            },
+            "type": "typography"
+          }
+        },
+        "symbol": {
+          "sm": {
+            "value": {
+              "fontFamily": "{config.typography.control.symbol.fontFamily}",
+              "fontWeight": "{config.typography.control.symbol.fontWeight}",
+              "lineHeight": "{config.typography.control.symbol.lineHeight}",
+              "fontSize": "{config.typography.control.symbol.fontSize} - 0.125rem"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{config.typography.control.symbol.fontFamily}",
+              "fontWeight": "{config.typography.control.symbol.fontWeight}",
+              "lineHeight": "{config.typography.control.symbol.lineHeight}",
+              "fontSize": "{config.typography.control.symbol.fontSize}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{config.typography.control.symbol.fontFamily}",
+              "fontWeight": "{config.typography.control.symbol.fontWeight}",
+              "lineHeight": "{config.typography.control.symbol.lineHeight}",
+              "fontSize": "{config.typography.control.symbol.fontSize} + 0.125rem"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "label": {
+        "text": {
+          "sm": {
+            "value": {
+              "fontFamily": "{config.typography.label.text.fontFamily}",
+              "fontWeight": "{config.typography.label.text.fontWeight}",
+              "lineHeight": "{config.typography.label.text.lineHeight}",
+              "fontSize": "{config.typography.label.text.fontSize} - 0.125rem"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{config.typography.label.text.fontFamily}",
+              "fontWeight": "{config.typography.label.text.fontWeight}",
+              "lineHeight": "{config.typography.label.text.lineHeight}",
+              "fontSize": "{config.typography.label.text.fontSize}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{config.typography.label.text.fontFamily}",
+              "fontWeight": "{config.typography.label.text.fontWeight}",
+              "lineHeight": "{config.typography.label.text.lineHeight}",
+              "fontSize": "{config.typography.label.text.fontSize} + 0.125rem"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}
