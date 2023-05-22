@@ -1,55 +1,77 @@
 {
-  "button": {
-    "typography": {
-      "text": {
-        "sm": {
-          "value": "{app.typography.control.text.sm}",
-          "type": "typography"
+  "component": {
+    "button": {
+      "typography": {
+        "symbol": {
+          "sm": {
+            "value": "{app.typography.control.text.sm}",
+            "type": "typography"
+          },
+          "md": {
+            "value": "{app.typography.control.text.md}",
+            "type": "typography"
+          },
+          "lg": {
+            "value": "{app.typography.control.text.lg}",
+            "type": "typography"
+          }
         },
-        "md": {
-          "value": "{app.typography.control.text.md}",
-          "type": "typography"
-        },
-        "lg": {
-          "value": "{app.typography.control.text.lg}",
-          "type": "typography"
-        }
-      },
-      "symbol": {
-        "sm": {
-          "value": "{app.typography.control.symbol.sm}",
-          "type": "typography"
-        },
-        "md": {
-          "value": "{app.typography.control.symbol.md}",
-          "type": "typography"
-        },
-        "lg": {
-          "value": "{app.typography.control.symbol.lg}",
-          "type": "typography"
+        "text": {
+          "sm": {
+            "value": "{app.typography.control.text.sm}",
+            "type": "typography"
+          },
+          "md": {
+            "value": "{config.typography.control.text}",
+            "type": "typography"
+          },
+          "lg": {
+            "value": "{app.typography.control.text.lg}",
+            "type": "typography"
+          }
         }
       }
-    },
+    }
+  },
+  "button": {
     "color": {
       "primary": {
         "solid": {
           "bg": {
             "default": {
-              "value": "{app.color.component.primary.bg.solid.default}",
+              "value": "{app.color.component.primary.bg.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.primary.bg.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.primary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.primary.bg.solid.active}",
-              "type": "color"
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.primary.fg.onSolid.default}",
+              "value": "{app.color.component.primary.fg.onSolid}",
               "type": "color"
             }
           }
@@ -57,21 +79,39 @@
         "translucent": {
           "bg": {
             "default": {
-              "value": "{app.color.component.primary.bg.translucent.default}",
+              "value": "{app.color.component.primary.bg.translucent}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.primary.bg.translucent.hover}",
-              "type": "color"
+              "value": "{app.color.component.primary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.primary.translucent.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.primary.bg.translucent.active}",
-              "type": "color"
+              "value": "{app.color.component.primary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.primary.translucent.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.primary.fg.onTranslucent.default}",
+              "value": "{app.color.component.primary.fg.onTranslucent}",
               "type": "color"
             }
           }
@@ -79,17 +119,35 @@
         "ghost": {
           "bg": {
             "hover": {
-              "value": "{app.color.component.primary.bg.translucent.hover}",
-              "type": "color"
+              "value": "{app.color.component.primary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.primary.translucent.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.primary.bg.translucent.active}",
-              "type": "color"
+              "value": "{app.color.component.primary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.primary.translucent.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.primary.fg.solid.default}",
+              "value": "{app.color.component.primary.fg.solid}",
               "type": "color"
             }
           }
@@ -97,46 +155,100 @@
         "outline": {
           "border": {
             "default": {
-              "value": "{app.color.component.primary.border.solid.default}",
+              "value": "{app.color.component.primary.border.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.primary.border.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.primary.border.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.primary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.primary.border.solid.active}",
-              "type": "color"
+              "value": "{app.color.component.primary.border.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.primary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.primary.fg.solid.default}",
+              "value": "{app.color.component.primary.fg.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.primary.fg.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
-            "active": {
-              "value": "{app.color.component.primary.fg.solid.active}",
-              "type": "color"
+            "hover-copy": {
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         },
         "text": {
           "fg": {
             "default": {
-              "value": "{app.color.component.primary.fg.solid.default}",
+              "value": "{app.color.component.primary.fg.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.primary.fg.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
-            "active": {
-              "value": "{app.color.component.primary.fg.solid.active}",
-              "type": "color"
+            "hover-copy": {
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         }
@@ -145,21 +257,39 @@
         "solid": {
           "bg": {
             "default": {
-              "value": "{app.color.component.secondary.bg.solid.default}",
+              "value": "{app.color.component.secondary.bg.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.secondary.bg.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.secondary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.secondary.bg.solid.active}",
-              "type": "color"
+              "value": "{app.color.component.secondary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.secondary.fg.onSolid.default}",
+              "value": "{app.color.component.secondary.fg.onSolid}",
               "type": "color"
             }
           }
@@ -167,21 +297,39 @@
         "translucent": {
           "bg": {
             "default": {
-              "value": "{app.color.component.secondary.bg.translucent.default}",
+              "value": "{app.color.component.secondary.bg.translucent}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.secondary.bg.translucent.hover}",
-              "type": "color"
+              "value": "{app.color.component.secondary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.secondary.translucent.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.secondary.bg.translucent.active}",
-              "type": "color"
+              "value": "{app.color.component.secondary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.secondary.translucent.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.secondary.fg.onTranslucent.default}",
+              "value": "{app.color.component.secondary.fg.onTranslucent}",
               "type": "color"
             }
           }
@@ -189,17 +337,35 @@
         "ghost": {
           "bg": {
             "hover": {
-              "value": "{app.color.component.secondary.bg.translucent.hover}",
-              "type": "color"
+              "value": "{app.color.component.secondary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.secondary.translucent.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.secondary.bg.translucent.active}",
-              "type": "color"
+              "value": "{app.color.component.secondary.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.secondary.translucent.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.secondary.fg.solid.default}",
+              "value": "{app.color.component.secondary.fg.solid}",
               "type": "color"
             }
           }
@@ -207,46 +373,100 @@
         "outline": {
           "border": {
             "default": {
-              "value": "{app.color.component.secondary.border.solid.default}",
+              "value": "{app.color.component.secondary.border.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.secondary.border.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.secondary.border.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "{app.color.component.secondary.border.solid.active}",
-              "type": "color"
+              "value": "{app.color.component.secondary.border.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.secondary.fg.solid.default}",
+              "value": "{app.color.component.secondary.fg.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.secondary.fg.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.secondary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
-            "active": {
-              "value": "{app.color.component.secondary.fg.solid.active}",
-              "type": "color"
+            "hover-copy": {
+              "value": "{app.color.component.secondary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         },
         "text": {
           "fg": {
             "default": {
-              "value": "{app.color.component.secondary.fg.solid.default}",
+              "value": "{app.color.component.secondary.fg.solid}",
               "type": "color"
             },
             "hover": {
-              "value": "{app.color.component.secondary.fg.solid.hover}",
-              "type": "color"
+              "value": "{app.color.component.secondary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
-            "active": {
-              "value": "{app.color.component.secondary.fg.solid.active}",
-              "type": "color"
+            "hover-copy": {
+              "value": "{app.color.component.secondary.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.modifier.color.secondary.solid.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         }

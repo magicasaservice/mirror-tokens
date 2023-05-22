@@ -391,360 +391,72 @@
         "primary": {
           "bg": {
             "solid": {
-              "default": {
-                "type": "color",
-                "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, 1)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.primary.bg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.primary.solid.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.primary.bg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.primary.solid.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)"
             },
             "translucent": {
-              "default": {
-                "type": "color",
-                "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.primary.bg.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.primary.translucent.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.primary.bg.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.primary.translucent.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
             }
           },
           "border": {
             "solid": {
-              "default": {
-                "type": "color",
-                "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.primary.border.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.primary.solid.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.primary.border.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.primary.solid.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
             },
             "translucent": {
-              "default": {
-                "type": "color",
-                "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.primary.border.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.primary.translucent.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.primary.border.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.primary.translucent.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
             }
           },
           "fg": {
             "solid": {
-              "default": {
-                "type": "color",
-                "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.primary.fg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.primary.solid.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.primary.fg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.primary.solid.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
             },
             "onSolid": {
-              "default": {
-                "type": "color",
-                "value": "white"
-              }
+              "type": "color",
+              "value": "white"
             },
             "onTranslucent": {
-              "default": {
-                "type": "color",
-                "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 20%)"
-              }
+              "type": "color",
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 20%)"
             }
           }
         },
         "secondary": {
           "bg": {
             "solid": {
-              "default": {
-                "type": "color",
-                "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, 1)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.secondary.bg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.secondary.solid.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.secondary.bg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.primary.solid.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%)"
             },
             "translucent": {
-              "default": {
-                "type": "color",
-                "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.secondary.bg.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.secondary.translucent.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.secondary.bg.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.secondary.translucent.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
             }
           },
           "border": {
             "solid": {
-              "default": {
-                "type": "color",
-                "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 40%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.secondary.border.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.secondary.solid.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.secondary.border.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.secondary.solid.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 40%)"
             },
             "translucent": {
-              "default": {
-                "type": "color",
-                "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.secondary.border.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.secondary.translucent.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.secondary.border.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.modifier.color.secondary.translucent.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
             }
           },
           "fg": {
             "solid": {
-              "default": {
-                "type": "color",
-                "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 40%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.component.secondary.fg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.secondary.solid.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.component.secondary.fg.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.modifier.color.secondary.solid.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 30%)"
             },
             "onSolid": {
-              "default": {
-                "type": "color",
-                "value": "white"
-              }
+              "type": "color",
+              "value": "white"
             },
             "onTranslucent": {
-              "default": {
-                "type": "color",
-                "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
-              }
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
             }
           }
         }
@@ -840,30 +552,27 @@
               "fontFamily": "{config.typography.control.text.fontFamily}",
               "fontWeight": "{config.typography.control.text.fontWeight}",
               "lineHeight": "{config.typography.control.text.lineHeight}",
-              "fontSize": "{config.typography.control.text.fontSize.sm}"
+              "fontSize": "{config.typography.control.text.fontSize} - 0.125rem"
             },
-            "type": "typography",
-            "description": "Please only use ”Font”, ”Weight”, “Line Height” and “Font Size”. All other values will be discarded after compiling the tokens. Please also refrain from using any calculations for the values above."
+            "type": "typography"
           },
           "md": {
             "value": {
               "fontFamily": "{config.typography.control.text.fontFamily}",
               "fontWeight": "{config.typography.control.text.fontWeight}",
               "lineHeight": "{config.typography.control.text.lineHeight}",
-              "fontSize": "{config.typography.control.text.fontSize.base}"
+              "fontSize": "{config.typography.control.text.fontSize}"
             },
-            "type": "typography",
-            "description": "Please only use ”Font”, ”Weight”, “Line Height” and “Font Size”. All other values will be discarded after compiling the tokens. Please also refrain from using any calculations for the values above."
+            "type": "typography"
           },
           "lg": {
             "value": {
               "fontFamily": "{config.typography.control.text.fontFamily}",
               "fontWeight": "{config.typography.control.text.fontWeight}",
               "lineHeight": "{config.typography.control.text.lineHeight}",
-              "fontSize": "{config.typography.control.text.fontSize.lg}"
+              "fontSize": "{config.typography.control.text.fontSize} + 0.125rem"
             },
-            "type": "typography",
-            "description": "Please only use ”Font”, ”Weight”, “Line Height” and “Font Size”. All other values will be discarded after compiling the tokens. Please also refrain from using any calculations for the values above."
+            "type": "typography"
           }
         },
         "symbol": {
@@ -872,7 +581,7 @@
               "fontFamily": "{config.typography.control.symbol.fontFamily}",
               "fontWeight": "{config.typography.control.symbol.fontWeight}",
               "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize.sm}"
+              "fontSize": "{config.typography.control.symbol.fontSize} - 0.125rem"
             },
             "type": "typography"
           },
@@ -881,7 +590,7 @@
               "fontFamily": "{config.typography.control.symbol.fontFamily}",
               "fontWeight": "{config.typography.control.symbol.fontWeight}",
               "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize.md}"
+              "fontSize": "{config.typography.control.symbol.fontSize}"
             },
             "type": "typography"
           },
@@ -890,7 +599,7 @@
               "fontFamily": "{config.typography.control.symbol.fontFamily}",
               "fontWeight": "{config.typography.control.symbol.fontWeight}",
               "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize.lg}"
+              "fontSize": "{config.typography.control.symbol.fontSize} + 0.125rem"
             },
             "type": "typography"
           }
@@ -903,30 +612,27 @@
               "fontFamily": "{config.typography.label.text.fontFamily}",
               "fontWeight": "{config.typography.label.text.fontWeight}",
               "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize.sm}"
+              "fontSize": "{config.typography.label.text.fontSize} - 0.125rem"
             },
-            "type": "typography",
-            "description": "Please only use ”Font”, ”Weight”, “Line Height” and “Font Size”. All other values will be discarded after compiling the tokens. Please also refrain from using any calculations for the values above."
+            "type": "typography"
           },
           "md": {
             "value": {
               "fontFamily": "{config.typography.label.text.fontFamily}",
               "fontWeight": "{config.typography.label.text.fontWeight}",
               "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize.md}"
+              "fontSize": "{config.typography.label.text.fontSize}"
             },
-            "type": "typography",
-            "description": "Please only use ”Font”, ”Weight”, “Line Height” and “Font Size”. All other values will be discarded after compiling the tokens. Please also refrain from using any calculations for the values above."
+            "type": "typography"
           },
           "lg": {
             "value": {
               "fontFamily": "{config.typography.label.text.fontFamily}",
               "fontWeight": "{config.typography.label.text.fontWeight}",
               "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize.lg}"
+              "fontSize": "{config.typography.label.text.fontSize} + 0.125rem"
             },
-            "type": "typography",
-            "description": "Please only use ”Font”, ”Weight”, “Line Height” and “Font Size”. All other values will be discarded after compiling the tokens. Please also refrain from using any calculations for the values above."
+            "type": "typography"
           }
         }
       }

@@ -1,5 +1,41 @@
 {
   "config": {
+    "typography": {
+      "control": {
+        "text": {
+          "value": {
+            "fontFamily": "{config.fontFamily.control}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "0.875rem"
+          },
+          "type": "typography",
+          "description": "!Important: Do not use letterSpacing, paragraphSpacing, paragraphIndent, textDecoration or textCase"
+        },
+        "symbol": {
+          "value": {
+            "fontFamily": "{config.fontFamily.symbol}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "1rem"
+          },
+          "type": "typography",
+          "description": "!Important: Do not use letterSpacing, paragraphSpacing, paragraphIndent, textDecoration or textCase"
+        }
+      },
+      "label": {
+        "text": {
+          "value": {
+            "fontFamily": "{config.fontFamily.control}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "0.875rem"
+          },
+          "type": "typography",
+          "description": "!Important: Do not use letterSpacing, paragraphSpacing, paragraphIndent, textDecoration or textCase"
+        }
+      }
+    },
     "fontFamily": {
       "primary": {
         "value": "test",
@@ -169,108 +205,6 @@
         "padding": {
           "value": "1.25rem",
           "type": "dimension"
-        }
-      }
-    },
-    "typography": {
-      "control": {
-        "text": {
-          "fontWeight": {
-            "value": "{config.fontWeight.medium}",
-            "type": "other"
-          },
-          "fontFamily": {
-            "value": "{config.fontFamily.control}",
-            "type": "other"
-          },
-          "lineHeight": {
-            "value": "120%",
-            "type": "other"
-          },
-          "fontSize": {
-            "sm": {
-              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
-              "type": "other"
-            },
-            "md": {
-              "value": "{config.typography.control.text.fontSize.base}",
-              "type": "other"
-            },
-            "lg": {
-              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
-              "type": "other"
-            },
-            "base": {
-              "value": "0.875rem",
-              "type": "other"
-            }
-          }
-        },
-        "symbol": {
-          "fontFamily": {
-            "value": "{config.fontFamily.symbol}",
-            "type": "other"
-          },
-          "fontWeight": {
-            "value": "{config.fontWeight.medium}",
-            "type": "other"
-          },
-          "lineHeight": {
-            "value": "120%",
-            "type": "other"
-          },
-          "fontSize": {
-            "sm": {
-              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
-              "type": "other"
-            },
-            "md": {
-              "value": "{config.typography.control.text.fontSize.base}",
-              "type": "other"
-            },
-            "lg": {
-              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
-              "type": "other"
-            },
-            "base": {
-              "value": "1rem",
-              "type": "other"
-            }
-          }
-        }
-      },
-      "label": {
-        "text": {
-          "fontFamily": {
-            "value": "{config.fontFamily.control}",
-            "type": "other"
-          },
-          "fontWeight": {
-            "value": "{config.fontWeight.medium}",
-            "type": "other"
-          },
-          "lineHeight": {
-            "value": "120%",
-            "type": "other"
-          },
-          "fontSize": {
-            "sm": {
-              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
-              "type": "other"
-            },
-            "md": {
-              "value": "{config.typography.control.text.fontSize.base}",
-              "type": "other"
-            },
-            "lg": {
-              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
-              "type": "other"
-            },
-            "base": {
-              "value": "0.875rem",
-              "type": "other"
-            }
-          }
         }
       }
     }
