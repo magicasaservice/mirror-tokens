@@ -1,39 +1,5 @@
 {
   "app": {
-    "dimension": {
-      "control": {
-        "radius": {
-          "sm": {
-            "value": "999px",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "999px",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "999px",
-            "type": "dimension"
-          }
-        }
-      },
-      "label": {
-        "radius": {
-          "sm": {
-            "value": "999px",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "999px",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "999px",
-            "type": "dimension"
-          }
-        }
-      }
-    },
     "color": {
       "component": {
         "primary": {
@@ -129,66 +95,6 @@
               "fontWeight": "{config.typography.control.text.fontWeight}",
               "lineHeight": "{config.typography.control.text.lineHeight}",
               "fontSize": "{config.typography.control.text.fontSize} + 0.125rem"
-            },
-            "type": "typography"
-          }
-        },
-        "symbol": {
-          "sm": {
-            "value": {
-              "fontFamily": "{config.typography.control.symbol.fontFamily}",
-              "fontWeight": "{config.typography.control.symbol.fontWeight}",
-              "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize} - 0.125rem"
-            },
-            "type": "typography"
-          },
-          "md": {
-            "value": {
-              "fontFamily": "{config.typography.control.symbol.fontFamily}",
-              "fontWeight": "{config.typography.control.symbol.fontWeight}",
-              "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize}"
-            },
-            "type": "typography"
-          },
-          "lg": {
-            "value": {
-              "fontFamily": "{config.typography.control.symbol.fontFamily}",
-              "fontWeight": "{config.typography.control.symbol.fontWeight}",
-              "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize} + 0.125rem"
-            },
-            "type": "typography"
-          }
-        }
-      },
-      "label": {
-        "text": {
-          "sm": {
-            "value": {
-              "fontFamily": "{config.typography.label.text.fontFamily}",
-              "fontWeight": "{config.typography.label.text.fontWeight}",
-              "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize} - 0.125rem"
-            },
-            "type": "typography"
-          },
-          "md": {
-            "value": {
-              "fontFamily": "{config.typography.label.text.fontFamily}",
-              "fontWeight": "{config.typography.label.text.fontWeight}",
-              "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize}"
-            },
-            "type": "typography"
-          },
-          "lg": {
-            "value": {
-              "fontFamily": "{config.typography.label.text.fontFamily}",
-              "fontWeight": "{config.typography.label.text.fontWeight}",
-              "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize} + 0.125rem"
             },
             "type": "typography"
           }
