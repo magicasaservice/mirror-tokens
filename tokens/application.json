@@ -32,7 +32,7 @@
         },
         "gap": {
           "sm": {
-            "value": "{config.dimension.control.gap} - 0.25rem",
+            "value": "{app.dimension.control.gap.md} - 0.25rem",
             "type": "dimension"
           },
           "md": {
@@ -40,7 +40,7 @@
             "type": "dimension"
           },
           "lg": {
-            "value": "{config.dimension.control.gap} + 0.25rem",
+            "value": "{app.dimension.control.gap.md} + 0.25rem",
             "type": "dimension"
           }
         },
@@ -59,7 +59,15 @@
           }
         },
         "border": {
-          "default": {
+          "sm": {
+            "value": "1px",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "1px",
+            "type": "dimension"
+          },
+          "lg": {
             "value": "1px",
             "type": "dimension"
           }
@@ -68,25 +76,25 @@
       "label": {
         "height": {
           "sm": {
-            "value": "{app.dimension.control.height.md} - 0.5rem",
+            "value": "{app.dimension.label.height.md} - 0.5rem",
             "type": "dimension"
           },
           "md": {
-            "value": "{config.dimension.control.height}",
+            "value": "{config.dimension.label.height}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.height.md} + 0.5rem",
+            "value": "{app.dimension.label.height.md} + 0.5rem",
             "type": "dimension"
           }
         },
         "padding": {
           "sm": {
-            "value": "{app.dimension.control.padding.md} - 0.25rem",
+            "value": "{app.dimension.label.padding.md} - 0.25rem",
             "type": "dimension"
           },
           "md": {
-            "value": "{config.dimension.control.padding}",
+            "value": "{config.dimension.label.padding}",
             "type": "dimension"
           },
           "lg": {
@@ -95,8 +103,16 @@
           }
         },
         "gap": {
+          "sm": {
+            "value": "{app.dimension.label.gap.md} - 0.25rem",
+            "type": "dimension"
+          },
           "md": {
             "value": "{config.dimension.control.gap}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.label.gap.md} + 0.25rem",
             "type": "dimension"
           }
         },
@@ -115,7 +131,15 @@
           }
         },
         "border": {
-          "default": {
+          "sm": {
+            "value": "1px",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "1px",
+            "type": "dimension"
+          },
+          "lg": {
             "value": "1px",
             "type": "dimension"
           }
@@ -432,7 +456,7 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 35%)"
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 30%)"
             },
             "onSolid": {
               "type": "color",
@@ -579,7 +603,6 @@
           "value": {
             "fontFamily": "{config.fontFamily.symbol}",
             "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "120%",
             "fontSize": "{config.fontSize.base}"
           },
           "type": "typography"
@@ -608,17 +631,33 @@
     },
     "fontSize": {
       "control": {
-        "sm": {
-          "value": "{config.fontSize.control} - 0.125rem",
-          "type": "fontSizes"
+        "text": {
+          "sm": {
+            "value": "{app.fontSize.control.text.md} - 0.125rem",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{config.fontSize.control}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.control.text.md} + 0.125rem",
+            "type": "fontSizes"
+          }
         },
-        "md": {
-          "value": "{config.fontSize.control}",
-          "type": "fontSizes"
-        },
-        "lg": {
-          "value": "{config.fontSize.control} + 0.125rem",
-          "type": "fontSizes"
+        "symbols": {
+          "sm": {
+            "value": "{app.fontSize.control.symbols.md} - 0.125rem",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{config.fontSize.control} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.control.symbols.md} + 0.125rem",
+            "type": "fontSizes"
+          }
         }
       }
     }

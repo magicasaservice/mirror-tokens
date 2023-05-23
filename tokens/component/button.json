@@ -2,33 +2,13 @@
   "component": {
     "button": {
       "typography": {
-        "symbol": {
-          "sm": {
-            "value": "{app.typography.control.text.sm}",
-            "type": "typography"
-          },
-          "md": {
-            "value": "{app.typography.control.text}",
-            "type": "typography"
-          },
-          "lg": {
-            "value": "{app.typography.control.text.lg}",
-            "type": "typography"
-          }
-        },
         "text": {
-          "sm": {
-            "value": "{app.typography.control.text.sm}",
-            "type": "typography"
-          },
-          "md": {
-            "value": "{config.typography.control.text}",
-            "type": "typography"
-          },
-          "lg": {
-            "value": "{app.typography.control.text.lg}",
-            "type": "typography"
-          }
+          "value": "{app.typography.control.text}",
+          "type": "typography"
+        },
+        "symbol": {
+          "value": "{app.typography.control.symbol}",
+          "type": "typography"
         }
       },
       "color": {
@@ -527,9 +507,47 @@
           }
         },
         "border": {
-          "default": {
-            "value": "{app.dimension.control.border.default}",
+          "sm": {
+            "value": "{app.dimension.control.border.sm}",
             "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.control.border.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.border.lg}",
+            "type": "dimension"
+          }
+        }
+      },
+      "fontSize": {
+        "text": {
+          "sm": {
+            "value": "{app.fontSize.control.text.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.control.text.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.control.text.lg}",
+            "type": "fontSizes"
+          }
+        },
+        "symbols": {
+          "sm": {
+            "value": "{app.fontSize.control.symbols.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.control.symbols.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.control.symbols.lg}",
+            "type": "fontSizes"
           }
         }
       }
