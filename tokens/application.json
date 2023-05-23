@@ -547,93 +547,66 @@
     "typography": {
       "control": {
         "text": {
-          "sm": {
-            "value": {
-              "fontFamily": "{config.typography.control.text.fontFamily}",
-              "fontWeight": "{config.typography.control.text.fontWeight}",
-              "lineHeight": "{config.typography.control.text.lineHeight}",
-              "fontSize": "{config.typography.control.text.fontSize} - 0.125rem"
-            },
-            "type": "typography"
+          "value": {
+            "fontFamily": "{config.fontFamily.ui}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "{config.fontSize.control}"
           },
-          "md": {
-            "value": {
-              "fontFamily": "{config.typography.control.text.fontFamily}",
-              "fontWeight": "{config.typography.control.text.fontWeight}",
-              "lineHeight": "{config.typography.control.text.lineHeight}",
-              "fontSize": "{config.typography.control.text.fontSize}"
-            },
-            "type": "typography"
-          },
-          "lg": {
-            "value": {
-              "fontFamily": "{config.typography.control.text.fontFamily}",
-              "fontWeight": "{config.typography.control.text.fontWeight}",
-              "lineHeight": "{config.typography.control.text.lineHeight}",
-              "fontSize": "{config.typography.control.text.fontSize} + 0.125rem"
-            },
-            "type": "typography"
-          }
+          "type": "typography"
         },
         "symbol": {
-          "sm": {
-            "value": {
-              "fontFamily": "{config.typography.control.symbol.fontFamily}",
-              "fontWeight": "{config.typography.control.symbol.fontWeight}",
-              "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize} - 0.125rem"
-            },
-            "type": "typography"
+          "value": {
+            "fontFamily": "{config.fontFamily.symbol}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "{config.fontSize.base}"
           },
-          "md": {
-            "value": {
-              "fontFamily": "{config.typography.control.symbol.fontFamily}",
-              "fontWeight": "{config.typography.control.symbol.fontWeight}",
-              "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize}"
-            },
-            "type": "typography"
-          },
-          "lg": {
-            "value": {
-              "fontFamily": "{config.typography.control.symbol.fontFamily}",
-              "fontWeight": "{config.typography.control.symbol.fontWeight}",
-              "lineHeight": "{config.typography.control.symbol.lineHeight}",
-              "fontSize": "{config.typography.control.symbol.fontSize} + 0.125rem"
-            },
-            "type": "typography"
-          }
+          "type": "typography"
         }
       },
       "label": {
         "text": {
-          "sm": {
-            "value": {
-              "fontFamily": "{config.typography.label.text.fontFamily}",
-              "fontWeight": "{config.typography.label.text.fontWeight}",
-              "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize} - 0.125rem"
-            },
-            "type": "typography"
+          "value": {
+            "fontFamily": "{config.fontFamily.ui}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "{config.fontSize.base}"
           },
-          "md": {
-            "value": {
-              "fontFamily": "{config.typography.label.text.fontFamily}",
-              "fontWeight": "{config.typography.label.text.fontWeight}",
-              "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize}"
-            },
-            "type": "typography"
+          "type": "typography"
+        },
+        "symbol": {
+          "value": {
+            "fontFamily": "{config.fontFamily.symbol}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "{config.fontSize.base}"
           },
-          "lg": {
-            "value": {
-              "fontFamily": "{config.typography.label.text.fontFamily}",
-              "fontWeight": "{config.typography.label.text.fontWeight}",
-              "lineHeight": "{config.typography.label.text.lineHeight}",
-              "fontSize": "{config.typography.label.text.fontSize} + 0.125rem"
-            },
-            "type": "typography"
-          }
+          "type": "typography"
+        }
+      }
+    },
+    "fontSize": {
+      "control": {
+        "xs": {
+          "value": "{config.fontSize.control} - 0.25rem",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{config.fontSize.control} - 0.125rem",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{config.fontSize.control}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{config.fontSize.control} + 0.125rem",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{config.fontSize.control} + 0.25rem",
+          "type": "fontSizes"
         }
       }
     }

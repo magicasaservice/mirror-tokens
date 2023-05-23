@@ -13,7 +13,7 @@
         "value": "test",
         "type": "fontFamilies"
       },
-      "control": {
+      "ui": {
         "value": "Wand UI Pro",
         "type": "fontFamilies"
       },
@@ -174,7 +174,15 @@
     },
     "fontSize": {
       "base": {
-        "value": "16px",
+        "value": "1rem",
+        "type": "fontSizes"
+      },
+      "control": {
+        "value": "{config.fontSize.base} - 0.125rem",
+        "type": "fontSizes"
+      },
+      "label": {
+        "value": "{config.fontSize.base} - 0.5rem",
         "type": "fontSizes"
       }
     }
