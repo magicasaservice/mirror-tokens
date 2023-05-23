@@ -172,10 +172,106 @@
         }
       }
     },
-    "fontSize": {
-      "base": {
-        "value": "16px",
-        "type": "fontSizes"
+    "typography": {
+      "control": {
+        "text": {
+          "fontWeight": {
+            "value": "{config.fontWeight.medium}",
+            "type": "other"
+          },
+          "fontFamily": {
+            "value": "{config.fontFamily.control}",
+            "type": "other"
+          },
+          "lineHeight": {
+            "value": "120%",
+            "type": "other"
+          },
+          "fontSize": {
+            "sm": {
+              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
+              "type": "other"
+            },
+            "md": {
+              "value": "{config.typography.control.text.fontSize.base}",
+              "type": "other"
+            },
+            "lg": {
+              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
+              "type": "other"
+            },
+            "base": {
+              "value": "0.875rem",
+              "type": "other"
+            }
+          }
+        },
+        "symbol": {
+          "fontFamily": {
+            "value": "{config.fontFamily.symbol}",
+            "type": "other"
+          },
+          "fontWeight": {
+            "value": "{config.fontWeight.medium}",
+            "type": "other"
+          },
+          "lineHeight": {
+            "value": "120%",
+            "type": "other"
+          },
+          "fontSize": {
+            "sm": {
+              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
+              "type": "other"
+            },
+            "md": {
+              "value": "{config.typography.control.text.fontSize.base}",
+              "type": "other"
+            },
+            "lg": {
+              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
+              "type": "other"
+            },
+            "base": {
+              "value": "1rem",
+              "type": "other"
+            }
+          }
+        }
+      },
+      "label": {
+        "text": {
+          "fontFamily": {
+            "value": "{config.fontFamily.control}",
+            "type": "other"
+          },
+          "fontWeight": {
+            "value": "{config.fontWeight.medium}",
+            "type": "other"
+          },
+          "lineHeight": {
+            "value": "120%",
+            "type": "other"
+          },
+          "fontSize": {
+            "sm": {
+              "value": "{config.typography.control.text.fontSize.base} - 0.125rem",
+              "type": "other"
+            },
+            "md": {
+              "value": "{config.typography.control.text.fontSize.base}",
+              "type": "other"
+            },
+            "lg": {
+              "value": "{config.typography.control.text.fontSize.base} + 0.125rem",
+              "type": "other"
+            },
+            "base": {
+              "value": "0.875rem",
+              "type": "other"
+            }
+          }
+        }
       }
     }
   }
