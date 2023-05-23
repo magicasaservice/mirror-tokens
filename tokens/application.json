@@ -31,8 +31,16 @@
           }
         },
         "gap": {
+          "sm": {
+            "value": "{config.dimension.control.gap} - 0.25rem",
+            "type": "dimension"
+          },
           "md": {
             "value": "{config.dimension.control.gap}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{config.dimension.control.gap} + 0.25rem",
             "type": "dimension"
           }
         },
@@ -424,7 +432,7 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 35%)"
             },
             "onSolid": {
               "type": "color",
@@ -489,15 +497,15 @@
           },
           "translucent": {
             "default": {
-              "value": "0.4",
+              "value": "0.3",
               "type": "other"
             },
             "hover": {
-              "value": "0.5",
+              "value": "0.4",
               "type": "other"
             },
             "active": {
-              "value": "0.6",
+              "value": "0.5",
               "type": "other"
             }
           }
@@ -600,10 +608,6 @@
     },
     "fontSize": {
       "control": {
-        "xs": {
-          "value": "{config.fontSize.control} - 0.25rem",
-          "type": "fontSizes"
-        },
         "sm": {
           "value": "{config.fontSize.control} - 0.125rem",
           "type": "fontSizes"
@@ -614,10 +618,6 @@
         },
         "lg": {
           "value": "{config.fontSize.control} + 0.125rem",
-          "type": "fontSizes"
-        },
-        "xl": {
-          "value": "{config.fontSize.control} + 0.25rem",
           "type": "fontSizes"
         }
       }
