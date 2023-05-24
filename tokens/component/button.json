@@ -447,6 +447,224 @@
               }
             }
           }
+        },
+        "danger": {
+          "solid": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.danger.bg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.danger.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.danger.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.danger.fg.onSolid}",
+                "type": "color"
+              }
+            }
+          },
+          "tinted": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.danger.bg.tinted}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.danger.bg.tinted}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.danger.tinted.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.danger.bg.tinted}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.danger.tinted.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.danger.fg.onTinted}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "bg": {
+              "hover": {
+                "value": "{app.color.component.danger.bg.tinted}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.danger.tinted.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.danger.bg.tinted}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.modifier.color.danger.tinted.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.danger.fg.solid}",
+                "type": "color"
+              }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.danger.border.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.danger.border.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.danger.border.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.danger.fg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.danger.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.danger.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "plain": {
+            "fg": {
+              "default": {
+                "value": "{app.color.component.danger.fg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.danger.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.danger.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.modifier.color.danger.solid.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "dimension": {
