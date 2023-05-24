@@ -71,6 +71,20 @@
             "value": "2px",
             "type": "dimension"
           }
+        },
+        "symbol": {
+          "sm": {
+            "value": "{app.dimension.control.symbol.md} - 0.125rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.symbol}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.symbol.md} + 0.125rem",
+            "type": "dimension"
+          }
         }
       },
       "label": {
@@ -645,9 +659,9 @@
             "type": "fontSizes"
           }
         },
-        "symbols": {
+        "symbol": {
           "sm": {
-            "value": "{app.fontSize.control.symbols.md} - 0.125rem",
+            "value": "{app.fontSize.control.symbol.md} - 0.125rem",
             "type": "fontSizes"
           },
           "md": {
@@ -655,7 +669,7 @@
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.control.symbols.md} + 0.125rem",
+            "value": "{app.fontSize.control.symbol.md} + 0.125rem",
             "type": "fontSizes"
           }
         }
