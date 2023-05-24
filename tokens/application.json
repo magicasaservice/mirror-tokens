@@ -46,7 +46,7 @@
         },
         "radius": {
           "sm": {
-            "value": "{app.dimension.control.radius.md} - 0.125rem",
+            "value": "{app.dimension.control.radius.md} - 0.25rem",
             "type": "dimension"
           },
           "md": {
@@ -54,7 +54,7 @@
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.radius.md} + 0.125rem",
+            "value": "{app.dimension.control.radius.md} + 0.25rem",
             "type": "dimension"
           }
         },
@@ -118,7 +118,7 @@
         },
         "radius": {
           "sm": {
-            "value": "{app.dimension.control.radius.md} - 0.125rem",
+            "value": "{app.dimension.control.radius.md} - 0.25rem",
             "type": "dimension"
           },
           "md": {
@@ -126,7 +126,7 @@
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.radius.md} + 0.125rem",
+            "value": "{app.dimension.control.radius.md} + 0.25rem",
             "type": "dimension"
           }
         },
@@ -438,9 +438,9 @@
               "type": "color",
               "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)"
             },
-            "translucent": {
+            "tinted": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.tinted.default})"
             }
           },
           "border": {
@@ -448,9 +448,9 @@
               "type": "color",
               "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 40%)"
             },
-            "translucent": {
+            "tinted": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.tinted.default})"
             }
           },
           "fg": {
@@ -462,7 +462,7 @@
               "type": "color",
               "value": "white"
             },
-            "onTranslucent": {
+            "onTinted": {
               "type": "color",
               "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 20%)"
             }
@@ -474,9 +474,9 @@
               "type": "color",
               "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%)"
             },
-            "translucent": {
+            "tinted": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.tinted.default})"
             }
           },
           "border": {
@@ -484,9 +484,9 @@
               "type": "color",
               "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 40%)"
             },
-            "translucent": {
+            "tinted": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 50%, {app.modifier.color.secondary.tinted.default})"
             }
           },
           "fg": {
@@ -498,7 +498,7 @@
               "type": "color",
               "value": "white"
             },
-            "onTranslucent": {
+            "onTinted": {
               "type": "color",
               "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
             }
@@ -519,7 +519,7 @@
               "type": "other"
             }
           },
-          "translucent": {
+          "tinted": {
             "default": {
               "value": "0.3",
               "type": "other"
@@ -545,7 +545,7 @@
               "type": "other"
             }
           },
-          "translucent": {
+          "tinted": {
             "default": {
               "value": "0.4",
               "type": "other"
@@ -571,7 +571,7 @@
               "type": "other"
             }
           },
-          "translucent": {
+          "tinted": {
             "default": {
               "value": "0.4",
               "type": "other"
@@ -679,6 +679,19 @@
       "label": {
         "value": "0%",
         "type": "letterSpacing"
+      }
+    },
+    "boxShadow": {
+      "focusRing": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{app.color.component.primary.bg.tinted}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
       }
     }
   }
