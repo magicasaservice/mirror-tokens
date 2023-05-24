@@ -32,7 +32,7 @@
         },
         "gap": {
           "sm": {
-            "value": "{app.dimension.control.gap.md} - 0.25rem",
+            "value": "{app.dimension.control.gap.md} - 0.125rem",
             "type": "dimension"
           },
           "md": {
@@ -40,7 +40,7 @@
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.gap.md} + 0.25rem",
+            "value": "{app.dimension.control.gap.md} + 0.125rem",
             "type": "dimension"
           }
         },
@@ -118,7 +118,7 @@
         },
         "gap": {
           "sm": {
-            "value": "{app.dimension.label.gap.md} - 0.25rem",
+            "value": "{app.dimension.label.gap.md} - 0.125rem",
             "type": "dimension"
           },
           "md": {
@@ -126,7 +126,7 @@
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.label.gap.md} + 0.25rem",
+            "value": "{app.dimension.label.gap.md} + 0.125rem",
             "type": "dimension"
           }
         },
@@ -155,6 +155,20 @@
           },
           "lg": {
             "value": "1px",
+            "type": "dimension"
+          }
+        },
+        "symbol": {
+          "sm": {
+            "value": "{app.dimension.control.symbol.md} - 0.125rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.symbol}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.symbol.md} + 0.125rem",
             "type": "dimension"
           }
         }
@@ -517,6 +531,42 @@
               "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
             }
           }
+        },
+        "danger": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 50%)"
+            },
+            "tinted": {
+              "type": "color",
+              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.danger.tinted.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 40%)"
+            },
+            "tinted": {
+              "type": "color",
+              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.secondary.tinted.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 30%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTinted": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 20%)"
+            }
+          }
         }
       }
     },
@@ -575,6 +625,32 @@
           }
         },
         "neutral": {
+          "solid": {
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "tinted": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          }
+        },
+        "danger": {
           "solid": {
             "hover": {
               "value": "0.1",
@@ -701,7 +777,7 @@
           "x": "0",
           "y": "0",
           "blur": "0",
-          "spread": "4",
+          "spread": "6",
           "color": "{app.color.component.primary.bg.tinted}",
           "type": "dropShadow"
         },
