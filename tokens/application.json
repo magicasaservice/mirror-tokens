@@ -612,7 +612,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.disabled.bg})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, 20%)"
             }
           },
           "border": {
@@ -622,7 +622,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%, {config.color.disabled.border})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%, 30%)"
             }
           },
           "fg": {
@@ -650,7 +650,7 @@
           "focusRing": {
             "default": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.focusRing.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.focusRing})"
             }
           }
         }
