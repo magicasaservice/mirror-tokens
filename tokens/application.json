@@ -466,9 +466,9 @@
               "type": "color",
               "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.tinted.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
             }
           },
           "border": {
@@ -476,9 +476,9 @@
               "type": "color",
               "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 30%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.tinted.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
             }
           },
           "fg": {
@@ -490,7 +490,7 @@
               "type": "color",
               "value": "white"
             },
-            "onTinted": {
+            "onTranslucent": {
               "type": "color",
               "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 20%)"
             }
@@ -502,9 +502,9 @@
               "type": "color",
               "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {app.modifier.color.secondary.tinted.default})"
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {app.modifier.color.secondary.translucent.default})"
             }
           },
           "border": {
@@ -512,9 +512,9 @@
               "type": "color",
               "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 20%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {app.modifier.color.secondary.tinted.default})"
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {app.modifier.color.secondary.translucent.default})"
             }
           },
           "fg": {
@@ -526,7 +526,7 @@
               "type": "color",
               "value": "white"
             },
-            "onTinted": {
+            "onTranslucent": {
               "type": "color",
               "value": "hsl({config.color.secondary.hue}, {config.color.secondary.saturation}, 10%)"
             }
@@ -538,9 +538,9 @@
               "type": "color",
               "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 50%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.danger.tinted.default})"
+              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.danger.translucent.default})"
             }
           },
           "border": {
@@ -548,9 +548,9 @@
               "type": "color",
               "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 30%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.secondary.tinted.default})"
+              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
             }
           },
           "fg": {
@@ -562,7 +562,7 @@
               "type": "color",
               "value": "white"
             },
-            "onTinted": {
+            "onTranslucent": {
               "type": "color",
               "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 20%)"
             }
@@ -574,9 +574,9 @@
               "type": "color",
               "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 50%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.tinted.default})"
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.translucent.default})"
             }
           },
           "border": {
@@ -584,9 +584,9 @@
               "type": "color",
               "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 40%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.tinted.default})"
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.translucent.default})"
             }
           },
           "fg": {
@@ -598,7 +598,7 @@
               "type": "color",
               "value": "white"
             },
-            "onTinted": {
+            "onTranslucent": {
               "type": "color",
               "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 20%)"
             }
@@ -610,7 +610,7 @@
               "type": "color",
               "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 90%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
               "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 70%, {app.modifier.color.disabled.bg})"
             }
@@ -620,7 +620,7 @@
               "type": "color",
               "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 80%)"
             },
-            "tinted": {
+            "translucent": {
               "type": "color",
               "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 80%, {app.modifier.color.disabled.border})"
             }
@@ -634,7 +634,7 @@
               "type": "color",
               "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 70%)"
             },
-            "onTinted": {
+            "onTranslucent": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 70%)"
             }
@@ -669,7 +669,7 @@
               "type": "other"
             }
           },
-          "tinted": {
+          "translucent": {
             "default": {
               "value": "0.3",
               "type": "other"
@@ -695,7 +695,7 @@
               "type": "other"
             }
           },
-          "tinted": {
+          "translucent": {
             "default": {
               "value": "0.4",
               "type": "other"
@@ -721,7 +721,7 @@
               "type": "other"
             }
           },
-          "tinted": {
+          "translucent": {
             "default": {
               "value": "0.4",
               "type": "other"
@@ -747,7 +747,7 @@
               "type": "other"
             }
           },
-          "tinted": {
+          "translucent": {
             "default": {
               "value": "0.4",
               "type": "other"
@@ -773,7 +773,7 @@
               "type": "other"
             }
           },
-          "tinted": {
+          "translucent": {
             "default": {
               "value": "0.3",
               "type": "other"
@@ -789,7 +789,7 @@
           },
           "focusRing": {
             "default": {
-              "value": "{app.modifier.color.info.tinted.default} + 0.25",
+              "value": "{app.modifier.color.info.translucent.default} + 0.25",
               "type": "other"
             },
             "bg": {
