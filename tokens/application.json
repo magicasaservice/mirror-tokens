@@ -567,6 +567,42 @@
               "value": "hsl({config.color.danger.hue}, {config.color.danger.saturation}, 20%)"
             }
           }
+        },
+        "info": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 50%)"
+            },
+            "tinted": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.danger.tinted.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 40%)"
+            },
+            "tinted": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.secondary.tinted.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 30%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTinted": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 20%)"
+            }
+          }
         }
       }
     },
@@ -672,6 +708,32 @@
             },
             "active": {
               "value": "0.6",
+              "type": "other"
+            }
+          }
+        },
+        "info": {
+          "solid": {
+            "hover": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.4",
+              "type": "other"
+            }
+          },
+          "tinted": {
+            "default": {
+              "value": "0.3",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.5",
               "type": "other"
             }
           }
