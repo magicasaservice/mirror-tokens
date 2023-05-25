@@ -847,15 +847,28 @@
     },
     "boxShadow": {
       "focusRing": {
-        "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "6",
-          "color": "{app.color.component.info.ring.default}",
-          "type": "dropShadow"
+        "default": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "{app.color.component.info.ring.default}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "type": "boxShadow"
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "6",
+            "color": "{app.color.component.info.ring.default}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
       }
     }
   }
