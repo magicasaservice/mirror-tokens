@@ -180,7 +180,7 @@
           "surface": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 98%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 4%)"
             },
             "hover": {
               "type": "color",
@@ -212,7 +212,7 @@
           "border": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 98%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 4%)"
             },
             "hover": {
               "type": "color",
@@ -246,7 +246,7 @@
           "surface": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 96%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 8%)"
             },
             "hover": {
               "type": "color",
@@ -278,7 +278,7 @@
           "border": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 96%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 8%)"
             },
             "hover": {
               "type": "color",
@@ -318,7 +318,7 @@
           "surface": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 94%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 12%)"
             },
             "hover": {
               "type": "color",
@@ -350,7 +350,7 @@
           "border": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 94%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 12%)"
             },
             "hover": {
               "type": "color",
@@ -390,7 +390,7 @@
           "surface": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 92%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 16%)"
             },
             "hover": {
               "type": "color",
@@ -422,7 +422,7 @@
           "border": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 92%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 16%)"
             },
             "hover": {
               "type": "color",
@@ -464,27 +464,27 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)"
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 60%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 55%, {app.modifier.color.primary.translucent.default})"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 30%)"
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 60%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 55%, {app.modifier.color.primary.translucent.default})"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 30%)"
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 60%)"
             },
             "onSolid": {
               "type": "color",
@@ -492,7 +492,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 20%)"
+              "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 70%)"
             }
           }
         },
@@ -657,11 +657,11 @@
       },
       "text": {
         "default": {
-          "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 4%)",
+          "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 98%)",
           "type": "color"
         },
         "inverted": {
-          "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 96%)",
+          "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 4%)",
           "type": "color"
         },
         "link": {
