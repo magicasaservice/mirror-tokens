@@ -614,11 +614,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 50%)"
+              "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 80%)"
             },
             "tinted": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.tinted.default})"
+              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 80%, {app.modifier.color.disabled.bg})"
             }
           },
           "border": {
@@ -794,6 +794,20 @@
               "value": "hsla(0, 0%, 100%, 0.01)",
               "type": "other"
             }
+          }
+        },
+        "disabled": {
+          "bg": {
+            "value": "0.2",
+            "type": "other"
+          },
+          "border": {
+            "value": "0.2",
+            "type": "other"
+          },
+          "fg": {
+            "value": "0.4",
+            "type": "other"
           }
         }
       }
