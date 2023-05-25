@@ -468,7 +468,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {config.modifier.color.primary.alpha.default})"
             }
           },
           "border": {
@@ -478,7 +478,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {app.modifier.color.primary.translucent.default})"
+              "value": "hsla({config.color.primary.hue}, {config.color.primary.saturation}, 50%, {config.modifier.color.primary.alpha.default})"
             }
           },
           "fg": {
@@ -504,7 +504,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {app.modifier.color.secondary.translucent.default})"
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {config.modifier.color.secondary.alpha.default})"
             }
           },
           "border": {
@@ -514,7 +514,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {app.modifier.color.secondary.translucent.default})"
+              "value": "hsla({config.color.secondary.hue}, {config.color.secondary.saturation}, 60%, {config.modifier.color.secondary.alpha.default})"
             }
           },
           "fg": {
@@ -540,7 +540,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.danger.translucent.default})"
+              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {config.modifier.color.danger.alpha.default})"
             }
           },
           "border": {
@@ -550,7 +550,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {app.modifier.color.secondary.translucent.default})"
+              "value": "hsla({config.color.danger.hue}, {config.color.danger.saturation}, 50%, {config.modifier.color.secondary.alpha.default})"
             }
           },
           "fg": {
@@ -576,7 +576,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.translucent.default})"
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {config.modifier.color.info.alpha.default})"
             }
           },
           "border": {
@@ -586,7 +586,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.translucent.default})"
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {config.modifier.color.info.alpha.default})"
             }
           },
           "fg": {
@@ -612,7 +612,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 70%, {app.modifier.color.disabled.bg})"
+              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 70%, {config.modifier.color.disabled.bg})"
             }
           },
           "border": {
@@ -622,7 +622,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 80%, {app.modifier.color.disabled.border})"
+              "value": "hsla({config.color.neutral.hue}, {config.color.neutral.saturation}, 80%, {config.modifier.color.disabled.border})"
             }
           },
           "fg": {
@@ -650,7 +650,7 @@
           "focusRing": {
             "default": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.focusRing.default})"
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {config.modifier.color.focusRing.default})"
             }
           }
         }
@@ -667,164 +667,6 @@
         "link": {
           "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)",
           "type": "color"
-        }
-      }
-    },
-    "modifier": {
-      "color": {
-        "primary": {
-          "solid": {
-            "hover": {
-              "value": "0.2",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.4",
-              "type": "other"
-            }
-          },
-          "translucent": {
-            "default": {
-              "value": "0.3",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.4",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.5",
-              "type": "other"
-            }
-          }
-        },
-        "secondary": {
-          "solid": {
-            "hover": {
-              "value": "0.2",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.4",
-              "type": "other"
-            }
-          },
-          "translucent": {
-            "default": {
-              "value": "0.4",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.5",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.6",
-              "type": "other"
-            }
-          }
-        },
-        "neutral": {
-          "solid": {
-            "hover": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.2",
-              "type": "other"
-            }
-          },
-          "translucent": {
-            "default": {
-              "value": "0.4",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.5",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.6",
-              "type": "other"
-            }
-          }
-        },
-        "danger": {
-          "solid": {
-            "hover": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.2",
-              "type": "other"
-            }
-          },
-          "translucent": {
-            "default": {
-              "value": "0.4",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.5",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.6",
-              "type": "other"
-            }
-          }
-        },
-        "info": {
-          "solid": {
-            "hover": {
-              "value": "0.2",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.4",
-              "type": "other"
-            }
-          },
-          "translucent": {
-            "default": {
-              "value": "0.3",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.4",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.5",
-              "type": "other"
-            }
-          },
-          "focusRing": {
-            "default": {
-              "value": "{app.modifier.color.info.translucent.default} + 0.25",
-              "type": "other"
-            },
-            "bg": {
-              "value": "hsla(0, 0%, 100%, 0.01)",
-              "type": "other"
-            }
-          }
-        },
-        "disabled": {
-          "bg": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "border": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "fg": {
-            "value": "0.4",
-            "type": "other"
-          }
         }
       }
     },
@@ -935,6 +777,246 @@
             }
           ],
           "type": "boxShadow"
+        }
+      }
+    }
+  },
+  "config": {
+    "modifier": {
+      "color": {
+        "primary": {
+          "lightness": {
+            "hover": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.4",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "default": {
+              "value": "0.3",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.5",
+              "type": "other"
+            }
+          },
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "vibrant": {
+              "value": "100%",
+              "type": "other"
+            }
+          }
+        },
+        "secondary": {
+          "lightness": {
+            "hover": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.4",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          },
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "vibrant": {
+              "value": "100%",
+              "type": "other"
+            }
+          }
+        },
+        "neutral": {
+          "lightness": {
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          },
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "vibrant": {
+              "value": "100%",
+              "type": "other"
+            }
+          }
+        },
+        "danger": {
+          "lightness": {
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          },
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "vibrant": {
+              "value": "100%",
+              "type": "other"
+            }
+          }
+        },
+        "info": {
+          "lightness": {
+            "hover": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.4",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "default": {
+              "value": "0.3",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.5",
+              "type": "other"
+            }
+          },
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "vibrant": {
+              "value": "100%",
+              "type": "other"
+            }
+          }
+        },
+        "focusRing": {
+          "default": {
+            "value": "{config.modifier.color.info.alpha.default} + 0.25",
+            "type": "other"
+          },
+          "bg": {
+            "value": "hsla(0, 0%, 100%, 0.01)",
+            "type": "other"
+          }
+        },
+        "disabled": {
+          "bg": {
+            "value": "0.2",
+            "type": "other"
+          },
+          "border": {
+            "value": "0.2",
+            "type": "other"
+          },
+          "fg": {
+            "value": "0.4",
+            "type": "other"
+          }
         }
       }
     }
