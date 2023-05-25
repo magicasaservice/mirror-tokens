@@ -671,6 +671,63 @@
               }
             }
           }
+        },
+        "disabled": {
+          "solid": {
+            "bg": {
+              "value": "{app.color.component.danger.bg.solid}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{app.color.component.danger.fg.onSolid}",
+              "type": "color"
+            }
+          },
+          "tinted": {
+            "bg": {
+              "value": "{app.color.component.danger.bg.tinted}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{app.color.component.danger.fg.onTinted}",
+              "type": "color"
+            }
+          },
+          "ghost": {
+            "bg": {
+              "value": "{app.color.component.danger.bg.tinted}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.modifier.color.danger.tinted.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "fg": {
+              "value": "{app.color.component.danger.fg.solid}",
+              "type": "color"
+            }
+          },
+          "outline": {
+            "border": {
+              "value": "{app.color.component.danger.border.solid}",
+              "type": "color"
+            },
+            "fg": {
+              "value": "{app.color.component.danger.fg.solid}",
+              "type": "color"
+            }
+          },
+          "plain": {
+            "fg": {
+              "value": "{app.color.component.danger.fg.solid}",
+              "type": "color"
+            }
+          }
         }
       },
       "dimension": {
