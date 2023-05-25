@@ -609,6 +609,48 @@
               "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.focusRing.default})"
             }
           }
+        },
+        "disabled": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 50%)"
+            },
+            "tinted": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.tinted.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 40%)"
+            },
+            "tinted": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.tinted.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 30%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTinted": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 20%)"
+            }
+          },
+          "ring": {
+            "default": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.focusRing.default})"
+            }
+          }
         }
       }
     },
@@ -745,7 +787,11 @@
           },
           "focusRing": {
             "default": {
-              "value": "0.6",
+              "value": "{app.modifier.color.info.tinted.default} + 0.25",
+              "type": "other"
+            },
+            "bg": {
+              "value": "hsla(0, 0%, 100%, 0.01)",
               "type": "other"
             }
           }
@@ -848,17 +894,6 @@
     "boxShadow": {
       "focusRing": {
         "default": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "{app.color.component.info.ring.default}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "active": {
           "value": [
             {
               "x": "0",
@@ -873,7 +908,7 @@
               "y": "0",
               "blur": "0",
               "spread": "{app.dimension.control.border.md}",
-              "color": "{app.color.component.info.border.solid}",
+              "color": "{app.color.component.info.fg.onTinted}",
               "type": "innerShadow"
             }
           ],
