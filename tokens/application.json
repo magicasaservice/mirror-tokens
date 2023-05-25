@@ -654,6 +654,16 @@
             }
           }
         }
+      },
+      "text": {
+        "default": {
+          "value": "hsl({config.color.neutral.hue}, {config.color.neutral.saturation}, 4%)",
+          "type": "color"
+        },
+        "link": {
+          "value": "hsl({config.color.primary.hue}, {config.color.primary.saturation}, 50%)",
+          "type": "color"
+        }
       }
     },
     "modifier": {
