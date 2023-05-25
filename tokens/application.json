@@ -576,7 +576,7 @@
             },
             "tinted": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.danger.tinted.default})"
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.tinted.default})"
             }
           },
           "border": {
@@ -586,7 +586,7 @@
             },
             "tinted": {
               "type": "color",
-              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.secondary.tinted.default})"
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.tinted.default})"
             }
           },
           "fg": {
@@ -601,6 +601,12 @@
             "onTinted": {
               "type": "color",
               "value": "hsl({config.color.info.hue}, {config.color.info.saturation}, 20%)"
+            }
+          },
+          "ring": {
+            "default": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue}, {config.color.info.saturation}, 50%, {app.modifier.color.info.focusRing.default})"
             }
           }
         }
@@ -736,6 +742,12 @@
               "value": "0.5",
               "type": "other"
             }
+          },
+          "focusRing": {
+            "default": {
+              "value": "0.3",
+              "type": "other"
+            }
           }
         }
       }
@@ -840,7 +852,7 @@
           "y": "0",
           "blur": "0",
           "spread": "6",
-          "color": "{app.color.component.primary.bg.tinted}",
+          "color": "{app.color.component.info.ring.default}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
