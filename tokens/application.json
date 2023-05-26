@@ -175,7 +175,7 @@
       }
     },
     "color": {
-      "surface": {
+      "elevation": {
         "bg": {
           "low": {
             "default": {
@@ -184,7 +184,7 @@
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.surface.bg.low.default}",
+              "value": "{app.color.elevation.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -197,7 +197,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.surface.bg.low.default}",
+              "value": "{app.color.elevation.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -216,7 +216,7 @@
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.surface.bg.base.default}",
+              "value": "{app.color.elevation.bg.base.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -229,7 +229,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.surface.bg.base.default}",
+              "value": "{app.color.elevation.bg.base.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -248,7 +248,7 @@
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.surface.bg.high.default}",
+              "value": "{app.color.elevation.bg.high.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -261,7 +261,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.surface.bg.high.default}",
+              "value": "{app.color.elevation.bg.high.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -280,7 +280,7 @@
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.surface.bg.higher.default}",
+              "value": "{app.color.elevation.bg.higher.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -293,7 +293,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.surface.bg.higher.default}",
+              "value": "{app.color.elevation.bg.higher.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -313,7 +313,7 @@
           },
           "hover": {
             "type": "color",
-            "value": "{app.color.surface.border.default}",
+            "value": "{app.color.elevation.border.default}",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -326,7 +326,7 @@
           },
           "active": {
             "type": "color",
-            "value": "{app.color.surface.border.default}",
+            "value": "{app.color.elevation.border.default}",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -388,7 +388,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "{app.color.elevation.fg.inverted}"
             },
             "onTranslucent": {
               "type": "color",
@@ -420,15 +420,15 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "value": "{app.color.elevation.fg.default}"
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "{app.color.elevation.fg.inverted}"
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "value": "{app.color.elevation.fg.default}"
             }
           }
         },
@@ -680,7 +680,7 @@
             "y": "4rem",
             "blur": "4rem",
             "spread": "0",
-            "color": "{app.color.surface.shadow.default}",
+            "color": "{app.color.elevation.shadow.default}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
