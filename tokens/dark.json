@@ -180,7 +180,7 @@
         },
         "shadow": {
           "default": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 1)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.8)",
             "type": "color"
           }
         }
@@ -402,7 +402,7 @@
             "x": "",
             "y": "4rem",
             "blur": "4rem",
-            "spread": "0",
+            "spread": "",
             "color": "{app.color.surface.shadow.default}",
             "type": "dropShadow"
           },
