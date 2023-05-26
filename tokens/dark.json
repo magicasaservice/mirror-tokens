@@ -370,7 +370,7 @@
           "border": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 30%)"
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 70%)"
             }
           },
           "focusRing": {
@@ -385,24 +385,34 @@
     "boxShadow": {
       "focusRing": {
         "default": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0.25rem",
-            "color": "{app.color.component.focus.focusRing.default}",
-            "type": "dropShadow"
-          },
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "2px",
+              "color": "{app.color.component.focus.border.default}",
+              "type": "innerShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0.25rem",
+              "color": "{app.color.component.focus.focusRing.default}",
+              "type": "dropShadow"
+            }
+          ],
           "type": "boxShadow"
         }
       },
       "surface": {
         "default": {
           "value": {
-            "x": "",
+            "x": "0",
             "y": "4rem",
             "blur": "4rem",
-            "spread": "",
+            "spread": "0",
             "color": "{app.color.surface.shadow.default}",
             "type": "dropShadow"
           },
