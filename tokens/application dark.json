@@ -1,0 +1,386 @@
+{
+  "app": {
+    "color": {
+      "surface": {
+        "bg": {
+          "low": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.surface.bg.low.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.surface.bg.low.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "base": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.surface.bg.base.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.surface.bg.base.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "high": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 92%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.surface.bg.high.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.surface.bg.high.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "higher": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 88%)"
+            },
+            "hover": {
+              "type": "color",
+              "value": "{app.color.surface.bg.higher.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "type": "color",
+              "value": "{app.color.surface.bg.higher.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.neutral.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "type": "color",
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+          },
+          "hover": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{config.color.neutral.darken.hover}",
+                  "space": "hsl"
+                }
+              }
+            }
+          },
+          "active": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{config.color.neutral.darken.active}",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)",
+            "type": "color"
+          },
+          "inverted": {
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+            "type": "color"
+          },
+          "link": {
+            "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%)",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
+            "type": "color"
+          }
+        }
+      },
+      "component": {
+        "primary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 30%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 30%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.inverted}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 20%)"
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 20%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 20%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 20%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 10%)"
+            }
+          }
+        },
+        "danger": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.danger.alpha.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 30%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.secondary.alpha.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 30%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 20%)"
+            }
+          }
+        },
+        "info": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 40%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 30%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "white"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 20%)"
+            }
+          }
+        },
+        "disabled": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 90%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, 20%)"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%, 30%)"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
+            }
+          }
+        },
+        "focus": {
+          "border": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 30%)"
+            }
+          },
+          "focusRing": {
+            "default": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.focusRing})"
+            }
+          }
+        }
+      }
+    }
+  }
+}
