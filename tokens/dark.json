@@ -138,58 +138,58 @@
                 }
               }
             }
+          }
+        },
+        "border": {
+          "default": {
+            "type": "color",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%, 0.1)"
           },
-          "border": {
-            "default": {
-              "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%, 0.1)"
-            },
-            "hover": {
-              "type": "color",
-              "value": "{app.color.surface.border.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{config.color.neutral.darken.hover}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            },
-            "active": {
-              "type": "color",
-              "value": "{app.color.surface.border.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{config.color.neutral.darken.active}",
-                    "space": "hsl"
-                  }
+          "hover": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{config.color.neutral.darken.hover}",
+                  "space": "hsl"
                 }
               }
             }
           },
-          "fg": {
-            "default": {
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%, 0.96)",
-              "type": "color"
-            },
-            "inverted": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.96)",
-              "type": "color"
-            },
-            "link": {
-              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 60%)",
-              "type": "color"
+          "active": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{config.color.neutral.darken.active}",
+                  "space": "hsl"
+                }
+              }
             }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%, 0.96)",
+            "type": "color"
           },
-          "shadow": {
-            "default": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 1)",
-              "type": "color"
-            }
+          "inverted": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.96)",
+            "type": "color"
+          },
+          "link": {
+            "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 60%)",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 1)",
+            "type": "color"
           }
         }
       },
