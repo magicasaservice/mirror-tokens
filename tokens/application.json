@@ -175,16 +175,16 @@
       }
     },
     "color": {
-      "elevation": {
-        "low": {
-          "surface": {
+      "surface": {
+        "bg": {
+          "low": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 98%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%)"
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.elevation.low.surface.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -197,7 +197,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.elevation.low.surface.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -209,48 +209,14 @@
               }
             }
           },
-          "border": {
-            "default": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 98%)"
-            },
-            "hover": {
-              "type": "color",
-              "value": "{app.color.elevation.low.surface.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.hover}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            },
-            "active": {
-              "type": "color",
-              "value": "{app.color.elevation.low.surface.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.active}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "base": {
-          "surface": {
+          "base": {
             "default": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.elevation.base.surface.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -263,7 +229,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.elevation.base.surface.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -275,126 +241,14 @@
               }
             }
           },
-          "border": {
-            "default": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
-            },
-            "hover": {
-              "type": "color",
-              "value": "{app.color.elevation.base.border.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.hover}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            },
-            "active": {
-              "type": "color",
-              "value": "{app.color.elevation.base.border.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.active}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          },
-          "shadow": {
-            "default": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
-              "type": "color"
-            }
-          }
-        },
-        "high": {
-          "surface": {
-            "default": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 94%)"
-            },
-            "hover": {
-              "type": "color",
-              "value": "{app.color.elevation.high.surface.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.hover}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            },
-            "active": {
-              "type": "color",
-              "value": "{app.color.elevation.high.surface.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.active}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          },
-          "border": {
-            "default": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 94%)"
-            },
-            "hover": {
-              "type": "color",
-              "value": "{app.color.elevation.high.border.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.hover}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            },
-            "active": {
-              "type": "color",
-              "value": "{app.color.elevation.high.border.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.color.neutral.solid.active}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          },
-          "shadow": {
-            "default": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
-              "type": "color"
-            }
-          }
-        },
-        "higher": {
-          "surface": {
+          "high": {
             "default": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 92%)"
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.elevation.higher.surface.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -407,7 +261,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.elevation.higher.surface.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -419,14 +273,14 @@
               }
             }
           },
-          "border": {
+          "higher": {
             "default": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 92%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 88%)"
             },
             "hover": {
               "type": "color",
-              "value": "{app.color.elevation.higher.border.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -439,7 +293,7 @@
             },
             "active": {
               "type": "color",
-              "value": "{app.color.elevation.higher.border.default}",
+              "value": "{app.color.surface.bg.low.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -450,12 +304,58 @@
                 }
               }
             }
+          }
+        },
+        "border": {
+          "default": {
+            "type": "color",
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
           },
-          "shadow": {
-            "default": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
-              "type": "color"
+          "hover": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{app.color.neutral.solid.hover}",
+                  "space": "hsl"
+                }
+              }
             }
+          },
+          "active": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{app.color.neutral.solid.active}",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)",
+            "type": "color"
+          },
+          "inverted": {
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+            "type": "color"
+          },
+          "link": {
+            "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%)",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
+            "type": "color"
           }
         }
       },
@@ -488,7 +388,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.text.inverted}"
+              "value": "{app.color.surface.fg.inverted}"
             },
             "onTranslucent": {
               "type": "color",
@@ -653,20 +553,6 @@
               "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.focusRing})"
             }
           }
-        }
-      },
-      "text": {
-        "default": {
-          "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)",
-          "type": "color"
-        },
-        "inverted": {
-          "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
-          "type": "color"
-        },
-        "link": {
-          "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%)",
-          "type": "color"
         }
       }
     },
