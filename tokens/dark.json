@@ -272,7 +272,7 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 30%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 60%)"
             },
             "translucent": {
               "type": "color",
@@ -282,15 +282,15 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 30%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 60%)"
             },
             "onSolid": {
               "type": "color",
-              "value": "white"
+              "value": "{app.color.surface.fg.inverted}"
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 20%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 70%)"
             }
           }
         },
@@ -298,7 +298,7 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%)"
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%)"
             },
             "translucent": {
               "type": "color",
@@ -308,7 +308,7 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 40%)"
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%)"
             },
             "translucent": {
               "type": "color",
@@ -318,7 +318,7 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 30%)"
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%)"
             },
             "onSolid": {
               "type": "color",
@@ -326,7 +326,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 20%)"
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 80%)"
             }
           }
         },
