@@ -249,7 +249,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 92%)"
+                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%)"
               },
               "hover": {
                 "type": "color",
@@ -283,7 +283,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 88%)"
+                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
               },
               "hover": {
                 "type": "color",
@@ -317,7 +317,7 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.1)"
           },
           "hover": {
             "type": "color",
@@ -325,8 +325,8 @@
             "$extensions": {
               "studio.tokens": {
                 "modify": {
-                  "type": "darken",
-                  "value": "{config.color.neutral.darken.hover}",
+                  "type": "alpha",
+                  "value": "{config.color.neutral.alpha.hover} ",
                   "space": "hsl"
                 }
               }
@@ -338,8 +338,8 @@
             "$extensions": {
               "studio.tokens": {
                 "modify": {
-                  "type": "darken",
-                  "value": "{config.color.neutral.darken.active}",
+                  "type": "alpha",
+                  "value": "{config.color.neutral.alpha.active}",
                   "space": "hsl"
                 }
               }
@@ -362,7 +362,7 @@
         },
         "shadow": {
           "default": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.1)",
             "type": "color"
           }
         }
@@ -685,8 +685,8 @@
         "default": {
           "value": {
             "x": "0",
-            "y": "4rem",
-            "blur": "4rem",
+            "y": "6rem",
+            "blur": "6rem",
             "spread": "0",
             "color": "{app.color.surface.shadow.default}",
             "type": "dropShadow"
