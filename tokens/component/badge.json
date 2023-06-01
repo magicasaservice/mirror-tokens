@@ -66,6 +66,19 @@
                     }
                   }
                 }
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.primary.alpha.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -73,13 +86,22 @@
                 "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               },
-              "onTranslucent": {
-                "value": "{app.color.component.primary.fg.onTranslucent}",
-                "type": "color"
-              },
               "onSolid": {
                 "value": "{app.color.component.primary.fg.onSolid}",
                 "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.primary.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             }
           },
