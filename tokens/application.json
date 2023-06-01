@@ -669,6 +669,15 @@
           },
           "type": "typography"
         },
+        "number": {
+          "value": {
+            "fontFamily": "{config.fontFamily.uiAlt}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "120%",
+            "fontSize": "{config.fontSize.control}"
+          },
+          "type": "typography"
+        },
         "symbol": {
           "value": {
             "fontFamily": "{config.fontFamily.symbol}",
@@ -683,6 +692,15 @@
           "value": {
             "fontFamily": "{config.fontFamily.ui}",
             "fontWeight": "{config.fontWeight.semibold}",
+            "lineHeight": "100%",
+            "fontSize": "{config.fontSize.base}"
+          },
+          "type": "typography"
+        },
+        "number": {
+          "value": {
+            "fontFamily": "{config.fontFamily.uiAlt}",
+            "fontWeight": "{config.fontWeight.medium}",
             "lineHeight": "100%",
             "fontSize": "{config.fontSize.base}"
           },
@@ -788,7 +806,7 @@
           "type": "letterSpacing"
         },
         "nums": {
-          "value": "6%",
+          "value": "8%",
           "type": "letterSpacing"
         }
       }
