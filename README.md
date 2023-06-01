@@ -61,7 +61,7 @@ Each layer of tokens fulfills a different function. Therefore, adding, removing 
 
 > coming soon
 
-### componet
+### component
 
 > coming soon
 
