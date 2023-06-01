@@ -15,8 +15,12 @@
                 "value": "{app.color.component.primary.bg.solid}",
                 "type": "color"
               },
-              "inline": {
+              "onSolid": {
                 "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
               }
             },
@@ -25,9 +29,22 @@
                 "value": "{app.color.component.primary.fg.onSolid}",
                 "type": "color"
               },
-              "inline": {
+              "onSolid": {
                 "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             }
           },
@@ -37,7 +54,7 @@
                 "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color"
               },
-              "inline": {
+              "onSolid": {
                 "value": "{app.color.component.primary.fg.onSolid}",
                 "type": "color",
                 "$extensions": {
@@ -56,7 +73,11 @@
                 "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               },
-              "inline": {
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
+                "type": "color"
+              },
+              "onSolid": {
                 "value": "{app.color.component.primary.fg.onSolid}",
                 "type": "color"
               }
