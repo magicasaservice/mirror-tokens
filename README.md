@@ -34,20 +34,37 @@ The specificity of each layer topples the one prior. Tokens from each layer can 
 To customize the design tokens, each of the layers’ tokens can be overwritten within a layer injected directly above it into the hierachical structure. This is intended for features such as adusted mobile styles or dark mode.
 
 ```
-            ___________
-           /           \
-          /  component  \
-         /_______________\
-        /                 \
-       / application--dark \
-      /_____________________\
-     /                       \
-    /       application       \
-   /___________________________\
-  /                             \
- /            config             \
-/_________________________________\
+            _________
+           /         \
+          / component \
+         /_____________\
+        /               \
+       /      dark       \
+      /___________________\
+     /                     \
+    /      application      \
+   /_________________________\
+  /                           \
+ /           config            \
+/_______________________________\
 ```
+
+## 🖇️ Structure
+
+Each layer of tokens fulfills a different function. Therefore, adding, removing or refactoring tokens should be done in consideration of the respective layer’s purpose.
+
+### config
+
+> coming soon
+
+### application
+
+> coming soon
+
+### componet
+
+> coming soon
+
 
 ## 🧰 Tooling
 
