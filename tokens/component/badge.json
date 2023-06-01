@@ -111,8 +111,12 @@
                 "value": "{app.color.component.primary.border.solid}",
                 "type": "color"
               },
-              "inline": {
+              "onSolid": {
                 "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               }
             },
@@ -121,8 +125,12 @@
                 "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
               },
-              "inline": {
+              "onSolid": {
                 "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -171,146 +179,6 @@
             "fg": {
               "default": {
                 "value": "{app.color.component.secondary.fg.solid}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "info": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.info.bg.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.info.fg.onSolid}",
-                "type": "color"
-              },
-              "inline": {
-                "value": "{app.color.component.info.fg.solid}",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.info.bg.translucent}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.info.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "outline": {
-            "border": {
-              "default": {
-                "value": "{app.color.component.info.border.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.info.fg.solid}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "danger": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.danger.bg.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.danger.fg.onSolid}",
-                "type": "color"
-              },
-              "inline": {
-                "value": "{app.color.component.danger.fg.solid}",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.danger.bg.translucent}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.danger.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "outline": {
-            "border": {
-              "default": {
-                "value": "{app.color.component.danger.border.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.danger.fg.solid}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "disabled": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.disabled.bg.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.disabled.fg.onSolid}",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.disabled.bg.translucent}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.disabled.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "outline": {
-            "border": {
-              "default": {
-                "value": "{app.color.component.disabled.border.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
                 "type": "color"
               }
             }
