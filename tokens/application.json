@@ -693,6 +693,36 @@
             "type": "fontSizes"
           }
         }
+      },
+      "label": {
+        "text": {
+          "sm": {
+            "value": "{app.fontSize.label.text.md} - 0.125rem",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{config.fontSize.label}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.label.text.md} + 0.125rem",
+            "type": "fontSizes"
+          }
+        },
+        "symbol": {
+          "sm": {
+            "value": "{app.fontSize.label.symbol.md} - 0.125rem",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{config.fontSize.label} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.label.symbol.md} + 0.125rem",
+            "type": "fontSizes"
+          }
+        }
       }
     },
     "textCase": {
@@ -707,12 +737,24 @@
     },
     "letterSpacing": {
       "control": {
-        "value": "0%",
-        "type": "letterSpacing"
+        "default": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "nums": {
+          "value": "2%",
+          "type": "letterSpacing"
+        }
       },
       "label": {
-        "value": "0%",
-        "type": "letterSpacing"
+        "default": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "nums": {
+          "value": "2%",
+          "type": "letterSpacing"
+        }
       }
     },
     "boxShadow": {
