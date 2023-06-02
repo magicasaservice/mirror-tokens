@@ -187,13 +187,13 @@
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.surface.fg.muted}",
+                "value": "{app.color.component.info.fg.onSolid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.secondary.alpha.default}",
+                      "value": "{config.color.secondary.alpha.onDefault}",
                       "space": "hsl"
                     }
                   }
