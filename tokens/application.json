@@ -248,15 +248,15 @@
         },
         "radius": {
           "sm": {
-            "value": "{app.dimension.status.radius.md} - 0.125rem",
+            "value": "{app.dimension.status.height.sm} / 2 - {config.dimension.status.radius}",
             "type": "dimension"
           },
           "md": {
-            "value": "{config.dimension.status.radius}",
+            "value": "{app.dimension.status.height.md} / 2 - {config.dimension.status.radius}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.status.radius.md} + 0.125rem",
+            "value": "{app.dimension.status.height.lg} / 2 - {config.dimension.status.radius}",
             "type": "dimension"
           }
         },
