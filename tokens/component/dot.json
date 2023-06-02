@@ -72,27 +72,25 @@
         }
       },
       "color": {
-        "bg": {
-          "value": "{theme.color.control.accent.bg.default}",
-          "type": "color"
+        "primary": {
+          "bg": {
+            "value": "{app.color.component.primary.bg.solid}",
+            "type": "color"
+          }
         },
-        "border": {
-          "value": "{theme.color.surface.bg.subtle}",
-          "type": "color"
-        },
-        "online": {
+        "positive": {
           "bg": {
             "value": "{theme.color.palette.green.60}",
             "type": "color"
           }
         },
-        "offline": {
+        "negative": {
           "bg": {
             "value": "{theme.color.palette.red.60}",
             "type": "color"
           }
         },
-        "busy": {
+        "idle": {
           "bg": {
             "value": "{theme.color.palette.orange.60}",
             "type": "color"
