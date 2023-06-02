@@ -330,7 +330,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "white"
+              "value": "{app.color.surface.fg.inverted}"
             },
             "onTranslucent": {
               "type": "color",
@@ -411,6 +411,22 @@
           },
           "active": {
             "value": "0.4",
+            "type": "other"
+          }
+        }
+      },
+      "primary": {
+        "lighten": {
+          "default": {
+            "value": "-0.8",
+            "type": "other"
+          }
+        }
+      },
+      "secondary": {
+        "lighten": {
+          "default": {
+            "value": "-0.8",
             "type": "other"
           }
         }
