@@ -76,29 +76,43 @@
       "dimension": {
         "height": {
           "sm": {
-            "value": "{component.status.dimension.height.md} - 0.125rem",
+            "value": "{app.dimension.status.height.sm}",
             "type": "dimension"
           },
           "md": {
-            "value": "{config.fontSize.control} * 0.5",
+            "value": "{app.dimension.status.height.md}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.status.dimension.height.md} + 0.125rem",
+            "value": "{app.dimension.status.height.lg}",
             "type": "dimension"
           }
         },
         "border": {
           "sm": {
-            "value": "{component.status.dimension.border.md} - 0.0625rem",
+            "value": "{app.dimension.status.border.sm}",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.status.dimension.height.md} / 2",
+            "value": "{app.dimension.status.border.md}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.status.dimension.border.md} + 0.0625rem",
+            "value": "{app.dimension.status.border.lg}",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "sm": {
+            "value": "{app.dimension.status.radius.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.status.radius.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.status.radius.lg}",
             "type": "dimension"
           }
         }
