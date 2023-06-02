@@ -391,6 +391,42 @@
               "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%, {config.color.info.alpha.focusRing})"
             }
           }
+        },
+        "warning": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.danger.alpha.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 45%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.secondary.alpha.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 40%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.inverted}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 25%)"
+            }
+          }
         }
       }
     }
