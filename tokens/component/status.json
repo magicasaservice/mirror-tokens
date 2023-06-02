@@ -1,28 +1,6 @@
 {
   "component": {
     "status": {
-      "sizing": {
-        "xs": {
-          "value": "{component.status.sizing.sm} - 1px",
-          "type": "sizing"
-        },
-        "sm": {
-          "value": "{component.status.sizing.md} - 1px",
-          "type": "sizing"
-        },
-        "md": {
-          "value": "10px",
-          "type": "sizing"
-        },
-        "lg": {
-          "value": "10px",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "{component.status.sizing.lg} + 1px",
-          "type": "sizing"
-        }
-      },
       "position": {
         "square": {
           "value": "-2px",
@@ -95,40 +73,6 @@
           }
         }
       },
-      "border-width": {
-        "xs": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "sm": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "default": {
-          "value": "3px",
-          "type": "borderWidth"
-        },
-        "lg": {
-          "value": "3px",
-          "type": "borderWidth"
-        },
-        "xl": {
-          "value": "3px",
-          "type": "borderWidth"
-        },
-        "2xl": {
-          "value": "3px",
-          "type": "borderWidth"
-        },
-        "3xl": {
-          "value": "4px",
-          "type": "borderWidth"
-        },
-        "4xl": {
-          "value": "4px",
-          "type": "borderWidth"
-        }
-      },
       "border-radius": {
         "default": {
           "value": "{theme.border-radius.control.rounded}",
@@ -137,16 +81,30 @@
       },
       "dimension": {
         "height": {
+          "sm": {
+            "value": "{component.status.dimension.height.md} - 0.125rem",
+            "type": "dimension"
+          },
           "md": {
-            "value": "{app.dimension.label.height.md} / 2",
+            "value": "{config.fontSize.control} * 0.5",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.status.dimension.height.md} + 0.0625rem",
+            "value": "{component.status.dimension.height.md} + 0.125rem",
+            "type": "dimension"
+          }
+        },
+        "border": {
+          "sm": {
+            "value": "{app.dimension.control.border.sm}",
             "type": "dimension"
           },
-          "xl": {
-            "value": "{component.status.dimension.height.md} + 0.125rem",
+          "md": {
+            "value": "{app.dimension.control.border.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.border.lg}",
             "type": "dimension"
           }
         }
