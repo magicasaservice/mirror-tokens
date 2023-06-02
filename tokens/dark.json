@@ -174,7 +174,7 @@
         },
         "fg": {
           "default": {
-            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%, 0.96)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 98%, 0.98)",
             "type": "color"
           },
           "inverted": {
@@ -183,6 +183,10 @@
           },
           "link": {
             "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 60%)",
+            "type": "color"
+          },
+          "muted": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.98)",
             "type": "color"
           }
         },
@@ -402,7 +406,7 @@
         },
         "darken": {
           "default": {
-            "value": "-0.2",
+            "value": "0",
             "type": "other"
           }
         }
@@ -410,7 +414,7 @@
       "secondary": {
         "lighten": {
           "default": {
-            "value": "-1.8",
+            "value": "-40",
             "type": "other"
           }
         },
