@@ -15,7 +15,7 @@
           "type": "sizing"
         },
         "md": {
-          "value": "{component.dot.sizing.lg} - 1px",
+          "value": "10px",
           "type": "sizing"
         },
         "lg": {
@@ -141,6 +141,22 @@
         "default": {
           "value": "{theme.border-radius.control.rounded}",
           "type": "borderRadius"
+        }
+      },
+      "dimension": {
+        "height": {
+          "md": {
+            "value": "{app.dimension.label.height.md} / 2",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{component.dot.dimension.height.md} + 0.0625rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{component.dot.dimension.height.md} + 0.125rem",
+            "type": "dimension"
+          }
         }
       }
     }
