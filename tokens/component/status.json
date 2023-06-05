@@ -31,102 +31,108 @@
             "value": "{app.color.component.warning.bg.solid}",
             "type": "color"
           }
+        },
+        "border": {
+          "default": {
+            "value": "{app.color.surface.elevation.base.bg.default}",
+            "type": "color"
+          }
         }
       },
       "dimension": {
         "height": {
           "xs": {
             "default": {
-              "value": "{app.dimension.status.height.xs}",
+              "value": "{app.dimension.dot.height.xs}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.status.height.xs}",
+              "value": "{component.status.dimension.height.xs.default} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{app.dimension.status.height.sm}",
+              "value": "{app.dimension.dot.height.sm}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.status.height.sm}",
+              "value": "{app.dimension.dot.height.sm} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{app.dimension.status.height.md}",
+              "value": "{app.dimension.dot.height.md}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.status.height.md}",
+              "value": "{app.dimension.dot.height.md} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{app.dimension.status.height.lg}",
+              "value": "{app.dimension.dot.height.lg}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.status.height.lg}",
+              "value": "{app.dimension.dot.height.lg} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{app.dimension.status.height.xl}",
+              "value": "{app.dimension.dot.height.xl}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.status.height.xl}",
+              "value": "{app.dimension.dot.height.xl} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           }
         },
         "border": {
+          "xs": {
+            "value": "{app.dimension.dot.border.xs}",
+            "type": "dimension"
+          },
           "sm": {
-            "value": "{app.dimension.status.radius.sm}",
+            "value": "{app.dimension.dot.border.sm}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.status.radius.md}",
+            "value": "{app.dimension.dot.border.md}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.status.radius.lg}",
+            "value": "{app.dimension.dot.border.lg}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{app.dimension.status.radius.xl}",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.status.radius.xs}",
+            "value": "{app.dimension.dot.border.xl}",
             "type": "dimension"
           }
         },
         "radius": {
           "xs": {
-            "value": "{app.dimension.status.radius.xs}",
+            "value": "{app.dimension.dot.radius.xs}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.status.radius.sm}",
+            "value": "{app.dimension.dot.radius.sm}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.status.radius.md}",
+            "value": "{app.dimension.dot.radius.md}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.status.radius.lg}",
+            "value": "{app.dimension.dot.radius.lg}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{app.dimension.status.radius.xl}",
+            "value": "{app.dimension.dot.radius.xl}",
             "type": "dimension"
           }
         }
