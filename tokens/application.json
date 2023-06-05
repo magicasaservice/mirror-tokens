@@ -233,6 +233,10 @@
       },
       "status": {
         "height": {
+          "xs": {
+            "value": "{app.dimension.status.height.sm} - 0.0625rem",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.status.height.md} - 0.0625rem",
             "type": "dimension"
@@ -244,9 +248,17 @@
           "lg": {
             "value": "{app.dimension.status.height.md} + 0.0625rem",
             "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.status.height.lg} + 0.0625rem",
+            "type": "dimension"
           }
         },
         "radius": {
+          "xs": {
+            "value": "{app.dimension.status.height.xs} / 2 - {config.dimension.status.radius}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.status.height.sm} / 2 - {config.dimension.status.radius}",
             "type": "dimension"
@@ -258,9 +270,17 @@
           "lg": {
             "value": "{app.dimension.status.height.lg} / 2 - {config.dimension.status.radius}",
             "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.status.height.xl} / 2 - {config.dimension.status.radius}",
+            "type": "dimension"
           }
         },
         "border": {
+          "xs": {
+            "value": "1px",
+            "type": "dimension"
+          },
           "sm": {
             "value": "1px",
             "type": "dimension"
@@ -270,6 +290,10 @@
             "type": "dimension"
           },
           "lg": {
+            "value": "1px",
+            "type": "dimension"
+          },
+          "xl": {
             "value": "1px",
             "type": "dimension"
           }
