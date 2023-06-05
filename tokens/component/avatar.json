@@ -45,7 +45,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.height.sm}",
+              "value": "{app.dimension.control.height.sm} - 0.5rem",
               "type": "dimension"
             }
           },
@@ -55,7 +55,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.height.md}",
+              "value": "{app.dimension.control.height.md} - 0.5rem",
               "type": "dimension"
             }
           },
@@ -65,7 +65,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.height.lg}",
+              "value": "{app.dimension.control.height.lg} - 0.5rem",
               "type": "dimension"
             }
           },
@@ -75,31 +75,61 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.height.xl}",
+              "value": "{app.dimension.control.height.xl} - 0.5rem",
               "type": "dimension"
             }
           }
         },
         "radius": {
           "xs": {
-            "value": "{app.dimension.control.radius.xs}",
-            "type": "dimension"
+            "default": {
+              "value": "{app.dimension.control.radius.xs}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{app.dimension.control.radius.xs} - 0.25rem",
+              "type": "dimension"
+            }
           },
           "sm": {
-            "value": "{app.dimension.control.radius.sm}",
-            "type": "dimension"
+            "default": {
+              "value": "{app.dimension.control.radius.sm}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{app.dimension.control.radius.sm} - 0.25rem",
+              "type": "dimension"
+            }
           },
           "md": {
-            "value": "{app.dimension.control.radius.md}",
-            "type": "dimension"
+            "default": {
+              "value": "{app.dimension.control.radius.md}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{app.dimension.control.radius.md} - 0.25rem",
+              "type": "dimension"
+            }
           },
           "lg": {
-            "value": "{app.dimension.control.radius.lg}",
-            "type": "dimension"
+            "default": {
+              "value": "{app.dimension.control.radius.lg}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{app.dimension.control.radius.lg} - 0.25rem",
+              "type": "dimension"
+            }
           },
           "xl": {
-            "value": "{app.dimension.control.radius.xl}",
-            "type": "dimension"
+            "default": {
+              "value": "{app.dimension.control.radius.xl}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{app.dimension.control.radius.xl} - 0.25rem",
+              "type": "dimension"
+            }
           }
         },
         "border": {
@@ -133,7 +163,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.xs} - 0.5rem",
+              "value": "{app.fontSize.control.text.xs} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -143,7 +173,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.sm} - 0.5rem",
+              "value": "{app.fontSize.control.text.sm} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -153,7 +183,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.md} - 0.5rem",
+              "value": "{app.fontSize.control.text.md} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -163,7 +193,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.lg} - 0.5rem",
+              "value": "{app.fontSize.control.text.lg} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -173,7 +203,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.xl} - 0.5rem",
+              "value": "{app.fontSize.control.text.xl} - 0.25rem",
               "type": "fontSizes"
             }
           }
