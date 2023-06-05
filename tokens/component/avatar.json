@@ -5,10 +5,6 @@
         "text": {
           "value": "{app.typography.control.text}",
           "type": "typography"
-        },
-        "symbol": {
-          "value": "{app.typography.control.symbol}",
-          "type": "typography"
         }
       },
       "color": {
@@ -22,6 +18,21 @@
           "default": {
             "value": "{app.color.component.secondary.fg.onSolid}",
             "type": "color"
+          }
+        },
+        "dimmer": {
+          "default": {
+            "value": "{app.color.surface.fg.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "hsl"
+                }
+              }
+            }
           }
         }
       },
@@ -126,6 +137,10 @@
             "type": "fontSizes"
           },
           "lg": {
+            "value": "{app.fontSize.control.text.lg}",
+            "type": "fontSizes"
+          },
+          "xl": {
             "value": "{app.fontSize.control.text.lg}",
             "type": "fontSizes"
           }
