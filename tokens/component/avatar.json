@@ -106,23 +106,23 @@
       },
       "fontSize": {
         "text": {
-          "sm": {
-            "default": {
-              "value": "{app.fontSize.control.text.sm}",
-              "type": "fontSizes"
-            },
-            "inline": {
-              "value": "{app.fontSize.control.text.sm}",
-              "type": "fontSizes"
-            }
-          },
           "xs": {
             "default": {
               "value": "{app.fontSize.control.text.xs}",
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.xs}",
+              "value": "{app.fontSize.control.text.xs} - 0.25rem",
+              "type": "fontSizes"
+            }
+          },
+          "sm": {
+            "default": {
+              "value": "{app.fontSize.control.text.sm}",
+              "type": "fontSizes"
+            },
+            "inline": {
+              "value": "{app.fontSize.control.text.sm} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -132,7 +132,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.md}",
+              "value": "{app.fontSize.control.text.md} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -142,7 +142,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.lg}",
+              "value": "{app.fontSize.control.text.lg} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -152,7 +152,7 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.lg}",
+              "value": "{app.fontSize.control.text.xl} - 0.25rem",
               "type": "fontSizes"
             }
           }
