@@ -22,17 +22,8 @@
         },
         "dimmer": {
           "default": {
-            "value": "{app.color.surface.fg.default}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.1",
-                  "space": "hsl"
-                }
-              }
-            }
+            "value": "{app.color.surface.dimmer.default}",
+            "type": "color"
           }
         }
       },
