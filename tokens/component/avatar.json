@@ -87,7 +87,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.radius.xs} - 0.25rem",
+              "value": "{app.dimension.control.radius.xs} - 0.125rem",
               "type": "dimension"
             }
           },
@@ -97,7 +97,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.radius.sm} - 0.25rem",
+              "value": "{app.dimension.control.radius.sm} - 0.125rem",
               "type": "dimension"
             }
           },
@@ -107,7 +107,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.radius.md} - 0.25rem",
+              "value": "{app.dimension.control.radius.md} - 0.125rem",
               "type": "dimension"
             }
           },
@@ -117,7 +117,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.radius.lg} - 0.25rem",
+              "value": "{app.dimension.control.radius.lg} - 0.125rem",
               "type": "dimension"
             }
           },
@@ -127,7 +127,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.radius.xl} - 0.25rem",
+              "value": "{app.dimension.control.radius.xl} - 0.125rem",
               "type": "dimension"
             }
           }
@@ -202,13 +202,13 @@
       "status": {
         "position": {
           "default": {
-            "value": "-0.0625rem",
+            "value": "0rem",
             "type": "other"
           },
           "rounded": {
             "xs": {
               "default": {
-                "value": "1px",
+                "value": "{component.avatar.dimension.height.xs.default} / 8",
                 "type": "other"
               },
               "inline": {
@@ -218,7 +218,7 @@
             },
             "sm": {
               "default": {
-                "value": "1px",
+                "value": "{component.avatar.dimension.height.sm.default} / 8",
                 "type": "other"
               },
               "inline": {
