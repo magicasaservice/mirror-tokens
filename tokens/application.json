@@ -1,21 +1,7 @@
 {
   "app": {
     "dimension": {
-      "control": {
-        "height": {
-          "sm": {
-            "value": "{app.dimension.control.height.md} - 0.5rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{config.dimension.control.height}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.height.md} + 0.5rem",
-            "type": "dimension"
-          }
-        },
+      "surface": {
         "padding": {
           "sm": {
             "value": "{app.dimension.control.padding.md} - 0.25rem",
@@ -71,8 +57,124 @@
             "value": "2px",
             "type": "dimension"
           }
+        }
+      },
+      "control": {
+        "height": {
+          "xs": {
+            "value": "{app.dimension.control.height.sm} - 0.5rem",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.control.height.md} - 0.5rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.height}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.height.md} + 0.5rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.control.height.lg} + 0.5rem",
+            "type": "dimension"
+          }
+        },
+        "padding": {
+          "xs": {
+            "value": "{app.dimension.control.padding.sm} - 0.25rem",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.control.padding.md} - 0.25rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.padding}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.padding.md} + 0.25rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.control.padding.lg} + 0.25rem",
+            "type": "dimension"
+          }
+        },
+        "gap": {
+          "xs": {
+            "value": "{app.dimension.control.gap.sm} - 0.125rem",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.control.gap.md} - 0.125rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.gap}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.gap.md} + 0.125rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.control.gap.lg} + 0.125rem",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "xs": {
+            "value": "{app.dimension.control.radius.sm} - 0.25rem",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.control.radius.md} - 0.25rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.radius}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.radius.md} + 0.25rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.control.radius.lg} + 0.25rem",
+            "type": "dimension"
+          }
+        },
+        "border": {
+          "xs": {
+            "value": "{config.dimension.control.border}",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{config.dimension.control.border}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{config.dimension.control.border}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{config.dimension.control.border}",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{config.dimension.control.border}",
+            "type": "dimension"
+          }
         },
         "symbol": {
+          "xs": {
+            "value": "{app.dimension.control.symbol.sm} - 0.125rem",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.symbol.md} - 0.125rem",
             "type": "dimension"
@@ -83,6 +185,10 @@
           },
           "lg": {
             "value": "{app.dimension.control.symbol.md} + 0.125rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.control.symbol.lg} + 0.125rem",
             "type": "dimension"
           }
         }
@@ -169,64 +275,6 @@
           },
           "lg": {
             "value": "{app.dimension.label.symbol.md} + 0.125rem",
-            "type": "dimension"
-          }
-        }
-      },
-      "surface": {
-        "padding": {
-          "sm": {
-            "value": "{app.dimension.control.padding.md} - 0.25rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{config.dimension.control.padding}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.padding.md} + 0.25rem",
-            "type": "dimension"
-          }
-        },
-        "gap": {
-          "sm": {
-            "value": "{app.dimension.control.gap.md} - 0.125rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{config.dimension.control.gap}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.gap.md} + 0.125rem",
-            "type": "dimension"
-          }
-        },
-        "radius": {
-          "sm": {
-            "value": "{app.dimension.control.radius.md} - 0.25rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{config.dimension.control.radius}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.radius.md} + 0.25rem",
-            "type": "dimension"
-          }
-        },
-        "border": {
-          "sm": {
-            "value": "2px",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "2px",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "2px",
             "type": "dimension"
           }
         }
