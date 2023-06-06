@@ -30,6 +30,20 @@
               "value": "{component.toggle.dimension.track.height.lg} * 2 - {component.toggle.dimension.config.inset} * 2",
               "type": "dimension"
             }
+          },
+          "radius": {
+            "sm": {
+              "value": "{component.toggle.dimension.track.radius.md}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.config.radius}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.track.radius.md}",
+              "type": "dimension"
+            }
           }
         },
         "handle": {
@@ -78,11 +92,15 @@
         },
         "config": {
           "inset": {
-            "value": "0.25rem",
+            "value": "0.125rem",
             "type": "dimension",
             "description": "-0.5 for material design style"
           },
           "step": {
+            "value": "0.5rem",
+            "type": "dimension"
+          },
+          "radius": {
             "value": "0.5rem",
             "type": "dimension"
           }
