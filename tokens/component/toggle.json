@@ -63,28 +63,28 @@
           },
           "width": {
             "sm": {
-              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.widthScale}",
+              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.width.scale}",
               "type": "dimension"
             },
             "md": {
-              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.widthScale}",
+              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.width.scale}",
               "type": "dimension"
             },
             "lg": {
-              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.widthScale}",
+              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.width.scale}",
               "type": "dimension"
             },
             "pressed": {
               "sm": {
-                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} / 4",
+                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} * {component.toggle.config.handle.width.pressed}",
                 "type": "dimension"
               },
               "md": {
-                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} / 4",
+                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} * {component.toggle.config.handle.width.pressed}",
                 "type": "dimension"
               },
               "lg": {
-                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} / 4",
+                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} * {component.toggle.config.handle.width.pressed}",
                 "type": "dimension"
               }
             }
@@ -328,9 +328,15 @@
       },
       "config": {
         "handle": {
-          "widthScale": {
-            "value": "1.5",
-            "type": "other"
+          "width": {
+            "scale": {
+              "value": "1.5",
+              "type": "other"
+            },
+            "pressed": {
+              "value": "0.25",
+              "type": "other"
+            }
           }
         }
       }
