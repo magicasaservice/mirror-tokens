@@ -201,63 +201,28 @@
           }
         },
         "handle": {
-          "unchecked": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.unchecked.fg.onSolid}",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "{app.color.component.unchecked.fg.onSolid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.neutral.alpha.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
-              }
-            }
-          },
-          "checked": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.unchecked.fg.onSolid}",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "{app.color.component.unchecked.fg.onSolid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.neutral.alpha.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
-              }
-            }
-          },
-          "shadow": {
+          "bg": {
             "default": {
-              "value": "black",
+              "value": "{app.color.component.unchecked.fg.onSolid}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{app.color.component.unchecked.fg.onSolid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{config.color.neutral.alpha.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.unchecked.fg.solid}",
               "type": "color"
             }
           }

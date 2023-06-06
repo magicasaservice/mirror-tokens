@@ -177,16 +177,16 @@
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 98%, 0.98)",
             "type": "color"
           },
+          "muted": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.98)",
+            "type": "color"
+          },
           "inverted": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.96)",
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0.96%)",
             "type": "color"
           },
           "link": {
             "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 60%)",
-            "type": "color"
-          },
-          "muted": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.98)",
             "type": "color"
           }
         },
@@ -425,6 +425,42 @@
             "onTranslucent": {
               "type": "color",
               "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 25%)"
+            }
+          }
+        },
+        "unchecked": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 40%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.unchecked.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, {config.color.neutral.alpha.unchecked.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.inverted}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.component.unchecked.fg.solid}"
             }
           }
         }
