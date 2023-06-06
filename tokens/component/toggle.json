@@ -5,29 +5,29 @@
         "track": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.label.height.md}",
+              "value": "{app.dimension.control.height.md} / 3 * 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.md} + {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.md} + {component.toggle.dimension.config.step}",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{app.dimension.label.height.sm} * 2 - {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.sm} * 2 - {component.toggle.dimension.config.inset} * 2",
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.label.height.md} * 2 - {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.md} * 2 - {component.toggle.dimension.config.inset} * 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{app.dimension.label.height.lg} * 2 - {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.lg} * 2 - {component.toggle.dimension.config.inset} * 2",
               "type": "dimension"
             }
           }
@@ -35,29 +35,29 @@
         "handle": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.sm} - {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.inset} * 2",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.inset} * 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.lg} - {component.toggle.dimension.inset.default}",
+              "value": "{component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.inset} * 2",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.sm} - 0.25rem",
+              "value": "{component.toggle.dimension.track.width.sm} / 2 - {component.toggle.dimension.config.inset}",
               "type": "dimension"
             },
             "md": {
-              "value": "({component.toggle.dimension.track.width.md} - {component.toggle.dimension.inset.default}) / 2",
+              "value": "{component.toggle.dimension.track.width.md} / 2 - {component.toggle.dimension.config.inset}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.lg} - 0.25rem",
+              "value": "{component.toggle.dimension.track.width.lg} / 2 - {component.toggle.dimension.config.inset}",
               "type": "dimension"
             }
           },
@@ -76,11 +76,15 @@
             }
           }
         },
-        "inset": {
-          "default": {
-            "value": "-0.5rem",
+        "config": {
+          "inset": {
+            "value": "0.25rem",
             "type": "dimension",
             "description": "-0.5 for material design style"
+          },
+          "step": {
+            "value": "0.5rem",
+            "type": "dimension"
           }
         }
       }
