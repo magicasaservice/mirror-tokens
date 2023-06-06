@@ -73,6 +73,20 @@
             "lg": {
               "value": "{component.toggle.dimension.track.width.lg} / 2 - {component.toggle.dimension.config.inset}",
               "type": "dimension"
+            },
+            "pressed": {
+              "sm": {
+                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} / 4",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} / 4",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} / 4",
+                "type": "dimension"
+              }
             }
           },
           "offset": {
@@ -120,7 +134,7 @@
             "type": "dimension"
           },
           "radius": {
-            "value": "0.5rem",
+            "value": "0.125rem",
             "type": "dimension",
             "description": "for 100% roundness lower last value to 0"
           },
