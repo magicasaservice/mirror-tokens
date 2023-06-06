@@ -126,11 +126,11 @@
               "description": "-0.5 for material design style"
             },
             "step": {
-              "value": "0.5rem",
+              "value": "0.75rem",
               "type": "dimension"
             },
             "radius": {
-              "value": ".5rem",
+              "value": ".625rem",
               "type": "dimension",
               "description": "for 100% roundness lower last value to 0"
             },
@@ -323,11 +323,12 @@
         "handle": {
           "width": {
             "scale": {
-              "value": "1.5",
-              "type": "other"
+              "value": "1",
+              "type": "other",
+              "description": "1 = square / 1.5 = rectangle"
             },
             "pressed": {
-              "value": "0.25",
+              "value": "0.125",
               "type": "other"
             }
           }
