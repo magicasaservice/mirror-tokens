@@ -269,6 +269,24 @@
           "value": "{app.boxShadow.control.default}",
           "type": "boxShadow"
         }
+      },
+      "transition": {
+        "handle": {
+          "active": {
+            "value": "0.5s ease-in-out",
+            "type": "other"
+          },
+          "move": {
+            "value": "1s ease",
+            "type": "other"
+          }
+        },
+        "track": {
+          "state": {
+            "value": "0.5s ease",
+            "type": "other"
+          }
+        }
       }
     }
   }
