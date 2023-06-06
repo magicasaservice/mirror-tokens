@@ -241,7 +241,19 @@
                 "type": "color"
               }
             }
+          },
+          "shadow": {
+            "default": {
+              "value": "black",
+              "type": "color"
+            }
           }
+        }
+      },
+      "boxShadow": {
+        "default": {
+          "value": "{app.boxShadow.control.default}",
+          "type": "boxShadow"
         }
       }
     }

@@ -600,6 +600,20 @@
         }
       },
       "component": {
+        "shadow": {
+          "default": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.1)",
+            "type": "color"
+          },
+          "strong": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
+            "type": "color"
+          },
+          "stronger": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.3)",
+            "type": "color"
+          }
+        },
         "primary": {
           "bg": {
             "solid": {
@@ -1186,6 +1200,21 @@
             "color": "{app.color.surface.shadow.default}",
             "type": "dropShadow"
           },
+          "type": "boxShadow"
+        }
+      },
+      "control": {
+        "default": {
+          "value": [
+            {
+              "x": "0",
+              "y": "0.0625rem",
+              "blur": "0.125rem",
+              "spread": "0",
+              "color": "{app.color.component.shadow.stronger}",
+              "type": "dropShadow"
+            }
+          ],
           "type": "boxShadow"
         }
       }
