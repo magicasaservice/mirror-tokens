@@ -612,6 +612,10 @@
           "stronger": {
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.3)",
             "type": "color"
+          },
+          "none": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0)",
+            "type": "color"
           }
         },
         "primary": {
@@ -1225,6 +1229,19 @@
               "blur": "0.125rem",
               "spread": "0",
               "color": "{app.color.component.shadow.stronger}",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "pressed": {
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "{app.color.component.shadow.none}",
               "type": "dropShadow"
             }
           ],

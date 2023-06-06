@@ -158,7 +158,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.neutral.alpha.unchecked.active}",
+                      "value": "{config.color.neutral.alpha.unchecked.hover}",
                       "space": "hsl"
                     }
                   }
@@ -267,15 +267,19 @@
         "default": {
           "value": "{app.boxShadow.control.default}",
           "type": "boxShadow"
+        },
+        "pressed": {
+          "value": "{app.boxShadow.control.pressed}",
+          "type": "boxShadow"
         }
       },
       "transition": {
         "handle": {
-          "active": {
+          "state": {
             "value": "0.5s ease-in-out",
             "type": "other"
           },
-          "move": {
+          "transform": {
             "value": "1s ease",
             "type": "other"
           }
