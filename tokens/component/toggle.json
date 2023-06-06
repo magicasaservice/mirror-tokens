@@ -133,13 +133,29 @@
             "type": "dimension"
           },
           "radius": {
-            "value": "0.5rem",
+            "value": ".5rem",
             "type": "dimension",
             "description": "for 100% roundness lower last value to 0"
           },
           "radiusStep": {
             "value": "0.125rem",
             "type": "dimension"
+          }
+        },
+        "icon": {
+          "height": {
+            "sm": {
+              "value": "{component.toggle.dimension.handle.height.sm} - {component.toggle.dimension.config.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.handle.height.md} - {component.toggle.dimension.config.step}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.handle.height.lg} - {component.toggle.dimension.config.step}",
+              "type": "dimension"
+            }
           }
         }
       },
@@ -266,6 +282,24 @@
           "state": {
             "value": "0.5s ease",
             "type": "other"
+          }
+        }
+      },
+      "fontSize": {
+        "icon": {
+          "height": {
+            "sm": {
+              "value": "{component.toggle.dimension.handle.height.sm} - {component.toggle.dimension.config.step}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.handle.height.md} - {component.toggle.dimension.config.step}",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.handle.height.lg} - {component.toggle.dimension.config.step}",
+              "type": "fontSizes"
+            }
           }
         }
       }
