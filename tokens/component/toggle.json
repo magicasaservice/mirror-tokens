@@ -33,7 +33,7 @@
           },
           "radius": {
             "sm": {
-              "value": "{component.toggle.dimension.track.radius.md}",
+              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.step} / 2",
               "type": "dimension"
             },
             "md": {
@@ -41,7 +41,7 @@
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.radius.md}",
+              "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.dimension.config.step}",
               "type": "dimension"
             }
           }
@@ -88,6 +88,20 @@
               "value": "{component.toggle.dimension.handle.width.lg} / 2",
               "type": "dimension"
             }
+          },
+          "radius": {
+            "sm": {
+              "value": "{component.toggle.dimension.track.radius.sm} - {component.toggle.dimension.config.inset}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.inset}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.dimension.config.inset}",
+              "type": "dimension"
+            }
           }
         },
         "config": {
@@ -101,7 +115,7 @@
             "type": "dimension"
           },
           "radius": {
-            "value": "0.5rem",
+            "value": "{app.dimension.control.radius.md} / 2",
             "type": "dimension"
           }
         }
