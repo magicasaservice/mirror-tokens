@@ -19,7 +19,7 @@
           },
           "width": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.sm} * 2 - {component.toggle.dimension.config.handle.inset} * 2",
+              "value": "{component.toggle.dimension.handle.width.sm} * 2 + {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             },
             "md": {
@@ -27,7 +27,7 @@
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.lg} * 2 - {component.toggle.dimension.config.handle.inset} * 2",
+              "value": "{component.toggle.dimension.handle.width.lg} * 2 + {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             }
           },
@@ -63,7 +63,7 @@
           },
           "width": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.handle.inset} * 2",
+              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.widthScale}",
               "type": "dimension"
             },
             "md": {
@@ -71,7 +71,7 @@
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.handle.inset} * 2",
+              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.widthScale}",
               "type": "dimension"
             },
             "pressed": {
