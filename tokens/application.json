@@ -916,25 +916,25 @@
             }
           }
         },
-        "inactive": {
+        "unchecked": {
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, {config.color.neutral.alpha.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, {config.color.neutral.alpha.unchecked})"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, 40%)"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, {config.color.neutral.alpha.unchecked})"
             }
           },
           "fg": {
@@ -948,7 +948,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.component.inactive.fg.solid}"
+              "value": "{app.color.component.unchecked.fg.solid}"
             }
           }
         }

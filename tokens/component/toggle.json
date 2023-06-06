@@ -148,24 +148,11 @@
           "unchecked": {
             "bg": {
               "default": {
-                "value": "{app.color.component.inactive.bg.translucent}",
+                "value": "{app.color.component.unchecked.bg.translucent}",
                 "type": "color"
               },
-              "hover": {
-                "value": "{app.color.component.inactive.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.neutral.alpha.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
               "active": {
-                "value": "{app.color.component.inactive.bg.translucent}",
+                "value": "{app.color.component.unchecked.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -190,19 +177,6 @@
               "default": {
                 "value": "{app.color.component.primary.bg.solid}",
                 "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
               },
               "active": {
                 "value": "{app.color.component.primary.bg.solid}",
@@ -230,11 +204,11 @@
           "unchecked": {
             "bg": {
               "default": {
-                "value": "{app.color.component.inactive.fg.onSolid}",
+                "value": "{app.color.component.unchecked.fg.onSolid}",
                 "type": "color"
               },
               "disabled": {
-                "value": "{app.color.component.inactive.fg.onSolid}",
+                "value": "{app.color.component.unchecked.fg.onSolid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -257,11 +231,11 @@
           "checked": {
             "bg": {
               "default": {
-                "value": "{app.color.component.inactive.fg.onSolid}",
+                "value": "{app.color.component.unchecked.fg.onSolid}",
                 "type": "color"
               },
               "disabled": {
-                "value": "{app.color.component.inactive.fg.onSolid}",
+                "value": "{app.color.component.unchecked.fg.onSolid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
