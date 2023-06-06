@@ -145,15 +145,15 @@
         "icon": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.handle.height.sm} - {component.toggle.dimension.config.step}",
+              "value": "0.5rem",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.handle.height.md} - {component.toggle.dimension.config.step}",
+              "value": "0.75rem",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.handle.height.lg} - {component.toggle.dimension.config.step}",
+              "value": "1rem",
               "type": "dimension"
             }
           }
@@ -287,19 +287,17 @@
       },
       "fontSize": {
         "icon": {
-          "height": {
-            "sm": {
-              "value": "{component.toggle.dimension.handle.height.sm} - {component.toggle.dimension.config.step}",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{component.toggle.dimension.handle.height.md} - {component.toggle.dimension.config.step}",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{component.toggle.dimension.handle.height.lg} - {component.toggle.dimension.config.step}",
-              "type": "fontSizes"
-            }
+          "sm": {
+            "value": "{component.toggle.dimension.icon.height.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.toggle.dimension.icon.height.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.toggle.dimension.icon.height.lg}",
+            "type": "fontSizes"
           }
         }
       }
