@@ -613,6 +613,10 @@
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.3)",
             "type": "color"
           },
+          "strongest": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.4)",
+            "type": "color"
+          },
           "none": {
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0)",
             "type": "color"
@@ -1228,7 +1232,7 @@
               "y": "0.0625rem",
               "blur": "0.125rem",
               "spread": "0",
-              "color": "{app.color.component.shadow.stronger}",
+              "color": "{app.color.component.shadow.strongest}",
               "type": "dropShadow"
             }
           ],
