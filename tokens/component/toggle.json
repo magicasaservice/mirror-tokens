@@ -135,30 +135,30 @@
           "unchecked": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{app.color.component.inactive.bg.translucent}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{app.color.component.inactive.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
+                      "type": "alpha",
+                      "value": "{config.color.neutral.alpha.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{app.color.component.inactive.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
+                      "type": "alpha",
+                      "value": "{config.color.neutral.alpha.active}",
                       "space": "hsl"
                     }
                   }
@@ -203,6 +203,36 @@
                     }
                   }
                 }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "handle": {
+          "unchecked": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.inactive.fg.onSolid}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              }
+            }
+          },
+          "checked": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.primary.bg.solid}",
+                "type": "color"
               }
             },
             "fg": {
