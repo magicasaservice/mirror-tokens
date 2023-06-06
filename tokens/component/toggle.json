@@ -5,43 +5,43 @@
         "track": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.step}",
+              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.track.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.config.height}",
+              "value": "{component.toggle.dimension.config.track.height}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.md} + {component.toggle.dimension.config.step}",
+              "value": "{component.toggle.dimension.track.height.md} + {component.toggle.dimension.config.track.step}",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.sm} * 2 - {component.toggle.dimension.config.inset} * 2",
+              "value": "{component.toggle.dimension.track.height.sm} * 2 - {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.track.height.md} * 2 - {component.toggle.dimension.config.inset} * 2",
+              "value": "{component.toggle.dimension.track.height.md} * 2 - {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.lg} * 2 - {component.toggle.dimension.config.inset} * 2",
+              "value": "{component.toggle.dimension.track.height.lg} * 2 - {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             }
           },
           "radius": {
             "sm": {
-              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.radiusStep}",
+              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.track.radiusStep}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.config.radius}",
+              "value": "{component.toggle.dimension.config.track.radius}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.dimension.config.radiusStep}",
+              "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.dimension.config.track.radiusStep}",
               "type": "dimension"
             }
           }
@@ -49,29 +49,29 @@
         "handle": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.inset} * 2",
+              "value": "{component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.inset} * 2",
+              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.inset} * 2",
+              "value": "{component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.handle.inset} * 2",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.toggle.dimension.track.width.sm} / 2 - {component.toggle.dimension.config.inset}",
+              "value": "{component.toggle.dimension.track.width.sm} / 2 - {component.toggle.dimension.config.handle.inset}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.track.width.md} / 2 - {component.toggle.dimension.config.inset}",
+              "value": "{component.toggle.dimension.track.width.md} / 2 - {component.toggle.dimension.config.handle.inset}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.width.lg} / 2 - {component.toggle.dimension.config.inset}",
+              "value": "{component.toggle.dimension.track.width.lg} / 2 - {component.toggle.dimension.config.handle.inset}",
               "type": "dimension"
             },
             "pressed": {
@@ -105,41 +105,45 @@
           },
           "radius": {
             "sm": {
-              "value": "{component.toggle.dimension.track.radius.sm} - {component.toggle.dimension.config.inset}",
+              "value": "{component.toggle.dimension.track.radius.sm} - {component.toggle.dimension.config.handle.inset}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.inset}",
+              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.handle.inset}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.dimension.config.inset}",
+              "value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.dimension.config.handle.inset}",
               "type": "dimension"
             }
           }
         },
         "config": {
-          "height": {
-            "value": "{app.dimension.control.height.md} / 3 * 2",
-            "type": "dimension",
-            "description": "-0.5 for material design style"
+          "track": {
+            "height": {
+              "value": "{app.dimension.control.height.md} / 3 * 2",
+              "type": "dimension",
+              "description": "-0.5 for material design style"
+            },
+            "step": {
+              "value": "0.5rem",
+              "type": "dimension"
+            },
+            "radius": {
+              "value": ".75rem",
+              "type": "dimension",
+              "description": "for 100% roundness lower last value to 0"
+            },
+            "radiusStep": {
+              "value": "0.125rem",
+              "type": "dimension"
+            }
           },
-          "inset": {
-            "value": "0.125rem",
-            "type": "dimension"
-          },
-          "step": {
-            "value": "0.5rem",
-            "type": "dimension"
-          },
-          "radius": {
-            "value": ".5rem",
-            "type": "dimension",
-            "description": "for 100% roundness lower last value to 0"
-          },
-          "radiusStep": {
-            "value": "0.125rem",
-            "type": "dimension"
+          "handle": {
+            "inset": {
+              "value": "0.125rem",
+              "type": "dimension"
+            }
           }
         },
         "icon": {
