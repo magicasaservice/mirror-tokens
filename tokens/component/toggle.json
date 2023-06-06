@@ -67,7 +67,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.handle.inset} * 2) + {component.toggle.dimension.config.handle.width.md}",
+              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.widthScale}",
               "type": "dimension"
             },
             "lg": {
@@ -323,6 +323,14 @@
           "lg": {
             "value": "{component.toggle.dimension.icon.height.lg}",
             "type": "fontSizes"
+          }
+        }
+      },
+      "config": {
+        "handle": {
+          "widthScale": {
+            "value": "1.5",
+            "type": "other"
           }
         }
       }
