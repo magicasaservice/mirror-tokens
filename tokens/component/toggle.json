@@ -232,6 +232,19 @@
               "default": {
                 "value": "{app.color.component.inactive.fg.onSolid}",
                 "type": "color"
+              },
+              "disabled": {
+                "value": "{app.color.component.inactive.fg.onSolid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.neutral.alpha.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -244,8 +257,21 @@
           "checked": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{app.color.component.inactive.fg.onSolid}",
                 "type": "color"
+              },
+              "disabled": {
+                "value": "{app.color.component.inactive.fg.onSolid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.neutral.alpha.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
