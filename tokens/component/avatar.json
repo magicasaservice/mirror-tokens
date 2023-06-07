@@ -196,22 +196,62 @@
         },
         "status": {
           "padding": {
-            "primary": {
-              "md": {
-                "default": {
-                  "value": "1rem",
-                  "type": "dimension"
-                },
-                "inline": {
-                  "value": "1rem",
-                  "type": "dimension"
-                }
-              }
-            },
             "secondary": {
               "default": {
                 "value": "0rem",
                 "type": "dimension"
+              }
+            },
+            "primary": {
+              "xs": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.xs.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.xs.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.sm.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.sm.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.md.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.md.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.lg.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.lg.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.xl.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.xl.inline} / 8",
+                  "type": "dimension"
+                }
               }
             }
           }
