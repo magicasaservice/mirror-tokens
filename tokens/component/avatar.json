@@ -196,13 +196,59 @@
         },
         "status": {
           "padding": {
-            "secondary": {
-              "default": {
-                "value": "0rem",
-                "type": "dimension"
+            "primary": {
+              "xs": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.xs.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.xs.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.sm.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.sm.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.md.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.md.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.lg.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.lg.inline} / 8",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.height.xl.default} / 8",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.height.xl.inline} / 8",
+                  "type": "dimension"
+                }
               }
             },
-            "primary": {
+            "secondary": {
               "xs": {
                 "default": {
                   "value": "{component.avatar.dimension.thumb.height.xs.default} / 8",
@@ -323,68 +369,6 @@
           "type": "textCase"
         }
       },
-      "status": {
-        "position": {
-          "secondary": {
-            "default": {
-              "value": "0rem",
-              "type": "other"
-            }
-          },
-          "primary": {
-            "xs": {
-              "default": {
-                "value": "{component.avatar.dimension.thumb.height.xs.default} / 8",
-                "type": "other"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.thumb.height.xs.inline} / 8",
-                "type": "other"
-              }
-            },
-            "sm": {
-              "default": {
-                "value": "{component.avatar.dimension.thumb.height.sm.default} / 8",
-                "type": "other"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.thumb.height.sm.inline} / 8",
-                "type": "other"
-              }
-            },
-            "md": {
-              "default": {
-                "value": "{component.toggle.dimension.track.height.md} / 8",
-                "type": "other"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.thumb.height.md.inline} / 8",
-                "type": "other"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": "{component.avatar.dimension.thumb.height.lg.default} / 8",
-                "type": "other"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.thumb.height.md.inline} / 8",
-                "type": "other"
-              }
-            },
-            "xl": {
-              "default": {
-                "value": "{component.avatar.dimension.thumb.height.xl.default} / 8",
-                "type": "other"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.thumb.height.xl.inline} / 8",
-                "type": "other"
-              }
-            }
-          }
-        }
-      },
       "config": {
         "default": {
           "height": {
@@ -401,12 +385,16 @@
             "type": "other"
           },
           "radius": {
-            "value": "0.5rem",
-            "type": "other"
-          },
-          "radiusStep": {
-            "value": "0.125rem",
-            "type": "other"
+            "primary": {
+              "default": {
+                "value": "0.5rem",
+                "type": "other"
+              },
+              "radiusStep": {
+                "value": "0.125rem",
+                "type": "other"
+              }
+            }
           }
         },
         "inline": {
