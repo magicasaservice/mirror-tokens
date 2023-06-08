@@ -4,23 +4,23 @@
       "dimension": {
         "spacing": {
           "xs": {
-            "value": "{component.avatar.dimension.thumb.width.xs.default} * {component.avatarGroup.config.overlap}",
+            "value": "{component.avatar.dimension.thumb.width.xs.default} * {component.avatarGroup.config.gap}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{component.avatar.dimension.thumb.width.sm.default} * {component.avatarGroup.config.overlap}",
+            "value": "{component.avatar.dimension.thumb.width.sm.default} * {component.avatarGroup.config.gap}",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.avatar.dimension.thumb.width.md.default} * {component.avatarGroup.config.overlap}",
+            "value": "{component.avatar.dimension.thumb.width.md.default} * {component.avatarGroup.config.gap}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.avatar.dimension.thumb.width.lg.default} * {component.avatarGroup.config.overlap}",
+            "value": "{component.avatar.dimension.thumb.width.lg.default} * {component.avatarGroup.config.gap}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{component.avatar.dimension.thumb.width.xl.default} * {component.avatarGroup.config.overlap}",
+            "value": "{component.avatar.dimension.thumb.width.xl.default} * {component.avatarGroup.config.gap}",
             "type": "dimension"
           }
         },
@@ -48,8 +48,8 @@
         }
       },
       "config": {
-        "overlap": {
-          "value": "-0.2",
+        "gap": {
+          "value": "-0.125",
           "type": "other"
         }
       }
