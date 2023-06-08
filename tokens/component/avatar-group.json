@@ -4,23 +4,23 @@
       "dimension": {
         "spacing": {
           "xs": {
-            "value": "{component.avatarGroup.dimension.spacing.sm} + 0.125rem",
+            "value": "{component.avatar.dimension.thumb.width.xs.default} * {component.avatarGroup.config.overlap}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{component.avatarGroup.dimension.spacing.md} + 0.125rem",
+            "value": "{component.avatar.dimension.thumb.width.sm.default} * {component.avatarGroup.config.overlap}",
             "type": "dimension"
           },
           "md": {
-            "value": "-0.25rem",
+            "value": "{component.avatar.dimension.thumb.width.md.default} * {component.avatarGroup.config.overlap}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.avatarGroup.dimension.spacing.md} - 0.125rem",
+            "value": "{component.avatar.dimension.thumb.width.lg.default} * {component.avatarGroup.config.overlap}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{component.avatarGroup.dimension.spacing.lg} - 0.125rem",
+            "value": "{component.avatar.dimension.thumb.width.xl.default} * {component.avatarGroup.config.overlap}",
             "type": "dimension"
           }
         },
@@ -45,6 +45,12 @@
             "value": "{app.dimension.dot.border.xl}",
             "type": "dimension"
           }
+        }
+      },
+      "config": {
+        "overlap": {
+          "value": "-0.2",
+          "type": "other"
         }
       }
     }
