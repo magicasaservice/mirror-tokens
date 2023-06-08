@@ -63,28 +63,28 @@
           },
           "width": {
             "sm": {
-              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.width.scale}",
+              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
               "type": "dimension"
             },
             "md": {
-              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.width.scale}",
+              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
               "type": "dimension"
             },
             "lg": {
-              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.width.scale}",
+              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.dimension.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
               "type": "dimension"
             },
             "pressed": {
               "sm": {
-                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} * {component.toggle.config.handle.width.pressed}",
+                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} * {component.toggle.config.handle.pressed}",
                 "type": "dimension"
               },
               "md": {
-                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} * {component.toggle.config.handle.width.pressed}",
+                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} * {component.toggle.config.handle.pressed}",
                 "type": "dimension"
               },
               "lg": {
-                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} * {component.toggle.config.handle.width.pressed}",
+                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} * {component.toggle.config.handle.pressed}",
                 "type": "dimension"
               }
             }
@@ -323,16 +323,14 @@
       },
       "config": {
         "handle": {
-          "width": {
-            "scale": {
-              "value": "1",
-              "type": "other",
-              "description": "1 = square / 1.5 = rectangle"
-            },
-            "pressed": {
-              "value": "0.125",
-              "type": "other"
-            }
+          "ratio": {
+            "value": "1",
+            "type": "other",
+            "description": "ratio defines width → 1 = square / 1.5 = rectangle"
+          },
+          "pressed": {
+            "value": "0.125",
+            "type": "other"
           }
         }
       }
