@@ -206,7 +206,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.default})"
+              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.bg})"
             }
           },
           "border": {
@@ -216,7 +216,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.default})"
+              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.bg})"
             }
           },
           "fg": {
@@ -242,7 +242,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 30%, {config.color.secondary.alpha.default})"
+              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 30%, {config.color.secondary.alpha.bg})"
             }
           },
           "border": {
@@ -252,7 +252,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 40%, {config.color.secondary.alpha.default})"
+              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 40%, {config.color.secondary.alpha.bg})"
             }
           },
           "fg": {
@@ -278,7 +278,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.danger.alpha.default})"
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.danger.alpha.bg})"
             }
           },
           "border": {
@@ -288,7 +288,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.secondary.alpha.default})"
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.secondary.alpha.bg})"
             }
           },
           "fg": {
@@ -314,7 +314,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.bg.default})"
             }
           },
           "border": {
@@ -324,7 +324,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.bg.default})"
             }
           },
           "fg": {
@@ -350,7 +350,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.bg})"
             }
           },
           "border": {
@@ -388,7 +388,7 @@
           "focusRing": {
             "default": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%, {config.color.info.alpha.focusRing})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%, {config.color.info.alpha.focusRing.default})"
             }
           }
         },
@@ -400,7 +400,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.danger.alpha.default})"
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.danger.alpha.bg})"
             }
           },
           "border": {
@@ -410,7 +410,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.secondary.alpha.default})"
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.secondary.alpha.bg})"
             }
           },
           "fg": {
@@ -436,7 +436,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.unchecked.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.unchecked.bg})"
             }
           },
           "border": {
@@ -446,7 +446,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, {config.color.neutral.alpha.unchecked.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, {config.color.neutral.alpha.unchecked.bg})"
             }
           },
           "fg": {

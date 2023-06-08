@@ -186,8 +186,12 @@
           }
         },
         "alpha": {
-          "default": {
+          "bg": {
             "value": "0.3",
+            "type": "other"
+          },
+          "border": {
+            "value": "0.5",
             "type": "other"
           },
           "onDefault": {
@@ -238,8 +242,12 @@
           }
         },
         "alpha": {
-          "default": {
+          "bg": {
             "value": "0.4",
+            "type": "other"
+          },
+          "border": {
+            "value": "0.6",
             "type": "other"
           },
           "onDefault": {
@@ -290,8 +298,12 @@
           }
         },
         "alpha": {
-          "default": {
+          "bg": {
             "value": "0.15",
+            "type": "other"
+          },
+          "border": {
+            "value": "0.35",
             "type": "other"
           },
           "onDefault": {
@@ -307,8 +319,12 @@
             "type": "other"
           },
           "unchecked": {
-            "default": {
+            "bg": {
               "value": "0.4",
+              "type": "other"
+            },
+            "border": {
+              "value": "0.6",
               "type": "other"
             },
             "hover": {
@@ -356,8 +372,12 @@
           }
         },
         "alpha": {
-          "default": {
+          "bg": {
             "value": "0.4",
+            "type": "other"
+          },
+          "border": {
+            "value": "0.6",
             "type": "other"
           },
           "onDefault": {
@@ -408,25 +428,35 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.3",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.3",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.5",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.4",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.5",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.5",
+              "type": "other"
+            }
           },
           "focusRing": {
-            "value": "{config.color.info.alpha.active} - 0.1",
-            "type": "other"
+            "default": {
+              "value": "{config.color.info.alpha.bg.active} - 0.1",
+              "type": "other"
+            }
           }
         },
         "lighten": {
@@ -464,30 +494,32 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.4",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.5",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.6",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.6",
+              "type": "other"
+            }
           }
         },
         "lighten": {
-          "default": {
-            "value": "0.8",
-            "type": "other"
-          }
-        },
-        "warning": {
           "default": {
             "value": "0.8",
             "type": "other"
@@ -526,8 +558,12 @@
           }
         },
         "alpha": {
-          "default": {
+          "bg": {
             "value": "0.4",
+            "type": "other"
+          },
+          "border": {
+            "value": "0.6",
             "type": "other"
           },
           "hover": {
@@ -536,6 +572,12 @@
           },
           "active": {
             "value": "0.6",
+            "type": "other"
+          }
+        },
+        "lighten": {
+          "default": {
+            "value": "0.8",
             "type": "other"
           }
         }
