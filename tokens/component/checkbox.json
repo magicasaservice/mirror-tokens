@@ -24,7 +24,66 @@
           },
           "border": {
             "default": {
+              "value": "{app.color.component.primary.border.solid}",
+              "type": "color"
+            },
+            "active": {
               "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "checked": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{app.color.component.primary.border.solid}",
               "type": "color"
             },
             "active": {
