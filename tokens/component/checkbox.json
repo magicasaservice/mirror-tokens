@@ -40,8 +40,16 @@
       "dimension": {
         "box": {
           "height": {
+            "sm": {
+              "value": "{component.checkbox.dimension.box.height.md} - {component.checkbox.config.box.step}",
+              "type": "dimension"
+            },
             "md": {
-              "value": "1rem",
+              "value": "{component.checkbox.config.box.height}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.height.md} + {component.checkbox.config.box.step}",
               "type": "dimension"
             }
           }
@@ -49,9 +57,39 @@
         "check": {
           "height": {
             "md": {
-              "value": "{component.checkbox.dimension.box.height.md} * 0.5",
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.mark.scale}",
               "type": "dimension"
             }
+          }
+        }
+      },
+      "config": {
+        "box": {
+          "height": {
+            "value": "{app.dimension.control.height.md} / 3",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.5rem",
+            "type": "other"
+          }
+        },
+        "mark": {
+          "scale": {
+            "value": "0.5",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.5rem",
+            "type": "other"
           }
         }
       }
