@@ -1,0 +1,50 @@
+{
+  "component": {
+    "checkbox": {
+      "color": {
+        "solid": {
+          "bg": {
+            "default": {
+              "value": "red",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "fontSize": {
+        "icon": {
+          "sm": {
+            "value": "{component.checkbox.dimension.icon.height.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.checkbox.dimension.check.height.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.checkbox.dimension.icon.height.lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "dimension": {
+        "box": {
+          "height": {
+            "md": {
+              "value": "1rem",
+              "type": "dimension"
+            }
+          }
+        },
+        "check": {
+          "height": {
+            "md": {
+              "value": "{component.checkbox.dimension.box.height.md} * 0.5",
+              "type": "dimension"
+            }
+          }
+        }
+      }
+    }
+  }
+}
