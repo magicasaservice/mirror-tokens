@@ -2,21 +2,76 @@
   "component": {
     "checkbox": {
       "color": {
-        "bg": {
-          "default": {
-            "value": "red",
-            "type": "color"
+        "default": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
           }
         },
-        "border": {
-          "default": {
-            "value": "red",
+        "disabled": {
+          "bg": {
+            "value": "{app.color.component.disabled.bg.solid}",
             "type": "color"
-          }
-        },
-        "fg": {
-          "default": {
-            "value": "red",
+          },
+          "fg": {
+            "value": "{app.color.component.disabled.fg.onSolid}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{app.color.component.disabled.border.solid}",
             "type": "color"
           }
         }
