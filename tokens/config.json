@@ -373,24 +373,28 @@
         },
         "alpha": {
           "bg": {
-            "value": "0.4",
-            "type": "other"
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
           },
           "border": {
-            "value": "0.6",
-            "type": "other"
-          },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.5",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.6",
-            "type": "other"
+            "default": {
+              "value": "0.6",
+              "type": "other"
+            }
           }
         },
         "lighten": {
