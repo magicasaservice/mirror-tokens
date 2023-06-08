@@ -33,15 +33,15 @@
           },
           "radius": {
             "sm": {
-              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.track.radiusStep}",
+              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.config.track.radius.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.config.track.radius}",
+              "value": "{component.toggle.dimension.config.track.radius.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.dimension.config.track.radiusStep}",
+              "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.dimension.config.track.radius.step}",
               "type": "dimension"
             }
           }
@@ -130,13 +130,15 @@
               "type": "dimension"
             },
             "radius": {
-              "value": ".625rem",
-              "type": "dimension",
-              "description": "for 100% roundness lower last value to 0"
-            },
-            "radiusStep": {
-              "value": "0.125rem",
-              "type": "dimension"
+              "default": {
+                "value": ".625rem",
+                "type": "dimension",
+                "description": "for 100% roundness lower last value to 0"
+              },
+              "step": {
+                "value": "0.125rem",
+                "type": "dimension"
+              }
             }
           },
           "handle": {
