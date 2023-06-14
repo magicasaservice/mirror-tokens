@@ -18,7 +18,7 @@
         "type": "fontFamilies"
       },
       "uiAlt": {
-        "value": "Margiela Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+        "value": "Margiela Mono",
         "type": "fontFamilies"
       },
       "symbol": {
@@ -133,7 +133,7 @@
           "type": "dimension"
         },
         "border": {
-          "value": "0.125rem",
+          "value": "0.0625rem",
           "type": "dimension"
         }
       },
@@ -145,7 +145,7 @@
         "radius": {
           "value": "0rem",
           "type": "dimension",
-          "description": "Change value to 0.125rem to make it round."
+          "description": "Change value to 0.125rem to make it more square."
         },
         "border": {
           "value": "0.125rem",
@@ -186,21 +186,29 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.3",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.3",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.4",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.5",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.5",
+              "type": "other"
+            }
           }
         },
         "lighten": {
@@ -238,21 +246,29 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.4",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.15",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.15",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.5",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.6",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.6",
+              "type": "other"
+            }
           }
         },
         "lighten": {
@@ -290,21 +306,51 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.15",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.15",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.25",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.35",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.35",
+              "type": "other"
+            }
           },
-          "hover": {
-            "value": "0.25",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.35",
-            "type": "other"
+          "unchecked": {
+            "bg": {
+              "default": {
+                "value": "0.4",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.5",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.6",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              }
+            }
           }
         },
         "lighten": {
@@ -342,21 +388,29 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.4",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.5",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.6",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.6",
+              "type": "other"
+            }
           }
         },
         "lighten": {
@@ -394,30 +448,40 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.3",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.3",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.4",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.5",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.5",
+              "type": "other"
+            }
           },
           "focusRing": {
-            "value": "{config.color.info.alpha.active} + 0.1",
-            "type": "other"
+            "default": {
+              "value": "{config.color.info.alpha.bg.active} - 0.1",
+              "type": "other"
+            }
           }
         },
         "lighten": {
           "default": {
-            "value": "-0.8",
+            "value": "0.8",
             "type": "other"
           }
         }
@@ -450,30 +514,32 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.4",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            }
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.5",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.6",
-            "type": "other"
+          "border": {
+            "default": {
+              "value": "0.6",
+              "type": "other"
+            }
           }
         },
         "lighten": {
-          "default": {
-            "value": "0.8",
-            "type": "other"
-          }
-        },
-        "warning": {
           "default": {
             "value": "0.8",
             "type": "other"
@@ -498,10 +564,6 @@
             "value": "0.1",
             "type": "other"
           },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
-          },
           "hover": {
             "value": "0.1",
             "type": "other"
@@ -509,19 +571,41 @@
           "active": {
             "value": "0.2",
             "type": "other"
+          },
+          "onDefault": {
+            "value": "0.2",
+            "type": "other"
           }
         },
         "alpha": {
+          "bg": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            },
+            "onDefault": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "0.6",
+              "type": "other"
+            }
+          }
+        },
+        "lighten": {
           "default": {
-            "value": "0.4",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.5",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.6",
+            "value": "0.8",
             "type": "other"
           }
         }

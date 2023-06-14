@@ -65,7 +65,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.onDefault}",
+                      "value": "{config.color.primary.alpha.bg.onDefault}",
                       "space": "hsl"
                     }
                   }
@@ -78,7 +78,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.onDefault}",
+                      "value": "{config.color.primary.alpha.bg.onDefault}",
                       "space": "hsl"
                     }
                   }
@@ -193,7 +193,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.secondary.alpha.onDefault}",
+                      "value": "{config.color.secondary.alpha.bg.onDefault}",
                       "space": "hsl"
                     }
                   }
@@ -206,7 +206,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.secondary.alpha.onDefault}",
+                      "value": "{config.color.secondary.alpha.bg.onDefault}",
                       "space": "hsl"
                     }
                   }
@@ -321,7 +321,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.onDefault}",
+                      "value": "{config.color.info.alpha.bg.onDefault}",
                       "space": "hsl"
                     }
                   }
@@ -334,7 +334,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.default}",
+                      "value": "{config.color.info.alpha.bg.default}",
                       "space": "hsl"
                     }
                   }
@@ -400,29 +400,29 @@
           "solid": {
             "bg": {
               "default": {
-                "value": "{app.color.component.danger.bg.solid}",
+                "value": "{app.color.component.negative.bg.solid}",
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.component.danger.fg.onSolid}",
+                "value": "{app.color.component.negative.fg.onSolid}",
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.danger.fg.solid}",
+                "value": "{app.color.component.negative.fg.solid}",
                 "type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.danger.fg.onSolid}",
+                "value": "{app.color.component.negative.fg.onSolid}",
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.component.danger.fg.solid}",
+                "value": "{app.color.component.negative.fg.solid}",
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.danger.fg.solid}",
+                "value": "{app.color.component.negative.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -439,30 +439,30 @@
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.danger.bg.translucent}",
+                "value": "{app.color.component.negative.bg.translucent}",
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.component.danger.fg.onSolid}",
+                "value": "{app.color.component.negative.fg.onSolid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.onDefault}",
+                      "value": "{config.color.danger.alpha.bg.onDefault}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "onTranslucent": {
-                "value": "{app.color.component.danger.fg.solid}",
+                "value": "{app.color.component.negative.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.default}",
+                      "value": "{config.color.danger.alpha.bg.default}",
                       "space": "hsl"
                     }
                   }
@@ -471,15 +471,15 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.danger.fg.onTranslucent}",
+                "value": "{app.color.component.negative.fg.onTranslucent}",
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.component.danger.fg.onSolid}",
+                "value": "{app.color.component.negative.fg.onSolid}",
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.danger.fg.onTranslucent}",
+                "value": "{app.color.component.negative.fg.onTranslucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -496,29 +496,29 @@
           "outline": {
             "border": {
               "default": {
-                "value": "{app.color.component.danger.border.solid}",
+                "value": "{app.color.component.negative.border.solid}",
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.component.danger.fg.onSolid}",
+                "value": "{app.color.component.negative.fg.onSolid}",
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.danger.fg.onTranslucent}",
+                "value": "{app.color.component.negative.fg.onTranslucent}",
                 "type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.danger.fg.solid}",
+                "value": "{app.color.component.negative.fg.solid}",
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.component.danger.fg.onSolid}",
+                "value": "{app.color.component.negative.fg.onSolid}",
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.danger.fg.onTranslucent}",
+                "value": "{app.color.component.negative.fg.onTranslucent}",
                 "type": "color"
               }
             }

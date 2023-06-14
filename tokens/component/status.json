@@ -16,19 +16,19 @@
         },
         "success": {
           "bg": {
-            "value": "{app.color.component.success.bg.solid}",
+            "value": "{app.color.component.positive.bg.solid}",
             "type": "color"
           }
         },
         "danger": {
           "bg": {
-            "value": "{app.color.component.danger.bg.solid}",
+            "value": "{app.color.component.negative.bg.solid}",
             "type": "color"
           }
         },
         "warning": {
           "bg": {
-            "value": "{app.color.component.warning.bg.solid}",
+            "value": "{app.color.component.idle.bg.solid}",
             "type": "color"
           }
         }
@@ -51,7 +51,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.dot.height.sm} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.sm.default} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           },
@@ -61,7 +61,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.dot.height.md} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.md.default} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           },
@@ -71,7 +71,7 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.dot.height.lg} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.lg.default} - {config.dimension.dot.step}",
               "type": "dimension"
             }
           },
@@ -81,7 +81,59 @@
               "type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.dot.height.xl} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.xl.default} - {config.dimension.dot.step}",
+              "type": "dimension"
+            }
+          }
+        },
+        "width": {
+          "xs": {
+            "default": {
+              "value": "{component.status.dimension.height.xs.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.xs.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "sm": {
+            "default": {
+              "value": "{component.status.dimension.height.sm.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.sm.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "md": {
+            "default": {
+              "value": "{component.status.dimension.height.md.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.md.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "lg": {
+            "default": {
+              "value": "{component.status.dimension.height.lg.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.lg.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "xl": {
+            "default": {
+              "value": "{component.status.dimension.height.xl.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.xl.inline} * {component.status.config.ratio}",
               "type": "dimension"
             }
           }
@@ -131,14 +183,10 @@
           }
         }
       },
-      "mask": {
-        "onAvatar": {
-          "md": {
-            "default": {
-              "value": "<svg viewBox=\"0 0 {component.avatar.dimension.height.md.default} {component.avatar.dimension.height.md.default}\" xmlns=\"http://www.w3.org/2000/svg\"><defs><mask id=\"mask\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"40\" y=\"40\" width=\"{component.status.dimension.height.md.default} + {component.status.dimension.border.md}\" height=\"{component.status.dimension.height.md.default} + {component.status.dimension.border.md}\" rx=\"{component.status.dimension.radius.md}\" fill=\"black\"/></mask></defs><rect width=\"100%\" height=\"100%\" fill=\"black\" mask=\"url(#mask)\"/></svg>",
-              "type": "other"
-            }
-          }
+      "config": {
+        "ratio": {
+          "value": "1",
+          "type": "other"
         }
       }
     }

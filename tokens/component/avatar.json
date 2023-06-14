@@ -10,7 +10,7 @@
       "color": {
         "bg": {
           "default": {
-            "value": "{app.color.component.secondary.bg.solid}",
+            "value": "{component.badge.color.secondary.solid.bg.default}",
             "type": "color"
           }
         },
@@ -28,107 +28,323 @@
         }
       },
       "dimension": {
-        "height": {
-          "xs": {
-            "default": {
-              "value": "{app.dimension.control.height.xs}",
-              "type": "dimension"
+        "thumb": {
+          "width": {
+            "xs": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.xs.default} * {component.avatar.config.thumb.default.ratio}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.width.xs.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
             },
-            "inline": {
-              "value": "{component.avatar.dimension.height.xs.default} - 0.5rem",
-              "type": "dimension"
+            "sm": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.sm.default} * {component.avatar.config.thumb.default.ratio}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.width.sm.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
+            },
+            "md": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.md.default} * {component.avatar.config.thumb.default.ratio}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.width.md.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
+            },
+            "lg": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.lg.default} * {component.avatar.config.thumb.default.ratio}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.width.lg.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
+            },
+            "xl": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.xl.default} * {component.avatar.config.thumb.default.ratio}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.width.xl.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
             }
           },
-          "sm": {
-            "default": {
-              "value": "{app.dimension.control.height.sm}",
-              "type": "dimension"
+          "height": {
+            "xs": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.sm.default} - {component.avatar.config.thumb.default.step}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.height.xs.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
             },
-            "inline": {
-              "value": "{app.dimension.control.height.sm} - 0.5rem",
-              "type": "dimension"
+            "sm": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.md.default} - {component.avatar.config.thumb.default.step}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{app.dimension.control.height.sm} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
+            },
+            "md": {
+              "default": {
+                "value": "{component.avatar.config.thumb.default.height}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.height.md.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
+            },
+            "lg": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.md.default} + {component.avatar.config.thumb.default.step}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.height.lg.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
+            },
+            "xl": {
+              "default": {
+                "value": "{component.avatar.dimension.thumb.height.lg.default} + {component.avatar.config.thumb.default.step}",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.avatar.dimension.thumb.height.xl.default} - {component.avatar.config.thumb.inline.step}",
+                "type": "dimension"
+              }
             }
           },
-          "md": {
-            "default": {
-              "value": "{app.dimension.control.height.md}",
-              "type": "dimension"
+          "radius": {
+            "primary": {
+              "xs": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.sm.default} - {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.xs.default} - {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.md.default} - {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.sm.default} - {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "{component.avatar.config.thumb.default.radius.primary.default}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.md.default} - {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.md.default} + {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.lg.default} - {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.lg.default} + {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.xl.default} - {component.avatar.config.thumb.default.radius.primary.step} / 2",
+                  "type": "dimension"
+                }
+              }
             },
-            "inline": {
-              "value": "{app.dimension.control.height.md} - 0.5rem",
-              "type": "dimension"
-            }
-          },
-          "lg": {
-            "default": {
-              "value": "{app.dimension.control.height.lg}",
-              "type": "dimension"
-            },
-            "inline": {
-              "value": "{app.dimension.control.height.lg} - 0.5rem",
-              "type": "dimension"
-            }
-          },
-          "xl": {
-            "default": {
-              "value": "{app.dimension.control.height.xl}",
-              "type": "dimension"
-            },
-            "inline": {
-              "value": "{app.dimension.control.height.xl} - 0.5rem",
-              "type": "dimension"
+            "secondary": {
+              "xs": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.sm.default} - {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.xs.default} - {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.md.default} - {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.sm.default} - {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "{component.avatar.config.thumb.default.radius.secondary.default}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.md.default} - {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.md.default} + {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.lg.default} - {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.lg.default} + {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.xl.default} - {component.avatar.config.thumb.default.radius.secondary.step}",
+                  "type": "dimension"
+                }
+              }
             }
           }
         },
-        "radius": {
-          "xs": {
-            "default": {
-              "value": "{app.dimension.control.radius.xs}",
-              "type": "dimension"
+        "status": {
+          "padding": {
+            "primary": {
+              "xs": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.xs.default} * 0.31415926535 - {component.status.dimension.height.xs.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.xs.inline} * 0.31415926535 - {component.status.dimension.height.xs.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.sm.default} * 0.31415926535 - {component.status.dimension.height.sm.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.sm.inline} * 0.31415926535 - {component.status.dimension.height.sm.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.md.default} * 0.31415926535 - {component.status.dimension.height.md.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.md.inline} * 0.31415926535 - {component.status.dimension.height.md.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.lg.default} * 0.31415926535 - {component.status.dimension.height.lg.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.lg.inline} * 0.31415926535 - {component.status.dimension.height.lg.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.xl.default} * 0.31415926535 - {component.status.dimension.height.xl.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.primary.xl.inline} * 0.31415926535 - {component.status.dimension.height.xl.inline} / 2",
+                  "type": "dimension"
+                }
+              }
             },
-            "inline": {
-              "value": "{app.dimension.control.radius.xs} - 0.25rem",
-              "type": "dimension"
-            }
-          },
-          "sm": {
-            "default": {
-              "value": "{app.dimension.control.radius.sm}",
-              "type": "dimension"
-            },
-            "inline": {
-              "value": "{app.dimension.control.radius.sm} - 0.25rem",
-              "type": "dimension"
-            }
-          },
-          "md": {
-            "default": {
-              "value": "{app.dimension.control.radius.md}",
-              "type": "dimension"
-            },
-            "inline": {
-              "value": "{app.dimension.control.radius.md} - 0.25rem",
-              "type": "dimension"
-            }
-          },
-          "lg": {
-            "default": {
-              "value": "{app.dimension.control.radius.lg}",
-              "type": "dimension"
-            },
-            "inline": {
-              "value": "{app.dimension.control.radius.lg} - 0.25rem",
-              "type": "dimension"
-            }
-          },
-          "xl": {
-            "default": {
-              "value": "{app.dimension.control.radius.xl}",
-              "type": "dimension"
-            },
-            "inline": {
-              "value": "{app.dimension.control.radius.xl} - 0.25rem",
-              "type": "dimension"
+            "secondary": {
+              "xs": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.xs.default} * 0.31415926535 - {component.status.dimension.height.xs.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.xs.inline} * 0.31415926535 - {component.status.dimension.height.xs.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.sm.default} * 0.31415926535 - {component.status.dimension.height.sm.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.sm.inline} * 0.31415926535 - {component.status.dimension.height.sm.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "roundTo({component.avatar.dimension.thumb.radius.secondary.md.default} * 0.31415926535 - {component.status.dimension.height.md.default} / 2, 1)",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.md.inline} * 0.31415926535 - {component.status.dimension.height.md.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.lg.default} * 0.31415926535 - {component.status.dimension.height.lg.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.lg.inline} * 0.31415926535 - {component.status.dimension.height.lg.inline} / 2",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.xl.default} * 0.31415926535 - {component.status.dimension.height.xl.default} / 2",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.avatar.dimension.thumb.radius.secondary.xl.inline} * 0.31415926535 - {component.status.dimension.height.xl.inline} / 2",
+                  "type": "dimension"
+                }
+              }
             }
           }
         }
@@ -199,63 +415,59 @@
           "type": "textCase"
         }
       },
-      "status": {
-        "position": {
+      "config": {
+        "thumb": {
           "default": {
-            "value": "-0.0625rem",
-            "type": "other"
-          },
-          "rounded": {
-            "xs": {
-              "default": {
-                "value": "1px",
-                "type": "other"
-              },
-              "inline": {
-                "value": "1px",
-                "type": "other"
-              }
+            "height": {
+              "value": "{app.dimension.control.height.md}",
+              "type": "other"
             },
-            "sm": {
-              "default": {
-                "value": "1px",
-                "type": "other"
-              },
-              "inline": {
-                "value": "1px",
-                "type": "other"
-              }
+            "ratio": {
+              "value": "1",
+              "type": "other",
+              "description": "ratio defines the width of avatar. 1 = 1:1 / 1.5 = 3:2  / 2 = 2:1"
             },
-            "md": {
-              "default": {
-                "value": "1px",
-                "type": "other"
-              },
-              "inline": {
-                "value": "1px",
-                "type": "other"
-              }
+            "step": {
+              "value": "0.5rem",
+              "type": "other"
             },
-            "lg": {
-              "default": {
-                "value": "1px",
-                "type": "other"
+            "radius": {
+              "primary": {
+                "default": {
+                  "value": "1.5rem",
+                  "type": "other",
+                  "description": "1/2 of the height (1.5) = circle"
+                },
+                "step": {
+                  "value": "0.5rem",
+                  "type": "other",
+                  "description": "(md/0.5) = cirlce"
+                }
               },
-              "inline": {
-                "value": "1px",
-                "type": "other"
-              }
-            },
-            "xl": {
-              "default": {
-                "value": "1px",
-                "type": "other"
-              },
-              "inline": {
-                "value": "1px",
-                "type": "other"
+              "secondary": {
+                "default": {
+                  "value": "1rem",
+                  "type": "other"
+                },
+                "step": {
+                  "value": "0.125rem",
+                  "type": "other",
+                  "description": "(md/0.5) = cirlce\n0.125 = rounded"
+                }
               }
             }
+          },
+          "inline": {
+            "step": {
+              "value": "0.5rem",
+              "type": "other"
+            }
+          }
+        },
+        "status": {
+          "position": {
+            "value": "2px",
+            "type": "other"
           }
         }
       }
