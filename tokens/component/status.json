@@ -37,51 +37,51 @@
         "height": {
           "xs": {
             "default": {
-              "value": "{component.status.dimension.height.sm.default} - {component.status.config.step}",
+              "value": "{component.status.dimension.height.sm.default} - {component.status.config.sizing.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xs.default} - {component.status.config.step}",
+              "value": "{component.status.dimension.height.xs.default} - {component.status.config.sizing.step}",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.status.dimension.height.md.default} - {component.status.config.step}",
+              "value": "{component.status.dimension.height.md.default} - {component.status.config.sizing.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.sm.default} - {component.status.config.step}",
+              "value": "{component.status.dimension.height.sm.default} - {component.status.config.sizing.step}",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.status.config.height}",
+              "value": "{component.status.config.sizing.height}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.md.default} - {component.status.config.step}",
+              "value": "{component.status.dimension.height.md.default} - {component.status.config.sizing.step}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.status.dimension.height.md.default} + {component.status.config.step}",
+              "value": "{component.status.dimension.height.md.default} + {component.status.config.sizing.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.lg.default} - {component.status.config.step}",
+              "value": "{component.status.dimension.height.lg.default} - {component.status.config.sizing.step}",
               "type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.status.dimension.height.lg.default} + {component.status.config.step}",
+              "value": "{component.status.dimension.height.lg.default} + {component.status.config.sizing.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xl.default} - {component.status.config.step}",
+              "value": "{component.status.dimension.height.xl.default} - {component.status.config.sizing.step}",
               "type": "dimension"
             }
           }
@@ -89,74 +89,74 @@
         "width": {
           "xs": {
             "default": {
-              "value": "{component.status.dimension.height.xs.default} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.xs.default} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xs.inline} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.xs.inline} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.status.dimension.height.sm.default} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.sm.default} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.sm.inline} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.sm.inline} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.status.dimension.height.md.default} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.md.default} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.md.inline} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.md.inline} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.status.dimension.height.lg.default} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.lg.default} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.lg.inline} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.lg.inline} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.status.dimension.height.xl.default} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.xl.default} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xl.inline} * {component.status.config.ratio}",
+              "value": "{component.status.dimension.height.xl.inline} * {component.status.config.sizing.ratio}",
               "type": "dimension"
             }
           }
         },
         "border": {
           "xs": {
-            "value": "{app.dimension.dot.border.xs}",
+            "value": "{component.status.dimension.height.xs.default} * {component.status.config.border.ratio}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.dot.border.sm}",
+            "value": "{component.status.dimension.height.sm.default} * {component.status.config.border.ratio}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.dot.border.md}",
+            "value": "{component.status.dimension.height.md.default} * {component.status.config.border.ratio}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.dot.border.lg}",
+            "value": "{component.status.dimension.height.lg.default} * {component.status.config.border.ratio}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{app.dimension.dot.border.xl}",
+            "value": "{component.status.dimension.height.xl.default} * {component.status.config.border.ratio}",
             "type": "dimension"
           }
         },
@@ -184,22 +184,26 @@
         }
       },
       "config": {
-        "height": {
-          "value": "0.5rem",
-          "type": "other"
-        },
-        "ratio": {
-          "value": "1",
-          "type": "other",
-          "description": "ratio defines the width"
+        "sizing": {
+          "height": {
+            "value": "0.5rem",
+            "type": "other"
+          },
+          "ratio": {
+            "value": "1",
+            "type": "other",
+            "description": "ratio defines the width"
+          },
+          "step": {
+            "value": "0.0625rem",
+            "type": "other"
+          }
         },
         "border": {
-          "value": "1",
-          "type": "other"
-        },
-        "step": {
-          "value": "0.0625rem",
-          "type": "other"
+          "ratio": {
+            "value": "0.333",
+            "type": "other"
+          }
         }
       }
     }
