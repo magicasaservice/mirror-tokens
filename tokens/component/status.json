@@ -37,51 +37,51 @@
         "height": {
           "xs": {
             "default": {
-              "value": "{app.dimension.dot.height.xs}",
+              "value": "{component.status.dimension.height.sm.default} - {component.status.config.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xs.default} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.xs.default} - {component.status.config.step}",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{app.dimension.dot.height.sm}",
+              "value": "{component.status.dimension.height.md.default} - {component.status.config.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.sm.default} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.sm.default} - {component.status.config.step}",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{app.dimension.dot.height.md}",
+              "value": "{component.status.config.height}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.md.default} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.md.default} - {component.status.config.step}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{app.dimension.dot.height.lg}",
+              "value": "{component.status.dimension.height.md.default} + {component.status.config.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.lg.default} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.lg.default} - {component.status.config.step}",
               "type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{app.dimension.dot.height.xl}",
+              "value": "{component.status.dimension.height.lg.default} + {component.status.config.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xl.default} - {config.dimension.dot.step}",
+              "value": "{component.status.dimension.height.xl.default} - {component.status.config.step}",
               "type": "dimension"
             }
           }
@@ -184,8 +184,21 @@
         }
       },
       "config": {
+        "height": {
+          "value": "0.5rem",
+          "type": "other"
+        },
         "ratio": {
           "value": "1",
+          "type": "other",
+          "description": "ratio defines the width"
+        },
+        "border": {
+          "value": "1",
+          "type": "other"
+        },
+        "step": {
+          "value": "0.0625rem",
           "type": "other"
         }
       }
