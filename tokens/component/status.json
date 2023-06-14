@@ -162,23 +162,23 @@
         },
         "radius": {
           "xs": {
-            "value": "{app.dimension.dot.radius.xs}",
+            "value": "{component.status.dimension.height.xs.default} / 2 - {component.status.config.radius.default}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.dot.radius.sm}",
+            "value": "{component.status.dimension.height.sm.default} / 2 - {component.status.config.radius.default}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.dot.radius.md}",
+            "value": "{component.status.dimension.height.md.default} / 2 - {component.status.config.radius.default}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.dot.radius.lg}",
+            "value": "{component.status.dimension.height.lg.default} / 2 - {component.status.config.radius.default}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{app.dimension.dot.radius.xl}",
+            "value": "{component.status.dimension.height.xl.default} / 2 - {component.status.config.radius.default}",
             "type": "dimension"
           }
         }
@@ -192,7 +192,7 @@
           "ratio": {
             "value": "1",
             "type": "other",
-            "description": "ratio defines the width"
+            "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
           },
           "step": {
             "value": "0.0625rem",
@@ -201,8 +201,16 @@
         },
         "border": {
           "ratio": {
-            "value": "0.333",
-            "type": "other"
+            "value": "0.33333",
+            "type": "other",
+            "description": "The border width is calculated by this ratio. It's a percentage of the height."
+          }
+        },
+        "radius": {
+          "default": {
+            "value": "0.125rem",
+            "type": "other",
+            "description": "Change value to 0.125rem to make it more square."
           }
         }
       }
