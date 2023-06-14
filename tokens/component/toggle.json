@@ -116,6 +116,20 @@
               "value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.config.handle.inset}",
               "type": "dimension"
             }
+          },
+          "inset": {
+            "sm": {
+              "value": "{component.toggle.config.handle.inset}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.config.handle.inset}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.config.handle.inset}",
+              "type": "dimension"
+            }
           }
         },
         "icon": {
@@ -244,16 +258,7 @@
           "type": "boxShadow"
         },
         "pressed": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0.0625rem",
-              "spread": "0",
-              "color": "#0000004d",
-              "type": "dropShadow"
-            }
-          ],
+          "value": "{component.toggle.boxShadow.default}",
           "type": "boxShadow"
         }
       },
@@ -276,17 +281,17 @@
       "config": {
         "track": {
           "height": {
-            "value": "{app.dimension.control.height.md} / 2",
+            "value": "{app.dimension.control.height.xs}",
             "type": "other",
-            "description": "-0.5 for material design style"
+            "description": "-0.5 for material design style (handle is offset)"
           },
           "step": {
-            "value": "0.5rem",
+            "value": "0.75rem",
             "type": "other"
           },
           "radius": {
             "default": {
-              "value": "0.5rem",
+              "value": "1.5rem",
               "type": "other",
               "description": "for 100% roundness lower last value to 0"
             },
@@ -298,7 +303,7 @@
         },
         "handle": {
           "inset": {
-            "value": "0.125rem",
+            "value": "0.0625rem",
             "type": "other"
           },
           "ratio": {
