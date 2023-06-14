@@ -281,7 +281,7 @@
       "config": {
         "track": {
           "height": {
-            "value": "{app.dimension.control.height.xs}",
+            "value": "{app.dimension.control.height.lg} / 2",
             "type": "other",
             "description": "-0.5 for material design style (handle is offset)"
           },
@@ -291,9 +291,9 @@
           },
           "radius": {
             "default": {
-              "value": "1.5rem",
+              "value": "0.5rem",
               "type": "other",
-              "description": "for 100% roundness lower last value to 0"
+              "description": "for 100% roundness make equal to height md"
             },
             "step": {
               "value": "0.125rem",
@@ -303,7 +303,7 @@
         },
         "handle": {
           "inset": {
-            "value": "0.0625rem",
+            "value": "0.125rem",
             "type": "other"
           },
           "ratio": {
