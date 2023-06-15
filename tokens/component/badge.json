@@ -528,15 +528,15 @@
       "dimension": {
         "height": {
           "sm": {
-            "value": "{app.dimension.label.height.sm}",
+            "value": "{component.badge.dimension.height.md} - {component.badge.config.height.step}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.label.height.md}",
+            "value": "{component.badge.config.height.default}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.label.height.lg}",
+            "value": "{component.badge.dimension.height.md} + {component.badge.config.height.step}",
             "type": "dimension"
           }
         },
@@ -616,14 +616,18 @@
         }
       },
       "config": {
-        "sizing": {
-          "height": {
-            "value": "1.75rem",
+        "height": {
+          "default": {
+            "value": "{app.dimension.control.height.md} / 2",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.25rem",
             "type": "other"
           }
         },
         "border": {
-          "all": {
+          "width": {
             "value": "1.75rem",
             "type": "other"
           },
@@ -632,18 +636,28 @@
             "type": "other"
           }
         },
-        "spacing": {
+        "padding": {
           "default": {
             "value": "1.75rem",
             "type": "other"
           },
-          "gap": {
+          "step": {
             "value": "1.75rem",
             "type": "other"
           }
         },
+        "gap": {
+          "default": {
+            "value": "1.75rem",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.25rem",
+            "type": "other"
+          }
+        },
         "radius": {
-          "all": {
+          "default": {
             "value": "1.75rem",
             "type": "other"
           },
