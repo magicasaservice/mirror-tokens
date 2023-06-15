@@ -570,15 +570,15 @@
         },
         "border": {
           "sm": {
-            "value": "{app.dimension.label.border.sm}",
+            "value": "{component.badge.dimension.border.md} - {component.badge.config.border.step}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.label.border.md}",
+            "value": "{component.badge.config.border.default}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.label.border.lg}",
+            "value": "{component.badge.dimension.border.md} + {component.badge.config.border.step}",
             "type": "dimension"
           }
         },
@@ -642,11 +642,11 @@
         },
         "border": {
           "default": {
-            "value": "1.75rem",
+            "value": "0.0625rem",
             "type": "other"
           },
           "step": {
-            "value": "1.75rem",
+            "value": "0rem",
             "type": "other"
           }
         },
