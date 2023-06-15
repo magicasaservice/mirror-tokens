@@ -26,23 +26,23 @@
         },
         "border": {
           "xs": {
-            "value": "{app.dimension.dot.border.xs}",
+            "value": "{component.status.dimension.border.xs}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.dot.border.sm}",
+            "value": "{component.status.dimension.border.sm}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.dot.border.md}",
+            "value": "{component.status.dimension.border.md}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.dot.border.lg}",
+            "value": "{component.status.dimension.border.lg}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{app.dimension.dot.border.xl}",
+            "value": "{component.status.dimension.border.xl}",
             "type": "dimension"
           }
         }
@@ -51,6 +51,14 @@
         "gap": {
           "value": "-0.125",
           "type": "other"
+        }
+      },
+      "color": {
+        "border": {
+          "default": {
+            "value": "{app.color.component.secondary.fg.onSolid}",
+            "type": "color"
+          }
         }
       }
     }
