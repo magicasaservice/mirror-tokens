@@ -208,7 +208,7 @@
             "top": {
               "xs": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.offset.top.sm.default} - {component.avatar.config.thumb.default.sizing.step}",
+                  "value": "{component.avatar.dimension.thumb.height.xs.default} - {component.avatar.dimension.thumb.radius.primary.xs.default} * 0.31415926535 - {component.status.dimension.indicator.height.xs.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -218,7 +218,7 @@
               },
               "sm": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.offset.top.md.default} - {component.avatar.config.thumb.default.sizing.step}",
+                  "value": "{component.avatar.dimension.thumb.height.sm.default} - {component.avatar.dimension.thumb.radius.primary.sm.default} * 0.31415926535 - {component.status.dimension.indicator.height.sm.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -260,7 +260,7 @@
             "left": {
               "xs": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.offset.left.sm.default} - {component.avatar.config.thumb.default.sizing.step}",
+                  "value": "{component.avatar.dimension.thumb.width.xs.default} - {component.avatar.dimension.thumb.radius.primary.xs.default} * 0.31415926535 - {component.status.dimension.indicator.width.xs.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -270,7 +270,7 @@
               },
               "sm": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.offset.left.md.default} - {component.avatar.config.thumb.default.sizing.step}",
+                  "value": "{component.avatar.dimension.thumb.width.sm.default} - {component.avatar.dimension.thumb.radius.primary.sm.default} * 0.31415926535 - {component.status.dimension.indicator.width.sm.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -290,7 +290,7 @@
               },
               "lg": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.height.md.default} + {component.status.config.indicator.height.step}",
+                  "value": "{component.avatar.dimension.thumb.width.lg.default} - {component.avatar.dimension.thumb.radius.primary.lg.default} * 0.31415926535 - {component.status.dimension.indicator.width.lg.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -300,7 +300,7 @@
               },
               "xl": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.height.lg.default} + {component.status.config.indicator.height.step}",
+                  "value": "{component.avatar.dimension.thumb.width.xl.default} - {component.avatar.dimension.thumb.radius.primary.xl.default} * 0.31415926535 - {component.status.dimension.indicator.width.xl.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
