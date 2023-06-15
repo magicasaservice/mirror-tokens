@@ -228,7 +228,7 @@
               },
               "md": {
                 "default": {
-                  "value": "{component.avatar.dimension.thumb.height.md.default} - {component.status.dimension.indicator.height.md.default}",
+                  "value": "{component.avatar.dimension.thumb.height.md.default} - {component.avatar.dimension.thumb.radius.primary.md.default} * 0.31415926535 - {component.status.dimension.indicator.height.md.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -280,7 +280,7 @@
               },
               "md": {
                 "default": {
-                  "value": "{component.avatar.dimension.thumb.width.md.default} - {component.status.dimension.indicator.width.md.default}",
+                  "value": "{component.avatar.dimension.thumb.width.md.default} - {component.avatar.dimension.thumb.radius.primary.md.default} * 0.31415926535 - {component.status.dimension.indicator.width.md.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -399,34 +399,68 @@
             }
           },
           "offset": {
-            "xs": {
-              "default": {
-                "value": "{component.status.dimension.indicator.height.xs.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+            "top": {
+              "xs": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.xs.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.sm.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.offset.top.md.default}",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.lg.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.xl.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
               }
             },
-            "sm": {
-              "default": {
-                "value": "{component.status.dimension.indicator.height.sm.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
-              }
-            },
-            "md": {
-              "default": {
-                "value": "{component.status.dimension.indicator.width.md.default} + {component.status.dimension.indicator.width.md.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": "{component.status.dimension.indicator.height.lg.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
-              }
-            },
-            "xl": {
-              "default": {
-                "value": "{component.status.dimension.indicator.height.xl.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+            "left": {
+              "xs": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.xs.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
+              },
+              "sm": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.sm.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
+              },
+              "md": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.offset.left.md.default}",
+                  "type": "dimension"
+                }
+              },
+              "lg": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.lg.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
+              },
+              "xl": {
+                "default": {
+                  "value": "{component.status.dimension.indicator.height.xl.default} * {component.status.config.indicator.width.ratio}",
+                  "type": "dimension"
+                }
               }
             }
           }
