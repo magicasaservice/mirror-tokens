@@ -542,29 +542,29 @@
         },
         "padding": {
           "sm": {
-            "value": "{app.dimension.label.padding.sm}",
+            "value": "{component.badge.dimension.padding.md} - {component.badge.config.padding.step}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.label.padding.md}",
+            "value": "{component.badge.config.padding.default}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.label.padding.lg}",
+            "value": "{component.badge.dimension.padding.md} + {component.badge.config.padding.step}",
             "type": "dimension"
           }
         },
         "radius": {
           "sm": {
-            "value": "{app.dimension.label.radius.sm}",
+            "value": "{component.badge.dimension.radius.md} - {component.badge.config.radius.step}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.label.radius.md}",
+            "value": "{component.badge.config.radius.default}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.label.radius.lg}",
+            "value": "{component.badge.dimension.radius.md} + {component.badge.config.radius.step}",
             "type": "dimension"
           }
         },
@@ -638,11 +638,11 @@
         },
         "padding": {
           "default": {
-            "value": "1.75rem",
+            "value": "0.625rem",
             "type": "other"
           },
           "step": {
-            "value": "1.75rem",
+            "value": "0.125rem",
             "type": "other"
           }
         },
@@ -658,11 +658,11 @@
         },
         "radius": {
           "default": {
-            "value": "1.75rem",
+            "value": "0.75rem",
             "type": "other"
           },
           "step": {
-            "value": "1.75rem",
+            "value": "0.125rem",
             "type": "other"
           }
         }
