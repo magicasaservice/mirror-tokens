@@ -386,7 +386,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{component.status.dimension.indicator.radius.md} + {component.status.dimension.indicator.radius.md} * {component.status.config.mask.offset.default} * 2",
+              "value": "{component.status.dimension.indicator.radius.md} + ({component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default})",
               "type": "dimension"
             },
             "lg": {
@@ -497,9 +497,9 @@
           },
           "radius": {
             "default": {
-              "value": "0rem",
+              "value": "0.125rem",
               "type": "other",
-              "description": "0 = rounded / change value to 0.125rem to make it more square."
+              "description": "0rem = rounded / change value to 0.125rem to make it more square."
             }
           }
         },
