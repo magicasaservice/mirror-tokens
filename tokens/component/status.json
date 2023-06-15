@@ -359,7 +359,7 @@
             },
             "md": {
               "default": {
-                "value": "{component.status.dimension.indicator.width.md.default} + {component.status.dimension.indicator.width.md.default} * {component.status.config.mask.offset.default} * 2",
+                "value": "{component.status.dimension.indicator.width.md.default} + {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
               }
             },
@@ -414,7 +414,7 @@
               },
               "md": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.offset.top.md.default}",
+                  "value": "{component.status.dimension.indicator.offset.top.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
                 }
               },
@@ -446,7 +446,7 @@
               },
               "md": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.offset.left.md.default}",
+                  "value": "{component.status.dimension.indicator.offset.left.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
                 }
               },
@@ -486,16 +486,11 @@
             "step": {
               "value": "0rem",
               "type": "other"
-            },
-            "ratio": {
-              "value": "0.33333",
-              "type": "other",
-              "description": "The border width is calculated by this ratio. It's a percentage of the height."
             }
           },
           "width": {
             "ratio": {
-              "value": "1",
+              "value": "1.5",
               "type": "other",
               "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
             }
