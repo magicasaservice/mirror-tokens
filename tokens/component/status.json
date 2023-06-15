@@ -6,11 +6,20 @@
           "bg": {
             "value": "{app.color.component.primary.bg.solid}",
             "type": "color"
+          },
+          "border": {
+            "value": "transparent",
+            "type": "color",
+            "$extensions": {}
           }
         },
         "secondary": {
           "bg": {
             "value": "{app.color.component.secondary.bg.solid}",
+            "type": "color"
+          },
+          "border": {
+            "value": "transparent",
             "type": "color"
           }
         },
@@ -18,17 +27,29 @@
           "bg": {
             "value": "{app.color.component.positive.bg.solid}",
             "type": "color"
+          },
+          "border": {
+            "value": "transparent",
+            "type": "color"
           }
         },
         "danger": {
           "bg": {
             "value": "{app.color.component.negative.bg.solid}",
             "type": "color"
+          },
+          "border": {
+            "value": "transparent",
+            "type": "color"
           }
         },
         "warning": {
           "bg": {
             "value": "{app.color.component.idle.bg.solid}",
+            "type": "color"
+          },
+          "border": {
+            "value": "transparent",
             "type": "color"
           }
         }
@@ -37,51 +58,51 @@
         "height": {
           "xs": {
             "default": {
-              "value": "{component.status.dimension.height.sm.default} - {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.sm.default} - {component.status.config.height.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xs.default} - {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.xs.default} - {component.status.config.height.step}",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.status.dimension.height.md.default} - {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.md.default} - {component.status.config.height.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.sm.default} - {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.sm.default} - {component.status.config.height.step}",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.status.config.sizing.height}",
+              "value": "{component.status.config.height.default}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.md.default} - {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.md.default} - {component.status.config.height.step}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.status.dimension.height.md.default} + {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.md.default} + {component.status.config.height.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.lg.default} - {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.lg.default} - {component.status.config.height.step}",
               "type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.status.dimension.height.lg.default} + {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.lg.default} + {component.status.config.height.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xl.default} - {component.status.config.sizing.step}",
+              "value": "{component.status.dimension.height.xl.default} - {component.status.config.height.step}",
               "type": "dimension"
             }
           }
@@ -89,74 +110,74 @@
         "width": {
           "xs": {
             "default": {
-              "value": "{component.status.dimension.height.xs.default} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.xs.default} * {component.status.config.width.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xs.inline} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.xs.inline} * {component.status.config.width.ratio}",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.status.dimension.height.sm.default} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.sm.default} * {component.status.config.width.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.sm.inline} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.sm.inline} * {component.status.config.width.ratio}",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.status.dimension.height.md.default} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.md.default} * {component.status.config.width.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.md.inline} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.md.inline} * {component.status.config.width.ratio}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.status.dimension.height.lg.default} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.lg.default} * {component.status.config.width.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.lg.inline} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.lg.inline} * {component.status.config.width.ratio}",
               "type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.status.dimension.height.xl.default} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.xl.default} * {component.status.config.width.ratio}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.status.dimension.height.xl.inline} * {component.status.config.sizing.ratio}",
+              "value": "{component.status.dimension.height.xl.inline} * {component.status.config.width.ratio}",
               "type": "dimension"
             }
           }
         },
         "border": {
           "xs": {
-            "value": "{component.status.dimension.height.xs.default} * {component.status.config.border.ratio}",
+            "value": "{component.status.config.border.default}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{component.status.dimension.height.sm.default} * {component.status.config.border.ratio}",
+            "value": "{component.status.dimension.border.xs} + {component.status.config.border.step}",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.status.dimension.height.md.default} * {component.status.config.border.ratio}",
+            "value": "{component.status.dimension.border.sm} + {component.status.config.border.step}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.status.dimension.height.lg.default} * {component.status.config.border.ratio}",
+            "value": "{component.status.dimension.border.md} + {component.status.config.border.step}",
             "type": "dimension"
           },
           "xl": {
-            "value": "{component.status.dimension.height.xl.default} * {component.status.config.border.ratio}",
+            "value": "{component.status.dimension.border.lg} + {component.status.config.border.step}",
             "type": "dimension"
           }
         },
@@ -184,15 +205,10 @@
         }
       },
       "config": {
-        "sizing": {
-          "height": {
+        "height": {
+          "default": {
             "value": "0.5rem",
             "type": "other"
-          },
-          "ratio": {
-            "value": "1",
-            "type": "other",
-            "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
           },
           "step": {
             "value": "0.0625rem",
@@ -200,10 +216,25 @@
           }
         },
         "border": {
+          "default": {
+            "value": "0.0625rem",
+            "type": "other"
+          },
+          "step": {
+            "value": "0rem",
+            "type": "other"
+          },
           "ratio": {
             "value": "0.33333",
             "type": "other",
             "description": "The border width is calculated by this ratio. It's a percentage of the height."
+          }
+        },
+        "width": {
+          "ratio": {
+            "value": "1",
+            "type": "other",
+            "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
           }
         },
         "radius": {
