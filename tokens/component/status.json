@@ -218,7 +218,7 @@
               },
               "sm": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.height.md.default} - {component.status.config.indicator.height.step}",
+                  "value": "{component.status.dimension.indicator.offset.top.md.default} - {component.avatar.config.thumb.default.sizing.step}",
                   "type": "dimension"
                 },
                 "inline": {
@@ -270,7 +270,7 @@
               },
               "sm": {
                 "default": {
-                  "value": "{component.status.dimension.indicator.height.md.default} - {component.status.config.indicator.height.step}",
+                  "value": "{component.status.dimension.indicator.offset.left.md.default} - {component.avatar.config.thumb.default.sizing.step}",
                   "type": "dimension"
                 },
                 "inline": {
@@ -490,14 +490,14 @@
           },
           "width": {
             "ratio": {
-              "value": "1.5",
+              "value": "1",
               "type": "other",
               "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
             }
           },
           "radius": {
             "default": {
-              "value": "0.125rem",
+              "value": "0rem",
               "type": "other",
               "description": "0rem = rounded / change value to 0.125rem to make it more square."
             }
