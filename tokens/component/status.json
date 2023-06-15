@@ -228,7 +228,7 @@
               },
               "md": {
                 "default": {
-                  "value": "{component.avatar.dimension.thumb.height.md.default} - {component.avatar.dimension.thumb.radius.primary.md.default} * 0.31415926535 - {component.status.dimension.indicator.height.md.default} / 2",
+                  "value": "({component.avatar.dimension.thumb.height.md.default} - {component.status.dimension.indicator.height.md.default}) - {component.avatar.dimension.thumb.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -280,7 +280,7 @@
               },
               "md": {
                 "default": {
-                  "value": "{component.avatar.dimension.thumb.width.md.default} - {component.avatar.dimension.thumb.radius.primary.md.default} * 0.31415926535 - {component.status.dimension.indicator.width.md.default} / 2",
+                  "value": "({component.avatar.dimension.thumb.width.md.default} - {component.status.dimension.indicator.width.md.default}) - {component.avatar.dimension.thumb.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2",
                   "type": "dimension"
                 },
                 "inline": {
@@ -490,7 +490,7 @@
           },
           "width": {
             "ratio": {
-              "value": "3",
+              "value": "1",
               "type": "other",
               "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
             }
