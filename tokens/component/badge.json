@@ -581,6 +581,20 @@
             "value": "{app.dimension.label.border.lg}",
             "type": "dimension"
           }
+        },
+        "gap": {
+          "sm": {
+            "value": "{component.badge.dimension.gap.md} - {component.badge.config.gap.step}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{component.badge.config.gap.default}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{component.badge.dimension.gap.md} + {component.badge.config.gap.step}",
+            "type": "dimension"
+          }
         }
       },
       "fontSize": {
@@ -627,7 +641,7 @@
           }
         },
         "border": {
-          "width": {
+          "default": {
             "value": "1.75rem",
             "type": "other"
           },
@@ -648,11 +662,11 @@
         },
         "gap": {
           "default": {
-            "value": "1.75rem",
+            "value": "0.25rem",
             "type": "other"
           },
           "step": {
-            "value": "0.25rem",
+            "value": "0.125rem",
             "type": "other"
           }
         },
