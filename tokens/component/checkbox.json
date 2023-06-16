@@ -212,16 +212,30 @@
         },
         "mark": {
           "height": {
-            "lg": {
-              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+            "sm": {
+              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.mark.scale}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.mark.scale}",
               "type": "dimension"
             },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            }
+          },
+          "width": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.mark.scale}",
+              "value": "{component.checkbox.dimension.mark.height.sm} * {component.checkbox.config.box.width.ratio} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.checkbox.dimension.mark.height.md} * {component.checkbox.config.box.width.ratio} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.mark.height.lg} * {component.checkbox.config.box.width.ratio} * {component.checkbox.config.mark.scale}",
               "type": "dimension"
             }
           }
@@ -231,7 +245,7 @@
         "box": {
           "height": {
             "default": {
-              "value": "{app.dimension.control.height.md} / 3",
+              "value": "{app.dimension.control.height.md} / 2",
               "type": "other"
             },
             "step": {
@@ -268,7 +282,7 @@
         },
         "mark": {
           "scale": {
-            "value": "0.5",
+            "value": "0.75",
             "type": "other"
           }
         }
