@@ -317,11 +317,19 @@
               "default": {
                 "value": "{component.status.dimension.indicator.height.xs.default} + {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.height.xs.inline} + {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
               }
             },
             "sm": {
               "default": {
                 "value": "{component.status.dimension.indicator.height.sm.default} + {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.height.sm.inline} + {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
               }
             },
@@ -339,11 +347,19 @@
               "default": {
                 "value": "{component.status.dimension.indicator.height.lg.default} + {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.height.lg.inline} + {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
               }
             },
             "xl": {
               "default": {
                 "value": "{component.status.dimension.indicator.height.xl.default} + {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.height.xl.inline} + {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
               }
             }
@@ -353,11 +369,19 @@
               "default": {
                 "value": "{component.status.dimension.indicator.width.xs.default} + {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.width.xs.inline} + {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
               }
             },
             "sm": {
               "default": {
                 "value": "{component.status.dimension.indicator.width.sm.default} + {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.width.sm.inline} + {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
               }
             },
@@ -375,11 +399,19 @@
               "default": {
                 "value": "{component.status.dimension.indicator.width.lg.default} + {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.width.lg.inline} + {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
               }
             },
             "xl": {
               "default": {
                 "value": "{component.status.dimension.indicator.width.xl.default} + {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default} * 2",
+                "type": "dimension"
+              },
+              "inline": {
+                "value": "{component.status.dimension.indicator.width.xl.inline} + {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default} * 2",
                 "type": "dimension"
               }
             }
@@ -412,11 +444,19 @@
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.top.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.top.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
                 }
               },
               "sm": {
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.top.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.top.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
                 }
               },
@@ -434,11 +474,19 @@
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.top.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.top.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
                 }
               },
               "xl": {
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.top.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.top.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
                 }
               }
@@ -448,11 +496,19 @@
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.left.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.left.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
                 }
               },
               "sm": {
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.left.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.left.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
                 }
               },
@@ -470,11 +526,19 @@
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.left.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.left.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
                 }
               },
               "xl": {
                 "default": {
                   "value": "{component.status.dimension.indicator.offset.left.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}",
+                  "type": "dimension"
+                },
+                "inline": {
+                  "value": "{component.status.dimension.indicator.offset.left.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}",
                   "type": "dimension"
                 }
               }
