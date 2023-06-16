@@ -180,6 +180,34 @@
               "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.box.width.ratio}",
               "type": "dimension"
             }
+          },
+          "radius": {
+            "sm": {
+              "value": "{component.checkbox.dimension.box.radius.md} - {component.checkbox.config.box.radius.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.checkbox.config.box.radius.default}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.radius.md} + {component.checkbox.config.box.radius.step}",
+              "type": "dimension"
+            }
+          },
+          "border": {
+            "sm": {
+              "value": "{component.checkbox.dimension.box.border.md} - {component.checkbox.config.box.border.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.checkbox.config.box.border.default}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.border.md} + {component.checkbox.config.box.border.step}",
+              "type": "dimension"
+            }
           }
         },
         "mark": {
@@ -213,6 +241,10 @@
           },
           "radius": {
             "default": {
+              "value": "0.25rem",
+              "type": "other"
+            },
+            "step": {
               "value": "0.125rem",
               "type": "other"
             }
@@ -220,6 +252,16 @@
           "width": {
             "ratio": {
               "value": "1",
+              "type": "other"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "0.125rem",
+              "type": "other"
+            },
+            "step": {
+              "value": "0rem",
               "type": "other"
             }
           }
