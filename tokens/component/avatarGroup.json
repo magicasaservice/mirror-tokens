@@ -4,60 +4,66 @@
       "dimension": {
         "spacing": {
           "xs": {
-            "value": "{component.avatar.dimension.thumb.width.xs.default} * {component.avatarGroup.config.gap}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.avatar.dimension.thumb.width.xs.default} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.dimension.thumb.width.xs.inline} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            }
           },
           "sm": {
-            "value": "{component.avatar.dimension.thumb.width.sm.default} * {component.avatarGroup.config.gap}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.avatar.dimension.thumb.width.sm.default} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.dimension.thumb.width.sm.inline} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            }
           },
           "md": {
-            "value": "{component.avatar.dimension.thumb.width.md.default} * {component.avatarGroup.config.gap}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.avatar.dimension.thumb.width.md.default} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.dimension.thumb.width.md.inline} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            }
           },
           "lg": {
-            "value": "{component.avatar.dimension.thumb.width.lg.default} * {component.avatarGroup.config.gap}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.avatar.dimension.thumb.width.lg.default} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.dimension.thumb.width.lg.inline} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            }
           },
           "xl": {
-            "value": "{component.avatar.dimension.thumb.width.xl.default} * {component.avatarGroup.config.gap}",
-            "type": "dimension"
-          }
-        },
-        "border": {
-          "xs": {
-            "value": "{component.status.dimension.indicator.border.xs}",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{component.status.dimension.indicator.border.sm}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{component.status.dimension.indicator.border.md}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{component.status.dimension.indicator.border.lg}",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{component.status.dimension.indicator.border.xl}",
-            "type": "dimension"
+            "inline": {
+              "value": "{component.avatar.dimension.thumb.width.xl.inline} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            },
+            "default": {
+              "value": "{component.avatar.dimension.thumb.width.xl.default} * {component.avatarGroup.config.gap.default}",
+              "type": "dimension"
+            }
           }
         }
       },
       "config": {
         "gap": {
-          "value": "-0.125",
-          "type": "other"
-        }
-      },
-      "color": {
-        "border": {
           "default": {
-            "value": "{app.color.surface.elevation.base.bg.default}",
-            "type": "color"
+            "value": "-0.125",
+            "type": "other"
+          },
+          "inline": {
+            "value": "-0.0625",
+            "type": "other"
           }
         }
       }
