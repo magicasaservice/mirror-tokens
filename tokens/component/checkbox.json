@@ -155,26 +155,40 @@
         "box": {
           "height": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.md} - {component.checkbox.config.box.step}",
+              "value": "{component.checkbox.dimension.box.height.md} - {component.checkbox.config.box.height.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.box.height}",
+              "value": "{component.checkbox.config.box.height.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.md} + {component.checkbox.config.box.step}",
+              "value": "{component.checkbox.dimension.box.height.md} + {component.checkbox.config.box.height.step}",
+              "type": "dimension"
+            }
+          },
+          "width": {
+            "sm": {
+              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.box.width.ratio}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.box.width.ratio}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.box.width.ratio}",
               "type": "dimension"
             }
           }
         },
         "mark": {
           "height": {
-            "md": {
+            "lg": {
               "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
               "type": "dimension"
             },
-            "lg": {
+            "md": {
               "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
               "type": "dimension"
             },
@@ -188,21 +202,31 @@
       "config": {
         "box": {
           "height": {
-            "value": "{app.dimension.control.height.md} / 3",
-            "type": "other"
+            "default": {
+              "value": "{app.dimension.control.height.md} / 3",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.5rem",
+              "type": "other"
+            }
           },
-          "step": {
-            "value": "0.5rem",
-            "type": "other"
+          "radius": {
+            "default": {
+              "value": "0.125rem",
+              "type": "other"
+            }
+          },
+          "width": {
+            "ratio": {
+              "value": "1",
+              "type": "other"
+            }
           }
         },
         "mark": {
           "scale": {
             "value": "0.5",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.5rem",
             "type": "other"
           }
         }
