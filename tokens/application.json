@@ -612,6 +612,21 @@
               "type": "color",
               "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.focusRing.default})"
             }
+          },
+          "bg": {
+            "default": {
+              "type": "color",
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.01",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
           }
         },
         "on": {

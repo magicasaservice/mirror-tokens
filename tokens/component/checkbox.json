@@ -5,21 +5,13 @@
         "default": {
           "bg": {
             "default": {
-              "value": "transparent",
+              "value": "{app.color.component.focus.bg.default}",
               "type": "color"
             },
             "active": {
-              "value": "transparent",
+              "value": "{app.color.component.focus.bg.default}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{config.color.primary.darken.active}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "$extensions": {}
             }
           },
           "border": {
@@ -275,6 +267,12 @@
             "value": "0.75",
             "type": "other"
           }
+        }
+      },
+      "typography": {
+        "default": {
+          "value": "{component.button.typography.symbol}",
+          "type": "typography"
         }
       }
     }
