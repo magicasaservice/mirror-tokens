@@ -9,7 +9,7 @@
               "type": "color"
             },
             "active": {
-              "value": "{app.color.component.primary.bg.solid}",
+              "value": "transparent",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -83,55 +83,45 @@
           },
           "border": {
             "default": {
-              "value": "{app.color.component.primary.border.solid}",
+              "value": "transparent",
               "type": "color"
             },
             "active": {
-              "value": "{app.color.component.primary.bg.solid}",
+              "value": "transparent",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{config.color.primary.darken.active}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "$extensions": {}
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.primary.fg.solid}",
+              "value": "{app.color.component.on.fg.solid}",
               "type": "color"
             },
             "active": {
-              "value": "{app.color.component.primary.bg.solid}",
+              "value": "{app.color.component.on.fg.solid}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{config.color.primary.darken.active}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "$extensions": {}
             }
           }
         },
         "disabled": {
           "bg": {
-            "value": "{app.color.component.disabled.bg.solid}",
-            "type": "color"
+            "default": {
+              "value": "{app.color.component.disabled.bg.solid}",
+              "type": "color"
+            }
           },
           "fg": {
-            "value": "{app.color.component.disabled.fg.onSolid}",
-            "type": "color"
+            "default": {
+              "value": "{app.color.component.disabled.fg.onSolid}",
+              "type": "color"
+            }
           },
           "border": {
-            "value": "{app.color.component.disabled.border.solid}",
-            "type": "color"
+            "default": {
+              "value": "{app.color.component.disabled.border.solid}",
+              "type": "color"
+            }
           }
         }
       },
@@ -255,7 +245,7 @@
           },
           "radius": {
             "default": {
-              "value": "0.25rem",
+              "value": "0.5rem",
               "type": "other"
             },
             "step": {
