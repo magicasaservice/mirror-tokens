@@ -2,6 +2,7 @@
   "component": {
     "checkbox": {
       "color": {
+<<<<<<< HEAD
         "unchecked": {
           "bg": {
             "default": {
@@ -12,11 +13,35 @@
               "value": "{app.color.component.focus.bg.default}",
               "type": "color",
               "$extensions": {}
+=======
+        "default": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+>>>>>>> main
             }
           },
           "border": {
             "default": {
+<<<<<<< HEAD
               "value": "{app.color.component.unchecked.border.translucent}",
+=======
+              "value": "{app.color.component.secondary.bg.translucent}",
+>>>>>>> main
               "type": "color"
             },
             "active": {
@@ -72,6 +97,7 @@
                 }
               }
             }
+<<<<<<< HEAD
           },
           "border": {
             "default": {
@@ -113,7 +139,132 @@
             "default": {
               "value": "{app.color.component.disabled.border.translucent}",
               "type": "color"
+=======
+          },
+          "border": {
+            "default": {
+              "value": "{app.color.component.primary.border.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{app.color.component.primary.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{config.color.primary.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "disabled": {
+          "bg": {
+            "value": "{app.color.component.disabled.bg.solid}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{app.color.component.disabled.fg.onSolid}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{app.color.component.disabled.border.solid}",
+            "type": "color"
+          }
+        }
+      },
+      "fontSize": {
+        "icon": {
+          "sm": {
+            "value": "{component.checkbox.dimension.mark.height.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.checkbox.dimension.mark.height.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.checkbox.dimension.mark.height.lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "dimension": {
+        "box": {
+          "height": {
+            "sm": {
+              "value": "{component.checkbox.dimension.box.height.md} - {component.checkbox.config.box.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.checkbox.config.box.height}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.height.md} + {component.checkbox.config.box.step}",
+              "type": "dimension"
+>>>>>>> main
+            }
+          }
+        },
+        "mark": {
+          "height": {
+            "md": {
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.mark.scale}",
+              "type": "dimension"
+            }
+          }
+        }
+      },
+      "config": {
+        "box": {
+          "height": {
+            "value": "{app.dimension.control.height.md} / 3",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.5rem",
+            "type": "other"
+          }
+        },
+        "mark": {
+          "scale": {
+            "value": "0.5",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.5rem",
+            "type": "other"
           }
         }
       },

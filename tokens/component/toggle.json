@@ -116,6 +116,7 @@
               "value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.config.handle.inset}",
               "type": "dimension"
             }
+<<<<<<< HEAD
           },
           "inset": {
             "sm": {
@@ -130,6 +131,8 @@
               "value": "{component.toggle.config.handle.inset}",
               "type": "dimension"
             }
+=======
+>>>>>>> main
           }
         },
         "icon": {
@@ -258,7 +261,20 @@
           "type": "boxShadow"
         },
         "pressed": {
+<<<<<<< HEAD
           "value": "{component.toggle.boxShadow.default}",
+=======
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0.0625rem",
+              "spread": "0",
+              "color": "#0000004d",
+              "type": "dropShadow"
+            }
+          ],
+>>>>>>> main
           "type": "boxShadow"
         }
       },
@@ -281,22 +297,40 @@
       "config": {
         "track": {
           "height": {
+<<<<<<< HEAD
             "value": "{app.dimension.control.height.lg} / 2",
             "type": "other",
             "description": "-0.5 for material design style (handle is offset)"
           },
           "step": {
             "value": "0.75rem",
+=======
+            "value": "{app.dimension.control.height.md} / 2",
+            "type": "other",
+            "description": "-0.5 for material design style"
+          },
+          "step": {
+            "value": "0.5rem",
+>>>>>>> main
             "type": "other"
           },
           "radius": {
             "default": {
+<<<<<<< HEAD
               "value": "0.625rem",
               "type": "other",
               "description": "for 100% roundness make equal to height md"
             },
             "step": {
               "value": "0.25rem",
+=======
+              "value": "0.5rem",
+              "type": "other",
+              "description": "for 100% roundness lower last value to 0"
+            },
+            "step": {
+              "value": "0.125rem",
+>>>>>>> main
               "type": "other"
             }
           }

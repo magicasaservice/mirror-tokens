@@ -6,55 +6,71 @@
           "bg": {
             "value": "{app.color.component.primary.bg.solid}",
             "type": "color"
+<<<<<<< HEAD
           },
           "border": {
             "value": "transparent",
             "type": "color",
             "$extensions": {}
+=======
+>>>>>>> main
           }
         },
         "secondary": {
           "bg": {
             "value": "{app.color.component.secondary.bg.solid}",
             "type": "color"
+<<<<<<< HEAD
           },
           "border": {
             "value": "transparent",
             "type": "color"
+=======
+>>>>>>> main
           }
         },
         "success": {
           "bg": {
             "value": "{app.color.component.positive.bg.solid}",
             "type": "color"
+<<<<<<< HEAD
           },
           "border": {
             "value": "transparent",
             "type": "color"
+=======
+>>>>>>> main
           }
         },
         "danger": {
           "bg": {
             "value": "{app.color.component.negative.bg.solid}",
             "type": "color"
+<<<<<<< HEAD
           },
           "border": {
             "value": "transparent",
             "type": "color"
+=======
+>>>>>>> main
           }
         },
         "warning": {
           "bg": {
             "value": "{app.color.component.idle.bg.solid}",
             "type": "color"
+<<<<<<< HEAD
           },
           "border": {
             "value": "transparent",
             "type": "color"
+=======
+>>>>>>> main
           }
         }
       },
       "dimension": {
+<<<<<<< HEAD
         "indicator": {
           "height": {
             "xs": {
@@ -819,10 +835,159 @@
                 }
               }
             }
+=======
+        "height": {
+          "xs": {
+            "default": {
+              "value": "{app.dimension.dot.height.xs}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.xs.default} - {config.dimension.dot.step}",
+              "type": "dimension"
+            }
+          },
+          "sm": {
+            "default": {
+              "value": "{app.dimension.dot.height.sm}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.sm.default} - {config.dimension.dot.step}",
+              "type": "dimension"
+            }
+          },
+          "md": {
+            "default": {
+              "value": "{app.dimension.dot.height.md}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.md.default} - {config.dimension.dot.step}",
+              "type": "dimension"
+            }
+          },
+          "lg": {
+            "default": {
+              "value": "{app.dimension.dot.height.lg}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.lg.default} - {config.dimension.dot.step}",
+              "type": "dimension"
+            }
+          },
+          "xl": {
+            "default": {
+              "value": "{app.dimension.dot.height.xl}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.xl.default} - {config.dimension.dot.step}",
+              "type": "dimension"
+            }
+          }
+        },
+        "width": {
+          "xs": {
+            "default": {
+              "value": "{component.status.dimension.height.xs.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.xs.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "sm": {
+            "default": {
+              "value": "{component.status.dimension.height.sm.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.sm.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "md": {
+            "default": {
+              "value": "{component.status.dimension.height.md.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.md.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "lg": {
+            "default": {
+              "value": "{component.status.dimension.height.lg.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.lg.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          },
+          "xl": {
+            "default": {
+              "value": "{component.status.dimension.height.xl.default} * {component.status.config.ratio}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.status.dimension.height.xl.inline} * {component.status.config.ratio}",
+              "type": "dimension"
+            }
+          }
+        },
+        "border": {
+          "xs": {
+            "value": "{app.dimension.dot.border.xs}",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.dot.border.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.dot.border.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.dot.border.lg}",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.dot.border.xl}",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "xs": {
+            "value": "{app.dimension.dot.radius.xs}",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.dot.radius.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.dot.radius.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.dot.radius.lg}",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.dot.radius.xl}",
+            "type": "dimension"
+>>>>>>> main
           }
         }
       },
       "config": {
+<<<<<<< HEAD
         "indicator": {
           "height": {
             "default": {
@@ -866,6 +1031,11 @@
               "type": "other"
             }
           }
+=======
+        "ratio": {
+          "value": "1",
+          "type": "other"
+>>>>>>> main
         }
       }
     }

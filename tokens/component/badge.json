@@ -50,6 +50,7 @@
                   }
                 }
               }
+<<<<<<< HEAD
             },
             "border": {
               "default": {
@@ -64,6 +65,13 @@
                 "value": "transparent",
                 "type": "color"
               }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.primary.bg.translucent}",
+=======
             }
           },
           "translucent": {
@@ -121,6 +129,73 @@
                   }
                 }
               }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.primary.border.solid}",
+>>>>>>> main
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+<<<<<<< HEAD
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.primary.alpha.bg.onDefault}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.primary.alpha.bg.onDefault}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+=======
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
+                "type": "color"
+>>>>>>> main
+              }
+            },
+            "fg": {
+              "default": {
+<<<<<<< HEAD
+                "value": "{app.color.component.primary.fg.onTranslucent}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.primary.darken.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
             },
             "border": {
               "default": {
@@ -154,6 +229,8 @@
             },
             "fg": {
               "default": {
+=======
+>>>>>>> main
                 "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
               },
@@ -163,6 +240,7 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.primary.fg.onTranslucent}",
+<<<<<<< HEAD
                 "type": "color"
               }
             },
@@ -177,6 +255,8 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.primary.fg.onTranslucent}",
+=======
+>>>>>>> main
                 "type": "color"
               }
             }
@@ -220,6 +300,7 @@
                   }
                 }
               }
+<<<<<<< HEAD
             },
             "border": {
               "default": {
@@ -324,6 +405,84 @@
             },
             "fg": {
               "default": {
+=======
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.secondary.bg.translucent}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.info.fg.onSolid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.secondary.alpha.bg.onDefault}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.secondary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.secondary.alpha.bg.onDefault}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.secondary.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.secondary.darken.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.secondary.border.solid}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.secondary.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+>>>>>>> main
                 "value": "{app.color.component.secondary.fg.solid}",
                 "type": "color"
               },
@@ -333,6 +492,7 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.secondary.fg.onTranslucent}",
+<<<<<<< HEAD
                 "type": "color"
               }
             },
@@ -347,6 +507,8 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.secondary.fg.onTranslucent}",
+=======
+>>>>>>> main
                 "type": "color"
               }
             }
@@ -390,6 +552,7 @@
                   }
                 }
               }
+<<<<<<< HEAD
             },
             "border": {
               "default": {
@@ -404,6 +567,13 @@
                 "value": "transparent",
                 "type": "color"
               }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.info.bg.translucent}",
+=======
             }
           },
           "translucent": {
@@ -461,6 +631,73 @@
                   }
                 }
               }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.info.border.solid}",
+>>>>>>> main
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.info.fg.onSolid}",
+<<<<<<< HEAD
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.info.alpha.bg.onDefault}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.info.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.info.alpha.bg.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+=======
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.info.fg.onTranslucent}",
+                "type": "color"
+>>>>>>> main
+              }
+            },
+            "fg": {
+              "default": {
+<<<<<<< HEAD
+                "value": "{app.color.component.info.fg.onTranslucent}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.info.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.info.fg.onTranslucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.info.darken.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
             },
             "border": {
               "default": {
@@ -494,6 +731,8 @@
             },
             "fg": {
               "default": {
+=======
+>>>>>>> main
                 "value": "{app.color.component.info.fg.solid}",
                 "type": "color"
               },
@@ -503,6 +742,7 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.info.fg.onTranslucent}",
+<<<<<<< HEAD
                 "type": "color"
               }
             },
@@ -517,6 +757,8 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.info.fg.onTranslucent}",
+=======
+>>>>>>> main
                 "type": "color"
               }
             }
@@ -560,6 +802,7 @@
                   }
                 }
               }
+<<<<<<< HEAD
             },
             "border": {
               "default": {
@@ -574,6 +817,13 @@
                 "value": "transparent",
                 "type": "color"
               }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.negative.bg.translucent}",
+=======
             }
           },
           "translucent": {
@@ -631,6 +881,73 @@
                   }
                 }
               }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.negative.border.solid}",
+>>>>>>> main
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.negative.fg.onSolid}",
+<<<<<<< HEAD
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.danger.alpha.bg.onDefault}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.negative.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.danger.alpha.bg.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+=======
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.negative.fg.onTranslucent}",
+                "type": "color"
+>>>>>>> main
+              }
+            },
+            "fg": {
+              "default": {
+<<<<<<< HEAD
+                "value": "{app.color.component.negative.fg.onTranslucent}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.negative.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.negative.fg.onTranslucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.danger.darken.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
             },
             "border": {
               "default": {
@@ -664,6 +981,8 @@
             },
             "fg": {
               "default": {
+=======
+>>>>>>> main
                 "value": "{app.color.component.negative.fg.solid}",
                 "type": "color"
               },
@@ -673,6 +992,7 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.negative.fg.onTranslucent}",
+<<<<<<< HEAD
                 "type": "color"
               }
             },
@@ -687,6 +1007,8 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.negative.fg.onTranslucent}",
+=======
+>>>>>>> main
                 "type": "color"
               }
             }
@@ -696,6 +1018,7 @@
       "dimension": {
         "height": {
           "sm": {
+<<<<<<< HEAD
             "value": "{component.badge.dimension.height.md} - {component.badge.config.height.step}",
             "type": "dimension"
           },
@@ -705,11 +1028,23 @@
           },
           "lg": {
             "value": "{component.badge.dimension.height.md} + {component.badge.config.height.step}",
+=======
+            "value": "{app.dimension.label.height.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.label.height.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.label.height.lg}",
+>>>>>>> main
             "type": "dimension"
           }
         },
         "padding": {
           "sm": {
+<<<<<<< HEAD
             "value": "{component.badge.dimension.padding.md} - {component.badge.config.padding.step}",
             "type": "dimension"
           },
@@ -719,11 +1054,23 @@
           },
           "lg": {
             "value": "{component.badge.dimension.padding.md} + {component.badge.config.padding.step}",
+=======
+            "value": "{app.dimension.label.padding.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.label.padding.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.label.padding.lg}",
+>>>>>>> main
             "type": "dimension"
           }
         },
         "radius": {
           "sm": {
+<<<<<<< HEAD
             "value": "{component.badge.dimension.radius.md} - {component.badge.config.radius.step}",
             "type": "dimension"
           },
@@ -733,11 +1080,23 @@
           },
           "lg": {
             "value": "{component.badge.dimension.radius.md} + {component.badge.config.radius.step}",
+=======
+            "value": "{app.dimension.label.radius.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.label.radius.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.label.radius.lg}",
+>>>>>>> main
             "type": "dimension"
           }
         },
         "border": {
           "sm": {
+<<<<<<< HEAD
             "value": "{component.badge.dimension.border.md} - {component.badge.config.border.step}",
             "type": "dimension"
           },
@@ -761,6 +1120,17 @@
           },
           "lg": {
             "value": "{component.badge.dimension.gap.md} + {component.badge.config.gap.step}",
+=======
+            "value": "{app.dimension.label.border.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.label.border.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.label.border.lg}",
+>>>>>>> main
             "type": "dimension"
           }
         }
@@ -795,6 +1165,7 @@
         "default": {
           "value": "{app.textCase.control}",
           "type": "textCase"
+<<<<<<< HEAD
         }
       },
       "config": {
@@ -847,6 +1218,8 @@
             "value": "0.125rem",
             "type": "other"
           }
+=======
+>>>>>>> main
         }
       }
     }

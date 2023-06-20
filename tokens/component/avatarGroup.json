@@ -4,6 +4,7 @@
       "dimension": {
         "spacing": {
           "xs": {
+<<<<<<< HEAD
             "default": {
               "value": "{component.avatar.dimension.thumb.width.xs.default} * {component.avatarGroup.config.gap.default}",
               "type": "dimension"
@@ -52,11 +53,54 @@
               "value": "{component.avatar.dimension.thumb.width.xl.inline} * {component.avatarGroup.config.gap.default}",
               "type": "dimension"
             }
+=======
+            "value": "{component.avatar.dimension.thumb.width.xs.default} * {component.avatarGroup.config.gap}",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{component.avatar.dimension.thumb.width.sm.default} * {component.avatarGroup.config.gap}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{component.avatar.dimension.thumb.width.md.default} * {component.avatarGroup.config.gap}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{component.avatar.dimension.thumb.width.lg.default} * {component.avatarGroup.config.gap}",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{component.avatar.dimension.thumb.width.xl.default} * {component.avatarGroup.config.gap}",
+            "type": "dimension"
+          }
+        },
+        "border": {
+          "xs": {
+            "value": "{app.dimension.dot.border.xs}",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.dot.border.sm}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.dot.border.md}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.dot.border.lg}",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.dot.border.xl}",
+            "type": "dimension"
+>>>>>>> main
           }
         }
       },
       "config": {
         "gap": {
+<<<<<<< HEAD
           "default": {
             "value": "-0.125",
             "type": "other"
@@ -65,6 +109,10 @@
             "value": "-0.0625",
             "type": "other"
           }
+=======
+          "value": "-0.125",
+          "type": "other"
+>>>>>>> main
         }
       }
     }
