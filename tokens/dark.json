@@ -428,7 +428,7 @@
             }
           }
         },
-        "unchecked": {
+        "neutral": {
           "bg": {
             "solid": {
               "type": "color",
@@ -436,7 +436,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.unchecked.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, 0.4)"
             }
           },
           "border": {
@@ -446,7 +446,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, {config.color.neutral.alpha.unchecked.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, 0.4)"
             }
           },
           "fg": {
