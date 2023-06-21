@@ -152,7 +152,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{config.color.neutral.alpha.hover}",
+                  "value": "{config.color.neutral.alpha.border.hover}",
                   "space": "hsl"
                 }
               }
@@ -165,7 +165,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{config.color.neutral.alpha.active}",
+                  "value": "{config.color.neutral.alpha.border.active}",
                   "space": "hsl"
                 }
               }
@@ -561,17 +561,19 @@
           }
         },
         "alpha": {
-          "default": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.3",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.4",
-            "type": "other"
+          "bg": {
+            "default": {
+              "value": "0.2",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.3",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.4",
+              "type": "other"
+            }
           }
         },
         "lighten": {
