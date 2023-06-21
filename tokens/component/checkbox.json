@@ -5,18 +5,18 @@
         "unchecked": {
           "bg": {
             "default": {
-              "value": "{app.color.component.focus.bg.default}",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%, 0.1)",
               "type": "color"
             },
             "active": {
-              "value": "{app.color.component.focus.bg.default}",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%, 0.1)",
               "type": "color",
               "$extensions": {}
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.unchecked.border.translucent}",
+              "value": "{app.color.component.neutral.border.translucent}",
               "type": "color"
             },
             "active": {
