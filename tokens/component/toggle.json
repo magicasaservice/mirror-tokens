@@ -207,7 +207,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.5",
+                        "value": "{config.color.neutral.alpha.bg.active}",
                         "space": "hsl"
                       }
                     }
@@ -241,7 +241,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.solid}",
+                  "value": "{app.color.component.disabled.fg.onSolid}",
                   "type": "color"
                 }
               },
@@ -271,7 +271,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.neutral.fg.onSolid}",
+                  "value": "{app.color.component.disabled.fg.onSolid}",
                   "type": "color",
                   "$extensions": {}
                 }
