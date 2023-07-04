@@ -164,90 +164,170 @@
         }
       },
       "color": {
-        "track": {
-          "unchecked": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.neutral.bg.translucent}",
-                "type": "color"
+        "unchecked": {
+          "track": {
+            "default": {
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.neutral.bg.translucent}",
+                  "type": "color"
+                }
               },
-              "active": {
-                "value": "{app.color.component.neutral.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.neutral.alpha.unchecked.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "type": "color"
+                }
+              },
+              "border": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "type": "color"
                 }
               }
             },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
+            "disabled": {
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.neutral.bg.translucent}",
+                  "type": "color"
+                }
               },
-              "disabled": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "type": "color"
+                }
+              },
+              "border": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "type": "color"
+                }
               }
             }
           },
-          "checked": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color"
+          "handle": {
+            "default": {
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.onSolid}",
+                  "type": "color"
+                }
               },
-              "active": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.solid}",
+                  "type": "color"
                 }
               }
             },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
+            "disabled": {
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.onSolid}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "{config.color.neutral.alpha.bg.active}",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                }
+              },
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.solid}",
+                  "type": "color"
+                }
               }
             }
           }
         },
-        "handle": {
-          "bg": {
+        "checked": {
+          "track": {
             "default": {
-              "value": "{app.color.component.neutral.fg.onSolid}",
-              "type": "color"
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.primary.bg.solid}",
+                  "type": "color"
+                },
+                "active": {
+                  "value": "{app.color.component.primary.bg.solid}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "{config.color.primary.darken.active}",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                }
+              },
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "type": "color"
+                }
+              }
             },
             "disabled": {
-              "value": "{app.color.component.neutral.fg.onSolid}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{config.color.neutral.alpha.bg.active}",
-                    "space": "hsl"
-                  }
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.primary.bg.solid}",
+                  "type": "color"
+                }
+              },
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "type": "color"
                 }
               }
             }
           },
-          "fg": {
+          "handle": {
             "default": {
-              "value": "{app.color.component.neutral.fg.solid}",
-              "type": "color"
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.onSolid}",
+                  "type": "color"
+                }
+              },
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.solid}",
+                  "type": "color"
+                }
+              }
+            },
+            "disabled": {
+              "bg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.onSolid}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "{config.color.neutral.alpha.bg.active}",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                }
+              },
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.neutral.fg.solid}",
+                  "type": "color"
+                }
+              }
             }
           }
         }
