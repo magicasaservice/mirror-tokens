@@ -222,15 +222,20 @@
               },
               "border": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "value": "transparent",
                   "type": "color"
+                },
+                "active": {
+                  "value": "transparent",
+                  "type": "color",
+                  "$extensions": {}
                 }
               }
             },
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.neutral.bg.translucent}",
+                  "value": "{app.color.component.disabled.bg.translucent}",
                   "type": "color"
                 }
               },
@@ -242,7 +247,7 @@
               },
               "border": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "value": "transparent",
                   "type": "color"
                 }
               }
@@ -256,15 +261,9 @@
                   "type": "color"
                 }
               },
-              "fg": {
-                "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
-                  "type": "color"
-                }
-              },
               "border": {
                 "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
+                  "value": "transparent",
                   "type": "color"
                 }
               }
@@ -274,26 +273,12 @@
                 "default": {
                   "value": "{app.color.component.neutral.fg.onSolid}",
                   "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "{config.color.neutral.alpha.bg.active}",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                }
-              },
-              "fg": {
-                "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
-                  "type": "color"
+                  "$extensions": {}
                 }
               },
               "border": {
                 "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
+                  "value": "transparent",
                   "type": "color"
                 }
               }
@@ -330,8 +315,13 @@
               },
               "border": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "value": "transparent",
                   "type": "color"
+                },
+                "active": {
+                  "value": "transparent",
+                  "type": "color",
+                  "$extensions": {}
                 }
               }
             },
@@ -350,7 +340,7 @@
               },
               "border": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "value": "transparent",
                   "type": "color"
                 }
               }
@@ -364,15 +354,9 @@
                   "type": "color"
                 }
               },
-              "fg": {
-                "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
-                  "type": "color"
-                }
-              },
               "border": {
                 "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
+                  "value": "transparent",
                   "type": "color"
                 }
               }
@@ -393,15 +377,9 @@
                   }
                 }
               },
-              "fg": {
-                "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
-                  "type": "color"
-                }
-              },
               "border": {
                 "default": {
-                  "value": "{app.color.component.neutral.fg.solid}",
+                  "value": "transparent",
                   "type": "color"
                 }
               }
@@ -415,7 +393,7 @@
           "type": "boxShadow"
         },
         "pressed": {
-          "value": "{component.toggle.boxShadow.default}",
+          "value": "{app.boxShadow.control.pressed}",
           "type": "boxShadow"
         }
       },
