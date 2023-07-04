@@ -328,7 +328,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.primary.bg.solid}",
+                  "value": "{app.color.component.disabled.bg.checked}",
                   "type": "color"
                 }
               },
@@ -366,15 +366,7 @@
                 "default": {
                   "value": "{app.color.component.neutral.fg.onSolid}",
                   "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "{config.color.neutral.alpha.bg.active}",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "$extensions": {}
                 }
               },
               "border": {
@@ -442,7 +434,7 @@
             "type": "other"
           },
           "ratio": {
-            "value": "1.5",
+            "value": "1.25",
             "type": "other",
             "description": "ratio defines width → 1 = square / 1.5 = rectangle"
           },
