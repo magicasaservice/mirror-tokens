@@ -44,6 +44,20 @@
               "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.config.track.radius.step}",
               "type": "dimension"
             }
+          },
+          "border": {
+            "sm": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "0rem",
+              "type": "dimension"
+            }
           }
         },
         "handle": {
@@ -130,6 +144,20 @@
               "value": "{component.toggle.config.handle.inset}",
               "type": "dimension"
             }
+          },
+          "border": {
+            "sm": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "0rem",
+              "type": "dimension"
+            }
           }
         },
         "icon": {
@@ -171,6 +199,19 @@
                 "default": {
                   "value": "{app.color.component.neutral.bg.translucent}",
                   "type": "color"
+                },
+                "active": {
+                  "value": "{app.color.component.neutral.bg.translucent}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "0.5",
+                        "space": "hsl"
+                      }
+                    }
+                  }
                 }
               },
               "fg": {
