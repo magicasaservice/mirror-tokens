@@ -412,7 +412,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.bg.default})"
+              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.border.default})"
             }
           },
           "fg": {
@@ -448,7 +448,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.bg.default})"
+              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.border.default})"
             }
           },
           "fg": {
@@ -474,7 +474,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, {config.color.neutral.alpha.bg.default})"
             }
           },
           "border": {
@@ -484,7 +484,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 20%, {config.color.neutral.alpha.border.default})"
             }
           },
           "fg": {
@@ -520,7 +520,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.bg.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.border.default})"
             }
           },
           "fg": {
@@ -556,7 +556,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.default}, 40%, {config.color.secondary.alpha.bg.default})"
+              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.default}, 40%, {config.color.secondary.alpha.border.default})"
             }
           },
           "fg": {
@@ -592,7 +592,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.secondary.alpha.bg.default})"
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%, {config.color.secondary.alpha.border.default})"
             }
           },
           "fg": {
@@ -628,7 +628,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.secondary.alpha.bg.default})"
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.secondary.alpha.border.default})"
             }
           },
           "fg": {
@@ -654,7 +654,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 50%, {config.color.neutral.alpha.bg.default})"
             }
           },
           "border": {
@@ -982,7 +982,7 @@
               "y": "0.0625rem",
               "blur": "0.25rem",
               "spread": "0",
-              "color": "{app.color.component.shadow.strongest}",
+              "color": "{app.color.component.shadow.strong}",
               "type": "dropShadow"
             }
           ],
