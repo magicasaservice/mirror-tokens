@@ -6,13 +6,30 @@
           "default": {
             "bg": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
               },
               "active": {
-                "value": "transparent",
+                "value": "{app.color.surface.elevation.base.bg.default}",
                 "type": "color",
-                "$extensions": {}
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "border": {
@@ -225,15 +242,15 @@
           },
           "width": {
             "sm": {
-              "value": "{component.checkbox.dimension.mark.height.sm} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.checkbox.dimension.mark.height.sm}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.mark.height.md} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.checkbox.dimension.mark.height.md}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.mark.height.lg} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.checkbox.dimension.mark.height.lg}",
               "type": "dimension"
             }
           }
@@ -254,7 +271,8 @@
           "radius": {
             "default": {
               "value": "0.5rem",
-              "type": "other"
+              "type": "other",
+              "description": "For a circle match height"
             },
             "step": {
               "value": "0.125rem",
