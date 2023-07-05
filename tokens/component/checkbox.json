@@ -6,11 +6,11 @@
           "default": {
             "bg": {
               "default": {
-                "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%, 0.1)",
+                "value": "transparent",
                 "type": "color"
               },
               "active": {
-                "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%, 0.1)",
+                "value": "transparent",
                 "type": "color",
                 "$extensions": {}
               }
@@ -36,34 +36,26 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.solid}",
+                "value": "transparent",
                 "type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "transparent",
                 "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$extensions": {}
               }
             }
           },
           "disabled": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.translucent}",
+                "value": "transparent",
                 "type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
+                "value": "transparent",
                 "type": "color"
               }
             },
