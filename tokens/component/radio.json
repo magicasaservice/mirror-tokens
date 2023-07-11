@@ -1,226 +1,61 @@
 {
   "component": {
-    "checkbox": {
-      "color": {
-        "unchecked": {
-          "default": {
-            "bg": {
-              "default": {
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.2",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.4",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "default": {
-                "value": "{app.color.component.neutral.border.translucent}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "active": {
-                "value": "transparent",
-                "type": "color",
-                "$extensions": {}
-              }
-            }
-          },
-          "disabled": {
-            "bg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "{app.color.component.disabled.border.translucent}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "checked": {
-          "default": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "active": {
-                "value": "transparent",
-                "type": "color",
-                "$extensions": {}
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color",
-                "$extensions": {}
-              }
-            }
-          },
-          "disabled": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.disabled.bg.translucent}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "{app.color.component.disabled.border.translucent}",
-                "type": "color"
-              }
-            }
-          }
-        }
-      },
-      "fontSize": {
-        "icon": {
-          "sm": {
-            "value": "{component.checkbox.dimension.mark.height.sm}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.checkbox.dimension.mark.height.md}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.checkbox.dimension.mark.height.lg}",
-            "type": "fontSizes"
-          }
-        }
-      },
+    "radio": {
       "dimension": {
         "box": {
           "height": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.md} - {component.checkbox.config.box.height.step}",
+              "value": "{component.radio.dimension.box.height.md} - {component.radio.config.box.height.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.box.height.default}",
+              "value": "{component.radio.config.box.height.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.md} + {component.checkbox.config.box.height.step}",
+              "value": "{component.radio.dimension.box.height.md} + {component.radio.config.box.height.step}",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.radio.dimension.box.height.sm} * {component.radio.config.box.width.ratio}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.radio.dimension.box.height.md} * {component.radio.config.box.width.ratio}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.radio.dimension.box.height.lg} * {component.radio.config.box.width.ratio}",
               "type": "dimension"
             }
           },
           "radius": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.radius.md} - {component.checkbox.config.box.radius.step}",
+              "value": "{component.radio.dimension.box.radius.md} - {component.radio.config.box.radius.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.box.radius.default}",
+              "value": "{component.radio.config.box.radius.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.radius.md} + {component.checkbox.config.box.radius.step}",
+              "value": "{component.radio.dimension.box.radius.md} + {component.radio.config.box.radius.step}",
               "type": "dimension"
             }
           },
           "border": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.border.md} - {component.checkbox.config.box.border.step}",
+              "value": "{component.radio.dimension.box.border.md} - {component.radio.config.box.border.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.box.border.default}",
+              "value": "{component.radio.config.box.border.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.border.md} + {component.checkbox.config.box.border.step}",
+              "value": "{component.radio.dimension.box.border.md} + {component.radio.config.box.border.step}",
               "type": "dimension"
             }
           }
@@ -228,29 +63,29 @@
         "mark": {
           "height": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.mark.scale}",
+              "value": "{component.radio.dimension.box.height.sm} * {component.radio.config.mark.scale}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.mark.scale}",
+              "value": "{component.radio.dimension.box.height.md} * {component.radio.config.mark.scale}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "value": "{component.radio.dimension.box.height.lg} * {component.radio.config.mark.scale}",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.checkbox.dimension.mark.height.sm}",
+              "value": "{component.radio.dimension.mark.height.sm}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.mark.height.md}",
+              "value": "{component.radio.dimension.mark.height.md}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.mark.height.lg}",
+              "value": "{component.radio.dimension.mark.height.lg}",
               "type": "dimension"
             }
           }
@@ -270,13 +105,14 @@
           },
           "radius": {
             "default": {
-              "value": "0.5rem",
+              "value": ".75rem",
               "type": "other",
-              "description": "For a circle match height"
+              "description": "For a circle height of m / 2"
             },
             "step": {
-              "value": "0.125rem",
-              "type": "other"
+              "value": "0.25rem",
+              "type": "other",
+              "description": "half of height step"
             }
           },
           "width": {
