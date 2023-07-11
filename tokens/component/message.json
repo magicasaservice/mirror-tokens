@@ -165,24 +165,38 @@
       },
       "dimension": {
         "height": {
-          "value": "{app.dimension.control.height.md} + {component.message.dimension.padding} * 2",
-          "type": "dimension"
+          "default": {
+            "value": "{app.dimension.control.height.md} + {component.message.dimension.padding.default} * 2",
+            "type": "dimension"
+          }
         },
         "padding": {
-          "value": "{app.dimension.control.padding.md} * 0.25",
-          "type": "dimension"
+          "default": {
+            "value": "{app.dimension.control.padding.md} * 0.25",
+            "type": "dimension"
+          },
+          "large": {
+            "value": "{app.dimension.control.padding.md}",
+            "type": "dimension"
+          }
         },
         "gap": {
-          "value": "{app.dimension.control.gap.md}",
-          "type": "dimension"
+          "default": {
+            "value": "{app.dimension.control.gap.md}",
+            "type": "dimension"
+          }
         },
         "radius": {
-          "value": "{app.dimension.control.radius.md} + {component.message.dimension.padding}",
-          "type": "dimension"
+          "default": {
+            "value": "{app.dimension.control.radius.md} + {component.message.dimension.padding.default}",
+            "type": "dimension"
+          }
         },
         "background": {
-          "value": "6rem",
-          "type": "dimension"
+          "default": {
+            "value": "6rem",
+            "type": "dimension"
+          }
         }
       },
       "fontSize": {
