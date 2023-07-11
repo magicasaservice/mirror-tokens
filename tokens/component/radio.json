@@ -1,6 +1,171 @@
 {
   "component": {
     "radio": {
+      "color": {
+        "unchecked": {
+          "default": {
+            "bg": {
+              "default": {
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "border": {
+              "default": {
+                "value": "{app.color.component.neutral.border.translucent}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.primary.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "active": {
+                "value": "transparent",
+                "type": "color",
+                "$extensions": {}
+              }
+            }
+          },
+          "disabled": {
+            "bg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "{app.color.component.disabled.border.translucent}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "checked": {
+          "default": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.primary.bg.solid}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.primary.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "active": {
+                "value": "transparent",
+                "type": "color",
+                "$extensions": {}
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color",
+                "$extensions": {}
+              }
+            }
+          },
+          "disabled": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.disabled.bg.translucent}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.disabled.fg.solid}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "{app.color.component.disabled.border.translucent}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      },
+      "fontSize": {
+        "icon": {
+          "sm": {
+            "value": "{component.radio.dimension.mark.height.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.radio.dimension.mark.height.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.radio.dimension.mark.height.lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
       "dimension": {
         "box": {
           "height": {
@@ -105,14 +270,13 @@
           },
           "radius": {
             "default": {
-              "value": ".75rem",
+              "value": "0.5rem",
               "type": "other",
-              "description": "For a circle height of m / 2"
+              "description": "For a circle match height"
             },
             "step": {
-              "value": "0.25rem",
-              "type": "other",
-              "description": "half of height step"
+              "value": "0.125rem",
+              "type": "other"
             }
           },
           "width": {
