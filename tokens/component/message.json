@@ -365,11 +365,11 @@
       },
       "dimension": {
         "height": {
-          "value": "{app.dimension.control.height.md}",
+          "value": "{app.dimension.control.height.md} + {component.message.dimension.padding} * 2",
           "type": "dimension"
         },
         "padding": {
-          "value": "{app.dimension.control.padding.md}",
+          "value": "{app.dimension.control.padding.md} * 0.25",
           "type": "dimension"
         },
         "gap": {
@@ -377,7 +377,7 @@
           "type": "dimension"
         },
         "radius": {
-          "value": "{app.dimension.control.radius.md}",
+          "value": "{app.dimension.control.radius.md} + {component.message.dimension.padding}",
           "type": "dimension"
         }
       },
