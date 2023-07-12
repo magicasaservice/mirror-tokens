@@ -1190,30 +1190,30 @@
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.tertiary.bg.translucent}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.tertiary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.secondary.alpha.bg.hover}",
+                      "value": "{config.color.neutral.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.tertiary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.secondary.alpha.bg.active}",
+                      "value": "{config.color.neutral.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -1222,7 +1222,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "value": "{app.color.component.tertiary.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -1230,26 +1230,26 @@
           "ghost": {
             "bg": {
               "hover": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.tertiary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.secondary.alpha.bg.hover}",
+                      "value": "{config.color.neutral.alpha.bg.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.tertiary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.secondary.alpha.bg.active}",
+                      "value": "{config.color.neutral.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -1258,7 +1258,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "value": "{app.color.component.tertiary.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -1266,30 +1266,30 @@
           "outline": {
             "border": {
               "default": {
-                "value": "{app.color.component.secondary.border.solid}",
+                "value": "{app.color.component.tertiary.border.solid}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.border.solid}",
+                "value": "{app.color.component.tertiary.border.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.secondary.darken.hover}",
+                      "value": "{config.color.neutral.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.border.solid}",
+                "value": "{app.color.component.tertiary.border.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.secondary.darken.active}",
+                      "value": "{config.color.neutral.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1298,30 +1298,30 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.tertiary.fg.solid}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.tertiary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.secondary.darken.hover}",
+                      "value": "{config.color.neutral.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.tertiary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.secondary.darken.active}",
+                      "value": "{config.color.neutral.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1332,30 +1332,30 @@
           "plain": {
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.tertiary.fg.solid}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.tertiary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.secondary.darken.hover}",
+                      "value": "{config.color.neutral.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.tertiary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.secondary.darken.active}",
+                      "value": "{config.color.neutral.darken.active}",
                       "space": "hsl"
                     }
                   }
