@@ -2,12 +2,8 @@
   "component": {
     "message": {
       "typography": {
-        "text": {
+        "default": {
           "value": "{app.typography.control.text}",
-          "type": "typography"
-        },
-        "symbol": {
-          "value": "{app.typography.control.symbol}",
           "type": "typography"
         }
       },
@@ -209,10 +205,10 @@
           }
         }
       },
-      "fontSize": {
-        "text": {
-          "value": "{app.fontSize.control.text.md}",
-          "type": "fontSizes"
+      "fontWeight": {
+        "default": {
+          "value": "{config.fontWeight.medium}",
+          "type": "fontWeights"
         }
       }
     }
