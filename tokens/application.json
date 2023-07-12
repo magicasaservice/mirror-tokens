@@ -788,9 +788,27 @@
         "textAlt": {
           "value": {
             "fontFamily": "{config.fontFamily.uiAlt}",
-            "fontWeight": "{config.fontWeight.medium}",
+            "fontWeight": "SemiBold",
             "lineHeight": "160%",
             "fontSize": "{config.fontSize.control}"
+          },
+          "type": "typography"
+        },
+        "symbol": {
+          "value": {
+            "fontFamily": "{config.fontFamily.symbol}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "fontSize": "{config.fontSize.label}",
+            "lineHeight": "100%"
+          },
+          "type": "typography"
+        },
+        "symbolAlt": {
+          "value": {
+            "fontFamily": "{config.fontFamily.symbol}",
+            "fontWeight": "{config.fontWeight.semibold}",
+            "fontSize": "{config.fontSize.label}",
+            "lineHeight": "100%"
           },
           "type": "typography"
         },
@@ -809,15 +827,6 @@
             "fontWeight": "{config.fontWeight.medium}",
             "lineHeight": "120%",
             "fontSize": "{config.fontSize.control}"
-          },
-          "type": "typography"
-        },
-        "symbol": {
-          "value": {
-            "fontFamily": "{config.fontFamily.symbol}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "fontSize": "{config.fontSize.label}",
-            "lineHeight": "100%"
           },
           "type": "typography"
         }
@@ -835,7 +844,25 @@
         "textAlt": {
           "value": {
             "fontFamily": "{config.fontFamily.uiAlt}",
+            "fontWeight": "SemiBold",
+            "lineHeight": "100%",
+            "fontSize": "{config.fontSize.label}"
+          },
+          "type": "typography"
+        },
+        "symbol": {
+          "value": {
+            "fontFamily": "{config.fontFamily.symbol}",
             "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "100%",
+            "fontSize": "{config.fontSize.label}"
+          },
+          "type": "typography"
+        },
+        "symbolAlt": {
+          "value": {
+            "fontFamily": "{config.fontFamily.symbol}",
+            "fontWeight": "{config.fontWeight.semibold}",
             "lineHeight": "100%",
             "fontSize": "{config.fontSize.label}"
           },
@@ -853,15 +880,6 @@
         "initials": {
           "value": {
             "fontFamily": "{config.fontFamily.uiAlt}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "100%",
-            "fontSize": "{config.fontSize.label}"
-          },
-          "type": "typography"
-        },
-        "symbol": {
-          "value": {
-            "fontFamily": "{config.fontFamily.symbol}",
             "fontWeight": "{config.fontWeight.medium}",
             "lineHeight": "100%",
             "fontSize": "{config.fontSize.label}"
