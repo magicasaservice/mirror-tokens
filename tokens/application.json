@@ -777,58 +777,66 @@
     "typography": {
       "control": {
         "text": {
-          "value": {
-            "fontFamily": "{config.fontFamily.ui}",
-            "fontWeight": "{config.fontWeight.semibold}",
-            "lineHeight": "160%",
-            "fontSize": "{config.fontSize.control}"
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.ui}",
+              "fontWeight": "{config.fontWeight.semibold}",
+              "lineHeight": "160%",
+              "fontSize": "{config.fontSize.control}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
-        },
-        "textAlt": {
-          "value": {
-            "fontFamily": "{config.fontFamily.uiAlt}",
-            "fontWeight": "SemiBold",
-            "lineHeight": "160%",
-            "fontSize": "{config.fontSize.control}"
-          },
-          "type": "typography"
+          "expressive": {
+            "value": {
+              "fontFamily": "{config.fontFamily.uiAlt}",
+              "fontWeight": "SemiBold",
+              "lineHeight": "160%",
+              "fontSize": "{config.fontSize.control}"
+            },
+            "type": "typography"
+          }
         },
         "symbol": {
-          "value": {
-            "fontFamily": "{config.fontFamily.symbol}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "fontSize": "{config.fontSize.label}",
-            "lineHeight": "100%"
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.symbol}",
+              "fontWeight": "{config.fontWeight.medium}",
+              "fontSize": "{config.fontSize.label}",
+              "lineHeight": "100%"
+            },
+            "type": "typography"
           },
-          "type": "typography"
-        },
-        "symbolAlt": {
-          "value": {
-            "fontFamily": "{config.fontFamily.symbol}",
-            "fontWeight": "{config.fontWeight.semibold}",
-            "fontSize": "{config.fontSize.label}",
-            "lineHeight": "100%"
-          },
-          "type": "typography"
+          "expressive": {
+            "value": {
+              "fontFamily": "{config.fontFamily.symbol}",
+              "fontWeight": "{config.fontWeight.semibold}",
+              "fontSize": "{config.fontSize.label}",
+              "lineHeight": "100%"
+            },
+            "type": "typography"
+          }
         },
         "number": {
-          "value": {
-            "fontFamily": "{config.fontFamily.uiAlt}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "120%",
-            "fontSize": "{config.fontSize.control}"
-          },
-          "type": "typography"
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.uiAlt}",
+              "fontWeight": "{config.fontWeight.medium}",
+              "lineHeight": "120%",
+              "fontSize": "{config.fontSize.control}"
+            },
+            "type": "typography"
+          }
         },
         "initials": {
-          "value": {
-            "fontFamily": "{config.fontFamily.uiAlt}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "120%",
-            "fontSize": "{config.fontSize.control}"
-          },
-          "type": "typography"
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.uiAlt}",
+              "fontWeight": "{config.fontWeight.medium}",
+              "lineHeight": "120%",
+              "fontSize": "{config.fontSize.control}"
+            },
+            "type": "typography"
+          }
         }
       },
       "label": {
