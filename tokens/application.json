@@ -376,7 +376,7 @@
             "type": "color"
           },
           "link": {
-            "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%)",
+            "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 50%)",
             "type": "color"
           }
         },
@@ -394,31 +394,85 @@
         }
       },
       "component": {
-        "primary": {
+        "tertiary": {
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%)"
+              "value": "{app.color.surface.elevation.base.bg.default}"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.bg.default})"
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{config.color.neutral.alpha.bg.default}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 40%)"
+              "value": "{app.color.surface.elevation.base.bg.default}"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.border.default})"
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{config.color.neutral.alpha.bg.default}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 35%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}"
+            }
+          }
+        },
+        "primary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 50%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 50%, {config.color.accent.alpha.bg.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 40%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 50%, {config.color.accent.alpha.border.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 35%)"
             },
             "onSolid": {
               "type": "color",
@@ -426,43 +480,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 20%)"
-            }
-          }
-        },
-        "disabled": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 90%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.2)"
-            },
-            "checked": {
-              "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 50%, {config.color.primary.alpha.bg.default})"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.3)"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 20%)"
             }
           }
         },
@@ -470,21 +488,21 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 20%)"
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 20%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.bg.default})"
+              "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 60%, {config.color.grey.alpha.bg.default})"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 20%)"
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 20%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.border.default})"
+              "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 60%, {config.color.grey.alpha.border.default})"
             }
           },
           "fg": {
@@ -592,7 +610,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.default}, 30%, {config.color.secondary.alpha.border.default})"
+              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.default}, 30%, {config.color.grey.alpha.border.default})"
             }
           },
           "fg": {
@@ -628,7 +646,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 30%, {config.color.secondary.alpha.border.default})"
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 30%, {config.color.grey.alpha.border.default})"
             }
           },
           "fg": {
@@ -664,7 +682,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.secondary.alpha.border.default})"
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%, {config.color.grey.alpha.border.default})"
             }
           },
           "fg": {
@@ -679,6 +697,42 @@
             "onTranslucent": {
               "type": "color",
               "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 20%)"
+            }
+          }
+        },
+        "disabled": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 90%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.2)"
+            },
+            "checked": {
+              "type": "color",
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 50%, {config.color.accent.alpha.bg.default})"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.3)"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             }
           }
         },
@@ -716,42 +770,6 @@
           "none": {
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0)",
             "type": "color"
-          }
-        },
-        "tertiary": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 20%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.bg.default})"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 20%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({config.color.secondary.hue.default}, {config.color.secondary.saturation.default}, 60%, {config.color.secondary.alpha.border.default})"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.default}"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
-            },
-            "onTranslucent": {
-              "type": "color",
-              "value": "{app.color.surface.fg.default}"
-            }
           }
         }
       }
