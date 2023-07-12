@@ -3,12 +3,24 @@
     "button": {
       "typography": {
         "text": {
-          "value": "{app.typography.control.text}",
-          "type": "typography"
+          "default": {
+            "value": "{app.typography.control.text}",
+            "type": "typography"
+          },
+          "expressive": {
+            "value": "{app.typography.control.textAlt}",
+            "type": "typography"
+          }
         },
         "symbol": {
-          "value": "{app.typography.control.symbol}",
-          "type": "typography"
+          "default": {
+            "value": "{app.typography.control.symbol}",
+            "type": "typography"
+          },
+          "expressive": {
+            "value": "{app.typography.control.symbol}",
+            "type": "typography"
+          }
         }
       },
       "color": {
