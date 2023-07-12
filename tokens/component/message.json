@@ -157,6 +157,46 @@
               }
             }
           }
+        },
+        "surface": {
+          "solid": {
+            "bg": {
+              "default": {
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "type": "color",
+                "$extensions": {}
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          }
         }
       },
       "dimension": {
@@ -175,7 +215,7 @@
           },
           "gap": {
             "default": {
-              "value": "{app.dimension.control.gap.md}",
+              "value": "{app.dimension.control.padding.md} * 0.25",
               "type": "dimension"
             }
           },
