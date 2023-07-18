@@ -58,6 +58,12 @@
               "value": "0rem",
               "type": "dimension"
             }
+          },
+          "blur": {
+            "default": {
+              "value": "6rem",
+              "type": "dimension"
+            }
           }
         },
         "handle": {
@@ -283,17 +289,9 @@
                 "type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{app.color.component.neutral.fg.solid}",
                 "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$extensions": {}
               },
               "inactive": {
                 "value": "{app.color.component.neutral.bg.translucent}",
