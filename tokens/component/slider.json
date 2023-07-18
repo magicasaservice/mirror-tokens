@@ -93,20 +93,6 @@
             "lg": {
               "value": "({component.slider.dimension.track.height.lg} - {component.slider.config.handle.inset} * 2) * {component.slider.config.handle.ratio}",
               "type": "dimension"
-            },
-            "pressed": {
-              "sm": {
-                "value": "{component.slider.dimension.handle.width.sm} + {component.slider.dimension.handle.width.sm} * {component.slider.config.handle.pressed}",
-                "type": "dimension"
-              },
-              "md": {
-                "value": "{component.slider.dimension.handle.width.md} + {component.slider.dimension.handle.width.md} * {component.slider.config.handle.pressed}",
-                "type": "dimension"
-              },
-              "lg": {
-                "value": "{component.slider.dimension.handle.width.lg} + {component.slider.dimension.handle.width.lg} * {component.slider.config.handle.pressed}",
-                "type": "dimension"
-              }
             }
           },
           "offset": {
@@ -294,24 +280,6 @@
         "label": {
           "padding": {
             "value": "1rem",
-            "type": "other"
-          }
-        }
-      },
-      "animate": {
-        "handle": {
-          "state": {
-            "value": "0.5s ease-in-out",
-            "type": "other"
-          },
-          "transform": {
-            "value": "1s ease",
-            "type": "other"
-          }
-        },
-        "track": {
-          "state": {
-            "value": "0.5s ease",
             "type": "other"
           }
         }
