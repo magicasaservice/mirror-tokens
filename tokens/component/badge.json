@@ -749,20 +749,6 @@
             "value": "{component.badge.dimension.border.md} + {component.badge.config.border.step}",
             "type": "dimension"
           }
-        },
-        "gap": {
-          "sm": {
-            "value": "{component.badge.dimension.gap.md} - {component.badge.config.gap.step}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{component.badge.config.gap.default}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{component.badge.dimension.gap.md} + {component.badge.config.gap.step}",
-            "type": "dimension"
-          }
         }
       },
       "fontSize": {
@@ -828,16 +814,6 @@
             "type": "other"
           }
         },
-        "gap": {
-          "default": {
-            "value": "0.25rem",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
-          }
-        },
         "radius": {
           "default": {
             "value": "0.75rem",
@@ -846,16 +822,6 @@
           "step": {
             "value": "0.125rem",
             "type": "other"
-          }
-        }
-      }
-    },
-    "slider": {
-      "fontSize": {
-        "text": {
-          "md": {
-            "value": "{app.fontSize.label.text.md}",
-            "type": "fontSizes"
           }
         }
       }
