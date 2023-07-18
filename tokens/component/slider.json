@@ -221,12 +221,26 @@
             "value": "{component.slider.dimension.icon.height.lg}",
             "type": "fontSizes"
           }
+        },
+        "text": {
+          "sm": {
+            "value": "{app.fontSize.label.text.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.label.text.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.label.text.lg}",
+            "type": "fontSizes"
+          }
         }
       },
       "config": {
         "track": {
           "height": {
-            "value": "{app.dimension.control.height.lg} / 2",
+            "value": "{app.dimension.control.height.sm}",
             "type": "other",
             "description": "-0.5 for material design style (handle is offset)"
           },
