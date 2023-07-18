@@ -152,38 +152,40 @@
             }
           }
         },
-        "icon": {
-          "height": {
-            "sm": {
-              "value": "{component.slider.dimension.handle.height.sm} * 0.5",
-              "type": "dimension"
-            },
-            "md": {
-              "value": "{component.slider.dimension.handle.height.md} * 0.5",
-              "type": "dimension"
-            },
-            "lg": {
-              "value": "{component.slider.dimension.handle.height.lg} * 0.5",
-              "type": "dimension"
+        "label": {
+          "icon": {
+            "height": {
+              "sm": {
+                "value": "{app.fontSize.label.symbol.sm}",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{component.slider.dimension.handle.height.md} * 0.5",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{component.slider.dimension.handle.height.lg} * 0.5",
+                "type": "dimension"
+              }
             }
           },
-          "padding": {
-            "sm": {
-              "value": "({component.slider.dimension.handle.width.sm} - {component.slider.dimension.icon.height.sm}) / 2 + 0.0625rem",
-              "type": "dimension"
-            },
-            "md": {
-              "value": "({component.slider.dimension.handle.width.md} - {component.slider.dimension.icon.height.md}) / 2 + 0.125rem",
-              "type": "dimension"
-            },
-            "lg": {
-              "value": "({component.slider.dimension.handle.width.lg} - {component.slider.dimension.icon.height.lg}) / 2 + 0.0625rem",
-              "type": "dimension"
+          "text": {
+            "padding": {
+              "sm": {
+                "value": "{component.slider.config.track.height} * 0.5 - {component.slider.config.track.step}",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{component.slider.config.track.height} * 0.5",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{component.slider.config.track.height} * 0.5 + {component.slider.config.track.step}",
+                "type": "dimension"
+              }
             }
-          }
-        },
-        "label": {
-          "padding": {
+          },
+          "gap": {
             "sm": {
               "value": "{component.slider.config.track.height} * 0.5 - {component.slider.config.track.step}",
               "type": "dimension"
@@ -212,15 +214,15 @@
       "fontSize": {
         "icon": {
           "sm": {
-            "value": "{component.slider.dimension.icon.height.sm}",
+            "value": "{app.fontSize.label.symbol.sm}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.slider.dimension.icon.height.md}",
+            "value": "{component.slider.dimension.label.icon.height.md}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.slider.dimension.icon.height.lg}",
+            "value": "{component.slider.dimension.label.icon.height.lg}",
             "type": "fontSizes"
           }
         },
@@ -350,7 +352,7 @@
           "default": {
             "bg": {
               "default": {
-                "value": "{app.color.component.neutral.fg.onSolid}",
+                "value": "{app.color.component.danger.bg.solid}",
                 "type": "color"
               }
             },
