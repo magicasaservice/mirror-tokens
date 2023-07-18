@@ -195,6 +195,14 @@
               "type": "dimension"
             }
           }
+        },
+        "label": {
+          "padding": {
+            "md": {
+              "value": "1px",
+              "type": "dimension"
+            }
+          }
         }
       },
       "boxShadow": {
@@ -250,12 +258,12 @@
           },
           "radius": {
             "default": {
-              "value": "1.75rem",
+              "value": "0.5rem",
               "type": "other",
               "description": "for 100% roundness make equal to height md"
             },
             "step": {
-              "value": "0.25rem",
+              "value": "0.125rem",
               "type": "other"
             }
           }
@@ -272,6 +280,12 @@
           },
           "pressed": {
             "value": "0.125",
+            "type": "other"
+          }
+        },
+        "label": {
+          "padding": {
+            "value": "1rem",
             "type": "other"
           }
         }
