@@ -198,8 +198,16 @@
         },
         "label": {
           "padding": {
+            "sm": {
+              "value": "{component.slider.config.track.height} * 0.5 - {component.slider.config.track.step}",
+              "type": "dimension"
+            },
             "md": {
-              "value": "1px",
+              "value": "{component.slider.config.track.height} * 0.5",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.slider.config.track.height} * 0.5 + {component.slider.config.track.step}",
               "type": "dimension"
             }
           }
@@ -258,7 +266,7 @@
           },
           "radius": {
             "default": {
-              "value": "0.5rem",
+              "value": "0.75rem",
               "type": "other",
               "description": "for 100% roundness make equal to height md"
             },
