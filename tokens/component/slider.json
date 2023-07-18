@@ -1,0 +1,383 @@
+{
+  "component": {
+    "toggle": {
+      "dimension": {
+        "track": {
+          "height": {
+            "sm": {
+              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.config.track.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.config.track.height}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.track.height.md} + {component.toggle.config.track.step}",
+              "type": "dimension"
+            }
+          },
+          "width": {
+            "sm": {
+              "value": "{component.toggle.dimension.handle.width.sm} * 2 + {component.toggle.config.handle.inset} * 2",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.handle.width.md} * 2 + {component.toggle.config.handle.inset} * 2",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.handle.width.lg} * 2 + {component.toggle.config.handle.inset} * 2",
+              "type": "dimension"
+            }
+          },
+          "radius": {
+            "sm": {
+              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.config.track.radius.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.config.track.radius.default}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.config.track.radius.step}",
+              "type": "dimension"
+            }
+          },
+          "border": {
+            "sm": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "0rem",
+              "type": "dimension"
+            }
+          }
+        },
+        "handle": {
+          "height": {
+            "sm": {
+              "value": "{component.toggle.dimension.track.height.sm} - {component.toggle.config.handle.inset} * 2",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.config.handle.inset} * 2",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.track.height.lg} - {component.toggle.config.handle.inset} * 2",
+              "type": "dimension"
+            }
+          },
+          "width": {
+            "sm": {
+              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "type": "dimension"
+            },
+            "pressed": {
+              "sm": {
+                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} * {component.toggle.config.handle.pressed}",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} * {component.toggle.config.handle.pressed}",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} * {component.toggle.config.handle.pressed}",
+                "type": "dimension"
+              }
+            }
+          },
+          "offset": {
+            "sm": {
+              "value": "{component.toggle.dimension.handle.width.sm} / 2",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.handle.width.md} / 2",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.handle.width.lg} / 2",
+              "type": "dimension"
+            }
+          },
+          "radius": {
+            "sm": {
+              "value": "{component.toggle.dimension.track.radius.sm} - {component.toggle.config.handle.inset}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.config.handle.inset}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.config.handle.inset}",
+              "type": "dimension"
+            }
+          },
+          "inset": {
+            "sm": {
+              "value": "{component.toggle.config.handle.inset}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.config.handle.inset}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.config.handle.inset}",
+              "type": "dimension"
+            }
+          },
+          "border": {
+            "sm": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "0rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "0rem",
+              "type": "dimension"
+            }
+          }
+        },
+        "icon": {
+          "height": {
+            "sm": {
+              "value": "{component.toggle.dimension.handle.height.sm} * 0.5",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.toggle.dimension.handle.height.md} * 0.5",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.toggle.dimension.handle.height.lg} * 0.5",
+              "type": "dimension"
+            }
+          },
+          "padding": {
+            "sm": {
+              "value": "({component.toggle.dimension.handle.width.sm} - {component.toggle.dimension.icon.height.sm}) / 2 + 0.0625rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "({component.toggle.dimension.handle.width.md} - {component.toggle.dimension.icon.height.md}) / 2 + 0.125rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "({component.toggle.dimension.handle.width.lg} - {component.toggle.dimension.icon.height.lg}) / 2 + 0.0625rem",
+              "type": "dimension"
+            }
+          }
+        }
+      },
+      "boxShadow": {
+        "default": {
+          "value": "{app.boxShadow.control.default}",
+          "type": "boxShadow"
+        },
+        "pressed": {
+          "value": "{app.boxShadow.control.pressed}",
+          "type": "boxShadow"
+        }
+      },
+      "fontSize": {
+        "icon": {
+          "sm": {
+            "value": "{component.toggle.dimension.icon.height.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.toggle.dimension.icon.height.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.toggle.dimension.icon.height.lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "config": {
+        "track": {
+          "height": {
+            "value": "{app.dimension.control.height.lg} / 2",
+            "type": "other",
+            "description": "-0.5 for material design style (handle is offset)"
+          },
+          "step": {
+            "value": "0.75rem",
+            "type": "other"
+          },
+          "radius": {
+            "default": {
+              "value": "1.75rem",
+              "type": "other",
+              "description": "for 100% roundness make equal to height md"
+            },
+            "step": {
+              "value": "0.25rem",
+              "type": "other"
+            }
+          }
+        },
+        "handle": {
+          "inset": {
+            "value": "0.125rem",
+            "type": "other"
+          },
+          "ratio": {
+            "value": "1.25",
+            "type": "other",
+            "description": "ratio defines width → 1 = square / 1.5 = rectangle"
+          },
+          "pressed": {
+            "value": "0.125",
+            "type": "other"
+          }
+        }
+      },
+      "animate": {
+        "handle": {
+          "state": {
+            "value": "0.5s ease-in-out",
+            "type": "other"
+          },
+          "transform": {
+            "value": "1s ease",
+            "type": "other"
+          }
+        },
+        "track": {
+          "state": {
+            "value": "0.5s ease",
+            "type": "other"
+          }
+        }
+      }
+    },
+    "slider": {
+      "color": {
+        "track": {
+          "default": {
+            "bg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.primary.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "inactive": {
+                "value": "{app.color.component.neutral.bg.translucent}",
+                "type": "color",
+                "$extensions": {}
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              },
+              "inline": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "active": {
+                "value": "transparent",
+                "type": "color",
+                "$extensions": {}
+              }
+            }
+          },
+          "disabled": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.disabled.bg.checked}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "handle": {
+          "default": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.neutral.fg.onSolid}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          },
+          "disabled": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.neutral.fg.onSolid}",
+                "type": "color",
+                "$extensions": {}
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
