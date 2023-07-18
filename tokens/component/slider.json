@@ -1,47 +1,47 @@
 {
   "component": {
-    "toggle": {
+    "slider": {
       "dimension": {
         "track": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.config.track.step}",
+              "value": "{component.slider.dimension.track.height.md} - {component.slider.config.track.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.config.track.height}",
+              "value": "{component.slider.config.track.height}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.md} + {component.toggle.config.track.step}",
+              "value": "{component.slider.dimension.track.height.md} + {component.slider.config.track.step}",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.toggle.dimension.handle.width.sm} * 2 + {component.toggle.config.handle.inset} * 2",
+              "value": "{component.slider.dimension.handle.width.sm} * 2 + {component.slider.config.handle.inset} * 2",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.handle.width.md} * 2 + {component.toggle.config.handle.inset} * 2",
+              "value": "{component.slider.dimension.handle.width.md} * 2 + {component.slider.config.handle.inset} * 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.handle.width.lg} * 2 + {component.toggle.config.handle.inset} * 2",
+              "value": "{component.slider.dimension.handle.width.lg} * 2 + {component.slider.config.handle.inset} * 2",
               "type": "dimension"
             }
           },
           "radius": {
             "sm": {
-              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.config.track.radius.step}",
+              "value": "{component.slider.dimension.track.radius.md} - {component.slider.config.track.radius.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.config.track.radius.default}",
+              "value": "{component.slider.config.track.radius.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.radius.md} + {component.toggle.config.track.radius.step}",
+              "value": "{component.slider.dimension.track.radius.md} + {component.slider.config.track.radius.step}",
               "type": "dimension"
             }
           },
@@ -63,85 +63,85 @@
         "handle": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.track.height.sm} - {component.toggle.config.handle.inset} * 2",
+              "value": "{component.slider.dimension.track.height.sm} - {component.slider.config.handle.inset} * 2",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.track.height.md} - {component.toggle.config.handle.inset} * 2",
+              "value": "{component.slider.dimension.track.height.md} - {component.slider.config.handle.inset} * 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.height.lg} - {component.toggle.config.handle.inset} * 2",
+              "value": "{component.slider.dimension.track.height.lg} - {component.slider.config.handle.inset} * 2",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "value": "({component.slider.dimension.track.height.sm} - {component.slider.config.handle.inset} * 2) * {component.slider.config.handle.ratio}",
               "type": "dimension"
             },
             "md": {
-              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "value": "({component.slider.dimension.track.height.md} - {component.slider.config.handle.inset} * 2) * {component.slider.config.handle.ratio}",
               "type": "dimension"
             },
             "lg": {
-              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "value": "({component.slider.dimension.track.height.lg} - {component.slider.config.handle.inset} * 2) * {component.slider.config.handle.ratio}",
               "type": "dimension"
             },
             "pressed": {
               "sm": {
-                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} * {component.toggle.config.handle.pressed}",
+                "value": "{component.slider.dimension.handle.width.sm} + {component.slider.dimension.handle.width.sm} * {component.slider.config.handle.pressed}",
                 "type": "dimension"
               },
               "md": {
-                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} * {component.toggle.config.handle.pressed}",
+                "value": "{component.slider.dimension.handle.width.md} + {component.slider.dimension.handle.width.md} * {component.slider.config.handle.pressed}",
                 "type": "dimension"
               },
               "lg": {
-                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} * {component.toggle.config.handle.pressed}",
+                "value": "{component.slider.dimension.handle.width.lg} + {component.slider.dimension.handle.width.lg} * {component.slider.config.handle.pressed}",
                 "type": "dimension"
               }
             }
           },
           "offset": {
             "sm": {
-              "value": "{component.toggle.dimension.handle.width.sm} / 2",
+              "value": "{component.slider.dimension.handle.width.sm} / 2",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.handle.width.md} / 2",
+              "value": "{component.slider.dimension.handle.width.md} / 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.handle.width.lg} / 2",
+              "value": "{component.slider.dimension.handle.width.lg} / 2",
               "type": "dimension"
             }
           },
           "radius": {
             "sm": {
-              "value": "{component.toggle.dimension.track.radius.sm} - {component.toggle.config.handle.inset}",
+              "value": "{component.slider.dimension.track.radius.sm} - {component.slider.config.handle.inset}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.track.radius.md} - {component.toggle.config.handle.inset}",
+              "value": "{component.slider.dimension.track.radius.md} - {component.slider.config.handle.inset}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.config.handle.inset}",
+              "value": "{component.slider.dimension.track.radius.lg} - {component.slider.config.handle.inset}",
               "type": "dimension"
             }
           },
           "inset": {
             "sm": {
-              "value": "{component.toggle.config.handle.inset}",
+              "value": "{component.slider.config.handle.inset}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.config.handle.inset}",
+              "value": "{component.slider.config.handle.inset}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.config.handle.inset}",
+              "value": "{component.slider.config.handle.inset}",
               "type": "dimension"
             }
           },
@@ -163,29 +163,29 @@
         "icon": {
           "height": {
             "sm": {
-              "value": "{component.toggle.dimension.handle.height.sm} * 0.5",
+              "value": "{component.slider.dimension.handle.height.sm} * 0.5",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.dimension.handle.height.md} * 0.5",
+              "value": "{component.slider.dimension.handle.height.md} * 0.5",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.toggle.dimension.handle.height.lg} * 0.5",
+              "value": "{component.slider.dimension.handle.height.lg} * 0.5",
               "type": "dimension"
             }
           },
           "padding": {
             "sm": {
-              "value": "({component.toggle.dimension.handle.width.sm} - {component.toggle.dimension.icon.height.sm}) / 2 + 0.0625rem",
+              "value": "({component.slider.dimension.handle.width.sm} - {component.slider.dimension.icon.height.sm}) / 2 + 0.0625rem",
               "type": "dimension"
             },
             "md": {
-              "value": "({component.toggle.dimension.handle.width.md} - {component.toggle.dimension.icon.height.md}) / 2 + 0.125rem",
+              "value": "({component.slider.dimension.handle.width.md} - {component.slider.dimension.icon.height.md}) / 2 + 0.125rem",
               "type": "dimension"
             },
             "lg": {
-              "value": "({component.toggle.dimension.handle.width.lg} - {component.toggle.dimension.icon.height.lg}) / 2 + 0.0625rem",
+              "value": "({component.slider.dimension.handle.width.lg} - {component.slider.dimension.icon.height.lg}) / 2 + 0.0625rem",
               "type": "dimension"
             }
           }
@@ -204,15 +204,15 @@
       "fontSize": {
         "icon": {
           "sm": {
-            "value": "{component.toggle.dimension.icon.height.sm}",
+            "value": "{component.slider.dimension.icon.height.sm}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.toggle.dimension.icon.height.md}",
+            "value": "{component.slider.dimension.icon.height.md}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.toggle.dimension.icon.height.lg}",
+            "value": "{component.slider.dimension.icon.height.lg}",
             "type": "fontSizes"
           }
         }
@@ -273,9 +273,7 @@
             "type": "other"
           }
         }
-      }
-    },
-    "slider": {
+      },
       "color": {
         "track": {
           "default": {
