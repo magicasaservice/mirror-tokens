@@ -201,21 +201,19 @@
       },
       "dimension": {
         "box": {
-          "height": {
-            "default": {
-              "value": "{app.dimension.control.height.md} + {component.message.dimension.box.padding.default} * 2",
-              "type": "dimension"
-            }
-          },
           "padding": {
             "default": {
               "value": "{app.dimension.control.padding.md} * 0.25",
+              "type": "dimension"
+            },
+            "top": {
+              "value": "{app.dimension.control.padding.md}",
               "type": "dimension"
             }
           },
           "gap": {
             "default": {
-              "value": "1rem",
+              "value": "{app.dimension.control.padding.md}",
               "type": "dimension"
             }
           },
@@ -234,12 +232,8 @@
         },
         "text": {
           "padding": {
-            "horizontal": {
+            "default": {
               "value": "{app.dimension.control.padding.md}",
-              "type": "dimension"
-            },
-            "vertical": {
-              "value": "{app.dimension.control.padding.md} * 0.75",
               "type": "dimension"
             }
           }
