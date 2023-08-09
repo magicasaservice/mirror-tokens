@@ -1118,7 +1118,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.text}",
-            "lineHeight": "140%",
+            "lineHeight": "150%",
             "fontSize": "{config.fontSize.subtitle.text}"
           },
           "type": "typography"
@@ -1138,7 +1138,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.text}",
-            "lineHeight": "160%",
+            "lineHeight": "150%",
             "fontSize": "{config.fontSize.body.text}"
           },
           "type": "typography"
@@ -1147,7 +1147,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "160%",
+            "lineHeight": "150%",
             "fontSize": "{config.fontSize.body.text}"
           },
           "type": "typography"
@@ -1292,6 +1292,16 @@
         },
         "lg": {
           "value": "{app.fontSize.title.md} + 1rem",
+          "type": "fontSizes"
+        }
+      },
+      "body": {
+        "default": {
+          "value": "{config.fontSize.body.text}",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{app.fontSize.body.default} - 0.125rem",
           "type": "fontSizes"
         }
       }
@@ -1543,17 +1553,17 @@
           "type": "lineHeights"
         },
         "lg": {
-          "value": "90%",
+          "value": "85%",
           "type": "lineHeights"
         }
       },
       "body": {
         "default": {
-          "value": "160%",
+          "value": "150%",
           "type": "lineHeights"
         },
-        "short": {
-          "value": "150%",
+        "compact": {
+          "value": "140%",
           "type": "lineHeights"
         }
       }
