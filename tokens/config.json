@@ -58,16 +58,28 @@
     },
     "fontSize": {
       "base": {
-        "value": "1rem",
+        "value": "1.125rem",
         "type": "fontSizes"
       },
       "control": {
-        "value": "{config.fontSize.base}",
-        "type": "fontSizes"
+        "text": {
+          "value": "{config.fontSize.base}",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.control.text} + 0.125rem",
+          "type": "fontSizes"
+        }
       },
       "label": {
-        "value": "{config.fontSize.base} - 0.25rem",
-        "type": "fontSizes"
+        "text": {
+          "value": "{config.fontSize.base} - 0.25rem",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.label.text} + 0.125rem",
+          "type": "fontSizes"
+        }
       }
     },
     "dimension": {

@@ -916,7 +916,7 @@
               "fontFamily": "{config.fontFamily.ui}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "160%",
-              "fontSize": "{config.fontSize.control}"
+              "fontSize": "{config.fontSize.control.text}"
             },
             "type": "typography"
           },
@@ -925,7 +925,7 @@
               "fontFamily": "{config.fontFamily.ui}",
               "fontWeight": "{config.fontWeight.semibold}",
               "lineHeight": "160%",
-              "fontSize": "{config.fontSize.control}"
+              "fontSize": "{config.fontSize.control.text}"
             },
             "type": "typography"
           }
@@ -935,7 +935,7 @@
             "value": {
               "fontFamily": "{config.fontFamily.symbol}",
               "fontWeight": "{config.fontWeight.medium}",
-              "fontSize": "{config.fontSize.label}",
+              "fontSize": "{config.fontSize.control.text}",
               "lineHeight": "100%"
             },
             "type": "typography"
@@ -944,7 +944,7 @@
             "value": {
               "fontFamily": "{config.fontFamily.symbol}",
               "fontWeight": "{config.fontWeight.bold}",
-              "fontSize": "{config.fontSize.label}",
+              "fontSize": "{config.fontSize.control.text}",
               "lineHeight": "100%"
             },
             "type": "typography"
@@ -956,7 +956,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "120%",
-              "fontSize": "{config.fontSize.control}"
+              "fontSize": "{config.fontSize.control.text}"
             },
             "type": "typography"
           },
@@ -965,7 +965,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "SemiBold",
               "lineHeight": "120%",
-              "fontSize": "{config.fontSize.control}"
+              "fontSize": "{config.fontSize.control.text}"
             },
             "type": "typography"
           }
@@ -976,7 +976,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "120%",
-              "fontSize": "{config.fontSize.control}"
+              "fontSize": "{config.fontSize.control.text}"
             },
             "type": "typography"
           },
@@ -985,7 +985,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "SemiBold",
               "lineHeight": "120%",
-              "fontSize": "{config.fontSize.control}"
+              "fontSize": "{config.fontSize.control.text}"
             },
             "type": "typography"
           }
@@ -998,7 +998,7 @@
               "fontFamily": "{config.fontFamily.ui}",
               "fontWeight": "{config.fontWeight.text}",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           },
@@ -1007,7 +1007,7 @@
               "fontFamily": "{config.fontFamily.ui}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           }
@@ -1018,7 +1018,7 @@
               "fontFamily": "{config.fontFamily.symbol}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           },
@@ -1027,7 +1027,7 @@
               "fontFamily": "{config.fontFamily.symbol}",
               "fontWeight": "{config.fontWeight.bold}",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           }
@@ -1038,7 +1038,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           },
@@ -1047,7 +1047,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "SemiBold",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           }
@@ -1058,7 +1058,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           },
@@ -1067,7 +1067,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "SemiBold",
               "lineHeight": "100%",
-              "fontSize": "{config.fontSize.label}"
+              "fontSize": "{config.fontSize.label.text}"
             },
             "type": "typography"
           }
@@ -1086,7 +1086,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{config.fontSize.control}",
+            "value": "{config.fontSize.control.text}",
             "type": "fontSizes"
           },
           "lg": {
@@ -1108,7 +1108,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{config.fontSize.control} + 0.125rem",
+            "value": "{config.fontSize.control.symbol}",
             "type": "fontSizes"
           },
           "lg": {
@@ -1132,7 +1132,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{config.fontSize.label}",
+            "value": "{config.fontSize.label.text}",
             "type": "fontSizes"
           },
           "lg": {
@@ -1154,7 +1154,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{config.fontSize.label} + 0.125rem",
+            "value": "{config.fontSize.label.symbol}",
             "type": "fontSizes"
           },
           "lg": {
