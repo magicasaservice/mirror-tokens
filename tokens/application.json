@@ -991,6 +991,26 @@
           }
         }
       },
+      "display": {
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "90%",
+            "fontSize": "5rem"
+          },
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.heavy}",
+            "lineHeight": "90%",
+            "fontSize": "5rem"
+          },
+          "type": "typography"
+        }
+      },
       "label": {
         "text": {
           "default": {
@@ -1068,6 +1088,68 @@
               "fontWeight": "SemiBold",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "title": {
+        "sm": {
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.medium}",
+              "lineHeight": "90%",
+              "fontSize": "2rem"
+            },
+            "type": "typography"
+          },
+          "strong": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.semibold}",
+              "lineHeight": "90%",
+              "fontSize": "2rem"
+            },
+            "type": "typography"
+          }
+        },
+        "md": {
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.medium}",
+              "lineHeight": "90%",
+              "fontSize": "3rem"
+            },
+            "type": "typography"
+          },
+          "strong": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.semibold}",
+              "lineHeight": "90%",
+              "fontSize": "3rem"
+            },
+            "type": "typography"
+          }
+        },
+        "lg": {
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.medium}",
+              "lineHeight": "90%",
+              "fontSize": "4rem"
+            },
+            "type": "typography"
+          },
+          "strong": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.semibold}",
+              "lineHeight": "90%",
+              "fontSize": "4rem"
             },
             "type": "typography"
           }
