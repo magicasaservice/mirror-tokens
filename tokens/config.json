@@ -80,6 +80,26 @@
           "value": "{config.fontSize.label.text} + 0.125rem",
           "type": "fontSizes"
         }
+      },
+      "display": {
+        "text": {
+          "value": "{config.fontSize.base} * 5",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.display.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "title": {
+        "text": {
+          "value": "{config.fontSize.base} * 2",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.title.text} + 0.125rem",
+          "type": "fontSizes"
+        }
       }
     },
     "dimension": {

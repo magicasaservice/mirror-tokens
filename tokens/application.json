@@ -992,23 +992,25 @@
         }
       },
       "display": {
-        "default": {
-          "value": {
-            "fontFamily": "{config.fontFamily.primary}",
-            "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "90%",
-            "fontSize": "5rem"
+        "text": {
+          "default": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.medium}",
+              "lineHeight": "90%",
+              "fontSize": "{config.fontSize.display.text}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
-        },
-        "strong": {
-          "value": {
-            "fontFamily": "{config.fontFamily.primary}",
-            "fontWeight": "{config.fontWeight.heavy}",
-            "lineHeight": "90%",
-            "fontSize": "5rem"
-          },
-          "type": "typography"
+          "strong": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{config.fontWeight.heavy}",
+              "lineHeight": "90%",
+              "fontSize": "{config.fontSize.display.text}"
+            },
+            "type": "typography"
+          }
         }
       },
       "label": {
@@ -1094,62 +1096,22 @@
         }
       },
       "title": {
-        "sm": {
+        "text": {
           "default": {
             "value": {
               "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontWeight": "{config.fontWeight.semibold}",
               "lineHeight": "90%",
-              "fontSize": "2rem"
+              "fontSize": "{config.fontSize.title.text}"
             },
             "type": "typography"
           },
           "strong": {
             "value": {
               "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.semibold}",
+              "fontWeight": "{config.fontWeight.heavy}",
               "lineHeight": "90%",
-              "fontSize": "2rem"
-            },
-            "type": "typography"
-          }
-        },
-        "md": {
-          "default": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.medium}",
-              "lineHeight": "90%",
-              "fontSize": "3rem"
-            },
-            "type": "typography"
-          },
-          "strong": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.semibold}",
-              "lineHeight": "90%",
-              "fontSize": "3rem"
-            },
-            "type": "typography"
-          }
-        },
-        "lg": {
-          "default": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.medium}",
-              "lineHeight": "90%",
-              "fontSize": "4rem"
-            },
-            "type": "typography"
-          },
-          "strong": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.semibold}",
-              "lineHeight": "90%",
-              "fontSize": "4rem"
+              "fontSize": "{config.fontSize.title.text}"
             },
             "type": "typography"
           }
@@ -1245,6 +1207,22 @@
           },
           "xl": {
             "value": "{app.fontSize.label.symbol.lg} + 0.0625rem",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "display": {
+        "text": {
+          "sm": {
+            "value": "{app.fontSize.control.text.md} - 0.125rem",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{config.fontSize.control.text}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.control.text.md} + 0.125rem",
             "type": "fontSizes"
           }
         }
