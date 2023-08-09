@@ -1100,7 +1100,7 @@
           "default": {
             "value": {
               "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.semibold}",
+              "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "90%",
               "fontSize": "{config.fontSize.title.text}"
             },
@@ -1109,7 +1109,7 @@
           "strong": {
             "value": {
               "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.heavy}",
+              "fontWeight": "{config.fontWeight.bold}",
               "lineHeight": "90%",
               "fontSize": "{config.fontSize.title.text}"
             },
@@ -1212,19 +1212,31 @@
         }
       },
       "display": {
-        "text": {
-          "sm": {
-            "value": "{config.fontSize.display.text}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.display.text.sm} + 2rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.display.text.md} + 2rem",
-            "type": "fontSizes"
-          }
+        "sm": {
+          "value": "{config.fontSize.display.text}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{app.fontSize.display.sm} + 2rem",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{app.fontSize.display.md} + 2rem",
+          "type": "fontSizes"
+        }
+      },
+      "title": {
+        "sm": {
+          "value": "{config.fontSize.title.text}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{app.fontSize.title.sm} + 1rem",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{app.fontSize.title.md} + 1rem",
+          "type": "fontSizes"
         }
       }
     },
@@ -1276,8 +1288,30 @@
         }
       },
       "display": {
-        "text": {
-          "value": "0%",
+        "sm": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "md": {
+          "value": "-3%",
+          "type": "letterSpacing"
+        },
+        "lg": {
+          "value": "-4%",
+          "type": "letterSpacing"
+        }
+      },
+      "title": {
+        "sm": {
+          "value": "-1%",
+          "type": "letterSpacing"
+        },
+        "md": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "lg": {
+          "value": "-3%",
           "type": "letterSpacing"
         }
       }
