@@ -992,25 +992,23 @@
         }
       },
       "display": {
-        "text": {
-          "default": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.medium}",
-              "lineHeight": "90%",
-              "fontSize": "{config.fontSize.display.text}"
-            },
-            "type": "typography"
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "90%",
+            "fontSize": "{config.fontSize.display.text}"
           },
-          "strong": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.heavy}",
-              "lineHeight": "90%",
-              "fontSize": "{config.fontSize.display.text}"
-            },
-            "type": "typography"
-          }
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.heavy}",
+            "lineHeight": "90%",
+            "fontSize": "{config.fontSize.display.text}"
+          },
+          "type": "typography"
         }
       },
       "label": {
@@ -1096,25 +1094,43 @@
         }
       },
       "title": {
-        "text": {
-          "default": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.medium}",
-              "lineHeight": "90%",
-              "fontSize": "{config.fontSize.title.text}"
-            },
-            "type": "typography"
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "90%",
+            "fontSize": "{config.fontSize.title.text}"
           },
-          "strong": {
-            "value": {
-              "fontFamily": "{config.fontFamily.primary}",
-              "fontWeight": "{config.fontWeight.bold}",
-              "lineHeight": "90%",
-              "fontSize": "{config.fontSize.title.text}"
-            },
-            "type": "typography"
-          }
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.bold}",
+            "lineHeight": "90%",
+            "fontSize": "{config.fontSize.title.text}"
+          },
+          "type": "typography"
+        }
+      },
+      "subtitle": {
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "90%",
+            "fontSize": "{config.fontSize.title.text}"
+          },
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.bold}",
+            "lineHeight": "90%",
+            "fontSize": "{config.fontSize.title.text}"
+          },
+          "type": "typography"
         }
       }
     },
@@ -1238,14 +1254,56 @@
           "value": "{app.fontSize.title.md} + 1rem",
           "type": "fontSizes"
         }
+      },
+      "subtitle": {
+        "sm": {
+          "value": "{config.fontSize.subtitle.text}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{app.fontSize.title.sm} + 1rem",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{app.fontSize.title.md} + 1rem",
+          "type": "fontSizes"
+        }
       }
     },
     "textCase": {
-      "control": {
+      "display": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "title": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "subtitle": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "callout": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "body": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "footnote": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "code": {
         "value": "none",
         "type": "textCase"
       },
       "label": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "control": {
         "value": "none",
         "type": "textCase"
       }
