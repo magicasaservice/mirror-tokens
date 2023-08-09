@@ -1214,15 +1214,15 @@
       "display": {
         "text": {
           "sm": {
-            "value": "{app.fontSize.control.text.md} - 0.125rem",
+            "value": "{config.fontSize.display.text}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{config.fontSize.control.text}",
+            "value": "{app.fontSize.display.text.sm} + 2rem",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.control.text.md} + 0.125rem",
+            "value": "{app.fontSize.display.text.md} + 2rem",
             "type": "fontSizes"
           }
         }
@@ -1272,6 +1272,12 @@
         },
         "initials": {
           "value": "4%",
+          "type": "letterSpacing"
+        }
+      },
+      "display": {
+        "text": {
+          "value": "0%",
           "type": "letterSpacing"
         }
       }
