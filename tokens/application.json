@@ -1098,7 +1098,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "120%",
+            "lineHeight": "110%",
             "fontSize": "{config.fontSize.title.text}"
           },
           "type": "typography"
@@ -1106,8 +1106,8 @@
         "strong": {
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
-            "fontWeight": "{config.fontWeight.bold}",
-            "lineHeight": "120%",
+            "fontWeight": "{config.fontWeight.semibold}",
+            "lineHeight": "110%",
             "fontSize": "{config.fontSize.title.text}"
           },
           "type": "typography"
@@ -1129,6 +1129,26 @@
             "fontWeight": "{config.fontWeight.medium}",
             "lineHeight": "140%",
             "fontSize": "{config.fontSize.subtitle.text}"
+          },
+          "type": "typography"
+        }
+      },
+      "body": {
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.text}",
+            "lineHeight": "160%",
+            "fontSize": "{config.fontSize.base}"
+          },
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "160%",
+            "fontSize": "{config.fontSize.base}"
           },
           "type": "typography"
         }
@@ -1384,6 +1404,12 @@
         },
         "lg": {
           "value": "-3%",
+          "type": "letterSpacing"
+        }
+      },
+      "body": {
+        "default": {
+          "value": "0%",
           "type": "letterSpacing"
         }
       }
