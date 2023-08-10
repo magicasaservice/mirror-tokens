@@ -241,6 +241,46 @@
                 }
               }
             }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.primary.bg.tone}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.primary.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.primary.fg.onTone}",
+                "type": "color"
+              }
+            }
           }
         },
         "secondary": {

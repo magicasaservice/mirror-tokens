@@ -591,6 +591,10 @@
             "translucent": {
               "type": "color",
               "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 75%, {config.color.accent.alpha.bg.default})"
+            },
+            "tone": {
+              "type": "color",
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 20%)"
             }
           },
           "border": {
@@ -611,6 +615,10 @@
             "onSolid": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 85%)"
             },
             "onTranslucent": {
               "type": "color",
