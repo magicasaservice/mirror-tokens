@@ -12,6 +12,10 @@
           "default": {
             "value": "{app.typography.control.symbol.default}",
             "type": "typography"
+          },
+          "only": {
+            "value": "{app.typography.control.symbol.only}",
+            "type": "typography"
           }
         }
       },
@@ -1499,16 +1503,34 @@
         },
         "symbol": {
           "sm": {
-            "value": "{app.dimension.control.symbol.sm}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.button.fontSize.symbol.sm.default}",
+              "type": "dimension"
+            },
+            "only": {
+              "value": "{component.button.dimension.symbol.sm.default} + {component.button.config.symbol.only.step}",
+              "type": "dimension"
+            }
           },
           "md": {
-            "value": "{app.dimension.control.symbol.md}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.button.fontSize.symbol.md.default}",
+              "type": "dimension"
+            },
+            "only": {
+              "value": "{component.button.dimension.symbol.md.default} + {component.button.config.symbol.only.step}",
+              "type": "dimension"
+            }
           },
           "lg": {
-            "value": "{app.dimension.control.symbol.lg}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.button.fontSize.symbol.lg.default}",
+              "type": "dimension"
+            },
+            "only": {
+              "value": "{component.button.dimension.symbol.lg.default} + {component.button.config.symbol.only.step}",
+              "type": "dimension"
+            }
           }
         },
         "blur": {
@@ -1521,30 +1543,48 @@
       "fontSize": {
         "text": {
           "sm": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{component.button.fontSize.text.md} - {component.button.config.text.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.text.md}",
+            "value": "{component.button.config.text.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.control.text.lg}",
+            "value": "{component.button.fontSize.text.md} + {component.button.config.text.step}",
             "type": "fontSizes"
           }
         },
         "symbol": {
           "sm": {
-            "value": "{app.fontSize.control.symbol.sm}",
-            "type": "fontSizes"
+            "default": {
+              "value": "{component.button.fontSize.symbol.md.default} - {component.button.config.symbol.default.step}",
+              "type": "fontSizes"
+            },
+            "only": {
+              "value": "{component.button.fontSize.symbol.sm.default} + {component.button.config.symbol.only.step}",
+              "type": "fontSizes"
+            }
           },
           "md": {
-            "value": "{app.fontSize.control.symbol.md}",
-            "type": "fontSizes"
+            "default": {
+              "value": "{component.button.config.symbol.default.default}",
+              "type": "fontSizes"
+            },
+            "only": {
+              "value": "{component.button.fontSize.symbol.md.default} + {component.button.config.symbol.only.step}",
+              "type": "fontSizes"
+            }
           },
           "lg": {
-            "value": "{app.fontSize.control.symbol.lg}",
-            "type": "fontSizes"
+            "default": {
+              "value": "{component.button.fontSize.symbol.md.default} + {component.button.config.symbol.default.step}",
+              "type": "fontSizes"
+            },
+            "only": {
+              "value": "{component.button.fontSize.symbol.lg.default} + {component.button.config.symbol.only.step}",
+              "type": "fontSizes"
+            }
           }
         }
       },
@@ -1558,6 +1598,36 @@
         "default": {
           "value": "{app.textCase.control}",
           "type": "textCase"
+        }
+      },
+      "config": {
+        "symbol": {
+          "only": {
+            "step": {
+              "value": "0.25rem",
+              "type": "other"
+            }
+          },
+          "default": {
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            },
+            "default": {
+              "value": "{app.fontSize.control.symbol.md}",
+              "type": "other"
+            }
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{app.fontSize.control.text.md}",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.125rem",
+            "type": "other"
+          }
         }
       }
     }
