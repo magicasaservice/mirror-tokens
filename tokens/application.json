@@ -1179,7 +1179,7 @@
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.text}",
             "lineHeight": "150%",
-            "fontSize": "{config.fontSize.label.text}"
+            "fontSize": "{config.fontSize.caption.text}"
           },
           "type": "typography"
         },
@@ -1188,7 +1188,47 @@
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.medium}",
             "lineHeight": "150%",
-            "fontSize": "{config.fontSize.body.text}"
+            "fontSize": "{config.fontSize.caption.text}"
+          },
+          "type": "typography"
+        }
+      },
+      "footnote": {
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.text}",
+            "lineHeight": "150%",
+            "fontSize": "{config.fontSize.footnote.text}"
+          },
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "150%",
+            "fontSize": "{config.fontSize.footnote.text}"
+          },
+          "type": "typography"
+        }
+      },
+      "code": {
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.code}",
+            "fontWeight": "{config.fontWeight.text}",
+            "lineHeight": "150%",
+            "fontSize": "{config.fontSize.code.text}"
+          },
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.code}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "150%",
+            "fontSize": "{config.fontSize.code.text}"
           },
           "type": "typography"
         }
@@ -1320,6 +1360,12 @@
           "value": "{config.fontSize.body.text} - 0.125rem",
           "type": "fontSizes"
         }
+      },
+      "code": {
+        "sm": {
+          "value": "{config.fontSize.body.text} - 0.125rem",
+          "type": "fontSizes"
+        }
       }
     },
     "textCase": {
@@ -1437,7 +1483,25 @@
           "type": "letterSpacing"
         }
       },
+      "code": {
+        "default": {
+          "value": "1.25%",
+          "type": "letterSpacing"
+        }
+      },
       "callout": {
+        "default": {
+          "value": "0%",
+          "type": "letterSpacing"
+        }
+      },
+      "caption": {
+        "default": {
+          "value": "0%",
+          "type": "letterSpacing"
+        }
+      },
+      "footnote": {
         "default": {
           "value": "0%",
           "type": "letterSpacing"
