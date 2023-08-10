@@ -815,6 +815,10 @@
             "translucent": {
               "type": "color",
               "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 75%, {config.color.danger.alpha.bg.default})"
+            },
+            "tone": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 20%)"
             }
           },
           "border": {
@@ -835,6 +839,10 @@
             "onSolid": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 85%)"
             },
             "onTranslucent": {
               "type": "color",

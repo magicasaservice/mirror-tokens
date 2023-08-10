@@ -950,6 +950,46 @@
                 }
               }
             }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.danger.bg.tone}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.danger.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.danger.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.danger.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.danger.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.danger.fg.onTone}",
+                "type": "color"
+              }
+            }
           }
         },
         "warning": {
