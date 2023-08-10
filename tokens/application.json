@@ -1217,7 +1217,7 @@
         "default": {
           "value": {
             "fontFamily": "{config.fontFamily.code}",
-            "fontWeight": "{config.fontWeight.medium}",
+            "fontWeight": "{config.fontWeight.text}",
             "lineHeight": "160%",
             "fontSize": "{config.fontSize.code.text}"
           },
@@ -1226,7 +1226,7 @@
         "strong": {
           "value": {
             "fontFamily": "{config.fontFamily.code}",
-            "fontWeight": "SemiBold",
+            "fontWeight": "{config.fontWeight.medium}",
             "lineHeight": "160%",
             "fontSize": "{config.fontSize.code.text}"
           },
@@ -1363,7 +1363,7 @@
       },
       "code": {
         "sm": {
-          "value": "{config.fontSize.body.text} - 0.125rem",
+          "value": "{config.fontSize.code.text} - 0.125rem",
           "type": "fontSizes"
         }
       }
