@@ -1178,7 +1178,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.text}",
-            "lineHeight": "150%",
+            "lineHeight": "160%",
             "fontSize": "{config.fontSize.caption.text}"
           },
           "type": "typography"
@@ -1187,7 +1187,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "150%",
+            "lineHeight": "160%",
             "fontSize": "{config.fontSize.caption.text}"
           },
           "type": "typography"
@@ -1198,7 +1198,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.text}",
-            "lineHeight": "150%",
+            "lineHeight": "160%",
             "fontSize": "{config.fontSize.footnote.text}"
           },
           "type": "typography"
@@ -1207,7 +1207,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "150%",
+            "lineHeight": "160%",
             "fontSize": "{config.fontSize.footnote.text}"
           },
           "type": "typography"
@@ -1366,6 +1366,12 @@
           "value": "{config.fontSize.code.text} - 0.125rem",
           "type": "fontSizes"
         }
+      },
+      "footnote": {
+        "sm": {
+          "value": "{config.fontSize.footnote.text} - 0.125rem",
+          "type": "fontSizes"
+        }
       }
     },
     "textCase": {
@@ -1386,6 +1392,10 @@
         "type": "textCase"
       },
       "body": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "caption": {
         "value": "none",
         "type": "textCase"
       },
