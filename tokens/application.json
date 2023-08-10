@@ -635,6 +635,10 @@
             "translucent": {
               "type": "color",
               "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.translucent}, 75%, {config.color.grey.alpha.bg.default})"
+            },
+            "tone": {
+              "type": "color",
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 20%)"
             }
           },
           "border": {
@@ -659,6 +663,10 @@
             "onTranslucent": {
               "type": "color",
               "value": "{app.color.surface.fg.default}"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             }
           }
         },
@@ -707,6 +715,10 @@
             "translucent": {
               "type": "color",
               "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 75%, {config.color.info.alpha.bg.default})"
+            },
+            "tone": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 20%)"
             }
           },
           "border": {
@@ -727,6 +739,10 @@
             "onSolid": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 85%)"
             },
             "onTranslucent": {
               "type": "color",

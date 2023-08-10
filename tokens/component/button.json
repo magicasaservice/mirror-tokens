@@ -504,6 +504,46 @@
                 }
               }
             }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.secondary.bg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.secondary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.grey.darken.hover} ",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.secondary.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.grey.darken.active} ",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.secondary.fg.onSolid}",
+                "type": "color"
+              }
+            }
           }
         },
         "tertiary": {
