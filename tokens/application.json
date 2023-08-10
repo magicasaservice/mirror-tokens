@@ -1097,7 +1097,7 @@
         "default": {
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
-            "fontWeight": "{config.fontWeight.medium}",
+            "fontWeight": "{config.fontWeight.semibold}",
             "lineHeight": "130%",
             "fontSize": "{config.fontSize.title.text}"
           },
@@ -1106,8 +1106,8 @@
         "strong": {
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
-            "fontWeight": "{config.fontWeight.semibold}",
-            "lineHeight": "140%",
+            "fontWeight": "{config.fontWeight.bold}",
+            "lineHeight": "130%",
             "fontSize": "{config.fontSize.title.text}"
           },
           "type": "typography"
@@ -1127,7 +1127,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "140%",
+            "lineHeight": "150%",
             "fontSize": "{config.fontSize.subtitle.text}"
           },
           "type": "typography"
@@ -1138,7 +1138,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.text}",
-            "lineHeight": "150%",
+            "lineHeight": "160%",
             "fontSize": "{config.fontSize.body.text}"
           },
           "type": "typography"
@@ -1147,7 +1147,7 @@
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
             "fontWeight": "{config.fontWeight.medium}",
-            "lineHeight": "150%",
+            "lineHeight": "160%",
             "fontSize": "{config.fontSize.body.text}"
           },
           "type": "typography"
@@ -1169,6 +1169,26 @@
             "fontWeight": "{config.fontWeight.semibold}",
             "lineHeight": "160%",
             "fontSize": "{config.fontSize.callout.text}"
+          },
+          "type": "typography"
+        }
+      },
+      "caption": {
+        "default": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.text}",
+            "lineHeight": "150%",
+            "fontSize": "{config.fontSize.label.text}"
+          },
+          "type": "typography"
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{config.fontFamily.primary}",
+            "fontWeight": "{config.fontWeight.medium}",
+            "lineHeight": "150%",
+            "fontSize": "{config.fontSize.body.text}"
           },
           "type": "typography"
         }
@@ -1296,12 +1316,8 @@
         }
       },
       "body": {
-        "default": {
-          "value": "{config.fontSize.body.text}",
-          "type": "fontSizes"
-        },
         "sm": {
-          "value": "{app.fontSize.body.default} - 0.125rem",
+          "value": "{config.fontSize.body.text} - 0.125rem",
           "type": "fontSizes"
         }
       }
@@ -1397,20 +1413,6 @@
       },
       "title": {
         "sm": {
-          "value": "-0.5%",
-          "type": "letterSpacing"
-        },
-        "md": {
-          "value": "-1%",
-          "type": "letterSpacing"
-        },
-        "lg": {
-          "value": "-1.5%",
-          "type": "letterSpacing"
-        }
-      },
-      "subtitle": {
-        "sm": {
           "value": "-1%",
           "type": "letterSpacing"
         },
@@ -1423,9 +1425,15 @@
           "type": "letterSpacing"
         }
       },
+      "subtitle": {
+        "default": {
+          "value": "-1%",
+          "type": "letterSpacing"
+        }
+      },
       "body": {
         "default": {
-          "value": "0%",
+          "value": "1.25%",
           "type": "letterSpacing"
         }
       },
@@ -1545,7 +1553,7 @@
       },
       "display": {
         "sm": {
-          "value": "90%",
+          "value": "95%",
           "type": "lineHeights"
         },
         "md": {
@@ -1558,12 +1566,8 @@
         }
       },
       "body": {
-        "default": {
+        "short": {
           "value": "150%",
-          "type": "lineHeights"
-        },
-        "compact": {
-          "value": "140%",
           "type": "lineHeights"
         }
       }
