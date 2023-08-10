@@ -920,6 +920,15 @@
             },
             "type": "typography"
           },
+          "light": {
+            "value": {
+              "fontFamily": "{config.fontFamily.ui}",
+              "fontWeight": "{config.fontWeight.text}",
+              "lineHeight": "160%",
+              "fontSize": "{config.fontSize.control.text}"
+            },
+            "type": "typography"
+          },
           "strong": {
             "value": {
               "fontFamily": "{config.fontFamily.ui}",
@@ -940,21 +949,21 @@
             },
             "type": "typography"
           },
+          "light": {
+            "value": {
+              "fontFamily": "{config.fontFamily.symbol}",
+              "fontWeight": "{config.fontWeight.text}",
+              "fontSize": "{config.fontSize.control.text}",
+              "lineHeight": "auto"
+            },
+            "type": "typography"
+          },
           "strong": {
             "value": {
               "fontFamily": "{config.fontFamily.symbol}",
               "fontWeight": "{config.fontWeight.bold}",
               "fontSize": "{config.fontSize.control.text}",
               "lineHeight": "100%"
-            },
-            "type": "typography"
-          },
-          "only": {
-            "value": {
-              "fontFamily": "{config.fontFamily.symbol}",
-              "fontWeight": "{config.fontWeight.text}",
-              "fontSize": "{config.fontSize.control.text}",
-              "lineHeight": "auto"
             },
             "type": "typography"
           }

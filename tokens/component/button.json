@@ -14,7 +14,7 @@
             "type": "typography"
           },
           "only": {
-            "value": "{app.typography.control.symbol.only}",
+            "value": "{app.typography.control.symbol.light}",
             "type": "typography"
           }
         }
@@ -1428,6 +1428,10 @@
       },
       "dimension": {
         "height": {
+          "xs": {
+            "value": "{app.dimension.control.height.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.height.sm}",
             "type": "dimension"
@@ -1442,6 +1446,10 @@
           }
         },
         "padding": {
+          "xs": {
+            "value": "{app.dimension.control.padding.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.padding.sm}",
             "type": "dimension"
@@ -1456,6 +1464,10 @@
           }
         },
         "gap": {
+          "xs": {
+            "value": "{app.dimension.control.gap.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.gap.sm}",
             "type": "dimension"
@@ -1474,6 +1486,10 @@
           }
         },
         "radius": {
+          "xs": {
+            "value": "{app.dimension.control.radius.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.radius.sm}",
             "type": "dimension"
@@ -1488,6 +1504,10 @@
           }
         },
         "border": {
+          "xs": {
+            "value": "{app.dimension.control.border.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.border.sm}",
             "type": "dimension"
@@ -1531,6 +1551,16 @@
               "value": "{component.button.dimension.symbol.lg.default} + {component.button.config.symbol.only.step}",
               "type": "dimension"
             }
+          },
+          "xs": {
+            "default": {
+              "value": "{component.button.fontSize.symbol.xs.default}",
+              "type": "dimension"
+            },
+            "only": {
+              "value": "{component.button.dimension.symbol.xs.default} + {component.button.config.symbol.only.step}",
+              "type": "dimension"
+            }
           }
         },
         "blur": {
@@ -1542,6 +1572,10 @@
       },
       "fontSize": {
         "text": {
+          "xs": {
+            "value": "{component.button.fontSize.text.sm} - {component.button.config.text.step}",
+            "type": "fontSizes"
+          },
           "sm": {
             "value": "{component.button.fontSize.text.md} - {component.button.config.text.step}",
             "type": "fontSizes"
@@ -1585,6 +1619,16 @@
               "value": "{component.button.fontSize.symbol.lg.default} + {component.button.config.symbol.only.step}",
               "type": "fontSizes"
             }
+          },
+          "xs": {
+            "default": {
+              "value": "{component.button.fontSize.symbol.sm.default} - {component.button.config.symbol.default.step}",
+              "type": "fontSizes"
+            },
+            "only": {
+              "value": "{component.button.fontSize.symbol.sm.default} + {component.button.config.symbol.only.step}",
+              "type": "fontSizes"
+            }
           }
         }
       },
@@ -1609,12 +1653,12 @@
             }
           },
           "default": {
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            },
             "default": {
               "value": "{app.fontSize.control.symbol.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
               "type": "other"
             }
           }
