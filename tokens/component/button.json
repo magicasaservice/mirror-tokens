@@ -767,6 +767,46 @@
                 }
               }
             }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.tertiary.bg.tone}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.tertiary.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.neutral.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.tertiary.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.neutral.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.tertiary.fg.onTone}",
+                "type": "color"
+              }
+            }
           }
         },
         "danger": {
@@ -1253,6 +1293,46 @@
                 }
               }
             }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.warning.bg.tone}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.warning.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.warning.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.warning.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.warning.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.warning.fg.onTone}",
+                "type": "color"
+              }
+            }
           }
         },
         "disabled": {
@@ -1317,6 +1397,20 @@
             "fg": {
               "default": {
                 "value": "{app.color.component.disabled.fg.solid}",
+                "type": "color"
+              }
+            }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.disabled.bg.tone}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.disabled.fg.onTone}",
                 "type": "color"
               }
             }
@@ -1541,6 +1635,46 @@
                     }
                   }
                 }
+              }
+            }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.success.bg.tone}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.success.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.success.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.success.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.success.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.success.fg.onTone}",
+                "type": "color"
               }
             }
           }
