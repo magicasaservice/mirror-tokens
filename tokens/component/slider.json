@@ -1,36 +1,6 @@
 {
   "component": {
     "slider": {
-      "fontSize": {
-        "symbol": {
-          "sm": {
-            "value": "{app.fontSize.label.symbol.sm}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.slider.dimension.label.symbol.height.md}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.slider.dimension.label.symbol.height.lg}",
-            "type": "fontSizes"
-          }
-        },
-        "text": {
-          "sm": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.label.text.md}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.label.text.lg}",
-            "type": "fontSizes"
-          }
-        }
-      },
       "typography": {
         "default": {
           "value": "{app.typography.control.text.default}",
@@ -62,7 +32,7 @@
             "type": "dimension"
           },
           "radius": {
-            "value": "999px",
+            "value": "{component.slider.config.handle.radius}",
             "type": "dimension"
           },
           "pressed": {
@@ -85,15 +55,20 @@
             "description": "-0.5 for material design style (handle is offset)"
           },
           "radius": {
-            "value": "0.75rem",
+            "value": "0rem",
             "type": "other",
             "description": "for 100% roundness make equal to height md"
           }
         },
         "handle": {
           "height": {
-            "value": "0.75rem",
+            "value": "1rem",
             "type": "other"
+          },
+          "radius": {
+            "value": "0.5rem",
+            "type": "other",
+            "description": "for 100% roundness make half of height"
           },
           "ratio": {
             "value": "1",
