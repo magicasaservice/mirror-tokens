@@ -6,6 +6,10 @@
           "value": "{app.typography.control.number.default}",
           "type": "typography"
         },
+        "label": {
+          "value": "{app.typography.control.text.text}",
+          "type": "typography"
+        },
         "symbol": {
           "value": "{app.typography.control.number.default}",
           "type": "typography"
@@ -55,20 +59,16 @@
           }
         },
         "step": {
+          "height": {
+            "value": "{component.slider.config.track.height} - {component.slider.config.step.padding} * 2",
+            "type": "dimension"
+          },
           "width": {
             "value": "{component.slider.dimension.step.height} * {component.slider.config.step.ratio}",
             "type": "dimension"
           },
-          "height": {
-            "value": "{component.slider.config.step.height}",
-            "type": "dimension"
-          },
-          "padding": {
-            "value": "{component.slider.dimension.handle.height} * 0.5",
-            "type": "dimension"
-          },
           "radius": {
-            "value": "0.75rem",
+            "value": "{component.slider.config.track.radius} - {component.slider.config.step.padding}",
             "type": "dimension"
           }
         }
@@ -128,17 +128,12 @@
           }
         },
         "step": {
-          "height": {
-            "value": "0.125rem",
+          "padding": {
+            "value": "0.0625rem",
             "type": "other"
           },
-          "radius": {
-            "value": "0.0625rem",
-            "type": "other",
-            "description": "for 100% roundness make half of height"
-          },
           "ratio": {
-            "value": "1",
+            "value": "0.125",
             "type": "other"
           }
         }
@@ -182,6 +177,20 @@
               "value": "transparent",
               "type": "color"
             }
+          }
+        },
+        "step": {
+          "active": {
+            "value": "{app.color.surface.elevation.base.bg.default}",
+            "type": "color"
+          },
+          "inactive": {
+            "value": "{app.color.surface.fg.default}",
+            "type": "color"
+          },
+          "hidden": {
+            "value": "transparent",
+            "type": "color"
           }
         }
       },
