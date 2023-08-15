@@ -984,7 +984,7 @@
             },
             "type": "typography"
           },
-          "light": {
+          "text": {
             "value": {
               "fontFamily": "{config.fontFamily.ui}",
               "fontWeight": "{config.fontWeight.text}",
@@ -1013,7 +1013,7 @@
             },
             "type": "typography"
           },
-          "light": {
+          "text": {
             "value": {
               "fontFamily": "{config.fontFamily.symbol}",
               "fontWeight": "{config.fontWeight.text}",
@@ -1830,7 +1830,29 @@
         "default": {
           "value": {
             "x": "0",
+            "y": "1rem",
+            "blur": "2rem",
+            "spread": "0",
+            "color": "{app.color.surface.shadow.default}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "high": {
+          "value": {
+            "x": "0",
             "y": "2rem",
+            "blur": "4rem",
+            "spread": "0",
+            "color": "{app.color.surface.shadow.default}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "higher": {
+          "value": {
+            "x": "0",
+            "y": "4rem",
             "blur": "6rem",
             "spread": "0",
             "color": "{app.color.surface.shadow.default}",
