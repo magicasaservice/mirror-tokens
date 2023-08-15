@@ -1,6 +1,42 @@
 {
   "component": {
     "slider": {
+      "fontSize": {
+        "symbol": {
+          "sm": {
+            "value": "{app.fontSize.label.symbol.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.slider.dimension.label.symbol.height.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.slider.dimension.label.symbol.height.lg}",
+            "type": "fontSizes"
+          }
+        },
+        "text": {
+          "sm": {
+            "value": "{app.fontSize.label.text.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.label.text.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.label.text.lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "typography": {
+        "default": {
+          "value": "{app.typography.control.text.default}",
+          "type": "typography"
+        }
+      },
       "dimension": {
         "track": {
           "height": {
@@ -170,32 +206,36 @@
             }
           },
           "text": {
-            "padding": {
-              "sm": {
-                "value": "{component.slider.config.track.height} * 0.5 - {component.slider.config.track.step}",
-                "type": "dimension"
-              },
-              "md": {
-                "value": "{component.slider.config.track.height} * 0.5",
-                "type": "dimension"
-              },
-              "lg": {
-                "value": "{component.slider.config.track.height} * 0.5 + {component.slider.config.track.step}",
-                "type": "dimension"
-              }
+            "default": {
+              "value": "0.25rem",
+              "type": "dimension"
             }
           },
           "gap": {
             "sm": {
-              "value": "{component.slider.config.track.height} * 0.5 - {component.slider.config.track.step}",
+              "value": "{app.dimension.control.gap.sm}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.slider.config.track.height} * 0.5",
+              "value": "{app.dimension.control.gap.md}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.slider.config.track.height} * 0.5 + {component.slider.config.track.step}",
+              "value": "{app.dimension.control.gap.lg}",
+              "type": "dimension"
+            }
+          },
+          "padding": {
+            "sm": {
+              "value": "{component.slider.config.label.padding.default} * 0.5",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.gap.md}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.gap.lg}",
               "type": "dimension"
             }
           }
@@ -209,36 +249,6 @@
         "pressed": {
           "value": "{app.boxShadow.control.pressed}",
           "type": "boxShadow"
-        }
-      },
-      "fontSize": {
-        "symbol": {
-          "sm": {
-            "value": "{app.fontSize.label.symbol.sm}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.slider.dimension.label.symbol.height.md}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.slider.dimension.label.symbol.height.lg}",
-            "type": "fontSizes"
-          }
-        },
-        "text": {
-          "sm": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.label.text.md}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.label.text.lg}",
-            "type": "fontSizes"
-          }
         }
       },
       "config": {
@@ -264,6 +274,42 @@
             }
           }
         },
+        "label": {
+          "symbol": {
+            "only": {
+              "step": {
+                "value": "0.25rem",
+                "type": "other"
+              }
+            },
+            "default": {
+              "default": {
+                "value": "{app.fontSize.control.symbol.md}",
+                "type": "other"
+              },
+              "step": {
+                "value": "0.125rem",
+                "type": "other"
+              }
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{app.fontSize.control.text.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
+          },
+          "padding": {
+            "default": {
+              "value": "1rem",
+              "type": "other"
+            }
+          }
+        },
         "handle": {
           "inset": {
             "value": "0.125rem",
@@ -276,12 +322,6 @@
           },
           "pressed": {
             "value": "0.125",
-            "type": "other"
-          }
-        },
-        "label": {
-          "padding": {
-            "value": "1rem",
             "type": "other"
           }
         }
@@ -302,12 +342,20 @@
               "inactive": {
                 "value": "{app.color.component.neutral.bg.translucent}",
                 "type": "color",
-                "$extensions": {}
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.1",
+                      "space": "lch"
+                    }
+                  }
+                }
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
+                "value": "{app.color.component.neutral.fg.solid}",
                 "type": "color"
               },
               "inline": {
