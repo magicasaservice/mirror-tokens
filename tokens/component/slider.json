@@ -2,23 +2,31 @@
   "component": {
     "slider": {
       "typography": {
-        "default": {
-          "value": "{app.typography.control.text.default}",
+        "value": {
+          "value": "{app.typography.control.number.default}",
+          "type": "typography"
+        },
+        "symbol": {
+          "value": "{app.typography.control.number.default}",
           "type": "typography"
         }
       },
       "dimension": {
         "track": {
           "height": {
-            "value": "0.25rem",
+            "value": "{component.slider.config.track.height}",
             "type": "dimension"
           },
           "padding": {
             "value": "{component.slider.dimension.handle.height} * 0.5",
             "type": "dimension"
           },
+          "gap": {
+            "value": "{component.slider.dimension.handle.height} * 0.5",
+            "type": "dimension"
+          },
           "radius": {
-            "value": "0.75rem",
+            "value": "{component.slider.config.track.radius}",
             "type": "dimension"
           }
         },
@@ -45,6 +53,24 @@
               "type": "dimension"
             }
           }
+        },
+        "step": {
+          "width": {
+            "value": "{component.slider.dimension.step.height} * {component.slider.config.step.ratio}",
+            "type": "dimension"
+          },
+          "height": {
+            "value": "{component.slider.config.step.height}",
+            "type": "dimension"
+          },
+          "padding": {
+            "value": "{component.slider.dimension.handle.height} * 0.5",
+            "type": "dimension"
+          },
+          "radius": {
+            "value": "0.75rem",
+            "type": "dimension"
+          }
         }
       },
       "config": {
@@ -55,7 +81,7 @@
             "description": "-0.5 for material design style (handle is offset)"
           },
           "radius": {
-            "value": "0rem",
+            "value": "0.125rem",
             "type": "other",
             "description": "for 100% roundness make equal to height md"
           }
@@ -76,6 +102,43 @@
           },
           "pressed": {
             "value": "0.9",
+            "type": "other"
+          }
+        },
+        "label": {
+          "symbol": {
+            "default": {
+              "value": "{app.fontSize.control.text.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{app.fontSize.control.text.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
+          }
+        },
+        "step": {
+          "height": {
+            "value": "0.125rem",
+            "type": "other"
+          },
+          "radius": {
+            "value": "0.0625rem",
+            "type": "other",
+            "description": "for 100% roundness make half of height"
+          },
+          "ratio": {
+            "value": "1",
             "type": "other"
           }
         }
