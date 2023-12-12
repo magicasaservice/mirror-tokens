@@ -174,21 +174,23 @@
         },
         "fg": {
           "default": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 98%, 0.98)",
+            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
             "type": "color"
           },
           "muted": {
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.98)",
             "type": "color"
           },
+          "subtle1": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%, 0.98)",
+            "type": "color"
+          },
           "link": {
             "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 60%)",
             "type": "color"
-          }
-        },
-        "shadow": {
-          "default": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 1)",
+          },
+          "inverted": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 2%, 0.98)",
             "type": "color"
           }
         }
@@ -457,6 +459,68 @@
             "default": {
               "type": "color",
               "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%, {config.color.info.alpha.focusRing.default})"
+            }
+          }
+        },
+        "tertiary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.surface.elevation.base.bg.default}"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{config.color.neutral.alpha.bg.default}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "tone": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.surface.elevation.base.bg.default}"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{config.color.neutral.alpha.bg.default}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}"
             }
           }
         }
