@@ -502,15 +502,15 @@
         },
         "fg": {
           "default": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 2%, 0.98)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 1)",
             "type": "color"
           },
           "muted": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.98)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.40)",
             "type": "color"
           },
           "subtle": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 80%, 0.98)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.2)",
             "type": "color"
           },
           "link": {
@@ -518,7 +518,7 @@
             "type": "color"
           },
           "inverted": {
-            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%, 1)",
             "type": "color"
           }
         },
