@@ -21,16 +21,26 @@
             "value": "{component.slider.config.track.height}",
             "type": "dimension"
           },
+          "border": {
+            "value": "{config.dimension.label.border}",
+            "type": "dimension"
+          },
+          "radius": {
+            "value": "{component.slider.config.track.radius}",
+            "type": "dimension"
+          }
+        },
+        "container": {
+          "height": {
+            "value": "{component.slider.config.container.height}",
+            "type": "dimension"
+          },
           "padding": {
             "value": "{component.slider.dimension.handle.height} * 0.5",
             "type": "dimension"
           },
           "gap": {
             "value": "{component.slider.dimension.handle.height} * 0.5",
-            "type": "dimension"
-          },
-          "radius": {
-            "value": "{component.slider.config.track.radius}",
             "type": "dimension"
           }
         },
@@ -41,6 +51,10 @@
           },
           "width": {
             "value": "{component.slider.config.handle.height} * {component.slider.config.handle.ratio}",
+            "type": "dimension"
+          },
+          "border": {
+            "value": "1px",
             "type": "dimension"
           },
           "radius": {
@@ -69,12 +83,6 @@
           },
           "radius": {
             "value": "{component.slider.config.track.radius} - {component.slider.config.step.padding}",
-            "type": "dimension"
-          }
-        },
-        "container": {
-          "height": {
-            "value": "{component.slider.config.container.height}",
             "type": "dimension"
           }
         }
@@ -162,12 +170,6 @@
               "type": "color"
             }
           },
-          "fg": {
-            "default": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
-            }
-          },
           "border": {
             "default": {
               "value": "transparent",
@@ -201,6 +203,14 @@
           "hidden": {
             "value": "transparent",
             "type": "color"
+          }
+        },
+        "label": {
+          "fg": {
+            "default": {
+              "value": "{app.color.surface.fg.default}",
+              "type": "color"
+            }
           }
         }
       }
