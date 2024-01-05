@@ -159,57 +159,115 @@
         }
       },
       "color": {
-        "track": {
-          "bg": {
+        "default": {
+          "track": {
+            "bg": {
+              "active": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              },
+              "inactive": {
+                "value": "{app.color.surface.fg.subtle}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          },
+          "handle": {
+            "bg": {
+              "default": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          },
+          "step": {
             "active": {
-              "value": "{app.color.surface.fg.default}",
+              "value": "{app.color.surface.elevation.base.bg.default}",
               "type": "color"
             },
             "inactive": {
-              "value": "{app.color.surface.fg.subtle}",
+              "value": "{app.color.surface.fg.default}",
               "type": "color"
-            }
-          },
-          "border": {
-            "default": {
+            },
+            "hidden": {
               "value": "transparent",
               "type": "color"
             }
+          },
+          "label": {
+            "fg": {
+              "default": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              }
+            }
           }
         },
-        "handle": {
-          "bg": {
-            "default": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
+        "disabled": {
+          "track": {
+            "bg": {
+              "active": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              },
+              "inactive": {
+                "value": "{app.color.surface.fg.subtle}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
             }
           },
-          "border": {
-            "default": {
+          "handle": {
+            "bg": {
+              "default": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          },
+          "step": {
+            "active": {
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "type": "color"
+            },
+            "inactive": {
+              "value": "{app.color.surface.fg.default}",
+              "type": "color"
+            },
+            "hidden": {
               "value": "transparent",
               "type": "color"
             }
-          }
-        },
-        "step": {
-          "active": {
-            "value": "{app.color.surface.elevation.base.bg.default}",
-            "type": "color"
           },
-          "inactive": {
-            "value": "{app.color.surface.fg.default}",
-            "type": "color"
-          },
-          "hidden": {
-            "value": "transparent",
-            "type": "color"
-          }
-        },
-        "label": {
-          "fg": {
-            "default": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
+          "label": {
+            "fg": {
+              "default": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              }
             }
           }
         }
