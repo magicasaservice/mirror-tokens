@@ -193,6 +193,12 @@
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 1)",
             "type": "color"
           }
+        },
+        "playground": {
+          "default": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 1)",
+            "type": "color"
+          }
         }
       },
       "component": {
@@ -508,7 +514,7 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
             },
             "onSolid": {
               "type": "color",

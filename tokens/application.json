@@ -506,7 +506,7 @@
             "type": "color"
           },
           "muted": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.40)",
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.4)",
             "type": "color"
           },
           "subtle": {
@@ -531,6 +531,12 @@
         "dimmer": {
           "default": {
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 1)",
+            "type": "color"
+          }
+        },
+        "playground": {
+          "default": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.55)",
             "type": "color"
           }
         }
@@ -646,11 +652,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 20%)"
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 4%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.translucent}, 75%, {config.color.grey.alpha.bg.default})"
+              "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.translucent}, 4%, {config.color.grey.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -742,7 +748,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 75%, {config.color.info.alpha.bg.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 50%, {config.color.info.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -756,7 +762,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 75%, {config.color.info.alpha.border.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 40%, {config.color.info.alpha.border.default})"
             }
           },
           "fg": {
