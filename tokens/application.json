@@ -563,7 +563,7 @@
             },
             "tone": {
               "type": "color",
-              "value": "{app.color.surface.elevation.base.bg.default}"
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 70%)"
             }
           },
           "border": {
@@ -660,7 +660,7 @@
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 20%)"
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 30%)"
             }
           },
           "border": {
@@ -840,7 +840,7 @@
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 15%)"
+              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 10%)"
             }
           },
           "border": {
@@ -884,7 +884,7 @@
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 20%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 15%)"
             }
           },
           "border": {
