@@ -859,8 +859,8 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
-                      "value": "0.2",
+                      "type": "alpha",
+                      "value": "{config.color.danger.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -872,8 +872,8 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
-                      "value": "0.4",
+                      "type": "alpha",
+                      "value": "{config.color.danger.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
