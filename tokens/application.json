@@ -563,7 +563,7 @@
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%)"
             }
           },
           "border": {
@@ -588,7 +588,7 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default},96%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "onSolid": {
               "type": "color",
@@ -660,23 +660,23 @@
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 30%)"
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 40%)"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 20%)"
+              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 4%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.translucent}, 14%, {config.color.grey.alpha.border.default})"
+              "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.translucent}, 4%, {config.color.grey.alpha.border.default})"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
             },
             "onSolid": {
               "type": "color",
@@ -688,7 +688,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
             }
           }
         },
