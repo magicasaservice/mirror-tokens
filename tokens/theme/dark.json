@@ -472,11 +472,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.surface.elevation.base.bg.default}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.surface.elevation.base.bg.default}",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -489,22 +489,22 @@
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 70%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "{app.color.surface.elevation.base.bg.default}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.surface.elevation.base.bg.default}",
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{config.color.neutral.alpha.bg.default}",
+                    "value": "{config.color.neutral.alpha.border.default} ",
                     "space": "hsl"
                   }
                 }
@@ -518,15 +518,15 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "onTone": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
             }
           }
         }
