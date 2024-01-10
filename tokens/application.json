@@ -626,7 +626,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.translucent}, 40%, 0.1)"
+              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.translucent}, 50%, {config.color.primary.alpha.border.hover})"
             }
           },
           "fg": {
@@ -762,7 +762,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 40%, {config.color.info.alpha.border.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.translucent}, 50%, {config.color.info.alpha.border.default})"
             }
           },
           "fg": {
