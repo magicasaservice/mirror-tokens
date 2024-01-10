@@ -700,15 +700,15 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 10%, {config.color.neutral.alpha.bg.default})"
-            },
-            "translucentSubtle": {
-              "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 10%, {config.color.neutral.alpha.bg.subtle})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 50%, {config.color.neutral.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 20%)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 16%)"
+            },
+            "translucentSubtle": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 50%, {config.color.neutral.alpha.bg.subtle})"
             }
           },
           "border": {
