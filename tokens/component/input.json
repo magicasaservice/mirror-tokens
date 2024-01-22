@@ -194,17 +194,33 @@
           }
         },
         "gap": {
-          "sm": {
-            "value": "{app.dimension.control.gap.sm}",
-            "type": "dimension"
+          "default": {
+            "sm": {
+              "value": "{app.dimension.control.gap.sm}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.gap.md}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.gap.lg}",
+              "type": "dimension"
+            }
           },
-          "md": {
-            "value": "{app.dimension.control.gap.md}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.gap.lg}",
-            "type": "dimension"
+          "label": {
+            "sm": {
+              "value": "{app.dimension.control.gap.xs}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.gap.sm}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.gap.md}",
+              "type": "dimension"
+            }
           }
         },
         "radius": {
@@ -333,7 +349,7 @@
         },
         "text": {
           "default": {
-            "value": "{app.fontSize.control.text.md}",
+            "value": "{app.fontSize.control.text.sm}",
             "type": "other"
           },
           "step": {
@@ -348,6 +364,12 @@
           },
           "step": {
             "value": "0rem",
+            "type": "other"
+          }
+        },
+        "gap": {
+          "default": {
+            "value": "0.125rem",
             "type": "other"
           }
         }
