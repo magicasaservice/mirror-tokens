@@ -239,7 +239,7 @@
         },
         "symbol": {
           "sm": {
-            "value": "{component.input.fontSize.symbol.sm.default}",
+            "value": "{component.input.fontSize.symbol.sm}",
             "type": "dimension"
           },
           "md": {
@@ -286,6 +286,20 @@
             "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.default.step}",
             "type": "fontSizes"
           }
+        },
+        "label": {
+          "sm": {
+            "value": "{component.input.fontSize.text.md} - {component.input.config.text.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.label.text.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.input.fontSize.text.md} + {component.input.config.text.step}",
+            "type": "fontSizes"
+          }
         }
       },
       "letterSpacing": {
@@ -302,7 +316,7 @@
       },
       "config": {
         "symbol": {
-          "only": {
+          "icon": {
             "step": {
               "value": "0.25rem",
               "type": "other"
@@ -322,6 +336,16 @@
         "text": {
           "default": {
             "value": "{app.fontSize.control.text.md}",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.125rem",
+            "type": "other"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "{app.fontSize.label.text.md}",
             "type": "other"
           },
           "step": {
