@@ -3,20 +3,16 @@
     "input": {
       "typography": {
         "text": {
-          "default": {
-            "value": "{app.typography.control.text.default}",
-            "type": "typography"
-          }
+          "value": "{app.typography.control.text.default}",
+          "type": "typography"
+        },
+        "label": {
+          "value": "{app.typography.label.text.default}",
+          "type": "typography"
         },
         "symbol": {
-          "default": {
-            "value": "{app.typography.control.symbol.default}",
-            "type": "typography"
-          },
-          "only": {
-            "value": "{app.typography.control.symbol.text}",
-            "type": "typography"
-          }
+          "value": "{app.typography.control.symbol.default}",
+          "type": "typography"
         }
       },
       "color": {
@@ -26,50 +22,25 @@
               "value": "{app.color.component.neutral.border.translucent}",
               "type": "color"
             },
-            "hover": {
+            "focus": {
               "value": "{app.color.component.info.border.solid}",
+              "type": "color",
+              "$extensions": {}
+            },
+            "focusRing": {
+              "value": "{app.color.component.focus.focusRing.default}",
               "type": "color",
               "$extensions": {}
             }
           },
           "fg": {
-            "text": {
-              "default": {
-                "value": "{app.color.component.neutral.fg.solid}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.neutral.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.grey.darken.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+            "default": {
+              "value": "{app.color.component.neutral.fg.solid}",
+              "type": "color"
             },
             "label": {
-              "default": {
-                "value": "{app.color.component.neutral.fg.label}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.neutral.fg.label}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.grey.darken.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "value": "{app.color.component.neutral.fg.label}",
+              "type": "color"
             }
           },
           "bg": {
@@ -272,11 +243,11 @@
             "type": "dimension"
           },
           "md": {
-            "value": "{component.input.fontSize.symbol.md.default}",
+            "value": "{component.input.fontSize.symbol.md}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.input.fontSize.symbol.lg.default}",
+            "value": "{component.input.fontSize.symbol.lg}",
             "type": "dimension"
           }
         },
@@ -289,10 +260,6 @@
       },
       "fontSize": {
         "text": {
-          "xs": {
-            "value": "{component.input.fontSize.text.sm} - {component.input.config.text.step}",
-            "type": "fontSizes"
-          },
           "sm": {
             "value": "{component.input.fontSize.text.md} - {component.input.config.text.step}",
             "type": "fontSizes"
@@ -308,44 +275,16 @@
         },
         "symbol": {
           "sm": {
-            "default": {
-              "value": "{component.input.fontSize.symbol.md.default} - {component.input.config.symbol.default.step}",
-              "type": "fontSizes"
-            },
-            "only": {
-              "value": "{component.input.fontSize.symbol.sm.default} + {component.input.config.symbol.only.step}",
-              "type": "fontSizes"
-            }
+            "value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.default.step}",
+            "type": "fontSizes"
           },
           "md": {
-            "default": {
-              "value": "{component.input.config.symbol.default.default}",
-              "type": "fontSizes"
-            },
-            "only": {
-              "value": "{component.input.fontSize.symbol.md.default} + {component.input.config.symbol.only.step}",
-              "type": "fontSizes"
-            }
+            "value": "{component.input.config.symbol.default.default}",
+            "type": "fontSizes"
           },
           "lg": {
-            "default": {
-              "value": "{component.input.fontSize.symbol.md.default} + {component.input.config.symbol.default.step}",
-              "type": "fontSizes"
-            },
-            "only": {
-              "value": "{component.input.fontSize.symbol.lg.default} + {component.input.config.symbol.only.step}",
-              "type": "fontSizes"
-            }
-          },
-          "xs": {
-            "default": {
-              "value": "{component.input.fontSize.symbol.sm.default} - {component.input.config.symbol.default.step}",
-              "type": "fontSizes"
-            },
-            "only": {
-              "value": "{component.input.fontSize.symbol.xs.default} + {component.input.config.symbol.only.step}",
-              "type": "fontSizes"
-            }
+            "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.default.step}",
+            "type": "fontSizes"
           }
         }
       },
