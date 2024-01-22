@@ -289,15 +289,15 @@
         },
         "label": {
           "sm": {
-            "value": "{component.input.fontSize.text.md} - {component.input.config.text.step}",
+            "value": "{component.input.fontSize.label.md} - {component.input.config.label.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.label.text.md}",
+            "value": "{component.input.config.label.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.input.fontSize.text.md} + {component.input.config.text.step}",
+            "value": "{component.input.fontSize.label.md} + {component.input.config.label.step}",
             "type": "fontSizes"
           }
         }
@@ -349,14 +349,14 @@
             "type": "other"
           },
           "step": {
-            "value": "0.125rem",
+            "value": "0",
             "type": "other"
           }
         }
       }
     }
   },
-  "leading-trim": {
+  "leading-reset": {
     "value": "100%",
     "type": "lineHeights"
   }
