@@ -13,7 +13,7 @@
             "value": "{app.typography.control.symbol.default}",
             "type": "typography"
           },
-          "only": {
+          "icon": {
             "value": "{app.typography.control.symbol.text}",
             "type": "typography"
           }
@@ -1251,41 +1251,41 @@
         "symbol": {
           "sm": {
             "default": {
-              "value": "{component.input.fontSize.symbol.sm.default}",
+              "value": "{component.button.fontSize.symbol.sm.default}",
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.input.dimension.symbol.sm} + {component.input.config.symbol.icon.step}",
+              "value": "{component.button.dimension.symbol.sm.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.input.fontSize.symbol.md}",
+              "value": "{component.button.fontSize.symbol.md.default}",
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.input.dimension.symbol.md} + {component.input.config.symbol.icon.step}",
+              "value": "{component.button.dimension.symbol.md.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.input.fontSize.symbol.lg}",
+              "value": "{component.button.fontSize.symbol.lg.default}",
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.input.dimension.symbol.lg} + {component.input.config.symbol.icon.step}",
+              "value": "{component.button.dimension.symbol.lg.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           },
           "xs": {
             "default": {
-              "value": "{component.input.fontSize.symbol.xs.default}",
+              "value": "{component.button.fontSize.symbol.xs.default}",
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.input.dimension.symbol.xs.default} + {component.input.config.symbol.icon.step}",
+              "value": "{component.button.dimension.symbol.xs.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           }
@@ -1300,60 +1300,60 @@
       "fontSize": {
         "text": {
           "xs": {
-            "value": "{component.input.fontSize.text.sm} - {component.input.config.text.step}",
+            "value": "{component.button.fontSize.text.sm} - {component.button.config.text.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.input.fontSize.text.md} - {component.input.config.text.step}",
+            "value": "{component.button.fontSize.text.md} - {component.button.config.text.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.input.config.text.default}",
+            "value": "{component.button.config.text.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.input.fontSize.text.md} + {component.input.config.text.step}",
+            "value": "{component.button.fontSize.text.md} + {component.button.config.text.step}",
             "type": "fontSizes"
           }
         },
         "symbol": {
           "sm": {
             "default": {
-              "value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.default.step}",
+              "value": "{component.button.fontSize.symbol.md.default} - {component.button.config.symbol.default.step}",
               "type": "fontSizes"
             },
-            "only": {
-              "value": "{component.input.fontSize.symbol.sm.default} + {component.input.config.symbol.icon.step}",
+            "icon": {
+              "value": "{component.button.fontSize.symbol.sm.default} + {component.button.config.symbol.icon.step}",
               "type": "fontSizes"
             }
           },
           "md": {
             "default": {
-              "value": "{component.input.config.symbol.default.default}",
+              "value": "{component.button.config.symbol.default.default}",
               "type": "fontSizes"
             },
-            "only": {
-              "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.icon.step}",
+            "icon": {
+              "value": "{component.button.fontSize.symbol.md.default} + {component.button.config.symbol.icon.step}",
               "type": "fontSizes"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.default.step}",
+              "value": "{component.button.fontSize.symbol.md.default} + {component.button.config.symbol.default.step}",
               "type": "fontSizes"
             },
-            "only": {
-              "value": "{component.input.fontSize.symbol.lg} + {component.input.config.symbol.icon.step}",
+            "icon": {
+              "value": "{component.button.fontSize.symbol.lg.default} + {component.button.config.symbol.icon.step}",
               "type": "fontSizes"
             }
           },
           "xs": {
             "default": {
-              "value": "{component.input.fontSize.symbol.sm.default} - {component.input.config.symbol.default.step}",
+              "value": "{component.button.fontSize.symbol.sm.default} - {component.button.config.symbol.default.step}",
               "type": "fontSizes"
             },
-            "only": {
-              "value": "{component.input.fontSize.symbol.xs.default} + {component.input.config.symbol.icon.step}",
+            "icon": {
+              "value": "{component.button.fontSize.symbol.xs.default} + {component.button.config.symbol.icon.step}",
               "type": "fontSizes"
             }
           }
@@ -1373,7 +1373,7 @@
       },
       "config": {
         "symbol": {
-          "only": {
+          "icon": {
             "step": {
               "value": "0.25rem",
               "type": "other"
