@@ -71,6 +71,23 @@
                 }
               }
             }
+          },
+          "bg": {
+            "default": {
+              "default": {
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.01",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "danger": {
@@ -176,10 +193,6 @@
       },
       "dimension": {
         "height": {
-          "xs": {
-            "value": "{app.dimension.control.height.xs}",
-            "type": "dimension"
-          },
           "sm": {
             "value": "{app.dimension.control.height.sm}",
             "type": "dimension"
@@ -194,10 +207,6 @@
           }
         },
         "padding": {
-          "xs": {
-            "value": "{app.dimension.control.padding.xs}",
-            "type": "dimension"
-          },
           "sm": {
             "value": "{app.dimension.control.padding.sm}",
             "type": "dimension"
@@ -216,10 +225,6 @@
           }
         },
         "gap": {
-          "xs": {
-            "value": "{app.dimension.control.gap.xs}",
-            "type": "dimension"
-          },
           "sm": {
             "value": "{app.dimension.control.gap.sm}",
             "type": "dimension"
@@ -234,10 +239,6 @@
           }
         },
         "radius": {
-          "xs": {
-            "value": "{app.dimension.control.radius.xs}",
-            "type": "dimension"
-          },
           "sm": {
             "value": "{app.dimension.control.radius.sm}",
             "type": "dimension"
@@ -252,10 +253,6 @@
           }
         },
         "border": {
-          "xs": {
-            "value": "{app.dimension.control.border.xs}",
-            "type": "dimension"
-          },
           "sm": {
             "value": "{app.dimension.control.border.sm}",
             "type": "dimension"
@@ -271,44 +268,16 @@
         },
         "symbol": {
           "sm": {
-            "default": {
-              "value": "{component.input.fontSize.symbol.sm.default}",
-              "type": "dimension"
-            },
-            "icon": {
-              "value": "{component.input.dimension.symbol.sm.default} + {component.input.config.symbol.only.step}",
-              "type": "dimension"
-            }
+            "value": "{component.input.fontSize.symbol.sm.default}",
+            "type": "dimension"
           },
           "md": {
-            "default": {
-              "value": "{component.input.fontSize.symbol.md.default}",
-              "type": "dimension"
-            },
-            "icon": {
-              "value": "{component.input.dimension.symbol.md.default} + {component.input.config.symbol.only.step}",
-              "type": "dimension"
-            }
+            "value": "{component.input.fontSize.symbol.md.default}",
+            "type": "dimension"
           },
           "lg": {
-            "default": {
-              "value": "{component.input.fontSize.symbol.lg.default}",
-              "type": "dimension"
-            },
-            "icon": {
-              "value": "{component.input.dimension.symbol.lg.default} + {component.input.config.symbol.only.step}",
-              "type": "dimension"
-            }
-          },
-          "xs": {
-            "default": {
-              "value": "{component.input.fontSize.symbol.xs.default}",
-              "type": "dimension"
-            },
-            "icon": {
-              "value": "{component.input.dimension.symbol.xs.default} + {component.input.config.symbol.only.step}",
-              "type": "dimension"
-            }
+            "value": "{component.input.fontSize.symbol.lg.default}",
+            "type": "dimension"
           }
         },
         "blur": {
