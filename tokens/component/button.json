@@ -20,6 +20,272 @@
         }
       },
       "color": {
+        "accent": {
+          "solid": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              },
+              "spinner": {
+                "value": "#fff",
+                "type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.accent.alpha.bg.hover} ",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.accent.alpha.bg.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "bg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.accent.alpha.bg.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.accent.alpha.bg.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.accent.border.translucent}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.border.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.accent.alpha.border.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.accent.border.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{config.color.accent.alpha.border.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "plain": {
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.tone}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.tone}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTone}",
+                "type": "color"
+              }
+            }
+          }
+        },
         "primary": {
           "solid": {
             "bg": {
@@ -34,272 +300,6 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
-              },
-              "spinner": {
-                "value": "#fff",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "ghost": {
-            "bg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "outline": {
-            "border": {
-              "default": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.primary.alpha.border.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.primary.alpha.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "plain": {
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "tone": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.primary.fg.onTone}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "secondary": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.secondary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
                       "value": "{config.color.grey.darken.hover} ",
                       "space": "hsl"
                     }
@@ -307,7 +307,7 @@
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.bg.solid}",
+                "value": "{app.color.component.primary.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -322,7 +322,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
+                "value": "{app.color.component.primary.fg.onSolid}",
                 "type": "color"
               }
             }
@@ -330,11 +330,11 @@
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -347,7 +347,7 @@
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -362,7 +362,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -374,7 +374,7 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -387,7 +387,7 @@
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.bg.translucent}",
+                "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -402,7 +402,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -410,11 +410,11 @@
           "outline": {
             "border": {
               "default": {
-                "value": "{app.color.component.secondary.border.translucent}",
+                "value": "{app.color.component.primary.border.translucent}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.border.translucent}",
+                "value": "{app.color.component.primary.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -427,7 +427,7 @@
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.border.translucent}",
+                "value": "{app.color.component.primary.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -442,11 +442,11 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -459,7 +459,7 @@
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -476,11 +476,11 @@
           "plain": {
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -493,7 +493,7 @@
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.fg.solid}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -510,11 +510,11 @@
           "tone": {
             "bg": {
               "default": {
-                "value": "{app.color.component.secondary.bg.tone}",
+                "value": "{app.color.component.primary.bg.tone}",
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.secondary.bg.tone}",
+                "value": "{app.color.component.primary.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -527,7 +527,7 @@
                 }
               },
               "active": {
-                "value": "{app.color.component.secondary.bg.tone}",
+                "value": "{app.color.component.primary.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -542,7 +542,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onTone}",
+                "value": "{app.color.component.primary.fg.onTone}",
                 "type": "color"
               }
             }

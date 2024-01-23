@@ -16,6 +16,176 @@
           "solid": {
             "bg": {
               "default": {
+                "value": "{app.color.component.accent.bg.solid}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "{config.color.accent.lighten.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.primary.fg.onSolid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.primary.fg.onTranslucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
+          },
+          "outline": {
+            "bg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "transparent",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.solid}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "{app.color.component.accent.border.solid}",
+                "type": "color"
+              },
+              "onSolid": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              },
+              "onTranslucent": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "solid": {
+            "bg": {
+              "default": {
                 "value": "{app.color.component.primary.bg.solid}",
                 "type": "color"
               },
@@ -38,13 +208,13 @@
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.primary.fg.solid}",
+                "value": "{app.color.component.secondary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "{config.color.primary.lighten.default}",
+                      "value": "{config.color.grey.lighten.default}",
                       "space": "hsl"
                     }
                   }
@@ -73,26 +243,26 @@
                 "type": "color"
               },
               "onSolid": {
-                "value": "{app.color.component.primary.fg.onSolid}",
+                "value": "{app.color.component.info.fg.onSolid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.2",
+                      "value": "0.15",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "onTranslucent": {
-                "value": "{app.color.component.primary.fg.solid}",
+                "value": "{app.color.component.secondary.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.2",
+                      "value": "0.15",
                       "space": "hsl"
                     }
                   }
@@ -109,13 +279,13 @@
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.primary.fg.onTranslucent}",
+                "value": "{app.color.component.secondary.fg.onTranslucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.default}",
+                      "value": "{config.color.grey.darken.default}",
                       "space": "hsl"
                     }
                   }
@@ -177,176 +347,6 @@
               },
               "onTranslucent": {
                 "value": "{app.color.component.primary.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "secondary": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.solid}",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "{app.color.component.secondary.fg.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "{app.color.component.secondary.fg.solid}",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "{app.color.component.secondary.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.grey.lighten.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "transparent",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.translucent}",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "{app.color.component.info.fg.onSolid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.15",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "onTranslucent": {
-                "value": "{app.color.component.secondary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.15",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.grey.darken.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "transparent",
-                "type": "color"
-              }
-            }
-          },
-          "outline": {
-            "bg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "transparent",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.solid}",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
-                "type": "color"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "{app.color.component.secondary.border.solid}",
-                "type": "color"
-              },
-              "onSolid": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
-                "type": "color"
-              },
-              "onTranslucent": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
                 "type": "color"
               }
             }

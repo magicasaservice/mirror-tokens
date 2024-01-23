@@ -12,6 +12,36 @@
           "solid": {
             "bg": {
               "default": {
+                "value": "{app.color.component.accent.bg.solid}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "solid": {
+            "bg": {
+              "default": {
                 "value": "{app.color.component.primary.bg.solid}",
                 "type": "color"
               }
@@ -33,36 +63,6 @@
             "fg": {
               "default": {
                 "value": "{app.color.component.primary.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "secondary": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.solid}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.translucent}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -168,7 +168,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -191,7 +191,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
+                "value": "{app.color.component.primary.fg.onTranslucent}",
                 "type": "color"
               }
             }
