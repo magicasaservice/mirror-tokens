@@ -88,7 +88,7 @@
           "padding": {
             "advanced": {
               "default": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
+                "value": "{app.dimension.control.padding.md} * 0.25",
                 "type": "dimension"
               },
               "cta": {
@@ -140,17 +140,17 @@
           "radius": {
             "advanced": {
               "default": {
-                "value": "{app.dimension.control.radius.xs} + {component.message.dimension.box.padding.advanced.default}",
+                "value": "{app.dimension.control.radius.sm} + {component.message.dimension.box.padding.advanced.default}",
                 "type": "dimension"
               },
               "media": {
-                "value": "{app.dimension.control.radius.md} * 0.5",
+                "value": "{app.dimension.control.radius.md} * 0.75",
                 "type": "dimension"
               }
             },
             "simple": {
               "default": {
-                "value": "{app.dimension.control.radius.xs} + {component.message.dimension.box.padding.advanced.default}",
+                "value": "{app.dimension.control.radius.sm} + {component.message.dimension.box.padding.advanced.default}",
                 "type": "dimension"
               },
               "media": {
