@@ -6,10 +6,6 @@
           "value": "{app.typography.control.text.text}",
           "type": "typography"
         },
-        "advanced": {
-          "value": "{app.typography.control.text.strong}",
-          "type": "typography"
-        },
         "symbol": {
           "value": "{app.typography.control.symbol.default}",
           "type": "typography"
@@ -92,7 +88,7 @@
           "padding": {
             "advanced": {
               "default": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
+                "value": "{app.dimension.control.padding.md} * 0.5",
                 "type": "dimension"
               },
               "cta": {
@@ -100,15 +96,15 @@
                 "type": "dimension"
               },
               "promise": {
-                "value": "{app.dimension.control.padding.md} * 1",
+                "value": "{app.dimension.control.padding.md} * 0.5",
                 "type": "dimension"
               },
               "symbol": {
-                "value": "{app.dimension.control.padding.md} * 1",
+                "value": "{app.dimension.control.padding.md} * 0.5",
                 "type": "dimension"
               },
               "media": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
+                "value": "{app.dimension.control.padding.md} * 0.25",
                 "type": "dimension"
               }
             },
@@ -144,17 +140,17 @@
           "radius": {
             "advanced": {
               "default": {
-                "value": "{app.dimension.control.radius.md} + {component.message.dimension.box.padding.advanced.default}",
+                "value": "{app.dimension.control.radius.xs} + {component.message.dimension.box.padding.advanced.default}",
                 "type": "dimension"
               },
               "media": {
-                "value": "{app.dimension.control.radius.xs}",
+                "value": "{app.dimension.control.radius.md} * 0.5",
                 "type": "dimension"
               }
             },
             "simple": {
               "default": {
-                "value": "{app.dimension.control.radius.md} + {component.message.dimension.box.padding.advanced.default}",
+                "value": "{app.dimension.control.radius.xs} + {component.message.dimension.box.padding.advanced.default}",
                 "type": "dimension"
               },
               "media": {
@@ -173,7 +169,11 @@
         "text": {
           "padding": {
             "default": {
-              "value": "{app.dimension.control.padding.md}",
+              "value": "{app.dimension.control.padding.sm}",
+              "type": "dimension"
+            },
+            "y": {
+              "value": "{app.dimension.control.padding.md} * 0.25",
               "type": "dimension"
             }
           }
@@ -194,10 +194,20 @@
           "value": "{app.fontSize.control.text.xs}",
           "type": "fontSizes"
         },
+        "advanced": {
+          "value": "{app.fontSize.label.text.lg}",
+          "type": "fontSizes"
+        },
         "symbol": {
           "value": "{app.fontSize.control.text.xl}",
           "type": "fontSizes"
         }
+      }
+    },
+    "fontWeight": {
+      "callout": {
+        "value": "{config.fontWeight.semibold}",
+        "type": "fontWeights"
       }
     }
   }
