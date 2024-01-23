@@ -111,6 +111,39 @@
               "type": "color"
             }
           }
+        },
+        "disabled": {
+          "border": {
+            "default": {
+              "value": "{app.color.component.neutral.border.translucent}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.neutral.fg.solid}",
+              "type": "color"
+            },
+            "label": {
+              "value": "{app.color.component.neutral.fg.label}",
+              "type": "color"
+            }
+          },
+          "bg": {
+            "default": {
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.01",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "dimension": {
