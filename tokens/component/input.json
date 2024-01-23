@@ -25,10 +25,6 @@
             "focus": {
               "value": "{app.color.component.info.border.solid}",
               "type": "color"
-            },
-            "focusRing": {
-              "value": "{app.color.component.focus.focusRing.default}",
-              "type": "color"
             }
           },
           "fg": {
@@ -43,119 +39,66 @@
           },
           "bg": {
             "default": {
-              "default": {
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.01",
-                      "space": "hsl"
-                    }
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.01",
+                    "space": "hsl"
                   }
                 }
               }
             }
+          },
+          "focusRing": {
+            "default": {
+              "value": "{app.color.component.focus.focusRing.default}",
+              "type": "color"
+            }
           }
         },
         "danger": {
-          "outline": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.danger.bg.translucent}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.danger.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.danger.alpha.bg.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.danger.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.danger.alpha.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+          "border": {
+            "default-copy": {
+              "value": "{app.color.component.danger.border.solid}",
+              "type": "color"
             },
-            "border": {
-              "default": {
-                "value": "{app.color.component.danger.border.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.danger.border.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.danger.alpha.border.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.danger.border.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.danger.alpha.border.active}",
-                      "space": "hsl"
-                    }
+            "focus": {
+              "value": "{app.color.component.info.border.solid}",
+              "type": "color"
+            }
+          },
+          "bg": {
+            "default1": {
+              "value": "{app.color.component.danger.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{config.color.danger.alpha.bg.light}",
+                    "space": "hsl"
                   }
                 }
               }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.neutral.fg.solid}",
+              "type": "color"
             },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.danger.fg.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.danger.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.danger.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{app.color.component.danger.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.danger.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+            "label": {
+              "value": "{app.color.component.danger.fg.solid}",
+              "type": "color"
+            }
+          },
+          "focusRing": {
+            "default": {
+              "value": "{app.color.component.focus.focusRing.default}",
+              "type": "color"
             }
           }
         }
@@ -386,7 +329,7 @@
               "type": "other"
             },
             "step": {
-              "value": "0.125rem",
+              "value": "0.0625rem",
               "type": "other"
             }
           }
