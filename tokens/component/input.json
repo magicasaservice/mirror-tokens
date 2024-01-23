@@ -21,10 +21,6 @@
             "default": {
               "value": "{app.color.component.neutral.border.translucent}",
               "type": "color"
-            },
-            "focus": {
-              "value": "{app.color.component.info.border.solid}",
-              "type": "color"
             }
           },
           "fg": {
@@ -51,6 +47,14 @@
                 }
               }
             }
+          }
+        },
+        "focus": {
+          "border": {
+            "default": {
+              "value": "{app.color.component.info.border.solid}",
+              "type": "color"
+            }
           },
           "focusRing": {
             "default": {
@@ -61,12 +65,8 @@
         },
         "danger": {
           "border": {
-            "default-copy": {
+            "default": {
               "value": "{app.color.component.danger.border.solid}",
-              "type": "color"
-            },
-            "focus": {
-              "value": "{app.color.component.info.border.solid}",
               "type": "color"
             }
           },
@@ -92,12 +92,6 @@
             },
             "label": {
               "value": "{app.color.component.danger.fg.solid}",
-              "type": "color"
-            }
-          },
-          "focusRing": {
-            "default": {
-              "value": "{app.color.component.focus.focusRing.default}",
               "type": "color"
             }
           }
