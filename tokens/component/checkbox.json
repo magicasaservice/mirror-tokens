@@ -90,6 +90,21 @@
         },
         "checked": {
           "default": {
+            "border": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "active": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{app.color.component.focus.border.default}",
+                "type": "color",
+                "$extensions": {}
+              }
+            },
             "bg": {
               "default": {
                 "value": "{app.color.component.accent.bg.solid}",
@@ -109,16 +124,6 @@
                 }
               }
             },
-            "border": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "active": {
-                "value": "transparent",
-                "type": "color"
-              }
-            },
             "fg": {
               "default": {
                 "value": "{app.color.component.accent.fg.onSolid}",
@@ -133,7 +138,7 @@
           "disabled": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.translucent}",
+                "value": "{app.color.component.disabled.bg.solid}",
                 "type": "color"
               }
             },
@@ -314,14 +319,7 @@
       "boxShadow": {
         "focusRing": {
           "default": {
-            "value": {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "4px",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            },
+            "value": "{app.boxShadow.focusRing.default}",
             "type": "boxShadow"
           }
         }
