@@ -2,17 +2,33 @@
   "component": {
     "input": {
       "typography": {
-        "text": {
-          "value": "{app.typography.control.text.text}",
-          "type": "typography"
+        "advanced": {
+          "input": {
+            "value": "{app.typography.control.text.text}",
+            "type": "typography"
+          },
+          "label": {
+            "value": "{app.typography.label.text.default}",
+            "type": "typography"
+          },
+          "symbol": {
+            "value": "{app.typography.control.symbol.default}",
+            "type": "typography"
+          }
         },
-        "label": {
-          "value": "{app.typography.label.text.default}",
-          "type": "typography"
-        },
-        "symbol": {
-          "value": "{app.typography.control.symbol.default}",
-          "type": "typography"
+        "simple": {
+          "input": {
+            "value": "{app.typography.control.text.text}",
+            "type": "typography"
+          },
+          "label": {
+            "value": "{app.typography.control.text.text}",
+            "type": "typography"
+          },
+          "symbol": {
+            "value": "{app.typography.control.symbol.default}",
+            "type": "typography"
+          }
         }
       },
       "color": {
@@ -222,9 +238,9 @@
         }
       },
       "fontSize": {
-        "text": {
+        "input": {
           "sm": {
-            "value": "{component.input.fontSize.text.md} - {component.input.config.text.step}",
+            "value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
             "type": "fontSizes"
           },
           "md": {
@@ -232,7 +248,7 @@
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.input.fontSize.text.md} + {component.input.config.text.step}",
+            "value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
             "type": "fontSizes"
           }
         },
@@ -251,17 +267,33 @@
           }
         },
         "label": {
-          "sm": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
+          "advanced": {
+            "sm": {
+              "value": "{app.fontSize.label.text.sm}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{app.fontSize.label.text.sm}",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{app.fontSize.label.text.sm}",
+              "type": "fontSizes"
+            }
           },
-          "md": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
+          "simple": {
+            "sm": {
+              "value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{component.input.config.text.default}",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
+              "type": "fontSizes"
+            }
           }
         }
       },
