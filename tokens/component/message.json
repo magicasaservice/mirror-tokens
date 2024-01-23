@@ -6,6 +6,10 @@
           "value": "{app.typography.control.text.text}",
           "type": "typography"
         },
+        "advanced": {
+          "value": "{app.typography.control.text.strong}",
+          "type": "typography"
+        },
         "symbol": {
           "value": "{app.typography.control.symbol.default}",
           "type": "typography"
@@ -86,25 +90,49 @@
       "dimension": {
         "box": {
           "padding": {
-            "default": {
-              "value": "{app.dimension.control.padding.md} * 0.25",
-              "type": "dimension"
+            "advanced": {
+              "default": {
+                "value": "{app.dimension.control.padding.md} * 0.25",
+                "type": "dimension"
+              },
+              "cta": {
+                "value": "{app.dimension.control.padding.md} * 0.5",
+                "type": "dimension"
+              },
+              "promise": {
+                "value": "{app.dimension.control.padding.md} * 1",
+                "type": "dimension"
+              },
+              "symbol": {
+                "value": "{app.dimension.control.padding.md} * 1",
+                "type": "dimension"
+              },
+              "media": {
+                "value": "{app.dimension.control.padding.md} * 0.5",
+                "type": "dimension"
+              }
             },
-            "cta": {
-              "value": "{app.dimension.control.padding.md} * 0.5",
-              "type": "dimension"
-            },
-            "promise": {
-              "value": "{app.dimension.control.padding.md} * 0.75",
-              "type": "dimension"
-            },
-            "symbol": {
-              "value": "{app.dimension.control.padding.md} * 0.75",
-              "type": "dimension"
-            },
-            "media": {
-              "value": "{app.dimension.control.padding.md} * 0.5",
-              "type": "dimension"
+            "simple": {
+              "default": {
+                "value": "{app.dimension.control.padding.md} * 0.25",
+                "type": "dimension"
+              },
+              "cta": {
+                "value": "{app.dimension.control.padding.md} * 0.25",
+                "type": "dimension"
+              },
+              "promise": {
+                "value": "{app.dimension.control.padding.md} * 0.75",
+                "type": "dimension"
+              },
+              "symbol": {
+                "value": "{app.dimension.control.padding.md} * 0.75",
+                "type": "dimension"
+              },
+              "media": {
+                "value": "{app.dimension.control.padding.md} * 0",
+                "type": "dimension"
+              }
             }
           },
           "gap": {
@@ -114,13 +142,25 @@
             }
           },
           "radius": {
-            "default": {
-              "value": "{app.dimension.control.radius.md} + {component.message.dimension.box.padding.default}",
-              "type": "dimension"
+            "advanced": {
+              "default": {
+                "value": "{app.dimension.control.radius.md} + {component.message.dimension.box.padding.advanced.default}",
+                "type": "dimension"
+              },
+              "media": {
+                "value": "{app.dimension.control.radius.xs}",
+                "type": "dimension"
+              }
             },
-            "media": {
-              "value": "{app.dimension.control.radius.xs}",
-              "type": "dimension"
+            "simple": {
+              "default": {
+                "value": "{app.dimension.control.radius.md} + {component.message.dimension.box.padding.advanced.default}",
+                "type": "dimension"
+              },
+              "media": {
+                "value": "{app.dimension.control.radius.md}",
+                "type": "dimension"
+              }
             }
           },
           "blur": {
