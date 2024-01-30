@@ -33,6 +33,21 @@
       },
       "color": {
         "default": {
+          "bg": {
+            "default": {
+              "value": "{app.color.surface.elevation.base.bg.default}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.01",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
           "border": {
             "default": {
               "value": "{app.color.component.neutral.border.translucent}",
@@ -47,21 +62,6 @@
             "label": {
               "value": "{app.color.component.neutral.fg.label}",
               "type": "color"
-            }
-          },
-          "bg": {
-            "default": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.01",
-                    "space": "hsl"
-                  }
-                }
-              }
             }
           }
         },
@@ -80,14 +80,8 @@
           }
         },
         "danger": {
-          "border": {
-            "default": {
-              "value": "{app.color.component.danger.border.solid}",
-              "type": "color"
-            }
-          },
           "bg": {
-            "default1": {
+            "default": {
               "value": "{app.color.component.danger.bg.translucent}",
               "type": "color",
               "$extensions": {
@@ -101,7 +95,17 @@
               }
             }
           },
+          "border": {
+            "default": {
+              "value": "{app.color.component.danger.border.solid}",
+              "type": "color"
+            }
+          },
           "fg": {
+            "default": {
+              "value": "{app.color.component.danger.fg.solid}",
+              "type": "color"
+            },
             "label": {
               "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
@@ -109,6 +113,21 @@
           }
         },
         "disabled": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.disabled.bg.translucent}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{config.color.grey.alpha.bg.subtle}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
           "border": {
             "default": {
               "value": "{app.color.component.disabled.border.translucent}",
@@ -123,21 +142,6 @@
             "label": {
               "value": "{app.color.component.disabled.fg.solid}",
               "type": "color"
-            }
-          },
-          "bg": {
-            "default": {
-              "value": "{app.color.component.disabled.bg.translucent}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{config.color.grey.alpha.bg.subtle}",
-                    "space": "hsl"
-                  }
-                }
-              }
             }
           }
         }
@@ -190,21 +194,7 @@
         "gap": {
           "default": {
             "sm": {
-              "value": "{component.input.dimension.gap.default.md} - {component.input.config.gap.default.step}",
-              "type": "dimension"
-            },
-            "md": {
-              "value": "{component.input.config.gap.default.default}",
-              "type": "dimension"
-            },
-            "lg": {
-              "value": "{component.input.dimension.gap.default.md} + {component.input.config.gap.default.step}",
-              "type": "dimension"
-            }
-          },
-          "label": {
-            "sm": {
-              "value": "{component.input.dimension.gap.label.md} - {component.input.config.gap.label.step}",
+              "value": "{component.input.dimension.gap.default.md} - {component.input.config.gap.label.step}",
               "type": "dimension"
             },
             "md": {
@@ -212,7 +202,7 @@
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.input.dimension.gap.label.md} + {component.input.config.gap.label.step}",
+              "value": "{component.input.dimension.gap.default.md} + {component.input.config.gap.label.step}",
               "type": "dimension"
             }
           }
