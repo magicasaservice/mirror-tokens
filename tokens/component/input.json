@@ -194,6 +194,20 @@
         "gap": {
           "default": {
             "sm": {
+              "value": "{component.input.dimension.gap.default.md} - {component.input.config.gap.default.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.input.config.gap.default.default}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.input.dimension.gap.default.md} + {component.input.config.gap.default.step}",
+              "type": "dimension"
+            }
+          },
+          "label": {
+            "sm": {
               "value": "{component.input.dimension.gap.default.md} - {component.input.config.gap.label.step}",
               "type": "dimension"
             },
