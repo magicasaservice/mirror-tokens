@@ -4,6 +4,29 @@
       "color": {
         "unchecked": {
           "default": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.neutral.border.translucent}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "focus": {
+                "value": "{app.color.component.focus.border.default}",
+                "type": "color"
+              }
+            },
             "bg": {
               "default": {
                 "value": "{app.color.surface.elevation.base.bg.default}",
@@ -32,35 +55,8 @@
                 }
               }
             },
-            "border": {
-              "default": {
-                "value": "{app.color.component.neutral.border.translucent}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.accent.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "focus": {
-                "value": "{app.color.component.focus.border.default}",
-                "type": "color"
-              }
-            },
             "fg": {
               "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "active": {
                 "value": "transparent",
                 "type": "color"
               }
@@ -124,10 +120,6 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.accent.fg.onSolid}",
-                "type": "color"
-              },
-              "active": {
                 "value": "{app.color.component.accent.fg.onSolid}",
                 "type": "color"
               }
