@@ -156,17 +156,17 @@
         }
       },
       "fontSize": {
-        "mark": {
+        "symbol": {
           "sm": {
-            "value": "{component.checkbox.dimension.mark.height.sm}",
+            "value": "{component.checkbox.dimension.symbol.height.sm}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.checkbox.dimension.mark.height.md}",
+            "value": "{component.checkbox.dimension.symbol.height.md}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.checkbox.dimension.mark.height.lg}",
+            "value": "{component.checkbox.dimension.symbol.height.lg}",
             "type": "fontSizes"
           }
         }
@@ -230,32 +230,32 @@
             }
           }
         },
-        "mark": {
+        "symbol": {
           "height": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.mark.scale}",
+              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.symbol.scale}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.mark.scale}",
+              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.symbol.scale}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.mark.scale}",
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.symbol.scale}",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.checkbox.dimension.mark.height.sm}",
+              "value": "{component.checkbox.dimension.symbol.height.sm}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.mark.height.md}",
+              "value": "{component.checkbox.dimension.symbol.height.md}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.mark.height.lg}",
+              "value": "{component.checkbox.dimension.symbol.height.lg}",
               "type": "dimension"
             }
           }
@@ -301,7 +301,7 @@
             }
           }
         },
-        "mark": {
+        "symbol": {
           "scale": {
             "value": "0.75",
             "type": "other"
@@ -309,9 +309,17 @@
         }
       },
       "typography": {
-        "default": {
-          "value": "{app.typography.control.symbol.default}",
-          "type": "typography"
+        "symbol": {
+          "default": {
+            "value": "{app.typography.control.symbol.default}",
+            "type": "typography"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "{app.typography.control.symbol.default}",
+            "type": "typography"
+          }
         }
       },
       "boxShadow": {
@@ -321,7 +329,7 @@
         }
       },
       "asset": {
-        "mark": {
+        "symbol": {
           "default": {
             "sm": {
               "value": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.26042 3.46875C9.35764 3.35764 9.48611 3.30208 9.64583 3.30208C9.79861 3.30208 9.92708 3.35764 10.0312 3.46875C10.1424 3.57292 10.1979 3.70139 10.1979 3.85417C10.1979 4.01389 10.1424 4.14236 10.0312 4.23958L5.23958 9.03125C5.03819 9.23958 4.79167 9.34375 4.5 9.34375C4.21528 9.34375 3.96875 9.23958 3.76042 9.03125L1.96875 7.23958C1.85764 7.14236 1.80208 7.01389 1.80208 6.85417C1.80208 6.70139 1.85417 6.57292 1.95833 6.46875C2.06944 6.35764 2.20139 6.30208 2.35417 6.30208C2.51389 6.30208 2.64236 6.35764 2.73958 6.46875L4.53125 8.26042C4.52431 8.24653 4.51389 8.23958 4.5 8.23958C4.48611 8.23958 4.47569 8.24653 4.46875 8.26042L9.26042 3.46875Z\" fill=\"#F5F5F5\" style=\"fill:#F5F5F5;fill:color(display-p3 0.9608 0.9608 0.9608);fill-opacity:1;\"/>\n</svg>",
@@ -353,7 +361,7 @@
         }
       },
       "fontWeight": {
-        "mark": {
+        "symbol": {
           "sm": {
             "value": "{config.fontWeight.heavy}",
             "type": "fontWeights"
