@@ -177,63 +177,77 @@
             "value": "{component.checkbox.dimension.symbol.height.lg}",
             "type": "fontSizes"
           }
+        },
+        "text": {
+          "sm": {
+            "value": "{component.checkbox.config.label.default} - {component.checkbox.config.label.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.checkbox.config.label.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.checkbox.config.label.default} + {component.checkbox.config.label.step}",
+            "type": "fontSizes"
+          }
         }
       },
       "dimension": {
         "box": {
           "height": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.md} - {component.checkbox.config.box.height.step}",
+              "value": "{component.checkbox.dimension.box.height.md} - {component.checkbox.config.input.height.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.box.height.default}",
+              "value": "{component.checkbox.config.input.height.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.md} + {component.checkbox.config.box.height.step}",
+              "value": "{component.checkbox.dimension.box.height.md} + {component.checkbox.config.input.height.step}",
               "type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.input.width.ratio}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.input.width.ratio}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.box.width.ratio}",
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.input.width.ratio}",
               "type": "dimension"
             }
           },
           "radius": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.radius.md} - {component.checkbox.config.box.radius.step}",
+              "value": "{component.checkbox.dimension.box.radius.md} - {component.checkbox.config.input.radius.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.box.radius.default}",
+              "value": "{component.checkbox.config.input.radius.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.radius.md} + {component.checkbox.config.box.radius.step}",
+              "value": "{component.checkbox.dimension.box.radius.md} + {component.checkbox.config.input.radius.step}",
               "type": "dimension"
             }
           },
           "border": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.border.md} - {component.checkbox.config.box.border.step}",
+              "value": "{component.checkbox.dimension.box.border.md} - {component.checkbox.config.input.border.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.box.border.default}",
+              "value": "{component.checkbox.config.input.border.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.border.md} + {component.checkbox.config.box.border.step}",
+              "value": "{component.checkbox.dimension.box.border.md} + {component.checkbox.config.input.border.step}",
               "type": "dimension"
             }
           }
@@ -241,15 +255,15 @@
         "symbol": {
           "height": {
             "sm": {
-              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.symbol.scale}",
+              "value": "{component.checkbox.dimension.box.height.sm} * {component.checkbox.config.input.symbol.scale}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.symbol.scale}",
+              "value": "{component.checkbox.dimension.box.height.md} * {component.checkbox.config.input.symbol.scale}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.symbol.scale}",
+              "value": "{component.checkbox.dimension.box.height.lg} * {component.checkbox.config.input.symbol.scale}",
               "type": "dimension"
             }
           },
@@ -270,7 +284,7 @@
         }
       },
       "config": {
-        "box": {
+        "input": {
           "height": {
             "default": {
               "value": "{app.dimension.control.height.md} / 2",
@@ -307,11 +321,21 @@
               "value": "0rem",
               "type": "other"
             }
+          },
+          "symbol": {
+            "scale": {
+              "value": "0.75",
+              "type": "other"
+            }
           }
         },
-        "symbol": {
-          "scale": {
-            "value": "0.75",
+        "label": {
+          "default": {
+            "value": "{app.fontSize.control.text.md}",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.0625rem",
             "type": "other"
           }
         }
