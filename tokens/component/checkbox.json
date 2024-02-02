@@ -213,8 +213,7 @@
                 },
                 "active": {
                   "value": "transparent",
-                  "type": "color",
-                  "$extensions": {}
+                  "type": "color"
                 },
                 "focus": {
                   "value": "{app.color.component.focus.border.default}",
@@ -224,8 +223,7 @@
               "bg": {
                 "default": {
                   "value": "{app.color.component.danger.bg.solid}",
-                  "type": "color",
-                  "$extensions": {}
+                  "type": "color"
                 },
                 "active": {
                   "value": "{app.color.component.danger.bg.solid}",
@@ -347,15 +345,15 @@
           },
           "border": {
             "sm": {
-              "value": "{component.checkbox.dimension.input.border.md} - {component.checkbox.config.input.border.step}",
+              "value": "{app.dimension.control.border.sm}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.checkbox.config.input.border.default}",
+              "value": "{app.dimension.control.border.md}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.checkbox.dimension.input.border.md} + {component.checkbox.config.input.border.step}",
+              "value": "{app.dimension.control.border.lg}",
               "type": "dimension"
             }
           },
@@ -465,16 +463,6 @@
           "width": {
             "ratio": {
               "value": "1",
-              "type": "other"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "0.125rem",
-              "type": "other"
-            },
-            "step": {
-              "value": "0rem",
               "type": "other"
             }
           },
