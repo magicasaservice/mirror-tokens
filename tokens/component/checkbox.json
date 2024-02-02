@@ -285,15 +285,15 @@
         "label": {
           "padding": {
             "sm": {
-              "value": "0.25rem",
+              "value": "({component.checkbox.dimension.input.height.sm} - {component.checkbox.lineHeight.label.sm}) / 2",
               "type": "dimension"
             },
             "md": {
-              "value": "0.5rem",
+              "value": "({component.checkbox.dimension.input.height.md} - {component.checkbox.lineHeight.label.md}) / 2",
               "type": "dimension"
             },
             "lg": {
-              "value": "0.75rem",
+              "value": "({component.checkbox.dimension.input.height.lg} - {component.checkbox.lineHeight.label.lg}) / 2",
               "type": "dimension"
             }
           },
@@ -309,6 +309,24 @@
             "lg": {
               "value": "0.75rem",
               "type": "dimension"
+            }
+          }
+        },
+        "exclude": {
+          "input": {
+            "minHeight": {
+              "sm": {
+                "value": "{component.checkbox.lineHeight.label.sm}",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{component.checkbox.lineHeight.label.md}",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{component.checkbox.lineHeight.label.lg}",
+                "type": "dimension"
+              }
             }
           }
         }
@@ -440,8 +458,16 @@
       },
       "lineHeight": {
         "label": {
+          "sm": {
+            "value": "{component.checkbox.fontSize.label.sm} * 1.4",
+            "type": "lineHeights"
+          },
           "md": {
-            "value": "1rem",
+            "value": "{component.checkbox.fontSize.label.md} * 1.4",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "{component.checkbox.fontSize.label.lg} * 1.4",
             "type": "lineHeights"
           }
         }
