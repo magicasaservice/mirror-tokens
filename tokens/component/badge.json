@@ -38,17 +38,9 @@
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.accent.fg.solid}",
+                "value": "{app.color.component.accent.fg.onTone}",
                 "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.accent.lighten.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$extensions": {}
               }
             },
             "border": {
@@ -208,17 +200,9 @@
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.info.fg.solid}",
+                "value": "{app.color.component.info.fg.onTone}",
                 "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.info.lighten.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$extensions": {}
               }
             },
             "border": {
@@ -378,17 +362,9 @@
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.danger.fg.solid}",
+                "value": "{app.color.component.danger.fg.onTone}",
                 "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.danger.lighten.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$extensions": {}
               }
             },
             "border": {
@@ -548,17 +524,9 @@
                 "type": "color"
               },
               "onTranslucent": {
-                "value": "{app.color.component.primary.fg.solid}",
+                "value": "{app.color.component.primary.fg.onTone}",
                 "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.grey.lighten.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$extensions": {}
               }
             },
             "border": {
