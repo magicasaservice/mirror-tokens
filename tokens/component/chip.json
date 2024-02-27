@@ -412,17 +412,33 @@
           }
         },
         "radius": {
-          "sm": {
-            "value": "{app.dimension.control.radius.xxs}",
-            "type": "dimension"
+          "default": {
+            "sm": {
+              "value": "{app.dimension.control.radius.xxs}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.radius.xs}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.radius.sm}",
+              "type": "dimension"
+            }
           },
-          "md": {
-            "value": "{app.dimension.control.radius.xs}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.radius.sm}",
-            "type": "dimension"
+          "inline": {
+            "sm": {
+              "value": "{component.chip.dimension.radius.default.sm} - {component.chip.config.dimension.radius.inline}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.chip.dimension.radius.default.md} - {component.chip.config.dimension.radius.inline}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.chip.dimension.radius.default.lg} - {component.chip.config.dimension.radius.inline}",
+              "type": "dimension"
+            }
           }
         },
         "border": {
@@ -565,6 +581,14 @@
           "step": {
             "value": "0.0625rem",
             "type": "other"
+          }
+        },
+        "dimension": {
+          "radius": {
+            "inline": {
+              "value": "{component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
+              "type": "other"
+            }
           }
         }
       },
