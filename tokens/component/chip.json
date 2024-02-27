@@ -300,29 +300,29 @@
       "dimension": {
         "height": {
           "sm": {
-            "value": "{app.dimension.control.height.xs}",
+            "value": "{app.dimension.control.height.xxs}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.height.sm}",
+            "value": "{app.dimension.control.height.xs}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.height.md}",
+            "value": "{app.dimension.control.height.sm}",
             "type": "dimension"
           }
         },
         "padding": {
           "sm": {
-            "value": "{app.dimension.control.padding.xs}",
+            "value": "{app.dimension.control.padding.xxs}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.padding.sm}",
+            "value": "{app.dimension.control.padding.xs}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.padding.md}",
+            "value": "{app.dimension.control.padding.sm}",
             "type": "dimension"
           },
           "label": {
@@ -332,29 +332,29 @@
         },
         "gap": {
           "sm": {
-            "value": "{app.dimension.control.gap.xs}",
+            "value": "{app.dimension.control.gap.xxs}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.gap.sm}",
+            "value": "{app.dimension.control.gap.xs}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.gap.md}",
+            "value": "{app.dimension.control.gap.sm}",
             "type": "dimension"
           }
         },
         "radius": {
           "sm": {
-            "value": "{app.dimension.control.radius.xs}",
+            "value": "{app.dimension.control.radius.xxs}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.radius.sm}",
+            "value": "{app.dimension.control.radius.xs}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.radius.md}",
+            "value": "{app.dimension.control.radius.sm}",
             "type": "dimension"
           }
         },
@@ -400,16 +400,6 @@
             },
             "icon": {
               "value": "{component.chip.dimension.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
-              "type": "dimension"
-            }
-          },
-          "xs": {
-            "default": {
-              "value": "{component.chip.fontSize.symbol.xs.default}",
-              "type": "dimension"
-            },
-            "icon": {
-              "value": "{component.chip.dimension.symbol.xs.default} + {component.chip.config.symbol.icon.step}",
               "type": "dimension"
             }
           }
@@ -466,16 +456,6 @@
               "value": "{component.chip.fontSize.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
               "type": "fontSizes"
             }
-          },
-          "xs": {
-            "default": {
-              "value": "{component.chip.fontSize.symbol.sm.default} - {component.chip.config.symbol.default.step}",
-              "type": "fontSizes"
-            },
-            "icon": {
-              "value": "{component.chip.fontSize.symbol.xs.default} + {component.chip.config.symbol.icon.step}",
-              "type": "fontSizes"
-            }
           }
         }
       },
@@ -501,7 +481,7 @@
           },
           "default": {
             "default": {
-              "value": "{app.fontSize.control.symbol.md}",
+              "value": "{app.fontSize.control.symbol.xs}",
               "type": "other"
             },
             "step": {
@@ -512,11 +492,21 @@
         },
         "text": {
           "default": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{app.fontSize.control.text.xs}",
             "type": "other"
           },
           "step": {
             "value": "0.0625rem",
+            "type": "other"
+          }
+        },
+        "height": {
+          "default": {
+            "value": "{app.dimension.control.height.xs}",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.25rem",
             "type": "other"
           }
         }
