@@ -499,22 +499,20 @@
             "value": "0.0625rem",
             "type": "other"
           }
-        },
-        "height": {
-          "default": {
-            "value": "{app.dimension.control.height.xs}",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.25rem",
-            "type": "other"
-          }
         }
       },
       "boxShadow": {
         "focusRing": {
           "value": "{app.boxShadow.focusRing.default}",
           "type": "boxShadow"
+        }
+      },
+      "fontFamily": {
+        "label": {
+          "default": {
+            "value": "{config.fontFamily.uiAlt}",
+            "type": "fontFamilies"
+          }
         }
       }
     }
