@@ -1201,25 +1201,45 @@
           }
         },
         "padding": {
-          "xs": {
-            "value": "{app.dimension.control.padding.xs}",
-            "type": "dimension"
+          "default": {
+            "xs": {
+              "value": "{app.dimension.control.padding.xs}",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{app.dimension.control.padding.sm}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.padding.md}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.padding.lg}",
+              "type": "dimension"
+            },
+            "label": {
+              "value": "4px",
+              "type": "dimension"
+            }
           },
-          "sm": {
-            "value": "{app.dimension.control.padding.sm}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{app.dimension.control.padding.md}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.padding.lg}",
-            "type": "dimension"
-          },
-          "label": {
-            "value": "4px",
-            "type": "dimension"
+          "inline": {
+            "xs": {
+              "value": "{app.dimension.control.padding.xs} - 0.1875rem",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{app.dimension.control.padding.sm} - 0.25rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.padding.md} - 0.25rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.padding.lg} - 0.25rem",
+              "type": "dimension"
+            }
           }
         },
         "gap": {
@@ -1241,21 +1261,41 @@
           }
         },
         "radius": {
-          "xs": {
-            "value": "{app.dimension.control.radius.xs}",
-            "type": "dimension"
+          "default": {
+            "xs": {
+              "value": "{app.dimension.control.radius.xs}",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{app.dimension.control.radius.sm}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.radius.md}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.radius.lg}",
+              "type": "dimension"
+            }
           },
-          "sm": {
-            "value": "{app.dimension.control.radius.sm}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{app.dimension.control.radius.md}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.radius.lg}",
-            "type": "dimension"
+          "inline": {
+            "xs": {
+              "value": "{app.dimension.control.radius.xs} - 0.25rem",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{app.dimension.control.radius.sm} - 0.25rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.radius.md} - 0.25rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.radius.lg} - 0.25rem",
+              "type": "dimension"
+            }
           }
         },
         "border": {
