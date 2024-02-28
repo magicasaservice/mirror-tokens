@@ -1163,21 +1163,41 @@
       },
       "dimension": {
         "height": {
-          "xs": {
-            "value": "{app.dimension.control.height.xs}",
-            "type": "dimension"
+          "default": {
+            "xs": {
+              "value": "{app.dimension.control.height.xs}",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{app.dimension.control.height.sm}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.height.md}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.height.lg}",
+              "type": "dimension"
+            }
           },
-          "sm": {
-            "value": "{app.dimension.control.height.sm}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{app.dimension.control.height.md}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.height.lg}",
-            "type": "dimension"
+          "inline": {
+            "xs": {
+              "value": "{app.dimension.control.height.xs} - 0.5rem",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{app.dimension.control.height.sm} - 0.5rem",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.height.md} - 0.5rem",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.height.lg} - 0.5rem",
+              "type": "dimension"
+            }
           }
         },
         "padding": {
