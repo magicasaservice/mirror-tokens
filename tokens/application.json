@@ -1365,7 +1365,7 @@
           }
         }
       },
-      "callout": {
+      "callout1": {
         "text": {
           "value": {
             "fontFamily": "{config.fontFamily.primary}",
@@ -1506,6 +1506,66 @@
               "fontWeight": "{config.fontWeight.semibold}",
               "lineHeight": "160%",
               "fontSize": "{config.fontSize.code.text}"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "callout": {
+        "text": {
+          "1": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{app.fontWeight.callout.text.default}",
+              "lineHeight": "{app.lineHeight.callout.1}",
+              "fontSize": "{app.fontSize.callout.text.1}"
+            },
+            "type": "typography"
+          },
+          "2": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{app.fontWeight.callout.text.default}",
+              "lineHeight": "{app.lineHeight.callout.2}",
+              "fontSize": "{app.fontSize.callout.text.2}"
+            },
+            "type": "typography"
+          },
+          "3": {
+            "value": {
+              "fontFamily": "{config.fontFamily.primary}",
+              "fontWeight": "{app.fontWeight.callout.text.default}",
+              "lineHeight": "{app.lineHeight.callout.3}",
+              "fontSize": "{app.fontSize.callout.text.3}"
+            },
+            "type": "typography"
+          }
+        },
+        "symbol": {
+          "1": {
+            "value": {
+              "fontFamily": "{config.fontFamily.symbol}",
+              "fontWeight": "{app.fontWeight.callout.symbol.default}",
+              "lineHeight": "{app.lineHeight.callout.1}",
+              "fontSize": "{app.fontSize.callout.symbol.1}"
+            },
+            "type": "typography"
+          },
+          "2": {
+            "value": {
+              "fontFamily": "{config.fontFamily.symbol}",
+              "fontWeight": "{app.fontWeight.callout.symbol.default}",
+              "lineHeight": "{app.lineHeight.callout.2}",
+              "fontSize": "{app.fontSize.callout.symbol.2}"
+            },
+            "type": "typography"
+          },
+          "3": {
+            "value": {
+              "fontFamily": "{config.fontFamily.symbol}",
+              "fontWeight": "{app.fontWeight.callout.symbol.default}",
+              "lineHeight": "{app.lineHeight.callout.3}",
+              "fontSize": "{app.fontSize.callout.symbol.3}"
             },
             "type": "typography"
           }
@@ -1685,12 +1745,32 @@
       },
       "callout": {
         "text": {
-          "value": "{config.fontSize.callout.text}",
-          "type": "fontSizes"
+          "1": {
+            "value": "{config.fontSize.callout.text}",
+            "type": "fontSizes"
+          },
+          "2": {
+            "value": "{app.fontSize.callout.text.1} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "3": {
+            "value": "{app.fontSize.callout.text.2} + 0.125rem",
+            "type": "fontSizes"
+          }
         },
         "symbol": {
-          "value": "{config.fontSize.callout.symbol}",
-          "type": "fontSizes"
+          "1": {
+            "value": "{config.fontSize.callout.symbol}",
+            "type": "fontSizes"
+          },
+          "2": {
+            "value": "{app.fontSize.callout.symbol.1} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "3": {
+            "value": "{app.fontSize.callout.symbol.2} + 0.125rem",
+            "type": "fontSizes"
+          }
         }
       }
     },
@@ -2037,6 +2117,20 @@
       "body": {
         "short": {
           "value": "150%",
+          "type": "lineHeights"
+        }
+      },
+      "callout": {
+        "1": {
+          "value": "95%",
+          "type": "lineHeights"
+        },
+        "2": {
+          "value": "90%",
+          "type": "lineHeights"
+        },
+        "3": {
+          "value": "85%",
           "type": "lineHeights"
         }
       }
