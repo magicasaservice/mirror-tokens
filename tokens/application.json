@@ -1365,26 +1365,6 @@
           }
         }
       },
-      "callout1": {
-        "text": {
-          "value": {
-            "fontFamily": "{config.fontFamily.primary}",
-            "fontWeight": "{app.fontWeight.callout.text.default}",
-            "lineHeight": "160%",
-            "fontSize": "{app.fontSize.callout.text}"
-          },
-          "type": "typography"
-        },
-        "symbol": {
-          "value": {
-            "fontFamily": "{config.fontFamily.symbol}",
-            "fontWeight": "{app.fontWeight.callout.symbol.default}",
-            "lineHeight": "160%",
-            "fontSize": "{app.fontSize.callout.symbol}"
-          },
-          "type": "typography"
-        }
-      },
       "caption": {
         "text": {
           "default": {
@@ -1910,7 +1890,15 @@
         }
       },
       "callout": {
-        "default": {
+        "1": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "2": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "3": {
           "value": "0%",
           "type": "letterSpacing"
         },
@@ -2122,15 +2110,15 @@
       },
       "callout": {
         "1": {
-          "value": "95%",
+          "value": "100%",
           "type": "lineHeights"
         },
         "2": {
-          "value": "90%",
+          "value": "100%",
           "type": "lineHeights"
         },
         "3": {
-          "value": "85%",
+          "value": "100%",
           "type": "lineHeights"
         }
       }
