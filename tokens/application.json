@@ -1945,38 +1945,110 @@
     "boxShadow": {
       "focusRing": {
         "default": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.25rem",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
+          "sm": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.125rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "md": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.25rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.375rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
         },
         "border": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "2px",
-              "color": "{app.color.component.focus.border.default}",
-              "type": "dropShadow"
-            },
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.25rem",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
+          "sm": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "{app.dimension.control.border.sm}",
+                "color": "{app.color.component.focus.border.default}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.125rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "md": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "{app.dimension.control.border.md}",
+                "color": "{app.color.component.focus.border.default}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.25rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "{app.dimension.control.border.lg}",
+                "color": "{app.color.component.focus.border.default}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.375rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
         }
       },
       "surface": {
