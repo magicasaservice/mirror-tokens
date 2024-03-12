@@ -95,7 +95,7 @@
             "description": "-0.5 for material design style (handle is offset)"
           },
           "radius": {
-            "value": "0.125rem",
+            "value": "0.25rem",
             "type": "other",
             "description": "for 100% roundness make equal to height md"
           }
@@ -106,16 +106,16 @@
             "type": "other"
           },
           "radius": {
-            "value": "0.5rem",
+            "value": "1rem",
             "type": "other",
-            "description": "for 100% roundness make half of height"
+            "description": "for 100% roundness make half of pressed height"
           },
           "ratio": {
             "value": "1",
             "type": "other"
           },
           "pressed": {
-            "value": "0.9",
+            "value": "1.125",
             "type": "other"
           }
         },
@@ -143,7 +143,7 @@
         },
         "step": {
           "padding": {
-            "value": "0.0625rem",
+            "value": "0.125rem",
             "type": "other"
           },
           "ratio": {
@@ -183,6 +183,19 @@
               "default": {
                 "value": "{app.color.component.primary.fg.solid}",
                 "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "{config.color.grey.lighten.default}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "border": {
@@ -292,7 +305,7 @@
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.default.md}",
+          "value": "{app.boxShadow.focusRing.default.lg}",
           "type": "boxShadow"
         }
       }
