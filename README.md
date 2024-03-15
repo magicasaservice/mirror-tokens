@@ -1,6 +1,6 @@
-# Design Tokens
+# Mirror Tokens
 
-> An opinionated design token structure, powering Magic as a Service’s [Design System](https://github.com/magicasaservice/design-system)
+> An opinionated design token structure, powering [Mirror](https://github.com/magicasaservice/mirror)
 
 ## 💡 Intention
 
