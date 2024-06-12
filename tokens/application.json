@@ -9,27 +9,27 @@
               "type": "dimension"
             },
             "inset": {
-              "value": "{app.dimension.surface.radius.md.default} - {app.dimension.surface.padding.container}",
+              "value": "{app.dimension.surface.radius.md.default} - {app.dimension.surface.padding.container.default}",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{app.dimension.surface.radius.md.default} + 0.5rem",
+              "value": "{app.dimension.surface.radius.md.default} + 0.25rem",
               "type": "dimension"
             },
             "inset": {
-              "value": "{app.dimension.surface.radius.lg.default} - {app.dimension.surface.padding.container}",
+              "value": "{app.dimension.surface.radius.lg.default} - {app.dimension.surface.padding.container.default}",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{app.dimension.surface.radius.md.default} - 0.5rem",
+              "value": "{app.dimension.surface.radius.md.default} - 0.25rem",
               "type": "dimension"
             },
             "inset": {
-              "value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container}",
+              "value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container.default}",
               "type": "dimension"
             }
           }
@@ -42,12 +42,24 @@
         },
         "padding": {
           "text": {
-            "value": "{app.dimension.control.padding.xl}",
-            "type": "dimension"
+            "sm": {
+              "value": "{app.dimension.control.padding.xl} / 2",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{app.dimension.control.padding.xl}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{app.dimension.control.padding.xl} * 2",
+              "type": "dimension"
+            }
           },
           "container": {
-            "value": "{app.dimension.control.padding.xs}",
-            "type": "dimension"
+            "default": {
+              "value": "{app.dimension.control.padding.xs}",
+              "type": "dimension"
+            }
           }
         }
       },
