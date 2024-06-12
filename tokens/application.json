@@ -12,6 +12,26 @@
               "value": "{app.dimension.surface.radius.md.default} - {app.dimension.surface.padding.container}",
               "type": "dimension"
             }
+          },
+          "lg": {
+            "default": {
+              "value": "{app.dimension.surface.radius.md.default} + 0.25rem",
+              "type": "dimension"
+            },
+            "inset": {
+              "value": "{app.dimension.surface.radius.lg.default} - {app.dimension.surface.padding.container}",
+              "type": "dimension"
+            }
+          },
+          "sm": {
+            "default": {
+              "value": "{app.dimension.surface.radius.md.default} - 0.25rem",
+              "type": "dimension"
+            },
+            "inset": {
+              "value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container}",
+              "type": "dimension"
+            }
           }
         },
         "border": {
