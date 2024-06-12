@@ -3,36 +3,30 @@
     "dimension": {
       "surface": {
         "radius": {
-          "elevation": {
-            "low": {
-              "value": "0rem",
+          "md": {
+            "default": {
+              "value": "{app.dimension.control.radius.md} * 2",
               "type": "dimension"
             },
-            "base": {
-              "value": "{config.dimension.control.radius}",
-              "type": "dimension"
-            },
-            "high": {
-              "value": "{app.dimension.surface.radius.elevation.base} + 0.5rem",
-              "type": "dimension"
-            },
-            "higher": {
-              "value": "{app.dimension.surface.radius.elevation.high} + 0.5rem",
+            "inset": {
+              "value": "{app.dimension.surface.radius.md.default} - {app.dimension.surface.padding.container}",
               "type": "dimension"
             }
           }
         },
         "border": {
-          "sm": {
+          "default": {
             "value": "2px",
             "type": "dimension"
-          },
-          "md": {
-            "value": "2px",
+          }
+        },
+        "padding": {
+          "text": {
+            "value": "{app.dimension.control.padding.xl}",
             "type": "dimension"
           },
-          "lg": {
-            "value": "2px",
+          "container": {
+            "value": "{app.dimension.control.padding.xs}",
             "type": "dimension"
           }
         }
