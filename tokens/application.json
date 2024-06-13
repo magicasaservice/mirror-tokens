@@ -1341,9 +1341,18 @@
             "default": {
               "value": {
                 "fontFamily": "{config.fontFamily.primary}",
-                "fontWeight": "{app.fontWeight.subtitle.text.default}",
-                "lineHeight": "{app.lineHeight.subtitle.default}",
-                "fontSize": "{app.fontSize.subtitle.text.default}"
+                "lineHeight": "140%",
+                "fontWeight": "{config.fontWeight.semibold}",
+                "fontSize": "{config.fontSize.subtitle.text}"
+              },
+              "type": "typography"
+            },
+            "strong": {
+              "value": {
+                "fontFamily": "{config.fontFamily.primary}",
+                "lineHeight": "140%",
+                "fontWeight": "{config.fontWeight.bold}",
+                "fontSize": "{config.fontSize.subtitle.text}"
               },
               "type": "typography"
             }
@@ -1352,9 +1361,18 @@
             "default": {
               "value": {
                 "fontFamily": "{config.fontFamily.symbol}",
-                "lineHeight": "{app.lineHeight.subtitle.default}",
-                "fontSize": "{app.fontSize.subtitle.symbol.default}",
-                "fontWeight": "{app.fontWeight.subtitle.symbol.default}"
+                "lineHeight": "140%",
+                "fontWeight": "{config.fontWeight.semibold}",
+                "fontSize": "{config.fontSize.subtitle.symbol}"
+              },
+              "type": "typography"
+            },
+            "strong": {
+              "value": {
+                "fontFamily": "{config.fontFamily.symbol}",
+                "lineHeight": "140%",
+                "fontWeight": "{config.fontWeight.bold}",
+                "fontSize": "{config.fontSize.subtitle.symbol}"
               },
               "type": "typography"
             }
