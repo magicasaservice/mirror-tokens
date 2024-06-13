@@ -2043,6 +2043,46 @@
               "type": "fontSizes"
             }
           }
+        },
+        "callout": {
+          "text": {
+            "sm": {
+              "value": "{config.fontSize.callout.text}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{app.fontSize.surface.callout.text.sm} + 0.125rem",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{app.fontSize.surface.callout.text.md} + 0.125rem",
+              "type": "fontSizes"
+            }
+          },
+          "symbol": {
+            "sm": {
+              "value": "{config.fontSize.callout.symbol}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{app.fontSize.surface.callout.symbol.sm} + 0.125rem",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{app.fontSize.surface.callout.symbol.md} + 0.125rem",
+              "type": "fontSizes"
+            }
+          }
+        },
+        "subtitle": {
+          "text": {
+            "value": "{config.fontSize.subtitle.text}",
+            "type": "fontSizes"
+          },
+          "symbol": {
+            "value": "{config.fontSize.subtitle.symbol}",
+            "type": "fontSizes"
+          }
         }
       }
     },
