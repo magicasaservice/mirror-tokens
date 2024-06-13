@@ -1850,7 +1850,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.code.text}",
-                  "fontWeight": "{config.fontWeight.text}",
+                  "fontWeight": "{app.fontWeight.surface.code.text.default}",
                   "lineHeight": "160%",
                   "fontSize": "{app.fontSize.surface.code.text.sm}"
                 },
@@ -1859,7 +1859,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.code.text}",
-                  "fontWeight": "{config.fontWeight.medium}",
+                  "fontWeight": "{app.fontWeight.surface.code.text.strong}",
                   "lineHeight": "160%",
                   "fontSize": "{app.fontSize.surface.code.text.sm}"
                 },
@@ -1870,7 +1870,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.code.text}",
-                  "fontWeight": "{config.fontWeight.text}",
+                  "fontWeight": "{app.fontWeight.surface.code.text.default}",
                   "lineHeight": "160%",
                   "fontSize": "{app.fontSize.surface.code.text.md}"
                 },
@@ -1879,7 +1879,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.code.text}",
-                  "fontWeight": "{config.fontWeight.medium}",
+                  "fontWeight": "{app.fontWeight.surface.code.text.strong}",
                   "lineHeight": "160%",
                   "fontSize": "{app.fontSize.surface.code.text.md}"
                 },
@@ -2545,6 +2545,176 @@
           "text": {
             "value": "{config.fontFamily.code}",
             "type": "fontFamilies"
+          }
+        }
+      }
+    },
+    "fontWeight": {
+      "surface": {
+        "display": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.bold}",
+              "type": "fontWeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.bold}",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "title": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.bold}",
+              "type": "fontWeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.bold}",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "callout": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "subtitle": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "body": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.text}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "{config.fontWeight.text}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "caption": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.text}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "{config.fontWeight.text}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "footnote": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "{config.fontWeight.text}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.semibold}",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "code": {
+          "text": {
+            "default": {
+              "value": "{config.fontWeight.text}",
+              "type": "fontWeights"
+            },
+            "strong": {
+              "value": "{config.fontWeight.medium}",
+              "type": "fontWeights"
+            }
           }
         }
       }
