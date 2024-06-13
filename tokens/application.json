@@ -1161,9 +1161,9 @@
               "strong": {
                 "value": {
                   "fontFamily": "{config.fontFamily.symbol}",
-                  "fontWeight": "{config.fontWeight.medium}",
+                  "fontWeight": "{config.fontWeight.bold}",
                   "lineHeight": "95%",
-                  "fontSize": "{config.fontWeight.bold}"
+                  "fontSize": "{config.fontSize.display.symbol}"
                 },
                 "type": "typography"
               }
@@ -1579,7 +1579,7 @@
                 "fontFamily": "{config.fontFamily.symbol}",
                 "fontWeight": "{config.fontWeight.text}",
                 "lineHeight": "160%",
-                "fontSize": "{config.fontSize.caption.text}"
+                "fontSize": "{config.fontSize.caption.symbol}"
               },
               "type": "typography"
             },
@@ -1588,7 +1588,7 @@
                 "fontFamily": "{config.fontFamily.symbol}",
                 "fontWeight": "{config.fontWeight.semibold}",
                 "lineHeight": "160%",
-                "fontSize": "{config.fontSize.caption.text}"
+                "fontSize": "{config.fontSize.caption.symbol}"
               },
               "type": "typography"
             }
@@ -1638,43 +1638,45 @@
         },
         "code": {
           "text": {
-            "default": {
-              "value": {
-                "fontFamily": "{config.fontFamily.code}",
-                "fontWeight": "{config.fontWeight.text}",
-                "lineHeight": "160%",
-                "fontSize": "{config.fontSize.code.text}"
+            "sm": {
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.code}",
+                  "fontWeight": "{config.fontWeight.text}",
+                  "lineHeight": "160%",
+                  "fontSize": "{config.fontSize.code.text} - 0.125rem"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.code}",
+                  "fontWeight": "{config.fontWeight.medium}",
+                  "lineHeight": "160%",
+                  "fontSize": "{config.fontSize.code.text} - 0.125rem"
+                },
+                "type": "typography"
+              }
             },
-            "strong": {
-              "value": {
-                "fontFamily": "{config.fontFamily.code}",
-                "fontWeight": "{config.fontWeight.medium}",
-                "lineHeight": "160%",
-                "fontSize": "{config.fontSize.code.text}"
+            "md": {
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.code}",
+                  "fontWeight": "{config.fontWeight.text}",
+                  "lineHeight": "160%",
+                  "fontSize": "{config.fontSize.code.text}"
+                },
+                "type": "typography"
               },
-              "type": "typography"
-            }
-          },
-          "symbol": {
-            "default": {
-              "value": {
-                "fontFamily": "{config.fontFamily.symbol}",
-                "fontWeight": "{config.fontWeight.text}",
-                "lineHeight": "160%",
-                "fontSize": "{config.fontSize.code.text}"
-              },
-              "type": "typography"
-            },
-            "strong": {
-              "value": {
-                "fontFamily": "{config.fontFamily.symbol}",
-                "fontWeight": "{config.fontWeight.semibold}",
-                "lineHeight": "160%",
-                "fontSize": "{config.fontSize.code.text}"
-              },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.code}",
+                  "fontWeight": "{config.fontWeight.medium}",
+                  "lineHeight": "160%",
+                  "fontSize": "{config.fontSize.code.text}"
+                },
+                "type": "typography"
+              }
             }
           }
         },
