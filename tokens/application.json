@@ -987,8 +987,8 @@
         "text": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.ui}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.control.text}",
+              "fontWeight": "{app.fontWeight.control.text.default}",
               "lineHeight": "140%",
               "fontSize": "{config.fontSize.control.text}"
             },
@@ -996,8 +996,8 @@
           },
           "text": {
             "value": {
-              "fontFamily": "{config.fontFamily.ui}",
-              "fontWeight": "{config.fontWeight.text}",
+              "fontFamily": "{app.fontFamily.control.text}",
+              "fontWeight": "{app.fontWeight.control.text.text}",
               "lineHeight": "140%",
               "fontSize": "{config.fontSize.control.text}"
             },
@@ -1005,8 +1005,8 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.ui}",
-              "fontWeight": "{config.fontWeight.semibold}",
+              "fontFamily": "{app.fontFamily.control.text}",
+              "fontWeight": "{app.fontWeight.control.text.strong}",
               "lineHeight": "140%",
               "fontSize": "{config.fontSize.control.text}"
             },
@@ -1016,8 +1016,8 @@
         "symbol": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.symbol}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.control.symbol}",
+              "fontWeight": "{app.fontWeight.control.symbol.default}",
               "fontSize": "{config.fontSize.control.text}",
               "lineHeight": "100%"
             },
@@ -1025,8 +1025,8 @@
           },
           "text": {
             "value": {
-              "fontFamily": "{config.fontFamily.symbol}",
-              "fontWeight": "{config.fontWeight.text}",
+              "fontFamily": "{app.fontFamily.control.symbol}",
+              "fontWeight": "{app.fontWeight.control.symbol.text}",
               "fontSize": "{config.fontSize.control.text}",
               "lineHeight": "auto"
             },
@@ -1034,8 +1034,8 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.symbol}",
-              "fontWeight": "{config.fontWeight.bold}",
+              "fontFamily": "{app.fontFamily.control.symbol}",
+              "fontWeight": "{app.fontWeight.control.symbol.strong}",
               "fontSize": "{config.fontSize.control.text}",
               "lineHeight": "100%"
             },
@@ -1045,8 +1045,8 @@
         "number": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.control.number}",
+              "fontWeight": "{app.fontWeight.control.number.default}",
               "lineHeight": "140%",
               "fontSize": "{config.fontSize.control.text}"
             },
@@ -1054,8 +1054,8 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
-              "fontWeight": "{config.fontWeight.semibold}",
+              "fontFamily": "{app.fontFamily.control.number}",
+              "fontWeight": "{app.fontWeight.control.number.strong}",
               "lineHeight": "140%",
               "fontSize": "{config.fontSize.control.text}"
             },
@@ -1065,8 +1065,8 @@
         "initials": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.control.initials}",
+              "fontWeight": "{app.fontWeight.control.initials.default}",
               "lineHeight": "120%",
               "fontSize": "{config.fontSize.control.text}"
             },
@@ -1074,8 +1074,8 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
-              "fontWeight": "{config.fontWeight.semibold}",
+              "fontFamily": "{app.fontFamily.control.initials}",
+              "fontWeight": "{app.fontWeight.control.initials.strong}",
               "lineHeight": "120%",
               "fontSize": "{config.fontSize.control.text}"
             },
@@ -1087,8 +1087,8 @@
         "text": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.ui}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.label.text}",
+              "fontWeight": "{app.fontWeight.label.text.default}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}"
             },
@@ -1096,8 +1096,8 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.ui}",
-              "fontWeight": "{config.fontWeight.semibold}",
+              "fontFamily": "{app.fontFamily.label.text}",
+              "fontWeight": "{app.fontWeight.label.text.strong}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}"
             },
@@ -1107,8 +1107,8 @@
         "symbol": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.symbol}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.label.symbol}",
+              "fontWeight": "{app.fontWeight.label.symbol.default}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}"
             },
@@ -1116,8 +1116,8 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.symbol}",
-              "fontWeight": "{config.fontWeight.bold}",
+              "fontFamily": "{app.fontFamily.label.symbol}",
+              "fontWeight": "{app.fontWeight.label.symbol.strong}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}"
             },
@@ -1127,8 +1127,8 @@
         "number": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.label.number}",
+              "fontWeight": "{app.fontWeight.label.number.default}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}"
             },
@@ -1136,10 +1136,10 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
+              "fontFamily": "{app.fontFamily.label.number}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}",
-              "fontWeight": "{config.fontWeight.semibold}"
+              "fontWeight": "{app.fontWeight.label.number.strong}"
             },
             "type": "typography"
           }
@@ -1147,8 +1147,8 @@
         "initials": {
           "default": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
-              "fontWeight": "{config.fontWeight.medium}",
+              "fontFamily": "{app.fontFamily.label.initials}",
+              "fontWeight": "{app.fontWeight.label.initials.default}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}"
             },
@@ -1156,10 +1156,10 @@
           },
           "strong": {
             "value": {
-              "fontFamily": "{config.fontFamily.uiAlt}",
+              "fontFamily": "{app.fontFamily.label.initials}",
               "lineHeight": "100%",
               "fontSize": "{config.fontSize.label.text}",
-              "fontWeight": "{config.fontWeight.semibold}"
+              "fontWeight": "{app.fontWeight.label.initials.strong}"
             },
             "type": "typography"
           }
