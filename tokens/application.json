@@ -1213,60 +1213,126 @@
         "title": {
           "text": {
             "sm": {
-              "value": {
-                "fontFamily": "{config.fontFamily.primary}",
-                "fontWeight": "{config.fontWeight.semibold}",
-                "lineHeight": "130%",
-                "fontSize": "{config.fontSize.title.text}"
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.primary}",
+                  "fontWeight": "{config.fontWeight.semibold}",
+                  "lineHeight": "130%",
+                  "fontSize": "{config.fontSize.title.text}"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.primary}",
+                  "fontWeight": "{config.fontWeight.bold}",
+                  "lineHeight": "130%",
+                  "fontSize": "{config.fontSize.title.text}"
+                },
+                "type": "typography"
+              }
             },
             "md": {
-              "value": {
-                "fontFamily": "{config.fontFamily.primary}",
-                "fontWeight": "{config.fontWeight.semibold}",
-                "lineHeight": "120%",
-                "fontSize": "{config.fontSize.title.text} * 1.5"
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.primary}",
+                  "fontWeight": "{config.fontWeight.semibold}",
+                  "lineHeight": "120%",
+                  "fontSize": "{config.fontSize.title.text} * 1.5"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.primary}",
+                  "fontWeight": "{config.fontWeight.bold}",
+                  "lineHeight": "120%",
+                  "fontSize": "{config.fontSize.title.text} * 1.5"
+                },
+                "type": "typography"
+              }
             },
             "lg": {
-              "value": {
-                "fontFamily": "{config.fontFamily.primary}",
-                "fontWeight": "{config.fontWeight.semibold}",
-                "lineHeight": "110%",
-                "fontSize": "{config.fontSize.title.text} * 2"
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.primary}",
+                  "fontWeight": "{config.fontWeight.semibold}",
+                  "lineHeight": "110%",
+                  "fontSize": "{config.fontSize.title.text} * 2"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.primary}",
+                  "fontWeight": "{config.fontWeight.bold}",
+                  "lineHeight": "110%",
+                  "fontSize": "{config.fontSize.title.text} * 2"
+                },
+                "type": "typography"
+              }
             }
           },
           "symbol": {
             "sm": {
-              "value": {
-                "fontFamily": "{config.fontFamily.symbol}",
-                "fontWeight": "{config.fontWeight.semibold}",
-                "lineHeight": "130%",
-                "fontSize": "{config.fontSize.title.symbol}"
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.symbol}",
+                  "fontWeight": "{config.fontWeight.semibold}",
+                  "lineHeight": "130%",
+                  "fontSize": "{config.fontSize.title.symbol}"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.symbol}",
+                  "fontWeight": "{config.fontWeight.bold}",
+                  "lineHeight": "130%",
+                  "fontSize": "{config.fontSize.title.symbol}"
+                },
+                "type": "typography"
+              }
             },
             "md": {
-              "value": {
-                "fontFamily": "{config.fontFamily.symbol}",
-                "fontWeight": "{config.fontWeight.semibold}",
-                "lineHeight": "120%",
-                "fontSize": "{config.fontSize.title.symbol} * 1.5"
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.symbol}",
+                  "fontWeight": "{config.fontWeight.semibold}",
+                  "lineHeight": "120%",
+                  "fontSize": "{config.fontSize.title.symbol} * 1.5"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.symbol}",
+                  "fontWeight": "{config.fontWeight.bold}",
+                  "lineHeight": "120%",
+                  "fontSize": "{config.fontSize.title.symbol} * 1.5"
+                },
+                "type": "typography"
+              }
             },
             "lg": {
-              "value": {
-                "fontFamily": "{config.fontFamily.symbol}",
-                "fontWeight": "{config.fontWeight.semibold}",
-                "lineHeight": "110%",
-                "fontSize": "{config.fontSize.title.symbol} * 2"
+              "default": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.symbol}",
+                  "fontWeight": "{config.fontWeight.semibold}",
+                  "lineHeight": "110%",
+                  "fontSize": "{config.fontSize.title.symbol} * 2"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{config.fontFamily.symbol}",
+                  "fontWeight": "{config.fontWeight.bold}",
+                  "lineHeight": "110%",
+                  "fontSize": "{config.fontSize.title.symbol} * 2"
+                },
+                "type": "typography"
+              }
             }
           }
         },
