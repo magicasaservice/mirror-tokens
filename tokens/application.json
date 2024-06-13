@@ -1299,7 +1299,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.text}",
                   "fontWeight": "{app.fontWeight.surface.title.text.default}",
-                  "lineHeight": "130%",
+                  "lineHeight": "{app.lineHeight.surface.title.text.sm}",
                   "fontSize": "{app.fontSize.surface.title.text.sm}"
                 },
                 "type": "typography"
@@ -1308,7 +1308,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.text}",
                   "fontWeight": "{app.fontWeight.surface.title.text.strong}",
-                  "lineHeight": "130%",
+                  "lineHeight": "{app.lineHeight.surface.title.text.sm}",
                   "fontSize": "{app.fontSize.surface.title.text.sm}"
                 },
                 "type": "typography"
@@ -1319,7 +1319,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.text}",
                   "fontWeight": "{app.fontWeight.surface.title.text.default}",
-                  "lineHeight": "120%",
+                  "lineHeight": "{app.lineHeight.surface.title.text.md}",
                   "fontSize": "{app.fontSize.surface.title.text.md}"
                 },
                 "type": "typography"
@@ -1328,8 +1328,8 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.text}",
                   "fontWeight": "{app.fontWeight.surface.title.text.strong}",
-                  "lineHeight": "120%",
-                  "fontSize": "{app.fontSize.surface.title.text.md}"
+                  "fontSize": "{app.fontSize.surface.title.text.md}",
+                  "lineHeight": "{app.lineHeight.surface.title.text.md}"
                 },
                 "type": "typography"
               }
@@ -1339,7 +1339,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.text}",
                   "fontWeight": "{app.fontWeight.surface.title.text.default}",
-                  "lineHeight": "110%",
+                  "lineHeight": "{app.lineHeight.surface.title.text.lg}",
                   "fontSize": "{app.fontSize.surface.title.text.lg}"
                 },
                 "type": "typography"
@@ -1348,7 +1348,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.text}",
                   "fontWeight": "{app.fontWeight.surface.title.text.strong}",
-                  "lineHeight": "110%",
+                  "lineHeight": "{app.lineHeight.surface.title.text.lg}",
                   "fontSize": "{app.fontSize.surface.title.text.lg}"
                 },
                 "type": "typography"
@@ -1361,7 +1361,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.symbol}",
                   "fontWeight": "{app.fontWeight.surface.title.symbol.default}",
-                  "lineHeight": "130%",
+                  "lineHeight": "{app.lineHeight.surface.title.symbol.sm}",
                   "fontSize": "{app.fontSize.surface.title.symbol.sm}"
                 },
                 "type": "typography"
@@ -1370,7 +1370,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.symbol}",
                   "fontWeight": "{app.fontWeight.surface.title.symbol.strong}",
-                  "lineHeight": "130%",
+                  "lineHeight": "{app.lineHeight.surface.title.symbol.sm}",
                   "fontSize": "{app.fontSize.surface.title.symbol.sm}"
                 },
                 "type": "typography"
@@ -1381,7 +1381,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.symbol}",
                   "fontWeight": "{app.fontWeight.surface.title.symbol.default}",
-                  "lineHeight": "120%",
+                  "lineHeight": "{app.lineHeight.surface.title.symbol.md}",
                   "fontSize": "{app.fontSize.surface.title.symbol.md}"
                 },
                 "type": "typography"
@@ -1390,8 +1390,8 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.symbol}",
                   "fontWeight": "{app.fontWeight.surface.title.symbol.strong}",
-                  "lineHeight": "120%",
-                  "fontSize": "{app.fontSize.surface.title.symbol.md}"
+                  "fontSize": "{app.fontSize.surface.title.symbol.md}",
+                  "lineHeight": "{app.lineHeight.surface.title.symbol.md}"
                 },
                 "type": "typography"
               }
@@ -1401,7 +1401,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.symbol}",
                   "fontWeight": "{app.fontWeight.surface.title.symbol.default}",
-                  "lineHeight": "110%",
+                  "lineHeight": "{app.lineHeight.surface.title.symbol.lg}",
                   "fontSize": "{app.fontSize.surface.title.symbol.lg}"
                 },
                 "type": "typography"
@@ -1410,7 +1410,7 @@
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.title.symbol}",
                   "fontWeight": "{app.fontWeight.surface.title.symbol.strong}",
-                  "lineHeight": "110%",
+                  "lineHeight": "{app.lineHeight.surface.title.symbol.lg}",
                   "fontSize": "{app.fontSize.surface.title.symbol.lg}"
                 },
                 "type": "typography"
@@ -2747,6 +2747,130 @@
             },
             "lg": {
               "value": "85%",
+              "type": "lineHeights"
+            }
+          }
+        },
+        "title": {
+          "text": {
+            "sm": {
+              "value": "130%",
+              "type": "lineHeights"
+            },
+            "md": {
+              "value": "120%",
+              "type": "lineHeights"
+            },
+            "lg": {
+              "value": "110%",
+              "type": "lineHeights"
+            }
+          },
+          "symbol": {
+            "sm": {
+              "value": "130%",
+              "type": "lineHeights"
+            },
+            "md": {
+              "value": "120%",
+              "type": "lineHeights"
+            },
+            "lg": {
+              "value": "110%",
+              "type": "lineHeights"
+            }
+          }
+        },
+        "callout": {
+          "text": {
+            "sm": {
+              "value": "140%",
+              "type": "lineHeights"
+            },
+            "md": {
+              "value": "140%",
+              "type": "lineHeights"
+            },
+            "lg": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
+          },
+          "symbol": {
+            "sm": {
+              "value": "140%",
+              "type": "lineHeights"
+            },
+            "md": {
+              "value": "140%",
+              "type": "lineHeights"
+            },
+            "lg": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
+          }
+        },
+        "subtitle": {
+          "text": {
+            "value": "140%",
+            "type": "lineHeights"
+          },
+          "symbol": {
+            "value": "140%",
+            "type": "lineHeights"
+          }
+        },
+        "body": {
+          "text": {
+            "default": {
+              "value": "160%",
+              "type": "lineHeights"
+            },
+            "short": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
+          },
+          "symbol": {
+            "default": {
+              "value": "160%",
+              "type": "lineHeights"
+            },
+            "short": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
+          }
+        },
+        "caption": {
+          "text": {
+            "value": "160%",
+            "type": "lineHeights"
+          },
+          "symbol": {
+            "value": "160%",
+            "type": "lineHeights"
+          }
+        },
+        "footnote": {
+          "text": {
+            "value": "160%",
+            "type": "lineHeights"
+          },
+          "symbol": {
+            "value": "160%",
+            "type": "lineHeights"
+          }
+        },
+        "code": {
+          "text": {
+            "sm": {
+              "value": "160%",
+              "type": "lineHeights"
+            },
+            "md": {
+              "value": "160%",
               "type": "lineHeights"
             }
           }
