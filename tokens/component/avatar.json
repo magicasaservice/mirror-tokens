@@ -10,13 +10,13 @@
       "color": {
         "bg": {
           "default": {
-            "value": "{app.color.component.accent.bg.solid}",
+            "value": "{app.color.surface.fg.default}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{app.color.component.accent.fg.onSolid}",
+            "value": "{app.color.surface.fg.inverted}",
             "type": "color"
           }
         },
@@ -243,21 +243,21 @@
         "text": {
           "xs": {
             "default": {
-              "value": "{app.fontSize.control.text.xs}",
+              "value": "{component.avatar.fontSize.text.sm.default} - ({component.avatar.config.default.sizing.step} / 4)",
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.xs} - 0.25rem",
+              "value": "{component.avatar.fontSize.text.xs.default} - 0.25rem",
               "type": "fontSizes"
             }
           },
           "sm": {
             "default": {
-              "value": "{app.fontSize.control.text.sm}",
+              "value": "{component.avatar.fontSize.text.md.default} - ({component.avatar.config.default.sizing.step} / 4)",
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.sm} - 0.25rem",
+              "value": "{component.avatar.fontSize.text.sm.default} - 0.25rem",
               "type": "fontSizes"
             }
           },
@@ -267,27 +267,27 @@
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.md} - 0.25rem",
+              "value": "{component.avatar.fontSize.text.md.default} - 0.25rem",
               "type": "fontSizes"
             }
           },
           "lg": {
             "default": {
-              "value": "{app.fontSize.control.text.lg}",
+              "value": "{component.avatar.fontSize.text.md.default} + ({component.avatar.config.default.sizing.step} / 4)",
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.lg} - 0.25rem",
+              "value": "{component.avatar.fontSize.text.lg.default} - 0.25rem",
               "type": "fontSizes"
             }
           },
           "xl": {
             "default": {
-              "value": "{app.fontSize.control.text.xl}",
+              "value": "{component.avatar.fontSize.text.lg.default} + ({component.avatar.config.default.sizing.step} / 4)",
               "type": "fontSizes"
             },
             "inline": {
-              "value": "{app.fontSize.control.text.xl} - 0.25rem",
+              "value": "{component.avatar.fontSize.text.xl.default} - 0.25rem",
               "type": "fontSizes"
             }
           }
