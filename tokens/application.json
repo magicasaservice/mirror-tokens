@@ -363,7 +363,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%)"
+                "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 100%)"
               },
               "hover": {
                 "type": "color",
@@ -372,7 +372,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.hover}",
+                      "value": "{config.color.grey.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -385,7 +385,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.active}",
+                      "value": "{config.color.grey.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -397,7 +397,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+                "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 96%)"
               },
               "hover": {
                 "type": "color",
@@ -406,7 +406,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.hover}",
+                      "value": "{config.color.grey.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -419,7 +419,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.active}",
+                      "value": "{config.color.grey.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -431,7 +431,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 100%)"
+                "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 100%)"
               },
               "hover": {
                 "type": "color",
@@ -440,7 +440,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.hover}",
+                      "value": "{config.color.grey.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -453,7 +453,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.active}",
+                      "value": "{config.color.grey.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -465,7 +465,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
+                "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 96%)"
               },
               "hover": {
                 "type": "color",
@@ -474,7 +474,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.hover}",
+                      "value": "{config.color.grey.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -487,7 +487,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.neutral.darken.active}",
+                      "value": "{config.color.grey.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -530,23 +530,23 @@
         },
         "fg": {
           "default": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 1)",
+            "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 4%, 1)",
             "type": "color"
           },
           "muted": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.4)",
+            "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 4%, 0.4)",
             "type": "color"
           },
           "subtle": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.2)",
+            "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 4%, 0.2)",
             "type": "color"
           },
           "link": {
-            "value": "hsl({config.color.info.hue.default}, {config.color.accent.saturation.default}, 50%)",
+            "value": "{app.color.component.info.fg.solid}",
             "type": "color"
           },
           "inverted": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%, 1)",
+            "value": "hsla({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 100%, 1)",
             "type": "color"
           }
         },
@@ -842,7 +842,7 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 55%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%)"
             },
             "translucent": {
               "type": "color",
