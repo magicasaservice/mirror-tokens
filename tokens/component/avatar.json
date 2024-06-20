@@ -192,7 +192,7 @@
                 "type": "dimension"
               },
               "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.xs.default} - {component.avatar.config.default.radius.secondary.step}",
+                "value": "{component.avatar.dimension.radius.secondary.xs.default} - {component.avatar.config.default.radius.secondary.inset}",
                 "type": "dimension"
               }
             },
@@ -202,7 +202,7 @@
                 "type": "dimension"
               },
               "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.sm.default} - {component.avatar.config.default.radius.secondary.step}",
+                "value": "{component.avatar.dimension.radius.secondary.sm.default} - {component.avatar.config.default.radius.secondary.inset}",
                 "type": "dimension"
               }
             },
@@ -212,7 +212,7 @@
                 "type": "dimension"
               },
               "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.md.default} - {component.avatar.config.default.radius.secondary.step}",
+                "value": "{component.avatar.dimension.radius.secondary.md.default} - {component.avatar.config.default.radius.secondary.inset}",
                 "type": "dimension"
               }
             },
@@ -222,7 +222,7 @@
                 "type": "dimension"
               },
               "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.lg.default} - {component.avatar.config.default.radius.secondary.step}",
+                "value": "{component.avatar.dimension.radius.secondary.lg.default} - {component.avatar.config.default.radius.secondary.inset}",
                 "type": "dimension"
               }
             },
@@ -232,7 +232,7 @@
                 "type": "dimension"
               },
               "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.xl.default} - {component.avatar.config.default.radius.secondary.step}",
+                "value": "{component.avatar.dimension.radius.secondary.xl.default} - {component.avatar.config.default.radius.secondary.inset}",
                 "type": "dimension"
               }
             }
@@ -344,6 +344,11 @@
                 "value": "0.125rem",
                 "type": "other",
                 "description": "(md/0.5) = cirlce\n0.125 = rounded"
+              },
+              "inset": {
+                "value": "0.25rem",
+                "type": "other",
+                "description": "inset value"
               }
             }
           }

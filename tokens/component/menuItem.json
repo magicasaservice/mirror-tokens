@@ -146,28 +146,20 @@
         },
         "padding": {
           "xs": {
-            "default": {
-              "value": "{component.menuItem.dimension.padding.sm.default} - {component.menuItem.config.padding.step}",
-              "type": "dimension"
-            }
+            "value": "{component.menuItem.dimension.padding.sm} - {component.menuItem.config.padding.step}",
+            "type": "dimension"
           },
           "sm": {
-            "default": {
-              "value": "{component.menuItem.dimension.padding.md.default} - {component.menuItem.config.padding.step}",
-              "type": "dimension"
-            }
+            "value": "{component.menuItem.dimension.padding.md} - {component.menuItem.config.padding.step}",
+            "type": "dimension"
           },
           "md": {
-            "default": {
-              "value": "{component.menuItem.config.padding.default}",
-              "type": "dimension"
-            }
+            "value": "{component.menuItem.config.padding.default}",
+            "type": "dimension"
           },
           "lg": {
-            "default": {
-              "value": "{component.menuItem.dimension.padding.md.default} + {component.menuItem.config.padding.step}",
-              "type": "dimension"
-            }
+            "value": "{component.menuItem.dimension.padding.md} + {component.menuItem.config.padding.step}",
+            "type": "dimension"
           }
         },
         "gap": {
