@@ -146,24 +146,40 @@
         },
         "padding": {
           "xs": {
-            "value": "{app.dimension.control.padding.xs}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.menuItem.dimension.padding.sm.default} - {component.menuItem.config.padding.step}",
+              "type": "dimension"
+            },
+            "label": {
+              "value": "0.5rem",
+              "type": "dimension"
+            },
+            "cmd": {
+              "value": "0.25rem",
+              "type": "dimension"
+            },
+            "symbol": {
+              "value": "0.25rem",
+              "type": "dimension"
+            }
           },
           "sm": {
-            "value": "{app.dimension.control.padding.sm}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.menuItem.dimension.padding.md.default} - {component.menuItem.config.padding.step}",
+              "type": "dimension"
+            }
           },
           "md": {
-            "value": "{app.dimension.control.padding.md}",
-            "type": "dimension"
+            "default": {
+              "value": "{component.menuItem.config.padding.default}",
+              "type": "dimension"
+            }
           },
           "lg": {
-            "value": "{app.dimension.control.padding.lg}",
-            "type": "dimension"
-          },
-          "label": {
-            "value": "4px",
-            "type": "dimension"
+            "default": {
+              "value": "{component.menuItem.dimension.padding.md.default} + {component.menuItem.config.padding.step}",
+              "type": "dimension"
+            }
           }
         },
         "gap": {
@@ -295,6 +311,16 @@
           },
           "step": {
             "value": "0.125rem",
+            "type": "other"
+          }
+        },
+        "padding": {
+          "default": {
+            "value": "{app.dimension.control.padding.sm}",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.25rem",
             "type": "other"
           }
         }
