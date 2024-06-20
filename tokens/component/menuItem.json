@@ -145,26 +145,14 @@
           }
         },
         "padding": {
-          "xs": {
-            "value": "{component.menuItem.dimension.padding.sm} - {component.menuItem.config.padding.step}",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{component.menuItem.dimension.padding.md} - {component.menuItem.config.padding.step}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{component.menuItem.config.padding.default}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{component.menuItem.dimension.padding.md} + {component.menuItem.config.padding.step}",
+          "default": {
+            "value": "0.25rem",
             "type": "dimension"
           }
         },
         "gap": {
           "xs": {
-            "value": "0.5rem",
+            "value": "{component.menuItem.dimension.gap.sm} - {component.menuItem.config.gap.step}",
             "type": "dimension"
           },
           "sm": {
@@ -286,11 +274,11 @@
         },
         "gap": {
           "default": {
-            "value": "{app.dimension.control.gap.lg}",
+            "value": "0.625rem",
             "type": "other"
           },
           "step": {
-            "value": "0.125rem",
+            "value": "0.0625rem",
             "type": "other"
           }
         },
