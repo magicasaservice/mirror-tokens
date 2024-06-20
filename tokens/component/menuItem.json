@@ -217,6 +217,10 @@
       },
       "dimension": {
         "height": {
+          "xs": {
+            "value": "{app.dimension.control.height.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.height.sm}",
             "type": "dimension"
@@ -231,6 +235,10 @@
           }
         },
         "padding": {
+          "xs": {
+            "value": "{app.dimension.control.padding.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.padding.sm}",
             "type": "dimension"
@@ -249,6 +257,10 @@
           }
         },
         "gap": {
+          "xs": {
+            "value": "{component.menuItem.dimension.gap.sm} - {component.menuItem.config.gap.step}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{component.menuItem.dimension.gap.md} - {component.menuItem.config.gap.step}",
             "type": "dimension"
@@ -267,6 +279,10 @@
           }
         },
         "radius": {
+          "xs": {
+            "value": "{app.dimension.control.radius.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.radius.sm}",
             "type": "dimension"
@@ -280,21 +296,11 @@
             "type": "dimension"
           }
         },
-        "border": {
-          "sm": {
-            "value": "{app.dimension.control.border.sm}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{app.dimension.control.border.md}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.border.lg}",
-            "type": "dimension"
-          }
-        },
         "symbol": {
+          "xs": {
+            "value": "{component.menuItem.fontSize.symbol.xs}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{component.menuItem.fontSize.symbol.sm}",
             "type": "dimension"
@@ -311,6 +317,10 @@
       },
       "fontSize": {
         "text": {
+          "xs": {
+            "value": "{component.menuItem.fontSize.text.sm} - {component.menuItem.config.text.step}",
+            "type": "fontSizes"
+          },
           "sm": {
             "value": "{component.menuItem.fontSize.text.md} - {component.menuItem.config.text.step}",
             "type": "fontSizes"
@@ -325,6 +335,10 @@
           }
         },
         "symbol": {
+          "xs": {
+            "value": "{component.menuItem.fontSize.symbol.sm} - {component.menuItem.config.symbol.default.step}",
+            "type": "fontSizes"
+          },
           "sm": {
             "value": "{component.menuItem.fontSize.symbol.md} - {component.menuItem.config.symbol.default.step}",
             "type": "fontSizes"
