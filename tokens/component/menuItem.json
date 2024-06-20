@@ -39,65 +39,57 @@
             "fg": {
               "command": {
                 "default": {
-                  "value": "{app.color.surface.fg.muted}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 }
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onTranslucent}",
+                  "value": "{app.color.component.primary.fg.solid}",
                   "type": "color"
                 }
               },
               "indicator": {
                 "default": {
-                  "value": "{app.color.surface.fg.muted}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.onTranslucent}",
+                  "value": "{app.color.component.primary.fg.solid}",
                   "type": "color"
                 }
               }
             }
           },
           "plain": {
-            "bg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "hover": {
-                "value": "transparent",
-                "type": "color",
-                "$extensions": {}
-              },
-              "active": {
-                "value": "transparent",
-                "type": "color",
-                "$extensions": {}
-              }
-            },
             "fg": {
               "command": {
                 "default": {
-                  "value": "{app.color.surface.fg.muted}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 }
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onTranslucent}",
+                  "value": "{app.color.component.primary.fg.muted}",
+                  "type": "color"
+                },
+                "hover": {
+                  "value": "{app.color.component.primary.fg.solid}",
+                  "type": "color"
+                },
+                "active": {
+                  "value": "{app.color.component.primary.fg.solid}",
                   "type": "color"
                 }
               },
               "indicator": {
                 "default": {
-                  "value": "{app.color.surface.fg.muted}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.onTranslucent}",
+                  "value": "{app.color.component.primary.fg.solid}",
                   "type": "color"
                 }
               }
