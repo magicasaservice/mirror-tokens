@@ -37,7 +37,7 @@
               }
             },
             "fg": {
-              "command": {
+              "cmd": {
                 "default": {
                   "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
@@ -63,7 +63,7 @@
           },
           "plain": {
             "fg": {
-              "command": {
+              "cmd": {
                 "default": {
                   "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
@@ -148,10 +148,6 @@
           "xs": {
             "default": {
               "value": "{component.menuItem.dimension.padding.sm.default} - {component.menuItem.config.padding.step}",
-              "type": "dimension"
-            },
-            "label": {
-              "value": "0.5rem",
               "type": "dimension"
             }
           },
