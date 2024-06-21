@@ -153,11 +153,11 @@
           },
           "label": {
             "xs": {
-              "value": "{component.menuItem.dimension.padding.label.sm} - {component.menuItem.config.gap.step}",
+              "value": "{component.menuItem.dimension.padding.label.sm} - {component.menuItem.config.padding.step}",
               "type": "dimension"
             },
             "sm": {
-              "value": "{component.menuItem.dimension.padding.label.md} - {component.menuItem.config.gap.step}",
+              "value": "{component.menuItem.dimension.padding.label.md} - {component.menuItem.config.padding.step}",
               "type": "dimension"
             },
             "md": {
@@ -165,7 +165,7 @@
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.menuItem.dimension.padding.label.md} + {component.menuItem.config.gap.step}",
+              "value": "{component.menuItem.dimension.padding.label.md} + {component.menuItem.config.padding.step}",
               "type": "dimension"
             }
           }
@@ -316,13 +316,13 @@
             "type": "other"
           },
           "step": {
-            "value": "0.0625rem",
+            "value": "0.125rem",
             "type": "other"
           }
         },
         "padding": {
           "default": {
-            "value": "{app.dimension.control.padding.xs}",
+            "value": "0.375rem",
             "type": "other"
           },
           "step": {
