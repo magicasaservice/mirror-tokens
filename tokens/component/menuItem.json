@@ -116,7 +116,7 @@
         }
       },
       "typography": {
-        "text": {
+        "label": {
           "value": "{app.typography.control.text.default}",
           "type": "typography"
         },
@@ -206,21 +206,21 @@
         }
       },
       "fontSize": {
-        "text": {
+        "label": {
           "xs": {
-            "value": "{component.menuItem.fontSize.text.sm} - {component.menuItem.config.text.step}",
+            "value": "{component.menuItem.fontSize.label.sm} - {component.menuItem.config.label.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.menuItem.fontSize.text.md} - {component.menuItem.config.text.step}",
+            "value": "{component.menuItem.fontSize.label.md} - {component.menuItem.config.label.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuItem.config.text.default}",
+            "value": "{component.menuItem.config.label.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.menuItem.fontSize.text.md} + {component.menuItem.config.text.step}",
+            "value": "{component.menuItem.fontSize.label.md} + {component.menuItem.config.label.step}",
             "type": "fontSizes"
           }
         },
@@ -262,7 +262,7 @@
             }
           }
         },
-        "text": {
+        "label": {
           "default": {
             "value": "{app.fontSize.control.text.md}",
             "type": "other"
