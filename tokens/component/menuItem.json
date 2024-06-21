@@ -41,20 +41,18 @@
                 "default": {
                   "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
-                }
-              },
-              "label": {
-                "default": {
+                },
+                "hover": {
+                  "value": "{app.color.component.primary.fg.solid}",
+                  "type": "color"
+                },
+                "active": {
                   "value": "{app.color.component.primary.fg.solid}",
                   "type": "color"
                 }
               },
-              "indicator": {
+              "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
-                  "type": "color"
-                },
-                "hover": {
                   "value": "{app.color.component.primary.fg.solid}",
                   "type": "color"
                 }
@@ -64,12 +62,6 @@
           "plain": {
             "fg": {
               "cmd": {
-                "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
-                  "type": "color"
-                }
-              },
-              "label": {
                 "default": {
                   "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
@@ -83,12 +75,16 @@
                   "type": "color"
                 }
               },
-              "indicator": {
+              "label": {
                 "default": {
                   "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
+                  "value": "{app.color.component.primary.fg.solid}",
+                  "type": "color"
+                },
+                "active": {
                   "value": "{app.color.component.primary.fg.solid}",
                   "type": "color"
                 }
