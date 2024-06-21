@@ -244,6 +244,10 @@
               "type": "color",
               "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 65%)"
             },
+            "muted": {
+              "type": "color",
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 40%, {config.color.accent.alpha.fg.default})"
+            },
             "onSolid": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
@@ -287,6 +291,10 @@
             "solid": {
               "type": "color",
               "value": "hsl({config.color.grey.hue.default}, {config.color.grey.saturation.default}, 96%)"
+            },
+            "muted": {
+              "type": "color",
+              "value": "{app.color.surface.fg.muted}"
             },
             "onSolid": {
               "type": "color",
@@ -332,6 +340,10 @@
               "type": "color",
               "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 65%)"
             },
+            "muted": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 60%, {config.color.info.alpha.fg.default})"
+            },
             "onSolid": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
@@ -375,6 +387,10 @@
             "solid": {
               "type": "color",
               "value": "hsl({config.color.success.hue.default}, {config.color.success.saturation.default}, 50%)"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.default}, 40%, {config.color.success.alpha.fg.default})"
             },
             "onSolid": {
               "type": "color",
@@ -420,6 +436,10 @@
               "type": "color",
               "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 70%)"
             },
+            "muted": {
+              "type": "color",
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 40%, {config.color.warning.alpha.fg.default})"
+            },
             "onSolid": {
               "type": "color",
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
@@ -463,6 +483,10 @@
             "solid": {
               "type": "color",
               "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 72%)"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 72%, {config.color.danger.alpha.fg.default})"
             },
             "onSolid": {
               "type": "color",
