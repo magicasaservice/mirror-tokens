@@ -120,12 +120,12 @@
           "value": "{app.typography.control.text.default}",
           "type": "typography"
         },
-        "cmd": {
-          "value": "{app.typography.label.text.default}",
-          "type": "typography"
-        },
         "symbol": {
           "value": "{app.typography.control.symbol.default}",
+          "type": "typography"
+        },
+        "cmd": {
+          "value": "{app.typography.label.text.default}",
           "type": "typography"
         }
       },
@@ -149,9 +149,29 @@
           }
         },
         "padding": {
-          "default": {
-            "value": "0.25rem",
-            "type": "dimension"
+          "container": {
+            "default": {
+              "value": "0.25rem",
+              "type": "dimension"
+            }
+          },
+          "label": {
+            "xs": {
+              "value": "0.25rem",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{component.menuItem.dimension.padding.label.xs} + {component.menuItem.config.gap.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.menuItem.dimension.padding.label.sm} + {component.menuItem.config.gap.step}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.menuItem.dimension.padding.label.md} + {component.menuItem.config.gap.step}",
+              "type": "dimension"
+            }
           }
         },
         "gap": {
