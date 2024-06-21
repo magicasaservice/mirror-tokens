@@ -157,15 +157,15 @@
           },
           "label": {
             "xs": {
-              "value": "0.25rem",
+              "value": "{component.menuItem.dimension.padding.label.sm} - {component.menuItem.config.gap.step}",
               "type": "dimension"
             },
             "sm": {
-              "value": "{component.menuItem.dimension.padding.label.xs} + {component.menuItem.config.gap.step}",
+              "value": "{component.menuItem.dimension.padding.label.md} - {component.menuItem.config.gap.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.menuItem.dimension.padding.label.sm} + {component.menuItem.config.gap.step}",
+              "value": "{component.menuItem.config.padding.default}",
               "type": "dimension"
             },
             "lg": {
@@ -326,11 +326,11 @@
         },
         "padding": {
           "default": {
-            "value": "{app.dimension.control.padding.sm}",
+            "value": "{app.dimension.control.padding.xs}",
             "type": "other"
           },
           "step": {
-            "value": "0.25rem",
+            "value": "0.125rem",
             "type": "other"
           }
         },
