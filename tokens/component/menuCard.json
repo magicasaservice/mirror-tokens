@@ -195,21 +195,41 @@
           }
         },
         "gap": {
-          "xs": {
-            "value": "{component.menuCard.dimension.gap.sm} - {component.menuCard.config.gap.step}",
-            "type": "dimension"
+          "container": {
+            "xs": {
+              "value": "{component.menuCard.dimension.gap.container.sm} - {component.menuCard.config.gap.step}",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{component.menuCard.dimension.gap.container.md} - {component.menuCard.config.gap.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.menuCard.config.gap.default}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.menuCard.dimension.gap.container.md} + {component.menuCard.config.gap.step}",
+              "type": "dimension"
+            }
           },
-          "sm": {
-            "value": "{component.menuCard.dimension.gap.md} - {component.menuCard.config.gap.step}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{component.menuCard.config.gap.default}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{component.menuCard.dimension.gap.md} + {component.menuCard.config.gap.step}",
-            "type": "dimension"
+          "label": {
+            "xs": {
+              "value": "{component.menuCard.config.gap.label}",
+              "type": "dimension"
+            },
+            "sm": {
+              "value": "{component.menuCard.dimension.gap.label.xs} + {component.menuCard.config.gap.step}",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "{component.menuCard.dimension.gap.label.sm} + {component.menuCard.config.gap.step}",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "{component.menuCard.dimension.gap.label.md} + {component.menuCard.config.gap.step}",
+              "type": "dimension"
+            }
           }
         },
         "radius": {
@@ -336,11 +356,15 @@
         },
         "gap": {
           "default": {
-            "value": "1rem",
+            "value": "1.125rem",
             "type": "other"
           },
           "step": {
-            "value": "0.1875rem",
+            "value": "0.125rem",
+            "type": "other"
+          },
+          "label": {
+            "value": "0.125rem",
             "type": "other"
           }
         },
