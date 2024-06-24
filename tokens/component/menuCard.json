@@ -117,7 +117,7 @@
       },
       "typography": {
         "label": {
-          "value": "{app.typography.control.text.default}",
+          "value": "{app.typography.control.text.strong}",
           "type": "typography"
         },
         "symbol": {
@@ -157,16 +157,16 @@
               }
             },
             "vertical": {
-              "sm": {
-                "value": "0.5rem",
+              "xs": {
+                "value": "0.625rem",
                 "type": "dimension"
               },
-              "xs": {
-                "value": "0.25rem",
+              "sm": {
+                "value": "0.75rem",
                 "type": "dimension"
               },
               "md": {
-                "value": "0.75rem",
+                "value": "0.875rem",
                 "type": "dimension"
               },
               "lg": {
@@ -197,37 +197,37 @@
         "gap": {
           "container": {
             "xs": {
-              "value": "{component.menuCard.dimension.gap.container.sm} - {component.menuCard.config.gap.step}",
+              "value": "{component.menuCard.dimension.gap.container.sm} - {component.menuCard.config.gap.container.step}",
               "type": "dimension"
             },
             "sm": {
-              "value": "{component.menuCard.dimension.gap.container.md} - {component.menuCard.config.gap.step}",
+              "value": "{component.menuCard.dimension.gap.container.md} - {component.menuCard.config.gap.container.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.menuCard.config.gap.default}",
+              "value": "{component.menuCard.config.gap.container.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.menuCard.dimension.gap.container.md} + {component.menuCard.config.gap.step}",
+              "value": "{component.menuCard.dimension.gap.container.md} + {component.menuCard.config.gap.container.step}",
               "type": "dimension"
             }
           },
           "label": {
             "xs": {
-              "value": "{component.menuCard.config.gap.label}",
+              "value": "{component.menuCard.config.gap.label.default}",
               "type": "dimension"
             },
             "sm": {
-              "value": "{component.menuCard.dimension.gap.label.xs} + {component.menuCard.config.gap.step}",
+              "value": "{component.menuCard.dimension.gap.label.xs} + {component.menuCard.config.gap.label.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.menuCard.dimension.gap.label.sm} + {component.menuCard.config.gap.step}",
+              "value": "{component.menuCard.dimension.gap.label.sm} + {component.menuCard.config.gap.label.step}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.menuCard.dimension.gap.label.md} + {component.menuCard.config.gap.step}",
+              "value": "{component.menuCard.dimension.gap.label.md} + {component.menuCard.config.gap.label.step}",
               "type": "dimension"
             }
           }
@@ -346,7 +346,7 @@
         },
         "label": {
           "default": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{app.fontSize.control.text.xs}",
             "type": "other"
           },
           "step": {
@@ -355,17 +355,25 @@
           }
         },
         "gap": {
-          "default": {
-            "value": "1.125rem",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
+          "container": {
+            "default": {
+              "value": "1.125rem",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
           },
           "label": {
-            "value": "0.125rem",
-            "type": "other"
+            "default": {
+              "value": "0.0625rem",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.0625rem",
+              "type": "other"
+            }
           }
         },
         "padding": {
