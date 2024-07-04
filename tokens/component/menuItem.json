@@ -90,6 +90,70 @@
                 }
               }
             }
+          },
+          "subtle": {
+            "bg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.05",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.05",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "fg": {
+              "cmd": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.muted}",
+                  "type": "color"
+                },
+                "hover": {
+                  "value": "{app.color.component.primary.fg.solid}",
+                  "type": "color"
+                },
+                "active": {
+                  "value": "{app.color.component.primary.fg.solid}",
+                  "type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "value": "{app.color.component.primary.fg.muted}",
+                  "type": "color"
+                },
+                "hover": {
+                  "value": "{app.color.component.primary.fg.solid}",
+                  "type": "color"
+                },
+                "active": {
+                  "value": "{app.color.component.primary.fg.solid}",
+                  "type": "color"
+                }
+              }
+            }
           }
         },
         "disabled": {
