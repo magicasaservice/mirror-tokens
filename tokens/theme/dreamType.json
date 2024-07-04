@@ -1,0 +1,55 @@
+{
+  "config": {
+    "color": {
+      "accent": {
+        "hue": {
+          "default": {
+            "value": "140",
+            "type": "other"
+          }
+        }
+      }
+    }
+  },
+  "app": {
+    "color": {
+      "surface": {
+        "elevation": {
+          "base": {
+            "bg": {
+              "default": {
+                "type": "color",
+                "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 8%, 100)"
+              }
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "type": "color",
+            "value": "transparent"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 60%)",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{app.color.surface.fg.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.6",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
