@@ -1,0 +1,74 @@
+{
+  "component": {
+    "menuBox": {
+      "dimension": {
+        "padding": {
+          "x": {
+            "value": "0.5rem",
+            "type": "dimension"
+          },
+          "y": {
+            "value": "0.5rem",
+            "type": "dimension"
+          }
+        },
+        "gap": {
+          "default": {
+            "value": "0rem",
+            "type": "dimension"
+          }
+        },
+        "blur": {
+          "default": {
+            "value": "4rem",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "sm": {
+            "value": "{app.dimension.control.radius.sm} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.control.radius.md} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.radius.lg} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          }
+        }
+      },
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{app.color.surface.elevation.high.bg.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.5",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{app.color.surface.border.default}",
+            "type": "color",
+            "$extensions": {}
+          }
+        }
+      },
+      "boxShadow": {
+        "default": {
+          "value": "{app.boxShadow.component.higher}",
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}
