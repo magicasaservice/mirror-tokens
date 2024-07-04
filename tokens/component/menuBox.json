@@ -25,6 +25,10 @@
           }
         },
         "radius": {
+          "xs": {
+            "value": "{app.dimension.control.radius.xs} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          },
           "sm": {
             "value": "{app.dimension.control.radius.sm} + {component.menuBox.dimension.padding.x}",
             "type": "dimension"
@@ -64,8 +68,7 @@
         "border": {
           "default": {
             "value": "transparent",
-            "type": "color",
-            "$extensions": {}
+            "type": "color"
           }
         }
       },
