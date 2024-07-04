@@ -37,6 +37,12 @@
             "value": "{app.dimension.control.radius.lg} + {component.menuBox.dimension.padding.x}",
             "type": "dimension"
           }
+        },
+        "border": {
+          "default": {
+            "value": "0px",
+            "type": "dimension"
+          }
         }
       },
       "color": {
@@ -48,7 +54,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "0.5",
+                  "value": "0.6",
                   "space": "hsl"
                 }
               }
@@ -57,7 +63,7 @@
         },
         "border": {
           "default": {
-            "value": "{app.color.surface.border.default}",
+            "value": "transparent",
             "type": "color",
             "$extensions": {}
           }
