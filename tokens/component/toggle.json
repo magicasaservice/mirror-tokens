@@ -377,7 +377,16 @@
       },
       "boxShadow": {
         "default": {
-          "value": "{app.boxShadow.control.default}",
+          "value": [
+            {
+              "x": "0",
+              "y": "0.0625rem",
+              "blur": "0.125rem",
+              "spread": "0",
+              "color": "{app.color.component.shadow.strong}",
+              "type": "dropShadow"
+            }
+          ],
           "type": "boxShadow"
         },
         "pressed": {
