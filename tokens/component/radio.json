@@ -227,7 +227,7 @@
           },
           "border": {
             "sm": {
-              "value": "{component.radio.dimension.box.border.md} - {component.radio.config.box.border.step}",
+              "value": "{component.radio.config.box.border.default}",
               "type": "dimension"
             },
             "md": {
@@ -235,7 +235,7 @@
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.radio.dimension.box.border.md} + {component.radio.config.box.border.step}",
+              "value": "{component.radio.config.box.border.default}",
               "type": "dimension"
             }
           }
@@ -303,11 +303,7 @@
           },
           "border": {
             "default": {
-              "value": "0.125rem",
-              "type": "other"
-            },
-            "step": {
-              "value": "0rem",
+              "value": "{app.dimension.label.border.md}",
               "type": "other"
             }
           }
