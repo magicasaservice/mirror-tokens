@@ -546,7 +546,7 @@
             "type": "color"
           },
           "inverted": {
-            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 100%, 1)",
+            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 96%, 1)",
             "type": "color"
           }
         },
@@ -592,21 +592,21 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 4%, {config.color.accent.alpha.border.hover})"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 4%, {config.color.accent.alpha.border.default})"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 4%)"
             },
             "muted": {
               "type": "color",
-              "value": "{app.color.surface.fg.muted}"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 4%, 0.48)"
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 96%, 1)"
             },
             "onTone": {
               "type": "color",
@@ -694,19 +694,15 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 2%, 0.98)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
             },
             "muted": {
               "type": "color",
               "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.4)"
             },
-            "label": {
-              "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 50%, 0.98)"
-            },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "onTone": {
               "type": "color",
@@ -714,7 +710,11 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 2%, 0.98)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
+            },
+            "label": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%, 0.4)"
             }
           }
         },
@@ -918,7 +918,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 0%, {config.color.neutral.alpha.bg.subtle})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 50%, {config.color.neutral.alpha.bg.subtle})"
             },
             "tone": {
               "type": "color",
@@ -959,7 +959,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.2",
+                    "value": "0.26",
                     "space": "hsl"
                   }
                 }
