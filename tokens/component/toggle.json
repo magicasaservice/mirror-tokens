@@ -197,7 +197,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.accent.fg.solid}",
+                  "value": "{app.color.component.neutral.fg.solid}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -216,7 +216,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "{config.color.primary.darken.default} + 0.04",
+                        "value": "{config.color.neutral.darken.default} + 0.04",
                         "space": "hsl"
                       }
                     }
@@ -243,23 +243,15 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{component.toggle.color.unchecked.track.default.bg.default}",
+                  "value": "{app.color.component.disabled.bg.translucent}",
                   "type": "color"
                 }
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.surface.fg.inverted}",
+                  "value": "{app.color.component.disabled.fg.onTranslucent}",
                   "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "0.6",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "$extensions": {}
                 }
               },
               "border": {
@@ -352,8 +344,9 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{component.toggle.color.checked.track.default.bg.default}",
-                  "type": "color"
+                  "value": "{app.color.component.accent.bg.solid}",
+                  "type": "color",
+                  "$extensions": {}
                 }
               },
               "fg": {
@@ -364,7 +357,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.4",
+                        "value": "0.3",
                         "space": "hsl"
                       }
                     }
@@ -403,7 +396,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.4",
+                        "value": "0.3",
                         "space": "hsl"
                       }
                     }

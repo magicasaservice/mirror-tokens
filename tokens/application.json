@@ -918,7 +918,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 60%, {config.color.neutral.alpha.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 0%, {config.color.neutral.alpha.bg.subtle})"
             },
             "tone": {
               "type": "color",
@@ -926,7 +926,7 @@
             },
             "checked": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 50%, {config.color.neutral.alpha.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, {config.color.neutral.alpha.bg.default})"
             }
           },
           "border": {
@@ -936,7 +936,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 80%, {config.color.neutral.alpha.border.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 0%, {config.color.neutral.alpha.border.subtle})"
             }
           },
           "fg": {
@@ -951,6 +951,19 @@
             "onSolid": {
               "type": "color",
               "value": "{app.color.surface.fg.inverted}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         },
