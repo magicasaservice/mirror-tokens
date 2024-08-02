@@ -1591,7 +1591,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.text.default}",
                   "fontSize": "{app.fontSize.surface.subtitle.text.sm}"
                 },
@@ -1600,7 +1600,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.text.strong}",
                   "fontSize": "{app.fontSize.surface.subtitle.text.sm}"
                 },
@@ -1611,7 +1611,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.text.default}",
                   "fontSize": "{app.fontSize.surface.subtitle.text.md}"
                 },
@@ -1620,7 +1620,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.text.strong}",
                   "fontSize": "{app.fontSize.surface.subtitle.text.md}"
                 },
@@ -1631,7 +1631,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.text.default}",
                   "fontSize": "{app.fontSize.surface.subtitle.text.lg}"
                 },
@@ -1640,7 +1640,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.text.strong}",
                   "fontSize": "{app.fontSize.surface.subtitle.text.lg}"
                 },
@@ -1653,7 +1653,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.symbol.default}",
                   "fontSize": "{app.fontSize.surface.subtitle.symbol.sm}"
                 },
@@ -1662,7 +1662,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.symbol.strong}",
                   "fontSize": "{app.fontSize.surface.subtitle.symbol.sm}"
                 },
@@ -1673,7 +1673,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.symbol.default}",
                   "fontSize": "{app.fontSize.surface.subtitle.symbol.md}"
                 },
@@ -1682,7 +1682,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.symbol.strong}",
                   "fontSize": "{app.fontSize.surface.subtitle.symbol.md}"
                 },
@@ -1693,7 +1693,7 @@
               "default": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.symbol.default}",
                   "fontSize": "{app.fontSize.surface.subtitle.symbol.lg}"
                 },
@@ -1702,7 +1702,7 @@
               "strong": {
                 "value": {
                   "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
                   "fontWeight": "{app.fontWeight.surface.subtitle.symbol.strong}",
                   "fontSize": "{app.fontSize.surface.subtitle.symbol.lg}"
                 },
@@ -3027,29 +3027,29 @@
         "title": {
           "text": {
             "sm": {
-              "value": "130%",
+              "value": "135%",
               "type": "lineHeights"
             },
             "md": {
-              "value": "120%",
+              "value": "130%",
               "type": "lineHeights"
             },
             "lg": {
-              "value": "110%",
+              "value": "125%",
               "type": "lineHeights"
             }
           },
           "symbol": {
             "sm": {
-              "value": "130%",
+              "value": "135%",
               "type": "lineHeights"
             },
             "md": {
-              "value": "120%",
+              "value": "130%",
               "type": "lineHeights"
             },
             "lg": {
-              "value": "110%",
+              "value": "125%",
               "type": "lineHeights"
             }
           }
@@ -3086,12 +3086,16 @@
         },
         "subtitle": {
           "text": {
-            "value": "140%",
-            "type": "lineHeights"
+            "default": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
           },
           "symbol": {
-            "value": "140%",
-            "type": "lineHeights"
+            "default": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
           }
         },
         "body": {
