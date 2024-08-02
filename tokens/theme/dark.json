@@ -143,7 +143,7 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 100%, 0.1)"
+            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 100%, 0.06)"
           },
           "hover": {
             "type": "color",
@@ -236,7 +236,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 96%, 0.14)"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 96%, {config.color.accent.alpha.border.default})"
             }
           },
           "fg": {
@@ -284,7 +284,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.translucent}, 96%, 0.14)"
+              "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.translucent}, 96%, {config.color.primary.alpha.border.default})"
             }
           },
           "fg": {
@@ -332,7 +332,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 96%, 0.14)"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 96%, {config.color.neutral.alpha.border.default})"
             }
           },
           "fg": {
