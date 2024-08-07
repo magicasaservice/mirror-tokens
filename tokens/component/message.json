@@ -3,7 +3,7 @@
     "message": {
       "typography": {
         "default": {
-          "value": "{app.typography.control.text.text}",
+          "value": "{app.typography.control.text.alt}",
           "type": "typography"
         },
         "symbol": {
@@ -15,69 +15,13 @@
         "default": {
           "bg": {
             "default": {
-              "value": "{app.color.component.accent.bg.translucent}",
+              "value": "{app.color.surface.elevation.high.bg.default}",
               "type": "color"
             }
           },
           "fg": {
             "default": {
               "value": "{app.color.component.accent.fg.onTranslucent}",
-              "type": "color"
-            }
-          }
-        },
-        "danger": {
-          "bg": {
-            "default": {
-              "value": "{app.color.component.danger.bg.translucent}",
-              "type": "color"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{app.color.component.danger.fg.onTranslucent}",
-              "type": "color"
-            }
-          }
-        },
-        "success": {
-          "bg": {
-            "default": {
-              "value": "{app.color.component.success.bg.translucent}",
-              "type": "color"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{app.color.component.success.fg.onTranslucent}",
-              "type": "color"
-            }
-          }
-        },
-        "warning": {
-          "bg": {
-            "default": {
-              "value": "{app.color.component.warning.bg.translucent}",
-              "type": "color"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{app.color.component.warning.fg.onTranslucent}",
-              "type": "color"
-            }
-          }
-        },
-        "info": {
-          "bg": {
-            "default": {
-              "value": "{app.color.component.info.bg.translucent}",
-              "type": "color"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{app.color.component.info.fg.onTranslucent}",
               "type": "color"
             }
           }
@@ -191,11 +135,11 @@
       },
       "fontSize": {
         "default": {
-          "value": "{app.fontSize.control.text.xs}",
+          "value": "{app.fontSize.control.text.sm}",
           "type": "fontSizes"
         },
-        "advanced": {
-          "value": "{app.fontSize.label.text.lg}",
+        "message": {
+          "value": "{app.fontSize.control.text.xs}",
           "type": "fontSizes"
         },
         "symbol": {

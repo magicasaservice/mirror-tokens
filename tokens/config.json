@@ -97,7 +97,7 @@
       },
       "title": {
         "text": {
-          "value": "{config.fontSize.base} * 2",
+          "value": "{config.fontSize.base} * 1.5",
           "type": "fontSizes"
         },
         "symbol": {
@@ -107,7 +107,7 @@
       },
       "subtitle": {
         "text": {
-          "value": "{config.fontSize.base} * 1.5",
+          "value": "{config.fontSize.base} + 0.125rem",
           "type": "fontSizes"
         },
         "symbol": {
@@ -127,7 +127,7 @@
       },
       "callout": {
         "text": {
-          "value": "{config.fontSize.base}",
+          "value": "{config.fontSize.base} - 0.125rem",
           "type": "fontSizes"
         },
         "symbol": {
@@ -199,7 +199,7 @@
           "type": "dimension"
         },
         "border": {
-          "value": "1px",
+          "value": "2px",
           "type": "dimension"
         }
       },
@@ -240,11 +240,11 @@
         },
         "saturation": {
           "default": {
-            "value": "5%",
+            "value": "0%",
             "type": "other"
           },
           "translucent": {
-            "value": "5%",
+            "value": "0%",
             "type": "other"
           }
         },
@@ -269,11 +269,11 @@
               "type": "other"
             },
             "hover": {
-              "value": "0.1",
+              "value": "0.08",
               "type": "other"
             },
             "active": {
-              "value": "0.14",
+              "value": "0.1",
               "type": "other"
             },
             "subtle": {
@@ -283,19 +283,19 @@
           },
           "border": {
             "default": {
-              "value": "0.16",
+              "value": "0.08",
               "type": "other"
             },
             "hover": {
-              "value": "0.2",
+              "value": "0.12",
               "type": "other"
             },
             "active": {
-              "value": "0.24",
+              "value": "0.16",
               "type": "other"
             },
             "subtle": {
-              "value": "0.12",
+              "value": "0.08",
               "type": "other"
             }
           },
@@ -324,92 +324,6 @@
       "accent": {
         "hue": {
           "default": {
-            "value": "40",
-            "type": "other"
-          }
-        },
-        "saturation": {
-          "default": {
-            "value": "100%",
-            "type": "other"
-          },
-          "translucent": {
-            "value": "100%",
-            "type": "other"
-          }
-        },
-        "darken": {
-          "default": {
-            "value": "0.08",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.08",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.16",
-            "type": "other"
-          }
-        },
-        "alpha": {
-          "bg": {
-            "default": {
-              "value": "0.16",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.24",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.32",
-              "type": "other"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "0.32",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.4",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.48",
-              "type": "other"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "0.68",
-              "type": "other"
-            },
-            "hover": {
-              "value": "1",
-              "type": "other"
-            },
-            "active": {
-              "value": "1",
-              "type": "other"
-            }
-          }
-        },
-        "lighten": {
-          "default": {
-            "value": "0.8",
-            "type": "other"
-          },
-          "translucent": {
-            "value": "0.8",
-            "type": "other"
-          }
-        }
-      },
-      "primary": {
-        "hue": {
-          "default": {
             "value": "50",
             "type": "other"
           }
@@ -420,7 +334,7 @@
             "type": "other"
           },
           "translucent": {
-            "value": "5%",
+            "value": "3%",
             "type": "other"
           }
         },
@@ -445,11 +359,11 @@
               "type": "other"
             },
             "hover": {
-              "value": "0.1",
+              "value": "0.08",
               "type": "other"
             },
             "active": {
-              "value": "0.14",
+              "value": "0.1",
               "type": "other"
             },
             "subtle": {
@@ -459,19 +373,121 @@
           },
           "border": {
             "default": {
-              "value": "0.16",
+              "value": "0.08",
               "type": "other"
             },
             "hover": {
-              "value": "0.2",
+              "value": "0.12",
               "type": "other"
             },
             "active": {
-              "value": "0.24",
+              "value": "0.16",
               "type": "other"
             },
             "subtle": {
+              "value": "0.06",
+              "type": "other"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "0.6",
+              "type": "other"
+            },
+            "hover": {
+              "value": "1",
+              "type": "other"
+            },
+            "active": {
+              "value": "1",
+              "type": "other"
+            }
+          }
+        },
+        "lighten": {
+          "default": {
+            "value": "0.8",
+            "type": "other"
+          },
+          "hover": {
+            "value": "0.8",
+            "type": "other"
+          },
+          "active": {
+            "value": "0.8",
+            "type": "other"
+          },
+          "translucent": {
+            "value": "0.8",
+            "type": "other"
+          }
+        }
+      },
+      "primary": {
+        "hue": {
+          "default": {
+            "value": "50",
+            "type": "other"
+          }
+        },
+        "saturation": {
+          "default": {
+            "value": "3%",
+            "type": "other"
+          },
+          "translucent": {
+            "value": "3%",
+            "type": "other"
+          }
+        },
+        "darken": {
+          "default": {
+            "value": "0.1",
+            "type": "other"
+          },
+          "hover": {
+            "value": "0.1",
+            "type": "other"
+          },
+          "active": {
+            "value": "0.2",
+            "type": "other"
+          }
+        },
+        "alpha": {
+          "bg": {
+            "default": {
+              "value": "0.06",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.08",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "subtle": {
+              "value": "0.04",
+              "type": "other"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "0.08",
+              "type": "other"
+            },
+            "hover": {
               "value": "0.12",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.16",
+              "type": "other"
+            },
+            "subtle": {
+              "value": "0.06",
               "type": "other"
             }
           },
@@ -508,7 +524,7 @@
       "info": {
         "hue": {
           "default": {
-            "value": "212",
+            "value": "210",
             "type": "other"
           }
         },
@@ -682,7 +698,7 @@
       "warning": {
         "hue": {
           "default": {
-            "value": "30",
+            "value": "40",
             "type": "other"
           }
         },
@@ -764,7 +780,7 @@
       "danger": {
         "hue": {
           "default": {
-            "value": "18",
+            "value": "15",
             "type": "other"
           }
         },

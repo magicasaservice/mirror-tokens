@@ -14,7 +14,7 @@
             "type": "typography"
           },
           "icon": {
-            "value": "{app.typography.control.symbol.text}",
+            "value": "{app.typography.control.symbol.alt}",
             "type": "typography"
           }
         }
@@ -1376,7 +1376,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
+                "value": "{app.color.component.disabled.fg.onTranslucent}",
                 "type": "color"
               }
             }
@@ -1562,6 +1562,12 @@
               "value": "{app.dimension.control.radius.lg} - 0.25rem",
               "type": "dimension"
             }
+          },
+          "rounded": {
+            "default": {
+              "value": "999px",
+              "type": "dimension"
+            }
           }
         },
         "border": {
@@ -1726,7 +1732,7 @@
         },
         "text": {
           "default": {
-            "value": "{app.fontSize.control.text.md}",
+            "value": "{app.fontSize.control.text.sm}",
             "type": "other"
           },
           "step": {

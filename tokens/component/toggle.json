@@ -197,17 +197,17 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.primary.bg.translucent}",
+                  "value": "{app.color.component.neutral.bg.translucent}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.neutral.bg.translucent}",
+                  "value": "{component.toggle.color.unchecked.track.default.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "{config.color.neutral.alpha.bg.active}",
+                        "value": "{config.color.neutral.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -216,7 +216,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.accent.fg.onSolid}",
+                  "value": "{app.color.surface.fg.inverted}",
                   "type": "color"
                 }
               },
@@ -240,7 +240,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.solid}",
+                  "value": "{app.color.component.disabled.fg.onTranslucent}",
                   "type": "color"
                 }
               },
@@ -256,7 +256,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "value": "{app.color.surface.fg.inverted}",
                   "type": "color"
                 }
               },
@@ -270,7 +270,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.onSolid}",
+                  "value": "{app.color.surface.fg.inverted}",
                   "type": "color"
                 }
               },
@@ -288,17 +288,17 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.info.bg.solid}",
+                  "value": "{app.color.component.accent.bg.solid}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.info.bg.solid}",
+                  "value": "{component.toggle.color.checked.track.default.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{config.color.info.darken.active}",
+                        "value": "{config.color.primary.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -325,14 +325,23 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.checked}",
+                  "value": "{app.color.component.accent.bg.solid}",
                   "type": "color"
                 }
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.accent.fg.onSolid}",
-                  "type": "color"
+                  "value": "{app.color.surface.fg.inverted}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "0.3",
+                        "space": "hsl"
+                      }
+                    }
+                  }
                 }
               },
               "border": {
@@ -347,7 +356,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onSolid}",
+                  "value": "{app.color.component.accent.fg.onSolid}",
                   "type": "color"
                 }
               },
@@ -361,8 +370,17 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.onSolid}",
-                  "type": "color"
+                  "value": "{app.color.surface.fg.inverted}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "0.3",
+                        "space": "hsl"
+                      }
+                    }
+                  }
                 }
               },
               "border": {
@@ -377,11 +395,29 @@
       },
       "boxShadow": {
         "default": {
-          "value": "{app.boxShadow.control.default}",
+          "value": [
+            {
+              "x": "0",
+              "y": "0.0625rem",
+              "blur": "0.125rem",
+              "spread": "0",
+              "color": "{app.color.component.shadow.strong}",
+              "type": "dropShadow"
+            }
+          ],
           "type": "boxShadow"
         },
         "pressed": {
-          "value": "{app.boxShadow.control.pressed}",
+          "value": [
+            {
+              "x": "0",
+              "y": "0.0625rem",
+              "blur": "0.125rem",
+              "spread": "0",
+              "color": "{app.color.component.shadow.strong}",
+              "type": "dropShadow"
+            }
+          ],
           "type": "boxShadow"
         }
       },
@@ -409,17 +445,17 @@
             "description": "-0.5 for material design style (handle is offset)"
           },
           "step": {
-            "value": "0.25rem",
+            "value": "0.375rem",
             "type": "other"
           },
           "radius": {
             "default": {
-              "value": "1.75rem",
+              "value": "0.625rem",
               "type": "other",
               "description": "for 100% roundness make equal to height md"
             },
             "step": {
-              "value": "0.25rem",
+              "value": "0.125rem",
               "type": "other"
             }
           }
@@ -430,7 +466,7 @@
             "type": "other"
           },
           "ratio": {
-            "value": "1.25",
+            "value": "1.125",
             "type": "other",
             "description": "ratio defines width → 1 = square / 1.5 = rectangle"
           },

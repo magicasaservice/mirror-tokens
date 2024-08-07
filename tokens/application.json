@@ -499,7 +499,7 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 0%, 0.1)"
+            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 0%, 0.04)"
           },
           "hover": {
             "type": "color",
@@ -546,7 +546,7 @@
             "type": "color"
           },
           "inverted": {
-            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 100%, 1)",
+            "value": "hsla({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 96%, 1)",
             "type": "color"
           }
         },
@@ -574,39 +574,39 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 45%)"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 4%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 45%, {config.color.accent.alpha.bg.default})"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 4%, {config.color.accent.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
-              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 20%)"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 25%)"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 40%)"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 4%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 45%, {config.color.accent.alpha.border.hover})"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.translucent}, 4%, {config.color.accent.alpha.border.default})"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 35%)"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 4%)"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 35%, {config.color.accent.alpha.fg.default})"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 35%, 0.48)"
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "hsla({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 96%, 1)"
             },
             "onTone": {
               "type": "color",
@@ -614,7 +614,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 20%)"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 4%)"
             }
           }
         },
@@ -694,19 +694,15 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 2%, 0.98)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
             },
             "muted": {
               "type": "color",
               "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.4)"
             },
-            "label": {
-              "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 50%, 0.98)"
-            },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)"
             },
             "onTone": {
               "type": "color",
@@ -714,7 +710,11 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 2%, 0.98)"
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%)"
+            },
+            "label": {
+              "type": "color",
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 4%, 0.4)"
             }
           }
         },
@@ -746,11 +746,11 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 45%)"
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 40%)"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.fg.default})"
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 40%, {config.color.info.alpha.fg.default})"
             },
             "onSolid": {
               "type": "color",
@@ -770,11 +770,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.success.hue.default}, {config.color.success.saturation.default}, 35%)"
+              "value": "hsl({config.color.success.hue.default}, {config.color.success.saturation.default}, 30%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.translucent}, 50%, {config.color.danger.alpha.bg.default})"
+              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.translucent}, 30%, {config.color.danger.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -784,21 +784,21 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.success.hue.default}, {config.color.success.saturation.default}, 30%)"
+              "value": "hsl({config.color.success.hue.default}, {config.color.success.saturation.default}, 25%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.translucent}, 40%, {config.color.success.alpha.border.default})"
+              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.translucent}, 25%, {config.color.success.alpha.border.default})"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.success.hue.default}, {config.color.success.saturation.default}, 30%)"
+              "value": "hsl({config.color.success.hue.default}, {config.color.success.saturation.default}, 20%)"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.translucent}, 30%, {config.color.success.alpha.fg.default})"
+              "value": "hsla({config.color.success.hue.default}, {config.color.success.saturation.translucent}, 20%, {config.color.success.alpha.fg.default})"
             },
             "onSolid": {
               "type": "color",
@@ -818,7 +818,7 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 45%)"
+              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 50%)"
             },
             "translucent": {
               "type": "color",
@@ -832,11 +832,11 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 30%)"
+              "value": "hsl({config.color.warning.hue.default}, {config.color.warning.saturation.default}, 45%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.translucent}, 40%, {config.color.warning.alpha.border.default})"
+              "value": "hsla({config.color.warning.hue.default}, {config.color.warning.saturation.translucent}, 45%, {config.color.warning.alpha.border.default})"
             }
           },
           "fg": {
@@ -866,11 +866,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 55%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 50%, {config.color.danger.alpha.bg.default})"
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 55%, {config.color.danger.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -880,21 +880,21 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 45%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 50%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 40%, {config.color.danger.alpha.border.default})"
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 50%, {config.color.danger.alpha.border.default})"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 40%)"
+              "value": "hsl({config.color.danger.hue.default}, {config.color.danger.saturation.default}, 45%)"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 30%, {config.color.danger.alpha.fg.default})"
+              "value": "hsla({config.color.danger.hue.default}, {config.color.danger.saturation.translucent}, 45%, {config.color.danger.alpha.fg.default})"
             },
             "onSolid": {
               "type": "color",
@@ -918,7 +918,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 60%, {config.color.neutral.alpha.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 50%, {config.color.neutral.alpha.bg.subtle})"
             },
             "tone": {
               "type": "color",
@@ -926,7 +926,7 @@
             },
             "checked": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 50%, {config.color.neutral.alpha.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, {config.color.neutral.alpha.bg.default})"
             }
           },
           "border": {
@@ -936,7 +936,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 80%, {config.color.neutral.alpha.border.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.translucent}, 0%, {config.color.neutral.alpha.border.subtle})"
             }
           },
           "fg": {
@@ -951,6 +951,19 @@
             "onSolid": {
               "type": "color",
               "value": "{app.color.surface.fg.inverted}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.26",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         },
@@ -963,7 +976,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{config.color.info.darken.default}",
+                    "value": "{config.color.info.darken.focus}",
                     "space": "hsl"
                   }
                 }
@@ -1022,7 +1035,7 @@
             },
             "type": "typography"
           },
-          "text": {
+          "alt": {
             "value": {
               "fontFamily": "{app.fontFamily.control.text}",
               "fontWeight": "{app.fontWeight.control.text.alt}",
@@ -1051,7 +1064,7 @@
             },
             "type": "typography"
           },
-          "text": {
+          "alt": {
             "value": {
               "fontFamily": "{app.fontFamily.control.symbol}",
               "fontWeight": "{app.fontWeight.control.symbol.alt}",
@@ -1574,43 +1587,127 @@
         },
         "subtitle": {
           "text": {
-            "default": {
-              "value": {
-                "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                "lineHeight": "{app.lineHeight.surface.subtitle.text}",
-                "fontWeight": "{app.fontWeight.surface.subtitle.text.default}",
-                "fontSize": "{app.fontSize.surface.subtitle.text}"
+            "sm": {
+              "default": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.text.default}",
+                  "fontSize": "{app.fontSize.surface.subtitle.text.sm}"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.text.strong}",
+                  "fontSize": "{app.fontSize.surface.subtitle.text.sm}"
+                },
+                "type": "typography"
+              }
             },
-            "strong": {
-              "value": {
-                "fontFamily": "{app.fontFamily.surface.subtitle.text}",
-                "lineHeight": "{app.lineHeight.surface.subtitle.text}",
-                "fontWeight": "{app.fontWeight.surface.subtitle.text.strong}",
-                "fontSize": "{app.fontSize.surface.subtitle.text}"
+            "md": {
+              "default": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.text.default}",
+                  "fontSize": "{app.fontSize.surface.subtitle.text.md}"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.text.strong}",
+                  "fontSize": "{app.fontSize.surface.subtitle.text.md}"
+                },
+                "type": "typography"
+              }
+            },
+            "lg": {
+              "default": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.text.default}",
+                  "fontSize": "{app.fontSize.surface.subtitle.text.lg}"
+                },
+                "type": "typography"
+              },
+              "strong": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.text}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.text.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.text.strong}",
+                  "fontSize": "{app.fontSize.surface.subtitle.text.lg}"
+                },
+                "type": "typography"
+              }
             }
           },
           "symbol": {
-            "default": {
-              "value": {
-                "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
-                "fontWeight": "{app.fontWeight.surface.subtitle.symbol.default}",
-                "fontSize": "{app.fontSize.surface.subtitle.symbol}"
+            "sm": {
+              "default": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.symbol.default}",
+                  "fontSize": "{app.fontSize.surface.subtitle.symbol.sm}"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.symbol.strong}",
+                  "fontSize": "{app.fontSize.surface.subtitle.symbol.sm}"
+                },
+                "type": "typography"
+              }
             },
-            "strong": {
-              "value": {
-                "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
-                "lineHeight": "{app.lineHeight.surface.subtitle.symbol}",
-                "fontWeight": "{app.fontWeight.surface.subtitle.symbol.strong}",
-                "fontSize": "{app.fontSize.surface.subtitle.symbol}"
+            "md": {
+              "default": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.symbol.default}",
+                  "fontSize": "{app.fontSize.surface.subtitle.symbol.md}"
+                },
+                "type": "typography"
               },
-              "type": "typography"
+              "strong": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.symbol.strong}",
+                  "fontSize": "{app.fontSize.surface.subtitle.symbol.md}"
+                },
+                "type": "typography"
+              }
+            },
+            "lg": {
+              "default": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.symbol.default}",
+                  "fontSize": "{app.fontSize.surface.subtitle.symbol.lg}"
+                },
+                "type": "typography"
+              },
+              "strong": {
+                "value": {
+                  "fontFamily": "{app.fontFamily.surface.subtitle.symbol}",
+                  "lineHeight": "{app.lineHeight.surface.subtitle.symbol.default}",
+                  "fontWeight": "{app.fontWeight.surface.subtitle.symbol.strong}",
+                  "fontSize": "{app.fontSize.surface.subtitle.symbol.lg}"
+                },
+                "type": "typography"
+              }
             }
           }
         },
@@ -2049,11 +2146,11 @@
               "type": "fontSizes"
             },
             "md": {
-              "value": "{app.fontSize.surface.title.text.sm} + 1rem",
+              "value": "{app.fontSize.surface.title.text.sm} + 0.5rem",
               "type": "fontSizes"
             },
             "lg": {
-              "value": "{app.fontSize.surface.title.text.md} + 1rem",
+              "value": "{app.fontSize.surface.title.text.md} + 0.5rem",
               "type": "fontSizes"
             }
           },
@@ -2063,11 +2160,11 @@
               "type": "fontSizes"
             },
             "md": {
-              "value": "{app.fontSize.surface.title.symbol.sm} + 1rem",
+              "value": "{app.fontSize.surface.title.symbol.sm} + 0.5rem",
               "type": "fontSizes"
             },
             "lg": {
-              "value": "{app.fontSize.surface.title.symbol.md} + 1rem",
+              "value": "{app.fontSize.surface.title.symbol.md} + 0.5rem",
               "type": "fontSizes"
             }
           }
@@ -2104,12 +2201,32 @@
         },
         "subtitle": {
           "text": {
-            "value": "{config.fontSize.subtitle.text}",
-            "type": "fontSizes"
+            "sm": {
+              "value": "{config.fontSize.subtitle.text}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{app.fontSize.surface.subtitle.text.sm} + 0.125rem",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{app.fontSize.surface.subtitle.text.md} + 0.125rem",
+              "type": "fontSizes"
+            }
           },
           "symbol": {
-            "value": "{config.fontSize.subtitle.symbol}",
-            "type": "fontSizes"
+            "sm": {
+              "value": "{config.fontSize.subtitle.symbol}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{app.fontSize.surface.subtitle.symbol.sm} + 0.125rem",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{app.fontSize.surface.subtitle.symbol.md} + 0.125rem",
+              "type": "fontSizes"
+            }
           }
         },
         "body": {
@@ -2910,29 +3027,29 @@
         "title": {
           "text": {
             "sm": {
-              "value": "130%",
+              "value": "135%",
               "type": "lineHeights"
             },
             "md": {
-              "value": "120%",
+              "value": "130%",
               "type": "lineHeights"
             },
             "lg": {
-              "value": "110%",
+              "value": "125%",
               "type": "lineHeights"
             }
           },
           "symbol": {
             "sm": {
-              "value": "130%",
+              "value": "135%",
               "type": "lineHeights"
             },
             "md": {
-              "value": "120%",
+              "value": "130%",
               "type": "lineHeights"
             },
             "lg": {
-              "value": "110%",
+              "value": "125%",
               "type": "lineHeights"
             }
           }
@@ -2969,12 +3086,16 @@
         },
         "subtitle": {
           "text": {
-            "value": "140%",
-            "type": "lineHeights"
+            "default": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
           },
           "symbol": {
-            "value": "140%",
-            "type": "lineHeights"
+            "default": {
+              "value": "140%",
+              "type": "lineHeights"
+            }
           }
         },
         "body": {

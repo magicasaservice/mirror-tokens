@@ -12,7 +12,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.2",
+                      "value": "0.01",
                       "space": "hsl"
                     }
                   }
@@ -25,7 +25,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.4",
+                      "value": "0.01",
                       "space": "hsl"
                     }
                   }
@@ -69,8 +69,17 @@
           "disabled": {
             "bg": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.01",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -142,7 +151,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
+                "value": "{app.color.component.disabled.fg.onTranslucent}",
                 "type": "color"
               }
             },
@@ -217,7 +226,7 @@
           },
           "border": {
             "sm": {
-              "value": "{component.radio.dimension.box.border.md} - {component.radio.config.box.border.step}",
+              "value": "{component.radio.config.box.border.default}",
               "type": "dimension"
             },
             "md": {
@@ -225,7 +234,7 @@
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.radio.dimension.box.border.md} + {component.radio.config.box.border.step}",
+              "value": "{component.radio.config.box.border.default}",
               "type": "dimension"
             }
           }
@@ -293,11 +302,7 @@
           },
           "border": {
             "default": {
-              "value": "0.125rem",
-              "type": "other"
-            },
-            "step": {
-              "value": "0rem",
+              "value": "{app.dimension.label.border.md}",
               "type": "other"
             }
           }

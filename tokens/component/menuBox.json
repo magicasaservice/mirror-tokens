@@ -63,6 +63,19 @@
                 }
               }
             }
+          },
+          "base": {
+            "value": "{app.color.surface.elevation.base.bg.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.6",
+                  "space": "hsl"
+                }
+              }
+            }
           }
         },
         "border": {
@@ -74,6 +87,10 @@
       },
       "boxShadow": {
         "default": {
+          "value": "{app.boxShadow.component.high}",
+          "type": "boxShadow"
+        },
+        "higher": {
           "value": "{app.boxShadow.component.higher}",
           "type": "boxShadow"
         }
