@@ -1778,12 +1778,30 @@
                   },
                   "type": "typography"
                 },
+                "mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.text.default}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.default} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.sm} + 0.125rem"
+                  },
+                  "type": "typography"
+                },
                 "strong": {
                   "value": {
                     "fontFamily": "{app.fontFamily.surface.body.text}",
                     "fontWeight": "{app.fontWeight.surface.body.text.strong}",
                     "lineHeight": "{app.lineHeight.surface.body.text.default}",
                     "fontSize": "{app.fontSize.surface.body.text.sm}"
+                  },
+                  "type": "typography"
+                },
+                "strong-mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.text.strong}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.default} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.sm} + 0.125rem"
                   },
                   "type": "typography"
                 }
@@ -1798,12 +1816,30 @@
                   },
                   "type": "typography"
                 },
+                "mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.text.default}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.short} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.sm} + 0.125rem"
+                  },
+                  "type": "typography"
+                },
                 "strong": {
                   "value": {
                     "fontFamily": "{app.fontFamily.surface.body.text}",
                     "fontWeight": "{app.fontWeight.surface.body.text.strong}",
                     "lineHeight": "{app.lineHeight.surface.body.text.short}",
                     "fontSize": "{app.fontSize.surface.body.text.sm}"
+                  },
+                  "type": "typography"
+                },
+                "strong-mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.text.strong}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.short} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.sm} + 0.125rem"
                   },
                   "type": "typography"
                 }
@@ -1820,12 +1856,30 @@
                   },
                   "type": "typography"
                 },
+                "mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.text.default}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.default} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.md} + 0.125rem"
+                  },
+                  "type": "typography"
+                },
                 "strong": {
                   "value": {
                     "fontFamily": "{app.fontFamily.surface.body.text}",
                     "fontWeight": "{app.fontWeight.surface.body.text.strong}",
                     "lineHeight": "{app.lineHeight.surface.body.text.default}",
                     "fontSize": "{app.fontSize.surface.body.text.md}"
+                  },
+                  "type": "typography"
+                },
+                "strong-mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.text.strong}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.default} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.md} + 0.125rem"
                   },
                   "type": "typography"
                 }
@@ -1840,12 +1894,30 @@
                   },
                   "type": "typography"
                 },
+                "mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.symbol.default}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.short} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.md} + 0.125rem"
+                  },
+                  "type": "typography"
+                },
                 "strong": {
                   "value": {
                     "fontFamily": "{app.fontFamily.surface.body.text}",
                     "fontWeight": "{app.fontWeight.surface.body.text.strong}",
                     "lineHeight": "{app.lineHeight.surface.body.text.short}",
                     "fontSize": "{app.fontSize.surface.body.text.md}"
+                  },
+                  "type": "typography"
+                },
+                "strong-mobile": {
+                  "value": {
+                    "fontFamily": "{app.fontFamily.surface.body.text}",
+                    "fontWeight": "{app.fontWeight.surface.body.text.strong}",
+                    "lineHeight": "{app.lineHeight.surface.body.text.short} + 20%",
+                    "fontSize": "{app.fontSize.surface.body.text.md} + 0.125rem"
                   },
                   "type": "typography"
                 }
@@ -3155,21 +3227,21 @@
         "body": {
           "text": {
             "default": {
-              "value": "160%",
+              "value": "120%",
               "type": "lineHeights"
             },
             "short": {
-              "value": "140%",
+              "value": "100%",
               "type": "lineHeights"
             }
           },
           "symbol": {
             "default": {
-              "value": "160%",
+              "value": "120%",
               "type": "lineHeights"
             },
             "short": {
-              "value": "140%",
+              "value": "100%",
               "type": "lineHeights"
             }
           }
