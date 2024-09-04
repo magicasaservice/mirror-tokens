@@ -33,6 +33,56 @@
           "type": "fontFamilies"
         }
       }
+    },
+    "lineHeight": {
+      "surface": {
+        "body": {
+          "text": {
+            "default": {
+              "value": "180%",
+              "type": "lineHeights"
+            },
+            "symbol": {
+              "value": "160%",
+              "type": "lineHeights"
+            }
+          }
+        }
+      }
+    },
+    "fontWeight": {
+      "surface": {
+        "body": {
+          "text": {
+            "default": {
+              "value": "Text",
+              "type": "fontWeights"
+            }
+          }
+        },
+        "caption": {
+          "text": {
+            "default": {
+              "value": "Text",
+              "type": "fontWeights"
+            }
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "fontSize": {
+      "base": {
+        "value": "0.9375rem",
+        "type": "other"
+      },
+      "footnote": {
+        "text": {
+          "value": "{config.fontSize.base} - 0.125rem",
+          "type": "fontSizes"
+        }
+      }
     }
   }
 }
