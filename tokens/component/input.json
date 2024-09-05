@@ -1,34 +1,142 @@
 {
   "component": {
     "input": {
-      "typography": {
+      "fontFamily": {
         "default": {
-          "input": {
-            "value": "{app.typography.control.text.alt}",
-            "type": "typography"
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
+        },
+        "symbol": {
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "input": {
+          "value": "{app.fontWeight.control.text.alt}",
+          "type": "fontWeights"
+        },
+        "label": {
+          "default": {
+            "value": "{app.fontWeight.label.text.default}",
+            "type": "fontWeights"
           },
-          "label": {
-            "value": "{app.typography.label.text.default}",
-            "type": "typography"
-          },
-          "symbol": {
-            "value": "{app.typography.control.symbol.default}",
-            "type": "typography"
+          "simple": {
+            "value": "{app.fontWeight.control.text.alt}",
+            "type": "fontWeights"
           }
         },
-        "simple": {
-          "input": {
-            "value": "{app.typography.control.text.alt}",
-            "type": "typography"
-          },
-          "label": {
-            "value": "{app.typography.control.text.alt}",
-            "type": "typography"
-          },
-          "symbol": {
-            "value": "{app.typography.control.symbol.default}",
-            "type": "typography"
+        "symbol": {
+          "value": "{app.fontWeight.control.symbol.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "input": {
+          "value": "{app.lineHeight.control.text}",
+          "type": "lineHeights"
+        },
+        "label": {
+          "value": "{app.lineHeight.label.text}",
+          "type": "lineHeights"
+        },
+        "symbol": {
+          "value": "{app.lineHeight.control.symbol}",
+          "type": "lineHeights"
+        },
+        "leading": {
+          "reset": {
+            "value": "100%",
+            "type": "lineHeights"
           }
+        }
+      },
+      "fontSize": {
+        "input": {
+          "xs": {
+            "value": "{component.input.fontSize.input.sm} - {component.input.config.text.step}",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.input.config.text.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
+            "type": "fontSizes"
+          }
+        },
+        "symbol": {
+          "xs": {
+            "value": "{component.input.fontSize.symbol.sm} - {component.input.config.symbol.default.step}",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.default.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.input.config.symbol.default.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.default.step}",
+            "type": "fontSizes"
+          }
+        },
+        "label": {
+          "default": {
+            "xs": {
+              "value": "{app.fontSize.label.text.xs}",
+              "type": "fontSizes"
+            },
+            "sm": {
+              "value": "{app.fontSize.label.text.sm}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{app.fontSize.label.text.sm}",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{app.fontSize.label.text.sm}",
+              "type": "fontSizes"
+            }
+          },
+          "simple": {
+            "xs": {
+              "value": "{component.input.fontSize.input.sm} - {component.input.config.text.step}",
+              "type": "fontSizes"
+            },
+            "sm": {
+              "value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "{component.input.config.text.default}",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
+              "type": "fontSizes"
+            }
+          }
+        }
+      },
+      "letterSpacing": {
+        "default": {
+          "value": "{app.letterSpacing.control.text}",
+          "type": "letterSpacing"
+        }
+      },
+      "textCase": {
+        "default": {
+          "value": "{app.textCase.control.default}",
+          "type": "textCase"
         }
       },
       "color": {
@@ -314,94 +422,6 @@
           }
         }
       },
-      "fontSize": {
-        "input": {
-          "xs": {
-            "value": "{component.input.fontSize.input.sm} - {component.input.config.text.step}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.input.config.text.default}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
-            "type": "fontSizes"
-          }
-        },
-        "symbol": {
-          "xs": {
-            "value": "{component.input.fontSize.symbol.sm} - {component.input.config.symbol.default.step}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.default.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.input.config.symbol.default.default}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.default.step}",
-            "type": "fontSizes"
-          }
-        },
-        "label": {
-          "default": {
-            "xs": {
-              "value": "{app.fontSize.label.text.xs}",
-              "type": "fontSizes"
-            },
-            "sm": {
-              "value": "{app.fontSize.label.text.sm}",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.label.text.sm}",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.label.text.sm}",
-              "type": "fontSizes"
-            }
-          },
-          "simple": {
-            "xs": {
-              "value": "{component.input.fontSize.input.sm} - {component.input.config.text.step}",
-              "type": "fontSizes"
-            },
-            "sm": {
-              "value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{component.input.config.text.default}",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
-              "type": "fontSizes"
-            }
-          }
-        }
-      },
-      "letterSpacing": {
-        "default": {
-          "value": "{app.letterSpacing.control.text}",
-          "type": "letterSpacing"
-        }
-      },
-      "textCase": {
-        "default": {
-          "value": "{app.textCase.control.default}",
-          "type": "textCase"
-        }
-      },
       "config": {
         "symbol": {
           "icon": {
@@ -458,14 +478,6 @@
         "focusRing": {
           "value": "{app.boxShadow.focusRing.default.md}",
           "type": "boxShadow"
-        }
-      },
-      "lineHeight": {
-        "leading": {
-          "reset": {
-            "value": "100%",
-            "type": "lineHeights"
-          }
         }
       }
     }

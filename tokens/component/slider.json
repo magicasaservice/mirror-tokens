@@ -1,18 +1,46 @@
 {
   "component": {
     "slider": {
-      "typography": {
-        "value": {
-          "value": "{app.typography.control.number.default}",
-          "type": "typography"
-        },
+      "fontFamily": {
         "label": {
-          "value": "{app.typography.control.text.alt}",
-          "type": "typography"
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
+        },
+        "number": {
+          "value": "{app.fontFamily.control.number}",
+          "type": "fontFamilies"
         },
         "symbol": {
-          "value": "{app.typography.control.number.default}",
-          "type": "typography"
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "label": {
+          "value": "{app.fontWeight.control.text.alt}",
+          "type": "fontWeights"
+        },
+        "number": {
+          "value": "{app.fontWeight.control.number.default}",
+          "type": "fontWeights"
+        },
+        "symbol": {
+          "value": "{app.fontWeight.control.symbol.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "label": {
+          "value": "{app.lineHeight.control.text}",
+          "type": "lineHeights"
+        },
+        "number": {
+          "value": "{app.lineHeight.control.number}",
+          "type": "lineHeights"
+        },
+        "symbol": {
+          "value": "{app.lineHeight.control.symbol}",
+          "type": "lineHeights"
         }
       },
       "dimension": {

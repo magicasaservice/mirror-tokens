@@ -1,14 +1,34 @@
 {
   "component": {
     "badge": {
-      "typography": {
+      "fontFamily": {
         "label": {
-          "value": "{app.typography.label.text.strong}",
-          "type": "typography"
+          "value": "{app.fontFamily.label.text}",
+          "type": "fontFamilies"
         },
         "number": {
-          "value": "{app.typography.label.number.default}",
-          "type": "typography"
+          "value": "{app.fontFamily.label.number}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "label": {
+          "value": "{app.fontWeight.label.text.strong}",
+          "type": "fontWeights"
+        },
+        "number": {
+          "value": "{app.fontWeight.label.number.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "label": {
+          "value": "{app.lineHeight.label.text}",
+          "type": "lineHeights"
+        },
+        "number": {
+          "value": "{app.lineHeight.label.number}",
+          "type": "lineHeights"
         }
       },
       "color": {

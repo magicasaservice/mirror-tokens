@@ -1,12 +1,6 @@
 {
   "component": {
     "avatar": {
-      "typography": {
-        "text": {
-          "value": "{app.typography.control.initials.default}",
-          "type": "typography"
-        }
-      },
       "color": {
         "bg": {
           "default": {
@@ -237,6 +231,24 @@
               }
             }
           }
+        }
+      },
+      "fontFamily": {
+        "default": {
+          "value": "{app.fontFamily.control.initials}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "default": {
+          "value": "{app.fontWeight.control.initials.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "default": {
+          "value": "{app.lineHeight.control.initials}",
+          "type": "lineHeights"
         }
       },
       "fontSize": {
