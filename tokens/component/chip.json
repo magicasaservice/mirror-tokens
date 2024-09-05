@@ -2,7 +2,7 @@
   "component": {
     "chip": {
       "fontFamily": {
-        "text": {
+        "default": {
           "value": "{app.fontFamily.control.text}",
           "type": "fontFamilies"
         },
@@ -14,7 +14,7 @@
         }
       },
       "fontWeight": {
-        "text": {
+        "default": {
           "value": "{app.fontWeight.control.text.default}",
           "type": "fontWeights"
         },
@@ -30,7 +30,7 @@
         }
       },
       "lineHeight": {
-        "text": {
+        "default": {
           "value": "{app.lineHeight.control.text}",
           "type": "lineHeights"
         },
@@ -42,7 +42,7 @@
         }
       },
       "fontSize": {
-        "text": {
+        "default": {
           "sm": {
             "value": "{component.chip.fontSize.text.md} - {component.chip.config.text.step}",
             "type": "fontSizes"

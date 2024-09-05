@@ -2,7 +2,7 @@
   "component": {
     "button": {
       "fontFamily": {
-        "text": {
+        "default": {
           "value": "{app.fontFamily.control.text}",
           "type": "fontFamilies"
         },
@@ -14,7 +14,7 @@
         }
       },
       "fontWeight": {
-        "text": {
+        "default": {
           "value": "{app.fontWeight.control.text.default}",
           "type": "fontWeights"
         },
@@ -30,7 +30,7 @@
         }
       },
       "lineHeight": {
-        "text": {
+        "default": {
           "value": "{app.lineHeight.control.text}",
           "type": "lineHeights"
         },
@@ -42,7 +42,7 @@
         }
       },
       "fontSize": {
-        "text": {
+        "default": {
           "xs": {
             "value": "{component.button.fontSize.text.sm} - {component.button.config.text.step}",
             "type": "fontSizes"
