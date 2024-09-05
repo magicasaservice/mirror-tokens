@@ -56,34 +56,31 @@
         },
         "symbol": {
           "sm": {
-              "value": "{component.chip.fontSize.symbol.md.default} - {component.chip.config.symbol.default.step}",
-              "type": "fontSizes"
-            }
+            "value": "{component.chip.fontSize.symbol.md.default} - {component.chip.config.symbol.default.step}",
+            "type": "fontSizes"
           },
           "md": {
-              "value": "{component.chip.config.symbol.default.default}",
-              "type": "fontSizes"
-            }
+            "value": "{component.chip.config.symbol.default.default}",
+            "type": "fontSizes"
           },
           "lg": {
-              "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.default.step}",
-              "type": "fontSizes"
-            }
+            "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.default.step}",
+            "type": "fontSizes"
           }
+        }
+      },
+      "icon": {
+        "sm": {
+          "value": "{component.chip.fontSize.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
+          "type": "fontSizes"
         },
-        "icon": {
-          "sm": {
-            "value": "{component.chip.fontSize.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.icon.step}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.chip.fontSize.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
-            "type": "fontSizes"
-          }
+        "md": {
+          "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.icon.step}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{component.chip.fontSize.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
+          "type": "fontSizes"
         }
       },
       "letterSpacing": {
