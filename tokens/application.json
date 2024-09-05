@@ -1118,177 +1118,87 @@
       },
       "surface": {
         "display": {
-          "text": {
-            "sm": {
-              "value": "{app.fontSize.surface.body.text.md} * 4",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.display.text.sm} + 2rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.display.text.md} + 2rem",
-              "type": "fontSizes"
-            }
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} * 4",
+            "type": "fontSizes"
           },
-          "symbol": {
-            "sm": {
-              "value": "{app.fontSize.surface.display.text.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.display.symbol.sm} + 2rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.display.symbol.md} + 2rem",
-              "type": "fontSizes"
-            }
+          "md": {
+            "value": "{app.fontSize.surface.display.sm} + 2rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.display.md} + 2rem",
+            "type": "fontSizes"
           }
         },
         "title": {
-          "text": {
-            "sm": {
-              "value": "{app.fontSize.surface.body.text.md} * 1.5",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.title.text.sm} + 0.5rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.title.text.md} + 0.5rem",
-              "type": "fontSizes"
-            }
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} * 1.5",
+            "type": "fontSizes"
           },
-          "symbol": {
-            "sm": {
-              "value": "{app.fontSize.surface.title.text.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.title.symbol.sm} + 0.5rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.title.symbol.md} + 0.5rem",
-              "type": "fontSizes"
-            }
+          "md": {
+            "value": "{app.fontSize.surface.title.sm} + 0.5rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.title.md} + 0.5rem",
+            "type": "fontSizes"
           }
         },
         "callout": {
-          "text": {
-            "sm": {
-              "value": "{app.fontSize.surface.body.text.md} - 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.callout.text.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.callout.text.md} + 0.125rem",
-              "type": "fontSizes"
-            }
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} - 0.125rem",
+            "type": "fontSizes"
           },
-          "symbol": {
-            "sm": {
-              "value": "{app.fontSize.surface.callout.text.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.callout.symbol.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.callout.symbol.md} + 0.125rem",
-              "type": "fontSizes"
-            }
+          "md": {
+            "value": "{app.fontSize.surface.callout.sm} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.callout.md} + 0.125rem",
+            "type": "fontSizes"
           }
         },
         "subtitle": {
-          "text": {
-            "sm": {
-              "value": "{app.fontSize.surface.body.text.md} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.subtitle.text.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.subtitle.text.md} + 0.125rem",
-              "type": "fontSizes"
-            }
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} + 0.125rem",
+            "type": "fontSizes"
           },
-          "symbol": {
-            "sm": {
-              "value": "{app.fontSize.surface.subtitle.text.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.subtitle.symbol.sm} + 0.125rem",
-              "type": "fontSizes"
-            },
-            "lg": {
-              "value": "{app.fontSize.surface.subtitle.symbol.md} + 0.125rem",
-              "type": "fontSizes"
-            }
+          "md": {
+            "value": "{app.fontSize.surface.subtitle.sm} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.subtitle.md} + 0.125rem",
+            "type": "fontSizes"
           }
         },
         "body": {
-          "text": {
-            "sm": {
-              "value": "{app.fontSize.surface.body.text.md} - 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "1rem",
-              "type": "fontSizes"
-            }
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} - 0.125rem",
+            "type": "fontSizes"
           },
-          "symbol": {
-            "sm": {
-              "value": "{app.fontSize.surface.body.symbol.md} - 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.body.text.md} + 0.125rem",
-              "type": "fontSizes"
-            }
+          "md": {
+            "value": "1rem",
+            "type": "fontSizes"
           }
         },
         "caption": {
-          "text": {
-            "value": "{app.fontSize.surface.body.text.md} - 0.25rem",
-            "type": "fontSizes"
-          },
-          "symbol": {
-            "value": "{app.fontSize.surface.caption.text} - 0.125rem",
+          "default": {
+            "value": "{app.fontSize.surface.body.md} - 0.25rem",
             "type": "fontSizes"
           }
         },
         "footnote": {
-          "text": {
-            "value": "{app.fontSize.surface.body.text.md} - 0.25rem",
-            "type": "fontSizes"
-          },
-          "symbol": {
-            "value": "{app.fontSize.surface.footnote.text} - 0.125rem",
+          "default": {
+            "value": "{app.fontSize.surface.body.md} - 0.25rem",
             "type": "fontSizes"
           }
         },
         "code": {
-          "text": {
-            "sm": {
-              "value": "{app.fontSize.surface.code.text.md} - 0.125rem",
-              "type": "fontSizes"
-            },
-            "md": {
-              "value": "{app.fontSize.surface.body.text.md} - 0.125rem",
-              "type": "fontSizes"
-            }
+          "default": {
+            "value": "{app.fontSize.surface.body.md} - 0.125rem",
+            "type": "fontSizes"
           }
         }
       }
@@ -1302,40 +1212,6 @@
       },
       "label": {
         "default": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "surface": {
-        "display": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "title": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "subtitle": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "callout": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "body": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "caption": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "footnote": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "code": {
           "value": "none",
           "type": "textCase"
         }
@@ -1625,80 +1501,36 @@
       },
       "surface": {
         "display": {
-          "text": {
-            "value": "Mirage",
-            "type": "fontFamilies"
-          },
-          "symbol": {
-            "value": "Symbols",
-            "type": "fontFamilies"
-          }
+          "value": "Mirage",
+          "type": "fontFamilies"
         },
         "title": {
-          "text": {
-            "value": "Mirage",
-            "type": "fontFamilies"
-          },
-          "symbol": {
-            "value": "Symbols",
-            "type": "fontFamilies"
-          }
+          "value": "Mirage",
+          "type": "fontFamilies"
         },
         "callout": {
-          "text": {
-            "value": "Mirage",
-            "type": "fontFamilies"
-          },
-          "symbol": {
-            "value": "Symbols",
-            "type": "fontFamilies"
-          }
+          "value": "Mirage",
+          "type": "fontFamilies"
         },
         "subtitle": {
-          "text": {
-            "value": "Mirage",
-            "type": "fontFamilies"
-          },
-          "symbol": {
-            "value": "Symbols",
-            "type": "fontFamilies"
-          }
+          "value": "Mirage",
+          "type": "fontFamilies"
         },
         "body": {
-          "text": {
-            "value": "Mirage",
-            "type": "fontFamilies"
-          },
-          "symbol": {
-            "value": "Symbols",
-            "type": "fontFamilies"
-          }
+          "value": "Mirage",
+          "type": "fontFamilies"
         },
         "caption": {
-          "text": {
-            "value": "Mirage",
-            "type": "fontFamilies"
-          },
-          "symbol": {
-            "value": "Symbols",
-            "type": "fontFamilies"
-          }
+          "value": "Mirage",
+          "type": "fontFamilies"
         },
         "footnote": {
-          "text": {
-            "value": "Mirage",
-            "type": "fontFamilies"
-          },
-          "symbol": {
-            "value": "Symbols",
-            "type": "fontFamilies"
-          }
+          "value": "Mirage",
+          "type": "fontFamilies"
         },
         "code": {
-          "text": {
-            "value": "Index",
-            "type": "fontFamilies"
-          }
+          "value": "Index",
+          "type": "fontFamilies"
         }
       }
     },
@@ -1797,169 +1629,79 @@
       },
       "surface": {
         "display": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.bold}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
           },
-          "symbol": {
-            "default": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.bold}",
-              "type": "fontWeights"
-            }
+          "strong": {
+            "value": "{app.config.fontWeight.bold}",
+            "type": "fontWeights"
           }
         },
         "title": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.bold}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.semibold}",
+            "type": "fontWeights"
           },
-          "symbol": {
-            "default": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.bold}",
-              "type": "fontWeights"
-            }
+          "strong": {
+            "value": "{app.config.fontWeight.bold}",
+            "type": "fontWeights"
           }
         },
         "callout": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
           },
-          "symbol": {
-            "default": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            }
+          "strong": {
+            "value": "{app.config.fontWeight.semibold}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
           },
-          "symbol": {
-            "default": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            }
+          "strong": {
+            "value": "{app.config.fontWeight.semibold}",
+            "type": "fontWeights"
           }
         },
         "body": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.book}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.book}",
+            "type": "fontWeights"
           },
-          "symbol": {
-            "default": {
-              "value": "{app.config.fontWeight.book}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            }
+          "strong": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
           }
         },
         "caption": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.book}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.book}",
+            "type": "fontWeights"
           },
-          "symbol": {
-            "default": {
-              "value": "{app.config.fontWeight.book}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            }
+          "strong": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
           }
         },
         "footnote": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
           },
-          "symbol": {
-            "default": {
-              "value": "{app.config.fontWeight.book}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.semibold}",
-              "type": "fontWeights"
-            }
+          "strong": {
+            "value": "{app.config.fontWeight.semibold}",
+            "type": "fontWeights"
           }
         },
         "code": {
-          "text": {
-            "default": {
-              "value": "{app.config.fontWeight.book}",
-              "type": "fontWeights"
-            },
-            "strong": {
-              "value": "{app.config.fontWeight.medium}",
-              "type": "fontWeights"
-            }
+          "default": {
+            "value": "{app.config.fontWeight.book}",
+            "type": "fontWeights"
           }
         }
       }
@@ -2003,161 +1745,75 @@
       },
       "surface": {
         "display": {
-          "text": {
-            "sm": {
-              "value": "95%",
-              "type": "lineHeights"
-            },
-            "md": {
-              "value": "90%",
-              "type": "lineHeights"
-            },
-            "lg": {
-              "value": "85%",
-              "type": "lineHeights"
-            }
+          "sm": {
+            "value": "95%",
+            "type": "lineHeights"
           },
-          "symbol": {
-            "sm": {
-              "value": "95%",
-              "type": "lineHeights"
-            },
-            "md": {
-              "value": "90%",
-              "type": "lineHeights"
-            },
-            "lg": {
-              "value": "85%",
-              "type": "lineHeights"
-            }
+          "md": {
+            "value": "90%",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "85%",
+            "type": "lineHeights"
           }
         },
         "title": {
-          "text": {
-            "sm": {
-              "value": "135%",
-              "type": "lineHeights"
-            },
-            "md": {
-              "value": "130%",
-              "type": "lineHeights"
-            },
-            "lg": {
-              "value": "125%",
-              "type": "lineHeights"
-            }
+          "sm": {
+            "value": "135%",
+            "type": "lineHeights"
           },
-          "symbol": {
-            "sm": {
-              "value": "135%",
-              "type": "lineHeights"
-            },
-            "md": {
-              "value": "130%",
-              "type": "lineHeights"
-            },
-            "lg": {
-              "value": "125%",
-              "type": "lineHeights"
-            }
+          "md": {
+            "value": "130%",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "125%",
+            "type": "lineHeights"
           }
         },
         "callout": {
-          "text": {
-            "sm": {
-              "value": "140%",
-              "type": "lineHeights"
-            },
-            "md": {
-              "value": "140%",
-              "type": "lineHeights"
-            },
-            "lg": {
-              "value": "140%",
-              "type": "lineHeights"
-            }
-          },
-          "symbol": {
-            "sm": {
-              "value": "140%",
-              "type": "lineHeights"
-            },
-            "md": {
-              "value": "140%",
-              "type": "lineHeights"
-            },
-            "lg": {
-              "value": "140%",
-              "type": "lineHeights"
-            }
-          }
-        },
-        "subtitle": {
-          "text": {
-            "default": {
-              "value": "140%",
-              "type": "lineHeights"
-            }
-          },
-          "symbol": {
-            "default": {
-              "value": "140%",
-              "type": "lineHeights"
-            }
-          }
-        },
-        "body": {
-          "text": {
-            "default": {
-              "value": "160%",
-              "type": "lineHeights"
-            },
-            "short": {
-              "value": "140%",
-              "type": "lineHeights"
-            }
-          },
-          "symbol": {
-            "default": {
-              "value": "160%",
-              "type": "lineHeights"
-            },
-            "short": {
-              "value": "140%",
-              "type": "lineHeights"
-            }
-          }
-        },
-        "caption": {
-          "text": {
+          "default": {
             "value": "160%",
             "type": "lineHeights"
           },
-          "symbol": {
+          "short": {
+            "value": "140%",
+            "type": "lineHeights"
+          }
+        },
+        "subtitle": {
+          "default": {
+            "value": "140%",
+            "type": "lineHeights"
+          }
+        },
+        "body": {
+          "default": {
+            "value": "160%",
+            "type": "lineHeights"
+          },
+          "short": {
+            "value": "140%",
+            "type": "lineHeights"
+          }
+        },
+        "caption": {
+          "default": {
             "value": "160%",
             "type": "lineHeights"
           }
         },
         "footnote": {
-          "text": {
-            "value": "160%",
-            "type": "lineHeights"
-          },
-          "symbol": {
+          "default": {
             "value": "160%",
             "type": "lineHeights"
           }
         },
         "code": {
-          "text": {
-            "sm": {
-              "value": "160%",
-              "type": "lineHeights"
-            },
-            "md": {
-              "value": "160%",
-              "type": "lineHeights"
-            }
+          "default": {
+            "value": "160%",
+            "type": "lineHeights"
           }
         }
       }
