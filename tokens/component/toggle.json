@@ -421,6 +421,56 @@
           "type": "boxShadow"
         }
       },
+      "fontFamily": {
+        "label": {
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
+        },
+        "symbol": {
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "label": {
+          "value": "{app.fontWeight.control.text.default}",
+          "type": "fontWeights"
+        },
+        "symbol": {
+          "sm": {
+            "value": "{app.config.fontWeight.black}",
+            "type": "fontWeights"
+          },
+          "md": {
+            "value": "{app.config.fontWeight.bold}",
+            "type": "fontWeights"
+          },
+          "lg": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
+          }
+        }
+      },
+      "lineHeight": {
+        "label": {
+          "sm": {
+            "value": "{component.checkbox.fontSize.label.sm} * 1.4",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "{component.checkbox.fontSize.label.md} * 1.4",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "{component.checkbox.fontSize.label.lg} * 1.4",
+            "type": "lineHeights"
+          }
+        },
+        "symbol": {
+          "value": "{app.lineHeight.control.symbol}",
+          "type": "lineHeights"
+        }
+      },
       "fontSize": {
         "symbol": {
           "sm": {
@@ -433,6 +483,20 @@
           },
           "lg": {
             "value": "{component.toggle.dimension.symbol.height.lg}",
+            "type": "fontSizes"
+          }
+        },
+        "label": {
+          "sm": {
+            "value": "{component.checkbox.fontSize.label.md} - {component.checkbox.config.label.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.checkbox.fontSize.label.lg} - {component.checkbox.config.label.step}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.checkbox.config.label.default}",
             "type": "fontSizes"
           }
         }
