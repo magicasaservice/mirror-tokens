@@ -38,15 +38,15 @@
       "fontSize": {
         "default": {
           "sm": {
-            "value": "{component.chip.fontSize.default.md} - {component.chip.config.text.step}",
+            "value": "{component.chip.fontSize.default.md} - {component.chip.config.label.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.text.default}",
+            "value": "{component.chip.config.label.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.chip.fontSize.default.md} + {component.chip.config.text.step}",
+            "value": "{component.chip.fontSize.default.md} + {component.chip.config.label.step}",
             "type": "fontSizes"
           }
         },
@@ -466,16 +466,8 @@
           }
         },
         "border": {
-          "sm": {
+          "default": {
             "value": "{app.dimension.label.border.xs}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{app.dimension.label.border.sm}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.label.border.md}",
             "type": "dimension"
           }
         },
@@ -539,7 +531,7 @@
             }
           }
         },
-        "text": {
+        "label": {
           "default": {
             "value": "{app.fontSize.control.text.xs}",
             "type": "other"
