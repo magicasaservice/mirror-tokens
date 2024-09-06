@@ -7,10 +7,8 @@
           "type": "fontFamilies"
         },
         "symbol": {
-          "default": {
-            "value": "{app.fontFamily.control.symbol}",
-            "type": "fontFamilies"
-          }
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
         }
       },
       "fontWeight": {
@@ -56,30 +54,30 @@
         },
         "symbol": {
           "sm": {
-            "value": "{component.chip.fontSize.symbol.md.default} - {component.chip.config.symbol.default.step}",
+            "value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.default.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.symbol.default.default}",
+            "value": "{component.chip.config.symbol.label.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.default.step}",
+            "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.default.step}",
             "type": "fontSizes"
           }
         }
       },
       "icon": {
         "sm": {
-          "value": "{component.chip.fontSize.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.symbol.icon.step}",
           "type": "fontSizes"
         },
         "md": {
-          "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.icon.step}",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{component.chip.fontSize.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.symbol.icon.step}",
           "type": "fontSizes"
         }
       },
@@ -534,7 +532,7 @@
         "symbol": {
           "sm": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.sm.default}",
+              "value": "{component.chip.fontSize.symbol.sm}",
               "type": "dimension"
             },
             "icon": {
@@ -544,7 +542,7 @@
           },
           "md": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.md.default}",
+              "value": "{component.chip.fontSize.symbol.md}",
               "type": "dimension"
             },
             "icon": {
@@ -554,7 +552,7 @@
           },
           "lg": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.lg.default}",
+              "value": "{component.chip.fontSize.symbol.lg}",
               "type": "dimension"
             },
             "icon": {
@@ -578,11 +576,13 @@
               "type": "other"
             }
           },
-          "default": {
+          "label": {
             "default": {
               "value": "{app.fontSize.control.symbol.xs}",
               "type": "other"
-            },
+            }
+          },
+          "default": {
             "step": {
               "value": "0.125rem",
               "type": "other"
