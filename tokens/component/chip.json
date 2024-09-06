@@ -19,12 +19,14 @@
           "type": "fontWeights"
         },
         "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
-          "type": "fontWeights"
-        },
-        "icon": {
-          "value": "{app.fontWeight.control.symbol.alt}",
-          "type": "fontWeights"
+          "default": {
+            "value": "{app.fontWeight.control.symbol.default}",
+            "type": "fontWeights"
+          },
+          "icon": {
+            "value": "{app.fontWeight.control.symbol.alt}",
+            "type": "fontWeights"
+          }
         }
       },
       "lineHeight": {
@@ -56,31 +58,35 @@
         },
         "symbol": {
           "sm": {
-            "value": "{component.chip.fontSize.symbol.md.default} - {component.chip.config.symbol.default.step}",
-            "type": "fontSizes"
+            "default": {
+              "value": "{component.chip.fontSize.symbol.md.default} - {component.chip.config.symbol.default.step}",
+              "type": "fontSizes"
+            },
+            "icon": {
+              "value": "{component.chip.fontSize.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
+              "type": "fontSizes"
+            }
           },
           "md": {
-            "value": "{component.chip.config.symbol.default.default}",
-            "type": "fontSizes"
+            "default": {
+              "value": "{component.chip.config.symbol.default.default}",
+              "type": "fontSizes"
+            },
+            "icon": {
+              "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.icon.step}",
+              "type": "fontSizes"
+            }
           },
           "lg": {
-            "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.default.step}",
-            "type": "fontSizes"
+            "default": {
+              "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.default.step}",
+              "type": "fontSizes"
+            },
+            "icon": {
+              "value": "{component.chip.fontSize.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
+              "type": "fontSizes"
+            }
           }
-        }
-      },
-      "icon": {
-        "sm": {
-          "value": "{component.chip.fontSize.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
-          "type": "fontSizes"
-        },
-        "md": {
-          "value": "{component.chip.fontSize.symbol.md.default} + {component.chip.config.symbol.icon.step}",
-          "type": "fontSizes"
-        },
-        "lg": {
-          "value": "{component.chip.fontSize.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
-          "type": "fontSizes"
         }
       },
       "letterSpacing": {

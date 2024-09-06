@@ -55,6 +55,10 @@
           }
         },
         "symbol": {
+          "xs": {
+            "value": "{component.button.fontSize.symbol.sm} - {component.button.config.symbol.default.step}",
+            "type": "fontSizes"
+          },
           "sm": {
             "value": "{component.button.fontSize.symbol.md} - {component.button.config.symbol.default.step}",
             "type": "fontSizes"
@@ -66,13 +70,13 @@
           "lg": {
             "value": "{component.button.fontSize.symbol.md} + {component.button.config.symbol.default.step}",
             "type": "fontSizes"
-          },
-          "xs": {
-            "value": "{component.button.fontSize.symbol.sm} - {component.button.config.symbol.default.step}",
-            "type": "fontSizes"
           }
         },
         "icon": {
+          "xs": {
+            "value": "{component.button.fontSize.symbol.xs} + {component.button.config.symbol.icon.step}",
+            "type": "fontSizes"
+          },
           "sm": {
             "value": "{component.button.fontSize.symbol.sm} + {component.button.config.symbol.icon.step}",
             "type": "fontSizes"
@@ -83,10 +87,6 @@
           },
           "lg": {
             "value": "{component.button.fontSize.symbol.lg} + {component.button.config.symbol.icon.step}",
-            "type": "fontSizes"
-          },
-          "xs": {
-            "value": "{component.button.fontSize.symbol.xs} + {component.button.config.symbol.icon.step}",
             "type": "fontSizes"
           }
         }
