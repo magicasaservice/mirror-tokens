@@ -580,6 +580,19 @@
               "type": "color",
               "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 4%, {app.config.color.accent.alpha.bg.default})"
             },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.accent.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.accent.alpha.bg.default} + 0.08",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
             "tone": {
               "type": "color",
               "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 24%)"
@@ -628,6 +641,19 @@
               "type": "color",
               "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.translucent}, 4%, {app.config.color.primary.alpha.bg.default})"
             },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.primary.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.primary.alpha.bg.default} + 0.08",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
             "tone": {
               "type": "color",
               "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 24%)"
@@ -675,6 +701,19 @@
             "translucent": {
               "type": "color",
               "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.translucent}, 4%, {app.config.color.neutral.alpha.bg.default})"
+            },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.neutral.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.neutral.alpha.bg.default} + 0.08",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "tone": {
               "type": "color",
@@ -728,6 +767,19 @@
               "type": "color",
               "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.translucent}, 50%, {app.config.color.info.alpha.bg.default})"
             },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.info.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.info.alpha.bg.default} + 0.08",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
             "tone": {
               "type": "color",
               "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 20%)"
@@ -775,6 +827,19 @@
             "translucent": {
               "type": "color",
               "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 30%, {app.config.color.danger.alpha.bg.default})"
+            },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.success.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.success.alpha.bg.default} + 0.08",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "tone": {
               "type": "color",
@@ -824,6 +889,19 @@
               "type": "color",
               "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 50%, {app.config.color.danger.alpha.bg.default})"
             },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.warning.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.warning.alpha.bg.default} + 0.08",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
             "tone": {
               "type": "color",
               "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 10%)"
@@ -872,6 +950,19 @@
               "type": "color",
               "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 55%, {app.config.color.danger.alpha.bg.default})"
             },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.danger.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.danger.alpha.bg.default} + 0.08",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
             "tone": {
               "type": "color",
               "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 15%)"
@@ -919,6 +1010,19 @@
             "translucent": {
               "type": "color",
               "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.translucent}, 50%, {app.config.color.neutral.alpha.bg.subtle})"
+            },
+            "translucentAmp": {
+              "type": "color",
+              "value": "{app.color.component.disabled.bg.translucent}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.danger.alpha.bg.default} + 0.04",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "tone": {
               "type": "color",
