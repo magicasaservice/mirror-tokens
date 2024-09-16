@@ -270,7 +270,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.onTranslucent}",
+                  "value": "{app.color.component.disabled.fg.solid}",
                   "type": "color"
                 }
               },
@@ -346,7 +346,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.accent.fg.onSolid}",
+                  "value": "{app.color.surface.fg.default}",
                   "type": "color"
                 }
               },
@@ -376,7 +376,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.3",
+                        "value": "0.5",
                         "space": "hsl"
                       }
                     }
@@ -453,31 +453,39 @@
         }
       },
       "boxShadow": {
-        "default": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0.0625rem",
-              "blur": "0.125rem",
-              "spread": "0",
-              "color": "{app.color.component.shadow.strong}",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
+        "handle": {
+          "default": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0.0625rem",
+                "blur": "0.125rem",
+                "spread": "0",
+                "color": "{app.color.component.shadow.strong}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "pressed": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0.0625rem",
+                "blur": "0.125rem",
+                "spread": "0",
+                "color": "{app.color.component.shadow.strong}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
         },
-        "pressed": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0.0625rem",
-              "blur": "0.125rem",
-              "spread": "0",
-              "color": "{app.color.component.shadow.strong}",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
+        "track": {
+          "focusRing": {
+            "value": "{app.boxShadow.focusRing.default.md}",
+            "type": "boxShadow"
+          }
         }
       },
       "fontFamily": {
