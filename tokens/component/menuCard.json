@@ -83,10 +83,14 @@
         "symbol": {
           "value": "{app.fontFamily.control.symbol}",
           "type": "fontFamilies"
+        },
+        "cmd": {
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
         }
       },
       "fontWeight": {
-        "label": {
+        "default": {
           "value": "{app.fontWeight.control.text.alt}",
           "type": "fontWeights"
         },
@@ -105,6 +109,10 @@
           "type": "lineHeights"
         },
         "symbol": {
+          "value": "{app.lineHeight.control.symbol}",
+          "type": "lineHeights"
+        },
+        "cmd": {
           "value": "{app.lineHeight.control.symbol}",
           "type": "lineHeights"
         }
