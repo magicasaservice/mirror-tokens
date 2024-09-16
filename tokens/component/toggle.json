@@ -433,8 +433,10 @@
       },
       "fontWeight": {
         "label": {
-          "value": "{app.fontWeight.control.text.default}",
-          "type": "fontWeights"
+          "default": {
+            "value": "{app.fontWeight.control.text.default}",
+            "type": "fontWeights"
+          }
         },
         "symbol": {
           "sm": {
@@ -467,25 +469,13 @@
           }
         },
         "symbol": {
-          "value": "{app.lineHeight.control.symbol}",
-          "type": "lineHeights"
+          "default": {
+            "value": "{app.lineHeight.control.symbol}",
+            "type": "lineHeights"
+          }
         }
       },
       "fontSize": {
-        "symbol": {
-          "sm": {
-            "value": "{component.toggle.dimension.symbol.height.sm}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.toggle.dimension.symbol.height.md}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.toggle.dimension.symbol.height.lg}",
-            "type": "fontSizes"
-          }
-        },
         "label": {
           "sm": {
             "value": "{component.checkbox.fontSize.label.md} - {component.checkbox.config.label.step}",
@@ -497,6 +487,20 @@
           },
           "lg": {
             "value": "{component.checkbox.config.label.default}",
+            "type": "fontSizes"
+          }
+        },
+        "symbol": {
+          "sm": {
+            "value": "{component.toggle.dimension.symbol.height.sm}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.toggle.dimension.symbol.height.md}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.toggle.dimension.symbol.height.lg}",
             "type": "fontSizes"
           }
         }
