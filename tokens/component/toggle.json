@@ -189,6 +189,36 @@
               "type": "dimension"
             }
           }
+        },
+        "label": {
+          "padding": {
+            "sm": {
+              "value": "({component.toggle.dimension.track.height.sm} - {component.toggle.lineHeight.label.sm}) / 2",
+              "type": "dimension"
+            },
+            "md": {
+              "value": "({component.toggle.dimension.track.height.md} - {component.toggle.lineHeight.label.md}) / 2",
+              "type": "dimension"
+            },
+            "lg": {
+              "value": "({component.toggle.dimension.track.height.lg} - {component.toggle.lineHeight.label.lg}) / 2",
+              "type": "dimension"
+            }
+          }
+        },
+        "gap": {
+          "sm": {
+            "value": "{component.toggle.dimension.track.width.sm} * 0.75",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{component.toggle.dimension.track.width.md} * 0.75",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{component.toggle.dimension.track.width.lg} * 0.75",
+            "type": "dimension"
+          }
         }
       },
       "color": {
@@ -398,6 +428,26 @@
                   "type": "color"
                 }
               }
+            }
+          }
+        },
+        "label": {
+          "disabled": {
+            "fg": {
+              "value": "{app.color.component.disabled.fg.solid}",
+              "type": "color"
+            }
+          },
+          "danger": {
+            "fg": {
+              "value": "{app.color.component.danger.fg.solid}",
+              "type": "color"
+            }
+          },
+          "default": {
+            "fg": {
+              "value": "{app.color.surface.fg.default}",
+              "type": "color"
             }
           }
         }
