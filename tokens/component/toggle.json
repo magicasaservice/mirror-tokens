@@ -208,15 +208,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.toggle.dimension.track.width.sm} * 0.75",
+            "value": "{component.toggle.dimension.track.height.sm}",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.toggle.dimension.track.width.md} * 0.75",
+            "value": "{component.toggle.dimension.track.height.md}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.toggle.dimension.track.width.lg} * 0.75",
+            "value": "{component.toggle.dimension.track.height.lg} * 0.75",
             "type": "dimension"
           }
         }
@@ -257,6 +257,10 @@
                 },
                 "active": {
                   "value": "transparent",
+                  "type": "color"
+                },
+                "focus": {
+                  "value": "{app.color.component.focus.border.default}",
                   "type": "color"
                 }
               }
@@ -357,6 +361,10 @@
                 },
                 "active": {
                   "value": "transparent",
+                  "type": "color"
+                },
+                "focus": {
+                  "value": "{app.color.component.focus.border.default}",
                   "type": "color"
                 }
               }
