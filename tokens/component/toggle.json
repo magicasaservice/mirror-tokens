@@ -211,8 +211,17 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.neutral.bg.translucentAmp}",
-                  "type": "color"
+                  "value": "{app.color.component.primary.bg.translucent}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "0.12",
+                        "space": "hsl"
+                      }
+                    }
+                  }
                 },
                 "active": {
                   "value": "{component.toggle.color.unchecked.track.default.bg.default}",
@@ -221,7 +230,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "{app.config.color.neutral.darken.active}",
+                        "value": "{app.config.color.primary.darken.active}",
                         "space": "hsl"
                       }
                     }
