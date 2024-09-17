@@ -1,14 +1,34 @@
 {
   "component": {
     "badge": {
-      "typography": {
-        "label": {
-          "value": "{app.typography.label.text.strong}",
-          "type": "typography"
+      "fontFamily": {
+        "default": {
+          "value": "{app.fontFamily.label.text}",
+          "type": "fontFamilies"
         },
         "number": {
-          "value": "{app.typography.label.number.default}",
-          "type": "typography"
+          "value": "{app.fontFamily.label.number}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "default": {
+          "value": "{app.fontWeight.label.text.strong}",
+          "type": "fontWeights"
+        },
+        "number": {
+          "value": "{app.fontWeight.label.number.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "default": {
+          "value": "{app.lineHeight.none}",
+          "type": "lineHeights"
+        },
+        "number": {
+          "value": "{app.lineHeight.none}",
+          "type": "lineHeights"
         }
       },
       "color": {
@@ -378,27 +398,25 @@
         }
       },
       "fontSize": {
-        "text": {
-          "xs": {
-            "value": "{app.fontSize.label.text.xs}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.label.text.md}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.label.text.lg}",
-            "type": "fontSizes"
-          }
+        "xs": {
+          "value": "{app.fontSize.label.text.xs}",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{app.fontSize.label.text.sm}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{app.fontSize.label.text.md}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{app.fontSize.label.text.lg}",
+          "type": "fontSizes"
         }
       },
       "letterSpacing": {
-        "text": {
+        "default": {
           "value": "{app.letterSpacing.label.text}",
           "type": "letterSpacing"
         },
@@ -416,7 +434,7 @@
       "config": {
         "height": {
           "default": {
-            "value": "{app.dimension.control.height.md} / 2",
+            "value": "{app.dimension.label.height.md}",
             "type": "other"
           },
           "step": {
