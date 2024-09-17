@@ -9,23 +9,15 @@
         "number": {
           "value": "{app.fontFamily.control.number}",
           "type": "fontFamilies"
-        },
-        "symbol": {
-          "value": "{app.fontFamily.control.symbol}",
-          "type": "fontFamilies"
         }
       },
       "fontWeight": {
         "label": {
-          "value": "{app.fontWeight.control.text.alt}",
+          "value": "{app.fontWeight.control.text.default}",
           "type": "fontWeights"
         },
         "number": {
           "value": "{app.fontWeight.control.number.default}",
-          "type": "fontWeights"
-        },
-        "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
           "type": "fontWeights"
         }
       },
@@ -36,10 +28,6 @@
         },
         "number": {
           "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
-        },
-        "symbol": {
-          "value": "{app.lineHeight.none}",
           "type": "lineHeights"
         }
       },
@@ -117,6 +105,12 @@
         "target": {
           "default": {
             "value": "{component.slider.dimension.container.height} + {component.slider.dimension.container.padding}",
+            "type": "dimension"
+          }
+        },
+        "symbol": {
+          "default": {
+            "value": "{component.button.fontSize.symbol.sm}",
             "type": "dimension"
           }
         }
@@ -345,6 +339,26 @@
         "focusRing": {
           "value": "{app.boxShadow.focusRing.lg}",
           "type": "boxShadow"
+        }
+      },
+      "fontSize": {
+        "label": {
+          "value": "{component.button.fontSize.default.md}",
+          "type": "fontSizes"
+        },
+        "number": {
+          "value": "{component.button.fontSize.default.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "letterSpacing": {
+        "label": {
+          "value": "{app.letterSpacing.control.text}",
+          "type": "letterSpacing"
+        },
+        "number": {
+          "value": "{app.letterSpacing.label.number}",
+          "type": "letterSpacing"
         }
       }
     }
