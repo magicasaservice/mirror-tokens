@@ -852,6 +852,12 @@
             "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0)",
             "type": "color"
           }
+        },
+        "fixed": {
+          "fg": {
+            "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)",
+            "type": "color"
+          }
         }
       }
     },
@@ -1744,6 +1750,10 @@
               "subtle": {
                 "value": "0.04",
                 "type": "other"
+              },
+              "amp": {
+                "value": "0.1",
+                "type": "other"
               }
             },
             "border": {
@@ -1761,6 +1771,10 @@
               },
               "subtle": {
                 "value": "0.06",
+                "type": "other"
+              },
+              "amp": {
+                "value": "0.14",
                 "type": "other"
               }
             },

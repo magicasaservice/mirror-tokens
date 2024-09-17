@@ -217,7 +217,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "{app.config.color.primary.alpha.bg.default} + {app.config.color.primary.alpha.bg.subtle}",
+                        "value": "{app.config.color.primary.alpha.bg.amp}",
                         "space": "hsl"
                       }
                     }
@@ -239,7 +239,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{component.toggle.config.fg.color}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               },
@@ -261,17 +261,9 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.translucent}",
+                  "value": "{app.color.component.disabled.bg.checked}",
                   "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "{app.config.color.primary.alpha.bg.default} + {app.config.color.primary.alpha.bg.subtle}",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "$extensions": {}
                 }
               },
               "fg": {
@@ -292,7 +284,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{component.toggle.config.fg.color}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               },
@@ -307,7 +299,8 @@
               "bg": {
                 "default": {
                   "value": "{app.color.component.disabled.fg.onTranslucent}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {}
                 }
               },
               "border": {
@@ -343,7 +336,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{component.toggle.config.fg.color}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               },
@@ -371,7 +364,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{component.toggle.config.fg.color}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -396,7 +389,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{component.toggle.config.fg.color}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               },
@@ -410,7 +403,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{component.toggle.config.fg.color}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -608,12 +601,6 @@
           },
           "pressed": {
             "value": "0.125",
-            "type": "other"
-          }
-        },
-        "fg": {
-          "color": {
-            "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)",
             "type": "other"
           }
         }
