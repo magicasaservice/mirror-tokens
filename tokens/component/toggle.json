@@ -239,7 +239,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{component.toggle.config.fg.color}",
+                  "value": "{app.color.component.fg}",
                   "type": "color"
                 }
               },
@@ -608,12 +608,6 @@
           },
           "pressed": {
             "value": "0.125",
-            "type": "other"
-          }
-        },
-        "fg": {
-          "color": {
-            "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)",
             "type": "other"
           }
         }
