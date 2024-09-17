@@ -853,9 +853,11 @@
             "type": "color"
           }
         },
-        "fg": {
-          "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)",
-          "type": "color"
+        "fixed": {
+          "fg": {
+            "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)",
+            "type": "color"
+          }
         }
       }
     },
