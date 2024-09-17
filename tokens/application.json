@@ -295,6 +295,16 @@
       },
       "surface": {
         "radius": {
+          "sm": {
+            "default": {
+              "value": "{app.dimension.surface.radius.md.default} - 0.25rem",
+              "type": "dimension"
+            },
+            "inset": {
+              "value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container.default}",
+              "type": "dimension"
+            }
+          },
           "md": {
             "default": {
               "value": "{app.dimension.control.radius.md} * 2",
@@ -312,16 +322,6 @@
             },
             "inset": {
               "value": "{app.dimension.surface.radius.lg.default} - {app.dimension.surface.padding.container.default}",
-              "type": "dimension"
-            }
-          },
-          "sm": {
-            "default": {
-              "value": "{app.dimension.surface.radius.md.default} - 0.25rem",
-              "type": "dimension"
-            },
-            "inset": {
-              "value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container.default}",
               "type": "dimension"
             }
           }
