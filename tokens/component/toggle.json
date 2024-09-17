@@ -217,7 +217,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.12",
+                        "value": "{app.config.color.primary.alpha.bg.default} + {app.config.color.primary.alpha.bg.subtle}",
                         "space": "hsl"
                       }
                     }
@@ -261,8 +261,17 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.translucentAmp}",
-                  "type": "color"
+                  "value": "{app.color.component.disabled.bg.translucent}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "{app.config.color.primary.alpha.bg.default} + {app.config.color.primary.alpha.bg.subtle}",
+                        "space": "hsl"
+                      }
+                    }
+                  }
                 }
               },
               "fg": {
@@ -299,15 +308,7 @@
                 "default": {
                   "value": "{app.color.surface.fg.inverted}",
                   "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "0.5",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "$extensions": {}
                 }
               },
               "border": {
@@ -343,7 +344,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.surface.fg.default}",
+                  "value": "{app.color.surface.fg.inverted}",
                   "type": "color"
                 }
               },
