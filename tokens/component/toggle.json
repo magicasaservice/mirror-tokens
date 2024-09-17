@@ -239,7 +239,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.surface.fg.default}",
+                  "value": "{component.toggle.config.fg.color}",
                   "type": "color"
                 }
               },
@@ -276,8 +276,9 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.solid}",
-                  "type": "color"
+                  "value": "{app.color.component.disabled.fg.onTranslucent}",
+                  "type": "color",
+                  "$extensions": {}
                 }
               },
               "border": {
@@ -292,7 +293,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.surface.fg.default}",
+                  "value": "{component.toggle.config.fg.color}",
                   "type": "color"
                 }
               },
@@ -306,7 +307,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.solid}",
+                  "value": "{app.color.component.disabled.fg.onTranslucent}",
                   "type": "color",
                   "$extensions": {}
                 }
@@ -344,7 +345,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.surface.fg.default}",
+                  "value": "{component.toggle.config.fg.color}",
                   "type": "color"
                 }
               },
@@ -372,7 +373,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.surface.fg.default}",
+                  "value": "{component.toggle.config.fg.color}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -397,7 +398,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.surface.fg.default}",
+                  "value": "{component.toggle.config.fg.color}",
                   "type": "color"
                 }
               },
@@ -411,7 +412,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.surface.fg.default}",
+                  "value": "{component.toggle.config.fg.color}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -609,6 +610,12 @@
           },
           "pressed": {
             "value": "0.125",
+            "type": "other"
+          }
+        },
+        "fg": {
+          "color": {
+            "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)",
             "type": "other"
           }
         }
