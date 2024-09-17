@@ -75,18 +75,102 @@
           }
         }
       },
-      "typography": {
-        "label": {
-          "value": "{app.typography.control.text.alt}",
-          "type": "typography"
+      "fontFamily": {
+        "default": {
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
         },
         "symbol": {
-          "value": "{app.typography.control.symbol.default}",
-          "type": "typography"
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
         },
         "cmd": {
-          "value": "{app.typography.label.text.default}",
-          "type": "typography"
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "default": {
+          "value": "{app.fontWeight.control.text.alt}",
+          "type": "fontWeights"
+        },
+        "symbol": {
+          "value": "{app.fontWeight.control.symbol.default}",
+          "type": "fontWeights"
+        },
+        "cmd": {
+          "value": "{app.fontWeight.control.text.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "default": {
+          "value": "{app.lineHeight.default}",
+          "type": "lineHeights"
+        },
+        "symbol": {
+          "value": "{app.lineHeight.none}",
+          "type": "lineHeights"
+        },
+        "cmd": {
+          "value": "{app.lineHeight.none}",
+          "type": "lineHeights"
+        }
+      },
+      "fontSize": {
+        "label": {
+          "xs": {
+            "value": "{component.menuCard.fontSize.label.sm} - {component.menuCard.config.label.step}",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "{component.menuCard.fontSize.label.md} - {component.menuCard.config.label.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.menuCard.config.label.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.menuCard.fontSize.label.md} + {component.menuCard.config.label.step}",
+            "type": "fontSizes"
+          }
+        },
+        "symbol": {
+          "xs": {
+            "value": "{component.menuCard.fontSize.symbol.sm} - {component.menuCard.config.symbol.default.step}",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "{component.menuCard.fontSize.symbol.md} - {component.menuCard.config.symbol.default.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.menuCard.config.symbol.default.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.menuCard.fontSize.symbol.md} + {component.menuCard.config.symbol.default.step}",
+            "type": "fontSizes"
+          }
+        },
+        "cmd": {
+          "xs": {
+            "value": "{component.menuCard.fontSize.cmd.sm} - {component.menuCard.config.cmd.step}",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "{component.menuCard.fontSize.cmd.md} - {component.menuCard.config.cmd.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.menuCard.config.cmd.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.menuCard.fontSize.cmd.md} + {component.menuCard.config.cmd.step}",
+            "type": "fontSizes"
+          }
         }
       },
       "dimension": {
@@ -226,62 +310,6 @@
           "lg": {
             "value": "{component.menuCard.fontSize.symbol.lg}",
             "type": "dimension"
-          }
-        }
-      },
-      "fontSize": {
-        "label": {
-          "xs": {
-            "value": "{component.menuCard.fontSize.label.sm} - {component.menuCard.config.label.step}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{component.menuCard.fontSize.label.md} - {component.menuCard.config.label.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.menuCard.config.label.default}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.menuCard.fontSize.label.md} + {component.menuCard.config.label.step}",
-            "type": "fontSizes"
-          }
-        },
-        "symbol": {
-          "xs": {
-            "value": "{component.menuCard.fontSize.symbol.sm} - {component.menuCard.config.symbol.default.step}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{component.menuCard.fontSize.symbol.md} - {component.menuCard.config.symbol.default.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.menuCard.config.symbol.default.default}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.menuCard.fontSize.symbol.md} + {component.menuCard.config.symbol.default.step}",
-            "type": "fontSizes"
-          }
-        },
-        "cmd": {
-          "xs": {
-            "value": "{component.menuCard.fontSize.cmd.sm} - {component.menuCard.config.cmd.step}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{component.menuCard.fontSize.cmd.md} - {component.menuCard.config.cmd.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.menuCard.config.cmd.default}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.menuCard.fontSize.cmd.md} + {component.menuCard.config.cmd.step}",
-            "type": "fontSizes"
           }
         }
       },

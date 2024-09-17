@@ -44,7 +44,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -124,7 +124,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -274,7 +274,7 @@
         "box": {
           "height": {
             "default": {
-              "value": "{app.dimension.control.height.md} / 2",
+              "value": "{app.dimension.label.height.md}",
               "type": "other"
             },
             "step": {
@@ -302,7 +302,7 @@
           },
           "border": {
             "default": {
-              "value": "{app.dimension.label.border.md}",
+              "value": "{app.dimension.label.border.default}",
               "type": "other"
             }
           }
@@ -317,15 +317,9 @@
       "boxShadow": {
         "focusRing": {
           "default": {
-            "value": "{app.boxShadow.focusRing.default.md}",
+            "value": "{app.boxShadow.focusRing.md}",
             "type": "boxShadow"
           }
-        }
-      },
-      "typography": {
-        "default": {
-          "value": "{component.input.typography.default.symbol}",
-          "type": "typography"
         }
       }
     }

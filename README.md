@@ -8,11 +8,10 @@ This repository is intended to power our own design system as well as serve as a
 
 ## 🚧 Construction
 
-Our design tokens are structured in three hierachical layers:
+Our design tokens are structured in two hierachical layers:
 
-1. `Config`
-2. `Application`
-3. `Components`
+1. `Application`
+2. `Components`
 
 The specificity of each layer topples the one prior. Tokens from each layer can either reference the layer below or include a finite value.
 
@@ -22,40 +21,34 @@ The specificity of each layer topples the one prior. Tokens from each layer can 
        / components \
       /______________\
      /                \
-    /    application   \
+    /      themes      \
    /____________________\
-  /                      \
- /         config         \
-/__________________________\
 ```
 
 ## ✨ Customization
 
-To customize the design tokens, each of the layers’ tokens can be overwritten within a layer injected directly above it into the hierachical structure. This is intended for features such as adusted mobile styles or dark mode.
+Each token serves a purpose and can be updated if needed. Tokens further down the hierarchy have a wider spread influence on the final visual outcome compared to tokens further up the hierarchy. 
+
+## 🎟️ Theming
+
+In addition to existing tokens, themes can be introduced above the application or component layer. A theme holds tokens that overwrite existing tokens with different values. The Mirror CLI then allows to use those themes with i.e. a specific CSS selector.
 
 ```
-            _________
-           /         \
-          / component \
-         /_____________\
-        /               \
-       /      dark       \
-      /___________________\
-     /                     \
-    /      application      \
-   /_________________________\
-  /                           \
- /           config            \
-/_______________________________\
+         __________                     __________
+        /          \                   /          \
+       / components \                 /   themes   \
+      /______________\               /______________\
+     /                \             /                \
+    /      themes      \           /    components    \
+   /____________________\         /____________________\
+  /                      \       /                      \
+ /       application      \     /       application      \
+/__________________________\   /__________________________\
 ```
 
 ## 🖇️ Structure
 
 Each layer of tokens fulfills a different function. Therefore, adding, removing or refactoring tokens should be done in consideration of the respective layer’s purpose.
-
-### config
-
-> coming soon
 
 ### application
 
