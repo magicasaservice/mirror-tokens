@@ -181,28 +181,6 @@
             "value": "2px",
             "type": "dimension"
           }
-        },
-        "padding": {
-          "text": {
-            "sm": {
-              "value": "{app.dimension.control.padding.xl} / 2",
-              "type": "dimension"
-            },
-            "md": {
-              "value": "{app.dimension.control.padding.xl}",
-              "type": "dimension"
-            },
-            "lg": {
-              "value": "{app.dimension.control.padding.xl} * 2",
-              "type": "dimension"
-            }
-          },
-          "container": {
-            "default": {
-              "value": "{app.dimension.control.padding.xs}",
-              "type": "dimension"
-            }
-          }
         }
       }
     },
@@ -1290,29 +1268,17 @@
           "alt": {
             "value": "{app.config.fontWeight.book}",
             "type": "fontWeights"
-          },
-          "strong": {
-            "value": "{app.config.fontWeight.bold}",
-            "type": "fontWeights"
           }
         },
         "number": {
           "default": {
             "value": "{app.config.fontWeight.medium}",
             "type": "fontWeights"
-          },
-          "strong": {
-            "value": "{app.config.fontWeight.semibold}",
-            "type": "fontWeights"
           }
         },
         "initials": {
           "default": {
             "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
-          },
-          "strong": {
-            "value": "{app.config.fontWeight.semibold}",
             "type": "fontWeights"
           }
         }
@@ -1328,33 +1294,9 @@
             "type": "fontWeights"
           }
         },
-        "symbol": {
-          "default": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
-          },
-          "strong": {
-            "value": "{app.config.fontWeight.bold}",
-            "type": "fontWeights"
-          }
-        },
         "number": {
           "default": {
             "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
-          },
-          "strong": {
-            "value": "{app.config.fontWeight.semibold}",
-            "type": "fontWeights"
-          }
-        },
-        "initials": {
-          "default": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
-          },
-          "strong": {
-            "value": "{app.config.fontWeight.semibold}",
             "type": "fontWeights"
           }
         }
@@ -1439,41 +1381,13 @@
       }
     },
     "lineHeight": {
-      "control": {
-        "text": {
-          "value": "140%",
-          "type": "lineHeights"
-        },
-        "symbol": {
-          "value": "100%",
-          "type": "lineHeights"
-        },
-        "number": {
-          "value": "140%",
-          "type": "lineHeights"
-        },
-        "initials": {
-          "value": "100%",
-          "type": "lineHeights"
-        }
+      "default": {
+        "value": "140%",
+        "type": "lineHeights"
       },
-      "label": {
-        "text": {
-          "value": "100%",
-          "type": "lineHeights"
-        },
-        "symbol": {
-          "value": "100%",
-          "type": "lineHeights"
-        },
-        "number": {
-          "value": "100%",
-          "type": "lineHeights"
-        },
-        "initials": {
-          "value": "100%",
-          "type": "lineHeights"
-        }
+      "none": {
+        "value": "100%",
+        "type": "lineHeights"
       },
       "surface": {
         "display": {
