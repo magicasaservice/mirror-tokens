@@ -27,7 +27,7 @@ The specificity of each layer topples the one prior. Tokens from each layer can 
 
 ## ✨ Customization
 
-Each token serves a purpose and can be updated if needed. Tokens further down the hierarchy have a wider spread influence on the final visual outcome compared to tokens further up the hierarchy. 
+Each token serves a purpose and can be updated if needed. Tokens further down the hierarchy have a wider spread influence on the final visual outcome compared to tokens further up the hierarchy.
 
 ## 🎟️ Theming
 
@@ -50,14 +50,48 @@ In addition to existing tokens, themes can be introduced above the application o
 
 Each layer of tokens fulfills a different function. Therefore, adding, removing or refactoring tokens should be done in consideration of the respective layer’s purpose.
 
-### application
+### The application layer
 
-> coming soon
+Application tokens are split into the following top-level categories:
+
+- dimension
+- color
+- fontSize
+- textCase
+- letterSpacing
+- boxShadow
+- fontFamily
+- fontWeight
+- lineHeight
+
+Additionally there is a 'config' category, used for internal calculations and mapping.
+
+Each of the top-level categories can contain tokens in the following sub-categories:
+
+- control
+- label
+- component
+- surface
+
+#### control
+
+The control subcategory is used to group tokens present in larger components. This includes `Button`, `Input`, `Select`, `MenuItem`, `MenuCard`, etc.
+
+#### label
+
+The label subcategory is used to group tokens present in smaller components as well as tokens used for small parts of larger components. This includes `Badge`, `Checkbox`, `Chip`, as well as the label of i.e. `Input` and `Select`.
+
+#### The component layer
+
+The component sub-category is used to group tokens that are later referenced in the component layer and cannot be categorized into either control or label and are generic enough to be used for components of all sizes.
+
+#### surface
+
+The surface subcategory is used to group tokens that are intended to be used either directly or as part of a generated tailwind preset. Their usually intended towards the more generic aspects of styling an application, such as background, text and border colors, border radii of custom elements, font styles, etc.
 
 ### component
 
 > coming soon
-
 
 ## 🧰 Tooling
 

@@ -1,6 +1,96 @@
 {
   "app": {
     "dimension": {
+      "component": {
+        "padding": {
+          "xxs": {
+            "value": "{app.dimension.component.padding.xs} - 0.1875rem",
+            "type": "dimension"
+          },
+          "xs": {
+            "value": "{app.dimension.component.padding.sm} - 0.25rem",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.component.padding.md} - 0.25rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "1rem",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.component.padding.md} + 0.25rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.component.padding.lg} + 0.25rem",
+            "type": "dimension"
+          }
+        },
+        "gap": {
+          "xxs": {
+            "value": "{app.dimension.component.gap.xs} - 0.125rem",
+            "type": "dimension"
+          },
+          "xs": {
+            "value": "{app.dimension.component.gap.sm} - 0.125rem",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.component.gap.md} - 0.125rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "0.375rem",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.component.gap.md} + 0.125rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.component.gap.lg} + 0.125rem",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "xxs": {
+            "value": "{app.dimension.component.radius.xs} - 0.125rem",
+            "type": "dimension"
+          },
+          "xs": {
+            "value": "{app.dimension.component.radius.sm} - 0.125rem",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.component.radius.md} - 0.125rem",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "1rem",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.component.radius.md} + 0.125rem",
+            "type": "dimension"
+          },
+          "xl": {
+            "value": "{app.dimension.component.radius.lg} + 0.125rem",
+            "type": "dimension"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "2px",
+            "type": "dimension"
+          },
+          "thin": {
+            "value": "1px",
+            "type": "dimension"
+          }
+        }
+      },
       "control": {
         "height": {
           "xxs": {
@@ -27,94 +117,6 @@
             "value": "{app.dimension.control.height.lg} + 0.5rem",
             "type": "dimension"
           }
-        },
-        "padding": {
-          "xxs": {
-            "value": "{app.dimension.control.padding.xs} - 0.1875rem",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.control.padding.sm} - 0.25rem",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.control.padding.md} - 0.25rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "1rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.padding.md} + 0.25rem",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.control.padding.lg} + 0.25rem",
-            "type": "dimension"
-          }
-        },
-        "gap": {
-          "xxs": {
-            "value": "{app.dimension.control.gap.xs} - 0.125rem",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.control.gap.sm} - 0.125rem",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.control.gap.md} - 0.125rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "0.375rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.gap.md} + 0.125rem",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.control.gap.lg} + 0.125rem",
-            "type": "dimension"
-          }
-        },
-        "radius": {
-          "xxs": {
-            "value": "{app.dimension.control.radius.xs} - 0.125rem",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.control.radius.sm} - 0.125rem",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.control.radius.md} - 0.125rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "1rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.radius.md} + 0.125rem",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.control.radius.lg} + 0.125rem",
-            "type": "dimension"
-          }
-        },
-        "border": {
-          "default": {
-            "value": "2px",
-            "type": "dimension"
-          },
-          "thin": {
-            "value": "1px",
-            "type": "dimension"
-          }
         }
       },
       "label": {
@@ -139,23 +141,13 @@
             "value": "{app.dimension.label.height.lg} + 0.5rem",
             "type": "dimension"
           }
-        },
-        "border": {
-          "default": {
-            "value": "1px",
-            "type": "dimension"
-          },
-          "thin": {
-            "value": "1px",
-            "type": "dimension"
-          }
         }
       },
       "surface": {
         "padding": {
           "container": {
             "default": {
-              "value": "{app.dimension.control.padding.xs}",
+              "value": "{app.dimension.component.padding.xs}",
               "type": "dimension"
             }
           }
@@ -173,7 +165,7 @@
           },
           "md": {
             "default": {
-              "value": "{app.dimension.control.radius.md} * 2",
+              "value": "{app.dimension.component.radius.md} * 2",
               "type": "dimension"
             },
             "inset": {
@@ -1128,34 +1120,6 @@
       }
     },
     "boxShadow": {
-      "focusRing": {
-        "md": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.25rem",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
-        },
-        "lg": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.375rem",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
-        }
-      },
       "surface": {
         "default": {
           "value": {
@@ -1170,6 +1134,34 @@
         }
       },
       "component": {
+        "focusRing": {
+          "md": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.25rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value": [
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "0.375rem",
+                "color": "{app.color.component.focus.focusRing.default}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
         "high": {
           "value": {
             "x": "0",
@@ -1403,13 +1395,15 @@
       }
     },
     "lineHeight": {
-      "default": {
-        "value": "140%",
-        "type": "lineHeights"
-      },
-      "none": {
-        "value": "100%",
-        "type": "lineHeights"
+      "component": {
+        "default": {
+          "value": "140%",
+          "type": "lineHeights"
+        },
+        "none": {
+          "value": "100%",
+          "type": "lineHeights"
+        }
       },
       "surface": {
         "display": {
