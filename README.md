@@ -56,17 +56,17 @@ Application tokens are split into the following top-level categories:
 
 - dimension
 - color
-- fontSize
-- textCase
-- letterSpacing
-- boxShadow
 - fontFamily
 - fontWeight
+- fontSize
 - lineHeight
+- letterSpacing
+- textCase
+- boxShadow
 
 Additionally there is a 'config' category, used for internal calculations and mapping.
 
-Each of the top-level categories can contain tokens in the following sub-categories:
+Each of the top-level categories can contain tokens in the following subcategories:
 
 - control
 - label
@@ -83,7 +83,7 @@ The label subcategory is used to group tokens present in smaller components as w
 
 #### The component layer
 
-The component sub-category is used to group tokens that are later referenced in the component layer and cannot be categorized into either control or label and are generic enough to be used for components of all sizes.
+The component subcategory is used to group tokens that are later referenced in the component layer and cannot be categorized into either control or label and are generic enough to be used for components of all sizes.
 
 #### surface
 
