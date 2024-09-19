@@ -99,13 +99,13 @@
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.info.bg.solid}",
+                  "value": "{app.color.component.danger.bg.solid}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.info.darken.active}",
+                        "value": "{app.config.color.danger.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -408,15 +408,15 @@
           },
           "border": {
             "sm": {
-              "value": "{app.dimension.label.border.default}",
+              "value": "{app.dimension.control.border.thin}",
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.label.border.default}",
+              "value": "{app.dimension.control.border.thin}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{app.dimension.label.border.default}",
+              "value": "{app.dimension.control.border.thin}",
               "type": "dimension"
             }
           },

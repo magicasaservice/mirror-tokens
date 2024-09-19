@@ -161,23 +161,23 @@
           },
           "border": {
             "xs": {
-              "value": "{component.status.config.indicator.border.default}",
+              "value": "{app.dimension.label.border.thin}",
               "type": "dimension"
             },
             "sm": {
-              "value": "{component.status.dimension.indicator.border.xs} + {component.status.config.indicator.border.step}",
+              "value": "{app.dimension.label.border.thin}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.status.dimension.indicator.border.sm} + {component.status.config.indicator.border.step}",
+              "value": "{app.dimension.label.border.thin}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.status.dimension.indicator.border.md} + {component.status.config.indicator.border.step}",
+              "value": "{app.dimension.label.border.thin}",
               "type": "dimension"
             },
             "xl": {
-              "value": "{component.status.dimension.indicator.border.lg} + {component.status.config.indicator.border.step}",
+              "value": "{app.dimension.label.border.thin}",
               "type": "dimension"
             }
           },
@@ -830,16 +830,6 @@
             },
             "step": {
               "value": "0.0625rem",
-              "type": "other"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "0.0625rem",
-              "type": "other"
-            },
-            "step": {
-              "value": "0rem",
               "type": "other"
             }
           },
