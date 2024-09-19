@@ -51,6 +51,20 @@
             "value": "{app.fontSize.surface.body.sm}",
             "type": "fontSizes"
           }
+        },
+        "subtitle": {
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} + 0.25rem",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.surface.subtitle.sm} + 0.25rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.subtitle.md} + 0.25rem",
+            "type": "fontSizes"
+          }
         }
       }
     },
@@ -148,7 +162,7 @@
             "type": "lineHeights"
           },
           "lg": {
-            "value": "125%",
+            "value": "{app.lineHeight.surface.body.default}",
             "type": "lineHeights"
           }
         },
@@ -159,12 +173,6 @@
           },
           "short": {
             "value": "{app.lineHeight.surface.body.short}",
-            "type": "lineHeights"
-          }
-        },
-        "subtitle": {
-          "default": {
-            "value": "{app.lineHeight.surface.body.default}",
             "type": "lineHeights"
           }
         },
