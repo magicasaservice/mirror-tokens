@@ -20,7 +20,7 @@
         },
         "blur": {
           "default": {
-            "value": "4rem",
+            "value": "8rem",
             "type": "dimension"
           }
         },
@@ -44,54 +44,33 @@
         },
         "border": {
           "default": {
-            "value": "{app.dimension.control.border.thin}",
+            "value": "{app.dimension.control.border.default}",
             "type": "dimension"
           }
         }
       },
       "color": {
         "bg": {
-          "default": {
-            "value": "{app.color.surface.elevation.higher.bg.default}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.6",
-                  "space": "hsl"
-                }
-              }
-            }
-          },
-          "base": {
-            "value": "{app.color.surface.elevation.base.bg.default}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.6",
-                  "space": "hsl"
-                }
+          "value": "{app.color.surface.elevation.base.bg.default}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.8",
+                "space": "hsl"
               }
             }
           }
         },
         "border": {
-          "default": {
-            "value": "transparent",
-            "type": "color"
-          }
+          "value": "transparent",
+          "type": "color"
         }
       },
       "boxShadow": {
         "default": {
           "value": "{app.boxShadow.component.high}",
-          "type": "boxShadow"
-        },
-        "higher": {
-          "value": "{app.boxShadow.component.higher}",
           "type": "boxShadow"
         }
       }
