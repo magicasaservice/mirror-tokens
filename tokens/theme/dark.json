@@ -598,16 +598,8 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 20%)",
+              "$extensions": {}
             }
           }
         },
