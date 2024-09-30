@@ -152,7 +152,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.primary.alpha.border.hover} ",
+                  "value": "{app.config.color.primary.alpha.border.subtle} + 0.04",
                   "space": "hsl"
                 }
               }
@@ -165,7 +165,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.primary.alpha.border.active}",
+                  "value": "{app.config.color.primary.alpha.border.subtle} + 0.08",
                   "space": "hsl"
                 }
               }
@@ -792,7 +792,7 @@
                 "type": "other"
               },
               "subtle": {
-                "value": "0.08",
+                "value": "0.06",
                 "type": "other"
               }
             },
@@ -898,7 +898,7 @@
                 "type": "other"
               },
               "subtle": {
-                "value": "0.08",
+                "value": "0.06",
                 "type": "other"
               },
               "amp": {
