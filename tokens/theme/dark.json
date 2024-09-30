@@ -418,7 +418,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 35%, {app.config.color.danger.alpha.bg.default})"
+              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 35%, {app.config.color.success.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -598,8 +598,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 20%)",
-              "$extensions": {}
+              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 20%)"
             }
           }
         },
@@ -1063,15 +1062,15 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.24",
+                "value": "0.16",
                 "type": "other"
               },
               "hover": {
-                "value": "0.32",
+                "value": "0.24",
                 "type": "other"
               },
               "active": {
-                "value": "0.4",
+                "value": "0.32",
                 "type": "other"
               }
             },
