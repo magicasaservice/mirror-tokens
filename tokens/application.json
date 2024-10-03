@@ -965,15 +965,15 @@
       "surface": {
         "display": {
           "sm": {
-            "value": "{app.fontSize.surface.body.md} * 4",
+            "value": "{app.fontSize.surface.body.md} * 2.75",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.surface.display.sm} + 2rem",
+            "value": "{app.fontSize.surface.display.sm} + 1.375rem",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.surface.display.md} + 2rem",
+            "value": "{app.fontSize.surface.display.md} + 1.375rem",
             "type": "fontSizes"
           }
         },
@@ -1344,11 +1344,11 @@
         },
         "body": {
           "default": {
-            "value": "{app.config.fontWeight.regular}",
+            "value": "{app.config.fontWeight.book}",
             "type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.medium}",
             "type": "fontWeights"
           }
         },
