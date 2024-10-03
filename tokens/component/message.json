@@ -1,18 +1,8 @@
 {
   "component": {
     "message": {
-      "typography": {
-        "default": {
-          "value": "{app.typography.control.text.alt}",
-          "type": "typography"
-        },
-        "symbol": {
-          "value": "{app.typography.control.symbol.default}",
-          "type": "typography"
-        }
-      },
       "color": {
-        "default": {
+        "primary": {
           "bg": {
             "default": {
               "value": "{app.color.surface.elevation.high.bg.default}",
@@ -21,105 +11,85 @@
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.accent.fg.onTranslucent}",
+              "value": "{app.color.component.primary.fg.solid}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{app.color.component.primary.fg.muted}",
               "type": "color"
             }
           }
         }
       },
+      "fontFamily": {
+        "default": {
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
+        },
+        "symbol": {
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "label": {
+          "value": "{app.fontWeight.control.text.strong}",
+          "type": "fontWeights"
+        },
+        "message": {
+          "value": "{app.fontWeight.control.text.alt}",
+          "type": "fontWeights"
+        },
+        "symbol": {
+          "value": "{app.fontWeight.control.symbol.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "default": {
+          "value": "{app.lineHeight.default}",
+          "type": "lineHeights"
+        },
+        "symbol": {
+          "value": "{app.lineHeight.none}",
+          "type": "lineHeights"
+        }
+      },
+      "fontSize": {
+        "label": {
+          "value": "{app.fontSize.control.text.md}",
+          "type": "fontSizes"
+        },
+        "message": {
+          "value": "{app.fontSize.control.text.xs}",
+          "type": "fontSizes"
+        }
+      },
       "dimension": {
-        "box": {
-          "padding": {
-            "advanced": {
-              "default": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              },
-              "cta": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
-                "type": "dimension"
-              },
-              "promise": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
-                "type": "dimension"
-              },
-              "symbol": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              }
-            },
-            "simple": {
-              "default": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              },
-              "cta": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              },
-              "promise": {
-                "value": "{app.dimension.control.padding.md} * 0.75",
-                "type": "dimension"
-              },
-              "symbol": {
-                "value": "{app.dimension.control.padding.md} * 0.75",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.padding.md} * 0",
-                "type": "dimension"
-              }
-            }
+        "padding": {
+          "x": {
+            "value": "0.25rem",
+            "type": "dimension"
           },
-          "gap": {
-            "default": {
-              "value": "0rem",
-              "type": "dimension"
-            }
-          },
-          "radius": {
-            "advanced": {
-              "default": {
-                "value": "{app.dimension.control.radius.sm} + {component.message.dimension.box.padding.advanced.default}",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.radius.md} * 0.75",
-                "type": "dimension"
-              }
-            },
-            "simple": {
-              "default": {
-                "value": "{app.dimension.control.radius.sm} + {component.message.dimension.box.padding.advanced.default}",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.radius.md}",
-                "type": "dimension"
-              }
-            }
-          },
-          "blur": {
-            "default": {
-              "value": "6rem",
-              "type": "dimension"
-            }
+          "y": {
+            "value": "0.875rem",
+            "type": "dimension"
           }
         },
-        "text": {
-          "padding": {
-            "default": {
-              "value": "{app.dimension.control.padding.sm}",
-              "type": "dimension"
-            },
-            "y": {
-              "value": "{app.dimension.control.padding.md} * 0.25",
-              "type": "dimension"
-            }
+        "gap": {
+          "container": {
+            "value": "1.125rem",
+            "type": "dimension"
+          },
+          "label": {
+            "value": "0.25rem",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "default": {
+            "value": "{app.dimension.control.radius.md}",
+            "type": "dimension"
           }
         }
       },
@@ -127,31 +97,7 @@
         "default": {
           "value": "{app.boxShadow.component.high}",
           "type": "boxShadow"
-        },
-        "inline": {
-          "value": "0",
-          "type": "boxShadow"
         }
-      },
-      "fontSize": {
-        "default": {
-          "value": "{app.fontSize.control.text.sm}",
-          "type": "fontSizes"
-        },
-        "message": {
-          "value": "{app.fontSize.control.text.xs}",
-          "type": "fontSizes"
-        },
-        "symbol": {
-          "value": "{app.fontSize.control.text.xl}",
-          "type": "fontSizes"
-        }
-      }
-    },
-    "fontWeight": {
-      "callout": {
-        "value": "{config.fontWeight.semibold}",
-        "type": "fontWeights"
       }
     }
   }

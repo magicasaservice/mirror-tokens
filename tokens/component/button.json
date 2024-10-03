@@ -1,22 +1,106 @@
 {
   "component": {
     "button": {
-      "typography": {
-        "text": {
-          "default": {
-            "value": "{app.typography.control.text.default}",
-            "type": "typography"
+      "fontFamily": {
+        "default": {
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
+        },
+        "symbol": {
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "default": {
+          "value": "{app.fontWeight.control.text.default}",
+          "type": "fontWeights"
+        },
+        "symbol": {
+          "value": "{app.fontWeight.control.symbol.default}",
+          "type": "fontWeights"
+        },
+        "icon": {
+          "value": "{app.fontWeight.control.symbol.alt}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "default": {
+          "value": "{app.lineHeight.default}",
+          "type": "lineHeights"
+        },
+        "symbol": {
+          "value": "{app.lineHeight.none}",
+          "type": "lineHeights"
+        }
+      },
+      "fontSize": {
+        "default": {
+          "xs": {
+            "value": "{component.button.fontSize.default.sm} - {component.button.config.text.step}",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "{component.button.fontSize.default.md} - {component.button.config.text.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.button.config.text.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.button.fontSize.default.md} + {component.button.config.text.step}",
+            "type": "fontSizes"
           }
         },
         "symbol": {
-          "default": {
-            "value": "{app.typography.control.symbol.default}",
-            "type": "typography"
+          "xs": {
+            "value": "{component.button.fontSize.symbol.sm} - {component.button.config.symbol.default.step}",
+            "type": "fontSizes"
           },
-          "icon": {
-            "value": "{app.typography.control.symbol.alt}",
-            "type": "typography"
+          "sm": {
+            "value": "{component.button.fontSize.symbol.md} - {component.button.config.symbol.default.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.button.config.symbol.default.default}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.button.fontSize.symbol.md} + {component.button.config.symbol.default.step}",
+            "type": "fontSizes"
           }
+        },
+        "icon": {
+          "xs": {
+            "value": "{component.button.fontSize.symbol.xs} + {component.button.config.symbol.icon.step}",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "{component.button.fontSize.symbol.sm} + {component.button.config.symbol.icon.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.button.fontSize.symbol.md} + {component.button.config.symbol.icon.step}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.button.fontSize.symbol.lg} + {component.button.config.symbol.icon.step}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "letterSpacing": {
+        "default": {
+          "value": "{app.letterSpacing.control.text}",
+          "type": "letterSpacing"
+        }
+      },
+      "textCase": {
+        "default": {
+          "value": "{app.textCase.control.default}",
+          "type": "textCase"
         }
       },
       "color": {
@@ -34,7 +118,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -47,7 +131,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -78,7 +162,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.accent.alpha.bg.hover} ",
+                      "value": "{app.config.color.accent.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -91,7 +175,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.accent.alpha.bg.active}",
+                      "value": "{app.config.color.accent.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -118,7 +202,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.accent.alpha.bg.hover}",
+                      "value": "{app.config.color.accent.alpha.bg.hover}",
                       "space": "hsl"
                     }
                   }
@@ -131,7 +215,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.accent.alpha.bg.active}",
+                      "value": "{app.config.color.accent.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -158,7 +242,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.accent.alpha.border.hover}",
+                      "value": "{app.config.color.accent.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
@@ -171,7 +255,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.accent.alpha.border.active}",
+                      "value": "{app.config.color.accent.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -190,7 +274,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -203,7 +287,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -224,7 +308,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -237,7 +321,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -258,7 +342,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -271,7 +355,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.accent.darken.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -300,7 +384,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.hover} ",
+                      "value": "{app.config.color.primary.darken.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -313,7 +397,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.active} ",
+                      "value": "{app.config.color.primary.darken.active} ",
                       "space": "hsl"
                     }
                   }
@@ -340,7 +424,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.hover} ",
+                      "value": "{app.config.color.primary.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -353,7 +437,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.active}",
+                      "value": "{app.config.color.primary.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -380,7 +464,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.hover}",
+                      "value": "{app.config.color.primary.alpha.bg.hover}",
                       "space": "hsl"
                     }
                   }
@@ -393,7 +477,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.bg.active}",
+                      "value": "{app.config.color.primary.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -420,7 +504,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.border.hover}",
+                      "value": "{app.config.color.primary.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
@@ -433,7 +517,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.primary.alpha.border.active}",
+                      "value": "{app.config.color.primary.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -452,7 +536,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -465,7 +549,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.active} ",
+                      "value": "{app.config.color.primary.darken.active} ",
                       "space": "hsl"
                     }
                   }
@@ -486,7 +570,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -499,7 +583,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.active}",
+                      "value": "{app.config.color.primary.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -520,7 +604,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.hover} ",
+                      "value": "{app.config.color.primary.darken.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -533,7 +617,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.active} ",
+                      "value": "{app.config.color.primary.darken.active} ",
                       "space": "hsl"
                     }
                   }
@@ -562,7 +646,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -575,7 +659,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -606,7 +690,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.bg.hover} ",
+                      "value": "{app.config.color.info.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -619,7 +703,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.bg.active}",
+                      "value": "{app.config.color.info.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -646,7 +730,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.bg.hover}",
+                      "value": "{app.config.color.info.alpha.bg.hover}",
                       "space": "hsl"
                     }
                   }
@@ -659,7 +743,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.bg.active}",
+                      "value": "{app.config.color.info.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -686,7 +770,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.border.hover}",
+                      "value": "{app.config.color.info.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
@@ -699,7 +783,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.info.alpha.border.active}",
+                      "value": "{app.config.color.info.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -718,7 +802,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -731,7 +815,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -752,7 +836,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -765,7 +849,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -786,7 +870,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -799,7 +883,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.info.darken.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -828,7 +912,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -841,7 +925,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.active}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -868,7 +952,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.bg.hover} ",
+                      "value": "{app.config.color.danger.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -881,7 +965,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.bg.active}",
+                      "value": "{app.config.color.danger.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -908,7 +992,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.bg.hover}",
+                      "value": "{app.config.color.danger.alpha.bg.hover}",
                       "space": "hsl"
                     }
                   }
@@ -921,7 +1005,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.bg.active}",
+                      "value": "{app.config.color.danger.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -948,7 +1032,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.border.hover}",
+                      "value": "{app.config.color.danger.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
@@ -961,7 +1045,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.danger.alpha.border.active}",
+                      "value": "{app.config.color.danger.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -980,7 +1064,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -993,7 +1077,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.active}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1014,7 +1098,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1027,7 +1111,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.active}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1048,7 +1132,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1061,7 +1145,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.danger.darken.active}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1090,7 +1174,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1103,7 +1187,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.active}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1130,7 +1214,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.success.alpha.bg.hover} ",
+                      "value": "{app.config.color.success.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -1143,7 +1227,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.success.alpha.bg.active}",
+                      "value": "{app.config.color.success.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -1170,7 +1254,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.success.alpha.bg.hover}",
+                      "value": "{app.config.color.success.alpha.bg.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1183,7 +1267,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.success.alpha.bg.active}",
+                      "value": "{app.config.color.success.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -1210,7 +1294,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.success.alpha.border.hover}",
+                      "value": "{app.config.color.success.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1223,7 +1307,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.success.alpha.border.active}",
+                      "value": "{app.config.color.success.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -1242,7 +1326,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1255,7 +1339,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.active}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1276,7 +1360,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1289,7 +1373,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.active}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1310,7 +1394,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1323,7 +1407,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.success.darken.active}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1572,26 +1656,26 @@
         },
         "border": {
           "xs": {
-            "value": "{app.dimension.control.border.xs}",
+            "value": "{app.dimension.control.border.default}",
             "type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.border.sm}",
+            "value": "{app.dimension.control.border.default}",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.border.md}",
+            "value": "{app.dimension.control.border.default}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.border.lg}",
+            "value": "{app.dimension.control.border.default}",
             "type": "dimension"
           }
         },
         "symbol": {
           "sm": {
             "default": {
-              "value": "{component.button.fontSize.symbol.sm.default}",
+              "value": "{component.button.fontSize.symbol.sm}",
               "type": "dimension"
             },
             "icon": {
@@ -1601,7 +1685,7 @@
           },
           "md": {
             "default": {
-              "value": "{component.button.fontSize.symbol.md.default}",
+              "value": "{component.button.fontSize.symbol.md}",
               "type": "dimension"
             },
             "icon": {
@@ -1611,7 +1695,7 @@
           },
           "lg": {
             "default": {
-              "value": "{component.button.fontSize.symbol.lg.default}",
+              "value": "{component.button.fontSize.symbol.lg}",
               "type": "dimension"
             },
             "icon": {
@@ -1621,7 +1705,7 @@
           },
           "xs": {
             "default": {
-              "value": "{component.button.fontSize.symbol.xs.default}",
+              "value": "{component.button.fontSize.symbol.xs}",
               "type": "dimension"
             },
             "icon": {
@@ -1635,80 +1719,6 @@
             "value": "4rem",
             "type": "dimension"
           }
-        }
-      },
-      "fontSize": {
-        "text": {
-          "xs": {
-            "value": "{component.button.fontSize.text.sm} - {component.button.config.text.step}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{component.button.fontSize.text.md} - {component.button.config.text.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.button.config.text.default}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.button.fontSize.text.md} + {component.button.config.text.step}",
-            "type": "fontSizes"
-          }
-        },
-        "symbol": {
-          "sm": {
-            "default": {
-              "value": "{component.button.fontSize.symbol.md.default} - {component.button.config.symbol.default.step}",
-              "type": "fontSizes"
-            },
-            "icon": {
-              "value": "{component.button.fontSize.symbol.sm.default} + {component.button.config.symbol.icon.step}",
-              "type": "fontSizes"
-            }
-          },
-          "md": {
-            "default": {
-              "value": "{component.button.config.symbol.default.default}",
-              "type": "fontSizes"
-            },
-            "icon": {
-              "value": "{component.button.fontSize.symbol.md.default} + {component.button.config.symbol.icon.step}",
-              "type": "fontSizes"
-            }
-          },
-          "lg": {
-            "default": {
-              "value": "{component.button.fontSize.symbol.md.default} + {component.button.config.symbol.default.step}",
-              "type": "fontSizes"
-            },
-            "icon": {
-              "value": "{component.button.fontSize.symbol.lg.default} + {component.button.config.symbol.icon.step}",
-              "type": "fontSizes"
-            }
-          },
-          "xs": {
-            "default": {
-              "value": "{component.button.fontSize.symbol.sm.default} - {component.button.config.symbol.default.step}",
-              "type": "fontSizes"
-            },
-            "icon": {
-              "value": "{component.button.fontSize.symbol.xs.default} + {component.button.config.symbol.icon.step}",
-              "type": "fontSizes"
-            }
-          }
-        }
-      },
-      "letterSpacing": {
-        "default": {
-          "value": "{app.letterSpacing.control.text}",
-          "type": "letterSpacing"
-        }
-      },
-      "textCase": {
-        "default": {
-          "value": "{app.textCase.control.default}",
-          "type": "textCase"
         }
       },
       "config": {
@@ -1743,7 +1753,7 @@
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.default.md}",
+          "value": "{app.boxShadow.focusRing.md}",
           "type": "boxShadow"
         }
       }

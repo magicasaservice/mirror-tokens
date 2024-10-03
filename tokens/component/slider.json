@@ -1,18 +1,34 @@
 {
   "component": {
     "slider": {
-      "typography": {
-        "value": {
-          "value": "{app.typography.control.number.default}",
-          "type": "typography"
+      "fontFamily": {
+        "default": {
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
         },
+        "number": {
+          "value": "{app.fontFamily.control.number}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
         "label": {
-          "value": "{app.typography.control.text.alt}",
-          "type": "typography"
+          "value": "{app.fontWeight.control.text.default}",
+          "type": "fontWeights"
         },
-        "symbol": {
-          "value": "{app.typography.control.number.default}",
-          "type": "typography"
+        "number": {
+          "value": "{app.fontWeight.control.number.default}",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "label": {
+          "value": "{app.lineHeight.default}",
+          "type": "lineHeights"
+        },
+        "number": {
+          "value": "{app.lineHeight.default}",
+          "type": "lineHeights"
         }
       },
       "dimension": {
@@ -22,7 +38,7 @@
             "type": "dimension"
           },
           "border": {
-            "value": "{app.dimension.label.border.xs}",
+            "value": "{app.dimension.control.border.thin}",
             "type": "dimension"
           },
           "radius": {
@@ -54,7 +70,7 @@
             "type": "dimension"
           },
           "border": {
-            "value": "{app.dimension.label.border.xs}",
+            "value": "{app.dimension.control.border.thin}",
             "type": "dimension"
           },
           "radius": {
@@ -89,6 +105,12 @@
         "target": {
           "default": {
             "value": "{component.slider.dimension.container.height} + {component.slider.dimension.container.padding}",
+            "type": "dimension"
+          }
+        },
+        "symbol": {
+          "default": {
+            "value": "{component.button.fontSize.symbol.sm}",
             "type": "dimension"
           }
         }
@@ -197,7 +219,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "{config.color.primary.lighten.default}",
+                      "value": "{app.config.color.primary.lighten.default}",
                       "space": "hsl"
                     }
                   }
@@ -315,8 +337,28 @@
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.default.lg}",
+          "value": "{app.boxShadow.focusRing.lg}",
           "type": "boxShadow"
+        }
+      },
+      "fontSize": {
+        "label": {
+          "value": "{component.button.fontSize.default.md}",
+          "type": "fontSizes"
+        },
+        "number": {
+          "value": "{component.button.fontSize.default.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "letterSpacing": {
+        "label": {
+          "value": "{app.letterSpacing.control.text}",
+          "type": "letterSpacing"
+        },
+        "number": {
+          "value": "{app.letterSpacing.label.number}",
+          "type": "letterSpacing"
         }
       }
     }
