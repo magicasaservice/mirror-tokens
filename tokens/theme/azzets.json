@@ -7,7 +7,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 0.5%)"
+                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 0%)"
               },
               "hover": {
                 "type": "color",
@@ -16,7 +16,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -29,7 +29,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active}",
+                      "value": "{app.config.color.primary.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -41,7 +41,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
+                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%)"
               },
               "hover": {
                 "type": "color",
@@ -50,7 +50,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -63,7 +63,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active}",
+                      "value": "{app.config.color.primary.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -75,7 +75,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 8%)"
+                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 16%)"
               },
               "hover": {
                 "type": "color",
@@ -84,7 +84,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -97,7 +97,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active}",
+                      "value": "{app.config.color.primary.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -109,7 +109,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
+                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%)"
               },
               "hover": {
                 "type": "color",
@@ -118,7 +118,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -131,7 +131,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active}",
+                      "value": "{app.config.color.primary.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -143,7 +143,7 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%,{app.config.color.accent.alpha.border.default})"
+            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 100%, {app.config.color.primary.alpha.border.subtle})"
           },
           "hover": {
             "type": "color",
@@ -152,7 +152,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.accent.alpha.border.hover} ",
+                  "value": "{app.config.color.primary.alpha.border.hover} ",
                   "space": "hsl"
                 }
               }
@@ -165,7 +165,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.accent.alpha.border.active}",
+                  "value": "{app.config.color.primary.alpha.border.active}",
                   "space": "hsl"
                 }
               }
@@ -174,15 +174,15 @@
         },
         "fg": {
           "default": {
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 70%, 1)",
+            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%, 1)",
             "type": "color"
           },
           "muted": {
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 68%, 0.6)",
+            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%, 0.56)",
             "type": "color"
           },
           "subtle": {
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 68%, 0.32)",
+            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%, 0.24)",
             "type": "color"
           },
           "link": {
@@ -190,7 +190,25 @@
             "type": "color"
           },
           "inverted": {
-            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 2%, 1)",
+            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%, 1)",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.1)",
+            "type": "color"
+          }
+        },
+        "dimmer": {
+          "default": {
+            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 1)",
+            "type": "color"
+          }
+        },
+        "playground": {
+          "default": {
+            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.55)",
             "type": "color"
           }
         }
@@ -200,11 +218,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 68%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 68%, {app.config.color.accent.alpha.bg.default})"
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 96%, {app.config.color.accent.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -214,21 +232,21 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 68%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 68%, {app.config.color.accent.alpha.border.default})"
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 96%, {app.config.color.accent.alpha.border.default})"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 68%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%)"
             },
             "muted": {
               "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 68%, 0.5)"
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%, 0.48)"
             },
             "onSolid": {
               "type": "color",
@@ -240,7 +258,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 68%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%)"
             }
           }
         },
@@ -248,11 +266,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 68%)"
+              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.translucent}, 68%, {app.config.color.primary.alpha.bg.default})"
+              "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.translucent}, 96%, {app.config.color.primary.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -262,11 +280,11 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 68%)"
+              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.translucent}, 68%, {app.config.color.primary.alpha.border.default})"
+              "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.translucent}, 96%, {app.config.color.primary.alpha.border.default})"
             }
           },
           "fg": {
@@ -288,7 +306,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 68%)"
+              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)"
             }
           }
         }
@@ -296,20 +314,20 @@
     },
     "config": {
       "color": {
-        "neutral": {
+        "accent": {
           "hue": {
             "default": {
-              "value": "40",
+              "value": "220",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "0%",
+              "value": "8%",
               "type": "other"
             },
             "translucent": {
-              "value": "0%",
+              "value": "8%",
               "type": "other"
             }
           },
@@ -348,109 +366,19 @@
             },
             "border": {
               "default": {
-                "value": "0.08",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.12",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.08",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            }
-          }
-        },
-        "accent": {
-          "hue": {
-            "default": {
-              "value": "4",
-              "type": "other"
-            }
-          },
-          "saturation": {
-            "default": {
-              "value": "80%",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "80%",
-              "type": "other"
-            }
-          },
-          "darken": {
-            "default": {
-              "value": "0.06",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.14",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
                 "value": "0.12",
                 "type": "other"
               },
               "hover": {
-                "value": "0.16",
+                "value": "0.14",
                 "type": "other"
               },
               "active": {
-                "value": "0.2",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.04",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
                 "value": "0.16",
                 "type": "other"
               },
-              "hover": {
-                "value": "0.2",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.24",
-                "type": "other"
-              },
               "subtle": {
-                "value": "0.06",
+                "value": "0.08",
                 "type": "other"
               }
             },
@@ -491,23 +419,23 @@
         "primary": {
           "hue": {
             "default": {
-              "value": "4",
+              "value": "220",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "80%",
+              "value": "8%",
               "type": "other"
             },
             "translucent": {
-              "value": "80%",
+              "value": "8%",
               "type": "other"
             }
           },
           "darken": {
             "default": {
-              "value": "0.06",
+              "value": "0.1",
               "type": "other"
             },
             "hover": {
@@ -515,44 +443,52 @@
               "type": "other"
             },
             "active": {
-              "value": "0.14",
+              "value": "0.2",
               "type": "other"
             }
           },
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.12",
+                "value": "0.06",
                 "type": "other"
               },
               "hover": {
-                "value": "0.16",
+                "value": "0.08",
                 "type": "other"
               },
               "active": {
-                "value": "0.2",
+                "value": "0.1",
                 "type": "other"
               },
               "subtle": {
                 "value": "0.04",
                 "type": "other"
+              },
+              "amp": {
+                "value": "0.1",
+                "type": "other"
               }
             },
             "border": {
               "default": {
-                "value": "0.16",
+                "value": "0.12",
                 "type": "other"
               },
               "hover": {
-                "value": "0.2",
+                "value": "0.14",
                 "type": "other"
               },
               "active": {
-                "value": "0.24",
+                "value": "0.16",
                 "type": "other"
               },
               "subtle": {
-                "value": "0.06",
+                "value": "0.08",
+                "type": "other"
+              },
+              "amp": {
+                "value": "0.16",
                 "type": "other"
               }
             },

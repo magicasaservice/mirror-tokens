@@ -7,7 +7,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 0.5%)"
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 1%)"
               },
               "hover": {
                 "type": "color",
@@ -41,7 +41,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 2%)"
               },
               "hover": {
                 "type": "color",
@@ -75,7 +75,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 8%)"
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 10%)"
               },
               "hover": {
                 "type": "color",
@@ -109,7 +109,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 2%)"
               },
               "hover": {
                 "type": "color",
@@ -389,23 +389,23 @@
         "accent": {
           "hue": {
             "default": {
-              "value": "4",
+              "value": "200",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "80%",
+              "value": "100%",
               "type": "other"
             },
             "translucent": {
-              "value": "80%",
+              "value": "100%",
               "type": "other"
             }
           },
           "darken": {
             "default": {
-              "value": "0.06",
+              "value": "0.1",
               "type": "other"
             },
             "hover": {
@@ -413,30 +413,12 @@
               "type": "other"
             },
             "active": {
-              "value": "0.14",
+              "value": "0.2",
               "type": "other"
             }
           },
           "alpha": {
             "bg": {
-              "default": {
-                "value": "0.12",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.2",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.04",
-                "type": "other"
-              }
-            },
-            "border": {
               "default": {
                 "value": "0.16",
                 "type": "other"
@@ -450,7 +432,25 @@
                 "type": "other"
               },
               "subtle": {
-                "value": "0.06",
+                "value": "0.08",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.2",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.24",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.28",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.12",
                 "type": "other"
               }
             },
@@ -491,23 +491,23 @@
         "primary": {
           "hue": {
             "default": {
-              "value": "4",
+              "value": "200",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "80%",
+              "value": "100%",
               "type": "other"
             },
             "translucent": {
-              "value": "80%",
+              "value": "100%",
               "type": "other"
             }
           },
           "darken": {
             "default": {
-              "value": "0.06",
+              "value": "0.12",
               "type": "other"
             },
             "hover": {
@@ -515,30 +515,12 @@
               "type": "other"
             },
             "active": {
-              "value": "0.14",
+              "value": "0.2",
               "type": "other"
             }
           },
           "alpha": {
             "bg": {
-              "default": {
-                "value": "0.12",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.2",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.04",
-                "type": "other"
-              }
-            },
-            "border": {
               "default": {
                 "value": "0.16",
                 "type": "other"
@@ -552,7 +534,25 @@
                 "type": "other"
               },
               "subtle": {
-                "value": "0.06",
+                "value": "0.08",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.2",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.24",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.28",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.12",
                 "type": "other"
               }
             },

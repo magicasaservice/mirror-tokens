@@ -614,7 +614,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 36%, {app.config.color.danger.alpha.bg.default})"
+              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 36%, {app.config.color.success.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -794,16 +794,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.26",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 70%)"
             }
           }
         },
@@ -979,15 +970,15 @@
         },
         "title": {
           "sm": {
-            "value": "{app.fontSize.surface.body.md} * 1.5",
+            "value": "{app.fontSize.surface.body.md} * 1.25",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.surface.title.sm} + 0.5rem",
+            "value": "{app.fontSize.surface.title.sm} + 0.25rem",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.surface.title.md} + 0.5rem",
+            "value": "{app.fontSize.surface.title.md} + 0.25rem",
             "type": "fontSizes"
           }
         },
@@ -1920,15 +1911,15 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.24",
+                "value": "0.16",
                 "type": "other"
               },
               "hover": {
-                "value": "0.32",
+                "value": "0.24",
                 "type": "other"
               },
               "active": {
-                "value": "0.4",
+                "value": "0.32",
                 "type": "other"
               }
             },

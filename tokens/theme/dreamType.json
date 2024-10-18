@@ -7,7 +7,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 0%)"
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 0.5%)"
               },
               "hover": {
                 "type": "color",
@@ -75,7 +75,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 8%)"
               },
               "hover": {
                 "type": "color",
@@ -152,7 +152,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.accent.alpha.border.hover} ",
+                  "value": "{app.config.color.accent.alpha.border.default} + 0.02",
                   "space": "hsl"
                 }
               }
@@ -165,7 +165,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.accent.alpha.border.active}",
+                  "value": "{app.config.color.accent.alpha.border.default} + 0.02",
                   "space": "hsl"
                 }
               }
@@ -424,11 +424,11 @@
                 "type": "other"
               },
               "hover": {
-                "value": "0.08",
+                "value": "0.16",
                 "type": "other"
               },
               "active": {
-                "value": "0.1",
+                "value": "0.2",
                 "type": "other"
               },
               "subtle": {
@@ -438,15 +438,15 @@
             },
             "border": {
               "default": {
-                "value": "0.2",
+                "value": "0.16",
                 "type": "other"
               },
               "hover": {
-                "value": "0.12",
+                "value": "0.2",
                 "type": "other"
               },
               "active": {
-                "value": "0.16",
+                "value": "0.24",
                 "type": "other"
               },
               "subtle": {
@@ -526,11 +526,11 @@
                 "type": "other"
               },
               "hover": {
-                "value": "0.08",
+                "value": "0.16",
                 "type": "other"
               },
               "active": {
-                "value": "0.1",
+                "value": "0.2",
                 "type": "other"
               },
               "subtle": {
@@ -540,15 +540,15 @@
             },
             "border": {
               "default": {
-                "value": "0.2",
+                "value": "0.16",
                 "type": "other"
               },
               "hover": {
-                "value": "0.12",
+                "value": "0.2",
                 "type": "other"
               },
               "active": {
-                "value": "0.16",
+                "value": "0.24",
                 "type": "other"
               },
               "subtle": {

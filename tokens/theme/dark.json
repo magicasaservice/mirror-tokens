@@ -143,7 +143,7 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 100%, {app.config.color.primary.alpha.border.default})"
+            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 100%, {app.config.color.primary.alpha.border.subtle})"
           },
           "hover": {
             "type": "color",
@@ -152,7 +152,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.primary.alpha.border.hover} ",
+                  "value": "{app.config.color.primary.alpha.border.subtle} + 0.04",
                   "space": "hsl"
                 }
               }
@@ -165,7 +165,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.primary.alpha.border.active}",
+                  "value": "{app.config.color.primary.alpha.border.subtle} + 0.08",
                   "space": "hsl"
                 }
               }
@@ -366,7 +366,7 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 60%)"
+              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 64%)"
             },
             "translucent": {
               "type": "color",
@@ -380,7 +380,7 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 65%)"
+              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 66%)"
             },
             "translucent": {
               "type": "color",
@@ -418,7 +418,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 35%, {app.config.color.danger.alpha.bg.default})"
+              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 35%, {app.config.color.success.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -598,16 +598,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.surface.fg.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 20%)"
             }
           }
         },
@@ -640,6 +631,650 @@
                   }
                 }
               }
+            }
+          }
+        }
+      }
+    },
+    "config": {
+      "color": {
+        "neutral": {
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "0%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "0%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.04",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.12",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.14",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.08",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "accent": {
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "3%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "3%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.04",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.12",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.14",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.06",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "primary": {
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "3%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "3%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.04",
+                "type": "other"
+              },
+              "amp": {
+                "value": "0.1",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.12",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.14",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "amp": {
+                "value": "0.16",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "info": {
+          "hue": {
+            "default": {
+              "value": "220",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "100%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.08",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.08",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.16",
+              "type": "other"
+            },
+            "focus": {
+              "value": "0.24",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.24",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.32",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.24",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.32",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.4",
+                "type": "other"
+              }
+            },
+            "focusRing": {
+              "default": {
+                "value": "{app.config.color.info.alpha.bg.active} - 0.08",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "success": {
+          "hue": {
+            "default": {
+              "value": "155",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "80%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.24",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.32",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.32",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.4",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.48",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "warning": {
+          "hue": {
+            "default": {
+              "value": "40",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "90%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.32",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.4",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.48",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.48",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.56",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.64",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "danger": {
+          "hue": {
+            "default": {
+              "value": "15",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "100%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "100%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.08",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.08",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.12",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.24",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.32",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.08",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.32",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.4",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.48",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
             }
           }
         }
