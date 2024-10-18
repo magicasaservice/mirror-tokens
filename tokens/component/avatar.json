@@ -2,7 +2,7 @@
   "component": {
     "avatar": {
       "color": {
-        "default": {
+        "solid": {
           "bg": {
             "default": {
               "value": "{app.color.surface.fg.default}",
@@ -12,6 +12,26 @@
           "border": {
             "default": {
               "value": "transparent",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.surface.fg.inverted}",
+              "type": "color"
+            }
+          }
+        },
+        "outline": {
+          "bg": {
+            "default": {
+              "value": "transparent",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{app.color.surface.fg.default}",
               "type": "color"
             }
           },
