@@ -253,11 +253,21 @@
               }
             }
           }
+        },
+        "border": {
+          "default": {
+            "value": "{app.dimension.control.border.default}",
+            "type": "dimension"
+          }
         }
       },
       "fontFamily": {
         "default": {
           "value": "{app.fontFamily.control.number}",
+          "type": "fontFamilies"
+        },
+        "icon": {
+          "value": "{app.fontFamily.control.symbol}",
           "type": "fontFamilies"
         }
       },
@@ -280,8 +290,18 @@
             "type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.xs.default} - 0.25rem",
+            "value": "{component.avatar.fontSize.xs.default} - {component.avatar.config.inline.sizing.fontSize}",
             "type": "fontSizes"
+          },
+          "symbol": {
+            "default": {
+              "value": "{component.avatar.fontSize.xs.default} * 1.5",
+              "type": "fontSizes"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.xs.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "type": "fontSizes"
+            }
           }
         },
         "sm": {
@@ -290,8 +310,18 @@
             "type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.sm.default} - 0.25rem",
+            "value": "{component.avatar.fontSize.sm.default} - {component.avatar.config.inline.sizing.fontSize}",
             "type": "fontSizes"
+          },
+          "symbol": {
+            "default": {
+              "value": "{component.avatar.fontSize.sm.default} * 1.5",
+              "type": "fontSizes"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.sm.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "type": "fontSizes"
+            }
           }
         },
         "md": {
@@ -300,8 +330,18 @@
             "type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.md.default} - 0.25rem",
+            "value": "{component.avatar.fontSize.md.default} - {component.avatar.config.inline.sizing.fontSize}",
             "type": "fontSizes"
+          },
+          "symbol": {
+            "default": {
+              "value": "{component.avatar.fontSize.md.default} * 1.5",
+              "type": "fontSizes"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.md.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "type": "fontSizes"
+            }
           }
         },
         "lg": {
@@ -310,8 +350,18 @@
             "type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.lg.default} - 0.25rem",
+            "value": "{component.avatar.fontSize.lg.default} - {component.avatar.config.inline.sizing.fontSize}",
             "type": "fontSizes"
+          },
+          "symbol": {
+            "default": {
+              "value": "{component.avatar.fontSize.lg.default} * 1.5",
+              "type": "fontSizes"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.lg.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "type": "fontSizes"
+            }
           }
         },
         "xl": {
@@ -320,8 +370,18 @@
             "type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.xl.default} - 0.25rem",
+            "value": "{component.avatar.fontSize.xl.default} - {component.avatar.config.inline.sizing.fontSize}",
             "type": "fontSizes"
+          },
+          "symbol": {
+            "default": {
+              "value": "{component.avatar.fontSize.xl.default} * 1.5",
+              "type": "fontSizes"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.xl.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "type": "fontSizes"
+            }
           }
         }
       },
@@ -389,6 +449,10 @@
           "sizing": {
             "step": {
               "value": "0.5rem",
+              "type": "other"
+            },
+            "fontSize": {
+              "value": "0.25rem",
               "type": "other"
             }
           }
