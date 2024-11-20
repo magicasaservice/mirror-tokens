@@ -1114,7 +1114,7 @@
           "type": "letterSpacing"
         },
         "number": {
-          "value": "4%",
+          "value": "2%",
           "type": "letterSpacing"
         }
       }
@@ -1280,6 +1280,10 @@
           "default": {
             "value": "{app.config.fontWeight.book}",
             "type": "fontWeights"
+          },
+          "alt": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
           }
         }
       },
@@ -1297,6 +1301,10 @@
         "number": {
           "default": {
             "value": "{app.config.fontWeight.book}",
+            "type": "fontWeights"
+          },
+          "alt": {
+            "value": "{app.config.fontWeight.medium}",
             "type": "fontWeights"
           }
         }
