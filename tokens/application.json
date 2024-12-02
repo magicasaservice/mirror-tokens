@@ -862,26 +862,72 @@
       },
       "component": {
         "high": {
-          "value": {
-            "x": "0",
-            "y": "2rem",
-            "blur": "4rem",
-            "spread": "0",
-            "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
+          "default": {
+            "value": {
+              "x": "0",
+              "y": "2rem",
+              "blur": "4rem",
+              "spread": "0",
+              "color": "{app.color.surface.shadow.default}",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
           },
-          "type": "boxShadow"
+          "strongest": {
+            "value": [
+              {
+                "x": "0",
+                "y": "1rem",
+                "blur": "2rem",
+                "spread": "0",
+                "color": "{app.color.component.shadow.strongest}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "2rem",
+                "blur": "4rem",
+                "spread": "0",
+                "color": "{app.color.component.shadow.strongest}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
         },
         "higher": {
-          "value": {
-            "x": "0",
-            "y": "4rem",
-            "blur": "6rem",
-            "spread": "0",
-            "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
+          "default": {
+            "value": {
+              "x": "0",
+              "y": "4rem",
+              "blur": "6rem",
+              "spread": "0",
+              "color": "{app.color.surface.shadow.default}",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow"
           },
-          "type": "boxShadow"
+          "strongest": {
+            "value": [
+              {
+                "x": "0",
+                "y": "3rem",
+                "blur": "6rem",
+                "spread": "0",
+                "color": "{app.color.component.shadow.strongest}",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "1rem",
+                "blur": "2rem",
+                "spread": "0",
+                "color": "{app.color.component.shadow.strongest}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          }
         }
       }
     },
