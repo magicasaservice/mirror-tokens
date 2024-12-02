@@ -1065,7 +1065,7 @@
             "type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.medium}",
             "type": "fontWeights"
           }
         },
@@ -1397,65 +1397,65 @@
         },
         "title": {
           "sm": {
-            "value": "0.01rem",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "0.01rem",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "0.01rem",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           }
         },
         "subtitle": {
           "sm": {
-            "value": "0.01rem",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "0.01rem",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "0.01rem",
-            "type": "letterSpacing"
-          }
-        },
-        "body": {
-          "sm": {
-            "value": "0.01rem",
-            "type": "letterSpacing"
-          },
-          "md": {
-            "value": "0.01rem",
-            "type": "letterSpacing"
-          }
-        },
-        "caption": {
-          "default": {
-            "value": "0",
-            "type": "letterSpacing"
-          }
-        },
-        "footnote": {
-          "default": {
-            "value": "0",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           }
         },
         "callout": {
           "sm": {
-            "value": "0",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "0",
+            "value": "{app.config.letterSpacing.surface.title}",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "0",
+            "value": "{app.config.letterSpacing.surface.title}",
+            "type": "letterSpacing"
+          }
+        },
+        "body": {
+          "sm": {
+            "value": "{app.config.letterSpacing.surface.body}",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "{app.config.letterSpacing.surface.body}",
+            "type": "letterSpacing"
+          }
+        },
+        "caption": {
+          "default": {
+            "value": "{app.config.letterSpacing.surface.body}",
+            "type": "letterSpacing"
+          }
+        },
+        "footnote": {
+          "default": {
+            "value": "{app.config.letterSpacing.surface.body}",
             "type": "letterSpacing"
           }
         }
@@ -2383,6 +2383,18 @@
               "value": "0.8",
               "type": "other"
             }
+          }
+        }
+      },
+      "letterSpacing": {
+        "surface": {
+          "title": {
+            "value": "0.01rem",
+            "type": "other"
+          },
+          "body": {
+            "value": "0",
+            "type": "other"
           }
         }
       }
