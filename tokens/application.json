@@ -1055,7 +1055,7 @@
             "type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.medium}",
             "type": "fontWeights"
           }
         },
@@ -1113,15 +1113,15 @@
         },
         "title": {
           "sm": {
-            "value": "135%",
+            "value": "145%",
             "type": "lineHeights"
           },
           "md": {
-            "value": "130%",
+            "value": "140%",
             "type": "lineHeights"
           },
           "lg": {
-            "value": "125%",
+            "value": "135%",
             "type": "lineHeights"
           }
         },
@@ -1136,8 +1136,16 @@
           }
         },
         "subtitle": {
-          "default": {
+          "sm": {
+            "value": "145%",
+            "type": "lineHeights"
+          },
+          "md": {
             "value": "140%",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "135%",
             "type": "lineHeights"
           }
         },
@@ -1271,25 +1279,25 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.surface.display.sm} + 2rem",
+            "value": "{app.fontSize.surface.display.sm} + 1rem",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.surface.display.md} + 2rem",
+            "value": "{app.fontSize.surface.display.md} + 1rem",
             "type": "fontSizes"
           }
         },
         "title": {
           "sm": {
-            "value": "{app.fontSize.surface.body.md} * 1.5",
+            "value": "{app.fontSize.surface.body.md} * 1.25",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.surface.title.sm} + 0.5rem",
+            "value": "{app.fontSize.surface.title.sm} + 0.25rem",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.surface.title.md} + 0.5rem",
+            "value": "{app.fontSize.surface.title.md} + 0.25rem",
             "type": "fontSizes"
           }
         },
@@ -1379,11 +1387,75 @@
             "type": "letterSpacing"
           },
           "md": {
-            "value": "-0.2rem",
+            "value": "-0.1rem",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "-0.3rem",
+            "value": "-0.2rem",
+            "type": "letterSpacing"
+          }
+        },
+        "title": {
+          "sm": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          },
+          "lg": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          }
+        },
+        "subtitle": {
+          "sm": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          },
+          "lg": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          }
+        },
+        "body": {
+          "sm": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "0.01rem",
+            "type": "letterSpacing"
+          }
+        },
+        "caption": {
+          "default": {
+            "value": "0",
+            "type": "letterSpacing"
+          }
+        },
+        "footnote": {
+          "default": {
+            "value": "0",
+            "type": "letterSpacing"
+          }
+        },
+        "callout": {
+          "sm": {
+            "value": "0",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "0",
+            "type": "letterSpacing"
+          },
+          "lg": {
+            "value": "0",
             "type": "letterSpacing"
           }
         }
@@ -1661,6 +1733,10 @@
         },
         "bold": {
           "value": "Bold",
+          "type": "other"
+        },
+        "extrabold": {
+          "value": "Extrabold",
           "type": "other"
         },
         "black": {
