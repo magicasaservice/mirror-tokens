@@ -255,21 +255,41 @@
             }
           },
           "y": {
-            "xs": {
-              "value": "{app.dimension.control.padding.xs} / 2",
-              "type": "dimension"
+            "default": {
+              "xs": {
+                "value": "{app.dimension.control.padding.xs}",
+                "type": "dimension"
+              },
+              "sm": {
+                "value": "{app.dimension.control.padding.sm}",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{app.dimension.control.padding.md}",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{app.dimension.control.padding.lg}",
+                "type": "dimension"
+              }
             },
-            "sm": {
-              "value": "{app.dimension.control.padding.sm} / 2",
-              "type": "dimension"
-            },
-            "md": {
-              "value": "{app.dimension.control.padding.md} / 2",
-              "type": "dimension"
-            },
-            "lg": {
-              "value": "{app.dimension.control.padding.lg} / 2",
-              "type": "dimension"
+            "filled": {
+              "xs": {
+                "value": "{app.dimension.control.padding.xs} / 3",
+                "type": "dimension"
+              },
+              "sm": {
+                "value": "{app.dimension.control.padding.sm} / 3",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{app.dimension.control.padding.md} / 3",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{app.dimension.control.padding.lg} / 3",
+                "type": "dimension"
+              }
             }
           },
           "label": {
