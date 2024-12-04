@@ -5,7 +5,7 @@
         "primary": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.high.bg.default}",
+              "value": "{app.color.surface.elevation.higher.bg.default}",
               "type": "color"
             }
           },
@@ -15,7 +15,7 @@
               "type": "color"
             },
             "muted": {
-              "value": "{app.color.component.primary.fg.muted}",
+              "value": "{app.color.component.primary.fg.subtle}",
               "type": "color"
             }
           }
@@ -25,10 +25,6 @@
         "default": {
           "value": "{app.fontFamily.control.text}",
           "type": "fontFamilies"
-        },
-        "symbol": {
-          "value": "{app.fontFamily.control.symbol}",
-          "type": "fontFamilies"
         }
       },
       "fontWeight": {
@@ -37,11 +33,7 @@
           "type": "fontWeights"
         },
         "message": {
-          "value": "{app.fontWeight.control.text.alt}",
-          "type": "fontWeights"
-        },
-        "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
+          "value": "{app.fontWeight.control.text.default}",
           "type": "fontWeights"
         }
       },
@@ -57,7 +49,7 @@
       },
       "fontSize": {
         "label": {
-          "value": "{app.fontSize.control.text.md}",
+          "value": "{app.fontSize.control.text.xs}",
           "type": "fontSizes"
         },
         "message": {
@@ -78,11 +70,19 @@
         },
         "gap": {
           "container": {
-            "value": "1.125rem",
+            "value": "1rem",
             "type": "dimension"
           },
-          "label": {
+          "message": {
+            "value": "0.375rem",
+            "type": "dimension"
+          },
+          "body": {
             "value": "0.25rem",
+            "type": "dimension"
+          },
+          "badge": {
+            "value": "0.5rem",
             "type": "dimension"
           }
         },
@@ -91,11 +91,17 @@
             "value": "{app.dimension.control.radius.md}",
             "type": "dimension"
           }
+        },
+        "position": {
+          "close": {
+            "value": "0.5rem",
+            "type": "dimension"
+          }
         }
       },
       "boxShadow": {
         "default": {
-          "value": "{app.boxShadow.component.high}",
+          "value": "{app.boxShadow.component.higher.strongest}",
           "type": "boxShadow"
         }
       }

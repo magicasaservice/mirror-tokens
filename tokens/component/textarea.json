@@ -1,13 +1,9 @@
 {
   "component": {
-    "input": {
+    "textarea": {
       "fontFamily": {
         "default": {
           "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
-        },
-        "symbol": {
-          "value": "{app.fontFamily.control.symbol}",
           "type": "fontFamilies"
         }
       },
@@ -19,10 +15,6 @@
         "label": {
           "value": "{app.fontWeight.label.text.default}",
           "type": "fontWeights"
-        },
-        "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
-          "type": "fontWeights"
         }
       },
       "lineHeight": {
@@ -31,10 +23,6 @@
           "type": "lineHeights"
         },
         "label": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
-        },
-        "symbol": {
           "value": "{app.lineHeight.none}",
           "type": "lineHeights"
         },
@@ -48,37 +36,19 @@
       "fontSize": {
         "input": {
           "xs": {
-            "value": "{component.input.fontSize.input.sm} - {component.input.config.text.step}",
+            "value": "{component.textarea.fontSize.input.sm} - {component.textarea.config.text.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
+            "value": "{component.textarea.fontSize.input.md} - {component.textarea.config.text.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.input.config.text.default}",
+            "value": "{component.textarea.config.text.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
-            "type": "fontSizes"
-          }
-        },
-        "symbol": {
-          "xs": {
-            "value": "{component.input.fontSize.symbol.sm} - {component.input.config.symbol.default.step}",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.default.step}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{component.input.config.symbol.default.default}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.default.step}",
+            "value": "{component.textarea.fontSize.input.md} + {component.textarea.config.text.step}",
             "type": "fontSizes"
           }
         },
@@ -229,26 +199,44 @@
         }
       },
       "dimension": {
-        "height": {
+        "minHeight": {
           "xs": {
-            "value": "{app.dimension.control.height.xs}",
+            "value": "{app.dimension.control.height.xs} * 2",
             "type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.height.sm}",
+            "value": "{app.dimension.control.height.sm} * 2",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.height.md}",
+            "value": "{app.dimension.control.height.md} * 2",
             "type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.height.lg}",
+            "value": "{app.dimension.control.height.lg} * 2",
+            "type": "dimension"
+          }
+        },
+        "maxHeight": {
+          "xs": {
+            "value": "{app.dimension.control.height.xs} * 6",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.control.height.xs} * 6",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.control.height.xs} * 6",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.height.xs} * 6",
             "type": "dimension"
           }
         },
         "padding": {
-          "default": {
+          "x": {
             "xs": {
               "value": "{app.dimension.control.padding.xs}",
               "type": "dimension"
@@ -266,6 +254,44 @@
               "type": "dimension"
             }
           },
+          "y": {
+            "default": {
+              "xs": {
+                "value": "{app.dimension.control.padding.xs}",
+                "type": "dimension"
+              },
+              "sm": {
+                "value": "{app.dimension.control.padding.sm}",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{app.dimension.control.padding.md}",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{app.dimension.control.padding.lg}",
+                "type": "dimension"
+              }
+            },
+            "filled": {
+              "xs": {
+                "value": "{app.dimension.control.padding.xs} / 2",
+                "type": "dimension"
+              },
+              "sm": {
+                "value": "{app.dimension.control.padding.sm} / 2",
+                "type": "dimension"
+              },
+              "md": {
+                "value": "{app.dimension.control.padding.md} / 2",
+                "type": "dimension"
+              },
+              "lg": {
+                "value": "{app.dimension.control.padding.lg} / 2",
+                "type": "dimension"
+              }
+            }
+          },
           "label": {
             "xs": {
               "value": "4px",
@@ -281,62 +307,26 @@
             },
             "lg": {
               "value": "4px",
-              "type": "dimension"
-            }
-          },
-          "slot": {
-            "xs": {
-              "value": "0.25rem",
-              "type": "dimension"
-            },
-            "sm": {
-              "value": "0.25rem",
-              "type": "dimension"
-            },
-            "md": {
-              "value": "0.25rem",
-              "type": "dimension"
-            },
-            "lg": {
-              "value": "0.25rem",
               "type": "dimension"
             }
           }
         },
         "gap": {
-          "default": {
-            "xs": {
-              "value": "{component.input.dimension.gap.default.sm} - {component.input.config.gap.default.step}",
-              "type": "dimension"
-            },
-            "sm": {
-              "value": "{component.input.dimension.gap.default.md} - {component.input.config.gap.default.step}",
-              "type": "dimension"
-            },
-            "md": {
-              "value": "{component.input.config.gap.default.default}",
-              "type": "dimension"
-            },
-            "lg": {
-              "value": "{component.input.dimension.gap.default.md} + {component.input.config.gap.default.step}",
-              "type": "dimension"
-            }
-          },
           "label": {
             "xs": {
-              "value": "{component.input.dimension.gap.label.sm} - {component.input.config.gap.label.step}",
+              "value": "{component.textarea.dimension.gap.label.sm} - {component.textarea.config.gap.label.step}",
               "type": "dimension"
             },
             "sm": {
-              "value": "{component.input.dimension.gap.label.md} - {component.input.config.gap.label.step}",
+              "value": "{component.textarea.dimension.gap.label.md} - {component.textarea.config.gap.label.step}",
               "type": "dimension"
             },
             "md": {
-              "value": "{component.input.config.gap.label.default}",
+              "value": "{component.textarea.config.gap.label.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{component.input.dimension.gap.label.md} + {component.input.config.gap.label.step}",
+              "value": "{component.textarea.dimension.gap.label.md} + {component.textarea.config.gap.label.step}",
               "type": "dimension"
             }
           }
@@ -377,24 +367,6 @@
             "type": "dimension"
           }
         },
-        "symbol": {
-          "xs": {
-            "value": "{component.input.fontSize.symbol.xs}",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{component.input.fontSize.symbol.sm}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{component.input.fontSize.symbol.md}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{component.input.fontSize.symbol.lg}",
-            "type": "dimension"
-          }
-        },
         "blur": {
           "default": {
             "value": "1rem",
@@ -403,24 +375,6 @@
         }
       },
       "config": {
-        "symbol": {
-          "icon": {
-            "step": {
-              "value": "0.25rem",
-              "type": "other"
-            }
-          },
-          "default": {
-            "default": {
-              "value": "{app.fontSize.control.symbol.md}",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
-          }
-        },
         "text": {
           "default": {
             "value": "{app.fontSize.control.text.sm}",
@@ -432,16 +386,6 @@
           }
         },
         "gap": {
-          "default": {
-            "default": {
-              "value": "{app.dimension.control.gap.md}",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
-          },
           "label": {
             "default": {
               "value": "{app.dimension.control.gap.sm}",
