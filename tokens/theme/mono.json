@@ -32,7 +32,7 @@
         },
         "body": {
           "md": {
-            "value": "0.9375rem",
+            "value": "1rem",
             "type": "fontSizes"
           },
           "sm": {
@@ -42,27 +42,13 @@
         },
         "caption": {
           "default": {
-            "value": "{app.fontSize.surface.body.sm}",
+            "value": "{app.fontSize.surface.body.md} - 0.25rem",
             "type": "fontSizes"
           }
         },
         "footnote": {
           "default": {
             "value": "{app.fontSize.surface.body.sm}",
-            "type": "fontSizes"
-          }
-        },
-        "subtitle": {
-          "sm": {
-            "value": "{app.fontSize.surface.body.md} + 0.25rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.surface.subtitle.sm} + 0.25rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.surface.subtitle.md} + 0.25rem",
             "type": "fontSizes"
           }
         }
@@ -75,10 +61,6 @@
           "type": "fontFamilies"
         },
         "callout": {
-          "value": "Index",
-          "type": "fontFamilies"
-        },
-        "subtitle": {
           "value": "Index",
           "type": "fontFamilies"
         },
@@ -112,31 +94,21 @@
       "surface": {
         "callout": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.medium}",
             "type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
-          }
-        },
-        "subtitle": {
-          "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
-          },
-          "strong": {
-            "value": "{app.config.fontWeight.medium}",
+            "value": "{app.config.fontWeight.bold}",
             "type": "fontWeights"
           }
         },
         "body": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.medium}",
             "type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.medium}",
+            "value": "{app.config.fontWeight.bold}",
             "type": "fontWeights"
           }
         },
@@ -157,6 +129,16 @@
           },
           "strong": {
             "value": "{app.config.fontWeight.bold}",
+            "type": "fontWeights"
+          }
+        },
+        "footnote": {
+          "default": {
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
+          },
+          "strong": {
+            "value": "{app.config.fontWeight.semibold}",
             "type": "fontWeights"
           }
         }
@@ -190,11 +172,17 @@
         },
         "body": {
           "default": {
-            "value": "180%",
+            "value": "184%",
             "type": "lineHeights"
           },
           "short": {
-            "value": "160%",
+            "value": "164%",
+            "type": "lineHeights"
+          }
+        },
+        "footnote": {
+          "default": {
+            "value": "{app.lineHeight.surface.body.short}",
             "type": "lineHeights"
           }
         },
@@ -203,11 +191,59 @@
             "value": "{app.lineHeight.surface.body.short}",
             "type": "lineHeights"
           }
+        }
+      }
+    },
+    "letterSpacing": {
+      "surface": {
+        "title": {
+          "sm": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          },
+          "lg": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          }
+        },
+        "callout": {
+          "sm": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          },
+          "lg": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          }
+        },
+        "body": {
+          "sm": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          }
+        },
+        "caption": {
+          "default": {
+            "value": "0.0375rem",
+            "type": "letterSpacing"
+          }
         },
         "footnote": {
           "default": {
-            "value": "{app.lineHeight.surface.body.short}",
-            "type": "lineHeights"
+            "value": "0.0375rem",
+            "type": "letterSpacing"
           }
         }
       }
