@@ -6,17 +6,41 @@
           "sm": {
             "value": "{app.fontSize.surface.body.md} * 4",
             "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.surface.display.sm} + 1rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.display.md} + 1rem",
+            "type": "fontSizes"
           }
         },
         "title": {
           "sm": {
             "value": "{app.fontSize.surface.body.md} * 1.125",
             "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.surface.title.sm} + 0.25rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.title.md} + 0.25rem",
+            "type": "fontSizes"
           }
         },
         "subtitle": {
           "sm": {
             "value": "{app.fontSize.surface.body.md} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{app.fontSize.surface.subtitle.sm} + 0.125rem",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{app.fontSize.surface.subtitle.md} + 0.125rem",
             "type": "fontSizes"
           }
         }
