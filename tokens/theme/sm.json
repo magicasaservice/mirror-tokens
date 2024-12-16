@@ -1,0 +1,44 @@
+{
+  "app": {
+    "fontSize": {
+      "surface": {
+        "display": {
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} * 4",
+            "type": "fontSizes"
+          }
+        },
+        "title": {
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} * 1.125",
+            "type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "sm": {
+            "value": "{app.fontSize.surface.body.md} + 0.125rem",
+            "type": "fontSizes"
+          }
+        }
+      }
+    },
+    "letterSpacing": {
+      "surface": {
+        "display": {
+          "sm": {
+            "value": "-0.05rem",
+            "type": "letterSpacing"
+          },
+          "md": {
+            "value": "-0.1rem",
+            "type": "letterSpacing"
+          },
+          "lg": {
+            "value": "-0.15rem",
+            "type": "letterSpacing"
+          }
+        }
+      }
+    }
+  }
+}
