@@ -75,7 +75,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 14%)"
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 10%)"
               },
               "hover": {
                 "type": "color",
@@ -174,23 +174,19 @@
         },
         "fg": {
           "default": {
-            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%, 1)",
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%, 1)",
             "type": "color"
           },
           "muted": {
-            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%, 0.54)",
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%, 0.54)",
             "type": "color"
           },
           "subtle": {
-            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%, 0.24)",
-            "type": "color"
-          },
-          "link": {
-            "value": "{app.color.component.info.fg.solid}",
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%, 0.24)",
             "type": "color"
           },
           "inverted": {
-            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 2%, 1)",
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%, 1)",
             "type": "color"
           }
         }
@@ -200,25 +196,25 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 60%, {app.config.color.accent.alpha.bg.default})"
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 70%, {app.config.color.accent.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 16%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 24%)"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 60%, {app.config.color.accent.alpha.border.default})"
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 70%, {app.config.color.accent.alpha.border.default})"
             }
           },
           "fg": {
@@ -236,11 +232,11 @@
             },
             "onTone": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 75%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 70%)"
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%)"
             }
           }
         },
@@ -248,11 +244,11 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 60%, {app.config.color.accent.alpha.bg.default})"
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 70%, {app.config.color.accent.alpha.bg.default})"
             },
             "tone": {
               "type": "color",
@@ -262,11 +258,11 @@
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%)"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 60%, {app.config.color.accent.alpha.border.default})"
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 70%, {app.config.color.accent.alpha.border.default})"
             }
           },
           "fg": {
@@ -284,11 +280,11 @@
             },
             "onTone": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 75%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%)"
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 60%)"
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 70%)"
             }
           }
         }
@@ -299,7 +295,7 @@
         "accent": {
           "hue": {
             "default": {
-              "value": "60",
+              "value": "70",
               "type": "other"
             }
           },
@@ -401,7 +397,7 @@
         "primary": {
           "hue": {
             "default": {
-              "value": "60",
+              "value": "70",
               "type": "other"
             }
           },
