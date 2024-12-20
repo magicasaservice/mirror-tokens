@@ -212,16 +212,7 @@
               "bg": {
                 "default": {
                   "value": "{app.color.component.primary.bg.translucent}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "{app.config.color.accent.alpha.bg.amp}",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "type": "color"
                 },
                 "active": {
                   "value": "{component.toggle.color.unchecked.track.default.bg.default}",
