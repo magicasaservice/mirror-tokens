@@ -13,7 +13,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "{app.config.color.primary.alpha.border.amp}",
+                        "value": "{app.config.color.accent.alpha.border.amp}",
                         "space": "hsl"
                       }
                     }
@@ -272,7 +272,7 @@
           },
           "default": {
             "fg": {
-              "value": "{app.color.component.primary.fg.muted}",
+              "value": "{app.color.surface.fg.muted}",
               "type": "color"
             }
           }
@@ -459,15 +459,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.checkbox.dimension.input.height.sm} * 0.75",
+            "value": "{component.checkbox.dimension.input.height.sm} * 0.5",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.checkbox.dimension.input.height.md} * 0.75",
+            "value": "{component.checkbox.dimension.input.height.md} * 0.5",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.checkbox.dimension.input.height.lg} * 0.75",
+            "value": "{component.checkbox.dimension.input.height.lg} * 0.5",
             "type": "dimension"
           }
         },
