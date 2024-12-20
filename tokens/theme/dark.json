@@ -185,13 +185,41 @@
             "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%, 0.24)",
             "type": "color"
           },
-          "link": {
-            "value": "{app.color.component.info.fg.solid}",
-            "type": "color"
-          },
           "inverted": {
             "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%, 1)",
             "type": "color"
+          },
+          "link": {
+            "default": {
+              "value": "{app.color.component.info.fg.solid}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{app.color.component.info.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.config.color.info.darken.hover}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "active": {
+              "value": "{app.color.component.info.fg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.config.color.info.darken.active}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
           }
         },
         "shadow": {
