@@ -195,8 +195,17 @@
                 "type": "color"
               },
               "inactive": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color"
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "border": {
