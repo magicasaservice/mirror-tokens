@@ -186,7 +186,7 @@
             "type": "color"
           },
           "inverted": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 100%, 1)",
+            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 96%, 1)",
             "type": "color"
           },
           "link": {
@@ -486,7 +486,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "{app.color.component.fixed.fg}"
             },
             "onTone": {
               "type": "color",
@@ -538,7 +538,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "{app.color.component.fixed.fg}"
             },
             "onTone": {
               "type": "color",
@@ -590,7 +590,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "{app.color.component.fixed.fg}"
             },
             "onTone": {
               "type": "color",
@@ -642,7 +642,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "{app.color.component.fixed.fg}"
             },
             "onTone": {
               "type": "color",
@@ -694,7 +694,7 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "value": "{app.color.component.fixed.fg}"
             },
             "onTone": {
               "type": "color",
@@ -819,7 +819,7 @@
         },
         "fixed": {
           "fg": {
-            "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%)",
+            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 96%, 1)",
             "type": "color"
           }
         }
