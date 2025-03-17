@@ -130,7 +130,7 @@
         },
         "handle": {
           "height": {
-            "value": "1rem",
+            "value": "0.875rem",
             "type": "other"
           },
           "radius": {
@@ -195,8 +195,17 @@
                 "type": "color"
               },
               "inactive": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color"
+                "value": "{app.color.component.primary.fg.solid}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.16",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "border": {
