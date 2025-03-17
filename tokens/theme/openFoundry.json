@@ -226,6 +226,10 @@
               "type": "color",
               "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 8%, 0.54)"
             },
+            "subtle": {
+              "type": "color",
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 8%, 0.24)"
+            },
             "onSolid": {
               "type": "color",
               "value": "{app.color.surface.fg.inverted}"
@@ -273,6 +277,10 @@
             "muted": {
               "type": "color",
               "value": "{app.color.surface.fg.muted}"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "{app.color.surface.fg.subtle}"
             },
             "onSolid": {
               "type": "color",
