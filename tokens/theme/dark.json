@@ -7,33 +7,15 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 0%)"
+                "value": "{app.color.palette.black}"
               },
               "hover": {
                 "type": "color",
-                "value": "{app.color.surface.elevation.low.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.palette.black}"
               },
               "active": {
                 "type": "color",
-                "value": "{app.color.surface.elevation.low.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.accent.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.palette.black}"
               }
             }
           },
@@ -41,7 +23,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 8%)"
+                "value": "{app.color.palette.grey.low}"
               },
               "hover": {
                 "type": "color",
@@ -50,7 +32,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover}",
+                      "value": "{app.config.colour.actions.dimmer}",
                       "space": "hsl"
                     }
                   }
@@ -58,7 +40,7 @@
               },
               "active": {
                 "type": "color",
-                "value": "{app.color.surface.elevation.base.bg.default}",
+                "value": "{app.color.surface.elevation.base.bg.hover}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -79,7 +61,7 @@
               },
               "hover": {
                 "type": "color",
-                "value": "{app.color.surface.elevation.high.bg.default}",
+                "value": "{app.color.palette.black}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -92,7 +74,7 @@
               },
               "active": {
                 "type": "color",
-                "value": "{app.color.surface.elevation.high.bg.default}",
+                "value": "{app.color.palette.black}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -109,7 +91,7 @@
             "bg": {
               "default": {
                 "type": "color",
-                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 8%)"
+                "value": "{app.color.palette.grey.low}"
               },
               "hover": {
                 "type": "color",
@@ -126,7 +108,7 @@
               },
               "active": {
                 "type": "color",
-                "value": "{app.color.surface.elevation.higher.bg.default}",
+                "value": "{app.color.surface.elevation.higher.bg.hover}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -268,12 +250,6 @@
                 }
               }
             }
-          }
-        },
-        "playground": {
-          "default": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.55)",
-            "type": "color"
           }
         }
       },
