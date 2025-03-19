@@ -490,207 +490,105 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 55%)"
+              "value": "{app.color.palette.info.default}"
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.translucent}, 50%, {app.config.color.info.alpha.bg.default})"
+              "value": "{app.color.component.info.bg.solid}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.bg}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "tone": {
               "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 80%)"
+              "value": "{app.color.palette.info.high}"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 65%)"
+              "value": "{app.color.palette.info.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.config.colour.dimmer.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.translucent}, 55%, {app.config.color.info.alpha.border.default})"
+              "value": "{app.color.component.info.border.solid}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 80%)"
-            },
-            "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 60%, {app.config.color.info.alpha.fg.default})"
+              "value": "{app.color.palette.info.high}"
             },
             "subtle": {
               "type": "color",
-              "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 60%, 0.32)"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "{app.color.component.fixed.fg}"
-            },
-            "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.translucent}, 10%)"
-            },
-            "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 80%)"
-            }
-          }
-        },
-        "success": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 25%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 25%, {app.config.color.success.alpha.bg.default})"
-            },
-            "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 80%)"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 40%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 30%, {app.config.color.success.alpha.border.default})"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 45%)"
+              "value": "{app.color.palette.info.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.subtle}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "muted": {
               "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 40%, {app.config.color.success.alpha.fg.default})"
-            },
-            "subtle": {
-              "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 40%, 0.32)"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "{app.color.component.fixed.fg}"
-            },
-            "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 10%)"
-            },
-            "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 75%)"
-            }
-          }
-        },
-        "warning": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 40%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 30%, {app.config.color.warning.alpha.bg.default})"
-            },
-            "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 80%)"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 65%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 30%, {app.config.color.warning.alpha.border.default})"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 70%)"
-            },
-            "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 65%, {app.config.color.warning.alpha.fg.default})"
-            },
-            "subtle": {
-              "type": "color",
-              "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 65%, 0.32)"
+              "value": "{app.color.palette.info.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.muted}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.component.fixed.fg}"
+              "value": "{app.color.palette.white}"
             },
             "onTone": {
               "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 10%)"
+              "value": "{app.color.palette.info.low}"
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 80%)"
-            }
-          }
-        },
-        "danger": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 55%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 45%, {app.config.color.danger.alpha.bg.default})"
-            },
-            "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 80%)"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 60%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 45%, {app.config.color.danger.alpha.border.default})"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 60%)"
-            },
-            "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 60%, {app.config.color.danger.alpha.fg.default})"
-            },
-            "subtle": {
-              "type": "color",
-              "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 60%, 0.32)"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "{app.color.component.fixed.fg}"
-            },
-            "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 10%)"
-            },
-            "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 65%)"
+              "value": "{app.color.palette.info.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.onTranslucent}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         },
@@ -782,6 +680,112 @@
               }
             }
           }
+        },
+        "success": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.success.default}"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.component.success.bg.solid}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.bg}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "tone": {
+              "type": "color",
+              "value": "{app.color.palette.success.high}"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.success.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.config.colour.dimmer.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.component.success.border.solid}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.success.high}"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "{app.color.palette.success.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.subtle}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "muted": {
+              "type": "color",
+              "value": "{app.color.palette.success.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.muted}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.palette.white}"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "{app.color.palette.success.low}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.palette.success.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.onTranslucent}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "palette": {
@@ -795,15 +799,15 @@
         },
         "neutral": {
           "default": {
-            "value": "hsl({app.config.color.neutral.hue.default}, 4%, 52%)",
+            "value": "hsl({app.config.colour.hue.neutral}, 4%, 52%)",
             "type": "color"
           },
           "low": {
-            "value": "hsl({app.config.color.neutral.hue.default}, 4%, 8%)",
+            "value": "hsl({app.config.colour.hue.neutral}, 4%, 8%)",
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.color.neutral.hue.default}, 4%, 90%)",
+            "value": "hsl({app.config.colour.hue.neutral}, 4%, 90%)",
             "type": "color"
           }
         },
@@ -813,11 +817,11 @@
             "type": "color"
           },
           "low": {
-            "value": "hsl({app.config.color.info.hue.default}, 100%, 8%)",
+            "value": "hsl({app.config.colour.hue.info}, 100%, 8%)",
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.color.info.hue.default}, 100%, 80%)",
+            "value": "hsl({app.config.colour.hue.info}, 100%, 80%)",
             "type": "color"
           }
         },
@@ -1524,16 +1528,30 @@
           }
         },
         "translucent": {
-          "hue": {
-            "value": "220",
+          "bg": {
+            "value": "0.16",
             "type": "other"
           },
-          "translucent": {
-            "value": "16%",
+          "border": {
+            "value": "0.32",
             "type": "other"
           },
-          "dimmer": {
-            "value": "8%",
+          "subtle": {
+            "value": "0.32",
+            "type": "other"
+          },
+          "muted": {
+            "value": "0.64",
+            "type": "other"
+          }
+        },
+        "dimmer": {
+          "border": {
+            "value": "0.16",
+            "type": "other"
+          },
+          "onTranslucent": {
+            "value": "0.08",
             "type": "other"
           }
         }
