@@ -785,9 +785,83 @@
         }
       },
       "palette": {
-        "primary": {
+        "black": {
+          "value": "#000",
+          "type": "color"
+        },
+        "white": {
           "value": "#fff",
           "type": "color"
+        },
+        "neutral": {
+          "default": {
+            "value": "hsl({app.config.color.neutral.hue.default}, 4%, 52%)",
+            "type": "color"
+          },
+          "low": {
+            "value": "hsl({app.config.color.neutral.hue.default}, 4%, 8%)",
+            "type": "color"
+          },
+          "high": {
+            "value": "hsl({app.config.color.neutral.hue.default}, 4%, 90%)",
+            "type": "color"
+          }
+        },
+        "info": {
+          "default": {
+            "value": "hsl({app.config.colour.hue.info}, 100%, 54%)",
+            "type": "color"
+          },
+          "low": {
+            "value": "hsl({app.config.color.info.hue.default}, 100%, 8%)",
+            "type": "color"
+          },
+          "high": {
+            "value": "hsl({app.config.color.info.hue.default}, 100%, 80%)",
+            "type": "color"
+          }
+        },
+        "success": {
+          "default": {
+            "value": "hsl({app.config.colour.hue.success}, 100%, 24%)",
+            "type": "color"
+          },
+          "low": {
+            "value": "hsl({app.config.colour.hue.success}, 100%, 6%)",
+            "type": "color"
+          },
+          "high": {
+            "value": "hsl({app.config.colour.hue.success}, 100%, 80%)",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "default": {
+            "value": "hsl({app.config.colour.hue.warning}, 100%, 40%)",
+            "type": "color"
+          },
+          "low": {
+            "value": "hsl({app.config.colour.hue.warning}, 100%, 10%)",
+            "type": "color"
+          },
+          "high": {
+            "value": "hsl({app.config.colour.hue.warning}, 100%, 80%)",
+            "type": "color"
+          }
+        },
+        "danger": {
+          "default": {
+            "value": "hsl({app.config.colour.hue.danger}, 100%, 56%)",
+            "type": "color"
+          },
+          "low": {
+            "value": "hsl({app.config.colour.hue.danger}, 100%, 8%)",
+            "type": "color"
+          },
+          "high": {
+            "value": "hsl({app.config.colour.hue.danger}, 100%, 80%)",
+            "type": "color"
+          }
         }
       }
     },
@@ -1423,6 +1497,44 @@
               "value": "0.8",
               "type": "other"
             }
+          }
+        }
+      },
+      "colour": {
+        "hue": {
+          "neutral": {
+            "value": "220",
+            "type": "other"
+          },
+          "info": {
+            "value": "220",
+            "type": "other"
+          },
+          "success": {
+            "value": "155",
+            "type": "other"
+          },
+          "warning": {
+            "value": "40",
+            "type": "other"
+          },
+          "danger": {
+            "value": "15",
+            "type": "other"
+          }
+        },
+        "translucent": {
+          "hue": {
+            "value": "220",
+            "type": "other"
+          },
+          "translucent": {
+            "value": "16%",
+            "type": "other"
+          },
+          "dimmer": {
+            "value": "8%",
+            "type": "other"
           }
         }
       }
