@@ -494,7 +494,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.component.info.bg.solid}",
+              "value": "{app.color.palette.info.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -507,7 +507,16 @@
             },
             "tone": {
               "type": "color",
-              "value": "{app.color.palette.info.high}"
+              "value": "{app.color.palette.info.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.tone}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "border": {
@@ -526,7 +535,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.component.info.border.solid}",
+              "value": "{app.color.palette.info.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -653,7 +662,7 @@
           "border": {
             "default": {
               "type": "color",
-              "value": "{app.color.component.info.border.solid}",
+              "value": "{app.color.palette.info.high}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -668,12 +677,12 @@
           "focusRing": {
             "default": {
               "type": "color",
-              "value": "{app.color.component.info.bg.solid}",
+              "value": "{app.color.palette.info.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.info.alpha.focusRing.default}",
+                    "value": "{app.config.colour.translucent.focusRing}",
                     "space": "hsl"
                   }
                 }
@@ -689,7 +698,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.component.success.bg.solid}",
+              "value": "{app.color.palette.success.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -702,7 +711,16 @@
             },
             "tone": {
               "type": "color",
-              "value": "{app.color.palette.success.high}"
+              "value": "{app.color.palette.success.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.tone}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "border": {
@@ -721,7 +739,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.component.success.border.solid}",
+              "value": "{app.color.palette.success.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -786,6 +804,236 @@
               }
             }
           }
+        },
+        "warning": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.warning.default}"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.palette.warning.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.bg}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "tone": {
+              "type": "color",
+              "value": "{app.color.palette.warning.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.tone}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.warning.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.config.colour.dimmer.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.palette.warning.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.warning.high}"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "{app.color.palette.warning.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.subtle}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "muted": {
+              "type": "color",
+              "value": "{app.color.palette.warning.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.muted}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.palette.white}"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "{app.color.palette.warning.low}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.palette.warning.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.onTranslucent}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "danger": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.danger.default}"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.palette.danger.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.bg}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "tone": {
+              "type": "color",
+              "value": "{app.color.palette.danger.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.tone}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.danger.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.config.colour.dimmer.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "translucent": {
+              "type": "color",
+              "value": "{app.color.palette.danger.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.border}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.palette.danger.high}"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "{app.color.palette.danger.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.subtle}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "muted": {
+              "type": "color",
+              "value": "{app.color.palette.danger.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.colour.translucent.muted}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.palette.white}"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "{app.color.palette.danger.low}"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "{app.color.palette.danger.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{app.config.colour.dimmer.onTranslucent}",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "palette": {
@@ -821,7 +1069,7 @@
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.colour.hue.info}, 100%, 80%)",
+            "value": "hsl({app.config.colour.hue.info}, 100%, 68%)",
             "type": "color"
           }
         },
@@ -835,7 +1083,7 @@
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.colour.hue.success}, 100%, 80%)",
+            "value": "hsl({app.config.colour.hue.success}, 100%, 52%)",
             "type": "color"
           }
         },
@@ -849,13 +1097,13 @@
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.colour.hue.warning}, 100%, 80%)",
+            "value": "hsl({app.config.colour.hue.warning}, 100%, 64%)",
             "type": "color"
           }
         },
         "danger": {
           "default": {
-            "value": "hsl({app.config.colour.hue.danger}, 100%, 56%)",
+            "value": "hsl({app.config.colour.hue.danger}, 100%, 52%)",
             "type": "color"
           },
           "low": {
@@ -863,7 +1111,7 @@
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.colour.hue.danger}, 100%, 80%)",
+            "value": "hsl({app.config.colour.hue.danger}, 100%, 64%)",
             "type": "color"
           }
         }
@@ -1532,6 +1780,10 @@
             "value": "0.16",
             "type": "other"
           },
+          "focusRing": {
+            "value": "0.16",
+            "type": "other"
+          },
           "border": {
             "value": "0.32",
             "type": "other"
@@ -1551,7 +1803,11 @@
             "type": "other"
           },
           "onTranslucent": {
-            "value": "0.08",
+            "value": "0.5",
+            "type": "other"
+          },
+          "tone": {
+            "value": "0.5",
             "type": "other"
           }
         }
