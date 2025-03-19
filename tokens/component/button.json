@@ -1294,20 +1294,20 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.success.alpha.border.hover}",
+                      "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.success.border.translucent}",
+                "value": "{component.button.color.success.outline.border.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.success.alpha.border.active}",
+                      "value": "{app.config.color.translucent.border} + 0.16",
                       "space": "hsl"
                     }
                   }
@@ -1320,26 +1320,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.success.fg.solid}",
+                "value": "{component.button.color.success.outline.fg.default}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.success.darken.hover}",
+                      "value": "{component.button.config.color.actions.dimmer}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.success.fg.solid}",
+                "value": "{component.button.color.success.outline.fg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.success.darken.active}",
+                      "value": "{component.button.config.color.actions.dimmer}",
                       "space": "hsl"
                     }
                   }
@@ -1354,26 +1354,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.success.fg.solid}",
+                "value": "{component.button.color.success.plain.fg.default}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.success.darken.hover}",
+                      "value": "{component.button.config.color.actions.dimmer}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.success.fg.solid}",
+                "value": "{component.button.color.success.plain.fg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.success.darken.active}",
+                      "value": "{component.button.config.color.actions.dimmer}",
                       "space": "hsl"
                     }
                   }
@@ -1388,26 +1388,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.success.bg.tone}",
+                "value": "{component.button.color.success.tone.bg.default}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.success.darken.hover}",
+                      "value": "{component.button.config.color.actions.dimmer}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.success.bg.tone}",
+                "value": "{component.button.color.success.tone.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.success.darken.active}",
+                      "value": "{component.button.config.color.actions.dimmer}",
                       "space": "hsl"
                     }
                   }
@@ -1748,6 +1748,18 @@
           "step": {
             "value": "0.0625rem",
             "type": "other"
+          }
+        },
+        "color": {
+          "actions": {
+            "translucent": {
+              "value": "{app.config.color.actions.translucent}",
+              "type": "other"
+            },
+            "dimmer": {
+              "value": "{app.config.color.actions.dimmer}",
+              "type": "other"
+            }
           }
         }
       },

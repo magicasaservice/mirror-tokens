@@ -30,11 +30,11 @@
             "type": "color"
           },
           "low": {
-            "value": "hsl({app.config.color.hue.info}, 100%, 68%)",
+            "value": "hsl({app.config.color.hue.info}, 100%, 84%)",
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.color.hue.info}, 100%, 24%)",
+            "value": "hsl({app.config.color.hue.info}, 100%, 20%)",
             "type": "color"
           }
         },
@@ -44,11 +44,11 @@
             "type": "color"
           },
           "low": {
-            "value": "hsl({app.config.color.hue.success}, 100%, 52%)",
+            "value": "hsl({app.config.color.hue.success}, 100%, 84%)",
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.color.hue.success}, 100%, 6%)",
+            "value": "hsl({app.config.color.hue.success}, 80%, 18%)",
             "type": "color"
           }
         },
@@ -58,11 +58,11 @@
             "type": "color"
           },
           "low": {
-            "value": "hsl({app.config.color.hue.warning}, 100%, 64%)",
+            "value": "hsl({app.config.color.hue.warning}, 100%, 84%)",
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.color.hue.warning}, 100%, 10%)",
+            "value": "hsl({app.config.color.hue.warning}, 100%, 22%)",
             "type": "color"
           }
         },
@@ -72,11 +72,11 @@
             "type": "color"
           },
           "low": {
-            "value": "hsl({app.config.color.hue.danger}, 100%, 64%)",
+            "value": "hsl({app.config.color.hue.danger}, 100%, 84%)",
             "type": "color"
           },
           "high": {
-            "value": "hsl({app.config.color.hue.danger}, 100%, 8%)",
+            "value": "hsl({app.config.color.hue.danger}, 100%, 20%)",
             "type": "color"
           }
         },
@@ -825,7 +825,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "0.2",
+                    "value": "{app.config.color.dimmer.tone}",
                     "space": "hsl"
                   }
                 }
@@ -939,7 +939,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{app.config.color.dimmer.tone}",
                     "space": "hsl"
                   }
@@ -1020,7 +1020,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{app.config.color.dimmer.onTranslucent}",
                     "space": "hsl"
                   }
@@ -1054,7 +1054,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{app.config.color.dimmer.tone}",
                     "space": "hsl"
                   }
@@ -1135,7 +1135,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{app.config.color.dimmer.onTranslucent}",
                     "space": "hsl"
                   }
@@ -1169,7 +1169,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{app.config.color.dimmer.tone}",
                     "space": "hsl"
                   }
@@ -1250,7 +1250,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{app.config.color.dimmer.onTranslucent}",
                     "space": "hsl"
                   }
@@ -1544,7 +1544,7 @@
       "control": {
         "text": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "alt": {
@@ -1562,13 +1562,13 @@
             "type": "fontWeights"
           },
           "alt": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           }
         },
         "number": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "alt": {
@@ -1580,7 +1580,7 @@
       "label": {
         "text": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "strong": {
@@ -1590,7 +1590,7 @@
         },
         "number": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "alt": {
@@ -1622,7 +1622,7 @@
         },
         "title": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "strong": {
@@ -1632,7 +1632,7 @@
         },
         "callout": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "strong": {
@@ -1642,7 +1642,7 @@
         },
         "subtitle": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "strong": {
@@ -1672,7 +1672,7 @@
         },
         "footnote": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           },
           "strong": {
@@ -1682,7 +1682,7 @@
         },
         "code": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
+            "value": "{app.config.fontWeight.text}",
             "type": "fontWeights"
           }
         }
@@ -2320,8 +2320,8 @@
           "value": "Regular",
           "type": "other"
         },
-        "book": {
-          "value": "Book",
+        "text": {
+          "value": "Text",
           "type": "other"
         },
         "medium": {
@@ -2396,11 +2396,11 @@
             "type": "other"
           },
           "onTranslucent": {
-            "value": "0.5",
+            "value": "0.1",
             "type": "other"
           },
           "tone": {
-            "value": "0.5",
+            "value": "0.1",
             "type": "other"
           },
           "interact": {
