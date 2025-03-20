@@ -165,13 +165,13 @@
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.info.bg.solid}",
+                  "value": "{component.checkbox.color.input.checked.default.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.info.darken.active}",
+                        "value": "{component.checkbox.config.color.actions.dimmer.active}",
                         "space": "hsl"
                       }
                     }
@@ -180,7 +180,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               }
@@ -188,7 +188,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.checked}",
+                  "value": "{app.color.component.disabled.bg.translucent}",
                   "type": "color"
                 }
               },
@@ -232,7 +232,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.danger.darken.active}",
+                        "value": "{component.checkbox.config.color.actions.dimmer.active}",
                         "space": "hsl"
                       }
                     }
@@ -241,7 +241,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               }
@@ -563,6 +563,16 @@
           "step": {
             "value": "0.0625rem",
             "type": "other"
+          }
+        },
+        "color": {
+          "actions": {
+            "dimmer": {
+              "active": {
+                "value": "{app.config.color.actions.dimmer} * 2",
+                "type": "other"
+              }
+            }
           }
         }
       }
