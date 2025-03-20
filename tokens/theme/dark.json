@@ -1263,7 +1263,16 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.palette.neutral.low}"
+              "value": "{app.color.palette.neutral.default}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.5",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "translucent": {
               "type": "color",
