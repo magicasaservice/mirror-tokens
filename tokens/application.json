@@ -1263,7 +1263,7 @@
           "bg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.palette.neutral.default}",
+              "value": "{app.color.palette.neutral.high}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1276,36 +1276,36 @@
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.palette.neutral.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{app.config.color.translucent.bg}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.component.disabled.bg.solid}"
             },
             "tone": {
               "type": "color",
-              "value": "{app.color.palette.neutral.low}"
+              "value": "{app.color.component.disabled.bg.solid}"
             }
           },
           "border": {
             "solid": {
               "type": "color",
-              "value": "{app.color.palette.neutral.low}"
+              "value": "{app.color.palette.neutral.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.1",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "translucent": {
               "type": "color",
-              "value": "{app.color.palette.neutral.low}"
+              "value": "{app.color.component.disabled.border.solid}"
             }
           },
           "fg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.palette.white}",
+              "value": "{app.color.palette.neutral.high}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1342,12 +1342,12 @@
           "border": {
             "default": {
               "type": "color",
-              "value": "{app.color.palette.info.high}",
+              "value": "{app.color.palette.info.default}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
-                    "value": "{app.config.color.info.darken.focus}",
+                    "type": "darken",
+                    "value": "{app.config.color.dimmer.focusRing}",
                     "space": "hsl"
                   }
                 }
@@ -2395,7 +2395,7 @@
             "type": "other"
           },
           "focusRing": {
-            "value": "0.16",
+            "value": "0.32",
             "type": "other"
           }
         },
@@ -2414,6 +2414,10 @@
           },
           "interact": {
             "value": "0.12",
+            "type": "other"
+          },
+          "focusRing": {
+            "value": "0.20",
             "type": "other"
           }
         },
