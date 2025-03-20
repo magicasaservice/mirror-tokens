@@ -11,20 +11,20 @@
               },
               "hover": {
                 "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{component.menuItem.color.primary.ghost.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.menuItem.config.color.actions.translucent.bg.hover}",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
                 }
+              },
+              "active": {
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color"
               }
             },
             "fg": {
@@ -98,7 +98,16 @@
               },
               "hover": {
                 "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
               },
               "active": {
                 "value": "transparent",
