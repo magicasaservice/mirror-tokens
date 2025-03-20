@@ -137,6 +137,12 @@
         "default": {
           "bg": {
             "default": {
+              "value": "transparent",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
               "value": "{app.color.component.primary.bg.translucent}",
               "type": "color",
               "$extensions": {
@@ -148,12 +154,6 @@
                   }
                 }
               }
-            }
-          },
-          "border": {
-            "default": {
-              "value": "transparent",
-              "type": "color"
             }
           },
           "fg": {
@@ -219,13 +219,13 @@
         "disabled": {
           "bg": {
             "default": {
-              "value": "{app.color.component.disabled.bg.solid}",
+              "value": "transparent",
               "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "transparent",
+              "value": "{app.color.component.disabled.border.translucent}",
               "type": "color"
             }
           },
