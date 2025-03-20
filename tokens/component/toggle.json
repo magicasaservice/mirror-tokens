@@ -221,7 +221,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "{app.config.color.accent.darken.active}",
+                        "value": "{component.toggle.config.color.actions.translucent.bg.active}",
                         "space": "hsl"
                       }
                     }
@@ -230,7 +230,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -252,7 +252,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.checked}",
+                  "value": "{app.color.component.disabled.bg.solid}",
                   "type": "color"
                 }
               },
@@ -274,7 +274,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -316,7 +316,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.accent.darken.active}",
+                        "value": "{component.toggle.config.color.actions.dimmer.active}",
                         "space": "hsl"
                       }
                     }
@@ -325,7 +325,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -353,17 +353,8 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "0.5",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "value": "{app.color.component.disabled.fg.solid}",
+                  "type": "color"
                 }
               },
               "border": {
@@ -378,7 +369,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -392,13 +383,13 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.component.disabled.bg.translucent}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.5",
+                        "value": "0.24",
                         "space": "hsl"
                       }
                     }
@@ -591,6 +582,24 @@
           "pressed": {
             "value": "0.125",
             "type": "other"
+          }
+        },
+        "color": {
+          "actions": {
+            "translucent": {
+              "bg": {
+                "active": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
+                  "type": "other"
+                }
+              }
+            },
+            "dimmer": {
+              "active": {
+                "value": "{app.config.color.actions.dimmer} * 2",
+                "type": "other"
+              }
+            }
           }
         }
       }
