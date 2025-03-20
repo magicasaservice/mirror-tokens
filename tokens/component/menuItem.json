@@ -11,25 +11,16 @@
               },
               "hover": {
                 "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.05",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.bg.translucent}",
+                "value": "{component.menuItem.color.primary.ghost.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.05",
+                      "value": "{component.menuItem.config.color.actions.translucent.bg.hover}",
                       "space": "hsl"
                     }
                   }
@@ -107,16 +98,7 @@
               },
               "hover": {
                 "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.05",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "type": "color"
               },
               "active": {
                 "value": "transparent",
@@ -397,7 +379,7 @@
             "type": "other"
           },
           "step": {
-            "value": "0.1875rem",
+            "value": "0.0625rem",
             "type": "other"
           }
         },
@@ -419,6 +401,22 @@
           "step": {
             "value": "0.0625rem",
             "type": "other"
+          }
+        },
+        "color": {
+          "actions": {
+            "translucent": {
+              "bg": {
+                "hover": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
+                  "type": "other"
+                },
+                "active": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
+                  "type": "other"
+                }
+              }
+            }
           }
         }
       }
