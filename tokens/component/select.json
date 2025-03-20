@@ -188,7 +188,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.danger.alpha.bg.subtle}",
+                    "value": "0.08",
                     "space": "hsl"
                   }
                 }
@@ -203,34 +203,16 @@
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.danger.fg.onSolid}",
+              "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
             },
             "muted": {
-              "value": "{app.color.component.danger.fg.onSolid}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{app.config.color.translucent.muted}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.component.danger.fg.muted}",
+              "type": "color"
             },
             "label": {
-              "value": "{app.color.component.danger.fg.onSolid}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{app.config.color.translucent.subtle}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.component.danger.fg.subtle}",
+              "type": "color"
             }
           }
         },

@@ -1238,7 +1238,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "0.8",
+                    "value": "0.88",
                     "space": "hsl"
                   }
                 }
@@ -1293,12 +1293,12 @@
           "fg": {
             "solid": {
               "type": "color",
-              "value": "{app.color.palette.neutral.high}",
+              "value": "{app.color.palette.neutral.low}",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
+                    "type": "lighten",
+                    "value": "0.16",
                     "space": "hsl"
                   }
                 }
