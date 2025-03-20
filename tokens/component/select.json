@@ -161,6 +161,10 @@
               "value": "{app.color.surface.fg.default}",
               "type": "color"
             },
+            "muted": {
+              "value": "{app.color.surface.fg.muted}",
+              "type": "color"
+            },
             "label": {
               "value": "{app.color.component.primary.fg.subtle}",
               "type": "color"
@@ -201,6 +205,19 @@
             "default": {
               "value": "{app.color.component.danger.fg.onSolid}",
               "type": "color"
+            },
+            "muted": {
+              "value": "{app.color.component.danger.fg.onSolid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.translucent.muted}",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "label": {
               "value": "{app.color.component.danger.fg.onSolid}",
