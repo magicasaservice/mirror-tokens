@@ -1400,6 +1400,34 @@
               }
             }
           }
+        },
+        "shadow": {
+          "default": {
+            "value": "{app.color.palette.black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "hsl"
+                }
+              }
+            }
+          },
+          "strong": {
+            "value": "{app.color.palette.black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.32",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1453,7 +1481,7 @@
               "y": "2rem",
               "blur": "4rem",
               "spread": "0",
-              "color": "{app.color.surface.shadow.default}",
+              "color": "{app.color.component.shadow.default}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -1465,7 +1493,7 @@
                 "y": "1rem",
                 "blur": "2rem",
                 "spread": "0",
-                "color": "{app.color.component.shadow.strongest}",
+                "color": "{app.color.component.shadow.strong}",
                 "type": "dropShadow"
               },
               {
@@ -1473,7 +1501,7 @@
                 "y": "2rem",
                 "blur": "4rem",
                 "spread": "0",
-                "color": "{app.color.component.shadow.strongest}",
+                "color": "{app.color.component.shadow.strong}",
                 "type": "dropShadow"
               }
             ],
@@ -1487,7 +1515,7 @@
               "y": "4rem",
               "blur": "6rem",
               "spread": "0",
-              "color": "{app.color.surface.shadow.default}",
+              "color": "{app.color.component.shadow.default}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -1499,7 +1527,7 @@
                 "y": "3rem",
                 "blur": "6rem",
                 "spread": "0",
-                "color": "{app.color.component.shadow.strongest}",
+                "color": "{app.color.component.shadow.strong}",
                 "type": "dropShadow"
               },
               {
@@ -1507,7 +1535,7 @@
                 "y": "1rem",
                 "blur": "2rem",
                 "spread": "0",
-                "color": "{app.color.component.shadow.strongest}",
+                "color": "{app.color.component.shadow.strong}",
                 "type": "dropShadow"
               }
             ],
