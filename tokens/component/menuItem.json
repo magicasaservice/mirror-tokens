@@ -16,7 +16,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.05",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -24,22 +24,13 @@
               },
               "active": {
                 "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.05",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "type": "color"
               }
             },
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
+                  "value": "{app.color.component.primary.fg.subtle}",
                   "type": "color"
                 },
                 "hover": {
@@ -71,7 +62,7 @@
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
+                  "value": "{app.color.component.primary.fg.subtle}",
                   "type": "color"
                 },
                 "hover": {
@@ -85,7 +76,7 @@
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
+                  "value": "{app.color.component.primary.fg.subtle}",
                   "type": "color"
                 },
                 "hover": {
@@ -112,7 +103,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.05",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -126,7 +117,7 @@
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
+                  "value": "{app.color.component.primary.fg.subtle}",
                   "type": "color"
                 },
                 "hover": {
@@ -140,7 +131,7 @@
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
+                  "value": "{app.color.component.primary.fg.subtle}",
                   "type": "color"
                 },
                 "hover": {
@@ -397,7 +388,7 @@
             "type": "other"
           },
           "step": {
-            "value": "0.1875rem",
+            "value": "0.0625rem",
             "type": "other"
           }
         },
@@ -419,6 +410,22 @@
           "step": {
             "value": "0.0625rem",
             "type": "other"
+          }
+        },
+        "color": {
+          "actions": {
+            "translucent": {
+              "bg": {
+                "hover": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
+                  "type": "other"
+                },
+                "active": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
+                  "type": "other"
+                }
+              }
+            }
           }
         }
       }

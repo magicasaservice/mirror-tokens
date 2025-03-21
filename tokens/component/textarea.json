@@ -111,8 +111,12 @@
               "value": "{app.color.surface.fg.default}",
               "type": "color"
             },
+            "muted": {
+              "value": "{app.color.surface.fg.muted}",
+              "type": "color"
+            },
             "label": {
-              "value": "{app.color.component.primary.fg.muted}",
+              "value": "{app.color.component.primary.fg.subtle}",
               "type": "color"
             }
           }
@@ -135,16 +139,7 @@
           "bg": {
             "default": {
               "value": "{app.color.component.danger.bg.translucent}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{app.config.color.danger.alpha.bg.subtle}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "type": "color"
             }
           },
           "border": {
@@ -158,8 +153,12 @@
               "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
             },
+            "muted": {
+              "value": "{app.color.component.danger.fg.muted}",
+              "type": "color"
+            },
             "label": {
-              "value": "{app.color.component.danger.fg.solid}",
+              "value": "{app.color.component.danger.fg.muted}",
               "type": "color"
             }
           }
@@ -167,13 +166,13 @@
         "disabled": {
           "bg": {
             "default": {
-              "value": "{app.color.component.disabled.bg.translucent}",
+              "value": "{app.color.surface.elevation.base.bg.default}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.accent.alpha.bg.subtle}",
+                    "value": "0.01",
                     "space": "hsl"
                   }
                 }

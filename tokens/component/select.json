@@ -13,7 +13,7 @@
       },
       "fontWeight": {
         "input": {
-          "value": "{app.fontWeight.control.text.alt}",
+          "value": "{app.fontWeight.control.text.default}",
           "type": "fontWeights"
         },
         "label": {
@@ -137,17 +137,8 @@
         "default": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.01",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "transparent",
+              "type": "color"
             }
           },
           "border": {
@@ -161,8 +152,12 @@
               "value": "{app.color.surface.fg.default}",
               "type": "color"
             },
+            "muted": {
+              "value": "{app.color.surface.fg.muted}",
+              "type": "color"
+            },
             "label": {
-              "value": "{app.color.component.primary.fg.muted}",
+              "value": "{app.color.component.primary.fg.subtle}",
               "type": "color"
             }
           }
@@ -184,7 +179,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.danger.alpha.bg.subtle}",
+                    "value": "0.08",
                     "space": "hsl"
                   }
                 }
@@ -199,11 +194,15 @@
           },
           "fg": {
             "default": {
+              "value": "{app.color.component.danger.fg.onSolid}",
+              "type": "color"
+            },
+            "muted": {
               "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
             },
             "label": {
-              "value": "{app.color.component.danger.fg.solid}",
+              "value": "{app.color.component.danger.fg.muted}",
               "type": "color"
             }
           }
@@ -211,17 +210,8 @@
         "disabled": {
           "bg": {
             "default": {
-              "value": "{app.color.component.disabled.bg.translucent}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{app.config.color.accent.alpha.bg.subtle}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "transparent",
+              "type": "color"
             }
           },
           "border": {
