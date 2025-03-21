@@ -90,15 +90,15 @@
             },
             "pressed": {
               "sm": {
-                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} * {component.toggle.config.handle.pressed}",
+                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.config.handle.pressed}",
                 "type": "dimension"
               },
               "md": {
-                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} * {component.toggle.config.handle.pressed}",
+                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.config.handle.pressed} * 2",
                 "type": "dimension"
               },
               "lg": {
-                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} * {component.toggle.config.handle.pressed}",
+                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.config.handle.pressed} * 3",
                 "type": "dimension"
               }
             }
@@ -589,7 +589,7 @@
             "description": "ratio defines width → 1 = square / 1.5 = rectangle (1.25)"
           },
           "pressed": {
-            "value": "0.125",
+            "value": "0.125rem",
             "type": "other"
           }
         },
