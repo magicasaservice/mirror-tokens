@@ -353,12 +353,12 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.translucent}",
+                  "value": "{component.toggle.color.checked.track.disabled.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
-                        "type": "alpha",
+                        "type": "lighten",
                         "value": "0.32",
                         "space": "hsl"
                       }
@@ -392,13 +392,13 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.translucent}",
+                  "value": "{component.toggle.color.checked.track.disabled.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
-                        "type": "alpha",
-                        "value": "0.24",
+                        "type": "lighten",
+                        "value": "0.32",
                         "space": "hsl"
                       }
                     }
