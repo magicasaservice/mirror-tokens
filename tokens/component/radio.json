@@ -254,7 +254,7 @@
           },
           "default": {
             "fg": {
-              "value": "{app.color.surface.fg.default}",
+              "value": "{app.color.surface.fg.subtle}",
               "type": "color"
             }
           }
@@ -437,15 +437,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.radio.dimension.input.height.sm} * 0.5",
+            "value": "{component.radio.config.label.gap} - 0.125rem",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.radio.dimension.input.height.md} * 0.5",
+            "value": "{component.radio.config.label.gap}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.radio.dimension.input.height.lg} * 0.5",
+            "value": "{component.radio.config.label.gap} + 0.125rem",
             "type": "dimension"
           }
         },
@@ -535,6 +535,10 @@
           },
           "step": {
             "value": "0.0625rem",
+            "type": "other"
+          },
+          "gap": {
+            "value": "{app.dimension.control.gap.xl}",
             "type": "other"
           }
         },

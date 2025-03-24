@@ -192,15 +192,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.toggle.dimension.track.height.sm} * 0.5",
+            "value": "{component.toggle.config.label.gap} - 0.125rem",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.toggle.dimension.track.height.md} * 0.5",
+            "value": "{component.toggle.config.label.gap}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.toggle.dimension.track.height.lg} * 0.5",
+            "value": "{component.toggle.config.label.gap} + 0.125rem",
             "type": "dimension"
           }
         }
@@ -429,7 +429,7 @@
           },
           "default": {
             "fg": {
-              "value": "{app.color.surface.fg.default}",
+              "value": "{app.color.surface.fg.subtle}",
               "type": "color"
             }
           }
@@ -528,15 +528,15 @@
       "fontSize": {
         "label": {
           "sm": {
-            "value": "{component.checkbox.fontSize.label.md} - {component.checkbox.config.label.step}",
+            "value": "{component.toggle.fontSize.label.md} - {component.toggle.config.label.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.checkbox.fontSize.label.lg} - {component.checkbox.config.label.step}",
+            "value": "{component.toggle.fontSize.label.lg} - {component.toggle.config.label.step}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.checkbox.config.label.default}",
+            "value": "{component.toggle.config.label.default}",
             "type": "fontSizes"
           }
         },
@@ -609,6 +609,20 @@
                 "type": "other"
               }
             }
+          }
+        },
+        "label": {
+          "default": {
+            "value": "{app.fontSize.label.text.lg}",
+            "type": "other"
+          },
+          "step": {
+            "value": "0.0625rem",
+            "type": "other"
+          },
+          "gap": {
+            "value": "{app.dimension.control.gap.xl}",
+            "type": "other"
           }
         }
       }
