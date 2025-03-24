@@ -253,9 +253,17 @@
             }
           },
           "default": {
-            "fg": {
-              "value": "{app.color.surface.fg.subtle}",
-              "type": "color"
+            "solid": {
+              "fg": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              }
+            },
+            "subtle": {
+              "fg": {
+                "value": "{app.color.surface.fg.subtle}",
+                "type": "color"
+              }
             }
           }
         }
