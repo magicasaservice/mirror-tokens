@@ -151,51 +151,51 @@
         "radius": {
           "xs": {
             "default": {
-              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.default.radius.secondary.step}",
+              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.default.radius.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.xs.default} - {component.avatar.config.default.radius.secondary.inset}",
+              "value": "{component.avatar.dimension.radius.xs.default} - {component.avatar.config.inline.sizing.step} / 2",
               "type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.default.radius.secondary.step}",
+              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.default.radius.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.default.radius.secondary.inset}",
+              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.inline.sizing.step} / 2",
               "type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.avatar.config.default.radius.secondary.default}",
+              "value": "1rem",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.default.radius.secondary.inset}",
+              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.inline.sizing.step} / 2",
               "type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.avatar.dimension.radius.md.default} + {component.avatar.config.default.radius.secondary.step}",
+              "value": "{component.avatar.dimension.radius.md.default} + {component.avatar.config.default.radius.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.lg.default} - {component.avatar.config.default.radius.secondary.inset}",
+              "value": "{component.avatar.dimension.radius.lg.default} - {component.avatar.config.inline.sizing.step} / 2",
               "type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.avatar.dimension.radius.lg.default} + {component.avatar.config.default.radius.secondary.step}",
+              "value": "{component.avatar.dimension.radius.lg.default} + {component.avatar.config.default.radius.step}",
               "type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.xl.default} - {component.avatar.config.default.radius.secondary.inset}",
+              "value": "{component.avatar.dimension.radius.xl.default} - {component.avatar.config.inline.sizing.step} / 2",
               "type": "dimension"
             }
           }
@@ -413,33 +413,10 @@
             }
           },
           "radius": {
-            "primary": {
-              "default": {
-                "value": "1.5rem",
-                "type": "other",
-                "description": "1/2 of the height (1.5) = circle"
-              },
-              "step": {
-                "value": "0.5rem",
-                "type": "other",
-                "description": "(md/0.5) = cirlce"
-              }
-            },
-            "secondary": {
-              "default": {
-                "value": "1rem",
-                "type": "other"
-              },
-              "step": {
-                "value": "0.125rem",
-                "type": "other",
-                "description": "(md/0.5) = cirlce\n0.125 = rounded"
-              },
-              "inset": {
-                "value": "{component.avatar.config.inline.sizing.step} / 2",
-                "type": "other",
-                "description": "inset value"
-              }
+            "step": {
+              "value": "0.125rem",
+              "type": "other",
+              "description": "(md/0.5) = cirlce\n0.125 = rounded"
             }
           }
         },
