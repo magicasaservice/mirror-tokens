@@ -119,7 +119,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuCard.config.label.default}",
+            "value": "{app.fontSize.control.text.xs}",
             "type": "fontSizes"
           },
           "lg": {
@@ -129,19 +129,19 @@
         },
         "symbol": {
           "xs": {
-            "value": "{component.menuCard.fontSize.symbol.sm} - {component.menuCard.config.symbol.default.step}",
+            "value": "{component.menuCard.fontSize.symbol.sm} - {component.menuCard.config.symbol.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.menuCard.fontSize.symbol.md} - {component.menuCard.config.symbol.default.step}",
+            "value": "{component.menuCard.fontSize.symbol.md} - {component.menuCard.config.symbol.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuCard.config.symbol.default.default}",
+            "value": "{app.fontSize.control.symbol.xs}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.menuCard.fontSize.symbol.md} + {component.menuCard.config.symbol.default.step}",
+            "value": "{component.menuCard.fontSize.symbol.md} + {component.menuCard.config.symbol.step}",
             "type": "fontSizes"
           }
         },
@@ -155,7 +155,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuCard.config.cmd.default}",
+            "value": "{app.fontSize.control.text.sm}",
             "type": "fontSizes"
           },
           "lg": {
@@ -306,28 +306,12 @@
       },
       "config": {
         "symbol": {
-          "icon": {
-            "step": {
-              "value": "0.25rem",
-              "type": "other"
-            }
-          },
-          "default": {
-            "default": {
-              "value": "{app.fontSize.control.symbol.xs}",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
+          "step": {
+            "value": "0.125rem",
+            "type": "other"
           }
         },
         "label": {
-          "default": {
-            "value": "{app.fontSize.control.text.xs}",
-            "type": "other"
-          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
@@ -366,10 +350,6 @@
           }
         },
         "cmd": {
-          "default": {
-            "value": "{app.fontSize.control.text.sm}",
-            "type": "other"
-          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
