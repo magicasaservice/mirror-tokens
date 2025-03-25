@@ -42,7 +42,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.label.default}",
+            "value": "{app.fontSize.label.text.lg}",
             "type": "fontSizes"
           },
           "lg": {
@@ -52,30 +52,30 @@
         },
         "symbol": {
           "sm": {
-            "value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.default.step}",
+            "value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.symbol.label.default}",
+            "value": "{app.fontSize.control.symbol.xs}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.default.step}",
+            "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.step}",
             "type": "fontSizes"
           }
         }
       },
       "icon": {
         "sm": {
-          "value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.icon.step}",
           "type": "fontSizes"
         },
         "md": {
-          "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.icon.step}",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.icon.step}",
           "type": "fontSizes"
         }
       },
@@ -547,31 +547,19 @@
             }
           }
         },
+        "icon": {
+          "step": {
+            "value": "0.25rem",
+            "type": "other"
+          }
+        },
         "symbol": {
-          "icon": {
-            "step": {
-              "value": "0.25rem",
-              "type": "other"
-            }
-          },
-          "label": {
-            "default": {
-              "value": "{app.fontSize.control.symbol.xs}",
-              "type": "other"
-            }
-          },
-          "default": {
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
+          "step": {
+            "value": "0.125rem",
+            "type": "other"
           }
         },
         "label": {
-          "default": {
-            "value": "{app.fontSize.label.text.lg}",
-            "type": "other"
-          },
           "step": {
             "value": "0.0625rem",
             "type": "other"

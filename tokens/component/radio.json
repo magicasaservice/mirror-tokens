@@ -279,7 +279,7 @@
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.radio.config.label.default}",
+            "value": "{app.fontSize.label.text.lg}",
             "type": "fontSizes"
           }
         },
@@ -360,7 +360,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{component.radio.config.input.height.default}",
+              "value": "{app.dimension.label.height.sm}",
               "type": "dimension"
             },
             "lg": {
@@ -388,7 +388,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{component.radio.config.input.radius.default}",
+              "value": "{app.dimension.label.height.sm}",
               "type": "dimension"
             },
             "lg": {
@@ -445,15 +445,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.radio.config.label.gap} - 0.125rem",
+            "value": "{component.radio.dimension.gap.md} - 0.125rem",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.radio.config.label.gap}",
+            "value": "{app.dimension.control.gap.xl}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.radio.config.label.gap} + 0.125rem",
+            "value": "{component.radio.dimension.gap.md} + 0.125rem",
             "type": "dimension"
           }
         },
@@ -503,23 +503,14 @@
       "config": {
         "input": {
           "height": {
-            "default": {
-              "value": "{app.dimension.label.height.sm}",
-              "type": "other"
-            },
             "step": {
               "value": "0.25rem",
               "type": "other"
             }
           },
           "radius": {
-            "default": {
-              "value": "{component.radio.config.input.height.default}",
-              "type": "other",
-              "description": "For a circle match height"
-            },
             "step": {
-              "value": "0.0625rem",
+              "value": "0rem",
               "type": "other"
             }
           },
@@ -537,16 +528,8 @@
           }
         },
         "label": {
-          "default": {
-            "value": "{app.fontSize.label.text.lg}",
-            "type": "other"
-          },
           "step": {
             "value": "0.0625rem",
-            "type": "other"
-          },
-          "gap": {
-            "value": "{app.dimension.control.gap.xl}",
             "type": "other"
           }
         },
