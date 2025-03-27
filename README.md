@@ -1,4 +1,4 @@
-# Platform Tokens
+# Mirror Tokens
 
 > An opinionated design token structure, powering [Mirror](https://github.com/magicasaservice/mirror)
 
