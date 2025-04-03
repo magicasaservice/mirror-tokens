@@ -13,7 +13,7 @@
       },
       "fontWeight": {
         "input": {
-          "value": "{app.fontWeight.control.text.default}",
+          "value": "{app.fontWeight.control.text.alt}",
           "type": "fontWeights"
         },
         "label": {
@@ -56,7 +56,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{component.input.config.text.default}",
             "type": "fontSizes"
           },
           "lg": {
@@ -66,19 +66,19 @@
         },
         "symbol": {
           "xs": {
-            "value": "{component.input.fontSize.symbol.sm} - {component.input.config.symbol.step}",
+            "value": "{component.input.fontSize.symbol.sm} - {component.input.config.symbol.default.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.step}",
+            "value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.default.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.symbol.md}",
+            "value": "{component.input.config.symbol.default.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.step}",
+            "value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.default.step}",
             "type": "fontSizes"
           }
         },
@@ -141,12 +141,8 @@
               "value": "{app.color.surface.fg.default}",
               "type": "color"
             },
-            "muted": {
-              "value": "{app.color.surface.fg.muted}",
-              "type": "color"
-            },
             "label": {
-              "value": "{app.color.component.primary.fg.subtle}",
+              "value": "{app.color.component.primary.fg.muted}",
               "type": "color"
             }
           }
@@ -174,7 +170,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.06",
+                    "value": "{app.config.color.danger.alpha.bg.subtle}",
                     "space": "hsl"
                   }
                 }
@@ -189,15 +185,11 @@
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.danger.fg.onSolid}",
-              "type": "color"
-            },
-            "muted": {
               "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
             },
             "label": {
-              "value": "{app.color.component.danger.fg.muted}",
+              "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
             }
           }
@@ -205,13 +197,13 @@
         "disabled": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
+              "value": "{app.color.component.disabled.bg.translucent}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.01",
+                    "value": "{app.config.color.accent.alpha.bg.subtle}",
                     "space": "hsl"
                   }
                 }
@@ -322,7 +314,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.gap.md}",
+              "value": "{component.input.config.gap.default.default}",
               "type": "dimension"
             },
             "lg": {
@@ -340,7 +332,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.gap.sm}",
+              "value": "{component.input.config.gap.label.default}",
               "type": "dimension"
             },
             "lg": {
@@ -412,12 +404,28 @@
       },
       "config": {
         "symbol": {
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
+          "icon": {
+            "step": {
+              "value": "0.25rem",
+              "type": "other"
+            }
+          },
+          "default": {
+            "default": {
+              "value": "{app.fontSize.control.symbol.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
           }
         },
         "text": {
+          "default": {
+            "value": "{app.fontSize.control.text.sm}",
+            "type": "other"
+          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
@@ -425,12 +433,20 @@
         },
         "gap": {
           "default": {
+            "default": {
+              "value": "{app.dimension.control.gap.md}",
+              "type": "other"
+            },
             "step": {
               "value": "0.125rem",
               "type": "other"
             }
           },
           "label": {
+            "default": {
+              "value": "{app.dimension.control.gap.sm}",
+              "type": "other"
+            },
             "step": {
               "value": "0.0625rem",
               "type": "other"

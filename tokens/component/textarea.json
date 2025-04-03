@@ -44,7 +44,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{component.textarea.config.text.default}",
             "type": "fontSizes"
           },
           "lg": {
@@ -111,12 +111,8 @@
               "value": "{app.color.surface.fg.default}",
               "type": "color"
             },
-            "muted": {
-              "value": "{app.color.surface.fg.muted}",
-              "type": "color"
-            },
             "label": {
-              "value": "{app.color.component.primary.fg.subtle}",
+              "value": "{app.color.component.primary.fg.muted}",
               "type": "color"
             }
           }
@@ -139,7 +135,16 @@
           "bg": {
             "default": {
               "value": "{app.color.component.danger.bg.translucent}",
-              "type": "color"
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "{app.config.color.danger.alpha.bg.subtle}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "border": {
@@ -153,12 +158,8 @@
               "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
             },
-            "muted": {
-              "value": "{app.color.component.danger.fg.muted}",
-              "type": "color"
-            },
             "label": {
-              "value": "{app.color.component.danger.fg.muted}",
+              "value": "{app.color.component.danger.fg.solid}",
               "type": "color"
             }
           }
@@ -166,13 +167,13 @@
         "disabled": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
+              "value": "{app.color.component.disabled.bg.translucent}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.01",
+                    "value": "{app.config.color.accent.alpha.bg.subtle}",
                     "space": "hsl"
                   }
                 }
@@ -321,7 +322,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.gap.sm}",
+              "value": "{component.textarea.config.gap.label.default}",
               "type": "dimension"
             },
             "lg": {
@@ -375,6 +376,10 @@
       },
       "config": {
         "text": {
+          "default": {
+            "value": "{app.fontSize.control.text.sm}",
+            "type": "other"
+          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
@@ -382,6 +387,10 @@
         },
         "gap": {
           "label": {
+            "default": {
+              "value": "{app.dimension.control.gap.sm}",
+              "type": "other"
+            },
             "step": {
               "value": "0.0625rem",
               "type": "other"

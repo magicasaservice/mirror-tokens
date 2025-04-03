@@ -96,7 +96,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{component.checkbox.config.color.actions.dimmer.active}",
+                        "value": "{app.config.color.danger.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -165,13 +165,13 @@
                   "type": "color"
                 },
                 "active": {
-                  "value": "{component.checkbox.color.input.checked.default.bg.default}",
+                  "value": "{app.color.component.info.bg.solid}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{component.checkbox.config.color.actions.dimmer.active}",
+                        "value": "{app.config.color.info.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -180,7 +180,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.palette.white}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               }
@@ -188,7 +188,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.translucent}",
+                  "value": "{app.color.component.disabled.bg.checked}",
                   "type": "color"
                 }
               },
@@ -232,7 +232,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{component.checkbox.config.color.actions.dimmer.active}",
+                        "value": "{app.config.color.danger.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -241,7 +241,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.palette.white}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               }
@@ -262,17 +262,9 @@
             }
           },
           "default": {
-            "solid": {
-              "fg": {
-                "value": "{app.color.surface.fg.default}",
-                "type": "color"
-              }
-            },
-            "subtle": {
-              "fg": {
-                "value": "{app.color.surface.fg.subtle}",
-                "type": "color"
-              }
+            "fg": {
+              "value": "{app.color.surface.fg.muted}",
+              "type": "color"
             }
           }
         }
@@ -288,7 +280,7 @@
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.label.text.lg}",
+            "value": "{component.checkbox.config.label.default}",
             "type": "fontSizes"
           }
         },
@@ -369,7 +361,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.label.height.sm}",
+              "value": "{component.checkbox.config.input.height.default}",
               "type": "dimension"
             },
             "lg": {
@@ -458,15 +450,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.checkbox.dimension.gap.md} - 0.125rem",
+            "value": "{component.checkbox.dimension.input.height.sm} * 0.5",
             "type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.gap.xl}",
+            "value": "{component.checkbox.dimension.input.height.md} * 0.5",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.checkbox.dimension.gap.md} + 0.125rem",
+            "value": "{component.checkbox.dimension.input.height.lg} * 0.5",
             "type": "dimension"
           }
         },
@@ -530,6 +522,10 @@
       "config": {
         "input": {
           "height": {
+            "default": {
+              "value": "{app.dimension.label.height.sm}",
+              "type": "other"
+            },
             "step": {
               "value": "0.25rem",
               "type": "other"
@@ -560,19 +556,13 @@
           }
         },
         "label": {
+          "default": {
+            "value": "{app.fontSize.control.text.xs}",
+            "type": "other"
+          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
-          }
-        },
-        "color": {
-          "actions": {
-            "dimmer": {
-              "active": {
-                "value": "{app.config.color.actions.dimmer} * 2",
-                "type": "other"
-              }
-            }
           }
         }
       }

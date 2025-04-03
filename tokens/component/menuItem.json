@@ -2,7 +2,7 @@
   "component": {
     "menuItem": {
       "color": {
-        "default": {
+        "primary": {
           "ghost": {
             "bg": {
               "default": {
@@ -16,7 +16,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.08",
+                      "value": "0.05",
                       "space": "hsl"
                     }
                   }
@@ -24,13 +24,22 @@
               },
               "active": {
                 "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.05",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.subtle}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
@@ -62,7 +71,7 @@
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.subtle}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
@@ -76,7 +85,7 @@
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.subtle}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
@@ -103,7 +112,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.08",
+                      "value": "0.05",
                       "space": "hsl"
                     }
                   }
@@ -117,7 +126,7 @@
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.subtle}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
@@ -131,7 +140,7 @@
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.subtle}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "hover": {
@@ -208,7 +217,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{component.menuItem.config.label.default}",
             "type": "fontSizes"
           },
           "lg": {
@@ -218,19 +227,19 @@
         },
         "symbol": {
           "xs": {
-            "value": "{component.menuItem.fontSize.symbol.sm} - {component.menuItem.config.symbol.step}",
+            "value": "{component.menuItem.fontSize.symbol.sm} - {component.menuItem.config.symbol.default.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.menuItem.fontSize.symbol.md} - {component.menuItem.config.symbol.step}",
+            "value": "{component.menuItem.fontSize.symbol.md} - {component.menuItem.config.symbol.default.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.symbol.md}",
+            "value": "{component.menuItem.config.symbol.default.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.menuItem.fontSize.symbol.md} + {component.menuItem.config.symbol.step}",
+            "value": "{component.menuItem.fontSize.symbol.md} + {component.menuItem.config.symbol.default.step}",
             "type": "fontSizes"
           }
         },
@@ -244,7 +253,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{component.menuItem.config.cmd.default}",
             "type": "fontSizes"
           },
           "lg": {
@@ -355,12 +364,28 @@
       },
       "config": {
         "symbol": {
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
+          "icon": {
+            "step": {
+              "value": "0.25rem",
+              "type": "other"
+            }
+          },
+          "default": {
+            "default": {
+              "value": "{app.fontSize.control.symbol.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
           }
         },
         "label": {
+          "default": {
+            "value": "{app.fontSize.control.text.sm}",
+            "type": "other"
+          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
@@ -372,7 +397,7 @@
             "type": "other"
           },
           "step": {
-            "value": "0.0625rem",
+            "value": "0.1875rem",
             "type": "other"
           }
         },
@@ -387,25 +412,13 @@
           }
         },
         "cmd": {
+          "default": {
+            "value": "{app.fontSize.control.text.sm}",
+            "type": "other"
+          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
-          }
-        },
-        "color": {
-          "actions": {
-            "translucent": {
-              "bg": {
-                "hover": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
-                  "type": "other"
-                },
-                "active": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
-                  "type": "other"
-                }
-              }
-            }
           }
         }
       }

@@ -46,7 +46,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.text.sm}",
+            "value": "{component.button.config.text.default}",
             "type": "fontSizes"
           },
           "lg": {
@@ -56,37 +56,37 @@
         },
         "symbol": {
           "xs": {
-            "value": "{component.button.fontSize.symbol.sm} - {component.button.config.symbol.step}",
+            "value": "{component.button.fontSize.symbol.sm} - {component.button.config.symbol.default.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.button.fontSize.symbol.md} - {component.button.config.symbol.step}",
+            "value": "{component.button.fontSize.symbol.md} - {component.button.config.symbol.default.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.symbol.md}",
+            "value": "{component.button.config.symbol.default.default}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.button.fontSize.symbol.md} + {component.button.config.symbol.step}",
+            "value": "{component.button.fontSize.symbol.md} + {component.button.config.symbol.default.step}",
             "type": "fontSizes"
           }
         },
         "icon": {
           "xs": {
-            "value": "{component.button.fontSize.symbol.xs} + {component.button.config.icon.step}",
+            "value": "{component.button.fontSize.symbol.xs} + {component.button.config.symbol.icon.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.button.fontSize.symbol.sm} + {component.button.config.icon.step}",
+            "value": "{component.button.fontSize.symbol.sm} + {component.button.config.symbol.icon.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.button.fontSize.symbol.md} + {component.button.config.icon.step}",
+            "value": "{component.button.fontSize.symbol.md} + {component.button.config.symbol.icon.step}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.button.fontSize.symbol.lg} + {component.button.config.icon.step}",
+            "value": "{component.button.fontSize.symbol.lg} + {component.button.config.symbol.icon.step}",
             "type": "fontSizes"
           }
         }
@@ -112,26 +112,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.accent.solid.bg.default}",
+                "value": "{app.color.component.accent.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.accent.solid.bg.hover}",
+                "value": "{app.color.component.accent.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -144,7 +144,7 @@
                 "type": "color"
               },
               "spinner": {
-                "value": "{component.button.color.accent.solid.fg.default}",
+                "value": "#fff",
                 "type": "color"
               }
             }
@@ -156,26 +156,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.accent.translucent.bg.default}",
+                "value": "{app.color.component.accent.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.bg.hover}",
+                      "value": "{app.config.color.accent.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.accent.translucent.bg.hover}",
+                "value": "{app.color.component.accent.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.toggle.config.color.actions.translucent.bg.active}",
+                      "value": "{app.config.color.accent.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -197,11 +197,29 @@
               },
               "hover": {
                 "value": "{app.color.component.accent.bg.translucent}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.accent.alpha.bg.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               },
               "active": {
-                "value": "{component.button.color.accent.ghost.bg.hover}",
-                "type": "color"
+                "value": "{app.color.component.accent.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.accent.alpha.bg.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -218,26 +236,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.accent.outline.border.default}",
+                "value": "{app.color.component.accent.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.hover}",
+                      "value": "{app.config.color.accent.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.accent.outline.border.hover}",
+                "value": "{app.color.component.accent.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.active}",
+                      "value": "{app.config.color.accent.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -250,26 +268,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.accent.outline.fg.default}",
+                "value": "{app.color.component.accent.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.accent.outline.fg.hover}",
+                "value": "{app.color.component.accent.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -284,26 +302,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.accent.plain.fg.default}",
+                "value": "{app.color.component.accent.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.accent.plain.fg.hover}",
+                "value": "{app.color.component.accent.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -318,26 +336,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.accent.tone.bg.default}",
+                "value": "{app.color.component.accent.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.accent.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.accent.tone.bg.hover}",
+                "value": "{app.color.component.accent.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.accent.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -360,26 +378,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.primary.solid.bg.default}",
+                "value": "{app.color.component.primary.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.primary.darken.hover} ",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.primary.solid.bg.hover}",
+                "value": "{app.color.component.primary.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.primary.darken.active} ",
                       "space": "hsl"
                     }
                   }
@@ -400,26 +418,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.primary.translucent.bg.default}",
+                "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.bg.hover}",
+                      "value": "{app.config.color.primary.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.primary.translucent.bg.hover}",
+                "value": "{app.color.component.primary.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.toggle.config.color.actions.translucent.bg.active}",
+                      "value": "{app.config.color.primary.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -441,11 +459,29 @@
               },
               "hover": {
                 "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.primary.alpha.bg.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               },
               "active": {
-                "value": "{component.button.color.primary.ghost.bg.hover}",
-                "type": "color"
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.primary.alpha.bg.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -462,26 +498,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.primary.outline.border.default}",
+                "value": "{app.color.component.primary.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.hover}",
+                      "value": "{app.config.color.primary.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.primary.outline.border.hover}",
+                "value": "{app.color.component.primary.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.active}",
+                      "value": "{app.config.color.primary.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -494,26 +530,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.primary.outline.fg.default}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.primary.outline.fg.hover}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.primary.darken.active} ",
                       "space": "hsl"
                     }
                   }
@@ -528,26 +564,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.primary.plain.fg.default}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.primary.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.primary.plain.fg.hover}",
+                "value": "{app.color.component.primary.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.primary.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -562,26 +598,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.primary.tone.bg.default}",
+                "value": "{app.color.component.primary.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.primary.darken.hover} ",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.primary.tone.bg.hover}",
+                "value": "{app.color.component.primary.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.primary.darken.active} ",
                       "space": "hsl"
                     }
                   }
@@ -604,26 +640,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.info.solid.bg.default}",
+                "value": "{app.color.component.info.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.info.solid.bg.hover}",
+                "value": "{app.color.component.info.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -648,26 +684,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.info.translucent.bg.default}",
+                "value": "{app.color.component.info.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.bg.hover}",
+                      "value": "{app.config.color.info.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.info.translucent.bg.hover}",
+                "value": "{app.color.component.info.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.toggle.config.color.actions.translucent.bg.active}",
+                      "value": "{app.config.color.info.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -689,11 +725,29 @@
               },
               "hover": {
                 "value": "{app.color.component.info.bg.translucent}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.info.alpha.bg.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               },
               "active": {
-                "value": "{component.button.color.info.ghost.bg.hover}",
-                "type": "color"
+                "value": "{app.color.component.info.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.info.alpha.bg.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -710,26 +764,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.info.outline.border.default}",
+                "value": "{app.color.component.info.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.hover}",
+                      "value": "{app.config.color.info.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.info.outline.border.hover}",
+                "value": "{app.color.component.info.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.active}",
+                      "value": "{app.config.color.info.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -742,26 +796,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.info.outline.fg.default}",
+                "value": "{app.color.component.info.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.info.outline.fg.hover}",
+                "value": "{app.color.component.info.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -776,26 +830,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.info.plain.fg.default}",
+                "value": "{app.color.component.info.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.info.plain.fg.hover}",
+                "value": "{app.color.component.info.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -810,26 +864,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.info.tone.bg.default}",
+                "value": "{app.color.component.info.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.info.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.info.tone.bg.hover}",
+                "value": "{app.color.component.info.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.info.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -852,26 +906,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.danger.solid.bg.default}",
+                "value": "{app.color.component.danger.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.danger.solid.bg.hover}",
+                "value": "{app.color.component.danger.bg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -892,26 +946,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.danger.translucent.bg.default}",
+                "value": "{app.color.component.danger.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.bg.hover}",
+                      "value": "{app.config.color.danger.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.danger.translucent.bg.hover}",
+                "value": "{app.color.component.danger.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.toggle.config.color.actions.translucent.bg.active}",
+                      "value": "{app.config.color.danger.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -933,11 +987,29 @@
               },
               "hover": {
                 "value": "{app.color.component.danger.bg.translucent}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.danger.alpha.bg.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               },
               "active": {
-                "value": "{component.button.color.danger.ghost.bg.hover}",
-                "type": "color"
+                "value": "{app.color.component.danger.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.danger.alpha.bg.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -960,7 +1032,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.hover}",
+                      "value": "{app.config.color.danger.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
@@ -973,7 +1045,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.active}",
+                      "value": "{app.config.color.danger.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -986,13 +1058,13 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.danger.outline.fg.default}",
+                "value": "{app.color.component.danger.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1005,7 +1077,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1020,26 +1092,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.danger.plain.fg.default}",
+                "value": "{app.color.component.danger.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.danger.plain.fg.hover}",
+                "value": "{app.color.component.danger.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1054,26 +1126,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.danger.tone.bg.default}",
+                "value": "{app.color.component.danger.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.danger.tone.bg.hover}",
+                "value": "{app.color.component.danger.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.danger.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1102,7 +1174,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1115,7 +1187,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1142,7 +1214,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.bg.hover}",
+                      "value": "{app.config.color.success.alpha.bg.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -1155,7 +1227,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.toggle.config.color.actions.translucent.bg.active}",
+                      "value": "{app.config.color.success.alpha.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -1177,11 +1249,29 @@
               },
               "hover": {
                 "value": "{app.color.component.success.bg.translucent}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.success.alpha.bg.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               },
               "active": {
-                "value": "{component.button.color.success.ghost.bg.hover}",
-                "type": "color"
+                "value": "{app.color.component.success.bg.translucent}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "{app.config.color.success.alpha.bg.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "fg": {
@@ -1204,20 +1294,20 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.bg.hover}",
+                      "value": "{app.config.color.success.alpha.border.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.success.outline.border.hover}",
+                "value": "{app.color.component.success.border.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{component.toggle.config.color.actions.translucent.bg.active}",
+                      "value": "{app.config.color.success.alpha.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -1230,26 +1320,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.success.outline.fg.default}",
+                "value": "{app.color.component.success.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.success.outline.fg.hover}",
+                "value": "{app.color.component.success.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1264,26 +1354,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.success.plain.fg.default}",
+                "value": "{app.color.component.success.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.success.plain.fg.hover}",
+                "value": "{app.color.component.success.fg.solid}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1298,26 +1388,26 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{component.button.color.success.tone.bg.default}",
+                "value": "{app.color.component.success.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.success.darken.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{component.button.color.success.tone.bg.hover}",
+                "value": "{app.color.component.success.bg.tone}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
+                      "value": "{app.config.color.success.darken.active}",
                       "space": "hsl"
                     }
                   }
@@ -1417,250 +1507,6 @@
             "default": {
               "value": "{app.color.component.focus.border.default}",
               "type": "color"
-            }
-          }
-        },
-        "secondary": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{component.button.color.secondary.solid.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{component.button.color.secondary.solid.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onSolid}",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.translucent}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{component.button.color.secondary.translucent.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.bg.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{component.button.color.secondary.translucent.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.toggle.config.color.actions.translucent.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "ghost": {
-            "bg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.secondary.bg.translucent}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{component.button.color.secondary.ghost.bg.hover}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "outline": {
-            "border": {
-              "default": {
-                "value": "{app.color.component.secondary.border.translucent}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{component.button.color.secondary.outline.border.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{component.button.color.secondary.outline.border.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.button.config.color.actions.translucent.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{component.button.color.secondary.outline.fg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{component.button.color.secondary.outline.fg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "plain": {
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.solid}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{component.button.color.secondary.plain.fg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{component.button.color.secondary.plain.fg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "tone": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.secondary.bg.tone}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{component.button.color.secondary.tone.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "value": "{component.button.color.secondary.tone.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.button.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.secondary.fg.onTone}",
-                "type": "color"
-              }
             }
           }
         }
@@ -1833,7 +1679,7 @@
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.button.dimension.symbol.sm.default} + {component.button.config.icon.step}",
+              "value": "{component.button.dimension.symbol.sm.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           },
@@ -1843,7 +1689,7 @@
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.button.dimension.symbol.md.default} + {component.button.config.icon.step}",
+              "value": "{component.button.dimension.symbol.md.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           },
@@ -1853,7 +1699,7 @@
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.button.dimension.symbol.lg.default} + {component.button.config.icon.step}",
+              "value": "{component.button.dimension.symbol.lg.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           },
@@ -1863,7 +1709,7 @@
               "type": "dimension"
             },
             "icon": {
-              "value": "{component.button.dimension.symbol.xs.default} + {component.button.config.icon.step}",
+              "value": "{component.button.dimension.symbol.xs.default} + {component.button.config.symbol.icon.step}",
               "type": "dimension"
             }
           }
@@ -1876,58 +1722,32 @@
         }
       },
       "config": {
-        "icon": {
-          "step": {
-            "value": "0.25rem",
-            "type": "other"
-          }
-        },
         "symbol": {
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
+          "icon": {
+            "step": {
+              "value": "0.25rem",
+              "type": "other"
+            }
+          },
+          "default": {
+            "default": {
+              "value": "{app.fontSize.control.symbol.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
           }
         },
         "text": {
+          "default": {
+            "value": "{app.fontSize.control.text.sm}",
+            "type": "other"
+          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
-          }
-        },
-        "color": {
-          "actions": {
-            "translucent": {
-              "bg": {
-                "hover": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
-                  "type": "other"
-                },
-                "active": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
-                  "type": "other"
-                }
-              },
-              "border": {
-                "hover": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent}",
-                  "type": "other"
-                },
-                "active": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent} * 2",
-                  "type": "other"
-                }
-              }
-            },
-            "dimmer": {
-              "hover": {
-                "value": "{app.config.color.actions.dimmer}",
-                "type": "other"
-              },
-              "active": {
-                "value": "{app.config.color.actions.dimmer} * 2",
-                "type": "other"
-              }
-            }
           }
         }
       },
