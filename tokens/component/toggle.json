@@ -9,7 +9,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{component.toggle.config.track.height}",
+              "value": "{app.dimension.label.height.md}",
               "type": "dimension"
             },
             "lg": {
@@ -90,15 +90,15 @@
             },
             "pressed": {
               "sm": {
-                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.dimension.handle.width.sm} * {component.toggle.config.handle.pressed}",
+                "value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.config.handle.pressed}",
                 "type": "dimension"
               },
               "md": {
-                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.dimension.handle.width.md} * {component.toggle.config.handle.pressed}",
+                "value": "{component.toggle.dimension.handle.width.md} + {component.toggle.config.handle.pressed} * 2",
                 "type": "dimension"
               },
               "lg": {
-                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.dimension.handle.width.lg} * {component.toggle.config.handle.pressed}",
+                "value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.config.handle.pressed} * 3",
                 "type": "dimension"
               }
             }
@@ -192,15 +192,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.toggle.dimension.track.height.sm} * 0.75",
+            "value": "{component.toggle.dimension.gap.md} - 0.125rem",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.toggle.dimension.track.height.md} * 0.75",
+            "value": "{app.dimension.control.gap.xl}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.toggle.dimension.track.height.lg} * 0.75",
+            "value": "{component.toggle.dimension.gap.md} + 0.125rem",
             "type": "dimension"
           }
         }
@@ -221,7 +221,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "{app.config.color.accent.darken.active}",
+                        "value": "{component.toggle.config.color.actions.translucent.bg.active}",
                         "space": "hsl"
                       }
                     }
@@ -230,7 +230,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -252,7 +252,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.checked}",
+                  "value": "{app.color.component.disabled.bg.solid}",
                   "type": "color"
                 }
               },
@@ -274,7 +274,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -316,7 +316,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.accent.darken.active}",
+                        "value": "{component.toggle.config.color.actions.dimmer.active}",
                         "space": "hsl"
                       }
                     }
@@ -325,7 +325,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -353,13 +353,13 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{component.toggle.color.checked.track.disabled.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
-                        "type": "alpha",
-                        "value": "0.5",
+                        "type": "lighten",
+                        "value": "0.32",
                         "space": "hsl"
                       }
                     }
@@ -378,7 +378,7 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               },
@@ -392,13 +392,13 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{component.toggle.color.checked.track.disabled.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
-                        "type": "alpha",
-                        "value": "0.5",
+                        "type": "lighten",
+                        "value": "0.32",
                         "space": "hsl"
                       }
                     }
@@ -428,9 +428,17 @@
             }
           },
           "default": {
-            "fg": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
+            "solid": {
+              "fg": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              }
+            },
+            "subtle": {
+              "fg": {
+                "value": "{app.color.surface.fg.subtle}",
+                "type": "color"
+              }
             }
           }
         }
@@ -444,7 +452,7 @@
                 "y": "0.0625rem",
                 "blur": "0.125rem",
                 "spread": "0",
-                "color": "{app.color.component.shadow.strong}",
+                "color": "{app.color.surface.shadow.default}",
                 "type": "dropShadow"
               }
             ],
@@ -457,7 +465,7 @@
                 "y": "0.0625rem",
                 "blur": "0.125rem",
                 "spread": "0",
-                "color": "{app.color.component.shadow.strong}",
+                "color": "{app.color.surface.shadow.strong}",
                 "type": "dropShadow"
               }
             ],
@@ -528,15 +536,15 @@
       "fontSize": {
         "label": {
           "sm": {
-            "value": "{component.checkbox.fontSize.label.md} - {component.checkbox.config.label.step}",
+            "value": "{component.toggle.fontSize.label.md} - {component.toggle.config.label.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.checkbox.fontSize.label.lg} - {component.checkbox.config.label.step}",
+            "value": "{component.toggle.fontSize.label.lg} - {component.toggle.config.label.step}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.checkbox.config.label.default}",
+            "value": "{app.fontSize.label.text.lg}",
             "type": "fontSizes"
           }
         },
@@ -557,11 +565,6 @@
       },
       "config": {
         "track": {
-          "height": {
-            "value": "{app.dimension.label.height.md}",
-            "type": "other",
-            "description": "-0.5 for material design style (handle is offset)"
-          },
           "step": {
             "value": "0.375rem",
             "type": "other"
@@ -589,7 +592,31 @@
             "description": "ratio defines width → 1 = square / 1.5 = rectangle (1.25)"
           },
           "pressed": {
-            "value": "0.125",
+            "value": "0.125rem",
+            "type": "other"
+          }
+        },
+        "color": {
+          "actions": {
+            "translucent": {
+              "bg": {
+                "active": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
+                  "type": "other"
+                }
+              }
+            },
+            "dimmer": {
+              "active": {
+                "value": "{app.config.color.actions.dimmer} * 2",
+                "type": "other"
+              }
+            }
+          }
+        },
+        "label": {
+          "step": {
+            "value": "0.0625rem",
             "type": "other"
           }
         }

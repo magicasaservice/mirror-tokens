@@ -147,28 +147,6 @@
             "type": "other"
           }
         },
-        "label": {
-          "symbol": {
-            "default": {
-              "value": "{app.fontSize.control.text.md}",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
-          },
-          "text": {
-            "default": {
-              "value": "{app.fontSize.control.text.md}",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
-          }
-        },
         "step": {
           "padding": {
             "value": "0.0625rem",
@@ -195,17 +173,8 @@
                 "type": "color"
               },
               "inactive": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.16",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.translucent}",
+                "type": "color"
               }
             },
             "border": {
@@ -223,16 +192,7 @@
               },
               "active": {
                 "value": "{app.color.component.primary.fg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{app.config.color.accent.lighten.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "type": "color"
               }
             },
             "border": {
@@ -248,30 +208,12 @@
           },
           "step": {
             "active": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.6",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.surface.elevation.low.bg.default}",
+              "type": "color"
             },
             "inactive": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.4",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.surface.fg.subtle}",
+              "type": "color"
             },
             "hidden": {
               "value": "transparent",
@@ -291,7 +233,7 @@
           "track": {
             "bg": {
               "active": {
-                "value": "{app.color.component.disabled.fg.solid}",
+                "value": "{app.color.component.disabled.border.translucent}",
                 "type": "color"
               },
               "inactive": {
@@ -346,7 +288,16 @@
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.lg}",
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0.25rem",
+              "color": "{app.color.component.primary.fg.subtle}",
+              "type": "dropShadow"
+            }
+          ],
           "type": "boxShadow"
         }
       },

@@ -87,7 +87,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.danger.darken.active}",
+                        "value": "{component.radio.config.color.actions.dimmer.active}",
                         "space": "hsl"
                       }
                     }
@@ -156,13 +156,13 @@
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.info.bg.solid}",
+                  "value": "{component.radio.color.input.checked.default.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.info.darken.active}",
+                        "value": "{component.radio.config.color.actions.dimmer.active}",
                         "space": "hsl"
                       }
                     }
@@ -171,7 +171,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               }
@@ -179,7 +179,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.checked}",
+                  "value": "transparent",
                   "type": "color"
                 }
               },
@@ -191,7 +191,7 @@
               },
               "border": {
                 "default": {
-                  "value": "transparent",
+                  "value": "{app.color.component.disabled.border.translucent}",
                   "type": "color"
                 }
               }
@@ -217,13 +217,13 @@
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.danger.bg.solid}",
+                  "value": "{component.radio.color.input.checked.danger.bg.default}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{app.config.color.danger.darken.active}",
+                        "value": "{component.radio.config.color.actions.dimmer.active}",
                         "space": "hsl"
                       }
                     }
@@ -232,7 +232,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.fixed.fg}",
+                  "value": "{app.color.palette.white}",
                   "type": "color"
                 }
               }
@@ -253,9 +253,17 @@
             }
           },
           "default": {
-            "fg": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
+            "solid": {
+              "fg": {
+                "value": "{app.color.surface.fg.default}",
+                "type": "color"
+              }
+            },
+            "subtle": {
+              "fg": {
+                "value": "{app.color.surface.fg.subtle}",
+                "type": "color"
+              }
             }
           }
         }
@@ -271,7 +279,7 @@
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.radio.config.label.default}",
+            "value": "{app.fontSize.label.text.lg}",
             "type": "fontSizes"
           }
         },
@@ -352,7 +360,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{component.radio.config.input.height.default}",
+              "value": "{app.dimension.label.height.sm}",
               "type": "dimension"
             },
             "lg": {
@@ -380,7 +388,7 @@
               "type": "dimension"
             },
             "md": {
-              "value": "{component.radio.config.input.radius.default}",
+              "value": "{app.dimension.label.height.sm}",
               "type": "dimension"
             },
             "lg": {
@@ -437,15 +445,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.radio.dimension.input.height.sm} * 0.75",
+            "value": "{component.radio.dimension.gap.md} - 0.125rem",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.radio.dimension.input.height.md} * 0.75",
+            "value": "{app.dimension.control.gap.xl}",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.radio.dimension.input.height.lg} * 0.75",
+            "value": "{component.radio.dimension.gap.md} + 0.125rem",
             "type": "dimension"
           }
         },
@@ -495,23 +503,14 @@
       "config": {
         "input": {
           "height": {
-            "default": {
-              "value": "{app.dimension.label.height.sm}",
-              "type": "other"
-            },
             "step": {
               "value": "0.25rem",
               "type": "other"
             }
           },
           "radius": {
-            "default": {
-              "value": "{component.radio.config.input.height.default}",
-              "type": "other",
-              "description": "For a circle match height"
-            },
             "step": {
-              "value": "0.0625rem",
+              "value": "0rem",
               "type": "other"
             }
           },
@@ -529,13 +528,19 @@
           }
         },
         "label": {
-          "default": {
-            "value": "{app.fontSize.control.text.sm}",
-            "type": "other"
-          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
+          }
+        },
+        "color": {
+          "actions": {
+            "dimmer": {
+              "active": {
+                "value": "{app.config.color.actions.dimmer} * 2",
+                "type": "other"
+              }
+            }
           }
         }
       }

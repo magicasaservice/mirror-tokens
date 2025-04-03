@@ -13,7 +13,7 @@
       },
       "fontWeight": {
         "default": {
-          "value": "{app.fontWeight.control.text.default}",
+          "value": "{app.fontWeight.control.text.strong}",
           "type": "fontWeights"
         },
         "symbol": {
@@ -42,7 +42,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.label.default}",
+            "value": "{app.fontSize.label.text.lg}",
             "type": "fontSizes"
           },
           "lg": {
@@ -52,30 +52,30 @@
         },
         "symbol": {
           "sm": {
-            "value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.default.step}",
+            "value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.symbol.label.default}",
+            "value": "{app.fontSize.control.symbol.xs}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.default.step}",
+            "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.step}",
             "type": "fontSizes"
           }
         }
       },
       "icon": {
         "sm": {
-          "value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.icon.step}",
           "type": "fontSizes"
         },
         "md": {
-          "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.icon.step}",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.symbol.icon.step}",
+          "value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.icon.step}",
           "type": "fontSizes"
         }
       },
@@ -100,39 +100,39 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{component.chip.color.default.solid.bg.default}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover} ",
+                      "value": "{component.chip.config.color.actions.dimmer.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{component.chip.color.default.solid.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active} ",
+                      "value": "{component.chip.config.color.actions.dimmer.active}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "dragged": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{component.chip.color.default.solid.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active} ",
+                      "value": "{component.chip.config.color.actions.dimmer.active}",
                       "space": "hsl"
                     }
                   }
@@ -153,39 +153,39 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.translucent}",
+                "value": "{component.chip.color.default.translucent.bg.default}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.accent.alpha.bg.hover} ",
+                      "value": "{component.chip.config.color.actions.translucent.bg.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.primary.bg.translucent}",
+                "value": "{component.chip.color.default.translucent.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.accent.alpha.bg.active}",
+                      "value": "{component.chip.config.color.actions.translucent.bg.active}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "dragged": {
-                "value": "{app.color.component.primary.bg.translucent}",
+                "value": "{component.chip.color.default.translucent.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.accent.alpha.bg.active}",
+                      "value": "{component.chip.config.color.actions.translucent.bg.active}",
                       "space": "hsl"
                     }
                   }
@@ -221,39 +221,39 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.border.translucent}",
+                "value": "{component.chip.color.default.outline.border.default}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.accent.alpha.border.hover}",
+                      "value": "{component.chip.config.color.actions.translucent.border.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.primary.border.translucent}",
+                "value": "{component.chip.color.default.outline.border.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.accent.alpha.border.active}",
+                      "value": "{component.chip.config.color.actions.translucent.border.active}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "dragged": {
-                "value": "{app.color.component.primary.border.translucent}",
+                "value": "{component.chip.color.default.outline.border.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.accent.alpha.border.active}",
+                      "value": "{component.chip.config.color.actions.translucent.border.active}",
                       "space": "hsl"
                     }
                   }
@@ -274,39 +274,39 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.tone}",
+                "value": "{component.chip.color.default.tone.bg.default}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.hover} ",
+                      "value": "{component.chip.config.color.actions.dimmer.hover}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.primary.bg.tone}",
+                "value": "{component.chip.color.default.tone.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active} ",
+                      "value": "{component.chip.config.color.actions.dimmer.active}",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "dragged": {
-                "value": "{app.color.component.primary.bg.tone}",
+                "value": "{component.chip.color.default.tone.bg.hover}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.accent.darken.active} ",
+                      "value": "{component.chip.config.color.actions.dimmer.active}",
                       "space": "hsl"
                     }
                   }
@@ -511,31 +511,55 @@
         }
       },
       "config": {
-        "symbol": {
-          "icon": {
-            "step": {
-              "value": "0.25rem",
-              "type": "other"
-            }
-          },
-          "label": {
-            "default": {
-              "value": "{app.fontSize.control.symbol.xs}",
-              "type": "other"
-            }
-          },
-          "default": {
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
+        "color": {
+          "actions": {
+            "translucent": {
+              "bg": {
+                "hover": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
+                  "type": "other"
+                },
+                "active": {
+                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
+                  "type": "other"
+                }
+              },
+              "border": {
+                "hover": {
+                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent}",
+                  "type": "other"
+                },
+                "active": {
+                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent} * 2",
+                  "type": "other"
+                }
+              }
+            },
+            "dimmer": {
+              "hover": {
+                "value": "{app.config.color.actions.dimmer}",
+                "type": "other"
+              },
+              "active": {
+                "value": "{app.config.color.actions.dimmer} * 2",
+                "type": "other"
+              }
             }
           }
         },
-        "label": {
-          "default": {
-            "value": "{app.fontSize.control.text.xs}",
+        "icon": {
+          "step": {
+            "value": "0.25rem",
             "type": "other"
-          },
+          }
+        },
+        "symbol": {
+          "step": {
+            "value": "0.125rem",
+            "type": "other"
+          }
+        },
+        "label": {
           "step": {
             "value": "0.0625rem",
             "type": "other"
@@ -562,7 +586,7 @@
               "y": "0.375rem",
               "blur": "1rem",
               "spread": "0",
-              "color": "{app.color.component.shadow.default}",
+              "color": "{app.color.surface.shadow.strong}",
               "type": "dropShadow"
             }
           ],

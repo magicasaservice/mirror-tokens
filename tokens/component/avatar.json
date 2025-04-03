@@ -119,7 +119,7 @@
           },
           "md": {
             "default": {
-              "value": "{component.avatar.config.default.sizing.height}",
+              "value": "{app.dimension.control.height.md}",
               "type": "dimension"
             },
             "inline": {
@@ -149,108 +149,54 @@
           }
         },
         "radius": {
-          "primary": {
-            "xs": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.primary.sm.default} - {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.primary.xs.default} - {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              }
+          "xs": {
+            "default": {
+              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.default.radius.step}",
+              "type": "dimension"
             },
-            "sm": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.primary.md.default} - {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.primary.sm.default} - {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              }
-            },
-            "md": {
-              "default": {
-                "value": "{component.avatar.config.default.radius.primary.default}",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.primary.md.default} - {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.primary.md.default} + {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.primary.lg.default} - {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              }
-            },
-            "xl": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.primary.lg.default} + {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.primary.xl.default} - {component.avatar.config.default.radius.primary.step} / 2",
-                "type": "dimension"
-              }
+            "inline": {
+              "value": "{component.avatar.dimension.radius.xs.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "type": "dimension"
             }
           },
-          "secondary": {
-            "xs": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.secondary.sm.default} - {component.avatar.config.default.radius.secondary.step}",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.xs.default} - {component.avatar.config.default.radius.secondary.inset}",
-                "type": "dimension"
-              }
+          "sm": {
+            "default": {
+              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.default.radius.step}",
+              "type": "dimension"
             },
-            "sm": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.secondary.md.default} - {component.avatar.config.default.radius.secondary.step}",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.sm.default} - {component.avatar.config.default.radius.secondary.inset}",
-                "type": "dimension"
-              }
+            "inline": {
+              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "type": "dimension"
+            }
+          },
+          "md": {
+            "default": {
+              "value": "1rem",
+              "type": "dimension"
             },
-            "md": {
-              "default": {
-                "value": "{component.avatar.config.default.radius.secondary.default}",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.md.default} - {component.avatar.config.default.radius.secondary.inset}",
-                "type": "dimension"
-              }
+            "inline": {
+              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "type": "dimension"
+            }
+          },
+          "lg": {
+            "default": {
+              "value": "{component.avatar.dimension.radius.md.default} + {component.avatar.config.default.radius.step}",
+              "type": "dimension"
             },
-            "lg": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.secondary.md.default} + {component.avatar.config.default.radius.secondary.step}",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.lg.default} - {component.avatar.config.default.radius.secondary.inset}",
-                "type": "dimension"
-              }
+            "inline": {
+              "value": "{component.avatar.dimension.radius.lg.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "type": "dimension"
+            }
+          },
+          "xl": {
+            "default": {
+              "value": "{component.avatar.dimension.radius.lg.default} + {component.avatar.config.default.radius.step}",
+              "type": "dimension"
             },
-            "xl": {
-              "default": {
-                "value": "{component.avatar.dimension.radius.secondary.lg.default} + {component.avatar.config.default.radius.secondary.step}",
-                "type": "dimension"
-              },
-              "inline": {
-                "value": "{component.avatar.dimension.radius.secondary.xl.default} - {component.avatar.config.default.radius.secondary.inset}",
-                "type": "dimension"
-              }
+            "inline": {
+              "value": "{component.avatar.dimension.radius.xl.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "type": "dimension"
             }
           }
         },
@@ -258,6 +204,58 @@
           "default": {
             "value": "{app.dimension.control.border.default}",
             "type": "dimension"
+          }
+        },
+        "symbol": {
+          "xs": {
+            "default": {
+              "value": "{component.avatar.fontSize.xs.symbol.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.xs.symbol.inline}",
+              "type": "dimension"
+            }
+          },
+          "sm": {
+            "default": {
+              "value": "{component.avatar.fontSize.sm.symbol.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.sm.symbol.inline}",
+              "type": "dimension"
+            }
+          },
+          "md": {
+            "default": {
+              "value": "{component.avatar.fontSize.md.symbol.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.md.symbol.inline}",
+              "type": "dimension"
+            }
+          },
+          "lg": {
+            "default": {
+              "value": "{component.avatar.fontSize.lg.symbol.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.lg.symbol.inline}",
+              "type": "dimension"
+            }
+          },
+          "xl": {
+            "default": {
+              "value": "{component.avatar.fontSize.xl.symbol.default}",
+              "type": "dimension"
+            },
+            "inline": {
+              "value": "{component.avatar.fontSize.xl.symbol.inline}",
+              "type": "dimension"
+            }
           }
         }
       },
@@ -400,10 +398,6 @@
       "config": {
         "default": {
           "sizing": {
-            "height": {
-              "value": "{app.dimension.control.height.md}",
-              "type": "other"
-            },
             "ratio": {
               "value": "1",
               "type": "other",
@@ -415,33 +409,10 @@
             }
           },
           "radius": {
-            "primary": {
-              "default": {
-                "value": "1.5rem",
-                "type": "other",
-                "description": "1/2 of the height (1.5) = circle"
-              },
-              "step": {
-                "value": "0.5rem",
-                "type": "other",
-                "description": "(md/0.5) = cirlce"
-              }
-            },
-            "secondary": {
-              "default": {
-                "value": "1rem",
-                "type": "other"
-              },
-              "step": {
-                "value": "0.125rem",
-                "type": "other",
-                "description": "(md/0.5) = cirlce\n0.125 = rounded"
-              },
-              "inset": {
-                "value": "{component.avatar.config.inline.sizing.step} / 2",
-                "type": "other",
-                "description": "inset value"
-              }
+            "step": {
+              "value": "0.125rem",
+              "type": "other",
+              "description": "(md/0.5) = cirlce\n0.125 = rounded"
             }
           }
         },

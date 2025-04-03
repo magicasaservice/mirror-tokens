@@ -2,7 +2,7 @@
   "component": {
     "menuCard": {
       "color": {
-        "primary": {
+        "default": {
           "ghost": {
             "bg": {
               "default": {
@@ -16,34 +16,25 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.05",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
                 }
               },
               "active": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.05",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{component.menuCard.color.default.ghost.bg.hover}",
+                "type": "color"
               }
             },
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
+                  "value": "{app.color.component.primary.fg.subtle}",
                   "type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.solid}",
+                  "value": "{app.color.component.primary.fg.muted}",
                   "type": "color"
                 },
                 "active": {
@@ -57,7 +48,7 @@
                   "type": "color"
                 },
                 "muted": {
-                  "value": "{app.color.component.primary.fg.muted}",
+                  "value": "{app.color.component.primary.fg.subtle}",
                   "type": "color"
                 }
               }
@@ -128,7 +119,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuCard.config.label.default}",
+            "value": "{app.fontSize.control.text.xs}",
             "type": "fontSizes"
           },
           "lg": {
@@ -138,19 +129,19 @@
         },
         "symbol": {
           "xs": {
-            "value": "{component.menuCard.fontSize.symbol.sm} - {component.menuCard.config.symbol.default.step}",
+            "value": "{component.menuCard.fontSize.symbol.sm} - {component.menuCard.config.symbol.step}",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "{component.menuCard.fontSize.symbol.md} - {component.menuCard.config.symbol.default.step}",
+            "value": "{component.menuCard.fontSize.symbol.md} - {component.menuCard.config.symbol.step}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuCard.config.symbol.default.default}",
+            "value": "{app.fontSize.control.symbol.xs}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{component.menuCard.fontSize.symbol.md} + {component.menuCard.config.symbol.default.step}",
+            "value": "{component.menuCard.fontSize.symbol.md} + {component.menuCard.config.symbol.step}",
             "type": "fontSizes"
           }
         },
@@ -164,7 +155,7 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuCard.config.cmd.default}",
+            "value": "{app.fontSize.control.text.sm}",
             "type": "fontSizes"
           },
           "lg": {
@@ -315,28 +306,12 @@
       },
       "config": {
         "symbol": {
-          "icon": {
-            "step": {
-              "value": "0.25rem",
-              "type": "other"
-            }
-          },
-          "default": {
-            "default": {
-              "value": "{app.fontSize.control.symbol.xs}",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
+          "step": {
+            "value": "0.125rem",
+            "type": "other"
           }
         },
         "label": {
-          "default": {
-            "value": "{app.fontSize.control.text.xs}",
-            "type": "other"
-          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
@@ -375,10 +350,6 @@
           }
         },
         "cmd": {
-          "default": {
-            "value": "{app.fontSize.control.text.sm}",
-            "type": "other"
-          },
           "step": {
             "value": "0.0625rem",
             "type": "other"
