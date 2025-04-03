@@ -621,7 +621,16 @@
             },
             "tone": {
               "type": "color",
-              "value": "{app.color.palette.grey.high}"
+              "value": "{app.color.palette.grey.low}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{app.config.color.dimmer.tone}",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "border": {
@@ -685,24 +694,15 @@
             },
             "onSolid": {
               "type": "color",
-              "value": "{app.color.palette.black}"
+              "value": "{app.color.palette.grey.low}"
             },
             "onTone": {
               "type": "color",
-              "value": "{app.color.palette.grey.low}"
+              "value": "{app.color.palette.grey.default}"
             },
             "onTranslucent": {
               "type": "color",
-              "value": "{app.color.palette.grey.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "{app.config.color.dimmer.onTranslucent}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.palette.grey.default}"
             }
           }
         },
