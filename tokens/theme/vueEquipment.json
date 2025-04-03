@@ -1,0 +1,502 @@
+{
+  "app": {
+    "color": {
+      "surface": {
+        "elevation": {
+          "low": {
+            "bg": {
+              "default": {
+                "type": "color",
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 100%)"
+              },
+              "hover": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.low.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.low.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "base": {
+            "bg": {
+              "default": {
+                "type": "color",
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%)"
+              },
+              "hover": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.base.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "high": {
+            "bg": {
+              "default": {
+                "type": "color",
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 74%)"
+              },
+              "hover": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.high.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.high.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "higher": {
+            "bg": {
+              "default": {
+                "type": "color",
+                "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%)"
+              },
+              "hover": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.higher.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "type": "color",
+                "value": "{app.color.surface.elevation.higher.bg.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{app.config.color.accent.darken.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "type": "color",
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 4%, {app.config.color.accent.alpha.border.default})"
+          },
+          "hover": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "{app.config.color.accent.alpha.border.default} + 0.02",
+                  "space": "hsl"
+                }
+              }
+            }
+          },
+          "active": {
+            "type": "color",
+            "value": "{app.color.surface.border.default}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "{app.config.color.accent.alpha.border.default} + 0.02",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%, 1)",
+            "type": "color"
+          },
+          "muted": {
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%, 0.54)",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%, 0.32)",
+            "type": "color"
+          },
+          "inverted": {
+            "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 88%, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "component": {
+        "accent": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 6%, {app.config.color.accent.alpha.bg.default})"
+            },
+            "tone": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 64%)"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 6%, {app.config.color.accent.alpha.border.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            },
+            "muted": {
+              "type": "color",
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%, 0.54)"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%, 0.24)"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.inverted}"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 6%)"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            }
+          }
+        },
+        "primary": {
+          "bg": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 6%, {app.config.color.accent.alpha.bg.default})"
+            },
+            "tone": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 64%)"
+            }
+          },
+          "border": {
+            "solid": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            },
+            "translucent": {
+              "type": "color",
+              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 6%, {app.config.color.accent.alpha.border.default})"
+            }
+          },
+          "fg": {
+            "solid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.default}"
+            },
+            "muted": {
+              "type": "color",
+              "value": "{app.color.surface.fg.muted}"
+            },
+            "subtle": {
+              "type": "color",
+              "value": "{app.color.surface.fg.subtle}"
+            },
+            "onSolid": {
+              "type": "color",
+              "value": "{app.color.surface.fg.inverted}"
+            },
+            "onTone": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            },
+            "onTranslucent": {
+              "type": "color",
+              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 6%)"
+            }
+          }
+        }
+      }
+    },
+    "config": {
+      "color": {
+        "accent": {
+          "hue": {
+            "default": {
+              "value": "60",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "4%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "100%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.04",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.12",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.14",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.06",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "primary": {
+          "hue": {
+            "default": {
+              "value": "60",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "4%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "100%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.04",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.12",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.14",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.06",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        }
+      }
+    }
+  }
+}
