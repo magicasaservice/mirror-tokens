@@ -117,22 +117,13 @@
         "default": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.01",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "transparent",
+              "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.primary.border.translucent}",
+              "value": "{app.color.component.primary.border.translucent.default}",
               "type": "color"
             }
           },
@@ -168,22 +159,13 @@
         "danger": {
           "bg": {
             "default": {
-              "value": "{app.color.component.danger.bg.translucent}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.06",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.component.danger.bg.translucent.default}",
+              "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.danger.border.solid}",
+              "value": "{app.color.component.danger.border.solid.default}",
               "type": "color"
             }
           },
@@ -205,17 +187,8 @@
         "disabled": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.01",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "transparent",
+              "type": "color"
             }
           },
           "border": {

@@ -211,26 +211,17 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.primary.bg.translucent}",
+                  "value": "{app.color.component.primary.bg.translucent.default}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{component.toggle.color.unchecked.track.default.bg.default}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "{component.toggle.config.color.actions.translucent.bg.active}",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "value": "{app.color.component.primary.bg.translucent.active}",
+                  "type": "color"
                 }
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.palette.white}",
+                  "value": "{app.color.component.primary.fg.onTranslucent}",
                   "type": "color"
                 }
               },
@@ -258,7 +249,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.onTranslucent}",
+                  "value": "{app.color.component.disabled.fg.onSolid}",
                   "type": "color"
                 }
               },
@@ -306,21 +297,12 @@
             "default": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.info.bg.solid}",
+                  "value": "{app.color.component.info.bg.solid.default}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{component.toggle.color.checked.track.default.bg.default}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "{component.toggle.config.color.actions.dimmer.active}",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "value": "{app.color.component.info.bg.solid.active}",
+                  "type": "color"
                 }
               },
               "fg": {
@@ -347,7 +329,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.info.bg.solid}",
+                  "value": "{app.color.component.info.bg.solid.default}",
                   "type": "color"
                 }
               },
@@ -392,17 +374,14 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{component.toggle.color.checked.track.disabled.bg.default}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.32",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "value": "{app.color.component.disabled.bg.translucent}",
+                  "type": "color"
+                }
+              },
+              "fg": {
+                "default": {
+                  "value": "{app.color.component.disabled.fg.onTranslucent}",
+                  "type": "color"
                 }
               },
               "border": {

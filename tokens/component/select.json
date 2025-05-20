@@ -123,7 +123,7 @@
           },
           "border": {
             "default": {
-              "value": "{app.color.component.primary.border.translucent}",
+              "value": "{app.color.component.primary.border.translucent.default}",
               "type": "color"
             }
           },
@@ -153,22 +153,13 @@
         "danger": {
           "bg": {
             "default": {
-              "value": "{app.color.component.danger.bg.translucent}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.08",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "value": "{app.color.component.danger.bg.translucent.default}",
+              "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.danger.border.solid}",
+              "value": "{app.color.component.danger.border.solid.default}",
               "type": "color"
             }
           },

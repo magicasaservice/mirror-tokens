@@ -96,47 +96,20 @@
           "solid": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.solid}",
+                "value": "{app.color.component.primary.bg.solid.default}",
                 "type": "color"
               },
               "hover": {
-                "value": "{component.chip.color.default.solid.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.solid.hover}",
+                "type": "color"
               },
               "active": {
-                "value": "{component.chip.color.default.solid.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.solid.active}",
+                "type": "color"
               },
               "dragged": {
-                "value": "{component.chip.color.default.solid.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.solid.active}",
+                "type": "color"
               }
             },
             "fg": {
@@ -149,47 +122,20 @@
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.translucent}",
+                "value": "{app.color.component.primary.bg.translucent.default}",
                 "type": "color"
               },
               "hover": {
-                "value": "{component.chip.color.default.translucent.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.bg.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.translucent.hover}",
+                "type": "color"
               },
               "active": {
-                "value": "{component.chip.color.default.translucent.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.translucent.active}",
+                "type": "color"
               },
               "dragged": {
-                "value": "{component.chip.color.default.translucent.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.translucent.active}",
+                "type": "color"
               }
             },
             "fg": {
@@ -202,67 +148,31 @@
           "outline": {
             "bg": {
               "dragged": {
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.5",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "transparent",
+                "type": "color"
               }
             },
             "border": {
               "default": {
-                "value": "{app.color.component.primary.border.translucent}",
+                "value": "{app.color.component.primary.border.translucent.default}",
                 "type": "color"
               },
               "hover": {
-                "value": "{component.chip.color.default.outline.border.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.border.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.border.translucent.hover}",
+                "type": "color"
               },
               "active": {
-                "value": "{component.chip.color.default.outline.border.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.border.translucent.active}",
+                "type": "color"
               },
               "dragged": {
-                "value": "{component.chip.color.default.outline.border.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "app.color.component.primary.border.translucent.active",
+                "type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.solid}",
+                "value": "{app.color.component.primary.fg.solid.default}",
                 "type": "color"
               }
             }
@@ -270,47 +180,20 @@
           "tone": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.tone}",
+                "value": "{app.color.component.primary.bg.tone.default}",
                 "type": "color"
               },
               "hover": {
-                "value": "{component.chip.color.default.tone.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.tone.hover}",
+                "type": "color"
               },
               "active": {
-                "value": "{component.chip.color.default.tone.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.tone.active}",
+                "type": "color"
               },
               "dragged": {
-                "value": "{component.chip.color.default.tone.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{app.color.component.primary.bg.tone.active}",
+                "type": "color"
               }
             },
             "fg": {
