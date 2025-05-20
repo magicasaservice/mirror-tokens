@@ -394,42 +394,6 @@
         }
       },
       "config": {
-        "color": {
-          "actions": {
-            "translucent": {
-              "bg": {
-                "hover": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
-                  "type": "other"
-                },
-                "active": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
-                  "type": "other"
-                }
-              },
-              "border": {
-                "hover": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent}",
-                  "type": "other"
-                },
-                "active": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent} * 2",
-                  "type": "other"
-                }
-              }
-            },
-            "dimmer": {
-              "hover": {
-                "value": "{app.config.color.actions.dimmer}",
-                "type": "other"
-              },
-              "active": {
-                "value": "{app.config.color.actions.dimmer} * 2",
-                "type": "other"
-              }
-            }
-          }
-        },
         "icon": {
           "step": {
             "value": "0.25rem",
