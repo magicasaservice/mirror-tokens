@@ -633,7 +633,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone.default}",
+                      "value": "{app.config.color.modifier.bg.other.default}",
                       "space": "hsl"
                     }
                   }
@@ -646,7 +646,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -659,7 +659,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1125,7 +1125,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone.default}",
+                      "value": "{app.config.color.modifier.bg.other.default}",
                       "space": "hsl"
                     }
                   }
@@ -1138,7 +1138,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1151,7 +1151,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -3236,20 +3236,6 @@
                 "type": "other"
               }
             },
-            "tone": {
-              "default": {
-                "value": "0.08",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.12",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.18",
-                "type": "other"
-              }
-            },
             "other": {
               "hover": {
                 "value": "0.1",
@@ -3327,12 +3313,16 @@
               "type": "other"
             },
             "other": {
-              "hover": {
+              "default": {
                 "value": "0.1",
                 "type": "other"
               },
-              "active": {
+              "hover": {
                 "value": "0.2",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.3",
                 "type": "other"
               }
             }
