@@ -590,7 +590,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone}",
+                      "value": "{app.config.color.modifier.bg.tone.default}",
                       "space": "hsl"
                     }
                   }
@@ -603,7 +603,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.other.hover}",
+                      "value": "{app.config.color.modifier.bg.tone.hover}",
                       "space": "hsl"
                     }
                   }
@@ -616,7 +616,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.other.active}",
+                      "value": "{app.config.color.modifier.bg.tone.active}",
                       "space": "hsl"
                     }
                   }
@@ -1082,7 +1082,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.tone}",
+                      "value": "{app.config.color.modifier.bg.tone.default}",
                       "space": "hsl"
                     }
                   }
@@ -1095,7 +1095,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.other.hover}",
+                      "value": "{app.config.color.modifier.bg.tone.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1108,7 +1108,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.bg.other.active}",
+                      "value": "{app.config.color.modifier.bg.tone.active}",
                       "space": "hsl"
                     }
                   }
@@ -2213,8 +2213,18 @@
               }
             },
             "tone": {
-              "value": "0.1",
-              "type": "other"
+              "default": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.12",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.18",
+                "type": "other"
+              }
             },
             "other": {
               "hover": {
