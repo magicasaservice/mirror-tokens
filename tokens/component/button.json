@@ -1243,32 +1243,32 @@
             "translucent": {
               "bg": {
                 "hover": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
+                  "value": "{app.config.color.modifier.actions.translucent.bg.hover} ",
                   "type": "other"
                 },
                 "active": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
+                  "value": "{app.config.color.modifier.actions.translucent.bg.active} ",
                   "type": "other"
                 }
               },
               "border": {
                 "hover": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent}",
+                  "value": "{app.config.color.modifier.actions.translucent.border.hover}",
                   "type": "other"
                 },
                 "active": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent} * 2",
+                  "value": "{app.config.color.modifier.actions.translucent.border.active}",
                   "type": "other"
                 }
               }
             },
             "dimmer": {
               "hover": {
-                "value": "{app.config.color.actions.dimmer}",
+                "value": "{app.config.color.modifier.actions.dimmer.hover}",
                 "type": "other"
               },
               "active": {
-                "value": "{app.config.color.actions.dimmer} * 2",
+                "value": "{app.config.color.modifier.actions.dimmer.active}",
                 "type": "other"
               }
             }
