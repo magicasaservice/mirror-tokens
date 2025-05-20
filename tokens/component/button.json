@@ -104,142 +104,6 @@
         }
       },
       "color": {
-        "accent": {
-          "solid": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.accent.bg.solid.default}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.accent.bg.solid.hover}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.bg.solid.active}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.accent.fg.onSolid}",
-                "type": "color"
-              }
-            }
-          },
-          "translucent": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.accent.bg.translucent.default}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.accent.bg.translucent.hover}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.bg.translucent.active}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.accent.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "ghost": {
-            "bg": {
-              "default": {
-                "value": "transparent",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.accent.bg.translucent.hover}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.bg.translucent.active}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.accent.fg.onTranslucent}",
-                "type": "color"
-              }
-            }
-          },
-          "outline": {
-            "border": {
-              "default": {
-                "value": "{app.color.component.accent.border.translucent.default}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.accent.border.translucent.hover}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.border.translucent.active}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.accent.fg.solid.default}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.accent.fg.solid.hover}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.fg.solid.active}",
-                "type": "color"
-              }
-            }
-          },
-          "plain": {
-            "fg": {
-              "default": {
-                "value": "{app.color.component.accent.fg.solid.default}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.accent.fg.solid.hover}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.fg.solid.active}",
-                "type": "color"
-              }
-            }
-          },
-          "tone": {
-            "bg": {
-              "default": {
-                "value": "{app.color.component.accent.bg.tone.default}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{app.color.component.accent.bg.tone.hover}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{app.color.component.accent.bg.tone.active}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{app.color.component.accent.fg.onTone}",
-                "type": "color"
-              }
-            }
-          }
-        },
         "primary": {
           "solid": {
             "bg": {
@@ -507,6 +371,142 @@
             "fg": {
               "default": {
                 "value": "{app.color.component.secondary.fg.onTone}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "accent": {
+          "solid": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.solid.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.solid.hover}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.solid.active}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onSolid}",
+                "type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.translucent.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.translucent.hover}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.translucent.active}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "bg": {
+              "default": {
+                "value": "transparent",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.translucent.hover}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.translucent.active}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTranslucent}",
+                "type": "color"
+              }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "value": "{app.color.component.accent.border.translucent.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.border.translucent.hover}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.border.translucent.active}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.solid.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.fg.solid.hover}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.fg.solid.active}",
+                "type": "color"
+              }
+            }
+          },
+          "plain": {
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.solid.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.fg.solid.hover}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.fg.solid.active}",
+                "type": "color"
+              }
+            }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "value": "{app.color.component.accent.bg.tone.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{app.color.component.accent.bg.tone.hover}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{app.color.component.accent.bg.tone.active}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "{app.color.component.accent.fg.onTone}",
                 "type": "color"
               }
             }
