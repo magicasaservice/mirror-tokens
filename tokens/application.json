@@ -99,178 +99,38 @@
         "elevation": {
           "low": {
             "bg": {
-              "default": {
-                "type": "color",
-                "value": "{app.color.palette.white}"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.palette.white}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.palette.white}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "{app.color.palette.white}"
             }
           },
           "base": {
             "bg": {
-              "default": {
-                "type": "color",
-                "value": "{app.color.palette.grey.low}"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.palette.grey.low}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.palette.grey.low}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "{app.color.palette.grey.low}"
             }
           },
           "high": {
             "bg": {
-              "default": {
-                "type": "color",
-                "value": "{app.color.palette.white}"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.palette.white}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.palette.white}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "{app.color.palette.white}"
             }
           },
           "higher": {
             "bg": {
-              "default": {
-                "type": "color",
-                "value": "{app.color.palette.grey.low}"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.palette.grey.low}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.palette.grey.low}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.modifier.surface.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
+              "type": "color",
+              "value": "{app.color.palette.grey.low}"
             }
           }
         },
         "border": {
-          "default": {
-            "type": "color",
-            "value": "{app.color.palette.black}",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{app.config.color.modifier.translucent.border.default}",
-                  "space": "hsl"
-                }
-              }
-            }
-          },
-          "hover": {
-            "type": "color",
-            "value": "{app.color.surface.border.default}",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{app.config.color.modifier.translucent.border.hover}",
-                  "space": "hsl"
-                }
-              }
-            }
-          },
-          "active": {
-            "type": "color",
-            "value": "{app.color.surface.border.default}",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{app.config.color.modifier.translucent.border.active}",
-                  "space": "hsl"
-                }
+          "type": "color",
+          "value": "{app.color.palette.black}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{app.config.color.modifier.border.translucent.default}",
+                "space": "hsl"
               }
             }
           }
@@ -287,7 +147,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                  "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                   "space": "hsl"
                 }
               }
@@ -322,7 +182,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.fg.hover}",
+                    "value": "{app.config.color.modifier.fg.other.hover}",
                     "space": "hsl"
                   }
                 }
@@ -335,7 +195,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.fg.active}",
+                    "value": "{app.config.color.modifier.fg.other.active}",
                     "space": "hsl"
                   }
                 }
@@ -371,7 +231,7 @@
             }
           }
         },
-        "other": {
+        "dimmer": {
           "default": {
             "value": "{app.color.palette.black}",
             "type": "color",
@@ -402,7 +262,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -415,7 +275,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -430,7 +290,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.default}",
+                      "value": "{app.config.color.modifier.bg.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -443,7 +303,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.hover} ",
+                      "value": "{app.config.color.modifier.bg.translucent.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -456,7 +316,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.active} ",
+                      "value": "{app.config.color.modifier.bg.translucent.active} ",
                       "space": "hsl"
                     }
                   }
@@ -475,7 +335,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -488,7 +348,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -504,7 +364,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.border.default}",
+                    "value": "{app.config.color.modifier.border.other.default}",
                     "space": "hsl"
                   }
                 }
@@ -518,7 +378,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.default}",
+                      "value": "{app.config.color.modifier.border.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -531,7 +391,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.hover}",
+                      "value": "{app.config.color.modifier.border.translucent.hover}",
                       "space": "hsl"
                     }
                   }
@@ -544,7 +404,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.active}",
+                      "value": "{app.config.color.modifier.border.translucent.active}",
                       "space": "hsl"
                     }
                   }
@@ -565,7 +425,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.hover}",
+                      "value": "{app.config.color.modifier.fg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -578,7 +438,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.active}",
+                      "value": "{app.config.color.modifier.fg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -593,7 +453,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                      "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                       "space": "hsl"
                     }
                   }
@@ -606,7 +466,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.translucent.fg.muted.hover}",
+                      "value": "{app.config.color.modifier.fg.translucent.muted.hover}",
                       "space": "hsl"
                     }
                   }
@@ -619,7 +479,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.translucent.fg.muted.active}",
+                      "value": "{app.config.color.modifier.fg.translucent.muted.active}",
                       "space": "hsl"
                     }
                   }
@@ -634,7 +494,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.fg.subtle.default}",
+                      "value": "{app.config.color.modifier.fg.translucent.subtle.default}",
                       "space": "hsl"
                     }
                   }
@@ -647,7 +507,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.translucent.fg.subtle.hover}",
+                      "value": "{app.config.color.modifier.fg.translucent.subtle.hover}",
                       "space": "hsl"
                     }
                   }
@@ -660,7 +520,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.translucent.fg.subtle.active}",
+                      "value": "{app.config.color.modifier.fg.translucent.subtle.active}",
                       "space": "hsl"
                     }
                   }
@@ -704,7 +564,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -717,7 +577,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -732,7 +592,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.default}",
+                      "value": "{app.config.color.modifier.bg.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -745,7 +605,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.hover} ",
+                      "value": "{app.config.color.modifier.bg.translucent.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -758,7 +618,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.active} ",
+                      "value": "{app.config.color.modifier.bg.translucent.active} ",
                       "space": "hsl"
                     }
                   }
@@ -773,7 +633,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.tone}",
+                      "value": "{app.config.color.modifier.tone.bg}",
                       "space": "hsl"
                     }
                   }
@@ -786,7 +646,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -799,7 +659,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -815,7 +675,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.border.default}",
+                    "value": "{app.config.color.modifier.border.other.default}",
                     "space": "hsl"
                   }
                 }
@@ -829,7 +689,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.default}",
+                      "value": "{app.config.color.modifier.border.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -842,7 +702,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.hover}",
+                      "value": "{app.config.color.modifier.border.translucent.hover}",
                       "space": "hsl"
                     }
                   }
@@ -855,7 +715,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.active}",
+                      "value": "{app.config.color.modifier.border.translucent.active}",
                       "space": "hsl"
                     }
                   }
@@ -876,7 +736,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.hover}",
+                      "value": "{app.config.color.modifier.fg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -889,7 +749,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.active}",
+                      "value": "{app.config.color.modifier.fg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -903,7 +763,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                     "space": "hsl"
                   }
                 }
@@ -916,7 +776,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.subtle.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.subtle.default}",
                     "space": "hsl"
                   }
                 }
@@ -950,7 +810,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -963,7 +823,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -978,7 +838,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.default}",
+                      "value": "{app.config.color.modifier.bg.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -991,7 +851,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.hover} ",
+                      "value": "{app.config.color.modifier.bg.translucent.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -1004,7 +864,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.active} ",
+                      "value": "{app.config.color.modifier.bg.translucent.active} ",
                       "space": "hsl"
                     }
                   }
@@ -1023,7 +883,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1036,7 +896,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1052,7 +912,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.border.default}",
+                    "value": "{app.config.color.modifier.border.other.default}",
                     "space": "hsl"
                   }
                 }
@@ -1066,7 +926,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.default}",
+                      "value": "{app.config.color.modifier.border.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1079,7 +939,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.hover}",
+                      "value": "{app.config.color.modifier.border.translucent.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1092,7 +952,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.active}",
+                      "value": "{app.config.color.modifier.border.translucent.active}",
                       "space": "hsl"
                     }
                   }
@@ -1113,7 +973,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.hover}",
+                      "value": "{app.config.color.modifier.fg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1126,7 +986,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.active}",
+                      "value": "{app.config.color.modifier.fg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1140,7 +1000,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                     "space": "hsl"
                   }
                 }
@@ -1153,7 +1013,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.subtle.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.subtle.default}",
                     "space": "hsl"
                   }
                 }
@@ -1196,7 +1056,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1209,7 +1069,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1224,7 +1084,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.default}",
+                      "value": "{app.config.color.modifier.bg.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1237,7 +1097,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.hover} ",
+                      "value": "{app.config.color.modifier.bg.translucent.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -1250,7 +1110,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.active} ",
+                      "value": "{app.config.color.modifier.bg.translucent.active} ",
                       "space": "hsl"
                     }
                   }
@@ -1265,7 +1125,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.tone}",
+                      "value": "{app.config.color.modifier.tone.bg}",
                       "space": "hsl"
                     }
                   }
@@ -1278,7 +1138,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1291,7 +1151,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1308,7 +1168,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.border.default}",
+                      "value": "{app.config.color.modifier.border.other.default}",
                       "space": "hsl"
                     }
                   }
@@ -1321,7 +1181,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.border.active}",
+                      "value": "{app.config.color.modifier.border.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1336,7 +1196,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.default}",
+                      "value": "{app.config.color.modifier.border.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1349,7 +1209,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.hover}",
+                      "value": "{app.config.color.modifier.border.translucent.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1362,7 +1222,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.active}",
+                      "value": "{app.config.color.modifier.border.translucent.active}",
                       "space": "hsl"
                     }
                   }
@@ -1383,7 +1243,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.hover}",
+                      "value": "{app.config.color.modifier.fg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1396,7 +1256,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.active}",
+                      "value": "{app.config.color.modifier.fg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1410,7 +1270,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                     "space": "hsl"
                   }
                 }
@@ -1423,7 +1283,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.subtle.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.subtle.default}",
                     "space": "hsl"
                   }
                 }
@@ -1466,7 +1326,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1479,7 +1339,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1494,7 +1354,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.default}",
+                      "value": "{app.config.color.modifier.bg.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1507,7 +1367,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.hover} ",
+                      "value": "{app.config.color.modifier.bg.translucent.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -1520,7 +1380,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.active} ",
+                      "value": "{app.config.color.modifier.bg.translucent.active} ",
                       "space": "hsl"
                     }
                   }
@@ -1539,7 +1399,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1552,7 +1412,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1568,7 +1428,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.border.default}",
+                    "value": "{app.config.color.modifier.border.other.default}",
                     "space": "hsl"
                   }
                 }
@@ -1582,7 +1442,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.default}",
+                      "value": "{app.config.color.modifier.border.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1595,7 +1455,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.hover}",
+                      "value": "{app.config.color.modifier.border.translucent.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1608,7 +1468,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.active}",
+                      "value": "{app.config.color.modifier.border.translucent.active}",
                       "space": "hsl"
                     }
                   }
@@ -1629,7 +1489,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.hover}",
+                      "value": "{app.config.color.modifier.fg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1642,7 +1502,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.active}",
+                      "value": "{app.config.color.modifier.fg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1656,7 +1516,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                     "space": "hsl"
                   }
                 }
@@ -1669,7 +1529,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.subtle.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.subtle.default}",
                     "space": "hsl"
                   }
                 }
@@ -1712,7 +1572,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1725,7 +1585,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1740,7 +1600,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.default}",
+                      "value": "{app.config.color.modifier.bg.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1753,7 +1613,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.hover} ",
+                      "value": "{app.config.color.modifier.bg.translucent.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -1766,7 +1626,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.active} ",
+                      "value": "{app.config.color.modifier.bg.translucent.active} ",
                       "space": "hsl"
                     }
                   }
@@ -1785,7 +1645,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1798,7 +1658,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1814,7 +1674,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.border.default}",
+                    "value": "{app.config.color.modifier.border.other.default}",
                     "space": "hsl"
                   }
                 }
@@ -1828,7 +1688,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.default}",
+                      "value": "{app.config.color.modifier.border.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1841,7 +1701,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.hover}",
+                      "value": "{app.config.color.modifier.border.translucent.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1854,7 +1714,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.active}",
+                      "value": "{app.config.color.modifier.border.translucent.active}",
                       "space": "hsl"
                     }
                   }
@@ -1875,7 +1735,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.hover}",
+                      "value": "{app.config.color.modifier.fg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1888,7 +1748,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.active}",
+                      "value": "{app.config.color.modifier.fg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1902,7 +1762,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                     "space": "hsl"
                   }
                 }
@@ -1915,7 +1775,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.subtle.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.subtle.default}",
                     "space": "hsl"
                   }
                 }
@@ -1958,7 +1818,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -1971,7 +1831,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -1986,7 +1846,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.default}",
+                      "value": "{app.config.color.modifier.bg.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -1999,7 +1859,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.hover} ",
+                      "value": "{app.config.color.modifier.bg.translucent.hover} ",
                       "space": "hsl"
                     }
                   }
@@ -2012,7 +1872,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.bg.active} ",
+                      "value": "{app.config.color.modifier.bg.translucent.active} ",
                       "space": "hsl"
                     }
                   }
@@ -2031,7 +1891,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.hover}",
+                      "value": "{app.config.color.modifier.bg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -2044,7 +1904,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.bg.active}",
+                      "value": "{app.config.color.modifier.bg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -2061,7 +1921,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.border.default}",
+                      "value": "{app.config.color.modifier.border.other.default}",
                       "space": "hsl"
                     }
                   }
@@ -2074,7 +1934,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.border.hover}",
+                      "value": "{app.config.color.modifier.border.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -2087,7 +1947,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.border.active}",
+                      "value": "{app.config.color.modifier.border.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -2102,7 +1962,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.default}",
+                      "value": "{app.config.color.modifier.border.translucent.default}",
                       "space": "hsl"
                     }
                   }
@@ -2115,7 +1975,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.hover}",
+                      "value": "{app.config.color.modifier.border.translucent.hover}",
                       "space": "hsl"
                     }
                   }
@@ -2128,7 +1988,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{app.config.color.modifier.translucent.border.active}",
+                      "value": "{app.config.color.modifier.border.translucent.active}",
                       "space": "hsl"
                     }
                   }
@@ -2149,7 +2009,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.hover}",
+                      "value": "{app.config.color.modifier.fg.other.hover}",
                       "space": "hsl"
                     }
                   }
@@ -2162,7 +2022,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{app.config.color.modifier.other.fg.active}",
+                      "value": "{app.config.color.modifier.fg.other.active}",
                       "space": "hsl"
                     }
                   }
@@ -2176,7 +2036,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.muted.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.muted.default}",
                     "space": "hsl"
                   }
                 }
@@ -2189,7 +2049,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.fg.subtle.default}",
+                    "value": "{app.config.color.modifier.fg.translucent.subtle.default}",
                     "space": "hsl"
                   }
                 }
@@ -2324,7 +2184,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{app.config.color.modifier.other.focusRing}",
+                    "value": "0.20",
                     "space": "hsl"
                   }
                 }
@@ -2339,7 +2199,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{app.config.color.modifier.translucent.focusRing}",
+                    "value": "0.32",
                     "space": "hsl"
                   }
                 }
@@ -3361,8 +3221,8 @@
       },
       "color": {
         "modifier": {
-          "translucent": {
-            "bg": {
+          "bg": {
+            "translucent": {
               "default": {
                 "value": "0.16",
                 "type": "other"
@@ -3376,7 +3236,23 @@
                 "type": "other"
               }
             },
-            "border": {
+            "tone": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "other": {
+              "hover": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.2",
+                "type": "other"
+              }
+            }
+          },
+          "border": {
+            "translucent": {
               "default": {
                 "value": "0.24",
                 "type": "other"
@@ -3390,7 +3266,23 @@
                 "type": "other"
               }
             },
-            "fg": {
+            "other": {
+              "default": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.2",
+                "type": "other"
+              }
+            }
+          },
+          "fg": {
+            "translucent": {
               "subtle": {
                 "default": {
                   "value": "0.32",
@@ -3420,67 +3312,19 @@
                 }
               }
             },
-            "focusRing": {
-              "value": "0.32",
-              "type": "other"
-            }
-          },
-          "other": {
-            "bg": {
-              "hover": {
-                "value": "0.1",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.2",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "hover": {
-                "value": "0.1",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.2",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.1",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.2",
-                "type": "other"
-              }
-            },
             "onTranslucent": {
               "value": "0.1",
               "type": "other"
             },
-            "tone": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "focusRing": {
-              "value": "0.20",
-              "type": "other"
-            }
-          },
-          "surface": {
-            "hover": {
-              "value": "0.08",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.16",
-              "type": "other"
+            "other": {
+              "hover": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.2",
+                "type": "other"
+              }
             }
           }
         }
