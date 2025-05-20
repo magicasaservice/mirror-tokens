@@ -242,7 +242,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.modifier.translucent}",
+                  "value": "{app.config.color.modifier.translucent.border.default}",
                   "space": "hsl"
                 }
               }
@@ -250,12 +250,12 @@
           },
           "hover": {
             "type": "color",
-            "value": "{app.color.surface.border.default}",
+            "value": "{app.color.palette.grey.high}",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.modifier.translucent} * 2",
+                  "value": "{app.config.color.modifier.translucent.border.hover}",
                   "space": "hsl"
                 }
               }
@@ -263,12 +263,12 @@
           },
           "active": {
             "type": "color",
-            "value": "{app.color.surface.border.default}",
+            "value": "{app.color.palette.grey.high}",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{app.config.color.modifier.translucent} * 3",
+                  "value": "{app.config.color.modifier.translucent.border.active}",
                   "space": "hsl"
                 }
               }
