@@ -204,5 +204,27 @@
         }
       }
     }
+  },
+  "app": {
+    "color": {
+      "component": {
+        "primary": {
+          "fg": {
+            "onSolid": {
+              "$value": "{config.color.palette.black}",
+              "$type": "color"
+            }
+          }
+        },
+        "accent": {
+          "fg": {
+            "onSolid": {
+              "$value": "{config.color.palette.black}",
+              "$type": "color"
+            }
+          }
+        }
+      }
+    }
   }
 }
