@@ -279,7 +279,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.onTranslucent}",
+                  "value": "{app.color.component.disabled.fg.onSolid}",
                   "type": "color"
                 }
               },
@@ -329,23 +329,14 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.info.bg.solid.default}",
+                  "value": "{app.color.component.disabled.bg.solid}",
                   "type": "color"
                 }
               },
               "fg": {
                 "default": {
-                  "value": "{component.toggle.color.checked.track.disabled.bg.default}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.32",
-                        "space": "hsl"
-                      }
-                    }
-                  }
+                  "value": "{app.color.component.disabled.fg.onSolid}",
+                  "type": "color"
                 }
               },
               "border": {
@@ -374,13 +365,7 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.translucent}",
-                  "type": "color"
-                }
-              },
-              "fg": {
-                "default": {
-                  "value": "{app.color.component.disabled.fg.onTranslucent}",
+                  "value": "{app.color.component.disabled.fg.onSolid}",
                   "type": "color"
                 }
               },
