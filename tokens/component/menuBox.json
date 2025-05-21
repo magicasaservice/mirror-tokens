@@ -4,74 +4,65 @@
       "dimension": {
         "padding": {
           "x": {
-            "value": "0.25rem",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "0.25rem"
           },
           "y": {
-            "value": "0.25rem",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "0.25rem"
           }
         },
         "gap": {
           "default": {
-            "value": "0rem",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "0rem"
           }
         },
         "blur": {
           "default": {
-            "value": "8rem",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "8rem"
           }
         },
         "radius": {
           "xs": {
-            "value": "{app.dimension.control.radius.xs} + {component.menuBox.dimension.padding.x}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.radius.xs} + {component.menuBox.dimension.padding.x}"
           },
           "sm": {
-            "value": "{app.dimension.control.radius.sm} + {component.menuBox.dimension.padding.x}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.radius.sm} + {component.menuBox.dimension.padding.x}"
           },
           "md": {
-            "value": "{app.dimension.control.radius.md} + {component.menuBox.dimension.padding.x}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.radius.md} + {component.menuBox.dimension.padding.x}"
           },
           "lg": {
-            "value": "{app.dimension.control.radius.lg} + {component.menuBox.dimension.padding.x}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.radius.lg} + {component.menuBox.dimension.padding.x}"
           }
         },
         "border": {
           "default": {
-            "value": "{app.dimension.control.border.default}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.border.default}"
           }
         }
       },
       "color": {
         "bg": {
-          "value": "{app.color.surface.elevation.base.bg.default}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.8",
-                "space": "hsl"
-              }
-            }
-          }
+          "$type": "color",
+          "$value": "{app.color.surface.elevation.high.bg}"
         },
         "border": {
-          "value": "transparent",
-          "type": "color"
+          "$type": "color",
+          "$value": "transparent"
         }
       },
       "boxShadow": {
         "default": {
-          "value": "{app.boxShadow.component.high.default}",
-          "type": "boxShadow"
+          "$type": "boxShadow",
+          "$value": "{app.boxShadow.component.high.default}"
         }
       }
     }

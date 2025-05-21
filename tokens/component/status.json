@@ -4,52 +4,52 @@
       "color": {
         "primary": {
           "bg": {
-            "value": "{app.color.component.accent.bg.solid}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{app.color.component.accent.bg.solid.default}"
           },
           "border": {
-            "value": "transparent",
-            "type": "color"
+            "$type": "color",
+            "$value": "transparent"
           }
         },
         "info": {
           "bg": {
-            "value": "{app.color.component.info.bg.solid}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{app.color.component.info.bg.solid.default}"
           },
           "border": {
-            "value": "transparent",
-            "type": "color"
+            "$type": "color",
+            "$value": "transparent"
           }
         },
         "success": {
           "bg": {
-            "value": "{app.color.component.success.bg.solid}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{app.color.component.success.bg.solid.default}"
           },
           "border": {
-            "value": "transparent",
-            "type": "color"
+            "$type": "color",
+            "$value": "transparent"
           }
         },
         "warning": {
           "bg": {
-            "value": "{app.color.component.warning.bg.solid}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{app.color.component.warning.bg.solid.default}"
           },
           "border": {
-            "value": "transparent",
-            "type": "color"
+            "$type": "color",
+            "$value": "transparent"
           }
         },
         "danger": {
           "bg": {
-            "value": "{app.color.component.danger.bg.solid}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{app.color.component.danger.bg.solid.default}"
           },
           "border": {
-            "value": "transparent",
-            "type": "color"
+            "$type": "color",
+            "$value": "transparent"
           }
         }
       },
@@ -58,178 +58,178 @@
           "height": {
             "xs": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.sm.default} - {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.sm.default} - {component.status.config.indicator.height.step}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.xs.default} - {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xs.default} - {component.status.config.indicator.height.step}"
               }
             },
             "sm": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.md.default} - {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.default} - {component.status.config.indicator.height.step}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.sm.default} - {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.sm.default} - {component.status.config.indicator.height.step}"
               }
             },
             "md": {
               "default": {
-                "value": "{component.status.config.indicator.height.default}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.config.indicator.height.default}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.md.default} - {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.default} - {component.status.config.indicator.height.step}"
               }
             },
             "lg": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.md.default} + {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.default} + {component.status.config.indicator.height.step}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.lg.default} - {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.lg.default} - {component.status.config.indicator.height.step}"
               }
             },
             "xl": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.lg.default} + {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.lg.default} + {component.status.config.indicator.height.step}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.xl.default} - {component.status.config.indicator.height.step}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xl.default} - {component.status.config.indicator.height.step}"
               }
             }
           },
           "width": {
             "xs": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.xs.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xs.default} * {component.status.config.indicator.width.ratio}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.xs.inline} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xs.inline} * {component.status.config.indicator.width.ratio}"
               }
             },
             "sm": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.sm.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.sm.default} * {component.status.config.indicator.width.ratio}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.sm.inline} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.sm.inline} * {component.status.config.indicator.width.ratio}"
               }
             },
             "md": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.md.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.default} * {component.status.config.indicator.width.ratio}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.md.inline} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.inline} * {component.status.config.indicator.width.ratio}"
               }
             },
             "lg": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.lg.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.lg.default} * {component.status.config.indicator.width.ratio}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.lg.inline} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.lg.inline} * {component.status.config.indicator.width.ratio}"
               }
             },
             "xl": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.xl.default} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xl.default} * {component.status.config.indicator.width.ratio}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.xl.inline} * {component.status.config.indicator.width.ratio}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xl.inline} * {component.status.config.indicator.width.ratio}"
               }
             }
           },
           "border": {
             "xs": {
-              "value": "{app.dimension.label.border.thin}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.label.border.thin}"
             },
             "sm": {
-              "value": "{app.dimension.label.border.thin}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.label.border.thin}"
             },
             "md": {
-              "value": "{app.dimension.label.border.thin}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.label.border.thin}"
             },
             "lg": {
-              "value": "{app.dimension.label.border.thin}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.label.border.thin}"
             },
             "xl": {
-              "value": "{app.dimension.label.border.thin}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.label.border.thin}"
             }
           },
           "radius": {
             "xs": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.xs.default} / 2 - {component.status.config.indicator.radius.default}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xs.default} / 2 - {component.status.config.indicator.radius.default}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.xs.default} - {component.status.config.indicator.height.step} / 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.xs.default} - {component.status.config.indicator.height.step} / 2"
               }
             },
             "sm": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.sm.default} / 2 - {component.status.config.indicator.radius.default}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.sm.default} / 2 - {component.status.config.indicator.radius.default}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.sm.default} - {component.status.config.indicator.height.step} / 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.sm.default} - {component.status.config.indicator.height.step} / 2"
               }
             },
             "md": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.md.default} / 2 - {component.status.config.indicator.radius.default}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.default} / 2 - {component.status.config.indicator.radius.default}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.md.default} - {component.status.config.indicator.height.step} / 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.md.default} - {component.status.config.indicator.height.step} / 2"
               }
             },
             "lg": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.lg.default} / 2 - {component.status.config.indicator.radius.default}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.lg.default} / 2 - {component.status.config.indicator.radius.default}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.lg.default} - {component.status.config.indicator.height.step} / 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.lg.default} - {component.status.config.indicator.height.step} / 2"
               }
             },
             "xl": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.xl.default} / 2 - {component.status.config.indicator.radius.default}",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xl.default} / 2 - {component.status.config.indicator.radius.default}"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.xl.default} - {component.status.config.indicator.height.step} / 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.xl.default} - {component.status.config.indicator.height.step} / 2"
               }
             }
           },
@@ -238,104 +238,104 @@
               "top": {
                 "xs": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.xs.default} - {component.status.dimension.indicator.height.xs.default}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xs.default} - {component.status.dimension.indicator.height.xs.default}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.xs.inline} - {component.status.dimension.indicator.height.xs.inline}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xs.inline} - {component.status.dimension.indicator.height.xs.inline}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.sm.default} - {component.status.dimension.indicator.height.sm.default}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.sm.default} - {component.status.dimension.indicator.height.sm.default}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.sm.inline} - {component.status.dimension.indicator.height.sm.inline}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.sm.inline} - {component.status.dimension.indicator.height.sm.inline}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.md.default} - {component.status.dimension.indicator.height.md.default}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.md.default} - {component.status.dimension.indicator.height.md.default}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.md.inline} - {component.status.dimension.indicator.height.md.inline}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.md.inline} - {component.status.dimension.indicator.height.md.inline}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.lg.default} - {component.status.dimension.indicator.height.lg.default}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.lg.default} - {component.status.dimension.indicator.height.lg.default}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.lg.inline} - {component.status.dimension.indicator.height.lg.inline}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.lg.inline} - {component.status.dimension.indicator.height.lg.inline}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.xl.default} - {component.status.dimension.indicator.height.xl.default}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xl.default} - {component.status.dimension.indicator.height.xl.default}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.xl.inline} - {component.status.dimension.indicator.height.xl.inline}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xl.inline} - {component.status.dimension.indicator.height.xl.inline}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2"
                   }
                 }
               },
               "left": {
                 "xs": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.xs.default} - {component.status.dimension.indicator.width.xs.default}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xs.default} - {component.status.dimension.indicator.width.xs.default}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.xs.inline} - {component.status.dimension.indicator.width.xs.inline}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xs.inline} - {component.status.dimension.indicator.width.xs.inline}) - {component.avatar.dimension.radius.primary.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.sm.default} - {component.status.dimension.indicator.width.sm.default}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.sm.default} - {component.status.dimension.indicator.width.sm.default}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.sm.inline} - {component.status.dimension.indicator.width.sm.inline}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.sm.inline} - {component.status.dimension.indicator.width.sm.inline}) - {component.avatar.dimension.radius.primary.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.md.default} - {component.status.dimension.indicator.width.md.default}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.md.default} - {component.status.dimension.indicator.width.md.default}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.md.inline} - {component.status.dimension.indicator.width.md.inline}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.md.inline} - {component.status.dimension.indicator.width.md.inline}) - {component.avatar.dimension.radius.primary.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.lg.default} - {component.status.dimension.indicator.width.lg.default}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.lg.default} - {component.status.dimension.indicator.width.lg.default}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.lg.inline} - {component.status.dimension.indicator.width.lg.inline}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.lg.inline} - {component.status.dimension.indicator.width.lg.inline}) - {component.avatar.dimension.radius.primary.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.xl.default} - {component.status.dimension.indicator.width.xl.default}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xl.default} - {component.status.dimension.indicator.width.xl.default}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.xl.inline} - {component.status.dimension.indicator.width.xl.inline}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xl.inline} - {component.status.dimension.indicator.width.xl.inline}) - {component.avatar.dimension.radius.primary.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2"
                   }
                 }
               }
@@ -344,104 +344,104 @@
               "top": {
                 "xs": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.xs.default} - {component.status.dimension.indicator.height.xs.default}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xs.default} - {component.status.dimension.indicator.height.xs.default}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.xs.inline} - {component.status.dimension.indicator.height.xs.inline}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xs.inline} - {component.status.dimension.indicator.height.xs.inline}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.sm.default} - {component.status.dimension.indicator.height.sm.default}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.sm.default} - {component.status.dimension.indicator.height.sm.default}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.sm.inline} - {component.status.dimension.indicator.height.sm.inline}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.sm.inline} - {component.status.dimension.indicator.height.sm.inline}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.md.default} - {component.status.dimension.indicator.height.md.default}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.md.default} - {component.status.dimension.indicator.height.md.default}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.md.inline} - {component.status.dimension.indicator.height.md.inline}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.md.inline} - {component.status.dimension.indicator.height.md.inline}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.lg.default} - {component.status.dimension.indicator.height.lg.default}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.lg.default} - {component.status.dimension.indicator.height.lg.default}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.lg.inline} - {component.status.dimension.indicator.height.lg.inline}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.lg.inline} - {component.status.dimension.indicator.height.lg.inline}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "({component.avatar.dimension.height.xl.default} - {component.status.dimension.indicator.height.xl.default}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xl.default} - {component.status.dimension.indicator.height.xl.default}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.height.xl.inline} - {component.status.dimension.indicator.height.xl.inline}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.height.xl.inline} - {component.status.dimension.indicator.height.xl.inline}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2"
                   }
                 }
               },
               "left": {
                 "xs": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.xs.default} - {component.status.dimension.indicator.width.xs.default}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xs.default} - {component.status.dimension.indicator.width.xs.default}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.xs.inline} - {component.status.dimension.indicator.width.xs.inline}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xs.inline} - {component.status.dimension.indicator.width.xs.inline}) - {component.avatar.dimension.radius.xs.default} * 0.31415926535 + {component.status.dimension.indicator.height.xs.inline} / 2"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.sm.default} - {component.status.dimension.indicator.width.sm.default}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.sm.default} - {component.status.dimension.indicator.width.sm.default}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.sm.inline} - {component.status.dimension.indicator.width.sm.inline}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.sm.inline} - {component.status.dimension.indicator.width.sm.inline}) - {component.avatar.dimension.radius.sm.default} * 0.31415926535 + {component.status.dimension.indicator.height.sm.inline} / 2"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.md.default} - {component.status.dimension.indicator.width.md.default}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.md.default} - {component.status.dimension.indicator.width.md.default}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.md.inline} - {component.status.dimension.indicator.width.md.inline}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.md.inline} - {component.status.dimension.indicator.width.md.inline}) - {component.avatar.dimension.radius.md.default} * 0.31415926535 + {component.status.dimension.indicator.height.md.inline} / 2"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.lg.default} - {component.status.dimension.indicator.width.lg.default}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.lg.default} - {component.status.dimension.indicator.width.lg.default}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.lg.inline} - {component.status.dimension.indicator.width.lg.inline}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.lg.inline} - {component.status.dimension.indicator.width.lg.inline}) - {component.avatar.dimension.radius.lg.default} * 0.31415926535 + {component.status.dimension.indicator.height.lg.inline} / 2"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "({component.avatar.dimension.width.xl.default} - {component.status.dimension.indicator.width.xl.default}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xl.default} - {component.status.dimension.indicator.width.xl.default}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.default} / 2"
                   },
                   "inline": {
-                    "value": "({component.avatar.dimension.width.xl.inline} - {component.status.dimension.indicator.width.xl.inline}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "({component.avatar.dimension.width.xl.inline} - {component.status.dimension.indicator.width.xl.inline}) - {component.avatar.dimension.radius.xl.default} * 0.31415926535 + {component.status.dimension.indicator.height.xl.inline} / 2"
                   }
                 }
               }
@@ -452,156 +452,156 @@
           "height": {
             "xs": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.xs.default} + {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xs.default} + {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.xs.inline} + {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xs.inline} + {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "sm": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.sm.default} + {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.sm.default} + {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.sm.inline} + {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.sm.inline} + {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "md": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.md.default} + {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.default} + {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.md.inline} + {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.md.inline} + {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "lg": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.lg.default} + {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.lg.default} + {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.lg.inline} + {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.lg.inline} + {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "xl": {
               "default": {
-                "value": "{component.status.dimension.indicator.height.xl.default} + {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xl.default} + {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.height.xl.inline} + {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.height.xl.inline} + {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default} * 2"
               }
             }
           },
           "width": {
             "xs": {
               "default": {
-                "value": "{component.status.dimension.indicator.width.xs.default} + {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.xs.default} + {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.width.xs.inline} + {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.xs.inline} + {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "sm": {
               "default": {
-                "value": "{component.status.dimension.indicator.width.sm.default} + {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.sm.default} + {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.width.sm.inline} + {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.sm.inline} + {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "md": {
               "default": {
-                "value": "{component.status.dimension.indicator.width.md.default} + {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.md.default} + {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.width.md.inline} + {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.md.inline} + {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "lg": {
               "default": {
-                "value": "{component.status.dimension.indicator.width.lg.default} + {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.lg.default} + {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.width.lg.inline} + {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.lg.inline} + {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default} * 2"
               }
             },
             "xl": {
               "default": {
-                "value": "{component.status.dimension.indicator.width.xl.default} + {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.xl.default} + {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default} * 2"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.width.xl.inline} + {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default} * 2",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.width.xl.inline} + {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default} * 2"
               }
             }
           },
           "radius": {
             "xs": {
               "default": {
-                "value": "{component.status.dimension.indicator.radius.xs.default} + ({component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.xs.default} + ({component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default})"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.xs.inline} + ({component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.xs.inline} + ({component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default})"
               }
             },
             "sm": {
               "default": {
-                "value": "{component.status.dimension.indicator.radius.sm.default} + ({component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.sm.default} + ({component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default})"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.sm.inline} + ({component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.sm.inline} + ({component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default})"
               }
             },
             "md": {
               "default": {
-                "value": "{component.status.dimension.indicator.radius.md.default} + ({component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.md.default} + ({component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default})"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.md.inline} + ({component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.md.inline} + ({component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default})"
               }
             },
             "lg": {
               "default": {
-                "value": "{component.status.dimension.indicator.radius.lg.default} + ({component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.lg.default} + ({component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default})"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.lg.inline} + ({component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.lg.inline} + ({component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default})"
               }
             },
             "xl": {
               "default": {
-                "value": "{component.status.dimension.indicator.radius.xl.default} + ({component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.xl.default} + ({component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default})"
               },
               "inline": {
-                "value": "{component.status.dimension.indicator.radius.xl.inline} + ({component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default})",
-                "type": "dimension"
+                "$type": "dimension",
+                "$value": "{component.status.dimension.indicator.radius.xl.inline} + ({component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default})"
               }
             }
           },
@@ -610,104 +610,104 @@
               "top": {
                 "xs": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.top.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.top.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}"
                   }
                 }
               },
               "left": {
                 "xs": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.primary.left.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.primary.left.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}"
                   }
                 }
               }
@@ -716,104 +716,104 @@
               "top": {
                 "xs": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.top.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.top.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}"
                   }
                 }
               },
               "left": {
                 "xs": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.xs.default} - {component.status.dimension.indicator.height.xs.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.xs.inline} - {component.status.dimension.indicator.height.xs.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "sm": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.sm.default} - {component.status.dimension.indicator.height.sm.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.sm.inline} - {component.status.dimension.indicator.height.sm.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "md": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.md.default} - {component.status.dimension.indicator.height.md.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.md.inline} - {component.status.dimension.indicator.height.md.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "lg": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.lg.default} - {component.status.dimension.indicator.height.lg.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.lg.inline} - {component.status.dimension.indicator.height.lg.inline} * {component.status.config.mask.offset.default}"
                   }
                 },
                 "xl": {
                   "default": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.xl.default} - {component.status.dimension.indicator.height.xl.default} * {component.status.config.mask.offset.default}"
                   },
                   "inline": {
-                    "value": "{component.status.dimension.indicator.offset.secondary.left.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}",
-                    "type": "dimension"
+                    "$type": "dimension",
+                    "$value": "{component.status.dimension.indicator.offset.secondary.left.xl.inline} - {component.status.dimension.indicator.height.xl.inline} * {component.status.config.mask.offset.default}"
                   }
                 }
               }
@@ -825,34 +825,34 @@
         "indicator": {
           "height": {
             "default": {
-              "value": "0.5rem",
-              "type": "other"
+              "$type": "other",
+              "$value": "0.5rem"
             },
             "step": {
-              "value": "0.0625rem",
-              "type": "other"
+              "$type": "other",
+              "$value": "0.0625rem"
             }
           },
           "width": {
             "ratio": {
-              "value": "1",
-              "type": "other",
-              "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
+              "$type": "other",
+              "$value": "1",
+              "$description": "ratio defines the width / 1 = square / 1.5 = rectangle"
             }
           },
           "radius": {
             "default": {
-              "value": "0.0625rem",
-              "type": "other",
-              "description": "0rem = rounded / change value to 0.125rem to make it more square."
+              "$type": "other",
+              "$value": "0.0625rem",
+              "$description": "0rem = rounded / change value to 0.125rem to make it more square."
             }
           }
         },
         "mask": {
           "offset": {
             "default": {
-              "value": "0.33333",
-              "type": "other"
+              "$type": "other",
+              "$value": "0.33333"
             }
           }
         }

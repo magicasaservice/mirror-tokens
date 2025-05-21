@@ -3,164 +3,164 @@
     "slider": {
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
+          "$type": "fontFamilies",
+          "$value": "{app.fontFamily.control.text}"
         },
         "number": {
-          "value": "{app.fontFamily.control.number}",
-          "type": "fontFamilies"
+          "$type": "fontFamilies",
+          "$value": "{app.fontFamily.control.number}"
         }
       },
       "fontWeight": {
         "label": {
-          "value": "{app.fontWeight.control.text.default}",
-          "type": "fontWeights"
+          "$type": "fontWeights",
+          "$value": "{app.fontWeight.control.text.default}"
         },
         "number": {
-          "value": "{app.fontWeight.control.number.default}",
-          "type": "fontWeights"
+          "$type": "fontWeights",
+          "$value": "{app.fontWeight.control.number.default}"
         }
       },
       "lineHeight": {
         "label": {
-          "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
+          "$type": "lineHeights",
+          "$value": "{app.lineHeight.default}"
         },
         "number": {
-          "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
+          "$type": "lineHeights",
+          "$value": "{app.lineHeight.default}"
         }
       },
       "dimension": {
         "track": {
           "height": {
-            "value": "{component.slider.config.track.height}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.track.height}"
           },
           "border": {
-            "value": "{app.dimension.control.border.thin}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.border.thin}"
           },
           "radius": {
-            "value": "{component.slider.config.track.radius}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.track.radius}"
           }
         },
         "container": {
           "height": {
-            "value": "{component.slider.config.container.height}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.container.height}"
           },
           "padding": {
-            "value": "{component.slider.dimension.handle.height} * 0.5",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.dimension.handle.height} * 0.5"
           },
           "gap": {
-            "value": "{component.slider.dimension.handle.height} * 0.5",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.dimension.handle.height} * 0.5"
           }
         },
         "handle": {
           "height": {
-            "value": "{component.slider.config.handle.height}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.handle.height}"
           },
           "width": {
-            "value": "{component.slider.config.handle.height} * {component.slider.config.handle.ratio}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.handle.height} * {component.slider.config.handle.ratio}"
           },
           "border": {
-            "value": "{app.dimension.control.border.thin}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.border.thin}"
           },
           "radius": {
-            "value": "{component.slider.config.handle.radius}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.handle.radius}"
           },
           "pressed": {
             "height": {
-              "value": "{component.slider.dimension.handle.height} * {component.slider.config.handle.pressed}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.slider.dimension.handle.height} * {component.slider.config.handle.pressed}"
             },
             "width": {
-              "value": "{component.slider.dimension.handle.width} * {component.slider.config.handle.pressed}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.slider.dimension.handle.width} * {component.slider.config.handle.pressed}"
             }
           }
         },
         "step": {
           "height": {
-            "value": "{component.slider.config.track.height} - {component.slider.config.step.padding} * 2",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.track.height} - {component.slider.config.step.padding} * 2"
           },
           "width": {
-            "value": "{component.slider.dimension.step.height} * {component.slider.config.step.ratio}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.dimension.step.height} * {component.slider.config.step.ratio}"
           },
           "radius": {
-            "value": "{component.slider.config.track.radius} - {component.slider.config.step.padding}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.config.track.radius} - {component.slider.config.step.padding}"
           }
         },
         "target": {
           "default": {
-            "value": "{component.slider.dimension.container.height} + {component.slider.dimension.container.padding}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.slider.dimension.container.height} + {component.slider.dimension.container.padding}"
           }
         },
         "symbol": {
           "default": {
-            "value": "{component.button.fontSize.symbol.sm}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{component.button.fontSize.symbol.sm}"
           }
         }
       },
       "config": {
         "track": {
           "height": {
-            "value": "0.25rem",
-            "type": "other",
-            "description": "-0.5 for material design style (handle is offset)"
+            "$type": "other",
+            "$value": "0.25rem",
+            "$description": "-0.5 for material design style (handle is offset)"
           },
           "radius": {
-            "value": "0.25rem",
-            "type": "other",
-            "description": "for 100% roundness make equal to height md"
+            "$type": "other",
+            "$value": "0.25rem",
+            "$description": "for 100% roundness make equal to height md"
           }
         },
         "handle": {
           "height": {
-            "value": "0.875rem",
-            "type": "other"
+            "$type": "other",
+            "$value": "0.875rem"
           },
           "radius": {
-            "value": "1rem",
-            "type": "other",
-            "description": "for 100% roundness make half of pressed height"
+            "$type": "other",
+            "$value": "1rem",
+            "$description": "for 100% roundness make half of pressed height"
           },
           "ratio": {
-            "value": "1",
-            "type": "other"
+            "$type": "other",
+            "$value": "1"
           },
           "pressed": {
-            "value": "1.125",
-            "type": "other"
+            "$type": "other",
+            "$value": "1.125"
           }
         },
         "step": {
           "padding": {
-            "value": "0.0625rem",
-            "type": "other"
+            "$type": "other",
+            "$value": "0.0625rem"
           },
           "ratio": {
-            "value": "1",
-            "type": "other"
+            "$type": "other",
+            "$value": "1"
           }
         },
         "container": {
           "height": {
-            "value": "{app.dimension.control.height.xs}",
-            "type": "other"
+            "$type": "other",
+            "$value": "{app.dimension.control.height.xs}"
           }
         }
       },
@@ -169,62 +169,62 @@
           "track": {
             "bg": {
               "active": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.solid.default}"
               },
               "inactive": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.translucent.default}"
               }
             },
             "border": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "$type": "color",
+                "$value": "transparent"
               }
             }
           },
           "handle": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.solid.default}"
               },
               "active": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.solid.default}"
               }
             },
             "border": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "$type": "color",
+                "$value": "transparent"
               },
               "focus": {
-                "value": "transparent",
-                "type": "color"
+                "$type": "color",
+                "$value": "transparent"
               }
             }
           },
           "step": {
             "active": {
-              "value": "{app.color.surface.elevation.low.bg.default}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{app.color.surface.elevation.low.bg}"
             },
             "inactive": {
-              "value": "{app.color.surface.fg.subtle}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{app.color.surface.fg.subtle}"
             },
             "hidden": {
-              "value": "transparent",
-              "type": "color"
+              "$type": "color",
+              "$value": "transparent"
             }
           },
           "label": {
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.solid.default}"
               }
             }
           }
@@ -233,54 +233,54 @@
           "track": {
             "bg": {
               "active": {
-                "value": "{app.color.component.disabled.border.translucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.border.translucent}"
               },
               "inactive": {
-                "value": "{app.color.component.disabled.border.translucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.border.translucent}"
               }
             },
             "border": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "$type": "color",
+                "$value": "transparent"
               }
             }
           },
           "handle": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.fg.solid}"
               }
             },
             "border": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "$type": "color",
+                "$value": "transparent"
               }
             }
           },
           "step": {
             "active": {
-              "value": "{app.color.surface.elevation.base.bg.default}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{app.color.surface.elevation.base.bg}"
             },
             "inactive": {
-              "value": "{app.color.component.disabled.fg.solid}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{app.color.component.disabled.fg.solid}"
             },
             "hidden": {
-              "value": "transparent",
-              "type": "color"
+              "$type": "color",
+              "$value": "transparent"
             }
           },
           "label": {
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.fg.solid}"
               }
             }
           }
@@ -288,37 +288,37 @@
       },
       "boxShadow": {
         "focusRing": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "x": "0",
               "y": "0",
               "blur": "0",
               "spread": "0.25rem",
-              "color": "{app.color.component.primary.fg.subtle}",
+              "color": "{app.color.component.primary.fg.subtle.default}",
               "type": "dropShadow"
             }
-          ],
-          "type": "boxShadow"
+          ]
         }
       },
       "fontSize": {
         "label": {
-          "value": "{component.button.fontSize.default.md}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{component.button.fontSize.default.md}"
         },
         "number": {
-          "value": "{component.button.fontSize.default.sm}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{component.button.fontSize.default.sm}"
         }
       },
       "letterSpacing": {
         "label": {
-          "value": "{app.letterSpacing.control.text}",
-          "type": "letterSpacing"
+          "$type": "letterSpacing",
+          "$value": "{app.letterSpacing.control.text}"
         },
         "number": {
-          "value": "{app.letterSpacing.label.number}",
-          "type": "letterSpacing"
+          "$type": "letterSpacing",
+          "$value": "{app.letterSpacing.label.number}"
         }
       }
     }

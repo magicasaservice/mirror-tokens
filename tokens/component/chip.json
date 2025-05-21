@@ -3,92 +3,92 @@
     "chip": {
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
+          "$type": "fontFamilies",
+          "$value": "{app.fontFamily.control.text}"
         },
         "symbol": {
-          "value": "{app.fontFamily.control.symbol}",
-          "type": "fontFamilies"
+          "$type": "fontFamilies",
+          "$value": "{app.fontFamily.control.symbol}"
         }
       },
       "fontWeight": {
         "default": {
-          "value": "{app.fontWeight.control.text.strong}",
-          "type": "fontWeights"
+          "$type": "fontWeights",
+          "$value": "{app.fontWeight.control.text.strong}"
         },
         "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
-          "type": "fontWeights"
+          "$type": "fontWeights",
+          "$value": "{app.fontWeight.control.symbol.default}"
         },
         "icon": {
-          "value": "{app.fontWeight.control.symbol.alt}",
-          "type": "fontWeights"
+          "$type": "fontWeights",
+          "$value": "{app.fontWeight.control.symbol.alt}"
         }
       },
       "lineHeight": {
         "default": {
-          "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
+          "$type": "lineHeights",
+          "$value": "{app.lineHeight.default}"
         },
         "symbol": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$type": "lineHeights",
+          "$value": "{app.lineHeight.none}"
         }
       },
       "fontSize": {
         "default": {
           "sm": {
-            "value": "{component.chip.fontSize.default.md} - {component.chip.config.label.step}",
-            "type": "fontSizes"
+            "$type": "fontSizes",
+            "$value": "{component.chip.fontSize.default.md} - {component.chip.config.label.step}"
           },
           "md": {
-            "value": "{app.fontSize.label.text.lg}",
-            "type": "fontSizes"
+            "$type": "fontSizes",
+            "$value": "{app.fontSize.label.text.lg}"
           },
           "lg": {
-            "value": "{component.chip.fontSize.default.md} + {component.chip.config.label.step}",
-            "type": "fontSizes"
+            "$type": "fontSizes",
+            "$value": "{component.chip.fontSize.default.md} + {component.chip.config.label.step}"
           }
         },
         "symbol": {
           "sm": {
-            "value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.step}",
-            "type": "fontSizes"
+            "$type": "fontSizes",
+            "$value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.step}"
           },
           "md": {
-            "value": "{app.fontSize.control.symbol.xs}",
-            "type": "fontSizes"
+            "$type": "fontSizes",
+            "$value": "{app.fontSize.control.symbol.xs}"
           },
           "lg": {
-            "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.step}",
-            "type": "fontSizes"
+            "$type": "fontSizes",
+            "$value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.step}"
           }
         }
       },
       "icon": {
         "sm": {
-          "value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.icon.step}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.icon.step}"
         },
         "md": {
-          "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.icon.step}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{component.chip.fontSize.symbol.md} + {component.chip.config.icon.step}"
         },
         "lg": {
-          "value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.icon.step}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.icon.step}"
         }
       },
       "letterSpacing": {
         "default": {
-          "value": "{app.letterSpacing.control.text}",
-          "type": "letterSpacing"
+          "$type": "letterSpacing",
+          "$value": "{app.letterSpacing.control.text}"
         }
       },
       "textCase": {
         "default": {
-          "value": "{app.textCase.control.default}",
-          "type": "textCase"
+          "$type": "textCase",
+          "$value": "{app.textCase.control.default}"
         }
       },
       "color": {
@@ -96,227 +96,110 @@
           "solid": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.solid.default}"
               },
               "hover": {
-                "value": "{component.chip.color.default.solid.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.solid.hover}"
               },
               "active": {
-                "value": "{component.chip.color.default.solid.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.solid.active}"
               },
               "dragged": {
-                "value": "{component.chip.color.default.solid.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.solid.active}"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.onSolid}"
               }
             }
           },
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.translucent.default}"
               },
               "hover": {
-                "value": "{component.chip.color.default.translucent.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.bg.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.translucent.hover}"
               },
               "active": {
-                "value": "{component.chip.color.default.translucent.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.translucent.active}"
               },
               "dragged": {
-                "value": "{component.chip.color.default.translucent.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.translucent.active}"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onTranslucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.onTranslucent}"
               }
             }
           },
           "outline": {
             "bg": {
               "dragged": {
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.5",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "transparent"
               }
             },
             "border": {
               "default": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.border.translucent.default}"
               },
               "hover": {
-                "value": "{component.chip.color.default.outline.border.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.border.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.border.translucent.hover}"
               },
               "active": {
-                "value": "{component.chip.color.default.outline.border.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.border.translucent.active}"
               },
               "dragged": {
-                "value": "{component.chip.color.default.outline.border.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{component.chip.config.color.actions.translucent.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "app.color.component.primary.border.translucent.active"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.solid.default}"
               }
             }
           },
           "tone": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.tone.default}"
               },
               "hover": {
-                "value": "{component.chip.color.default.tone.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.tone.hover}"
               },
               "active": {
-                "value": "{component.chip.color.default.tone.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.tone.active}"
               },
               "dragged": {
-                "value": "{component.chip.color.default.tone.bg.hover}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{component.chip.config.color.actions.dimmer.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.tone.active}"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onTone}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.primary.fg.onTone}"
               }
             }
           }
@@ -325,56 +208,56 @@
           "solid": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.bg.solid}"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.fg.solid}"
               }
             }
           },
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.translucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.bg.translucent}"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.fg.solid}"
               }
             }
           },
           "outline": {
             "border": {
               "default": {
-                "value": "{app.color.component.disabled.border.translucent}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.border.translucent}"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.fg.solid}"
               }
             }
           },
           "tone": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.tone}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.bg.tone}"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.onTone}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{app.color.component.disabled.fg.onTone}"
               }
             }
           }
@@ -382,8 +265,8 @@
         "focus": {
           "border": {
             "default": {
-              "value": "{app.color.component.focus.border.default}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{app.color.component.focus.border.default}"
             }
           }
         }
@@ -391,196 +274,161 @@
       "dimension": {
         "height": {
           "sm": {
-            "value": "{app.dimension.control.height.xxs}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.height.xxs}"
           },
           "md": {
-            "value": "{app.dimension.control.height.xs}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.height.xs}"
           },
           "lg": {
-            "value": "{app.dimension.control.height.sm}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.height.sm}"
           }
         },
         "padding": {
           "sm": {
-            "value": "{app.dimension.control.padding.xxs}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.padding.xxs}"
           },
           "md": {
-            "value": "{app.dimension.control.padding.xs}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.padding.xs}"
           },
           "lg": {
-            "value": "{app.dimension.control.padding.sm}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.padding.sm}"
           },
           "label": {
-            "value": "4px",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "4px"
           }
         },
         "gap": {
           "sm": {
-            "value": "{app.dimension.control.gap.xxs}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.gap.xxs}"
           },
           "md": {
-            "value": "{app.dimension.control.gap.xs}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.gap.xs}"
           },
           "lg": {
-            "value": "{app.dimension.control.gap.sm}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.control.gap.sm}"
           }
         },
         "radius": {
           "default": {
             "sm": {
-              "value": "{app.dimension.control.radius.xxs}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.control.radius.xxs}"
             },
             "md": {
-              "value": "{app.dimension.control.radius.xs}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.control.radius.xs}"
             },
             "lg": {
-              "value": "{app.dimension.control.radius.sm}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{app.dimension.control.radius.sm}"
             }
           },
           "inline": {
             "sm": {
-              "value": "{component.chip.dimension.radius.default.sm} - {component.chip.config.dimension.radius.inline}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.dimension.radius.default.sm} - {component.chip.config.dimension.radius.inline}"
             },
             "md": {
-              "value": "{component.chip.dimension.radius.default.md} - {component.chip.config.dimension.radius.inline}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.dimension.radius.default.md} - {component.chip.config.dimension.radius.inline}"
             },
             "lg": {
-              "value": "{component.chip.dimension.radius.default.lg} - {component.chip.config.dimension.radius.inline}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.dimension.radius.default.lg} - {component.chip.config.dimension.radius.inline}"
             }
           }
         },
         "border": {
           "default": {
-            "value": "{app.dimension.label.border.default}",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "{app.dimension.label.border.default}"
           }
         },
         "symbol": {
           "sm": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.sm}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.fontSize.symbol.sm}"
             },
             "icon": {
-              "value": "{component.chip.dimension.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.dimension.symbol.sm.default} + {component.chip.config.symbol.icon.step}"
             }
           },
           "md": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.md}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.fontSize.symbol.md}"
             },
             "icon": {
-              "value": "{component.chip.dimension.symbol.md.default} + {component.chip.config.symbol.icon.step}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.dimension.symbol.md.default} + {component.chip.config.symbol.icon.step}"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.lg}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.fontSize.symbol.lg}"
             },
             "icon": {
-              "value": "{component.chip.dimension.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
-              "type": "dimension"
+              "$type": "dimension",
+              "$value": "{component.chip.dimension.symbol.lg.default} + {component.chip.config.symbol.icon.step}"
             }
           }
         },
         "blur": {
           "default": {
-            "value": "4rem",
-            "type": "dimension"
+            "$type": "dimension",
+            "$value": "4rem"
           }
         }
       },
       "config": {
-        "color": {
-          "actions": {
-            "translucent": {
-              "bg": {
-                "hover": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent}",
-                  "type": "other"
-                },
-                "active": {
-                  "value": "{app.config.color.translucent.bg} + {app.config.color.actions.translucent} * 2",
-                  "type": "other"
-                }
-              },
-              "border": {
-                "hover": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent}",
-                  "type": "other"
-                },
-                "active": {
-                  "value": "{app.config.color.translucent.border} + {app.config.color.actions.translucent} * 2",
-                  "type": "other"
-                }
-              }
-            },
-            "dimmer": {
-              "hover": {
-                "value": "{app.config.color.actions.dimmer}",
-                "type": "other"
-              },
-              "active": {
-                "value": "{app.config.color.actions.dimmer} * 2",
-                "type": "other"
-              }
-            }
-          }
-        },
         "icon": {
           "step": {
-            "value": "0.25rem",
-            "type": "other"
+            "$type": "other",
+            "$value": "0.25rem"
           }
         },
         "symbol": {
           "step": {
-            "value": "0.125rem",
-            "type": "other"
+            "$type": "other",
+            "$value": "0.125rem"
           }
         },
         "label": {
           "step": {
-            "value": "0.0625rem",
-            "type": "other"
+            "$type": "other",
+            "$value": "0.0625rem"
           }
         },
         "dimension": {
           "radius": {
             "inline": {
-              "value": "{component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
-              "type": "other"
+              "$type": "other",
+              "$value": "{component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}"
             }
           }
         }
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.md}",
-          "type": "boxShadow"
+          "$type": "boxShadow",
+          "$value": "{app.boxShadow.focusRing.md}"
         },
         "dragged": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "x": "0",
               "y": "0.375rem",
@@ -589,8 +437,7 @@
               "color": "{app.color.surface.shadow.strong}",
               "type": "dropShadow"
             }
-          ],
-          "type": "boxShadow"
+          ]
         }
       }
     }
