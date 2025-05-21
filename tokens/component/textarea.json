@@ -3,178 +3,178 @@
     "textarea": {
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.control.text}",
+          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "input": {
-          "value": "{app.fontWeight.control.text.alt}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.control.text.alt}",
+          "$type": "fontWeights"
         },
         "label": {
-          "value": "{app.fontWeight.label.text.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.label.text.default}",
+          "$type": "fontWeights"
         }
       },
       "lineHeight": {
         "input": {
-          "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.default}",
+          "$type": "lineHeights"
         },
         "label": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
         },
         "leading": {
           "reset": {
-            "value": "100%",
-            "type": "lineHeights"
+            "$value": "100%",
+            "$type": "lineHeights"
           }
         }
       },
       "fontSize": {
         "input": {
           "xs": {
-            "value": "{component.textarea.fontSize.input.sm} - {component.textarea.config.text.step}",
-            "type": "fontSizes"
+            "$value": "{component.textarea.fontSize.input.sm} - {component.textarea.config.text.step}",
+            "$type": "fontSizes"
           },
           "sm": {
-            "value": "{component.textarea.fontSize.input.md} - {component.textarea.config.text.step}",
-            "type": "fontSizes"
+            "$value": "{component.textarea.fontSize.input.md} - {component.textarea.config.text.step}",
+            "$type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.control.text.sm}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.control.text.sm}",
+            "$type": "fontSizes"
           },
           "lg": {
-            "value": "{component.textarea.fontSize.input.md} + {component.textarea.config.text.step}",
-            "type": "fontSizes"
+            "$value": "{component.textarea.fontSize.input.md} + {component.textarea.config.text.step}",
+            "$type": "fontSizes"
           }
         },
         "label": {
           "xs": {
-            "value": "{app.fontSize.label.text.xs}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.label.text.xs}",
+            "$type": "fontSizes"
           },
           "sm": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.label.text.sm}",
+            "$type": "fontSizes"
           },
           "md": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.label.text.sm}",
+            "$type": "fontSizes"
           },
           "lg": {
-            "value": "{app.fontSize.label.text.sm}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.label.text.sm}",
+            "$type": "fontSizes"
           }
         }
       },
       "letterSpacing": {
         "default": {
-          "value": "{app.letterSpacing.control.text}",
-          "type": "letterSpacing"
+          "$value": "{app.letterSpacing.control.text}",
+          "$type": "letterSpacing"
         }
       },
       "textCase": {
         "default": {
-          "value": "{app.textCase.control.default}",
-          "type": "textCase"
+          "$value": "{app.textCase.control.default}",
+          "$type": "textCase"
         }
       },
       "color": {
         "default": {
           "bg": {
             "default": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.primary.border.translucent.default}",
-              "type": "color"
+              "$value": "{app.color.component.primary.border.translucent.default}",
+              "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
+              "$value": "{app.color.surface.fg.default}",
+              "$type": "color"
             },
             "muted": {
-              "value": "{app.color.surface.fg.muted}",
-              "type": "color"
+              "$value": "{app.color.surface.fg.muted}",
+              "$type": "color"
             },
             "label": {
-              "value": "{app.color.component.primary.fg.subtle.default}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.subtle.default}",
+              "$type": "color"
             }
           }
         },
         "focus": {
           "border": {
             "default": {
-              "value": "{app.color.component.focus.border.default}",
-              "type": "color"
+              "$value": "{app.color.component.focus.border.default}",
+              "$type": "color"
             }
           },
           "fg": {
             "label": {
-              "value": "{app.color.component.primary.fg.subtle.default}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.subtle.default}",
+              "$type": "color"
             }
           }
         },
         "danger": {
           "bg": {
             "default": {
-              "value": "{app.color.component.danger.bg.translucent.default}",
-              "type": "color"
+              "$value": "{app.color.component.danger.bg.translucent.default}",
+              "$type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.danger.border.solid.default}",
-              "type": "color"
+              "$value": "{app.color.component.danger.border.solid.default}",
+              "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.danger.fg.solid.default}",
-              "type": "color"
+              "$value": "{app.color.component.danger.fg.solid.default}",
+              "$type": "color"
             },
             "muted": {
-              "value": "{app.color.component.danger.fg.muted}",
-              "type": "color"
+              "$value": "{app.color.component.danger.fg.muted}",
+              "$type": "color"
             },
             "label": {
-              "value": "{app.color.component.danger.fg.muted}",
-              "type": "color"
+              "$value": "{app.color.component.danger.fg.muted}",
+              "$type": "color"
             }
           }
         },
         "disabled": {
           "bg": {
             "default": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.disabled.border.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.disabled.border.translucent}",
+              "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.disabled.fg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.disabled.fg.solid}",
+              "$type": "color"
             },
             "label": {
-              "value": "{app.color.component.disabled.fg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.disabled.fg.solid}",
+              "$type": "color"
             }
           }
         }
@@ -182,199 +182,199 @@
       "dimension": {
         "minHeight": {
           "xs": {
-            "value": "{app.dimension.control.height.xs} * 2",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.xs} * 2",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.height.sm} * 2",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.sm} * 2",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.height.md} * 2",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.md} * 2",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.height.lg} * 2",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.lg} * 2",
+            "$type": "dimension"
           }
         },
         "maxHeight": {
           "xs": {
-            "value": "{app.dimension.control.height.xs} * 6",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.xs} * 6",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.height.xs} * 6",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.xs} * 6",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.height.xs} * 6",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.xs} * 6",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.height.xs} * 6",
-            "type": "dimension"
+            "$value": "{app.dimension.control.height.xs} * 6",
+            "$type": "dimension"
           }
         },
         "padding": {
           "x": {
             "xs": {
-              "value": "{app.dimension.control.padding.xs}",
-              "type": "dimension"
+              "$value": "{app.dimension.control.padding.xs}",
+              "$type": "dimension"
             },
             "sm": {
-              "value": "{app.dimension.control.padding.sm}",
-              "type": "dimension"
+              "$value": "{app.dimension.control.padding.sm}",
+              "$type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.padding.md}",
-              "type": "dimension"
+              "$value": "{app.dimension.control.padding.md}",
+              "$type": "dimension"
             },
             "lg": {
-              "value": "{app.dimension.control.padding.lg}",
-              "type": "dimension"
+              "$value": "{app.dimension.control.padding.lg}",
+              "$type": "dimension"
             }
           },
           "y": {
             "default": {
               "xs": {
-                "value": "{app.dimension.control.padding.xs}",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.xs}",
+                "$type": "dimension"
               },
               "sm": {
-                "value": "{app.dimension.control.padding.sm}",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.sm}",
+                "$type": "dimension"
               },
               "md": {
-                "value": "{app.dimension.control.padding.md}",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.md}",
+                "$type": "dimension"
               },
               "lg": {
-                "value": "{app.dimension.control.padding.lg}",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.lg}",
+                "$type": "dimension"
               }
             },
             "filled": {
               "xs": {
-                "value": "{app.dimension.control.padding.xs} / 2",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.xs} / 2",
+                "$type": "dimension"
               },
               "sm": {
-                "value": "{app.dimension.control.padding.sm} / 2",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.sm} / 2",
+                "$type": "dimension"
               },
               "md": {
-                "value": "{app.dimension.control.padding.md} / 2",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.md} / 2",
+                "$type": "dimension"
               },
               "lg": {
-                "value": "{app.dimension.control.padding.lg} / 2",
-                "type": "dimension"
+                "$value": "{app.dimension.control.padding.lg} / 2",
+                "$type": "dimension"
               }
             }
           },
           "label": {
             "xs": {
-              "value": "4px",
-              "type": "dimension"
+              "$value": "4px",
+              "$type": "dimension"
             },
             "sm": {
-              "value": "4px",
-              "type": "dimension"
+              "$value": "4px",
+              "$type": "dimension"
             },
             "md": {
-              "value": "4px",
-              "type": "dimension"
+              "$value": "4px",
+              "$type": "dimension"
             },
             "lg": {
-              "value": "4px",
-              "type": "dimension"
+              "$value": "4px",
+              "$type": "dimension"
             }
           }
         },
         "gap": {
           "label": {
             "xs": {
-              "value": "{component.textarea.dimension.gap.label.sm} - {component.textarea.config.gap.label.step}",
-              "type": "dimension"
+              "$value": "{component.textarea.dimension.gap.label.sm} - {component.textarea.config.gap.label.step}",
+              "$type": "dimension"
             },
             "sm": {
-              "value": "{component.textarea.dimension.gap.label.md} - {component.textarea.config.gap.label.step}",
-              "type": "dimension"
+              "$value": "{component.textarea.dimension.gap.label.md} - {component.textarea.config.gap.label.step}",
+              "$type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.gap.sm}",
-              "type": "dimension"
+              "$value": "{app.dimension.control.gap.sm}",
+              "$type": "dimension"
             },
             "lg": {
-              "value": "{component.textarea.dimension.gap.label.md} + {component.textarea.config.gap.label.step}",
-              "type": "dimension"
+              "$value": "{component.textarea.dimension.gap.label.md} + {component.textarea.config.gap.label.step}",
+              "$type": "dimension"
             }
           }
         },
         "radius": {
           "xs": {
-            "value": "{app.dimension.control.radius.xs}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.radius.xs}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.radius.sm}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.radius.sm}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.radius.md}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.radius.md}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.radius.lg}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.radius.lg}",
+            "$type": "dimension"
           }
         },
         "border": {
           "xs": {
-            "value": "{app.dimension.control.border.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.border.default}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.border.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.border.default}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.border.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.border.default}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.border.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.border.default}",
+            "$type": "dimension"
           }
         },
         "blur": {
           "default": {
-            "value": "1rem",
-            "type": "dimension"
+            "$value": "1rem",
+            "$type": "dimension"
           }
         }
       },
       "config": {
         "text": {
           "step": {
-            "value": "0.0625rem",
-            "type": "other"
+            "$value": "0.0625rem",
+            "$type": "other"
           }
         },
         "gap": {
           "label": {
             "step": {
-              "value": "0.0625rem",
-              "type": "other"
+              "$value": "0.0625rem",
+              "$type": "other"
             }
           }
         }
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.md}",
-          "type": "boxShadow"
+          "$value": "{app.boxShadow.focusRing.md}",
+          "$type": "boxShadow"
         }
       }
     }

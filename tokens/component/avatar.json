@@ -5,40 +5,40 @@
         "solid": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
+              "$value": "{app.color.surface.fg.default}",
+              "$type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.surface.fg.inverted}",
-              "type": "color"
+              "$value": "{app.color.surface.fg.inverted}",
+              "$type": "color"
             }
           }
         },
         "outline": {
           "bg": {
             "default": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{app.color.component.primary.border.translucent.default}",
-              "type": "color"
+              "$value": "{app.color.component.primary.border.translucent.default}",
+              "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.surface.fg.default}",
-              "type": "color"
+              "$value": "{app.color.surface.fg.default}",
+              "$type": "color"
             }
           }
         }
@@ -47,371 +47,371 @@
         "width": {
           "xs": {
             "default": {
-              "value": "{component.avatar.dimension.height.xs.default} * {component.avatar.config.default.sizing.ratio}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.xs.default} * {component.avatar.config.default.sizing.ratio}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.width.xs.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.width.xs.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.avatar.dimension.height.sm.default} * {component.avatar.config.default.sizing.ratio}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.sm.default} * {component.avatar.config.default.sizing.ratio}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.width.sm.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.width.sm.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.avatar.dimension.height.md.default} * {component.avatar.config.default.sizing.ratio}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.md.default} * {component.avatar.config.default.sizing.ratio}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.width.md.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.width.md.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.avatar.dimension.height.lg.default} * {component.avatar.config.default.sizing.ratio}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.lg.default} * {component.avatar.config.default.sizing.ratio}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.width.lg.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.width.lg.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.avatar.dimension.height.xl.default} * {component.avatar.config.default.sizing.ratio}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.xl.default} * {component.avatar.config.default.sizing.ratio}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.width.xl.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.width.xl.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           }
         },
         "height": {
           "xs": {
             "default": {
-              "value": "{component.avatar.dimension.height.sm.default} - {component.avatar.config.default.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.sm.default} - {component.avatar.config.default.sizing.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.height.xs.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.xs.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.avatar.dimension.height.md.default} - {component.avatar.config.default.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.md.default} - {component.avatar.config.default.sizing.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{app.dimension.control.height.sm} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{app.dimension.control.height.sm} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{app.dimension.control.height.md}",
-              "type": "dimension"
+              "$value": "{app.dimension.control.height.md}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.height.md.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.md.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.avatar.dimension.height.md.default} + {component.avatar.config.default.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.md.default} + {component.avatar.config.default.sizing.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.height.lg.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.lg.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.avatar.dimension.height.lg.default} + {component.avatar.config.default.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.lg.default} + {component.avatar.config.default.sizing.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.height.xl.default} - {component.avatar.config.inline.sizing.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.height.xl.default} - {component.avatar.config.inline.sizing.step}",
+              "$type": "dimension"
             }
           }
         },
         "radius": {
           "xs": {
             "default": {
-              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.default.radius.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.default.radius.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.xs.default} - {component.avatar.config.inline.sizing.step} / 2",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.xs.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.default.radius.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.default.radius.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.inline.sizing.step} / 2",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.sm.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "1rem",
-              "type": "dimension"
+              "$value": "1rem",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.inline.sizing.step} / 2",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.md.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.avatar.dimension.radius.md.default} + {component.avatar.config.default.radius.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.md.default} + {component.avatar.config.default.radius.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.lg.default} - {component.avatar.config.inline.sizing.step} / 2",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.lg.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.avatar.dimension.radius.lg.default} + {component.avatar.config.default.radius.step}",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.lg.default} + {component.avatar.config.default.radius.step}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.dimension.radius.xl.default} - {component.avatar.config.inline.sizing.step} / 2",
-              "type": "dimension"
+              "$value": "{component.avatar.dimension.radius.xl.default} - {component.avatar.config.inline.sizing.step} / 2",
+              "$type": "dimension"
             }
           }
         },
         "border": {
           "default": {
-            "value": "{app.dimension.control.border.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.control.border.default}",
+            "$type": "dimension"
           }
         },
         "symbol": {
           "xs": {
             "default": {
-              "value": "{component.avatar.fontSize.xs.symbol.default}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.xs.symbol.default}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.xs.symbol.inline}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.xs.symbol.inline}",
+              "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "value": "{component.avatar.fontSize.sm.symbol.default}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.sm.symbol.default}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.sm.symbol.inline}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.sm.symbol.inline}",
+              "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.avatar.fontSize.md.symbol.default}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.md.symbol.default}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.md.symbol.inline}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.md.symbol.inline}",
+              "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.avatar.fontSize.lg.symbol.default}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.lg.symbol.default}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.lg.symbol.inline}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.lg.symbol.inline}",
+              "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "value": "{component.avatar.fontSize.xl.symbol.default}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.xl.symbol.default}",
+              "$type": "dimension"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.xl.symbol.inline}",
-              "type": "dimension"
+              "$value": "{component.avatar.fontSize.xl.symbol.inline}",
+              "$type": "dimension"
             }
           }
         }
       },
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.control.number}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.control.number}",
+          "$type": "fontFamilies"
         },
         "icon": {
-          "value": "{app.fontFamily.control.symbol}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.control.symbol}",
+          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "default": {
-          "value": "{app.fontWeight.control.text.strong}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.control.text.strong}",
+          "$type": "fontWeights"
         }
       },
       "lineHeight": {
         "default": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
         }
       },
       "fontSize": {
         "xs": {
           "default": {
-            "value": "{component.avatar.fontSize.sm.default} - ({component.avatar.config.default.sizing.step} / 4)",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.sm.default} - ({component.avatar.config.default.sizing.step} / 4)",
+            "$type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.xs.default} - {component.avatar.config.inline.sizing.fontSize}",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.xs.default} - {component.avatar.config.inline.sizing.fontSize}",
+            "$type": "fontSizes"
           },
           "symbol": {
             "default": {
-              "value": "{component.avatar.fontSize.xs.default} * 1.5",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.xs.default} * 1.5",
+              "$type": "fontSizes"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.xs.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.xs.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "$type": "fontSizes"
             }
           }
         },
         "sm": {
           "default": {
-            "value": "{component.avatar.fontSize.md.default} - ({component.avatar.config.default.sizing.step} / 4)",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.md.default} - ({component.avatar.config.default.sizing.step} / 4)",
+            "$type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.sm.default} - {component.avatar.config.inline.sizing.fontSize}",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.sm.default} - {component.avatar.config.inline.sizing.fontSize}",
+            "$type": "fontSizes"
           },
           "symbol": {
             "default": {
-              "value": "{component.avatar.fontSize.sm.default} * 1.5",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.sm.default} * 1.5",
+              "$type": "fontSizes"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.sm.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.sm.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "$type": "fontSizes"
             }
           }
         },
         "md": {
           "default": {
-            "value": "{app.fontSize.control.text.md}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.control.text.md}",
+            "$type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.md.default} - {component.avatar.config.inline.sizing.fontSize}",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.md.default} - {component.avatar.config.inline.sizing.fontSize}",
+            "$type": "fontSizes"
           },
           "symbol": {
             "default": {
-              "value": "{component.avatar.fontSize.md.default} * 1.5",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.md.default} * 1.5",
+              "$type": "fontSizes"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.md.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.md.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "$type": "fontSizes"
             }
           }
         },
         "lg": {
           "default": {
-            "value": "{component.avatar.fontSize.md.default} + ({component.avatar.config.default.sizing.step} / 4)",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.md.default} + ({component.avatar.config.default.sizing.step} / 4)",
+            "$type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.lg.default} - {component.avatar.config.inline.sizing.fontSize}",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.lg.default} - {component.avatar.config.inline.sizing.fontSize}",
+            "$type": "fontSizes"
           },
           "symbol": {
             "default": {
-              "value": "{component.avatar.fontSize.lg.default} * 1.5",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.lg.default} * 1.5",
+              "$type": "fontSizes"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.lg.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.lg.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "$type": "fontSizes"
             }
           }
         },
         "xl": {
           "default": {
-            "value": "{component.avatar.fontSize.lg.default} + ({component.avatar.config.default.sizing.step} / 4)",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.lg.default} + ({component.avatar.config.default.sizing.step} / 4)",
+            "$type": "fontSizes"
           },
           "inline": {
-            "value": "{component.avatar.fontSize.xl.default} - {component.avatar.config.inline.sizing.fontSize}",
-            "type": "fontSizes"
+            "$value": "{component.avatar.fontSize.xl.default} - {component.avatar.config.inline.sizing.fontSize}",
+            "$type": "fontSizes"
           },
           "symbol": {
             "default": {
-              "value": "{component.avatar.fontSize.xl.default} * 1.5",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.xl.default} * 1.5",
+              "$type": "fontSizes"
             },
             "inline": {
-              "value": "{component.avatar.fontSize.xl.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
-              "type": "fontSizes"
+              "$value": "{component.avatar.fontSize.xl.symbol.default} - {component.avatar.config.inline.sizing.fontSize}",
+              "$type": "fontSizes"
             }
           }
         }
       },
       "letterSpacing": {
         "default": {
-          "value": "2%",
-          "type": "letterSpacing"
+          "$value": "2%",
+          "$type": "letterSpacing"
         }
       },
       "textCase": {
         "default": {
-          "value": "{app.textCase.control.default}",
-          "type": "textCase"
+          "$value": "{app.textCase.control.default}",
+          "$type": "textCase"
         }
       },
       "config": {
         "default": {
           "sizing": {
             "ratio": {
-              "value": "1",
-              "type": "other",
+              "$value": "1",
+              "$type": "other",
               "description": "ratio defines the width of avatar. 1 = 1:1 / 1.5 = 3:2  / 2 = 2:1"
             },
             "step": {
-              "value": "0.5rem",
-              "type": "other"
+              "$value": "0.5rem",
+              "$type": "other"
             }
           },
           "radius": {
             "step": {
-              "value": "0.125rem",
-              "type": "other",
+              "$value": "0.125rem",
+              "$type": "other",
               "description": "(md/0.5) = cirlce\n0.125 = rounded"
             }
           }
@@ -419,12 +419,12 @@
         "inline": {
           "sizing": {
             "step": {
-              "value": "0.5rem",
-              "type": "other"
+              "$value": "0.5rem",
+              "$type": "other"
             },
             "fontSize": {
-              "value": "0.25rem",
-              "type": "other"
+              "$value": "0.25rem",
+              "$type": "other"
             }
           }
         }
