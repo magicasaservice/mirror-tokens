@@ -3,13 +3,13 @@
     "textarea": {
       "fontFamily": {
         "default": {
-          "$value": "{app.fontFamily.control.text}",
+          "$value": "{app.fontFamily.component.text}",
           "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "input": {
-          "$value": "{app.fontWeight.control.text.alt}",
+          "$value": "{app.fontWeight.component.text.alt}",
           "$type": "fontWeights"
         },
         "label": {
@@ -44,7 +44,7 @@
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{app.fontSize.control.text.sm}",
+            "$value": "{app.fontSize.component.text.lg}",
             "$type": "fontSizes"
           },
           "lg": {
@@ -54,32 +54,32 @@
         },
         "label": {
           "xs": {
-            "$value": "{app.fontSize.label.text.xs}",
+            "$value": "{app.fontSize.component.text.3xs}",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{app.fontSize.label.text.sm}",
+            "$value": "{app.fontSize.component.text.2xs}",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{app.fontSize.label.text.sm}",
+            "$value": "{app.fontSize.component.text.2xs}",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{app.fontSize.label.text.sm}",
+            "$value": "{app.fontSize.component.text.2xs}",
             "$type": "fontSizes"
           }
         }
       },
       "letterSpacing": {
         "default": {
-          "$value": "{app.letterSpacing.control.text}",
+          "$value": "{app.letterSpacing.component.default}",
           "$type": "letterSpacing"
         }
       },
       "textCase": {
         "default": {
-          "$value": "{app.textCase.control.default}",
+          "$value": "{app.textCase.component.default}",
           "$type": "textCase"
         }
       },
@@ -182,93 +182,93 @@
       "dimension": {
         "minHeight": {
           "xs": {
-            "$value": "{app.dimension.control.height.xs} * 2",
+            "$value": "{app.dimension.component.md} * 2",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.control.height.sm} * 2",
+            "$value": "{app.dimension.component.lg} * 2",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.control.height.md} * 2",
+            "$value": "{app.dimension.component.xl} * 2",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.control.height.lg} * 2",
+            "$value": "{app.dimension.component.2xl} * 2",
             "$type": "dimension"
           }
         },
         "maxHeight": {
           "xs": {
-            "$value": "{app.dimension.control.height.xs} * 6",
+            "$value": "{app.dimension.component.md} * 6",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.control.height.xs} * 6",
+            "$value": "{app.dimension.component.md} * 6",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.control.height.xs} * 6",
+            "$value": "{app.dimension.component.md} * 6",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.control.height.xs} * 6",
+            "$value": "{app.dimension.component.md} * 6",
             "$type": "dimension"
           }
         },
         "padding": {
           "x": {
             "xs": {
-              "$value": "{app.dimension.control.padding.xs}",
+              "$value": "{app.dimension.component.padding.xs}",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.control.padding.sm}",
+              "$value": "{app.dimension.component.padding.sm}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.control.padding.md}",
+              "$value": "{app.dimension.component.padding.md}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.control.padding.lg}",
+              "$value": "{app.dimension.component.padding.lg}",
               "$type": "dimension"
             }
           },
           "y": {
             "default": {
               "xs": {
-                "$value": "{app.dimension.control.padding.xs}",
+                "$value": "{app.dimension.component.padding.xs}",
                 "$type": "dimension"
               },
               "sm": {
-                "$value": "{app.dimension.control.padding.sm}",
+                "$value": "{app.dimension.component.padding.sm}",
                 "$type": "dimension"
               },
               "md": {
-                "$value": "{app.dimension.control.padding.md}",
+                "$value": "{app.dimension.component.padding.md}",
                 "$type": "dimension"
               },
               "lg": {
-                "$value": "{app.dimension.control.padding.lg}",
+                "$value": "{app.dimension.component.padding.lg}",
                 "$type": "dimension"
               }
             },
             "filled": {
               "xs": {
-                "$value": "{app.dimension.control.padding.xs} / 2",
+                "$value": "{app.dimension.component.padding.xs} / 2",
                 "$type": "dimension"
               },
               "sm": {
-                "$value": "{app.dimension.control.padding.sm} / 2",
+                "$value": "{app.dimension.component.padding.sm} / 2",
                 "$type": "dimension"
               },
               "md": {
-                "$value": "{app.dimension.control.padding.md} / 2",
+                "$value": "{app.dimension.component.padding.md} / 2",
                 "$type": "dimension"
               },
               "lg": {
-                "$value": "{app.dimension.control.padding.lg} / 2",
+                "$value": "{app.dimension.component.padding.lg} / 2",
                 "$type": "dimension"
               }
             }
@@ -303,7 +303,7 @@
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.control.gap.sm}",
+              "$value": "{app.dimension.component.gap.sm}",
               "$type": "dimension"
             },
             "lg": {
@@ -314,37 +314,37 @@
         },
         "radius": {
           "xs": {
-            "$value": "{app.dimension.control.radius.xs}",
+            "$value": "{app.dimension.component.radius.xs}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.control.radius.sm}",
+            "$value": "{app.dimension.component.radius.sm}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.control.radius.md}",
+            "$value": "{app.dimension.component.radius.md}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.control.radius.lg}",
+            "$value": "{app.dimension.component.radius.lg}",
             "$type": "dimension"
           }
         },
         "border": {
           "xs": {
-            "$value": "{app.dimension.control.border.default}",
+            "$value": "{app.dimension.component.border.default}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.control.border.default}",
+            "$value": "{app.dimension.component.border.default}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.control.border.default}",
+            "$value": "{app.dimension.component.border.default}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.control.border.default}",
+            "$value": "{app.dimension.component.border.default}",
             "$type": "dimension"
           }
         },

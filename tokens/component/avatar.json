@@ -113,13 +113,13 @@
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.control.height.sm} - {component.avatar.config.inline.sizing.step}",
+              "$value": "{app.dimension.component.lg} - {component.avatar.config.inline.sizing.step}",
               "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "$value": "{app.dimension.control.height.md}",
+              "$value": "{app.dimension.component.xl}",
               "$type": "dimension"
             },
             "inline": {
@@ -202,7 +202,7 @@
         },
         "border": {
           "default": {
-            "$value": "{app.dimension.control.border.default}",
+            "$value": "{app.dimension.component.border.default}",
             "$type": "dimension"
           }
         },
@@ -261,17 +261,17 @@
       },
       "fontFamily": {
         "default": {
-          "$value": "{app.fontFamily.control.number}",
+          "$value": "{app.fontFamily.component.number}",
           "$type": "fontFamilies"
         },
         "icon": {
-          "$value": "{app.fontFamily.control.symbol}",
+          "$value": "{app.fontFamily.component.symbol}",
           "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "default": {
-          "$value": "{app.fontWeight.control.text.strong}",
+          "$value": "{app.fontWeight.component.text.strong}",
           "$type": "fontWeights"
         }
       },
@@ -324,7 +324,7 @@
         },
         "md": {
           "default": {
-            "$value": "{app.fontSize.control.text.md}",
+            "$value": "{app.fontSize.component.text.xl}",
             "$type": "fontSizes"
           },
           "inline": {
@@ -391,7 +391,7 @@
       },
       "textCase": {
         "default": {
-          "$value": "{app.textCase.control.default}",
+          "$value": "{app.textCase.component.default}",
           "$type": "textCase"
         }
       },

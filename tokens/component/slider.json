@@ -3,21 +3,21 @@
     "slider": {
       "fontFamily": {
         "default": {
-          "$value": "{app.fontFamily.control.text}",
+          "$value": "{app.fontFamily.component.text}",
           "$type": "fontFamilies"
         },
         "number": {
-          "$value": "{app.fontFamily.control.number}",
+          "$value": "{app.fontFamily.component.number}",
           "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "label": {
-          "$value": "{app.fontWeight.control.text.default}",
+          "$value": "{app.fontWeight.component.text.default}",
           "$type": "fontWeights"
         },
         "number": {
-          "$value": "{app.fontWeight.control.number.default}",
+          "$value": "{app.fontWeight.component.number.default}",
           "$type": "fontWeights"
         }
       },
@@ -38,7 +38,7 @@
             "$type": "dimension"
           },
           "border": {
-            "$value": "{app.dimension.control.border.thin}",
+            "$value": "{app.dimension.component.border.thin}",
             "$type": "dimension"
           },
           "radius": {
@@ -70,7 +70,7 @@
             "$type": "dimension"
           },
           "border": {
-            "$value": "{app.dimension.control.border.thin}",
+            "$value": "{app.dimension.component.border.thin}",
             "$type": "dimension"
           },
           "radius": {
@@ -110,7 +110,7 @@
         },
         "symbol": {
           "default": {
-            "$value": "{app.fontSize.control.text.xs}",
+            "$value": "{app.fontSize.component.text.sm}",
             "$type": "dimension"
           }
         }
@@ -159,7 +159,7 @@
         },
         "container": {
           "height": {
-            "$value": "{app.dimension.control.height.xs}",
+            "$value": "{app.dimension.component.md}",
             "$type": "other"
           }
         }
@@ -303,21 +303,21 @@
       },
       "fontSize": {
         "label": {
-          "$value": "{app.fontSize.control.text.sm}",
+          "$value": "{app.fontSize.component.text.lg}",
           "$type": "fontSizes"
         },
         "number": {
-          "$value": "{app.fontSize.control.text.xs}",
+          "$value": "{app.fontSize.component.text.sm}",
           "$type": "fontSizes"
         }
       },
       "letterSpacing": {
         "label": {
-          "$value": "{app.letterSpacing.control.text}",
+          "$value": "{app.letterSpacing.component.default}",
           "$type": "letterSpacing"
         },
         "number": {
-          "$value": "{app.letterSpacing.label.number}",
+          "$value": "{app.letterSpacing.component.number}",
           "$type": "letterSpacing"
         }
       }
