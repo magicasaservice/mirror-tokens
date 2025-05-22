@@ -207,6 +207,22 @@
   },
   "app": {
     "color": {
+      "surface": {
+        "elevation": {
+          "low": {
+            "bg": {
+              "$type": "color",
+              "$value": "{config.color.palette.black}"
+            }
+          },
+          "high": {
+            "bg": {
+              "$type": "color",
+              "$value": "{config.color.palette.black}"
+            }
+          }
+        }
+      },
       "component": {
         "primary": {
           "fg": {
