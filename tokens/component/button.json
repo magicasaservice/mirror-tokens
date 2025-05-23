@@ -784,7 +784,7 @@
             }
           }
         },
-        "disabled": {
+        "disabledOld": {
           "solid": {
             "bg": {
               "default": {
@@ -823,6 +823,86 @@
             "fg": {
               "default": {
                 "$value": "{app.color.component.disabled.fg.solid}",
+                "$type": "color"
+              }
+            }
+          },
+          "outline": {
+            "border": {
+              "default": {
+                "$value": "{app.color.component.disabled.border.translucent}",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "$value": "{app.color.component.disabled.fg.solid}",
+                "$type": "color"
+              }
+            }
+          },
+          "plain": {
+            "fg": {
+              "default": {
+                "$value": "{app.color.component.disabled.fg.solid}",
+                "$type": "color"
+              }
+            }
+          },
+          "tone": {
+            "bg": {
+              "default": {
+                "$value": "{app.color.component.disabled.bg.tone}",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "$value": "{app.color.component.disabled.fg.onTone}",
+                "$type": "color"
+              }
+            }
+          }
+        },
+        "disabled": {
+          "solid": {
+            "bg": {
+              "default": {
+                "$value": "{app.color.component.disabled.bg.solid}",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "$value": "{app.color.component.disabled.fg.onSolid}",
+                "$type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "bg": {
+              "default": {
+                "$value": "{app.color.component.disabled.bg.translucent}",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "$value": "{app.color.component.disabled.fg.onTranslucent}",
+                "$type": "color"
+              }
+            }
+          },
+          "ghost": {
+            "bg": {
+              "default": {
+                "$value": "transparent",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "default": {
+                "$value": "{app.color.component.disabled.fg.onTranslucent}",
                 "$type": "color"
               }
             }
