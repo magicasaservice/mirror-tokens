@@ -217,6 +217,36 @@
       },
       "component": {
         "primary": {
+          "bg": {
+            "solid": {
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.high}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "{config.color.modifier.bg.other.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.high}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "{config.color.modifier.bg.other.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            }
+          },
           "fg": {
             "onSolid": {
               "default": {
