@@ -2,41 +2,35 @@
   "app": {
     "color": {
       "surface": {
-        "elevation": {
+        "bg": {
           "low": {
-            "bg": {
-              "$type": "color",
-              "$value": "{config.color.palette.white}"
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.white}"
           },
           "base": {
-            "bg": {
-              "$type": "color",
-              "$value": "{config.color.palette.grey.low}"
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.grey.low}"
           },
           "high": {
-            "bg": {
-              "$type": "color",
-              "$value": "{config.color.palette.white}"
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.white}"
           },
           "higher": {
-            "bg": {
-              "$type": "color",
-              "$value": "{config.color.palette.grey.low}"
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.grey.low}"
           }
         },
         "border": {
-          "$type": "color",
-          "$value": "{config.color.palette.black}",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "{config.color.modifier.border.translucent.default}",
-                "space": "hsl"
+          "default": {
+            "$type": "color",
+            "$value": "{config.color.palette.black}",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "{config.color.modifier.border.translucent.default}",
+                  "space": "hsl"
+                }
               }
             }
           }
@@ -60,21 +54,25 @@
             }
           },
           "subtle": {
-            "$value": "{app.color.surface.fg.default}",
-            "$type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.28",
-                  "space": "hsl"
+            "default": {
+              "$value": "{app.color.surface.fg.default}",
+              "$type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.28",
+                    "space": "hsl"
+                  }
                 }
               }
             }
           },
           "inverted": {
-            "$value": "{config.color.palette.grey.low}",
-            "$type": "color"
+            "default": {
+              "$value": "{config.color.palette.grey.low}",
+              "$type": "color"
+            }
           },
           "link": {
             "default": {
