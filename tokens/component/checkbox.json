@@ -37,18 +37,6 @@
               }
             },
             "disabled": {
-              "bg": {
-                "default": {
-                  "$value": "transparent",
-                  "$type": "color"
-                }
-              },
-              "fg": {
-                "default": {
-                  "$value": "transparent",
-                  "$type": "color"
-                }
-              },
               "border": {
                 "default": {
                   "$value": "{app.color.component.disabled.border.translucent}",
@@ -125,19 +113,13 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "$value": "{app.color.component.disabled.bg.translucent.default}",
+                  "$value": "{app.color.component.disabled.bg.solid.default}",
                   "$type": "color"
                 }
               },
               "fg": {
                 "default": {
-                  "$value": "{app.color.component.disabled.fg.onTranslucent}",
-                  "$type": "color"
-                }
-              },
-              "border": {
-                "default": {
-                  "$value": "transparent",
+                  "$value": "{app.color.component.disabled.fg.onSolid}",
                   "$type": "color"
                 }
               }
