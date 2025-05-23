@@ -139,7 +139,16 @@
           "bg": {
             "default": {
               "value": "{app.color.component.danger.bg.translucent}",
-              "type": "color"
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.06",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           },
           "border": {
