@@ -244,16 +244,34 @@
             }
           },
           "fg": {
-            "onSolid": {
-              "default": {
-                "$value": "{config.color.palette.black}",
-                "$type": "color"
+            "solid": {
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.high}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.modifier.fg.other.hover}",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.high}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "{config.color.modifier.fg.other.active}",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
-            }
-          }
-        },
-        "accent": {
-          "fg": {
+            },
             "onSolid": {
               "default": {
                 "$value": "{config.color.palette.black}",
