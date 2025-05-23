@@ -261,6 +261,53 @@
               }
             }
           }
+        },
+        "disabled": {
+          "bg": {
+            "solid": {
+              "$type": "color",
+              "$value": "{config.color.palette.neutral.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.24",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "solid": {
+              "$type": "color",
+              "$value": "{config.color.palette.neutral.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.24",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "$type": "color",
+              "$value": "{config.color.palette.neutral.high}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.24",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
