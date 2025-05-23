@@ -27,7 +27,7 @@ The specificity of each layer topples the one prior. Tokens from each layer can 
 
 ## ✨ Customization
 
-Each token serves a purpose and can be updated if needed. Tokens further down the hierarchy have a wider spread influence on the final visual outcome compared to tokens further up the hierarchy. 
+Each token serves a purpose and can be updated if needed. Tokens further down the hierarchy have a wider spread influence on the final visual outcome compared to tokens further up the hierarchy.
 
 ## 🎟️ Theming
 
@@ -50,6 +50,10 @@ In addition to existing tokens, themes can be introduced above the application o
 
 Each layer of tokens fulfills a different function. Therefore, adding, removing or refactoring tokens should be done in consideration of the respective layer’s purpose.
 
+### config
+
+> coming soon
+
 ### application
 
 > coming soon
@@ -57,7 +61,6 @@ Each layer of tokens fulfills a different function. Therefore, adding, removing 
 ### component
 
 > coming soon
-
 
 ## 🧰 Tooling
 
