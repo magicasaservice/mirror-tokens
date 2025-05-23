@@ -2,14 +2,6 @@
   "config": {
     "color": {
       "palette": {
-        "black": {
-          "value": "#000",
-          "type": "color"
-        },
-        "white": {
-          "value": "#fff",
-          "type": "color"
-        },
         "grey": {
           "default": {
             "$value": "hsl(220, 4%, 52%)",
@@ -208,18 +200,14 @@
   "app": {
     "color": {
       "surface": {
-        "elevation": {
+        "bg": {
           "low": {
-            "bg": {
-              "$type": "color",
-              "$value": "{config.color.palette.black}"
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.black}"
           },
           "high": {
-            "bg": {
-              "$type": "color",
-              "$value": "{config.color.palette.black}"
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.black}"
           }
         }
       },
