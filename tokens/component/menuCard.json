@@ -48,6 +48,42 @@
         },
         "disabled": {
           "ghost": {
+            "bg": {
+              "default": {
+                "$value": "transparent",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{app.color.component.disabled.bg.translucent.hover}",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "cmd": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.subtle.default}",
+                  "$type": "color"
+                },
+                "hover": {
+                  "$value": "{app.color.component.disabled.fg.muted.default}",
+                  "$type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.solid.default}",
+                  "$type": "color"
+                },
+                "muted": {
+                  "$value": "{app.color.component.disabled.fg.subtle.default}",
+                  "$type": "color"
+                }
+              }
+            }
+          }
+        },
+        "disabledOld": {
+          "ghost": {
             "fg": {
               "default": {
                 "$value": "{app.color.component.disabled.fg.solid}",
