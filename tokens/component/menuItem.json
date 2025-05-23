@@ -129,6 +129,68 @@
           }
         },
         "disabled": {
+          "ghost": {
+            "bg": {
+              "default": {
+                "$value": "transparent",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "cmd": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.subtle.default}",
+                  "$type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.solid.default}",
+                  "$type": "color"
+                }
+              }
+            }
+          },
+          "plain": {
+            "fg": {
+              "cmd": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.subtle}",
+                  "$type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.subtle}",
+                  "$type": "color"
+                }
+              }
+            }
+          },
+          "subtle": {
+            "bg": {
+              "default": {
+                "$value": "transparent",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "cmd": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.subtle}",
+                  "$type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.subtle}",
+                  "$type": "color"
+                }
+              }
+            }
+          }
+        },
+        "disabledOld": {
           "fg": {
             "default": {
               "$value": "{app.color.component.disabled.fg.solid}",
