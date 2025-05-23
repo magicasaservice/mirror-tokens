@@ -2104,14 +2104,16 @@
         "disabled": {
           "bg": {
             "solid": {
-              "$type": "color",
-              "$value": "{app.color.component.primary.bg.solid.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.32",
-                    "space": "hsl"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.solid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.32",
+                      "space": "hsl"
+                    }
                   }
                 }
               }
@@ -2145,14 +2147,16 @@
               }
             },
             "tone": {
-              "$type": "color",
-              "$value": "{app.color.component.primary.bg.tone.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.32",
-                    "space": "hsl"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.primary.bg.tone.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.32",
+                      "space": "hsl"
+                    }
                   }
                 }
               }
