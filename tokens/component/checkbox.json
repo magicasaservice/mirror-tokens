@@ -36,14 +36,6 @@
                 }
               }
             },
-            "disabled": {
-              "border": {
-                "default": {
-                  "$value": "{app.color.component.disabled.border.translucent}",
-                  "$type": "color"
-                }
-              }
-            },
             "danger": {
               "border": {
                 "default": {
@@ -72,6 +64,14 @@
               "fg": {
                 "default": {
                   "$value": "transparent",
+                  "$type": "color"
+                }
+              }
+            },
+            "disabled": {
+              "border": {
+                "default": {
+                  "$value": "{app.color.component.disabled.border.translucent}",
                   "$type": "color"
                 }
               }
@@ -165,18 +165,6 @@
           }
         },
         "label": {
-          "disabled": {
-            "fg": {
-              "$value": "{app.color.component.disabled.fg.solid}",
-              "$type": "color"
-            }
-          },
-          "danger": {
-            "fg": {
-              "$value": "{app.color.component.danger.fg.solid.default}",
-              "$type": "color"
-            }
-          },
           "default": {
             "solid": {
               "fg": {
@@ -189,6 +177,18 @@
                 "$value": "{app.color.component.primary.fg.subtle.default}",
                 "$type": "color"
               }
+            }
+          },
+          "disabled": {
+            "fg": {
+              "$value": "{app.color.component.disabled.fg.solid}",
+              "$type": "color"
+            }
+          },
+          "danger": {
+            "fg": {
+              "$value": "{app.color.component.danger.fg.solid.default}",
+              "$type": "color"
             }
           }
         }
