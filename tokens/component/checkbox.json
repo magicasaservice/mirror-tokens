@@ -180,9 +180,17 @@
             }
           },
           "disabled": {
-            "fg": {
-              "$value": "{app.color.component.disabled.fg.solid}",
-              "$type": "color"
+            "solid": {
+              "fg": {
+                "$value": "{app.color.component.disabled.fg.solid}",
+                "$type": "color"
+              }
+            },
+            "subtle": {
+              "fg": {
+                "$value": "{app.color.component.disabled.fg.subtle}",
+                "$type": "color"
+              }
             }
           },
           "danger": {
