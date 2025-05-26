@@ -206,8 +206,8 @@
         }
       },
       "color": {
-        "unchecked": {
-          "track": {
+        "track": {
+          "unchecked": {
             "default": {
               "bg": {
                 "default": {
@@ -243,13 +243,13 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "$value": "{app.color.component.disabled.bg.solid.default}",
+                  "$value": "{app.color.component.disabled.bg.translucent.default}",
                   "$type": "color"
                 }
               },
               "fg": {
                 "default": {
-                  "$value": "{app.color.component.disabled.fg.onSolid}",
+                  "$value": "{app.color.component.disabled.fg.onTranslucent}",
                   "$type": "color"
                 }
               },
@@ -261,39 +261,7 @@
               }
             }
           },
-          "handle": {
-            "default": {
-              "bg": {
-                "default": {
-                  "$value": "{config.color.palette.white}",
-                  "$type": "color"
-                }
-              },
-              "border": {
-                "default": {
-                  "$value": "transparent",
-                  "$type": "color"
-                }
-              }
-            },
-            "disabled": {
-              "bg": {
-                "default": {
-                  "$value": "{app.color.component.disabled.bg.solid.default}",
-                  "$type": "color"
-                }
-              },
-              "border": {
-                "default": {
-                  "$value": "transparent",
-                  "$type": "color"
-                }
-              }
-            }
-          }
-        },
-        "checked": {
-          "track": {
+          "checked": {
             "default": {
               "bg": {
                 "default": {
@@ -307,7 +275,7 @@
               },
               "fg": {
                 "default": {
-                  "$value": "{config.color.palette.white}",
+                  "$value": "{app.color.component.primary.fg.onSolid.default}",
                   "$type": "color"
                 }
               },
@@ -346,12 +314,14 @@
                 }
               }
             }
-          },
-          "handle": {
+          }
+        },
+        "handle": {
+          "unchecked": {
             "default": {
               "bg": {
                 "default": {
-                  "$value": "{config.color.palette.white}",
+                  "$value": "{app.color.component.primary.fg.light.default}",
                   "$type": "color"
                 }
               },
@@ -365,7 +335,37 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "$value": "{app.color.component.disabled.bg.solid.default}",
+                  "$value": "{app.color.component.disabled.fg.light}",
+                  "$type": "color"
+                }
+              },
+              "border": {
+                "default": {
+                  "$value": "transparent",
+                  "$type": "color"
+                }
+              }
+            }
+          },
+          "checked": {
+            "default": {
+              "bg": {
+                "default": {
+                  "$value": "{app.color.component.accent.fg.light.default}",
+                  "$type": "color"
+                }
+              },
+              "border": {
+                "default": {
+                  "$value": "transparent",
+                  "$type": "color"
+                }
+              }
+            },
+            "disabled": {
+              "bg": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.light}",
                   "$type": "color"
                 }
               },
@@ -379,18 +379,6 @@
           }
         },
         "label": {
-          "disabled": {
-            "fg": {
-              "$value": "{app.color.component.disabled.fg.solid}",
-              "$type": "color"
-            }
-          },
-          "danger": {
-            "fg": {
-              "$value": "{app.color.component.danger.fg.solid.default}",
-              "$type": "color"
-            }
-          },
           "default": {
             "solid": {
               "fg": {
@@ -403,6 +391,26 @@
                 "$value": "{app.color.component.primary.fg.subtle.default}",
                 "$type": "color"
               }
+            }
+          },
+          "disabled": {
+            "solid": {
+              "fg": {
+                "$value": "{app.color.component.disabled.fg.solid}",
+                "$type": "color"
+              }
+            },
+            "subtle": {
+              "fg": {
+                "$value": "{app.color.component.disabled.fg.subtle}",
+                "$type": "color"
+              }
+            }
+          },
+          "danger": {
+            "fg": {
+              "$value": "{app.color.component.danger.fg.solid.default}",
+              "$type": "color"
             }
           }
         }

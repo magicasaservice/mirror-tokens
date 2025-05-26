@@ -459,6 +459,13 @@
                   }
                 }
               }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a light color, even if the theme is dark."
+              }
             }
           }
         },
@@ -996,6 +1003,13 @@
                     }
                   }
                 }
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a light color, even if the theme is dark."
               }
             }
           }
@@ -2264,6 +2278,19 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.32",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "light": {
+              "$type": "color",
+              "$value": "{config.color.palette.white}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.28",
                     "space": "hsl"
                   }
                 }
