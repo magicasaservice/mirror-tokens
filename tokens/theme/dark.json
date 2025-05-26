@@ -447,6 +447,19 @@
                   }
                 }
               }
+            },
+            "light": {
+              "$type": "color",
+              "$value": "{config.color.palette.white}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.28",
+                    "space": "hsl"
+                  }
+                }
+              }
             }
           }
         }
