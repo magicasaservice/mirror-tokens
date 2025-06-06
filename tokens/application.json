@@ -9,68 +9,41 @@
           },
           "base": {
             "$type": "color",
-            "$value": "{config.color.palette.grey.low}"
+            "$value": "{config.color.palette.grey.solid.low.1}"
           },
           "high": {
             "$type": "color",
-            "$value": "{config.color.palette.white}"
+            "$value": "{config.color.palette.grey.solid.low.2}"
           },
           "higher": {
             "$type": "color",
-            "$value": "{config.color.palette.grey.low}"
+            "$value": "{config.color.palette.grey.solid.low.3}"
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{config.color.palette.black}",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{config.color.modifier.border.translucent.default}",
-                  "space": "hsl"
-                }
-              }
-            }
+            "$value": "{config.color.palette.grey.translucent.mid.1}"
           }
         },
         "fg": {
           "default": {
-            "$value": "{config.color.palette.grey.high}",
+            "$value": "{config.color.palette.grey.solid.high.3}",
             "$type": "color"
           },
           "muted": {
-            "$value": "{app.color.surface.fg.default}",
-            "$type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{config.color.modifier.fg.translucent.muted.default}",
-                  "space": "hsl"
-                }
-              }
-            }
+            "$value": "{config.color.palette.grey.translucent.high.1}",
+            "$type": "color"
           },
           "subtle": {
             "default": {
-              "$value": "{app.color.surface.fg.default}",
-              "$type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.28",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "$value": "{config.color.palette.grey.translucent.mid.1}",
+              "$type": "color"
             }
           },
           "inverted": {
             "default": {
-              "$value": "{config.color.palette.grey.low}",
+              "$value": "{config.color.palette.grey.solid.low.1}",
               "$type": "color"
             }
           },
@@ -157,106 +130,43 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}"
+                "$value": "{config.color.palette.grey.solid.high.3}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.modifier.bg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.high.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.modifier.bg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.high.1}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.low.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.low.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.low.3}"
               }
             },
             "tone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}"
+                "$value": "{config.color.palette.grey.solid.mid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.mid.3}"
               }
             }
           },
@@ -264,57 +174,21 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.border.other.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.high.1}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.3}"
               }
             }
           },
@@ -322,115 +196,27 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}"
+                "$value": "{config.color.palette.grey.solid.high.3}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.modifier.fg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.high.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "lighten",
-                      "value": "{config.color.modifier.fg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.high.1}"
               }
             },
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.fg.translucent.muted.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.translucent.muted.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.translucent.muted.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.high.1}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.fg.translucent.subtle.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.translucent.subtle.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.translucent.subtle.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.3}"
               }
             },
             "onSolid": {
@@ -442,22 +228,13 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.low}"
+                "$value": "{config.color.palette.grey.solid.low.1}"
               }
             },
             "onTranslucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.onTranslucent}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.high.3}"
               }
             },
             "light": {
@@ -474,115 +251,43 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}"
+                "$value": "{config.color.palette.grey.solid.mid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.mid.3}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.low.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.low.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.low.3}"
               }
             },
             "tone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.low}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.low.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.low}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.low.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.low}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.low.3}"
               }
             }
           },
@@ -590,57 +295,21 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.border.other.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.mid.1}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.3}"
               }
             }
           },
@@ -648,81 +317,52 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}"
+                "$value": "{config.color.palette.grey.solid.mid.3}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.solid.mid.3}"
               }
             },
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.fg.translucent.muted.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.mid.3}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.fg.translucent.subtle.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.grey.translucent.low.3}"
               }
             },
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.low}"
+                "$value": "{config.color.palette.white}"
               }
             },
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}"
+                "$value": "{config.color.palette.grey.solid.mid.1}"
               }
             },
             "onTranslucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.default}"
+                "$value": "{config.color.palette.grey.translucent.high.1}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a light color, even if the theme is dark."
               }
             }
           }
@@ -1014,111 +654,48 @@
             }
           }
         },
-        "success": {
+        "danger": {
           "bg": {
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}"
+                "$value": "{config.color.palette.red.solid.mid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.mid.3}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.low.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.low.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.bg.translucent.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.low.3}"
               }
             },
             "tone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}"
+                "$value": "{config.color.palette.red.solid.high.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.high.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.high.3}"
               }
             }
           },
@@ -1126,57 +703,21 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.border.other.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.high.1}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.mid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.border.translucent.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.mid.3}"
               }
             }
           },
@@ -1184,63 +725,27 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.high}"
+                "$value": "{config.color.palette.red.solid.mid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.mid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.mid.3}"
               }
             },
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.fg.translucent.muted.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.high.1}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{config.color.modifier.fg.translucent.subtle.default}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.translucent.mid.3}"
               }
             },
             "onSolid": {
@@ -1252,22 +757,20 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.low}"
+                "$value": "{config.color.palette.red.solid.low.1}"
               }
             },
             "onTranslucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.onTranslucent}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{config.color.palette.red.solid.high.3}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a light color, even if the theme is dark."
               }
             }
           }
@@ -1530,16 +1033,16 @@
             }
           }
         },
-        "danger": {
+        "success": {
           "bg": {
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}"
+                "$value": "{config.color.palette.green.default}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1552,7 +1055,7 @@
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1567,7 +1070,7 @@
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1580,7 +1083,7 @@
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1593,7 +1096,7 @@
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1608,11 +1111,11 @@
             "tone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}"
+                "$value": "{config.color.palette.green.default}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1625,7 +1128,7 @@
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1642,29 +1145,12 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.high}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.red.high}",
+                "$value": "{config.color.palette.green.high}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.modifier.border.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.red.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.border.other.active}",
+                      "value": "{config.color.modifier.border.other.default}",
                       "space": "hsl"
                     }
                   }
@@ -1674,7 +1160,7 @@
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1687,7 +1173,7 @@
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1700,7 +1186,7 @@
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.default}",
+                "$value": "{config.color.palette.green.default}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1717,11 +1203,11 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.high}"
+                "$value": "{config.color.palette.green.high}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.high}",
+                "$value": "{config.color.palette.green.high}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1734,7 +1220,7 @@
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.high}",
+                "$value": "{config.color.palette.green.high}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1749,7 +1235,7 @@
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.high}",
+                "$value": "{config.color.palette.green.high}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1764,7 +1250,7 @@
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.high}",
+                "$value": "{config.color.palette.green.high}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
@@ -1785,13 +1271,13 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.low}"
+                "$value": "{config.color.palette.green.low}"
               }
             },
             "onTranslucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.red.high}",
+                "$value": "{config.color.palette.green.high}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {

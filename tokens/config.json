@@ -11,17 +11,85 @@
           "$type": "color"
         },
         "grey": {
-          "default": {
-            "$value": "hsl(220, 4%, 44%)",
-            "$type": "color"
+          "solid": {
+            "low": {
+              "1": {
+                "$value": "hsl(220, 4%, 98%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(220, 4%, 94%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(220, 4%, 92%)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsl(220, 4%, 52%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(220, 4%, 48%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(220, 4%, 44%)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsl(220, 4%, 24%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(220, 4%, 16%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(220, 4%, 8%)",
+                "$type": "color"
+              }
+            }
           },
-          "low": {
-            "$value": "hsl(220, 4%, 96%)",
-            "$type": "color"
-          },
-          "high": {
-            "$value": "hsl(220, 4%, 8%)",
-            "$type": "color"
+          "translucent": {
+            "low": {
+              "1": {
+                "$value": "hsla(220, 4%, 60%, 0.12)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(220, 4%, 60%, 0.18)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(220, 4%, 60%, 0.24)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsla(220, 4%, 56%, 0.32)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(220, 4%, 56%, 0.44)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(220, 4%, 56%, 0.56)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsla(220, 4%, 48%, 0.88)",
+                "$type": "color"
+              }
+            }
           }
         },
         "blue": {
@@ -36,6 +104,88 @@
           "high": {
             "$value": "hsl(220, 100%, 24%)",
             "$type": "color"
+          }
+        },
+        "red": {
+          "solid": {
+            "low": {
+              "1": {
+                "$value": "hsl(13, 100%, 98%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(13, 100%, 94%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(13, 100%, 92%)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsl(13, 100%, 52%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(13, 100%, 48%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(13, 100%, 44%)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsl(13, 100%, 24%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(13, 100%, 20%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(13, 100%, 16%)",
+                "$type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "low": {
+              "1": {
+                "$value": "hsla(13, 100%, 56%, 0.36)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(13, 100%, 56%, 0.40)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(13, 100%, 56%, 0.44)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsla(13, 100%, 56%, 0.48)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(13, 100%, 56%, 0.56)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(13, 100%, 56%, 0.64)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsla(13, 100%, 56%, 0.88)",
+                "$type": "color"
+              }
+            }
           }
         },
         "green": {
@@ -63,20 +213,6 @@
           },
           "high": {
             "$value": "hsl(40, 100%, 22%)",
-            "$type": "color"
-          }
-        },
-        "red": {
-          "default": {
-            "$value": "hsl(15, 100%, 52%)",
-            "$type": "color"
-          },
-          "low": {
-            "$value": "hsl(15, 100%, 84%)",
-            "$type": "color"
-          },
-          "high": {
-            "$value": "hsl(15, 100%, 20%)",
             "$type": "color"
           }
         },

@@ -2,20 +2,6 @@
   "config": {
     "color": {
       "palette": {
-        "grey": {
-          "default": {
-            "$value": "hsl(220, 4%, 52%)",
-            "$type": "color"
-          },
-          "low": {
-            "$value": "hsl(220, 4%, 8%)",
-            "$type": "color"
-          },
-          "high": {
-            "$value": "hsl(220, 4%, 96%)",
-            "$type": "color"
-          }
-        },
         "blue": {
           "default": {
             "$value": "hsl(220, 100%, 56%)",
@@ -28,6 +14,88 @@
           "high": {
             "$value": "hsl(220, 100%, 68%)",
             "$type": "color"
+          }
+        },
+        "grey": {
+          "solid": {
+            "low": {
+              "1": {
+                "$value": "hsl(220, 4%, 8%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(220, 4%, 12%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(220, 4%, 16%)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsl(220, 4%, 48%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(220, 4%, 44%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(220, 4%, 40%)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsl(220, 4%, 82%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(220, 4%, 90%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(220, 4%, 98%)",
+                "$type": "color"
+              }
+            }
+          },
+          "translucent": {
+            "low": {
+              "1": {
+                "$value": "hsla(220, 4%, 60%, 0.08)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(220, 4%, 60%, 0.12)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(220, 4%, 60%, 0.16)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsla(220, 4%, 56%, 0.20)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(220, 4%, 56%, 0.24)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(220, 4%, 56%, 0.28)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsla(220, 4%, 48%, 0.88)",
+                "$type": "color"
+              }
+            }
           }
         },
         "green": {
@@ -59,17 +127,85 @@
           }
         },
         "red": {
-          "default": {
-            "$value": "hsl(15, 100%, 56%)",
-            "$type": "color"
+          "solid": {
+            "low": {
+              "1": {
+                "$value": "hsl(13, 100%, 92%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(13, 100%, 88%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(13, 100%, 84%)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsl(13, 100%, 52%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(13, 100%, 48%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(13, 100%, 44%)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsl(13, 100%, 64%)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsl(13, 100%, 60%)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsl(13, 100%, 56%)",
+                "$type": "color"
+              }
+            }
           },
-          "low": {
-            "$value": "hsl(15, 100%, 8%)",
-            "$type": "color"
-          },
-          "high": {
-            "$value": "hsl(15, 100%, 64%)",
-            "$type": "color"
+          "translucent": {
+            "low": {
+              "1": {
+                "$value": "hsla(13, 100%, 56%, 0.32)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(13, 100%, 56%, 0.36)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(13, 100%, 56%, 0.40)",
+                "$type": "color"
+              }
+            },
+            "mid": {
+              "1": {
+                "$value": "hsla(13, 100%, 56%, 0.48)",
+                "$type": "color"
+              },
+              "2": {
+                "$value": "hsla(13, 100%, 56%, 0.56)",
+                "$type": "color"
+              },
+              "3": {
+                "$value": "hsla(13, 100%, 56%, 0.64)",
+                "$type": "color"
+              }
+            },
+            "high": {
+              "1": {
+                "$value": "hsla(13, 100%, 56%, 0.88)",
+                "$type": "color"
+              }
+            }
           }
         },
         "neutral": {
@@ -204,74 +340,12 @@
           "low": {
             "$type": "color",
             "$value": "{config.color.palette.black}"
-          },
-          "high": {
-            "$type": "color",
-            "$value": "{config.color.palette.black}"
           }
         }
       },
       "component": {
         "primary": {
-          "bg": {
-            "solid": {
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.bg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
-          },
           "fg": {
-            "solid": {
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.other.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.grey.high}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{config.color.modifier.fg.other.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            },
             "onSolid": {
               "default": {
                 "$value": "{config.color.palette.black}",
