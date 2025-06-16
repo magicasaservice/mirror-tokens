@@ -37,13 +37,13 @@
           },
           "subtle": {
             "default": {
-              "$value": "{config.color.palette.grey.translucent.4}",
+              "$value": "{config.color.palette.grey.translucent.6}",
               "$type": "color"
             }
           },
           "inverted": {
             "default": {
-              "$value": "{config.color.palette.grey.solid.1}",
+              "$value": "{config.color.palette.white}",
               "$type": "color"
             }
           },
@@ -70,8 +70,8 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "0.16",
-                  "space": "hsl"
+                  "value": "0.24",
+                  "space": "oklch"
                 }
               }
             }
@@ -83,8 +83,8 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "0.32",
-                  "space": "hsl"
+                  "value": "0.24",
+                  "space": "oklch"
                 }
               }
             }
@@ -99,7 +99,7 @@
                 "modify": {
                   "type": "alpha",
                   "value": "0.8",
-                  "space": "hsl"
+                  "space": "oklch"
                 }
               }
             }
@@ -150,13 +150,20 @@
                 "$type": "color",
                 "$value": "{config.color.palette.grey.solid.9}"
               }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
             }
           },
           "border": {
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.10}"
+                "$value": "{config.color.palette.grey.solid.7}"
               }
             },
             "translucent": {
@@ -218,13 +225,6 @@
                 "$type": "color",
                 "$value": "{config.color.palette.grey.solid.12}"
               }
-            },
-            "light": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.white}",
-                "description": "This should always map to a light color, even if the theme is dark."
-              }
             }
           }
         },
@@ -270,6 +270,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.grey.solid.3}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -331,20 +338,13 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.7}"
+                "$value": "{config.color.palette.grey.solid.8}"
               }
             },
             "onTranslucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.12}"
-              }
-            },
-            "light": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.white}",
-                "description": "This should always map to a light color, even if the theme is dark."
+                "$value": "{config.color.palette.grey.solid.8}"
               }
             }
           }
@@ -391,6 +391,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.blue.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -460,13 +467,6 @@
                 "$type": "color",
                 "$value": "{config.color.palette.blue.solid.12}"
               }
-            },
-            "light": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.white}",
-                "description": "This should always map to a light color, even if the theme is dark."
-              }
             }
           }
         },
@@ -512,6 +512,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.red.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -581,13 +588,6 @@
                 "$type": "color",
                 "$value": "{config.color.palette.red.solid.12}"
               }
-            },
-            "light": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.white}",
-                "description": "This should always map to a light color, even if the theme is dark."
-              }
             }
           }
         },
@@ -633,6 +633,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.green.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -702,13 +709,6 @@
                 "$type": "color",
                 "$value": "{config.color.palette.green.solid.12}"
               }
-            },
-            "light": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.white}",
-                "description": "This should always map to a light color, even if the theme is dark."
-              }
             }
           }
         },
@@ -754,6 +754,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.yellow.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -809,7 +816,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}"
+                "$value": "{config.color.palette.black}"
               }
             },
             "onTone": {
@@ -822,13 +829,6 @@
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.yellow.solid.12}"
-              }
-            },
-            "light": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.white}",
-                "description": "This should always map to a light color, even if the theme is dark."
               }
             }
           }
@@ -875,6 +875,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.solid.9}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -944,13 +951,6 @@
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.solid.12}"
               }
-            },
-            "light": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.white}",
-                "description": "This should always map to a light color, even if the theme is dark."
-              }
             }
           }
         },
@@ -964,8 +964,8 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.24",
-                      "space": "hsl"
+                      "value": "0.36",
+                      "space": "oklch"
                     }
                   }
                 }
@@ -980,7 +980,7 @@
                     "modify": {
                       "type": "lighten",
                       "value": "0.24",
-                      "space": "hsl"
+                      "space": "oklch"
                     }
                   }
                 }
@@ -993,7 +993,7 @@
                     "modify": {
                       "type": "lighten",
                       "value": "0.24",
-                      "space": "hsl"
+                      "space": "oklch"
                     }
                   }
                 }
@@ -1008,7 +1008,22 @@
                     "modify": {
                       "type": "lighten",
                       "value": "0.24",
-                      "space": "hsl"
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.light.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.08",
+                      "space": "oklch"
                     }
                   }
                 }
@@ -1024,7 +1039,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1037,7 +1052,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1052,7 +1067,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1065,7 +1080,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1078,7 +1093,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1091,7 +1106,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1104,7 +1119,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1117,20 +1132,7 @@
                   "modify": {
                     "type": "lighten",
                     "value": "0.24",
-                    "space": "hsl"
-                  }
-                }
-              }
-            },
-            "light": {
-              "$type": "color",
-              "$value": "{config.color.palette.white}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "0.20",
-                    "space": "hsl"
+                    "space": "oklch"
                   }
                 }
               }
@@ -1159,8 +1161,8 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "0.16",
-                  "space": "hsl"
+                  "value": "0.24",
+                  "space": "oklch"
                 }
               }
             }
@@ -1172,8 +1174,8 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "0.32",
-                  "space": "hsl"
+                  "value": "0.24",
+                  "space": "oklch"
                 }
               }
             }
