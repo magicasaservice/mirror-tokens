@@ -1,56 +1,4 @@
 {
-  "config": {
-    "color": {
-      "palette": {
-        "neutral": {
-          "solid": {
-            "low": {
-              "1": {
-                "$value": "hsl(220, 0%, 8%)",
-                "$type": "color"
-              },
-              "2": {
-                "$value": "hsl(220, 0%, 12%)",
-                "$type": "color"
-              },
-              "3": {
-                "$value": "hsl(220, 0%, 16%)",
-                "$type": "color"
-              }
-            },
-            "mid": {
-              "1": {
-                "$value": "hsl(220, 0%, 48%)",
-                "$type": "color"
-              },
-              "2": {
-                "$value": "hsl(220, 0%, 44%)",
-                "$type": "color"
-              },
-              "3": {
-                "$value": "hsl(220, 0%, 40%)",
-                "$type": "color"
-              }
-            },
-            "high": {
-              "1": {
-                "$value": "hsl(220, 0%, 82%)",
-                "$type": "color"
-              },
-              "2": {
-                "$value": "hsl(220, 0%, 90%)",
-                "$type": "color"
-              },
-              "3": {
-                "$value": "hsl(220, 0%, 98%)",
-                "$type": "color"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "app": {
     "color": {
       "surface": {
@@ -115,6 +63,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.grey.translucent.3}"
               }
+            },
+            "inverted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.9}"
+              }
             }
           },
           "fg": {
@@ -153,7 +107,7 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.12}"
+                "$value": "{config.color.palette.grey.solid.4}"
               }
             },
             "onTranslucent": {
