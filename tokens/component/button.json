@@ -870,6 +870,12 @@
               "$value": "{app.color.component.focus.border.default}",
               "$type": "color"
             }
+          },
+          "outline": {
+            "default": {
+              "$value": "{app.color.component.focus.outline.default}",
+              "$type": "color"
+            }
           }
         }
       },
@@ -1081,6 +1087,12 @@
             "$value": "4rem",
             "$type": "dimension"
           }
+        },
+        "outline": {
+          "focus": {
+            "$value": "{app.dimension.component.outline.focus.md}",
+            "$type": "dimension"
+          }
         }
       },
       "config": {
@@ -1101,12 +1113,6 @@
             "$value": "0.0625rem",
             "$type": "other"
           }
-        }
-      },
-      "boxShadow": {
-        "focusRing": {
-          "$value": "{app.boxShadow.focusRing.md}",
-          "$type": "boxShadow"
         }
       }
     }

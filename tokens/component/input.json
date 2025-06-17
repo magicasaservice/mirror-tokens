@@ -138,14 +138,6 @@
             }
           }
         },
-        "focus": {
-          "border": {
-            "default": {
-              "$value": "{app.color.component.focus.border.default}",
-              "$type": "color"
-            }
-          }
-        },
         "danger": {
           "bg": {
             "default": {
@@ -194,6 +186,20 @@
             },
             "label": {
               "$value": "{app.color.component.disabled.fg.muted.default}",
+              "$type": "color"
+            }
+          }
+        },
+        "focus": {
+          "border": {
+            "default": {
+              "$value": "{app.color.component.focus.border.default}",
+              "$type": "color"
+            }
+          },
+          "outline": {
+            "default": {
+              "$value": "{app.color.component.focus.outline.default}",
               "$type": "color"
             }
           }
@@ -348,6 +354,12 @@
             "$type": "dimension"
           }
         },
+        "outline": {
+          "focus": {
+            "$value": "{app.dimension.component.outline.focus.md}",
+            "$type": "dimension"
+          }
+        },
         "symbol": {
           "xs": {
             "$value": "{component.input.fontSize.symbol.xs}",
@@ -399,12 +411,6 @@
               "$type": "other"
             }
           }
-        }
-      },
-      "boxShadow": {
-        "focusRing": {
-          "$value": "{app.boxShadow.focusRing.md}",
-          "$type": "boxShadow"
         }
       }
     }

@@ -1168,7 +1168,7 @@
               "$value": "{config.color.palette.blue.solid.7}"
             }
           },
-          "focusRing": {
+          "outline": {
             "default": {
               "$type": "color",
               "$value": "{config.color.palette.blue.translucent.4}"
@@ -1206,34 +1206,6 @@
       }
     },
     "boxShadow": {
-      "focusRing": {
-        "md": {
-          "$value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.25rem",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "$type": "boxShadow"
-        },
-        "lg": {
-          "$value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.375rem",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "$type": "boxShadow"
-        }
-      },
       "surface": {
         "default": {
           "$value": {
@@ -1958,6 +1930,18 @@
           "thin": {
             "$value": "1px",
             "$type": "dimension"
+          }
+        },
+        "outline": {
+          "focus": {
+            "md": {
+              "$value": "0.25rem",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "0.375rem",
+              "$type": "dimension"
+            }
           }
         }
       },

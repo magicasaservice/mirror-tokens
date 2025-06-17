@@ -9,7 +9,7 @@
       },
       "fontWeight": {
         "input": {
-          "$value": "{app.fontWeight.component.text.alt}",
+          "$value": "{app.fontWeight.component.text.default}",
           "$type": "fontWeights"
         },
         "label": {
@@ -112,6 +112,12 @@
           "border": {
             "default": {
               "$value": "{app.color.component.focus.border.default}",
+              "$type": "color"
+            }
+          },
+          "outline": {
+            "default": {
+              "$value": "{app.color.component.focus.outline.default}",
               "$type": "color"
             }
           }
@@ -334,6 +340,14 @@
             "$type": "dimension"
           }
         },
+        "outline": {
+          "focus": {
+            "default": {
+              "$value": "{app.dimension.component.outline.focus.md}",
+              "$type": "dimension"
+            }
+          }
+        },
         "blur": {
           "default": {
             "$value": "1rem",
@@ -355,12 +369,6 @@
               "$type": "other"
             }
           }
-        }
-      },
-      "boxShadow": {
-        "focusRing": {
-          "$value": "{app.boxShadow.focusRing.md}",
-          "$type": "boxShadow"
         }
       }
     }

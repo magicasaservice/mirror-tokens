@@ -73,6 +73,12 @@
             "$value": "{app.dimension.component.border.thin}",
             "$type": "dimension"
           },
+          "outline": {
+            "focus": {
+              "$value": "{app.dimension.component.outline.focus.md}",
+              "$type": "dimension"
+            }
+          },
           "radius": {
             "$value": "{component.slider.config.handle.radius}",
             "$type": "dimension"
@@ -115,55 +121,6 @@
           }
         }
       },
-      "config": {
-        "track": {
-          "height": {
-            "$value": "0.25rem",
-            "$type": "other",
-            "description": "-0.5 for material design style (handle is offset)"
-          },
-          "radius": {
-            "$value": "0.25rem",
-            "$type": "other",
-            "description": "for 100% roundness make equal to height md"
-          }
-        },
-        "handle": {
-          "height": {
-            "$value": "0.875rem",
-            "$type": "other"
-          },
-          "radius": {
-            "$value": "1rem",
-            "$type": "other",
-            "description": "for 100% roundness make half of pressed height"
-          },
-          "ratio": {
-            "$value": "1",
-            "$type": "other"
-          },
-          "pressed": {
-            "$value": "1.125",
-            "$type": "other"
-          }
-        },
-        "step": {
-          "padding": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          },
-          "ratio": {
-            "$value": "1",
-            "$type": "other"
-          }
-        },
-        "container": {
-          "height": {
-            "$value": "{app.dimension.component.height.md}",
-            "$type": "other"
-          }
-        }
-      },
       "color": {
         "default": {
           "track": {
@@ -198,6 +155,12 @@
               },
               "focus": {
                 "$value": "transparent",
+                "$type": "color"
+              }
+            },
+            "outline": {
+              "focus": {
+                "$value": "{app.color.component.focus.outline.default}",
                 "$type": "color"
               }
             }
@@ -282,21 +245,6 @@
           }
         }
       },
-      "boxShadow": {
-        "focusRing": {
-          "$value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.25rem",
-              "color": "{app.color.component.primary.fg.subtle.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "$type": "boxShadow"
-        }
-      },
       "fontSize": {
         "label": {
           "$value": "{app.fontSize.component.text.lg}",
@@ -315,6 +263,55 @@
         "number": {
           "$value": "{app.letterSpacing.component.number}",
           "$type": "letterSpacing"
+        }
+      },
+      "config": {
+        "track": {
+          "height": {
+            "$value": "0.25rem",
+            "$type": "other",
+            "description": "-0.5 for material design style (handle is offset)"
+          },
+          "radius": {
+            "$value": "0.25rem",
+            "$type": "other",
+            "description": "for 100% roundness make equal to height md"
+          }
+        },
+        "handle": {
+          "height": {
+            "$value": "0.875rem",
+            "$type": "other"
+          },
+          "radius": {
+            "$value": "1rem",
+            "$type": "other",
+            "description": "for 100% roundness make half of pressed height"
+          },
+          "ratio": {
+            "$value": "1",
+            "$type": "other"
+          },
+          "pressed": {
+            "$value": "1.125",
+            "$type": "other"
+          }
+        },
+        "step": {
+          "padding": {
+            "$value": "0.0625rem",
+            "$type": "other"
+          },
+          "ratio": {
+            "$value": "1",
+            "$type": "other"
+          }
+        },
+        "container": {
+          "height": {
+            "$value": "{app.dimension.component.height.md}",
+            "$type": "other"
+          }
         }
       }
     }

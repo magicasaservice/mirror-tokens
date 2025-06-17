@@ -34,6 +34,12 @@
                   "$value": "transparent",
                   "$type": "color"
                 }
+              },
+              "outline": {
+                "focus": {
+                  "$value": "{app.color.component.focus.outline.default}",
+                  "$type": "color"
+                }
               }
             },
             "danger": {
@@ -106,6 +112,12 @@
               "fg": {
                 "default": {
                   "$value": "{app.color.component.accent.fg.onSolid.default}",
+                  "$type": "color"
+                }
+              },
+              "outline": {
+                "focus": {
+                  "$value": "{app.color.component.focus.outline.default}",
                   "$type": "color"
                 }
               }
@@ -347,6 +359,12 @@
               "$type": "dimension"
             }
           },
+          "outline": {
+            "focus": {
+              "$value": "{app.dimension.component.outline.focus.md}",
+              "$type": "dimension"
+            }
+          },
           "symbol": {
             "size": {
               "sm": {
@@ -411,12 +429,6 @@
               }
             }
           }
-        }
-      },
-      "boxShadow": {
-        "focusRing": {
-          "$value": "{app.boxShadow.focusRing.md}",
-          "$type": "boxShadow"
         }
       },
       "asset": {
