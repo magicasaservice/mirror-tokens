@@ -653,7 +653,7 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.10}"
+                "$value": "{config.color.palette.green.solid.7}"
               }
             },
             "translucent": {
@@ -774,7 +774,7 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.yellow.solid.10}"
+                "$value": "{config.color.palette.yellow.solid.7}"
               }
             },
             "translucent": {
@@ -969,8 +969,8 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
-                      "value": "0.32",
+                      "type": "alpha",
+                      "value": "0.24",
                       "space": "oklch"
                     }
                   }
@@ -984,8 +984,8 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
-                      "value": "0.32",
+                      "type": "alpha",
+                      "value": "0.24",
                       "space": "oklch"
                     }
                   }
@@ -997,7 +997,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "alpha",
                       "value": "0.24",
                       "space": "oklch"
                     }
@@ -1012,8 +1012,8 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
-                      "value": "0.32",
+                      "type": "alpha",
+                      "value": "0.24",
                       "space": "oklch"
                     }
                   }
@@ -1027,8 +1027,8 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
-                      "value": "0.08",
+                      "type": "alpha",
+                      "value": "0.24",
                       "space": "oklch"
                     }
                   }
@@ -1038,27 +1038,31 @@
           },
           "border": {
             "solid": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.border.solid.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.24",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.border.solid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
             },
             "translucent": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.border.translucent.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.24",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.border.translucent.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
@@ -1066,79 +1070,91 @@
           },
           "fg": {
             "solid": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.fg.solid.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.32",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.solid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
             },
             "muted": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.fg.muted.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.24",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.muted.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
             },
             "subtle": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.fg.subtle.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.24",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.subtle.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
             },
             "onSolid": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.fg.onSolid.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "0.16",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onSolid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
             },
             "onTone": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.fg.onTone.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "0.20",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onTone.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
             },
             "onTranslucent": {
-              "$type": "color",
-              "$value": "{app.color.component.neutral.fg.onTranslucent.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "0.32",
-                    "space": "oklch"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onTranslucent.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
