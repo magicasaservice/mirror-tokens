@@ -109,7 +109,7 @@
           },
           "sm": {
             "default": {
-              "$value": "{component.avatar.dimension.height.md.default} - 0.5rem",
+              "$value": "{app.dimension.component.height.lg}",
               "$type": "dimension"
             },
             "inline": {
@@ -123,27 +123,27 @@
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.height.md.default} - 0.5rem",
+              "$value": "{app.dimension.component.height.xl} - 0.5rem",
               "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "$value": "{component.avatar.dimension.height.md.default} + 0.5rem",
+              "$value": "{app.dimension.component.height.2xl}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.height.lg.default} - 0.5rem",
+              "$value": "{app.dimension.component.height.2xl} - 0.5rem",
               "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "$value": "{component.avatar.dimension.height.lg.default} + 0.5rem",
+              "$value": "{app.dimension.component.height.3xl}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.height.xl.default} - 0.5rem",
+              "$value": "{app.dimension.component.height.3xl} - 0.5rem",
               "$type": "dimension"
             }
           }
@@ -151,51 +151,51 @@
         "radius": {
           "xs": {
             "default": {
-              "$value": "{component.avatar.dimension.radius.sm.default} - 0.125rem",
+              "$value": "{app.dimension.component.radius.xs}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.radius.xs.default} - 0.25rem",
+              "$value": "{app.dimension.component.radius.xs}- 0.25rem",
               "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "$value": "{component.avatar.dimension.radius.md.default} - 0.125rem",
+              "$value": "{app.dimension.component.radius.sm}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.radius.sm.default} - 0.25rem",
+              "$value": "{app.dimension.component.radius.sm} - 0.25rem",
               "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "$value": "1rem",
+              "$value": "{app.dimension.component.radius.md}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.radius.md.default} - 0.125rem",
+              "$value": "{app.dimension.component.radius.md} - 0.125rem",
               "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "$value": "{component.avatar.dimension.radius.md.default} + 0.125rem",
+              "$value": "{app.dimension.component.radius.lg}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.radius.lg.default} - 0.125rem",
+              "$value": "{app.dimension.component.radius.lg} - 0.125rem",
               "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "$value": "{component.avatar.dimension.radius.lg.default} + 0.125rem",
+              "$value": "{app.dimension.component.radius.xl}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.radius.xl.default} - 0.125rem",
+              "$value": "{app.dimension.component.radius.xl}- 0.125rem",
               "$type": "dimension"
             }
           }
@@ -209,51 +209,51 @@
         "symbol": {
           "xs": {
             "default": {
-              "$value": "{component.avatar.fontSize.xs.symbol.default}",
+              "$value": "{component.avatar.fontSize.symbol.default.xs}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.fontSize.xs.symbol.inline}",
+              "$value": "{component.avatar.fontSize.symbol.inline.xs}",
               "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "$value": "{component.avatar.fontSize.sm.symbol.default}",
+              "$value": "{component.avatar.fontSize.symbol.default.sm}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.fontSize.sm.symbol.inline}",
+              "$value": "{component.avatar.fontSize.symbol.inline.sm}",
               "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "$value": "{component.avatar.fontSize.md.symbol.default}",
+              "$value": "{component.avatar.fontSize.symbol.default.md}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.fontSize.md.symbol.inline}",
+              "$value": "{component.avatar.fontSize.symbol.inline.md}",
               "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "$value": "{component.avatar.fontSize.lg.symbol.default}",
+              "$value": "{component.avatar.fontSize.symbol.default.lg}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.fontSize.lg.symbol.inline}",
+              "$value": "{component.avatar.fontSize.symbol.inline.lg}",
               "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "$value": "{component.avatar.fontSize.xl.symbol.default}",
+              "$value": "{component.avatar.fontSize.symbol.default.xl}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.fontSize.xl.symbol.inline}",
+              "$value": "{component.avatar.fontSize.symbol.inline.xl}",
               "$type": "dimension"
             }
           }
@@ -282,102 +282,92 @@
         }
       },
       "fontSize": {
-        "xs": {
-          "default": {
-            "$value": "{component.avatar.fontSize.sm.default} - 0.125rem",
+        "default": {
+          "xs": {
+            "$value": "{app.fontSize.component.text.md}",
             "$type": "fontSizes"
           },
-          "inline": {
-            "$value": "{component.avatar.fontSize.xs.default} - 0.25rem",
+          "sm": {
+            "$value": "{app.fontSize.component.text.lg}",
             "$type": "fontSizes"
           },
-          "symbol": {
-            "default": {
-              "$value": "{component.avatar.fontSize.xs.default} * 1.5",
-              "$type": "fontSizes"
-            },
-            "inline": {
-              "$value": "{component.avatar.fontSize.xs.symbol.default} - 0.25rem",
-              "$type": "fontSizes"
-            }
-          }
-        },
-        "sm": {
-          "default": {
-            "$value": "{component.avatar.fontSize.md.default} - 0.125rem",
-            "$type": "fontSizes"
-          },
-          "inline": {
-            "$value": "{component.avatar.fontSize.sm.default} - 0.25rem",
-            "$type": "fontSizes"
-          },
-          "symbol": {
-            "default": {
-              "$value": "{component.avatar.fontSize.sm.default} * 1.5",
-              "$type": "fontSizes"
-            },
-            "inline": {
-              "$value": "{component.avatar.fontSize.sm.symbol.default} - 0.25rem",
-              "$type": "fontSizes"
-            }
-          }
-        },
-        "md": {
-          "default": {
+          "md": {
             "$value": "{app.fontSize.component.text.xl}",
             "$type": "fontSizes"
           },
-          "inline": {
-            "$value": "{component.avatar.fontSize.md.default} - 0.25rem",
+          "lg": {
+            "$value": "{app.fontSize.component.text.2xl}",
             "$type": "fontSizes"
           },
-          "symbol": {
-            "default": {
-              "$value": "{component.avatar.fontSize.md.default} * 1.5",
-              "$type": "fontSizes"
-            },
-            "inline": {
-              "$value": "{component.avatar.fontSize.md.symbol.default} - 0.25rem",
-              "$type": "fontSizes"
-            }
+          "xl": {
+            "$value": "{app.fontSize.component.text.3xl}",
+            "$type": "fontSizes"
           }
         },
-        "lg": {
-          "default": {
-            "$value": "{component.avatar.fontSize.md.default} + 0.125rem",
+        "inline": {
+          "xs": {
+            "$value": "{app.fontSize.component.text.md} - 0.25rem",
             "$type": "fontSizes"
           },
-          "inline": {
-            "$value": "{component.avatar.fontSize.lg.default} - 0.25rem",
+          "sm": {
+            "$value": "{app.fontSize.component.text.lg} - 0.25rem",
             "$type": "fontSizes"
           },
-          "symbol": {
-            "default": {
-              "$value": "{component.avatar.fontSize.lg.default} * 1.5",
-              "$type": "fontSizes"
-            },
-            "inline": {
-              "$value": "{component.avatar.fontSize.lg.symbol.default} - 0.25rem",
-              "$type": "fontSizes"
-            }
+          "md": {
+            "$value": "{app.fontSize.component.text.xl} - 0.25rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "{app.fontSize.component.text.2xl} - 0.25rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "{app.fontSize.component.text.3xl} - 0.25rem",
+            "$type": "fontSizes"
           }
         },
-        "xl": {
+        "symbol": {
           "default": {
-            "$value": "{component.avatar.fontSize.lg.default} + 0.125rem",
-            "$type": "fontSizes"
-          },
-          "inline": {
-            "$value": "{component.avatar.fontSize.xl.default} - 0.25rem",
-            "$type": "fontSizes"
-          },
-          "symbol": {
-            "default": {
-              "$value": "{component.avatar.fontSize.xl.default} * 1.5",
+            "xs": {
+              "$value": "{app.fontSize.component.text.md} * 1.5",
               "$type": "fontSizes"
             },
-            "inline": {
-              "$value": "{component.avatar.fontSize.xl.symbol.default} - 0.25rem",
+            "sm": {
+              "$value": "{app.fontSize.component.text.lg} * 1.5",
+              "$type": "fontSizes"
+            },
+            "md": {
+              "$value": "{app.fontSize.component.text.xl} * 1.5",
+              "$type": "fontSizes"
+            },
+            "lg": {
+              "$value": "{app.fontSize.component.text.2xl} * 1.5",
+              "$type": "fontSizes"
+            },
+            "xl": {
+              "$value": "{app.fontSize.component.text.3xl} * 1.5",
+              "$type": "fontSizes"
+            }
+          },
+          "inline": {
+            "xs": {
+              "$value": "{app.fontSize.component.text.md} * 1.5 - 0.25rem",
+              "$type": "fontSizes"
+            },
+            "sm": {
+              "$value": "{app.fontSize.component.text.lg} * 1.5 - 0.25rem",
+              "$type": "fontSizes"
+            },
+            "md": {
+              "$value": "{app.fontSize.component.text.xl} * 1.5 - 0.25rem",
+              "$type": "fontSizes"
+            },
+            "lg": {
+              "$value": "{app.fontSize.component.text.2xl} * 1.5 - 0.25rem",
+              "$type": "fontSizes"
+            },
+            "xl": {
+              "$value": "{app.fontSize.component.text.3xl} * 1.5 - 0.25rem",
               "$type": "fontSizes"
             }
           }
