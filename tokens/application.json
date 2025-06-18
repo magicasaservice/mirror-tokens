@@ -126,15 +126,15 @@
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.2}"
+                "$value": "{config.color.palette.grey.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.grey.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.4}"
+                "$value": "{config.color.palette.grey.translucent.3}"
               }
             },
             "tone": {
@@ -1934,12 +1934,8 @@
         },
         "outline": {
           "focus": {
-            "md": {
+            "default": {
               "$value": "0.25rem",
-              "$type": "dimension"
-            },
-            "lg": {
-              "$value": "0.375rem",
               "$type": "dimension"
             }
           }
