@@ -38,7 +38,7 @@
       "fontSize": {
         "default": {
           "sm": {
-            "$value": "{component.chip.fontSize.default.md} - {component.chip.config.label.step}",
+            "$value": "{component.chip.fontSize.default.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -46,13 +46,13 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.chip.fontSize.default.md} + {component.chip.config.label.step}",
+            "$value": "{component.chip.fontSize.default.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         },
         "symbol": {
           "sm": {
-            "$value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.step}",
+            "$value": "{component.chip.fontSize.symbol.md} - 0.125rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -60,22 +60,22 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.step}",
+            "$value": "{component.chip.fontSize.symbol.md} + 0.125rem",
             "$type": "fontSizes"
           }
         }
       },
       "icon": {
         "sm": {
-          "$value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.icon.step}",
+          "$value": "{component.chip.fontSize.symbol.sm} + 0.25rem",
           "$type": "fontSizes"
         },
         "md": {
-          "$value": "{component.chip.fontSize.symbol.md} + {component.chip.config.icon.step}",
+          "$value": "{component.chip.fontSize.symbol.md} + 0.25rem",
           "$type": "fontSizes"
         },
         "lg": {
-          "$value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.icon.step}",
+          "$value": "{component.chip.fontSize.symbol.lg} + 0.25rem",
           "$type": "fontSizes"
         }
       },
@@ -268,6 +268,12 @@
               "$value": "{app.color.component.focus.border.default}",
               "$type": "color"
             }
+          },
+          "outline": {
+            "default": {
+              "$value": "{app.color.component.focus.outline.default}",
+              "$type": "color"
+            }
           }
         }
       },
@@ -335,15 +341,15 @@
           },
           "inline": {
             "sm": {
-              "$value": "{component.chip.dimension.radius.default.sm} - {component.chip.config.dimension.radius.inline}",
+              "$value": "{component.chip.dimension.radius.default.sm} - {component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.chip.dimension.radius.default.md} - {component.chip.config.dimension.radius.inline}",
+              "$value": "{component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.chip.dimension.radius.default.lg} - {component.chip.config.dimension.radius.inline}",
+              "$value": "{component.chip.dimension.radius.default.lg} - {component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
               "$type": "dimension"
             }
           }
@@ -352,6 +358,11 @@
           "default": {
             "$value": "{app.dimension.label.border.default}",
             "$type": "dimension"
+          }
+        },
+        "outline": {
+          "focus": {
+            "$value": "{app.dimension.component.outline.focus.md}"
           }
         },
         "symbol": {
@@ -393,39 +404,7 @@
           }
         }
       },
-      "config": {
-        "icon": {
-          "step": {
-            "$value": "0.25rem",
-            "$type": "other"
-          }
-        },
-        "symbol": {
-          "step": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "label": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          }
-        },
-        "dimension": {
-          "radius": {
-            "inline": {
-              "$value": "{component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
-              "$type": "other"
-            }
-          }
-        }
-      },
       "boxShadow": {
-        "focusRing": {
-          "$value": "{app.boxShadow.focusRing.md}",
-          "$type": "boxShadow"
-        },
         "dragged": {
           "$value": [
             {

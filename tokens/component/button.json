@@ -38,11 +38,11 @@
       "fontSize": {
         "default": {
           "xs": {
-            "$value": "{component.button.fontSize.default.sm} - {component.button.config.text.step}",
+            "$value": "{component.button.fontSize.default.sm} - 0.0625rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.button.fontSize.default.md} - {component.button.config.text.step}",
+            "$value": "{component.button.fontSize.default.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -50,17 +50,17 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.button.fontSize.default.md} + {component.button.config.text.step}",
+            "$value": "{component.button.fontSize.default.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         },
         "symbol": {
           "xs": {
-            "$value": "{component.button.fontSize.symbol.sm} - {component.button.config.symbol.step}",
+            "$value": "{component.button.fontSize.symbol.sm} - 0.125rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.button.fontSize.symbol.md} - {component.button.config.symbol.step}",
+            "$value": "{component.button.fontSize.symbol.md} - 0.125rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -68,25 +68,25 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.button.fontSize.symbol.md} + {component.button.config.symbol.step}",
+            "$value": "{component.button.fontSize.symbol.md} + 0.125rem",
             "$type": "fontSizes"
           }
         },
         "icon": {
           "xs": {
-            "$value": "{component.button.fontSize.symbol.xs} + {component.button.config.icon.step}",
+            "$value": "{component.button.fontSize.symbol.xs} + 0.25rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.button.fontSize.symbol.sm} + {component.button.config.icon.step}",
+            "$value": "{component.button.fontSize.symbol.sm} + 0.25rem",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{component.button.fontSize.symbol.md} + {component.button.config.icon.step}",
+            "$value": "{component.button.fontSize.symbol.md} + 0.25rem",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.button.fontSize.symbol.lg} + {component.button.config.icon.step}",
+            "$value": "{component.button.fontSize.symbol.lg} + 0.25rem",
             "$type": "fontSizes"
           }
         }
@@ -1047,7 +1047,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.sm.default} + {component.button.config.icon.step}",
+              "$value": "{component.button.dimension.symbol.sm.default} + 0.25rem",
               "$type": "dimension"
             }
           },
@@ -1057,7 +1057,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.md.default} + {component.button.config.icon.step}",
+              "$value": "{component.button.dimension.symbol.md.default} + 0.25rem",
               "$type": "dimension"
             }
           },
@@ -1067,7 +1067,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.lg.default} + {component.button.config.icon.step}",
+              "$value": "{component.button.dimension.symbol.lg.default} + 0.25rem",
               "$type": "dimension"
             }
           },
@@ -1077,7 +1077,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.xs.default} + {component.button.config.icon.step}",
+              "$value": "{component.button.dimension.symbol.xs.default} + 0.25rem",
               "$type": "dimension"
             }
           }
@@ -1092,26 +1092,6 @@
           "focus": {
             "$value": "{app.dimension.component.outline.focus.md}",
             "$type": "dimension"
-          }
-        }
-      },
-      "config": {
-        "icon": {
-          "step": {
-            "$value": "0.25rem",
-            "$type": "other"
-          }
-        },
-        "symbol": {
-          "step": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "text": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
           }
         }
       }

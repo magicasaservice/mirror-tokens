@@ -268,11 +268,11 @@
       "fontSize": {
         "label": {
           "xs": {
-            "$value": "{component.menuItem.fontSize.label.sm} - {component.menuItem.config.label.step}",
+            "$value": "{component.menuItem.fontSize.label.sm} - 0.0625rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.menuItem.fontSize.label.md} - {component.menuItem.config.label.step}",
+            "$value": "{component.menuItem.fontSize.label.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -280,17 +280,17 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.menuItem.fontSize.label.md} + {component.menuItem.config.label.step}",
+            "$value": "{component.menuItem.fontSize.label.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         },
         "symbol": {
           "xs": {
-            "$value": "{component.menuItem.fontSize.symbol.sm} - {component.menuItem.config.symbol.step}",
+            "$value": "{component.menuItem.fontSize.symbol.sm} - 0.125rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.menuItem.fontSize.symbol.md} - {component.menuItem.config.symbol.step}",
+            "$value": "{component.menuItem.fontSize.symbol.md} - 0.125rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -298,17 +298,17 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.menuItem.fontSize.symbol.md} + {component.menuItem.config.symbol.step}",
+            "$value": "{component.menuItem.fontSize.symbol.md} + 0.125rem",
             "$type": "fontSizes"
           }
         },
         "cmd": {
           "xs": {
-            "$value": "{component.menuItem.fontSize.cmd.sm} - {component.menuItem.config.cmd.step}",
+            "$value": "{component.menuItem.fontSize.cmd.sm} - 0.0625rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.menuItem.fontSize.cmd.md} - {component.menuItem.config.cmd.step}",
+            "$value": "{component.menuItem.fontSize.cmd.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -316,7 +316,7 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.menuItem.fontSize.cmd.md} + {component.menuItem.config.cmd.step}",
+            "$value": "{component.menuItem.fontSize.cmd.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         }
@@ -349,38 +349,38 @@
           },
           "label": {
             "xs": {
-              "$value": "{component.menuItem.dimension.padding.label.sm} - {component.menuItem.config.padding.step}",
+              "$value": "{component.menuItem.dimension.padding.label.sm} - 0.125rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{component.menuItem.dimension.padding.label.md} - {component.menuItem.config.padding.step}",
+              "$value": "{component.menuItem.dimension.padding.label.md} - 0.125rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.menuItem.config.padding.default}",
+              "$value": "0.375rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.menuItem.dimension.padding.label.md} + {component.menuItem.config.padding.step}",
+              "$value": "{component.menuItem.dimension.padding.label.md} + 0.125rem",
               "$type": "dimension"
             }
           }
         },
         "gap": {
           "xs": {
-            "$value": "{component.menuItem.dimension.gap.sm} - {component.menuItem.config.gap.step}",
+            "$value": "{component.menuItem.dimension.gap.sm} - 0.0625rem",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{component.menuItem.dimension.gap.md} - {component.menuItem.config.gap.step}",
+            "$value": "{component.menuItem.dimension.gap.md} - 0.0625rem",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{component.menuItem.config.gap.default}",
+            "$value": "0.75rem",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{component.menuItem.dimension.gap.md} + {component.menuItem.config.gap.step}",
+            "$value": "{component.menuItem.dimension.gap.md} + 0.0625rem",
             "$type": "dimension"
           }
         },
@@ -418,46 +418,6 @@
           "lg": {
             "$value": "{component.menuItem.fontSize.symbol.lg}",
             "$type": "dimension"
-          }
-        }
-      },
-      "config": {
-        "symbol": {
-          "step": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "label": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          }
-        },
-        "gap": {
-          "default": {
-            "$value": "0.75rem",
-            "$type": "other"
-          },
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          }
-        },
-        "padding": {
-          "default": {
-            "$value": "0.375rem",
-            "$type": "other"
-          },
-          "step": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "cmd": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
           }
         }
       }

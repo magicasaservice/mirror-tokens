@@ -216,11 +216,11 @@
       "fontSize": {
         "label": {
           "sm": {
-            "$value": "{component.checkbox.fontSize.label.md} - {component.checkbox.config.label.step}",
+            "$value": "{component.checkbox.fontSize.label.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{component.checkbox.fontSize.label.lg} - {component.checkbox.config.label.step}",
+            "$value": "{component.checkbox.fontSize.label.lg} - 0.0625rem",
             "$type": "fontSizes"
           },
           "lg": {
@@ -301,7 +301,7 @@
         "input": {
           "height": {
             "sm": {
-              "$value": "{component.checkbox.dimension.input.height.md} - {component.checkbox.config.input.height.step}",
+              "$value": "{app.dimension.component.height.xs} - 0.25rem",
               "$type": "dimension"
             },
             "md": {
@@ -309,35 +309,35 @@
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.checkbox.dimension.input.height.md} + {component.checkbox.config.input.height.step}",
+              "$value": "{app.dimension.component.height.xs} + 0.25rem",
               "$type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "$value": "{component.checkbox.dimension.input.height.sm} * {component.checkbox.config.input.width.ratio}",
+              "$value": "{component.checkbox.dimension.input.height.sm} * 1",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.checkbox.dimension.input.height.md} * {component.checkbox.config.input.width.ratio}",
+              "$value": "{component.checkbox.dimension.input.height.md} * 1",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.checkbox.dimension.input.height.lg} * {component.checkbox.config.input.width.ratio}",
+              "$value": "{component.checkbox.dimension.input.height.lg} * 1",
               "$type": "dimension"
             }
           },
           "radius": {
             "sm": {
-              "$value": "{component.checkbox.dimension.input.radius.md} - {component.checkbox.config.input.radius.step}",
+              "$value": "{component.checkbox.dimension.input.radius.md} - 0.0625rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.checkbox.config.input.radius.default}",
+              "$value": "0.4375rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.checkbox.dimension.input.radius.md} + {component.checkbox.config.input.radius.step}",
+              "$value": "{component.checkbox.dimension.input.radius.md} + 0.0625rem",
               "$type": "dimension"
             }
           },
@@ -368,15 +368,15 @@
           "symbol": {
             "size": {
               "sm": {
-                "$value": "{component.checkbox.dimension.input.height.sm} * {component.checkbox.config.input.symbol.scale}",
+                "$value": "{component.checkbox.dimension.input.height.sm} * 0.75",
                 "$type": "dimension"
               },
               "md": {
-                "$value": "{component.checkbox.dimension.input.height.md} * {component.checkbox.config.input.symbol.scale}",
+                "$value": "{component.checkbox.dimension.input.height.md} * 0.75",
                 "$type": "dimension"
               },
               "lg": {
-                "$value": "{component.checkbox.dimension.input.height.lg} * {component.checkbox.config.input.symbol.scale}",
+                "$value": "{component.checkbox.dimension.input.height.lg} * 0.75",
                 "$type": "dimension"
               }
             }
@@ -460,45 +460,6 @@
               "$value": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M18.8958 10.8958C19.2014 10.8958 19.4583 11.0069 19.6667 11.2292C19.8889 11.4375 20 11.6944 20 12C20 12.3056 19.8889 12.5694 19.6667 12.7917C19.4583 13 19.2014 13.1042 18.8958 13.1042H5.10417C4.79861 13.1042 4.53472 13 4.3125 12.7917C4.10417 12.5694 4 12.3056 4 12C4 11.6944 4.10417 11.4375 4.3125 11.2292C4.53472 11.0069 4.79861 10.8958 5.10417 10.8958H18.8958Z\" fill=\"black\" style=\"fill:black;fill-opacity:1;\"/>\n</svg>",
               "$type": "asset"
             }
-          }
-        }
-      },
-      "config": {
-        "input": {
-          "height": {
-            "step": {
-              "$value": "0.25rem",
-              "$type": "other"
-            }
-          },
-          "radius": {
-            "default": {
-              "$value": "0.4375rem",
-              "$type": "other",
-              "description": "For a circle match height"
-            },
-            "step": {
-              "$value": "0.0625rem",
-              "$type": "other"
-            }
-          },
-          "width": {
-            "ratio": {
-              "$value": "1",
-              "$type": "other"
-            }
-          },
-          "symbol": {
-            "scale": {
-              "$value": "0.75",
-              "$type": "other"
-            }
-          }
-        },
-        "label": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
           }
         }
       }

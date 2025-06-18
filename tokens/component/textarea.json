@@ -36,11 +36,11 @@
       "fontSize": {
         "input": {
           "xs": {
-            "$value": "{component.textarea.fontSize.input.sm} - {component.textarea.config.text.step}",
+            "$value": "{component.textarea.fontSize.input.sm} - 0.0625rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.textarea.fontSize.input.md} - {component.textarea.config.text.step}",
+            "$value": "{component.textarea.fontSize.input.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -48,7 +48,7 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.textarea.fontSize.input.md} + {component.textarea.config.text.step}",
+            "$value": "{component.textarea.fontSize.input.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         },
@@ -287,11 +287,11 @@
         "gap": {
           "label": {
             "xs": {
-              "$value": "{component.textarea.dimension.gap.label.sm} - {component.textarea.config.gap.label.step}",
+              "$value": "{component.textarea.dimension.gap.label.sm} - 0.0625rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{component.textarea.dimension.gap.label.md} - {component.textarea.config.gap.label.step}",
+              "$value": "{component.textarea.dimension.gap.label.md} - 0.0625rem",
               "$type": "dimension"
             },
             "md": {
@@ -299,7 +299,7 @@
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.textarea.dimension.gap.label.md} + {component.textarea.config.gap.label.step}",
+              "$value": "{component.textarea.dimension.gap.label.md} + 0.0625rem",
               "$type": "dimension"
             }
           }
@@ -352,22 +352,6 @@
           "default": {
             "$value": "1rem",
             "$type": "dimension"
-          }
-        }
-      },
-      "config": {
-        "text": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          }
-        },
-        "gap": {
-          "label": {
-            "step": {
-              "$value": "0.0625rem",
-              "$type": "other"
-            }
           }
         }
       }

@@ -34,7 +34,7 @@
       "dimension": {
         "track": {
           "height": {
-            "$value": "{component.slider.config.track.height}",
+            "$value": "0.25rem",
             "$type": "dimension"
           },
           "border": {
@@ -42,13 +42,13 @@
             "$type": "dimension"
           },
           "radius": {
-            "$value": "{component.slider.config.track.radius}",
+            "$value": "0.25rem",
             "$type": "dimension"
           }
         },
         "container": {
           "height": {
-            "$value": "{component.slider.config.container.height}",
+            "$value": "{app.dimension.component.height.md}",
             "$type": "dimension"
           },
           "padding": {
@@ -62,11 +62,11 @@
         },
         "handle": {
           "height": {
-            "$value": "{component.slider.config.handle.height}",
+            "$value": "0.875rem",
             "$type": "dimension"
           },
           "width": {
-            "$value": "{component.slider.config.handle.height} * {component.slider.config.handle.ratio}",
+            "$value": "0.875rem",
             "$type": "dimension"
           },
           "border": {
@@ -80,31 +80,31 @@
             }
           },
           "radius": {
-            "$value": "{component.slider.config.handle.radius}",
+            "$value": "1rem",
             "$type": "dimension"
           },
           "pressed": {
             "height": {
-              "$value": "{component.slider.dimension.handle.height} * {component.slider.config.handle.pressed}",
+              "$value": "{component.slider.dimension.handle.height} * 1.125",
               "$type": "dimension"
             },
             "width": {
-              "$value": "{component.slider.dimension.handle.width} * {component.slider.config.handle.pressed}",
+              "$value": "{component.slider.dimension.handle.width} * 1.125",
               "$type": "dimension"
             }
           }
         },
         "step": {
           "height": {
-            "$value": "{component.slider.config.track.height} - {component.slider.config.step.padding} * 2",
+            "$value": "{component.slider.dimension.track.height} - 0.0625rem * 2",
             "$type": "dimension"
           },
           "width": {
-            "$value": "{component.slider.dimension.step.height} * {component.slider.config.step.ratio}",
+            "$value": "{component.slider.dimension.step.height}",
             "$type": "dimension"
           },
           "radius": {
-            "$value": "{component.slider.config.track.radius} - {component.slider.config.step.padding}",
+            "$value": "{component.slider.dimension.track.radius} - 0.0625rem",
             "$type": "dimension"
           }
         },
@@ -263,55 +263,6 @@
         "number": {
           "$value": "{app.letterSpacing.component.number}",
           "$type": "letterSpacing"
-        }
-      },
-      "config": {
-        "track": {
-          "height": {
-            "$value": "0.25rem",
-            "$type": "other",
-            "description": "-0.5 for material design style (handle is offset)"
-          },
-          "radius": {
-            "$value": "0.25rem",
-            "$type": "other",
-            "description": "for 100% roundness make equal to height md"
-          }
-        },
-        "handle": {
-          "height": {
-            "$value": "0.875rem",
-            "$type": "other"
-          },
-          "radius": {
-            "$value": "1rem",
-            "$type": "other",
-            "description": "for 100% roundness make half of pressed height"
-          },
-          "ratio": {
-            "$value": "1",
-            "$type": "other"
-          },
-          "pressed": {
-            "$value": "1.125",
-            "$type": "other"
-          }
-        },
-        "step": {
-          "padding": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          },
-          "ratio": {
-            "$value": "1",
-            "$type": "other"
-          }
-        },
-        "container": {
-          "height": {
-            "$value": "{app.dimension.component.height.md}",
-            "$type": "other"
-          }
         }
       }
     }

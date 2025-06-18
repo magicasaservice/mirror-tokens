@@ -120,11 +120,11 @@
       "fontSize": {
         "label": {
           "xs": {
-            "$value": "{component.menuCard.fontSize.label.sm} - {component.menuCard.config.label.step}",
+            "$value": "{component.menuCard.fontSize.label.sm} - 0.0625rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.menuCard.fontSize.label.md} - {component.menuCard.config.label.step}",
+            "$value": "{component.menuCard.fontSize.label.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -132,17 +132,17 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.menuCard.fontSize.label.md} + {component.menuCard.config.label.step}",
+            "$value": "{component.menuCard.fontSize.label.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         },
         "symbol": {
           "xs": {
-            "$value": "{component.menuCard.fontSize.symbol.sm} - {component.menuCard.config.symbol.step}",
+            "$value": "{component.menuCard.fontSize.symbol.sm} - 0.125rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.menuCard.fontSize.symbol.md} - {component.menuCard.config.symbol.step}",
+            "$value": "{component.menuCard.fontSize.symbol.md} - 0.125rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -150,17 +150,17 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.menuCard.fontSize.symbol.md} + {component.menuCard.config.symbol.step}",
+            "$value": "{component.menuCard.fontSize.symbol.md} + 0.125rem",
             "$type": "fontSizes"
           }
         },
         "cmd": {
           "xs": {
-            "$value": "{component.menuCard.fontSize.cmd.sm} - {component.menuCard.config.cmd.step}",
+            "$value": "{component.menuCard.fontSize.cmd.sm} - 0.0625rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.menuCard.fontSize.cmd.md} - {component.menuCard.config.cmd.step}",
+            "$value": "{component.menuCard.fontSize.cmd.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -168,7 +168,7 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.menuCard.fontSize.cmd.md} + {component.menuCard.config.cmd.step}",
+            "$value": "{component.menuCard.fontSize.cmd.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         }
@@ -221,19 +221,19 @@
           },
           "label": {
             "xs": {
-              "$value": "{component.menuCard.dimension.padding.label.sm} - {component.menuCard.config.padding.step}",
+              "$value": "{component.menuCard.dimension.padding.label.sm} - 0.125rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{component.menuCard.dimension.padding.label.md} - {component.menuCard.config.padding.step}",
+              "$value": "{component.menuCard.dimension.padding.label.md} - 0.125rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.menuCard.config.padding.default}",
+              "$value": "0.375rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.menuCard.dimension.padding.label.md} + {component.menuCard.config.padding.step}",
+              "$value": "{component.menuCard.dimension.padding.label.md} + 0.125rem",
               "$type": "dimension"
             }
           }
@@ -241,37 +241,37 @@
         "gap": {
           "container": {
             "xs": {
-              "$value": "{component.menuCard.dimension.gap.container.sm} - {component.menuCard.config.gap.container.step}",
+              "$value": "{component.menuCard.dimension.gap.container.sm} - 0.125rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{component.menuCard.dimension.gap.container.md} - {component.menuCard.config.gap.container.step}",
+              "$value": "{component.menuCard.dimension.gap.container.md} - 0.125rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.menuCard.config.gap.container.default}",
+              "$value": "1.125rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.menuCard.dimension.gap.container.md} + {component.menuCard.config.gap.container.step}",
+              "$value": "{component.menuCard.dimension.gap.container.md} + 0.125rem",
               "$type": "dimension"
             }
           },
           "label": {
             "xs": {
-              "$value": "{component.menuCard.config.gap.label.default}",
+              "$value": "0.0625rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{component.menuCard.dimension.gap.label.xs} + {component.menuCard.config.gap.label.step}",
+              "$value": "{component.menuCard.dimension.gap.label.xs} + 0.0625rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.menuCard.dimension.gap.label.sm} + {component.menuCard.config.gap.label.step}",
+              "$value": "{component.menuCard.dimension.gap.label.sm} + 0.0625rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.menuCard.dimension.gap.label.md} + {component.menuCard.config.gap.label.step}",
+              "$value": "{component.menuCard.dimension.gap.label.md} + 0.0625rem",
               "$type": "dimension"
             }
           }
@@ -310,58 +310,6 @@
           "lg": {
             "$value": "{component.menuCard.fontSize.symbol.lg}",
             "$type": "dimension"
-          }
-        }
-      },
-      "config": {
-        "symbol": {
-          "step": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "label": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          }
-        },
-        "gap": {
-          "container": {
-            "default": {
-              "$value": "1.125rem",
-              "$type": "other"
-            },
-            "step": {
-              "$value": "0.125rem",
-              "$type": "other"
-            }
-          },
-          "label": {
-            "default": {
-              "$value": "0.0625rem",
-              "$type": "other"
-            },
-            "step": {
-              "$value": "0.0625rem",
-              "$type": "other"
-            }
-          }
-        },
-        "padding": {
-          "default": {
-            "$value": "0.375rem",
-            "$type": "other"
-          },
-          "step": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "cmd": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
           }
         }
       }

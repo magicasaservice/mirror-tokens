@@ -5,7 +5,7 @@
         "track": {
           "height": {
             "sm": {
-              "$value": "{component.toggle.dimension.track.height.md} - {component.toggle.config.track.step}",
+              "$value": "{component.toggle.dimension.track.height.md} - 0.375rem",
               "$type": "dimension"
             },
             "md": {
@@ -13,35 +13,35 @@
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.toggle.dimension.track.height.md} + {component.toggle.config.track.step}",
+              "$value": "{component.toggle.dimension.track.height.md} + 0.375rem",
               "$type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "$value": "{component.toggle.dimension.handle.width.sm} * 2 + {component.toggle.config.handle.inset} * 2",
+              "$value": "{component.toggle.dimension.handle.width.sm} * 2 + {component.toggle.dimension.handle.inset.sm} * 2",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.toggle.dimension.handle.width.md} * 2 + {component.toggle.config.handle.inset} * 2",
+              "$value": "{component.toggle.dimension.handle.width.md} * 2 + {component.toggle.dimension.handle.inset.md} * 2",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.toggle.dimension.handle.width.lg} * 2 + {component.toggle.config.handle.inset} * 2",
+              "$value": "{component.toggle.dimension.handle.width.lg} * 2 + {component.toggle.dimension.handle.inset.lg} * 2",
               "$type": "dimension"
             }
           },
           "radius": {
             "sm": {
-              "$value": "{component.toggle.dimension.track.radius.md} - {component.toggle.config.track.radius.step}",
+              "$value": "{component.toggle.dimension.track.radius.md} - 0.125rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.toggle.config.track.radius.default}",
+              "$value": "1.25rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.toggle.dimension.track.radius.md} + {component.toggle.config.track.radius.step}",
+              "$value": "{component.toggle.dimension.track.radius.md} + 0.125rem",
               "$type": "dimension"
             }
           },
@@ -69,42 +69,42 @@
         "handle": {
           "height": {
             "sm": {
-              "$value": "{component.toggle.dimension.track.height.sm} - {component.toggle.config.handle.inset} * 2",
+              "$value": "{component.toggle.dimension.track.height.sm} - {component.toggle.dimension.handle.inset.sm} * 2",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.toggle.dimension.track.height.md} - {component.toggle.config.handle.inset} * 2",
+              "$value": "{component.toggle.dimension.track.height.md} - {component.toggle.dimension.handle.inset.md} * 2",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.toggle.dimension.track.height.lg} - {component.toggle.config.handle.inset} * 2",
+              "$value": "{component.toggle.dimension.track.height.lg} - {component.toggle.dimension.handle.inset.lg} * 2",
               "$type": "dimension"
             }
           },
           "width": {
             "sm": {
-              "$value": "({component.toggle.dimension.track.height.sm} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "$value": "({component.toggle.dimension.track.height.sm} -  {component.toggle.dimension.handle.inset.sm} * 2)",
               "$type": "dimension"
             },
             "md": {
-              "$value": "({component.toggle.dimension.track.height.md} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "$value": "({component.toggle.dimension.track.height.md} -  {component.toggle.dimension.handle.inset.md} * 2)",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "({component.toggle.dimension.track.height.lg} - {component.toggle.config.handle.inset} * 2) * {component.toggle.config.handle.ratio}",
+              "$value": "({component.toggle.dimension.track.height.lg} -  {component.toggle.dimension.handle.inset.lg} * 2)",
               "$type": "dimension"
             },
             "pressed": {
               "sm": {
-                "$value": "{component.toggle.dimension.handle.width.sm} + {component.toggle.config.handle.pressed}",
+                "$value": "{component.toggle.dimension.handle.width.sm} + 0.125rem",
                 "$type": "dimension"
               },
               "md": {
-                "$value": "{component.toggle.dimension.handle.width.md} + {component.toggle.config.handle.pressed} * 2",
+                "$value": "{component.toggle.dimension.handle.width.md} + 0.125rem * 2",
                 "$type": "dimension"
               },
               "lg": {
-                "$value": "{component.toggle.dimension.handle.width.lg} + {component.toggle.config.handle.pressed} * 3",
+                "$value": "{component.toggle.dimension.handle.width.lg} + 0.125rem * 3",
                 "$type": "dimension"
               }
             }
@@ -125,29 +125,29 @@
           },
           "radius": {
             "sm": {
-              "$value": "{component.toggle.dimension.track.radius.sm} - {component.toggle.config.handle.inset}",
+              "$value": "{component.toggle.dimension.track.radius.sm} - {component.toggle.dimension.handle.inset.sm}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.toggle.dimension.track.radius.md} - {component.toggle.config.handle.inset}",
+              "$value": "{component.toggle.dimension.track.radius.md} - {component.toggle.dimension.handle.inset.md}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.config.handle.inset}",
+              "$value": "{component.toggle.dimension.track.radius.lg} - {component.toggle.dimension.handle.inset.lg}",
               "$type": "dimension"
             }
           },
           "inset": {
             "sm": {
-              "$value": "{component.toggle.config.handle.inset}",
+              "$value": "0.125rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{component.toggle.config.handle.inset}",
+              "$value": "0.125rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.toggle.config.handle.inset}",
+              "$value": "0.125rem",
               "$type": "dimension"
             }
           },
@@ -520,11 +520,11 @@
       "fontSize": {
         "label": {
           "sm": {
-            "$value": "{component.toggle.fontSize.label.md} - {component.toggle.config.label.step}",
+            "$value": "{component.toggle.fontSize.label.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{component.toggle.fontSize.label.lg} - {component.toggle.config.label.step}",
+            "$value": "{component.toggle.fontSize.label.lg} - 0.0625rem",
             "$type": "fontSizes"
           },
           "lg": {
@@ -544,46 +544,6 @@
           "lg": {
             "$value": "{component.toggle.dimension.symbol.height.lg}",
             "$type": "fontSizes"
-          }
-        }
-      },
-      "config": {
-        "track": {
-          "step": {
-            "$value": "0.375rem",
-            "$type": "other"
-          },
-          "radius": {
-            "default": {
-              "$value": "1.25rem",
-              "$type": "other",
-              "description": "for 100% roundness make equal to height md (0.625rem)"
-            },
-            "step": {
-              "$value": "0.125rem",
-              "$type": "other"
-            }
-          }
-        },
-        "handle": {
-          "inset": {
-            "$value": "0.125rem",
-            "$type": "other"
-          },
-          "ratio": {
-            "$value": "1",
-            "$type": "other",
-            "description": "ratio defines width → 1 = square / 1.5 = rectangle (1.25)"
-          },
-          "pressed": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "label": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
           }
         }
       }

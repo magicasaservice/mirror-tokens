@@ -48,11 +48,11 @@
       "fontSize": {
         "input": {
           "xs": {
-            "$value": "{component.input.fontSize.input.sm} - {component.input.config.text.step}",
+            "$value": "{component.input.fontSize.input.sm} - 0.0625rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.input.fontSize.input.md} - {component.input.config.text.step}",
+            "$value": "{component.input.fontSize.input.md} - 0.0625rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -60,17 +60,17 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.input.fontSize.input.md} + {component.input.config.text.step}",
+            "$value": "{component.input.fontSize.input.md} + 0.0625rem",
             "$type": "fontSizes"
           }
         },
         "symbol": {
           "xs": {
-            "$value": "{component.input.fontSize.symbol.sm} - {component.input.config.symbol.step}",
+            "$value": "{component.input.fontSize.symbol.sm} - 0.125rem",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.input.fontSize.symbol.md} - {component.input.config.symbol.step}",
+            "$value": "{component.input.fontSize.symbol.md} - 0.125rem",
             "$type": "fontSizes"
           },
           "md": {
@@ -78,7 +78,7 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.input.fontSize.symbol.md} + {component.input.config.symbol.step}",
+            "$value": "{component.input.fontSize.symbol.md} + 0.125rem",
             "$type": "fontSizes"
           }
         },
@@ -283,11 +283,11 @@
         "gap": {
           "default": {
             "xs": {
-              "$value": "{component.input.dimension.gap.default.sm} - {component.input.config.gap.default.step}",
+              "$value": "{component.input.dimension.gap.default.sm} - 0.125rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{component.input.dimension.gap.default.md} - {component.input.config.gap.default.step}",
+              "$value": "{component.input.dimension.gap.default.md} - 0.125rem",
               "$type": "dimension"
             },
             "md": {
@@ -295,17 +295,17 @@
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.input.dimension.gap.default.md} + {component.input.config.gap.default.step}",
+              "$value": "{component.input.dimension.gap.default.md} + 0.125rem",
               "$type": "dimension"
             }
           },
           "label": {
             "xs": {
-              "$value": "{component.input.dimension.gap.label.sm} - {component.input.config.gap.label.step}",
+              "$value": "{component.input.dimension.gap.label.sm} - 0.0625rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{component.input.dimension.gap.label.md} - {component.input.config.gap.label.step}",
+              "$value": "{component.input.dimension.gap.label.md} - 0.0625rem",
               "$type": "dimension"
             },
             "md": {
@@ -313,7 +313,7 @@
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{component.input.dimension.gap.label.md} + {component.input.config.gap.label.step}",
+              "$value": "{component.input.dimension.gap.label.md} + 0.0625rem",
               "$type": "dimension"
             }
           }
@@ -382,34 +382,6 @@
           "default": {
             "$value": "1rem",
             "$type": "dimension"
-          }
-        }
-      },
-      "config": {
-        "symbol": {
-          "step": {
-            "$value": "0.125rem",
-            "$type": "other"
-          }
-        },
-        "text": {
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          }
-        },
-        "gap": {
-          "default": {
-            "step": {
-              "$value": "0.125rem",
-              "$type": "other"
-            }
-          },
-          "label": {
-            "step": {
-              "$value": "0.0625rem",
-              "$type": "other"
-            }
           }
         }
       }

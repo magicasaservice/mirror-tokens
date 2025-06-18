@@ -326,11 +326,11 @@
       "dimension": {
         "height": {
           "xs": {
-            "$value": "{component.badge.dimension.height.sm} - {component.badge.config.height.step}",
+            "$value": "{component.badge.dimension.height.sm} - 0.25rem",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{component.badge.dimension.height.md} - {component.badge.config.height.step}",
+            "$value": "{component.badge.dimension.height.md} - 0.25rem",
             "$type": "dimension"
           },
           "md": {
@@ -338,43 +338,43 @@
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{component.badge.dimension.height.md} + {component.badge.config.height.step}",
+            "$value": "{component.badge.dimension.height.md} + 0.25rem",
             "$type": "dimension"
           }
         },
         "padding": {
           "xs": {
-            "$value": "{component.badge.dimension.padding.sm} - {component.badge.config.padding.step}",
+            "$value": "{component.badge.dimension.padding.sm} - 0.0625rem",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{component.badge.dimension.padding.md} - {component.badge.config.padding.step}",
+            "$value": "{component.badge.dimension.padding.md} - 0.0625rem",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{component.badge.config.padding.default}",
+            "$value": "0.5rem",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{component.badge.dimension.padding.md} + {component.badge.config.padding.step}",
+            "$value": "{component.badge.dimension.padding.md} + 0.0625rem",
             "$type": "dimension"
           }
         },
         "radius": {
           "xs": {
-            "$value": "{component.badge.config.radius.default}",
+            "$value": "0.375rem",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{component.badge.dimension.radius.xs} + {component.badge.config.radius.step}",
+            "$value": "{component.badge.dimension.radius.xs} + 0.075rem",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{component.badge.dimension.radius.sm} + {component.badge.config.radius.step}",
+            "$value": "{component.badge.dimension.radius.sm} + 0.075rem",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{component.badge.dimension.radius.md} + {component.badge.config.radius.step}",
+            "$value": "{component.badge.dimension.radius.md} + 0.075rem",
             "$type": "dimension"
           }
         },
@@ -429,34 +429,6 @@
         "default": {
           "$value": "{app.textCase.component.default}",
           "$type": "textCase"
-        }
-      },
-      "config": {
-        "height": {
-          "step": {
-            "$value": "0.25rem",
-            "$type": "other"
-          }
-        },
-        "padding": {
-          "default": {
-            "$value": "0.5rem",
-            "$type": "other"
-          },
-          "step": {
-            "$value": "0.0625rem",
-            "$type": "other"
-          }
-        },
-        "radius": {
-          "default": {
-            "$value": "0.375rem",
-            "$type": "other"
-          },
-          "step": {
-            "$value": "0.075rem",
-            "$type": "other"
-          }
         }
       }
     }
