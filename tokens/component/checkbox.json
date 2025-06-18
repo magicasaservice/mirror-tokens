@@ -381,15 +381,15 @@
         "label": {
           "padding": {
             "sm": {
-              "$value": "({component.checkbox.dimension.input.height.sm} - {component.checkbox.lineHeight.label.sm}) / 2",
+              "$value": "({component.checkbox.dimension.input.height.sm} - {component.checkbox.fontSize.label.sm} * {component.checkbox.lineHeight.label.sm}) / 2",
               "$type": "dimension"
             },
             "md": {
-              "$value": "({component.checkbox.dimension.input.height.md} - {component.checkbox.lineHeight.label.md}) / 2",
+              "$value": "({component.checkbox.dimension.input.height.md} - {component.checkbox.fontSize.label.md} * {component.checkbox.lineHeight.label.md}) / 2",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "({component.checkbox.dimension.input.height.lg} - {component.checkbox.lineHeight.label.lg}) / 2",
+              "$value": "({component.checkbox.dimension.input.height.lg} - {component.checkbox.fontSize.label.lg} * {component.checkbox.lineHeight.label.lg}) / 2",
               "$type": "dimension"
             }
           }
