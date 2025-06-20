@@ -109,6 +109,20 @@
               }
             }
           },
+          "padding": {
+            "sm": {
+              "$value": "{app.dimension.component.padding.0_5}",
+              "$type": "dimension"
+            },
+            "md": {
+              "$value": "{app.dimension.component.padding.0_5}",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "{app.dimension.component.padding.0_5}",
+              "$type": "dimension"
+            }
+          },
           "offset": {
             "sm": {
               "$value": "{component.toggle.dimension.handle.width.sm} / 2",
@@ -166,36 +180,6 @@
             }
           }
         },
-        "symbol": {
-          "height": {
-            "sm": {
-              "$value": "{component.toggle.dimension.handle.height.sm} * 0.5",
-              "$type": "dimension"
-            },
-            "md": {
-              "$value": "{component.toggle.dimension.handle.height.md} * 0.5",
-              "$type": "dimension"
-            },
-            "lg": {
-              "$value": "{component.toggle.dimension.handle.height.lg} * 0.5",
-              "$type": "dimension"
-            }
-          },
-          "padding": {
-            "sm": {
-              "$value": "({component.toggle.dimension.handle.width.sm} - {component.toggle.dimension.symbol.height.sm}) / 2 + {app.dimension.component.padding.0_25}",
-              "$type": "dimension"
-            },
-            "md": {
-              "$value": "({component.toggle.dimension.handle.width.md} - {component.toggle.dimension.symbol.height.md}) / 2 + {app.dimension.component.padding.0_25}",
-              "$type": "dimension"
-            },
-            "lg": {
-              "$value": "({component.toggle.dimension.handle.width.lg} - {component.toggle.dimension.symbol.height.lg}) / 2 + {app.dimension.component.padding.0_25}",
-              "$type": "dimension"
-            }
-          }
-        },
         "gap": {
           "sm": {
             "$value": "{app.dimension.component.gap.2}",
@@ -222,12 +206,6 @@
                 },
                 "active": {
                   "$value": "{app.color.component.primary.bg.translucent.active}",
-                  "$type": "color"
-                }
-              },
-              "fg": {
-                "default": {
-                  "$value": "{app.color.component.primary.fg.onTranslucent.default}",
                   "$type": "color"
                 }
               },
@@ -285,12 +263,6 @@
                   "$type": "color"
                 }
               },
-              "fg": {
-                "default": {
-                  "$value": "{app.color.component.primary.fg.onSolid.default}",
-                  "$type": "color"
-                }
-              },
               "border": {
                 "default": {
                   "$value": "transparent",
@@ -343,6 +315,12 @@
                   "$type": "color"
                 }
               },
+              "fg": {
+                "default": {
+                  "$value": "{app.color.component.primary.fg.subtle.default}",
+                  "$type": "color"
+                }
+              },
               "border": {
                 "default": {
                   "$value": "transparent",
@@ -354,6 +332,12 @@
               "bg": {
                 "default": {
                   "$value": "{app.color.component.disabled.bg.light.default}",
+                  "$type": "color"
+                }
+              },
+              "fg": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.solid.default}",
                   "$type": "color"
                 }
               },
@@ -373,6 +357,12 @@
                   "$type": "color"
                 }
               },
+              "fg": {
+                "default": {
+                  "$value": "{app.color.component.primary.fg.subtle.default}",
+                  "$type": "color"
+                }
+              },
               "border": {
                 "default": {
                   "$value": "transparent",
@@ -384,6 +374,12 @@
               "bg": {
                 "default": {
                   "$value": "{app.color.component.disabled.bg.light.default}",
+                  "$type": "color"
+                }
+              },
+              "fg": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.subtle.default}",
                   "$type": "color"
                 }
               },
@@ -534,15 +530,15 @@
         },
         "symbol": {
           "sm": {
-            "$value": "{component.toggle.dimension.symbol.height.sm}",
+            "$value": "{app.fontSize.component.text.2xs}",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{component.toggle.dimension.symbol.height.md}",
+            "$value": "{app.fontSize.component.text.xs}",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.toggle.dimension.symbol.height.lg}",
+            "$value": "{app.fontSize.component.text.sm}",
             "$type": "fontSizes"
           }
         }
