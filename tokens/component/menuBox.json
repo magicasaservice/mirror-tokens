@@ -4,17 +4,17 @@
       "dimension": {
         "padding": {
           "x": {
-            "$value": "0.25rem",
+            "$value": "{app.dimension.component.padding.1}",
             "$type": "dimension"
           },
           "y": {
-            "$value": "0.25rem",
+            "$value": "{app.dimension.component.padding.1}",
             "$type": "dimension"
           }
         },
         "gap": {
           "default": {
-            "$value": "0rem",
+            "$value": "0",
             "$type": "dimension"
           }
         },
@@ -26,19 +26,19 @@
         },
         "radius": {
           "xs": {
-            "$value": "{app.dimension.component.radius.xs} + {component.menuBox.dimension.padding.x}",
+            "$value": "{app.dimension.component.radius.3} + {component.menuBox.dimension.padding.x}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.component.radius.sm} + {component.menuBox.dimension.padding.x}",
+            "$value": "{app.dimension.component.radius.3_5} + {component.menuBox.dimension.padding.x}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.radius.md} + {component.menuBox.dimension.padding.x}",
+            "$value": "{app.dimension.component.radius.4} + {component.menuBox.dimension.padding.x}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.radius.lg} + {component.menuBox.dimension.padding.x}",
+            "$value": "{app.dimension.component.radius.4_5} + {component.menuBox.dimension.padding.x}",
             "$type": "dimension"
           }
         },

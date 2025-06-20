@@ -74,19 +74,19 @@
         },
         "icon": {
           "xs": {
-            "$value": "{component.button.fontSize.symbol.xs} + 0.25rem",
+            "$value": "{component.button.fontSize.symbol.xs} + {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{component.button.fontSize.symbol.sm} + 0.25rem",
+            "$value": "{component.button.fontSize.symbol.sm} + {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{component.button.fontSize.symbol.md} + 0.25rem",
+            "$value": "{component.button.fontSize.symbol.md} + {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.button.fontSize.symbol.lg} + 0.25rem",
+            "$value": "{component.button.fontSize.symbol.lg} + {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           }
         }
@@ -883,37 +883,37 @@
         "height": {
           "default": {
             "xs": {
-              "$value": "{app.dimension.component.height.md}",
+              "$value": "{app.dimension.component.height.8}",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.height.lg}",
+              "$value": "{app.dimension.component.height.10}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.height.xl}",
+              "$value": "{app.dimension.component.height.12}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.height.2xl}",
+              "$value": "{app.dimension.component.height.14}",
               "$type": "dimension"
             }
           },
           "inline": {
             "xs": {
-              "$value": "{app.dimension.component.height.md} - 0.5rem",
+              "$value": "{app.dimension.component.height.6}",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.height.lg} - 0.5rem",
+              "$value": "{app.dimension.component.height.8}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.height.xl} - 0.5rem",
+              "$value": "{app.dimension.component.height.10}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.height.2xl} - 0.5rem",
+              "$value": "{app.dimension.component.height.12}",
               "$type": "dimension"
             }
           }
@@ -921,19 +921,19 @@
         "padding": {
           "default": {
             "xs": {
-              "$value": "{app.dimension.component.padding.xs}",
+              "$value": "{app.dimension.component.padding.2}",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.padding.sm}",
+              "$value": "{app.dimension.component.padding.3}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.padding.md}",
+              "$value": "{app.dimension.component.padding.4}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.padding.lg}",
+              "$value": "{app.dimension.component.padding.5}",
               "$type": "dimension"
             },
             "label": {
@@ -943,75 +943,75 @@
           },
           "inline": {
             "xs": {
-              "$value": "{app.dimension.component.padding.xs} - 0.1875rem",
+              "$value": "{app.dimension.component.padding.1_25}",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.padding.sm} - 0.25rem",
+              "$value": "{app.dimension.component.padding.2}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.padding.md} - 0.25rem",
+              "$value": "{app.dimension.component.padding.3}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.padding.lg} - 0.25rem",
+              "$value": "{app.dimension.component.padding.4}",
               "$type": "dimension"
             }
           }
         },
         "gap": {
           "xs": {
-            "$value": "{app.dimension.component.gap.xs}",
+            "$value": "{app.dimension.component.gap.0_5}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.component.gap.sm}",
+            "$value": "{app.dimension.component.gap.1}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.gap.md}",
+            "$value": "{app.dimension.component.gap.1_5}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.gap.lg}",
+            "$value": "{app.dimension.component.gap.2}",
             "$type": "dimension"
           }
         },
         "radius": {
           "default": {
             "xs": {
-              "$value": "{app.dimension.component.radius.xs}",
+              "$value": "{app.dimension.component.radius.3}",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.radius.sm}",
+              "$value": "{app.dimension.component.radius.3_5}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.radius.md}",
+              "$value": "{app.dimension.component.radius.4}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.radius.lg}",
+              "$value": "{app.dimension.component.radius.4_5}",
               "$type": "dimension"
             }
           },
           "inline": {
             "xs": {
-              "$value": "{app.dimension.component.radius.xs} - 0.1875rem",
+              "$value": "{app.dimension.component.radius.2_25}",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.radius.sm} - 0.25rem",
+              "$value": "{app.dimension.component.radius.2_5}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.radius.md} - 0.25rem",
+              "$value": "{app.dimension.component.radius.3}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.radius.lg} - 0.25rem",
+              "$value": "{app.dimension.component.radius.3_5}",
               "$type": "dimension"
             }
           }
@@ -1041,7 +1041,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.sm.default} + 0.25rem",
+              "$value": "{component.button.dimension.symbol.sm.default} + {app.dimension.component.padding.1}",
               "$type": "dimension"
             }
           },
@@ -1051,7 +1051,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.md.default} + 0.25rem",
+              "$value": "{component.button.dimension.symbol.md.default} + {app.dimension.component.padding.1}",
               "$type": "dimension"
             }
           },
@@ -1061,7 +1061,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.lg.default} + 0.25rem",
+              "$value": "{component.button.dimension.symbol.lg.default} + {app.dimension.component.padding.1}",
               "$type": "dimension"
             }
           },
@@ -1071,7 +1071,7 @@
               "$type": "dimension"
             },
             "icon": {
-              "$value": "{component.button.dimension.symbol.xs.default} + 0.25rem",
+              "$value": "{component.button.dimension.symbol.xs.default} + {app.dimension.component.padding.1}",
               "$type": "dimension"
             }
           }

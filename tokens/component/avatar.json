@@ -51,7 +51,7 @@
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.width.xs.default} - 0.5rem",
+              "$value": "{component.avatar.dimension.height.xs.inline}",
               "$type": "dimension"
             }
           },
@@ -61,7 +61,7 @@
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.width.sm.default} - 0.5rem",
+              "$value": "{component.avatar.dimension.height.sm.inline}",
               "$type": "dimension"
             }
           },
@@ -71,7 +71,7 @@
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.width.md.default} - 0.5rem",
+              "$value": "{component.avatar.dimension.height.md.inline}",
               "$type": "dimension"
             }
           },
@@ -81,7 +81,7 @@
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.width.lg.default} - 0.5rem",
+              "$value": "{component.avatar.dimension.height.lg.inline}",
               "$type": "dimension"
             }
           },
@@ -91,7 +91,7 @@
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.width.xl.default} - 0.5rem",
+              "$value": "{component.avatar.dimension.height.xl.inline}",
               "$type": "dimension"
             }
           }
@@ -99,51 +99,51 @@
         "height": {
           "xs": {
             "default": {
-              "$value": "{app.dimension.component.height.md}",
+              "$value": "{app.dimension.component.height.8}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{component.avatar.dimension.height.xs.default} - 0.5rem",
+              "$value": "{app.dimension.component.height.6}",
               "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "$value": "{app.dimension.component.height.lg}",
+              "$value": "{app.dimension.component.height.10}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.height.lg} - 0.5rem",
+              "$value": "{app.dimension.component.height.8}",
               "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "$value": "{app.dimension.component.height.xl}",
+              "$value": "{app.dimension.component.height.12}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.height.xl} - 0.5rem",
+              "$value": "{app.dimension.component.height.10}",
               "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "$value": "{app.dimension.component.height.2xl}",
+              "$value": "{app.dimension.component.height.14}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.height.2xl} - 0.5rem",
+              "$value": "{app.dimension.component.height.12}",
               "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "$value": "{app.dimension.component.height.3xl}",
+              "$value": "{app.dimension.component.height.16}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.height.3xl} - 0.5rem",
+              "$value": "{app.dimension.component.height.14}",
               "$type": "dimension"
             }
           }
@@ -151,51 +151,51 @@
         "radius": {
           "xs": {
             "default": {
-              "$value": "{app.dimension.component.radius.xs}",
+              "$value": "{app.dimension.component.radius.3}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.radius.xs}- 0.25rem",
+              "$value": "{app.dimension.component.radius.2}",
               "$type": "dimension"
             }
           },
           "sm": {
             "default": {
-              "$value": "{app.dimension.component.radius.sm}",
+              "$value": "{app.dimension.component.radius.3_5}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.radius.sm} - 0.25rem",
+              "$value": "{app.dimension.component.radius.2_5}",
               "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "$value": "{app.dimension.component.radius.md}",
+              "$value": "{app.dimension.component.radius.4}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.radius.md} - 0.125rem",
+              "$value": "{app.dimension.component.radius.3_5}",
               "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "$value": "{app.dimension.component.radius.lg}",
+              "$value": "{app.dimension.component.radius.4_5}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.radius.lg} - 0.125rem",
+              "$value": "{app.dimension.component.radius.4}",
               "$type": "dimension"
             }
           },
           "xl": {
             "default": {
-              "$value": "{app.dimension.component.radius.xl}",
+              "$value": "{app.dimension.component.radius.5}",
               "$type": "dimension"
             },
             "inline": {
-              "$value": "{app.dimension.component.radius.xl}- 0.125rem",
+              "$value": "{app.dimension.component.radius.4_5}",
               "$type": "dimension"
             }
           }
@@ -306,23 +306,23 @@
         },
         "inline": {
           "xs": {
-            "$value": "{app.fontSize.component.text.md} - 0.25rem",
+            "$value": "{app.fontSize.component.text.md} - {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{app.fontSize.component.text.lg} - 0.25rem",
+            "$value": "{app.fontSize.component.text.lg} - {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{app.fontSize.component.text.xl} - 0.25rem",
+            "$value": "{app.fontSize.component.text.xl} - {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{app.fontSize.component.text.2xl} - 0.25rem",
+            "$value": "{app.fontSize.component.text.2xl} - {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           },
           "xl": {
-            "$value": "{app.fontSize.component.text.3xl} - 0.25rem",
+            "$value": "{app.fontSize.component.text.3xl} - {app.dimension.component.padding.1}",
             "$type": "fontSizes"
           }
         },
@@ -351,23 +351,23 @@
           },
           "inline": {
             "xs": {
-              "$value": "{app.fontSize.component.text.md} * 1.5 - 0.25rem",
+              "$value": "{app.fontSize.component.text.md} * 1.5 - {app.dimension.component.padding.1}",
               "$type": "fontSizes"
             },
             "sm": {
-              "$value": "{app.fontSize.component.text.lg} * 1.5 - 0.25rem",
+              "$value": "{app.fontSize.component.text.lg} * 1.5 - {app.dimension.component.padding.1}",
               "$type": "fontSizes"
             },
             "md": {
-              "$value": "{app.fontSize.component.text.xl} * 1.5 - 0.25rem",
+              "$value": "{app.fontSize.component.text.xl} * 1.5 - {app.dimension.component.padding.1}",
               "$type": "fontSizes"
             },
             "lg": {
-              "$value": "{app.fontSize.component.text.2xl} * 1.5 - 0.25rem",
+              "$value": "{app.fontSize.component.text.2xl} * 1.5 - {app.dimension.component.padding.1}",
               "$type": "fontSizes"
             },
             "xl": {
-              "$value": "{app.fontSize.component.text.3xl} * 1.5 - 0.25rem",
+              "$value": "{app.fontSize.component.text.3xl} * 1.5 - {app.dimension.component.padding.1}",
               "$type": "fontSizes"
             }
           }

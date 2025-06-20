@@ -34,7 +34,7 @@
       "dimension": {
         "track": {
           "height": {
-            "$value": "0.25rem",
+            "$value": "{app.dimension.component.height.1}",
             "$type": "dimension"
           },
           "border": {
@@ -42,31 +42,31 @@
             "$type": "dimension"
           },
           "radius": {
-            "$value": "0.25rem",
+            "$value": "{app.dimension.component.radius.1}",
             "$type": "dimension"
           }
         },
         "container": {
           "height": {
-            "$value": "{app.dimension.component.height.md}",
+            "$value": "{app.dimension.component.height.8}",
             "$type": "dimension"
           },
           "padding": {
-            "$value": "{component.slider.dimension.handle.height} * 0.5",
+            "$value": "{component.slider.dimension.handle.height} / 2",
             "$type": "dimension"
           },
           "gap": {
-            "$value": "{component.slider.dimension.handle.height} * 0.5",
+            "$value": "{component.slider.dimension.handle.height} / 2",
             "$type": "dimension"
           }
         },
         "handle": {
           "height": {
-            "$value": "0.875rem",
+            "$value": "{app.dimension.component.height.3_75}",
             "$type": "dimension"
           },
           "width": {
-            "$value": "0.875rem",
+            "$value": "{component.slider.dimension.handle.height}",
             "$type": "dimension"
           },
           "border": {
@@ -80,7 +80,7 @@
             }
           },
           "radius": {
-            "$value": "1rem",
+            "$value": "{app.dimension.component.radius.4}",
             "$type": "dimension"
           },
           "pressed": {
@@ -96,7 +96,7 @@
         },
         "step": {
           "height": {
-            "$value": "{component.slider.dimension.track.height} - 0.125rem",
+            "$value": "{component.slider.dimension.track.height} - {app.dimension.component.padding.0_25}",
             "$type": "dimension"
           },
           "width": {
@@ -104,7 +104,7 @@
             "$type": "dimension"
           },
           "radius": {
-            "$value": "{component.slider.dimension.track.radius} - 0.0625rem",
+            "$value": "{app.dimension.component.padding.4}",
             "$type": "dimension"
           }
         },
