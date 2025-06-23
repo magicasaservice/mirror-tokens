@@ -1206,19 +1206,6 @@
       }
     },
     "boxShadow": {
-      "surface": {
-        "default": {
-          "$value": {
-            "x": "0",
-            "y": "6rem",
-            "blur": "6rem",
-            "spread": "0",
-            "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
-          },
-          "$type": "boxShadow"
-        }
-      },
       "component": {
         "default": {
           "$value": {
@@ -1250,6 +1237,19 @@
               "type": "dropShadow"
             }
           ],
+          "$type": "boxShadow"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": {
+            "x": "0",
+            "y": "6rem",
+            "blur": "6rem",
+            "spread": "0",
+            "color": "{app.color.surface.shadow.default}",
+            "type": "dropShadow"
+          },
           "$type": "boxShadow"
         }
       }
