@@ -2017,7 +2017,7 @@
         "radius": {
           "sm": {
             "default": {
-              "$value": "1.75rem",
+              "$value": "{config.dimension.spacing.base} * 7",
               "$type": "dimension"
             },
             "inset": {
@@ -2027,7 +2027,7 @@
           },
           "md": {
             "default": {
-              "$value": "2rem",
+              "$value": "{config.dimension.spacing.base} * 8",
               "$type": "dimension"
             },
             "inset": {
@@ -2037,7 +2037,7 @@
           },
           "lg": {
             "default": {
-              "$value": "2.25rem",
+              "$value": "{config.dimension.spacing.base} * 9",
               "$type": "dimension"
             },
             "inset": {
