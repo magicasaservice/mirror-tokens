@@ -52,7 +52,7 @@
         },
         "symbol": {
           "sm": {
-            "$value": "{component.chip.fontSize.symbol.md} - {app.dimension.component.padding.0_5}",
+            "$value": "{component.chip.fontSize.symbol.md} - {app.dimension.component.spacing.0_5}",
             "$type": "fontSizes"
           },
           "md": {
@@ -60,22 +60,22 @@
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{component.chip.fontSize.symbol.md} + {app.dimension.component.padding.0_5}",
+            "$value": "{component.chip.fontSize.symbol.md} + {app.dimension.component.spacing.0_5}",
             "$type": "fontSizes"
           }
         }
       },
       "icon": {
         "sm": {
-          "$value": "{component.chip.fontSize.symbol.sm} + {app.dimension.component.padding.1}",
+          "$value": "{component.chip.fontSize.symbol.sm} + {app.dimension.component.spacing.1}",
           "$type": "fontSizes"
         },
         "md": {
-          "$value": "{component.chip.fontSize.symbol.md} + {app.dimension.component.padding.1}",
+          "$value": "{component.chip.fontSize.symbol.md} + {app.dimension.component.spacing.1}",
           "$type": "fontSizes"
         },
         "lg": {
-          "$value": "{component.chip.fontSize.symbol.lg} + {app.dimension.component.padding.1}",
+          "$value": "{component.chip.fontSize.symbol.lg} + {app.dimension.component.spacing.1}",
           "$type": "fontSizes"
         }
       },
@@ -280,29 +280,29 @@
       "dimension": {
         "height": {
           "sm": {
-            "$value": "{app.dimension.component.height.6}",
+            "$value": "{app.dimension.component.spacing.6}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.height.8}",
+            "$value": "{app.dimension.component.spacing.8}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.height.10}",
+            "$value": "{app.dimension.component.spacing.10}",
             "$type": "dimension"
           }
         },
         "padding": {
           "sm": {
-            "$value": "{app.dimension.component.padding.1_25}",
+            "$value": "{app.dimension.component.spacing.1_25}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.padding.2}",
+            "$value": "{app.dimension.component.spacing.2}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.padding.3}",
+            "$value": "{app.dimension.component.spacing.3}",
             "$type": "dimension"
           },
           "label": {
@@ -312,15 +312,15 @@
         },
         "gap": {
           "sm": {
-            "$value": "{app.dimension.component.gap.2xs}",
+            "$value": "{app.dimension.component.spacing.2xs}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.gap.0_5}",
+            "$value": "{app.dimension.component.spacing.0_5}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.gap.1}",
+            "$value": "{app.dimension.component.spacing.1}",
             "$type": "dimension"
           }
         },
@@ -409,7 +409,7 @@
           "$value": [
             {
               "x": "0",
-              "y": "{app.dimension.component.padding.1_5}",
+              "y": "{app.dimension.component.spacing.1_5}",
               "blur": "1rem",
               "spread": "0",
               "color": "{app.color.surface.shadow.strong}",

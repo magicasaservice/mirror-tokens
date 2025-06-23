@@ -5,15 +5,15 @@
         "track": {
           "height": {
             "sm": {
-              "$value": "{app.dimension.component.height.4_5}",
+              "$value": "{app.dimension.component.spacing.4_5}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.height.6}",
+              "$value": "{app.dimension.component.spacing.6}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.height.7_5}",
+              "$value": "{app.dimension.component.spacing.7_5}",
               "$type": "dimension"
             }
           },
@@ -96,30 +96,30 @@
             },
             "pressed": {
               "sm": {
-                "$value": "{component.toggle.dimension.handle.width.sm} + {app.dimension.component.padding.0_5}",
+                "$value": "{component.toggle.dimension.handle.width.sm} + {app.dimension.component.spacing.0_5}",
                 "$type": "dimension"
               },
               "md": {
-                "$value": "{component.toggle.dimension.handle.width.md} + {app.dimension.component.padding.1}",
+                "$value": "{component.toggle.dimension.handle.width.md} + {app.dimension.component.spacing.1}",
                 "$type": "dimension"
               },
               "lg": {
-                "$value": "{component.toggle.dimension.handle.width.lg} + {app.dimension.component.padding.1_5}",
+                "$value": "{component.toggle.dimension.handle.width.lg} + {app.dimension.component.spacing.1_5}",
                 "$type": "dimension"
               }
             }
           },
           "padding": {
             "sm": {
-              "$value": "{app.dimension.component.padding.0_5}",
+              "$value": "{app.dimension.component.spacing.0_5}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.padding.0_5}",
+              "$value": "{app.dimension.component.spacing.0_5}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.padding.0_5}",
+              "$value": "{app.dimension.component.spacing.0_5}",
               "$type": "dimension"
             }
           },
@@ -153,15 +153,15 @@
           },
           "inset": {
             "sm": {
-              "$value": "{app.dimension.component.padding.0_5}",
+              "$value": "{app.dimension.component.spacing.0_5}",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.padding.0_75}",
+              "$value": "{app.dimension.component.spacing.0_75}",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.padding.0_75}",
+              "$value": "{app.dimension.component.spacing.0_75}",
               "$type": "dimension"
             }
           },
@@ -182,15 +182,15 @@
         },
         "gap": {
           "sm": {
-            "$value": "{app.dimension.component.gap.2}",
+            "$value": "{app.dimension.component.spacing.2}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.gap.3}",
+            "$value": "{app.dimension.component.spacing.3}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.gap.4}",
+            "$value": "{app.dimension.component.spacing.4}",
             "$type": "dimension"
           }
         }
@@ -435,7 +435,7 @@
             "$value": [
               {
                 "x": "0",
-                "y": "{app.dimension.component.padding.0_25}",
+                "y": "{app.dimension.component.spacing.0_25}",
                 "blur": "0.125rem",
                 "spread": "0",
                 "color": "{app.color.surface.shadow.default}",
@@ -448,7 +448,7 @@
             "$value": [
               {
                 "x": "0",
-                "y": "{app.dimension.component.padding.0_25}",
+                "y": "{app.dimension.component.spacing.0_25}",
                 "blur": "0.125rem",
                 "spread": "0",
                 "color": "{app.color.surface.shadow.strong}",
