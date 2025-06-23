@@ -5,28 +5,16 @@
         "default": {
           "$value": "{app.fontFamily.component.number}",
           "$type": "fontFamilies"
-        },
-        "number": {
-          "$value": "{app.fontFamily.component.number}",
-          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "default": {
           "$value": "{app.fontWeight.component.text.strong}",
           "$type": "fontWeights"
-        },
-        "number": {
-          "$value": "{app.fontWeight.component.text.strong}",
-          "$type": "fontWeights"
         }
       },
       "lineHeight": {
         "default": {
-          "$value": "{app.lineHeight.none}",
-          "$type": "lineHeights"
-        },
-        "number": {
           "$value": "{app.lineHeight.none}",
           "$type": "lineHeights"
         }
@@ -326,37 +314,37 @@
       "dimension": {
         "height": {
           "xs": {
-            "$value": "{app.dimension.component.height.4}",
+            "$value": "{app.dimension.component.spacing.4}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.component.height.5}",
+            "$value": "{app.dimension.component.spacing.5}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.height.6}",
+            "$value": "{app.dimension.component.spacing.6}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.height.7}",
+            "$value": "{app.dimension.component.spacing.7}",
             "$type": "dimension"
           }
         },
         "padding": {
           "xs": {
-            "$value": "{app.dimension.component.padding.1_5}",
+            "$value": "{app.dimension.component.spacing.1_5}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.component.padding.1_75}",
+            "$value": "{app.dimension.component.spacing.1_75}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.padding.2}",
+            "$value": "{app.dimension.component.spacing.2}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.padding.2_25}",
+            "$value": "{app.dimension.component.spacing.2_25}",
             "$type": "dimension"
           }
         },
@@ -417,10 +405,6 @@
       },
       "letterSpacing": {
         "default": {
-          "$value": "{app.letterSpacing.component.wide}",
-          "$type": "letterSpacing"
-        },
-        "number": {
           "$value": "{app.letterSpacing.component.number}",
           "$type": "letterSpacing"
         }
