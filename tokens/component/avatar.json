@@ -263,10 +263,6 @@
         "default": {
           "$value": "{app.fontFamily.component.number}",
           "$type": "fontFamilies"
-        },
-        "icon": {
-          "$value": "{app.fontFamily.component.symbol}",
-          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
@@ -306,23 +302,23 @@
         },
         "inline": {
           "xs": {
-            "$value": "{app.fontSize.component.text.md} - {app.dimension.component.spacing.1}",
+            "$value": "{app.fontSize.component.text.3xs}",
             "$type": "fontSizes"
           },
           "sm": {
-            "$value": "{app.fontSize.component.text.lg} - {app.dimension.component.spacing.1}",
+            "$value": "{app.fontSize.component.text.2xs}",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{app.fontSize.component.text.xl} - {app.dimension.component.spacing.1}",
+            "$value": "{app.fontSize.component.text.xs}",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{app.fontSize.component.text.2xl} - {app.dimension.component.spacing.1}",
+            "$value": "{app.fontSize.component.text.sm}",
             "$type": "fontSizes"
           },
           "xl": {
-            "$value": "{app.fontSize.component.text.3xl} - {app.dimension.component.spacing.1}",
+            "$value": "{app.fontSize.component.text.md}",
             "$type": "fontSizes"
           }
         },
@@ -351,23 +347,23 @@
           },
           "inline": {
             "xs": {
-              "$value": "{app.fontSize.component.text.md} * 1.5 - {app.dimension.component.spacing.1}",
+              "$value": "{app.fontSize.component.text.3xs} * 1.5",
               "$type": "fontSizes"
             },
             "sm": {
-              "$value": "{app.fontSize.component.text.lg} * 1.5 - {app.dimension.component.spacing.1}",
+              "$value": "{app.fontSize.component.text.2xs} * 1.5",
               "$type": "fontSizes"
             },
             "md": {
-              "$value": "{app.fontSize.component.text.xl} * 1.5 - {app.dimension.component.spacing.1}",
+              "$value": "{app.fontSize.component.text.xs} * 1.5",
               "$type": "fontSizes"
             },
             "lg": {
-              "$value": "{app.fontSize.component.text.2xl} * 1.5 - {app.dimension.component.spacing.1}",
+              "$value": "{app.fontSize.component.text.sm} * 1.5",
               "$type": "fontSizes"
             },
             "xl": {
-              "$value": "{app.fontSize.component.text.3xl} * 1.5 - {app.dimension.component.spacing.1}",
+              "$value": "{app.fontSize.component.text.md} * 1.5",
               "$type": "fontSizes"
             }
           }
@@ -375,7 +371,7 @@
       },
       "letterSpacing": {
         "default": {
-          "$value": "2%",
+          "$value": "{app.letterSpacing.component.wide}",
           "$type": "letterSpacing"
         }
       },
