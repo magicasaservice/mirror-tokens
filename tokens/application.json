@@ -1911,8 +1911,16 @@
             "$value": "{config.dimension.spacing.base} * 8",
             "$type": "dimension"
           },
+          "9": {
+            "$value": "{config.dimension.spacing.base} * 9",
+            "$type": "dimension"
+          },
           "10": {
             "$value": "{config.dimension.spacing.base} * 10",
+            "$type": "dimension"
+          },
+          "11": {
+            "$value": "{config.dimension.spacing.base} * 11",
             "$type": "dimension"
           },
           "12": {
@@ -1957,61 +1965,53 @@
           }
         },
         "radius": {
-          "0_5": {
-            "$value": "{config.dimension.radius.base} * 0.5",
+          "round": {
+            "$value": "9999px",
             "$type": "dimension"
           },
-          "1": {
-            "$value": "{config.dimension.radius.base}",
-            "$type": "dimension"
+          "compact": {
+            "sm": {
+              "$value": "{config.dimension.radius.base} * 1.5",
+              "$type": "dimension"
+            },
+            "md": {
+              "$value": "{config.dimension.radius.base} * 1.75",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "{config.dimension.radius.base} * 2",
+              "$type": "dimension"
+            },
+            "xl": {
+              "$value": "{config.dimension.radius.base} * 2.25",
+              "$type": "dimension"
+            }
           },
-          "1_25": {
-            "$value": "{config.dimension.radius.base} * 1.25",
-            "$type": "dimension"
-          },
-          "1_5": {
-            "$value": "{config.dimension.radius.base} * 1.5",
-            "$type": "dimension"
-          },
-          "1_75": {
-            "$value": "{config.dimension.radius.base} * 1.75",
-            "$type": "dimension"
-          },
-          "2": {
-            "$value": "{config.dimension.radius.base} * 2",
-            "$type": "dimension"
-          },
-          "2_25": {
-            "$value": "{config.dimension.radius.base} * 2.25",
-            "$type": "dimension"
-          },
-          "2_5": {
-            "$value": "{config.dimension.radius.base} * 2.5",
-            "$type": "dimension"
-          },
-          "3": {
-            "$value": "{config.dimension.radius.base} * 3",
-            "$type": "dimension"
-          },
-          "3_5": {
-            "$value": "{config.dimension.radius.base} * 3.5",
-            "$type": "dimension"
-          },
-          "4": {
-            "$value": "{config.dimension.radius.base} * 4",
-            "$type": "dimension"
-          },
-          "4_5": {
-            "$value": "{config.dimension.radius.base} * 4.5",
-            "$type": "dimension"
-          },
-          "5": {
-            "$value": "{config.dimension.radius.base} * 5",
-            "$type": "dimension"
-          },
-          "5_5": {
-            "$value": "{config.dimension.radius.base} * 5.5",
-            "$type": "dimension"
+          "default": {
+            "xs": {
+              "$value": "{config.dimension.radius.base} * 2.5",
+              "$type": "dimension"
+            },
+            "sm": {
+              "$value": "{config.dimension.radius.base} * 3",
+              "$type": "dimension"
+            },
+            "md": {
+              "$value": "{config.dimension.radius.base} * 3.5",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "{config.dimension.radius.base} * 4",
+              "$type": "dimension"
+            },
+            "xl": {
+              "$value": "{config.dimension.radius.base} * 4.5",
+              "$type": "dimension"
+            },
+            "2xl": {
+              "$value": "{config.dimension.radius.base} * 5",
+              "$type": "dimension"
+            }
           }
         },
         "border": {
