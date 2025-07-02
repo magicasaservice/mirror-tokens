@@ -67,7 +67,7 @@
             "inverted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.9}"
+                "$value": "{config.color.palette.grey.solid.12}"
               }
             }
           },
@@ -89,13 +89,13 @@
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.10}"
+                "$value": "{config.color.palette.grey.translucent.12}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.8}"
+                "$value": "{config.color.palette.grey.translucent.9}"
               }
             },
             "onSolid": {
@@ -167,13 +167,13 @@
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.6}"
+                "$value": "{config.color.palette.grey.translucent.8}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.grey.translucent.6}"
               }
             },
             "onTone": {
@@ -647,6 +647,19 @@
               "default": {
                 "$type": "color",
                 "$value": "{app.color.component.neutral.fg.solid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.12",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.solid.hover}",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {

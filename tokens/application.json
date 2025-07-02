@@ -1078,6 +1078,19 @@
                     }
                   }
                 }
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.solid.hover}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
+                  }
+                }
               }
             },
             "muted": {
