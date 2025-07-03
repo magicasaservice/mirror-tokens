@@ -5,7 +5,7 @@
         "bg": {
           "low": {
             "$type": "color",
-            "$value": "{config.color.palette.black}"
+            "$value": "{config.color.palette.black.solid}"
           },
           "base": {
             "$type": "color",
@@ -25,9 +25,31 @@
             "$value": "{config.color.palette.grey.solid.1}",
             "$type": "color"
           },
+          "muted": {
+            "$value": "{config.color.palette.white.translucent.7}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{config.color.palette.white.translucent.3}",
+            "$type": "color"
+          },
           "inverted": {
             "default": {
-              "$value": "{config.color.palette.black}",
+              "$value": "{config.color.palette.black.solid}",
+              "$type": "color"
+            }
+          },
+          "link": {
+            "default": {
+              "$value": "{config.color.palette.blue.solid.4}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{config.color.palette.blue.solid.5}",
+              "$type": "color"
+            },
+            "active": {
+              "$value": "{config.color.palette.blue.solid.6}",
               "$type": "color"
             }
           }
@@ -101,7 +123,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.black}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onTone": {
@@ -517,7 +539,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.black}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onTone": {

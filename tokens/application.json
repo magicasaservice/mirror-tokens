@@ -5,7 +5,7 @@
         "bg": {
           "low": {
             "$type": "color",
-            "$value": "{config.color.palette.white}"
+            "$value": "{config.color.palette.white.solid}"
           },
           "base": {
             "$type": "color",
@@ -20,7 +20,7 @@
             "$value": "{config.color.palette.grey.solid.3}"
           },
           "dimmer": {
-            "$value": "{config.color.palette.black}",
+            "$value": "{config.color.palette.black.solid}",
             "$type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -36,7 +36,7 @@
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{config.color.palette.grey.translucent.3}"
+            "$value": "{config.color.palette.grey.translucent.1}"
           }
         },
         "fg": {
@@ -45,15 +45,15 @@
             "$type": "color"
           },
           "muted": {
-            "$value": "{config.color.palette.grey.translucent.12}",
+            "$value": "{config.color.palette.black.translucent.9}",
             "$type": "color"
           },
           "subtle": {
-            "$value": "{config.color.palette.grey.translucent.6}",
+            "$value": "{config.color.palette.black.translucent.3}",
             "$type": "color"
           },
           "inverted": {
-            "$value": "{config.color.palette.white}",
+            "$value": "{config.color.palette.white.solid}",
             "$type": "color"
           },
           "link": {
@@ -73,7 +73,7 @@
         },
         "shadow": {
           "default": {
-            "$value": "{config.color.palette.black}",
+            "$value": "{config.color.palette.black.solid}",
             "$type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -86,7 +86,7 @@
             }
           },
           "strong": {
-            "$value": "{config.color.palette.black}",
+            "$value": "{config.color.palette.black.solid}",
             "$type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -154,7 +154,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
@@ -169,15 +169,15 @@
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.grey.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.4}"
+                "$value": "{config.color.palette.grey.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.5}"
+                "$value": "{config.color.palette.grey.translucent.3}"
               }
             }
           },
@@ -211,7 +211,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}"
+                "$value": "{config.color.palette.white.solid}"
               }
             },
             "onTone": {
@@ -275,7 +275,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
@@ -290,15 +290,15 @@
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.4}"
+                "$value": "{config.color.palette.grey.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.5}"
+                "$value": "{config.color.palette.grey.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.6}"
+                "$value": "{config.color.palette.grey.translucent.3}"
               }
             }
           },
@@ -332,7 +332,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}"
+                "$value": "{config.color.palette.white.solid}"
               }
             },
             "onTone": {
@@ -396,7 +396,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
@@ -453,7 +453,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}"
+                "$value": "{config.color.palette.white.solid}"
               }
             },
             "onTone": {
@@ -517,7 +517,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
@@ -574,7 +574,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}"
+                "$value": "{config.color.palette.white.solid}"
               }
             },
             "onTone": {
@@ -638,7 +638,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
@@ -695,7 +695,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}"
+                "$value": "{config.color.palette.white.solid}"
               }
             },
             "onTone": {
@@ -759,7 +759,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
@@ -816,7 +816,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.black}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onTone": {
@@ -880,7 +880,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
@@ -937,7 +937,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white}"
+                "$value": "{config.color.palette.white.solid}"
               }
             },
             "onTone": {
@@ -1184,7 +1184,7 @@
         },
         "shadow": {
           "default": {
-            "$value": "{config.color.palette.black}",
+            "$value": "{config.color.palette.black.solid}",
             "$type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1197,7 +1197,7 @@
             }
           },
           "strong": {
-            "$value": "{config.color.palette.black}",
+            "$value": "{config.color.palette.black.solid}",
             "$type": "color",
             "$extensions": {
               "studio.tokens": {
