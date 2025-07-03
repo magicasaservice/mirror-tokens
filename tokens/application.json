@@ -18,6 +18,19 @@
           "higher": {
             "$type": "color",
             "$value": "{config.color.palette.grey.solid.3}"
+          },
+          "dimmer": {
+            "$value": "{config.color.palette.black}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.8",
+                  "space": "oklch"
+                }
+              }
+            }
           }
         },
         "border": {
@@ -80,21 +93,6 @@
                 "modify": {
                   "type": "alpha",
                   "value": "0.24",
-                  "space": "oklch"
-                }
-              }
-            }
-          }
-        },
-        "dimmer": {
-          "default": {
-            "$value": "{config.color.palette.black}",
-            "$type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.8",
                   "space": "oklch"
                 }
               }
