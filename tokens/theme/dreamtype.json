@@ -1,0 +1,134 @@
+{
+  "app": {
+    "color": {
+      "surface": {
+        "bg": {
+          "low": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.solid.11}"
+          },
+          "base": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.solid.12}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.solid.11}"
+          },
+          "higher": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.solid.10}"
+          }
+        },
+        "fg": {
+          "default": {
+            "$value": "oklch(0.92 0.20 155)",
+            "$type": "color"
+          },
+          "muted": {
+            "$value": "{config.color.palette.green.translucent.7}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{config.color.palette.green.translucent.3}",
+            "$type": "color"
+          }
+        }
+      },
+      "component": {
+        "primary": {
+          "bg": {
+            "tone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.9}"
+              }
+            },
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.1}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.2}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.3}"
+              }
+            },
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.6}"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.9}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.8}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.6}"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.12}"
+              }
+            },
+            "onTone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.12}"
+              }
+            },
+            "onTranslucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.1}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
