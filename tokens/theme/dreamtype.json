@@ -22,7 +22,7 @@
         },
         "fg": {
           "default": {
-            "$value": "oklch(0.92 0.20 155)",
+            "$value": "{config.color.palette.green.solid.4}",
             "$type": "color"
           },
           "muted": {
@@ -38,18 +38,18 @@
       "component": {
         "primary": {
           "bg": {
-            "tone": {
+            "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.7}"
+                "$value": "{config.color.palette.green.solid.4}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.8}"
+                "$value": "{config.color.palette.green.solid.5}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.9}"
+                "$value": "{config.color.palette.green.solid.6}"
               }
             },
             "translucent": {
@@ -66,18 +66,40 @@
                 "$value": "{config.color.palette.green.translucent.3}"
               }
             },
-            "solid": {
+            "tone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.4}"
+                "$value": "{config.color.palette.green.solid.7}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.5}"
+                "$value": "{config.color.palette.green.solid.8}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.6}"
+                "$value": "{config.color.palette.green.solid.9}"
+              }
+            }
+          },
+          "border": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.7}"
+              }
+            },
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.6}"
               }
             }
           },
@@ -111,13 +133,13 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.12}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.12}"
+                "$value": "{config.color.palette.green.solid.4}"
               }
             },
             "onTranslucent": {
