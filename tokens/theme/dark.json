@@ -20,6 +20,12 @@
             "$value": "{config.color.palette.grey.solid.10}"
           }
         },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{config.color.palette.grey.translucent.4}"
+          }
+        },
         "fg": {
           "default": {
             "$value": "{config.color.palette.grey.solid.1}",
@@ -107,6 +113,22 @@
               }
             }
           },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.6}"
+              }
+            }
+          },
           "fg": {
             "solid": {
               "default": {
@@ -143,7 +165,7 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.4}"
+                "$value": "{config.color.palette.grey.solid.10}"
               }
             },
             "onTranslucent": {
@@ -199,6 +221,22 @@
               }
             }
           },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.6}"
+              }
+            }
+          },
           "fg": {
             "muted": {
               "default": {
@@ -210,6 +248,12 @@
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.grey.translucent.6}"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onTone": {
@@ -647,21 +691,6 @@
             }
           },
           "border": {
-            "solid": {
-              "default": {
-                "$type": "color",
-                "$value": "{app.color.component.neutral.border.solid.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.2",
-                      "space": "oklch"
-                    }
-                  }
-                }
-              }
-            },
             "translucent": {
               "default": {
                 "$type": "color",
