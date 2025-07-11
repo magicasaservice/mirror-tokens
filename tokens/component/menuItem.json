@@ -2,59 +2,41 @@
   "component": {
     "menuItem": {
       "color": {
-        "primary": {
+        "default": {
           "ghost": {
             "bg": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "$value": "transparent",
+                "$type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.05",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.translucent.default}",
+                "$type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.05",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.translucent.hover}",
+                "$type": "color"
               }
             },
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.muted.default}",
+                  "$type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.default}",
+                  "$type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.default}",
+                  "$type": "color"
                 }
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+                  "$type": "color"
                 }
               }
             }
@@ -63,30 +45,30 @@
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.muted.default}",
+                  "$type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.default}",
+                  "$type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.default}",
+                  "$type": "color"
                 }
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.default}",
+                  "$type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.hover}",
+                  "$type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.active}",
+                  "$type": "color"
                 }
               }
             }
@@ -94,323 +76,332 @@
           "subtle": {
             "bg": {
               "default": {
-                "value": "transparent",
-                "type": "color"
+                "$value": "transparent",
+                "$type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.05",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.translucent.hover}",
+                "$type": "color"
               },
               "active": {
-                "value": "transparent",
-                "type": "color"
+                "$value": "{app.color.component.primary.bg.translucent.active}",
+                "$type": "color"
               }
             },
             "fg": {
               "cmd": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.muted.default}",
+                  "$type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.default}",
+                  "$type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.solid.default}",
+                  "$type": "color"
                 }
               },
               "label": {
                 "default": {
-                  "value": "{app.color.component.primary.fg.muted}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.muted.default}",
+                  "$type": "color"
                 },
                 "hover": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
-                },
-                "active": {
-                  "value": "{app.color.component.primary.fg.solid}",
-                  "type": "color"
+                  "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+                  "$type": "color"
                 }
               }
             }
           }
         },
         "disabled": {
-          "fg": {
-            "default": {
-              "value": "{app.color.component.disabled.fg.solid}",
-              "type": "color"
+          "ghost": {
+            "bg": {
+              "default": {
+                "$value": "transparent",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{app.color.component.disabled.bg.translucent.default}",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "cmd": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.muted.default}",
+                  "$type": "color"
+                },
+                "hover": {
+                  "$value": "{app.color.component.disabled.fg.solid.default}",
+                  "$type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.onTranslucent.default}",
+                  "$type": "color"
+                }
+              }
+            }
+          },
+          "plain": {
+            "fg": {
+              "cmd": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.muted.default}",
+                  "$type": "color"
+                },
+                "hover": {
+                  "$value": "{app.color.component.disabled.fg.solid.default}",
+                  "$type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.solid.default}",
+                  "$type": "color"
+                },
+                "hover": {
+                  "$value": "{app.color.component.disabled.fg.solid.hover}",
+                  "$type": "color"
+                }
+              }
+            }
+          },
+          "subtle": {
+            "bg": {
+              "default": {
+                "$value": "transparent",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{app.color.component.disabled.bg.translucent.default}",
+                "$type": "color"
+              }
+            },
+            "fg": {
+              "cmd": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.muted.default}",
+                  "$type": "color"
+                },
+                "hover": {
+                  "$value": "{app.color.component.disabled.fg.solid.default}",
+                  "$type": "color"
+                }
+              },
+              "label": {
+                "default": {
+                  "$value": "{app.color.component.disabled.fg.muted.default}",
+                  "$type": "color"
+                },
+                "hover": {
+                  "$value": "{app.color.component.disabled.fg.onTranslucent.default}",
+                  "$type": "color"
+                }
+              }
             }
           }
         }
       },
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.component.text}",
+          "$type": "fontFamilies"
         },
         "symbol": {
-          "value": "{app.fontFamily.control.symbol}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.component.symbol}",
+          "$type": "fontFamilies"
         },
         "cmd": {
-          "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.component.text}",
+          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "default": {
-          "value": "{app.fontWeight.control.text.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.text.default}",
+          "$type": "fontWeights"
         },
         "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.symbol.default}",
+          "$type": "fontWeights"
         },
         "cmd": {
-          "value": "{app.fontWeight.control.text.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.text.default}",
+          "$type": "fontWeights"
         }
       },
       "lineHeight": {
         "default": {
-          "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.default}",
+          "$type": "lineHeights"
         },
         "symbol": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
         },
         "cmd": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
         }
       },
       "fontSize": {
         "label": {
           "xs": {
-            "value": "{component.menuItem.fontSize.label.sm} - {component.menuItem.config.label.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.sm}",
+            "$type": "fontSizes"
           },
           "sm": {
-            "value": "{component.menuItem.fontSize.label.md} - {component.menuItem.config.label.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.md}",
+            "$type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuItem.config.label.default}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.lg}",
+            "$type": "fontSizes"
           },
           "lg": {
-            "value": "{component.menuItem.fontSize.label.md} + {component.menuItem.config.label.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.xl}",
+            "$type": "fontSizes"
           }
         },
         "symbol": {
           "xs": {
-            "value": "{component.menuItem.fontSize.symbol.sm} - {component.menuItem.config.symbol.default.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.symbol.sm}",
+            "$type": "fontSizes"
           },
           "sm": {
-            "value": "{component.menuItem.fontSize.symbol.md} - {component.menuItem.config.symbol.default.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.symbol.lg}",
+            "$type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuItem.config.symbol.default.default}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.symbol.2xl}",
+            "$type": "fontSizes"
           },
           "lg": {
-            "value": "{component.menuItem.fontSize.symbol.md} + {component.menuItem.config.symbol.default.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.symbol.4xl}",
+            "$type": "fontSizes"
           }
         },
         "cmd": {
           "xs": {
-            "value": "{component.menuItem.fontSize.cmd.sm} - {component.menuItem.config.cmd.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.sm}",
+            "$type": "fontSizes"
           },
           "sm": {
-            "value": "{component.menuItem.fontSize.cmd.md} - {component.menuItem.config.cmd.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.md}",
+            "$type": "fontSizes"
           },
           "md": {
-            "value": "{component.menuItem.config.cmd.default}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.lg}",
+            "$type": "fontSizes"
           },
           "lg": {
-            "value": "{component.menuItem.fontSize.cmd.md} + {component.menuItem.config.cmd.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.xl}",
+            "$type": "fontSizes"
           }
         }
       },
       "dimension": {
         "height": {
           "xs": {
-            "value": "{app.dimension.control.height.xs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.8}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.height.sm}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.10}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.height.md}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.12}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.height.lg}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.14}",
+            "$type": "dimension"
           }
         },
         "padding": {
           "container": {
             "default": {
-              "value": "0.25rem",
-              "type": "dimension"
+              "$value": "{app.dimension.component.spacing.1}",
+              "$type": "dimension"
             }
           },
           "label": {
             "xs": {
-              "value": "{component.menuItem.dimension.padding.label.sm} - {component.menuItem.config.padding.step}",
-              "type": "dimension"
+              "$value": "{app.dimension.component.spacing.0_5}",
+              "$type": "dimension"
             },
             "sm": {
-              "value": "{component.menuItem.dimension.padding.label.md} - {component.menuItem.config.padding.step}",
-              "type": "dimension"
+              "$value": "{app.dimension.component.spacing.1}",
+              "$type": "dimension"
             },
             "md": {
-              "value": "{component.menuItem.config.padding.default}",
-              "type": "dimension"
+              "$value": "{app.dimension.component.spacing.1_5}",
+              "$type": "dimension"
             },
             "lg": {
-              "value": "{component.menuItem.dimension.padding.label.md} + {component.menuItem.config.padding.step}",
-              "type": "dimension"
+              "$value": "{app.dimension.component.spacing.2}",
+              "$type": "dimension"
             }
           }
         },
         "gap": {
           "xs": {
-            "value": "{component.menuItem.dimension.gap.sm} - {component.menuItem.config.gap.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.2}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{component.menuItem.dimension.gap.md} - {component.menuItem.config.gap.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.3_75}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{component.menuItem.config.gap.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.4}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{component.menuItem.dimension.gap.md} + {component.menuItem.config.gap.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.4_25}",
+            "$type": "dimension"
           }
         },
         "radius": {
           "xs": {
-            "value": "{app.dimension.control.radius.xs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.default.sm}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.radius.sm}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.default.md}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.radius.md}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.default.lg}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.radius.lg}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.default.xl}",
+            "$type": "dimension"
           }
         },
         "symbol": {
           "xs": {
-            "value": "{component.menuItem.fontSize.symbol.xs}",
-            "type": "dimension"
+            "$value": "{component.menuItem.fontSize.symbol.xs}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{component.menuItem.fontSize.symbol.sm}",
-            "type": "dimension"
+            "$value": "{component.menuItem.fontSize.symbol.sm}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{component.menuItem.fontSize.symbol.md}",
-            "type": "dimension"
+            "$value": "{component.menuItem.fontSize.symbol.md}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{component.menuItem.fontSize.symbol.lg}",
-            "type": "dimension"
-          }
-        }
-      },
-      "config": {
-        "symbol": {
-          "icon": {
-            "step": {
-              "value": "0.25rem",
-              "type": "other"
-            }
-          },
-          "default": {
-            "default": {
-              "value": "{app.fontSize.control.symbol.md}",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
-          }
-        },
-        "label": {
-          "default": {
-            "value": "{app.fontSize.control.text.md}",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.0625rem",
-            "type": "other"
-          }
-        },
-        "gap": {
-          "default": {
-            "value": "0.75rem",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.1875rem",
-            "type": "other"
-          }
-        },
-        "padding": {
-          "default": {
-            "value": "0.375rem",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
-          }
-        },
-        "cmd": {
-          "default": {
-            "value": "{app.fontSize.control.text.sm}",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.0625rem",
-            "type": "other"
+            "$value": "{component.menuItem.fontSize.symbol.lg}",
+            "$type": "dimension"
           }
         }
       }

@@ -3,322 +3,310 @@
     "badge": {
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.label.text}",
-          "type": "fontFamilies"
-        },
-        "number": {
-          "value": "{app.fontFamily.label.number}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.component.number}",
+          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "default": {
-          "value": "{app.fontWeight.label.text.strong}",
-          "type": "fontWeights"
-        },
-        "number": {
-          "value": "{app.fontWeight.label.number.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.text.strong}",
+          "$type": "fontWeights"
         }
       },
       "lineHeight": {
         "default": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
-        },
-        "number": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
         }
       },
       "color": {
-        "accent": {
-          "solid": {
-            "bg": {
-              "value": "{app.color.component.accent.bg.solid}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{app.color.component.accent.fg.onSolid}",
-              "type": "color"
-            },
-            "border": {
-              "value": "transparent",
-              "type": "color"
-            }
-          },
-          "translucent": {
-            "bg": {
-              "value": "{app.color.component.accent.bg.translucent}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{app.color.component.accent.fg.onTranslucent}",
-              "type": "color"
-            },
-            "border": {
-              "value": "transparent",
-              "type": "color"
-            }
-          },
-          "outline": {
-            "bg": {
-              "value": "transparent",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{app.color.component.accent.fg.solid}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{app.color.component.accent.border.translucent}",
-              "type": "color"
-            }
-          },
-          "tone": {
-            "bg": {
-              "value": "{app.color.component.accent.bg.tone}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{app.color.component.accent.fg.onTone}",
-              "type": "color"
-            },
-            "border": {
-              "value": "transparent",
-              "type": "color"
-            }
-          }
-        },
         "primary": {
           "solid": {
             "bg": {
-              "value": "{app.color.component.primary.bg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.primary.bg.solid.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.primary.fg.onSolid}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.onSolid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "translucent": {
             "bg": {
-              "value": "{app.color.component.primary.bg.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.primary.bg.translucent.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.primary.fg.onTranslucent}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "outline": {
             "bg": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.primary.fg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.solid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "{app.color.component.primary.border.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.primary.border.translucent.default}",
+              "$type": "color"
             }
           },
           "tone": {
             "bg": {
-              "value": "{app.color.component.primary.bg.tone}",
-              "type": "color"
+              "$value": "{app.color.component.primary.bg.tone.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.primary.fg.onTone}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.onTone.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           }
         },
-        "info": {
+        "secondary": {
           "solid": {
             "bg": {
-              "value": "{app.color.component.info.bg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.bg.solid.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.info.fg.onSolid}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.fg.onSolid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "translucent": {
             "bg": {
-              "value": "{app.color.component.info.bg.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.bg.translucent.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.info.fg.onTranslucent}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.fg.onTranslucent.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "outline": {
             "bg": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.info.fg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.fg.solid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "{app.color.component.info.border.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.border.translucent.default}",
+              "$type": "color"
             }
           },
           "tone": {
             "bg": {
-              "value": "{app.color.component.info.bg.tone}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.bg.tone.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.info.fg.onTone}",
-              "type": "color"
+              "$value": "{app.color.component.secondary.fg.onTone.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
+            }
+          }
+        },
+        "accent": {
+          "solid": {
+            "bg": {
+              "$value": "{app.color.component.accent.bg.solid.default}",
+              "$type": "color"
+            },
+            "fg": {
+              "$value": "{app.color.component.accent.fg.onSolid.default}",
+              "$type": "color"
+            },
+            "border": {
+              "$value": "transparent",
+              "$type": "color"
+            }
+          },
+          "translucent": {
+            "bg": {
+              "$value": "{app.color.component.accent.bg.translucent.default}",
+              "$type": "color"
+            },
+            "fg": {
+              "$value": "{app.color.component.accent.fg.onTranslucent.default}",
+              "$type": "color"
+            },
+            "border": {
+              "$value": "transparent",
+              "$type": "color"
+            }
+          },
+          "outline": {
+            "bg": {
+              "$value": "transparent",
+              "$type": "color"
+            },
+            "fg": {
+              "$value": "{app.color.component.accent.fg.solid.default}",
+              "$type": "color"
+            },
+            "border": {
+              "$value": "{app.color.component.accent.border.translucent.default}",
+              "$type": "color"
+            }
+          },
+          "tone": {
+            "bg": {
+              "$value": "{app.color.component.accent.bg.tone.default}",
+              "$type": "color"
+            },
+            "fg": {
+              "$value": "{app.color.component.accent.fg.onTone.default}",
+              "$type": "color"
+            },
+            "border": {
+              "$value": "transparent",
+              "$type": "color"
             }
           }
         },
         "danger": {
           "solid": {
             "bg": {
-              "value": "{app.color.component.danger.bg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.danger.bg.solid.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.danger.fg.onSolid}",
-              "type": "color"
+              "$value": "{app.color.component.danger.fg.onSolid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "translucent": {
             "bg": {
-              "value": "{app.color.component.danger.bg.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.danger.bg.translucent.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.danger.fg.onTranslucent}",
-              "type": "color"
+              "$value": "{app.color.component.danger.fg.onTranslucent.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "outline": {
             "bg": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.danger.fg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.danger.fg.solid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "{app.color.component.danger.border.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.danger.border.translucent.default}",
+              "$type": "color"
             }
           },
           "tone": {
             "bg": {
-              "value": "{app.color.component.danger.bg.tone}",
-              "type": "color"
+              "$value": "{app.color.component.danger.bg.tone.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.danger.fg.onTone}",
-              "type": "color"
+              "$value": "{app.color.component.danger.fg.onTone.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           }
         },
         "success": {
           "solid": {
             "bg": {
-              "value": "{app.color.component.success.bg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.success.bg.solid.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.success.fg.onSolid}",
-              "type": "color"
+              "$value": "{app.color.component.success.fg.onSolid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "translucent": {
             "bg": {
-              "value": "{app.color.component.success.bg.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.success.bg.translucent.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.success.fg.onTranslucent}",
-              "type": "color"
+              "$value": "{app.color.component.success.fg.onTranslucent.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           },
           "outline": {
             "bg": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.success.fg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.success.fg.solid.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "{app.color.component.success.border.translucent}",
-              "type": "color"
+              "$value": "{app.color.component.success.border.translucent.default}",
+              "$type": "color"
             }
           },
           "tone": {
             "bg": {
-              "value": "{app.color.component.success.bg.tone}",
-              "type": "color"
+              "$value": "{app.color.component.success.bg.tone.default}",
+              "$type": "color"
             },
             "fg": {
-              "value": "{app.color.component.success.fg.onTone}",
-              "type": "color"
+              "$value": "{app.color.component.success.fg.onTone.default}",
+              "$type": "color"
             },
             "border": {
-              "value": "transparent",
-              "type": "color"
+              "$value": "transparent",
+              "$type": "color"
             }
           }
         }
@@ -326,141 +314,105 @@
       "dimension": {
         "height": {
           "xs": {
-            "value": "{component.badge.dimension.height.sm} - {component.badge.config.height.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.4}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{component.badge.dimension.height.md} - {component.badge.config.height.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.5}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{component.badge.config.height.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.6}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{component.badge.dimension.height.md} + {component.badge.config.height.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.7}",
+            "$type": "dimension"
           }
         },
         "padding": {
           "xs": {
-            "value": "{component.badge.dimension.padding.sm} - {component.badge.config.padding.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.1_5}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{component.badge.dimension.padding.md} - {component.badge.config.padding.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.1_75}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{component.badge.config.padding.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.2}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{component.badge.dimension.padding.md} + {component.badge.config.padding.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.2_25}",
+            "$type": "dimension"
           }
         },
         "radius": {
           "xs": {
-            "value": "{component.badge.dimension.radius.sm} - {component.badge.config.radius.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.compact.sm}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{component.badge.dimension.radius.md} - {component.badge.config.radius.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.compact.md}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{component.badge.config.radius.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.compact.lg}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{component.badge.dimension.radius.md} + {component.badge.config.radius.step}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.compact.xl}",
+            "$type": "dimension"
           }
         },
         "border": {
           "xs": {
-            "value": "{app.dimension.control.border.thin}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.border.thin}",
+            "$type": "dimension"
           },
           "sm": {
-            "value": "{app.dimension.control.border.thin}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.border.thin}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.border.thin}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.border.thin}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.border.thin}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.border.thin}",
+            "$type": "dimension"
           }
         }
       },
       "fontSize": {
         "xs": {
-          "value": "{app.fontSize.label.text.xs}",
-          "type": "fontSizes"
+          "$value": "{app.fontSize.component.text.3xs}",
+          "$type": "fontSizes"
         },
         "sm": {
-          "value": "{app.fontSize.label.text.sm}",
-          "type": "fontSizes"
+          "$value": "{app.fontSize.component.text.2xs}",
+          "$type": "fontSizes"
         },
         "md": {
-          "value": "{app.fontSize.label.text.md}",
-          "type": "fontSizes"
+          "$value": "{app.fontSize.component.text.xs}",
+          "$type": "fontSizes"
         },
         "lg": {
-          "value": "{app.fontSize.label.text.lg}",
-          "type": "fontSizes"
+          "$value": "{app.fontSize.component.text.sm}",
+          "$type": "fontSizes"
         }
       },
       "letterSpacing": {
         "default": {
-          "value": "{app.letterSpacing.label.text}",
-          "type": "letterSpacing"
-        },
-        "number": {
-          "value": "{app.letterSpacing.label.number}",
-          "type": "letterSpacing"
+          "$value": "{app.letterSpacing.component.number}",
+          "$type": "letterSpacing"
         }
       },
       "textCase": {
         "default": {
-          "value": "{app.textCase.control.default}",
-          "type": "textCase"
-        }
-      },
-      "config": {
-        "height": {
-          "default": {
-            "value": "{app.dimension.label.height.md}",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.25rem",
-            "type": "other"
-          }
-        },
-        "padding": {
-          "default": {
-            "value": "0.5rem",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
-          }
-        },
-        "radius": {
-          "default": {
-            "value": "0.25rem",
-            "type": "other"
-          },
-          "step": {
-            "value": "0rem",
-            "type": "other"
-          }
+          "$value": "{app.textCase.component.default}",
+          "$type": "textCase"
         }
       }
     }

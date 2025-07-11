@@ -1,13 +1,9 @@
 {
   "component": {
-    "input": {
+    "textarea": {
       "fontFamily": {
         "default": {
           "$value": "{app.fontFamily.component.text}",
-          "$type": "fontFamilies"
-        },
-        "symbol": {
-          "$value": "{app.fontFamily.component.symbol}",
           "$type": "fontFamilies"
         }
       },
@@ -19,10 +15,6 @@
         "label": {
           "$value": "{app.fontWeight.component.text.default}",
           "$type": "fontWeights"
-        },
-        "symbol": {
-          "$value": "{app.fontWeight.component.symbol.default}",
-          "$type": "fontWeights"
         }
       },
       "lineHeight": {
@@ -31,10 +23,6 @@
           "$type": "lineHeights"
         },
         "label": {
-          "$value": "{app.lineHeight.none}",
-          "$type": "lineHeights"
-        },
-        "symbol": {
           "$value": "{app.lineHeight.none}",
           "$type": "lineHeights"
         },
@@ -61,24 +49,6 @@
           },
           "lg": {
             "$value": "{app.fontSize.component.text.xl}",
-            "$type": "fontSizes"
-          }
-        },
-        "symbol": {
-          "xs": {
-            "$value": "{app.fontSize.component.symbol.sm}",
-            "$type": "fontSizes"
-          },
-          "sm": {
-            "$value": "{app.fontSize.component.symbol.lg}",
-            "$type": "fontSizes"
-          },
-          "md": {
-            "$value": "{app.fontSize.component.symbol.2xl}",
-            "$type": "fontSizes"
-          },
-          "lg": {
-            "$value": "{app.fontSize.component.symbol.4xl}",
             "$type": "fontSizes"
           }
         },
@@ -138,6 +108,20 @@
             }
           }
         },
+        "focus": {
+          "border": {
+            "default": {
+              "$value": "{app.color.component.focus.border.default}",
+              "$type": "color"
+            }
+          },
+          "outline": {
+            "default": {
+              "$value": "{app.color.component.focus.outline.default}",
+              "$type": "color"
+            }
+          }
+        },
         "danger": {
           "bg": {
             "default": {
@@ -157,7 +141,7 @@
               "$type": "color"
             },
             "label": {
-              "$value": "{app.color.component.danger.fg.muted.default}",
+              "$value": "{app.color.component.danger.fg.subtle.default}",
               "$type": "color"
             }
           }
@@ -180,52 +164,52 @@
               "$value": "{app.color.component.disabled.fg.solid.default}",
               "$type": "color"
             },
-            "muted": {
-              "$value": "{app.color.component.disabled.fg.muted.default}",
-              "$type": "color"
-            },
             "label": {
               "$value": "{app.color.component.disabled.fg.muted.default}",
-              "$type": "color"
-            }
-          }
-        },
-        "focus": {
-          "border": {
-            "default": {
-              "$value": "{app.color.component.focus.border.default}",
-              "$type": "color"
-            }
-          },
-          "outline": {
-            "default": {
-              "$value": "{app.color.component.focus.outline.default}",
               "$type": "color"
             }
           }
         }
       },
       "dimension": {
-        "height": {
+        "minHeight": {
           "xs": {
-            "$value": "{app.dimension.component.spacing.8}",
+            "$value": "{app.dimension.component.spacing.16}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.component.spacing.10}",
+            "$value": "{app.dimension.component.spacing.20}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.spacing.12}",
+            "$value": "{app.dimension.component.spacing.24}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.spacing.14}",
+            "$value": "{app.dimension.component.spacing.28}",
+            "$type": "dimension"
+          }
+        },
+        "maxHeight": {
+          "xs": {
+            "$value": "{app.dimension.component.spacing.30}",
+            "$type": "dimension"
+          },
+          "sm": {
+            "$value": "{app.dimension.component.spacing.36}",
+            "$type": "dimension"
+          },
+          "md": {
+            "$value": "{app.dimension.component.spacing.48}",
+            "$type": "dimension"
+          },
+          "lg": {
+            "$value": "{app.dimension.component.spacing.60}",
             "$type": "dimension"
           }
         },
         "padding": {
-          "default": {
+          "x": {
             "xs": {
               "$value": "{app.dimension.component.spacing.2}",
               "$type": "dimension"
@@ -243,62 +227,64 @@
               "$type": "dimension"
             }
           },
-          "label": {
-            "xs": {
-              "$value": "{app.dimension.component.spacing.1}",
-              "$type": "dimension"
+          "y": {
+            "default": {
+              "xs": {
+                "$value": "{app.dimension.component.spacing.2}",
+                "$type": "dimension"
+              },
+              "sm": {
+                "$value": "{app.dimension.component.spacing.3}",
+                "$type": "dimension"
+              },
+              "md": {
+                "$value": "{app.dimension.component.spacing.4}",
+                "$type": "dimension"
+              },
+              "lg": {
+                "$value": "{app.dimension.component.spacing.5}",
+                "$type": "dimension"
+              }
             },
-            "sm": {
-              "$value": "{app.dimension.component.spacing.1}",
-              "$type": "dimension"
-            },
-            "md": {
-              "$value": "{app.dimension.component.spacing.1}",
-              "$type": "dimension"
-            },
-            "lg": {
-              "$value": "{app.dimension.component.spacing.1}",
-              "$type": "dimension"
+            "filled": {
+              "xs": {
+                "$value": "{app.dimension.component.spacing.1}",
+                "$type": "dimension"
+              },
+              "sm": {
+                "$value": "{app.dimension.component.spacing.1_5}",
+                "$type": "dimension"
+              },
+              "md": {
+                "$value": "{app.dimension.component.spacing.2}",
+                "$type": "dimension"
+              },
+              "lg": {
+                "$value": "{app.dimension.component.spacing.2_5}",
+                "$type": "dimension"
+              }
             }
           },
-          "slot": {
+          "label": {
             "xs": {
-              "$value": "{app.dimension.component.spacing.1}",
+              "$value": "4px",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.spacing.1}",
+              "$value": "4px",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.spacing.1}",
+              "$value": "4px",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.spacing.1}",
+              "$value": "4px",
               "$type": "dimension"
             }
           }
         },
         "gap": {
-          "default": {
-            "xs": {
-              "$value": "{app.dimension.component.spacing.0_5}",
-              "$type": "dimension"
-            },
-            "sm": {
-              "$value": "{app.dimension.component.spacing.1}",
-              "$type": "dimension"
-            },
-            "md": {
-              "$value": "{app.dimension.component.spacing.1_5}",
-              "$type": "dimension"
-            },
-            "lg": {
-              "$value": "{app.dimension.component.spacing.2}",
-              "$type": "dimension"
-            }
-          },
           "label": {
             "xs": {
               "$value": "{app.dimension.component.spacing.0_5}",
@@ -356,26 +342,10 @@
         },
         "outline": {
           "focus": {
-            "$value": "{app.dimension.component.outline.focus.default}",
-            "$type": "dimension"
-          }
-        },
-        "symbol": {
-          "xs": {
-            "$value": "{component.input.fontSize.symbol.xs}",
-            "$type": "dimension"
-          },
-          "sm": {
-            "$value": "{component.input.fontSize.symbol.sm}",
-            "$type": "dimension"
-          },
-          "md": {
-            "$value": "{component.input.fontSize.symbol.md}",
-            "$type": "dimension"
-          },
-          "lg": {
-            "$value": "{component.input.fontSize.symbol.lg}",
-            "$type": "dimension"
+            "default": {
+              "$value": "{app.dimension.component.outline.focus.default}",
+              "$type": "dimension"
+            }
           }
         },
         "blur": {

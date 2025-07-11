@@ -5,98 +5,104 @@
         "primary": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.high.bg.default}",
-              "type": "color"
+              "$value": "{app.color.component.primary.bg.translucent.default}",
+              "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.primary.fg.solid}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.solid.default}",
+              "$type": "color"
             },
             "muted": {
-              "value": "{app.color.component.primary.fg.muted}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.subtle.default}",
+              "$type": "color"
             }
           }
         }
       },
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
-        },
-        "symbol": {
-          "value": "{app.fontFamily.control.symbol}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.component.text}",
+          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "label": {
-          "value": "{app.fontWeight.control.text.strong}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.text.strong}",
+          "$type": "fontWeights"
         },
         "message": {
-          "value": "{app.fontWeight.control.text.alt}",
-          "type": "fontWeights"
-        },
-        "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.text.default}",
+          "$type": "fontWeights"
         }
       },
       "lineHeight": {
         "default": {
-          "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.default}",
+          "$type": "lineHeights"
         },
         "symbol": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
         }
       },
       "fontSize": {
         "label": {
-          "value": "{app.fontSize.control.text.md}",
-          "type": "fontSizes"
+          "$value": "{app.fontSize.component.text.sm}",
+          "$type": "fontSizes"
         },
         "message": {
-          "value": "{app.fontSize.control.text.xs}",
-          "type": "fontSizes"
+          "$value": "{app.fontSize.component.text.sm}",
+          "$type": "fontSizes"
         }
       },
       "dimension": {
         "padding": {
           "x": {
-            "value": "0.25rem",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.1}",
+            "$type": "dimension"
           },
           "y": {
-            "value": "0.875rem",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.3_5}",
+            "$type": "dimension"
           }
         },
         "gap": {
           "container": {
-            "value": "1.125rem",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.4}",
+            "$type": "dimension"
           },
-          "label": {
-            "value": "0.25rem",
-            "type": "dimension"
+          "message": {
+            "$value": "{app.dimension.component.spacing.1_5}",
+            "$type": "dimension"
+          },
+          "body": {
+            "$value": "{app.dimension.component.spacing.1}",
+            "$type": "dimension"
+          },
+          "badge": {
+            "$value": "{app.dimension.component.spacing.0_5}",
+            "$type": "dimension"
           }
         },
         "radius": {
           "default": {
-            "value": "{app.dimension.control.radius.md}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.radius.default.lg}",
+            "$type": "dimension"
+          }
+        },
+        "position": {
+          "close": {
+            "$value": "{app.dimension.component.spacing.2}",
+            "$type": "dimension"
           }
         }
       },
       "boxShadow": {
         "default": {
-          "value": "{app.boxShadow.component.high}",
-          "type": "boxShadow"
+          "$value": "{app.boxShadow.component.high}",
+          "$type": "boxShadow"
         }
       }
     }

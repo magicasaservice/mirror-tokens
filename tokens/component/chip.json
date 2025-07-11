@@ -3,92 +3,92 @@
     "chip": {
       "fontFamily": {
         "default": {
-          "value": "{app.fontFamily.control.text}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.component.text}",
+          "$type": "fontFamilies"
         },
         "symbol": {
-          "value": "{app.fontFamily.control.symbol}",
-          "type": "fontFamilies"
+          "$value": "{app.fontFamily.component.symbol}",
+          "$type": "fontFamilies"
         }
       },
       "fontWeight": {
         "default": {
-          "value": "{app.fontWeight.control.text.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.text.strong}",
+          "$type": "fontWeights"
         },
         "symbol": {
-          "value": "{app.fontWeight.control.symbol.default}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.symbol.default}",
+          "$type": "fontWeights"
         },
         "icon": {
-          "value": "{app.fontWeight.control.symbol.alt}",
-          "type": "fontWeights"
+          "$value": "{app.fontWeight.component.symbol.alt}",
+          "$type": "fontWeights"
         }
       },
       "lineHeight": {
         "default": {
-          "value": "{app.lineHeight.default}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.default}",
+          "$type": "lineHeights"
         },
         "symbol": {
-          "value": "{app.lineHeight.none}",
-          "type": "lineHeights"
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
         }
       },
       "fontSize": {
         "default": {
           "sm": {
-            "value": "{component.chip.fontSize.default.md} - {component.chip.config.label.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.xs}",
+            "$type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.label.default}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.sm}",
+            "$type": "fontSizes"
           },
           "lg": {
-            "value": "{component.chip.fontSize.default.md} + {component.chip.config.label.step}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.text.md}",
+            "$type": "fontSizes"
           }
         },
         "symbol": {
           "sm": {
-            "value": "{component.chip.fontSize.symbol.md} - {component.chip.config.symbol.default.step}",
-            "type": "fontSizes"
+            "$value": "{component.chip.fontSize.symbol.md} - {app.dimension.component.spacing.0_5}",
+            "$type": "fontSizes"
           },
           "md": {
-            "value": "{component.chip.config.symbol.label.default}",
-            "type": "fontSizes"
+            "$value": "{app.fontSize.component.symbol.lg}",
+            "$type": "fontSizes"
           },
           "lg": {
-            "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.default.step}",
-            "type": "fontSizes"
+            "$value": "{component.chip.fontSize.symbol.md} + {app.dimension.component.spacing.0_5}",
+            "$type": "fontSizes"
           }
         }
       },
       "icon": {
         "sm": {
-          "value": "{component.chip.fontSize.symbol.sm} + {component.chip.config.symbol.icon.step}",
-          "type": "fontSizes"
+          "$value": "{component.chip.fontSize.symbol.sm} + {app.dimension.component.spacing.1}",
+          "$type": "fontSizes"
         },
         "md": {
-          "value": "{component.chip.fontSize.symbol.md} + {component.chip.config.symbol.icon.step}",
-          "type": "fontSizes"
+          "$value": "{component.chip.fontSize.symbol.md} + {app.dimension.component.spacing.1}",
+          "$type": "fontSizes"
         },
         "lg": {
-          "value": "{component.chip.fontSize.symbol.lg} + {component.chip.config.symbol.icon.step}",
-          "type": "fontSizes"
+          "$value": "{component.chip.fontSize.symbol.lg} + {app.dimension.component.spacing.1}",
+          "$type": "fontSizes"
         }
       },
       "letterSpacing": {
         "default": {
-          "value": "{app.letterSpacing.control.text}",
-          "type": "letterSpacing"
+          "$value": "{app.letterSpacing.component.default}",
+          "$type": "letterSpacing"
         }
       },
       "textCase": {
         "default": {
-          "value": "{app.textCase.control.default}",
-          "type": "textCase"
+          "$value": "{app.textCase.component.default}",
+          "$type": "textCase"
         }
       },
       "color": {
@@ -96,227 +96,110 @@
           "solid": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color"
+                "$value": "{app.color.component.primary.bg.solid.default}",
+                "$type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.solid.hover}",
+                "$type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.solid.active}",
+                "$type": "color"
               },
               "dragged": {
-                "value": "{app.color.component.primary.bg.solid}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.solid.active}",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
-                "type": "color"
+                "$value": "{app.color.component.primary.fg.onSolid.default}",
+                "$type": "color"
               }
             }
           },
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color"
+                "$value": "{app.color.component.primary.bg.translucent.default}",
+                "$type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{app.config.color.primary.alpha.bg.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.translucent.hover}",
+                "$type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{app.config.color.primary.alpha.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.translucent.active}",
+                "$type": "color"
               },
               "dragged": {
-                "value": "{app.color.component.primary.bg.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{app.config.color.primary.alpha.bg.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.translucent.active}",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onTranslucent}",
-                "type": "color"
+                "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+                "$type": "color"
               }
             }
           },
           "outline": {
             "bg": {
               "dragged": {
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.5",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "transparent",
+                "$type": "color"
               }
             },
             "border": {
               "default": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color"
+                "$value": "{app.color.component.primary.border.translucent.default}",
+                "$type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{app.config.color.primary.alpha.border.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.border.translucent.hover}",
+                "$type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{app.config.color.primary.alpha.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.border.translucent.active}",
+                "$type": "color"
               },
               "dragged": {
-                "value": "{app.color.component.primary.border.translucent}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "{app.config.color.primary.alpha.border.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "app.color.component.primary.border.translucent.active",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.solid}",
-                "type": "color"
+                "$value": "{app.color.component.primary.fg.solid.default}",
+                "$type": "color"
               }
             }
           },
           "tone": {
             "bg": {
               "default": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color"
+                "$value": "{app.color.component.primary.bg.tone.default}",
+                "$type": "color"
               },
               "hover": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.hover} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.tone.hover}",
+                "$type": "color"
               },
               "active": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.tone.active}",
+                "$type": "color"
               },
               "dragged": {
-                "value": "{app.color.component.primary.bg.tone}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active} ",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "$value": "{app.color.component.primary.bg.tone.active}",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onTone}",
-                "type": "color"
+                "$value": "{app.color.component.primary.fg.onTone.default}",
+                "$type": "color"
               }
             }
           }
@@ -325,56 +208,56 @@
           "solid": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.solid}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.bg.solid.default}",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.fg.solid.default}",
+                "$type": "color"
               }
             }
           },
           "translucent": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.translucent}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.bg.translucent.default}",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.fg.solid.default}",
+                "$type": "color"
               }
             }
           },
           "outline": {
             "border": {
               "default": {
-                "value": "{app.color.component.disabled.border.translucent}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.border.translucent.default}",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.solid}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.fg.solid.default}",
+                "$type": "color"
               }
             }
           },
           "tone": {
             "bg": {
               "default": {
-                "value": "{app.color.component.disabled.bg.tone}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.bg.tone.default}",
+                "$type": "color"
               }
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.disabled.fg.onTone}",
-                "type": "color"
+                "$value": "{app.color.component.disabled.fg.onTone.default}",
+                "$type": "color"
               }
             }
           }
@@ -382,8 +265,14 @@
         "focus": {
           "border": {
             "default": {
-              "value": "{app.color.component.focus.border.default}",
-              "type": "color"
+              "$value": "{app.color.component.focus.border.default}",
+              "$type": "color"
+            }
+          },
+          "outline": {
+            "default": {
+              "$value": "{app.color.component.focus.outline.default}",
+              "$type": "color"
             }
           }
         }
@@ -391,182 +280,143 @@
       "dimension": {
         "height": {
           "sm": {
-            "value": "{app.dimension.control.height.xxs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.6}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.height.xs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.8}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.height.sm}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.10}",
+            "$type": "dimension"
           }
         },
         "padding": {
           "sm": {
-            "value": "{app.dimension.control.padding.xxs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.1_25}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.padding.xs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.2}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.padding.sm}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.3}",
+            "$type": "dimension"
           },
           "label": {
-            "value": "4px",
-            "type": "dimension"
+            "$value": "4px",
+            "$type": "dimension"
           }
         },
         "gap": {
           "sm": {
-            "value": "{app.dimension.control.gap.xxs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.2xs}",
+            "$type": "dimension"
           },
           "md": {
-            "value": "{app.dimension.control.gap.xs}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.0_5}",
+            "$type": "dimension"
           },
           "lg": {
-            "value": "{app.dimension.control.gap.sm}",
-            "type": "dimension"
+            "$value": "{app.dimension.component.spacing.1}",
+            "$type": "dimension"
           }
         },
         "radius": {
           "default": {
             "sm": {
-              "value": "{app.dimension.control.radius.xxs}",
-              "type": "dimension"
+              "$value": "{app.dimension.component.radius.default.xs}",
+              "$type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.radius.xs}",
-              "type": "dimension"
+              "$value": "{app.dimension.component.radius.default.sm}",
+              "$type": "dimension"
             },
             "lg": {
-              "value": "{app.dimension.control.radius.sm}",
-              "type": "dimension"
+              "$value": "{app.dimension.component.radius.default.md}",
+              "$type": "dimension"
             }
           },
           "inline": {
             "sm": {
-              "value": "{component.chip.dimension.radius.default.sm} - {component.chip.config.dimension.radius.inline}",
-              "type": "dimension"
+              "$value": "{component.chip.dimension.radius.default.sm} - {component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
+              "$type": "dimension"
             },
             "md": {
-              "value": "{component.chip.dimension.radius.default.md} - {component.chip.config.dimension.radius.inline}",
-              "type": "dimension"
+              "$value": "{component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
+              "$type": "dimension"
             },
             "lg": {
-              "value": "{component.chip.dimension.radius.default.lg} - {component.chip.config.dimension.radius.inline}",
-              "type": "dimension"
+              "$value": "{component.chip.dimension.radius.default.lg} - {component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
+              "$type": "dimension"
             }
           }
         },
         "border": {
           "default": {
-            "value": "{app.dimension.label.border.default}",
-            "type": "dimension"
+            "$value": "{app.dimension.label.border.default}",
+            "$type": "dimension"
+          }
+        },
+        "outline": {
+          "focus": {
+            "$value": "{app.dimension.component.outline.focus.default}"
           }
         },
         "symbol": {
           "sm": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.sm}",
-              "type": "dimension"
+              "$value": "{component.chip.fontSize.symbol.sm}",
+              "$type": "dimension"
             },
             "icon": {
-              "value": "{component.chip.dimension.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
-              "type": "dimension"
+              "$value": "{component.chip.dimension.symbol.sm.default} + {component.chip.config.symbol.icon.step}",
+              "$type": "dimension"
             }
           },
           "md": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.md}",
-              "type": "dimension"
+              "$value": "{component.chip.fontSize.symbol.md}",
+              "$type": "dimension"
             },
             "icon": {
-              "value": "{component.chip.dimension.symbol.md.default} + {component.chip.config.symbol.icon.step}",
-              "type": "dimension"
+              "$value": "{component.chip.dimension.symbol.md.default} + {component.chip.config.symbol.icon.step}",
+              "$type": "dimension"
             }
           },
           "lg": {
             "default": {
-              "value": "{component.chip.fontSize.symbol.lg}",
-              "type": "dimension"
+              "$value": "{component.chip.fontSize.symbol.lg}",
+              "$type": "dimension"
             },
             "icon": {
-              "value": "{component.chip.dimension.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
-              "type": "dimension"
+              "$value": "{component.chip.dimension.symbol.lg.default} + {component.chip.config.symbol.icon.step}",
+              "$type": "dimension"
             }
           }
         },
         "blur": {
           "default": {
-            "value": "4rem",
-            "type": "dimension"
-          }
-        }
-      },
-      "config": {
-        "symbol": {
-          "icon": {
-            "step": {
-              "value": "0.25rem",
-              "type": "other"
-            }
-          },
-          "label": {
-            "default": {
-              "value": "{app.fontSize.control.symbol.xs}",
-              "type": "other"
-            }
-          },
-          "default": {
-            "step": {
-              "value": "0.125rem",
-              "type": "other"
-            }
-          }
-        },
-        "label": {
-          "default": {
-            "value": "{app.fontSize.control.text.xs}",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.0625rem",
-            "type": "other"
-          }
-        },
-        "dimension": {
-          "radius": {
-            "inline": {
-              "value": "{component.chip.dimension.radius.default.md} - {component.chip.dimension.radius.default.sm}",
-              "type": "other"
-            }
+            "$value": "4rem",
+            "$type": "dimension"
           }
         }
       },
       "boxShadow": {
-        "focusRing": {
-          "value": "{app.boxShadow.focusRing.md}",
-          "type": "boxShadow"
-        },
         "dragged": {
-          "value": [
+          "$value": [
             {
               "x": "0",
-              "y": "0.375rem",
+              "y": "{app.dimension.component.spacing.1_5}",
               "blur": "1rem",
               "spread": "0",
-              "color": "{app.color.component.shadow.default}",
+              "color": "{app.color.surface.shadow.strong}",
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         }
       }
     }

@@ -1,340 +1,33 @@
 {
   "app": {
-    "dimension": {
-      "control": {
-        "height": {
-          "xxs": {
-            "value": "{app.dimension.control.height.xs} - 0.5rem",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.control.height.sm} - 0.5rem",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.control.height.md} - 0.5rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "3rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.height.md} + 0.5rem",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.control.height.lg} + 0.5rem",
-            "type": "dimension"
-          }
-        },
-        "padding": {
-          "xxs": {
-            "value": "{app.dimension.control.padding.xs} - 0.1875rem",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.control.padding.sm} - 0.25rem",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.control.padding.md} - 0.25rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "1rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.padding.md} + 0.25rem",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.control.padding.lg} + 0.25rem",
-            "type": "dimension"
-          }
-        },
-        "gap": {
-          "xxs": {
-            "value": "{app.dimension.control.gap.xs} - 0.125rem",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.control.gap.sm} - 0.125rem",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.control.gap.md} - 0.125rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "0.375rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.gap.md} + 0.125rem",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.control.gap.lg} + 0.125rem",
-            "type": "dimension"
-          }
-        },
-        "radius": {
-          "xxs": {
-            "value": "{app.dimension.control.radius.xs}",
-            "type": "dimension"
-          },
-          "xs": {
-            "value": "{app.dimension.control.radius.sm}",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.control.radius.md}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "0.375rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.control.radius.md}",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.control.radius.lg}",
-            "type": "dimension"
-          }
-        },
-        "border": {
-          "default": {
-            "value": "2px",
-            "type": "dimension"
-          },
-          "thin": {
-            "value": "1px",
-            "type": "dimension"
-          }
-        }
-      },
-      "label": {
-        "height": {
-          "xs": {
-            "value": "{app.dimension.label.height.sm} - 0.5rem",
-            "type": "dimension"
-          },
-          "sm": {
-            "value": "{app.dimension.label.height.md} - 0.25rem",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "1.5rem",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{app.dimension.label.height.md} + 0.5rem",
-            "type": "dimension"
-          },
-          "xl": {
-            "value": "{app.dimension.label.height.lg} + 0.5rem",
-            "type": "dimension"
-          }
-        },
-        "border": {
-          "default": {
-            "value": "1px",
-            "type": "dimension"
-          },
-          "thin": {
-            "value": "1px",
-            "type": "dimension"
-          }
-        }
-      },
-      "surface": {
-        "padding": {
-          "container": {
-            "default": {
-              "value": "{app.dimension.control.padding.xs}",
-              "type": "dimension"
-            }
-          }
-        },
-        "radius": {
-          "sm": {
-            "default": {
-              "value": "{app.dimension.surface.radius.md.default} - 0.25rem",
-              "type": "dimension"
-            },
-            "inset": {
-              "value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container.default}",
-              "type": "dimension"
-            }
-          },
-          "md": {
-            "default": {
-              "value": "{app.dimension.control.radius.md} * 2",
-              "type": "dimension"
-            },
-            "inset": {
-              "value": "{app.dimension.surface.radius.md.default} - {app.dimension.surface.padding.container.default}",
-              "type": "dimension"
-            }
-          },
-          "lg": {
-            "default": {
-              "value": "{app.dimension.surface.radius.md.default} + 0.25rem",
-              "type": "dimension"
-            },
-            "inset": {
-              "value": "{app.dimension.surface.radius.lg.default} - {app.dimension.surface.padding.container.default}",
-              "type": "dimension"
-            }
-          }
-        },
-        "border": {
-          "default": {
-            "value": "2px",
-            "type": "dimension"
-          }
-        }
-      }
-    },
     "color": {
       "surface": {
-        "elevation": {
+        "bg": {
           "low": {
-            "bg": {
-              "default": {
-                "type": "color",
-                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 100%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.low.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.low.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.white.solid}"
           },
           "base": {
-            "bg": {
-              "default": {
-                "type": "color",
-                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.base.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.neutral.solid.1}"
           },
           "high": {
-            "bg": {
-              "default": {
-                "type": "color",
-                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 100%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.high.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.high.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              }
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.neutral.solid.2}"
           },
           "higher": {
-            "bg": {
-              "default": {
-                "type": "color",
-                "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)"
-              },
-              "hover": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.higher.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.hover}",
-                      "space": "hsl"
-                    }
-                  }
-                }
-              },
-              "active": {
-                "type": "color",
-                "value": "{app.color.surface.elevation.higher.bg.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "darken",
-                      "value": "{app.config.color.primary.darken.active}",
-                      "space": "hsl"
-                    }
-                  }
+            "$type": "color",
+            "$value": "{config.color.palette.neutral.solid.3}"
+          },
+          "dimmer": {
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.8",
+                  "space": "oklch"
                 }
               }
             }
@@ -342,465 +35,1076 @@
         },
         "border": {
           "default": {
-            "type": "color",
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 0%, 0.04)"
-          },
-          "hover": {
-            "type": "color",
-            "value": "{app.color.surface.border.default}",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{app.config.color.primary.alpha.border.hover} ",
-                  "space": "hsl"
-                }
-              }
-            }
-          },
-          "active": {
-            "type": "color",
-            "value": "{app.color.surface.border.default}",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{app.config.color.primary.alpha.border.active}",
-                  "space": "hsl"
-                }
-              }
-            }
+            "$type": "color",
+            "$value": "{config.color.palette.grey.translucent.1}"
           }
         },
         "fg": {
           "default": {
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%, 1)",
-            "type": "color"
+            "$value": "{config.color.palette.grey.solid.12}",
+            "$type": "color"
           },
           "muted": {
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%, 0.52)",
-            "type": "color"
+            "$value": "{config.color.palette.black.translucent.9}",
+            "$type": "color"
           },
           "subtle": {
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%, 0.24)",
-            "type": "color"
-          },
-          "link": {
-            "value": "{app.color.component.info.fg.solid}",
-            "type": "color"
+            "$value": "{config.color.palette.black.translucent.3}",
+            "$type": "color"
           },
           "inverted": {
-            "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%, 1)",
-            "type": "color"
+            "$value": "{config.color.palette.white.solid}",
+            "$type": "color"
+          },
+          "link": {
+            "default": {
+              "$value": "{config.color.palette.blue.solid.7}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{config.color.palette.blue.solid.8}",
+              "$type": "color"
+            },
+            "active": {
+              "$value": "{config.color.palette.blue.solid.9}",
+              "$type": "color"
+            }
           }
         },
         "shadow": {
           "default": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.1)",
-            "type": "color"
-          }
-        },
-        "dimmer": {
-          "default": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 1)",
-            "type": "color"
-          }
-        },
-        "playground": {
-          "default": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.55)",
-            "type": "color"
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
+                }
+              }
+            }
+          },
+          "strong": {
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
+                }
+              }
+            }
           }
         }
       },
       "component": {
-        "accent": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 4%, {app.config.color.accent.alpha.bg.default})"
-            },
-            "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 24%)"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 4%, {app.config.color.accent.alpha.border.default})"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
-            },
-            "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%, 0.48)"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "hsla({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 96%, 1)"
-            },
-            "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.translucent}, 85%)"
-            },
-            "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.accent.hue.default}, {app.config.color.accent.saturation.default}, 4%)"
-            }
-          }
-        },
         "primary": {
           "bg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.12}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.10}"
+              }
             },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.translucent}, 4%, {app.config.color.primary.alpha.bg.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.1}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.2}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.3}"
+              }
             },
             "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 24%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.9}"
+              }
+            },
+            "inverted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.1}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
             }
           },
           "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%)"
-            },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.translucent}, 4%, {app.config.color.primary.alpha.border.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.1}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.2}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.3}"
+              }
             }
           },
           "fg": {
             "solid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.default}"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.12}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.10}"
+              }
             },
             "muted": {
-              "type": "color",
-              "value": "{app.color.surface.fg.muted}"
+              "default": {
+                "$value": "{config.color.palette.black.translucent.9}",
+                "$type": "color"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$value": "{config.color.palette.black.translucent.3}",
+                "$type": "color"
+              }
             },
             "onSolid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}"
+              }
             },
             "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 85%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.4}"
+              }
             },
             "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 4%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.12}"
+              }
             }
           }
         },
-        "neutral": {
+        "secondary": {
           "bg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 60%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.9}"
+              }
             },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.translucent}, 4%, {app.config.color.neutral.alpha.bg.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.1}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.2}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.3}"
+              }
             },
             "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 25%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.1}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.2}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.3}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
             }
           },
           "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 60%)"
-            },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.translucent}, 4%, {app.config.color.neutral.alpha.border.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.1}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.2}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.3}"
+              }
             }
           },
           "fg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 4%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.9}"
+              }
             },
             "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 4%, 0.4)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.6}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.3}"
+              }
             },
             "onSolid": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 96%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}"
+              }
             },
             "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 85%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.8}"
+              }
             },
             "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 4%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.solid.8}"
+              }
             }
           }
         },
-        "info": {
+        "accent": {
           "bg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 50%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.9}"
+              }
             },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.translucent}, 50%, {app.config.color.info.alpha.bg.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.2}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.3}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.4}"
+              }
             },
             "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 20%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.10}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
             }
           },
           "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 45%)"
-            },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.translucent}, 45%, {app.config.color.info.alpha.border.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.6}"
+              }
             }
           },
           "fg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 40%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.9}"
+              }
             },
             "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 40%, {app.config.color.info.alpha.fg.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.12}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.6}"
+              }
             },
             "onSolid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}"
+              }
             },
             "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.translucent}, 85%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.1}"
+              }
             },
             "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.info.hue.default}, {app.config.color.info.saturation.default}, 20%)"
-            }
-          }
-        },
-        "success": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 36%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 36%, {app.config.color.danger.alpha.bg.default})"
-            },
-            "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 10%)"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 32%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 32%, {app.config.color.success.alpha.border.default})"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 28%)"
-            },
-            "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 28%, {app.config.color.success.alpha.fg.default})"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
-            },
-            "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.translucent}, 84%)"
-            },
-            "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.success.hue.default}, {app.config.color.success.saturation.default}, 10%)"
-            }
-          }
-        },
-        "warning": {
-          "bg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 50%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 50%, {app.config.color.danger.alpha.bg.default})"
-            },
-            "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 10%)"
-            }
-          },
-          "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 45%)"
-            },
-            "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 45%, {app.config.color.warning.alpha.border.default})"
-            }
-          },
-          "fg": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 30%)"
-            },
-            "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 30%, {app.config.color.warning.alpha.fg.default})"
-            },
-            "onSolid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
-            },
-            "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.translucent}, 85%)"
-            },
-            "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.warning.hue.default}, {app.config.color.warning.saturation.default}, 15%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.12}"
+              }
             }
           }
         },
         "danger": {
           "bg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 55%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.9}"
+              }
             },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 55%, {app.config.color.danger.alpha.bg.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.2}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.3}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.4}"
+              }
             },
             "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 15%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.10}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
             }
           },
           "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 50%)"
-            },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 50%, {app.config.color.danger.alpha.border.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.6}"
+              }
             }
           },
           "fg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 45%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.9}"
+              }
             },
             "muted": {
-              "type": "color",
-              "value": "hsla({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 45%, {app.config.color.danger.alpha.fg.default})"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.12}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.6}"
+              }
             },
             "onSolid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}"
+              }
             },
             "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.translucent}, 85%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.1}"
+              }
             },
             "onTranslucent": {
-              "type": "color",
-              "value": "hsl({app.config.color.danger.hue.default}, {app.config.color.danger.saturation.default}, 20%)"
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.12}"
+              }
+            }
+          }
+        },
+        "success": {
+          "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.9}"
+              }
+            },
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.2}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.3}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.4}"
+              }
+            },
+            "tone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.10}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
+            }
+          },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.6}"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.9}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.12}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.6}"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}"
+              }
+            },
+            "onTone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.1}"
+              }
+            },
+            "onTranslucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.12}"
+              }
+            }
+          }
+        },
+        "warning": {
+          "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.9}"
+              }
+            },
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.2}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.3}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.4}"
+              }
+            },
+            "tone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.10}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.12}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
+            }
+          },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.6}"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.9}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.12}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.6}"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.black.solid}"
+              }
+            },
+            "onTone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.1}"
+              }
+            },
+            "onTranslucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.12}"
+              }
+            }
+          }
+        },
+        "neutral": {
+          "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.12}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.10}"
+              }
+            },
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.2}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.3}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.4}"
+              }
+            },
+            "tone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.9}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
+            }
+          },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.6}"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.12}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.10}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.12}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.6}"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}"
+              }
+            },
+            "onTone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.1}"
+              }
+            },
+            "onTranslucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.12}"
+              }
             }
           }
         },
         "disabled": {
           "bg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 90%)"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.solid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.translucent}, 50%, {app.config.color.neutral.alpha.bg.subtle})"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.translucent.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.translucent.hover}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             },
             "tone": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 90%)"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.tone.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             },
-            "checked": {
-              "type": "color",
-              "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, {app.config.color.neutral.alpha.bg.default})"
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.light.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             }
           },
           "border": {
-            "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 80%)"
-            },
             "translucent": {
-              "type": "color",
-              "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.translucent}, 0%, {app.config.color.neutral.alpha.border.subtle})"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.border.translucent.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             }
           },
           "fg": {
             "solid": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 70%)"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.solid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.solid.hover}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             },
-            "onTone": {
-              "type": "color",
-              "value": "hsl({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 70%)"
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.muted.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.subtle.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             },
             "onSolid": {
-              "type": "color",
-              "value": "{app.color.surface.fg.inverted}"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onSolid.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
+            },
+            "onTone": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onTone.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
             },
             "onTranslucent": {
-              "type": "color",
-              "value": "{app.color.surface.fg.default}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.26",
-                    "space": "hsl"
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onTranslucent.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.32",
+                      "space": "oklch"
+                    }
                   }
                 }
               }
@@ -810,347 +1114,85 @@
         "focus": {
           "border": {
             "default": {
-              "type": "color",
-              "value": "{app.color.component.info.border.solid}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{app.config.color.info.darken.focus}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "$type": "color",
+              "$value": "{config.color.palette.blue.solid.7}"
             }
           },
-          "focusRing": {
+          "outline": {
             "default": {
-              "type": "color",
-              "value": "{app.color.component.info.bg.solid}",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{app.config.color.info.alpha.focusRing.default}",
-                    "space": "hsl"
-                  }
-                }
-              }
+              "$type": "color",
+              "$value": "{config.color.palette.blue.translucent.4}"
             }
           }
         },
         "shadow": {
           "default": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.1)",
-            "type": "color"
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
+                }
+              }
+            }
           },
           "strong": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.2)",
-            "type": "color"
-          },
-          "stronger": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.3)",
-            "type": "color"
-          },
-          "strongest": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0.5)",
-            "type": "color"
-          },
-          "none": {
-            "value": "hsla({app.config.color.neutral.hue.default}, {app.config.color.neutral.saturation.default}, 0%, 0)",
-            "type": "color"
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
+                }
+              }
+            }
           }
-        },
-        "fixed": {
-          "fg": {
-            "value": "hsl({app.config.color.primary.hue.default}, {app.config.color.primary.saturation.default}, 96%)",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "fontSize": {
-      "control": {
-        "text": {
-          "xs": {
-            "value": "{app.fontSize.control.text.sm} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{app.fontSize.control.text.md} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "1rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.control.text.md} + 0.0625rem",
-            "type": "fontSizes"
-          },
-          "xl": {
-            "value": "{app.fontSize.control.text.lg} + 0.0625rem",
-            "type": "fontSizes"
-          }
-        },
-        "symbol": {
-          "xs": {
-            "value": "{app.fontSize.control.symbol.sm} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{app.fontSize.control.symbol.md} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.control.text.md} + 0.125rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.control.symbol.md} + 0.0625rem",
-            "type": "fontSizes"
-          },
-          "xl": {
-            "value": "{app.fontSize.control.symbol.lg} + 0.0625rem",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "label": {
-        "text": {
-          "xs": {
-            "value": "{app.fontSize.label.text.sm} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{app.fontSize.label.text.md} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "0.75rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.label.text.md} + 0.0625rem",
-            "type": "fontSizes"
-          },
-          "xl": {
-            "value": "{app.fontSize.label.text.lg} + 0.0625rem",
-            "type": "fontSizes"
-          }
-        },
-        "symbol": {
-          "xs": {
-            "value": "{app.fontSize.label.symbol.sm} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "{app.fontSize.label.symbol.md} - 0.0625rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.label.text.md} - 0.125rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.label.symbol.md} + 0.0625rem",
-            "type": "fontSizes"
-          },
-          "xl": {
-            "value": "{app.fontSize.label.symbol.lg} + 0.0625rem",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "surface": {
-        "display": {
-          "sm": {
-            "value": "{app.fontSize.surface.body.md} * 2.75",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.surface.display.sm} + 1.375rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.surface.display.md} + 1.375rem",
-            "type": "fontSizes"
-          }
-        },
-        "title": {
-          "sm": {
-            "value": "{app.fontSize.surface.body.md} * 1.5",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.surface.title.sm} + 0.5rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.surface.title.md} + 0.5rem",
-            "type": "fontSizes"
-          }
-        },
-        "callout": {
-          "sm": {
-            "value": "{app.fontSize.surface.body.md} - 0.125rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.surface.callout.sm} + 0.125rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.surface.callout.md} + 0.125rem",
-            "type": "fontSizes"
-          }
-        },
-        "subtitle": {
-          "sm": {
-            "value": "{app.fontSize.surface.body.md} + 0.125rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{app.fontSize.surface.subtitle.sm} + 0.125rem",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{app.fontSize.surface.subtitle.md} + 0.125rem",
-            "type": "fontSizes"
-          }
-        },
-        "body": {
-          "sm": {
-            "value": "{app.fontSize.surface.body.md} - 0.125rem",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "1rem",
-            "type": "fontSizes"
-          }
-        },
-        "caption": {
-          "default": {
-            "value": "{app.fontSize.surface.body.md} - 0.25rem",
-            "type": "fontSizes"
-          }
-        },
-        "footnote": {
-          "default": {
-            "value": "{app.fontSize.surface.body.md} - 0.25rem",
-            "type": "fontSizes"
-          }
-        },
-        "code": {
-          "default": {
-            "value": "{app.fontSize.surface.body.md} - 0.125rem",
-            "type": "fontSizes"
-          }
-        }
-      }
-    },
-    "textCase": {
-      "control": {
-        "default": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "label": {
-        "default": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "surface": {
-        "display": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "title": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "subtitle": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "callout": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "body": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "caption": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "footnote": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "code": {
-          "value": "none",
-          "type": "textCase"
-        }
-      }
-    },
-    "letterSpacing": {
-      "control": {
-        "text": {
-          "value": "1%",
-          "type": "letterSpacing"
-        },
-        "number": {
-          "value": "2%",
-          "type": "letterSpacing"
-        }
-      },
-      "label": {
-        "text": {
-          "value": "2%",
-          "type": "letterSpacing"
-        },
-        "number": {
-          "value": "4%",
-          "type": "letterSpacing"
         }
       }
     },
     "boxShadow": {
-      "focusRing": {
-        "md": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.25rem",
-              "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
-            }
-          ],
-          "type": "boxShadow"
+      "component": {
+        "default": {
+          "$value": {
+            "x": "0",
+            "y": "2rem",
+            "blur": "4rem",
+            "spread": "0",
+            "color": "{app.color.component.shadow.default}",
+            "type": "dropShadow"
+          },
+          "$type": "boxShadow"
         },
-        "lg": {
-          "value": [
+        "high": {
+          "$value": [
             {
               "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.375rem",
-              "color": "{app.color.component.focus.focusRing.default}",
+              "y": "1rem",
+              "blur": "2rem",
+              "spread": "0",
+              "color": "{app.color.component.shadow.strong}",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "2rem",
+              "blur": "4rem",
+              "spread": "0",
+              "color": "{app.color.component.shadow.strong}",
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "$type": "boxShadow"
         }
       },
       "surface": {
         "default": {
-          "value": {
+          "$value": {
             "x": "0",
             "y": "6rem",
             "blur": "6rem",
@@ -1158,982 +1200,858 @@
             "color": "{app.color.surface.shadow.default}",
             "type": "dropShadow"
           },
-          "type": "boxShadow"
-        }
-      },
-      "component": {
-        "high": {
-          "value": {
-            "x": "0",
-            "y": "2rem",
-            "blur": "4rem",
-            "spread": "0",
-            "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "higher": {
-          "value": {
-            "x": "0",
-            "y": "4rem",
-            "blur": "6rem",
-            "spread": "0",
-            "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          "$type": "boxShadow"
         }
       }
     },
     "fontFamily": {
-      "control": {
+      "component": {
         "text": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "symbol": {
-          "value": "Symbols",
-          "type": "fontFamilies"
+          "$value": "Symbols",
+          "$type": "fontFamilies"
         },
         "number": {
-          "value": "Index",
-          "type": "fontFamilies"
-        }
-      },
-      "label": {
-        "text": {
-          "value": "Interface",
-          "type": "fontFamilies"
-        },
-        "symbol": {
-          "value": "Symbols",
-          "type": "fontFamilies"
-        },
-        "number": {
-          "value": "Index",
-          "type": "fontFamilies"
+          "$value": "Index",
+          "$type": "fontFamilies"
         }
       },
       "surface": {
         "display": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "title": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "callout": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "subtitle": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "body": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "caption": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "footnote": {
-          "value": "Interface",
-          "type": "fontFamilies"
+          "$value": "Mirage",
+          "$type": "fontFamilies"
         },
         "code": {
-          "value": "Index",
-          "type": "fontFamilies"
+          "$value": "Index",
+          "$type": "fontFamilies"
         }
       }
     },
     "fontWeight": {
-      "control": {
+      "component": {
         "text": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           },
           "alt": {
-            "value": "{app.config.fontWeight.regular}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.regular}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         },
         "symbol": {
           "default": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           },
           "alt": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           }
         },
         "number": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
-          }
-        }
-      },
-      "label": {
-        "text": {
-          "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           },
-          "strong": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
-          }
-        },
-        "number": {
-          "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+          "alt": {
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         }
       },
       "surface": {
         "display": {
           "default": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.semibold}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.semibold}",
+            "$type": "fontWeights"
           }
         },
         "title": {
           "default": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.semibold}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         },
         "callout": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         },
         "subtitle": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         },
         "body": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.regular}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         },
         "caption": {
           "default": {
-            "value": "{app.config.fontWeight.regular}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.regular}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         },
         "footnote": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           },
           "strong": {
-            "value": "{app.config.fontWeight.medium}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.medium}",
+            "$type": "fontWeights"
           }
         },
         "code": {
           "default": {
-            "value": "{app.config.fontWeight.book}",
-            "type": "fontWeights"
+            "$value": "{config.fontWeight.book}",
+            "$type": "fontWeights"
           }
         }
       }
     },
     "lineHeight": {
       "default": {
-        "value": "140%",
-        "type": "lineHeights"
+        "$value": "140%",
+        "$type": "lineHeights"
       },
       "none": {
-        "value": "100%",
-        "type": "lineHeights"
+        "$value": "100%",
+        "$type": "lineHeights"
       },
       "surface": {
         "display": {
           "sm": {
-            "value": "110%",
-            "type": "lineHeights"
+            "$value": "120%",
+            "$type": "lineHeights"
           },
           "md": {
-            "value": "110%",
-            "type": "lineHeights"
+            "$value": "115%",
+            "$type": "lineHeights"
           },
           "lg": {
-            "value": "110%",
-            "type": "lineHeights"
+            "$value": "110%",
+            "$type": "lineHeights"
           }
         },
         "title": {
           "sm": {
-            "value": "135%",
-            "type": "lineHeights"
+            "$value": "145%",
+            "$type": "lineHeights"
           },
           "md": {
-            "value": "130%",
-            "type": "lineHeights"
+            "$value": "140%",
+            "$type": "lineHeights"
           },
           "lg": {
-            "value": "125%",
-            "type": "lineHeights"
+            "$value": "135%",
+            "$type": "lineHeights"
           }
         },
         "callout": {
           "default": {
-            "value": "160%",
-            "type": "lineHeights"
+            "$value": "160%",
+            "$type": "lineHeights"
           },
           "short": {
-            "value": "140%",
-            "type": "lineHeights"
+            "$value": "140%",
+            "$type": "lineHeights"
           }
         },
         "subtitle": {
-          "default": {
-            "value": "140%",
-            "type": "lineHeights"
+          "sm": {
+            "$value": "145%",
+            "$type": "lineHeights"
+          },
+          "md": {
+            "$value": "140%",
+            "$type": "lineHeights"
+          },
+          "lg": {
+            "$value": "135%",
+            "$type": "lineHeights"
           }
         },
         "body": {
           "default": {
-            "value": "140%",
-            "type": "lineHeights"
+            "$value": "160%",
+            "$type": "lineHeights"
           },
           "short": {
-            "value": "130%",
-            "type": "lineHeights"
+            "$value": "140%",
+            "$type": "lineHeights"
           }
         },
         "caption": {
           "default": {
-            "value": "160%",
-            "type": "lineHeights"
+            "$value": "160%",
+            "$type": "lineHeights"
           }
         },
         "footnote": {
           "default": {
-            "value": "160%",
-            "type": "lineHeights"
+            "$value": "160%",
+            "$type": "lineHeights"
           }
         },
         "code": {
           "default": {
-            "value": "160%",
-            "type": "lineHeights"
+            "$value": "160%",
+            "$type": "lineHeights"
           }
         }
       }
     },
-    "config": {
-      "fontWeight": {
-        "light": {
-          "value": "Light",
-          "type": "other"
+    "fontSize": {
+      "component": {
+        "text": {
+          "3xs": {
+            "$value": "0.625rem",
+            "$type": "fontSizes"
+          },
+          "2xs": {
+            "$value": "0.6875rem",
+            "$type": "fontSizes"
+          },
+          "xs": {
+            "$value": "0.75rem",
+            "$type": "fontSizes"
+          },
+          "sm": {
+            "$value": "0.8125rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "0.875rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "0.9375rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "1rem",
+            "$type": "fontSizes"
+          },
+          "2xl": {
+            "$value": "1.0625rem",
+            "$type": "fontSizes"
+          },
+          "3xl": {
+            "$value": "1.125rem",
+            "$type": "fontSizes"
+          },
+          "4xl": {
+            "$value": "1.1875rem",
+            "$type": "fontSizes"
+          },
+          "5xl": {
+            "$value": "1.25rem",
+            "$type": "fontSizes"
+          }
         },
-        "regular": {
-          "value": "Regular",
-          "type": "other"
-        },
-        "book": {
-          "value": "Book",
-          "type": "other"
-        },
-        "medium": {
-          "value": "Medium",
-          "type": "other"
-        },
-        "semibold": {
-          "value": "Semibold",
-          "type": "other"
-        },
-        "bold": {
-          "value": "Bold",
-          "type": "other"
-        },
-        "black": {
-          "value": "Black",
-          "type": "other"
+        "symbol": {
+          "3xs": {
+            "$value": "0.6875rem",
+            "$type": "fontSizes"
+          },
+          "2xs": {
+            "$value": "0.75rem",
+            "$type": "fontSizes"
+          },
+          "xs": {
+            "$value": "0.8125rem",
+            "$type": "fontSizes"
+          },
+          "sm": {
+            "$value": "0.875rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "0.9375rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "1.0625rem",
+            "$type": "fontSizes"
+          },
+          "2xl": {
+            "$value": "1.125rem",
+            "$type": "fontSizes"
+          },
+          "3xl": {
+            "$value": "1.1875rem",
+            "$type": "fontSizes"
+          },
+          "4xl": {
+            "$value": "1.25rem",
+            "$type": "fontSizes"
+          }
         }
       },
-      "color": {
-        "neutral": {
-          "hue": {
-            "default": {
-              "value": "220",
-              "type": "other"
+      "surface": {
+        "display": {
+          "sm": {
+            "$value": "1.75rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "2.75rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "3.75rem",
+            "$type": "fontSizes"
+          }
+        },
+        "title": {
+          "sm": {
+            "$value": "1.125rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1.375rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1.625rem",
+            "$type": "fontSizes"
+          }
+        },
+        "callout": {
+          "sm": {
+            "$value": "0.875rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1.125rem",
+            "$type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "sm": {
+            "$value": "1.125rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1.25rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1.375rem",
+            "$type": "fontSizes"
+          }
+        },
+        "body": {
+          "sm": {
+            "$value": "0.875rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1rem",
+            "$type": "fontSizes"
+          }
+        },
+        "caption": {
+          "default": {
+            "$value": "0.75rem",
+            "$type": "fontSizes"
+          }
+        },
+        "footnote": {
+          "default": {
+            "$value": "0.75rem",
+            "$type": "fontSizes"
+          }
+        },
+        "code": {
+          "default": {
+            "$value": "0.875rem",
+            "$type": "fontSizes"
+          }
+        }
+      }
+    },
+    "letterSpacing": {
+      "component": {
+        "default": {
+          "$value": "0%",
+          "$type": "letterSpacing"
+        },
+        "wide": {
+          "$value": "2%",
+          "$type": "letterSpacing"
+        },
+        "number": {
+          "$value": "2%",
+          "$type": "letterSpacing"
+        }
+      },
+      "surface": {
+        "display": {
+          "sm": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "md": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "lg": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          }
+        },
+        "title": {
+          "sm": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "md": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "lg": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          }
+        },
+        "subtitle": {
+          "sm": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "md": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "lg": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          }
+        },
+        "callout": {
+          "sm": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "md": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "lg": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          }
+        },
+        "body": {
+          "sm": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          },
+          "md": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          }
+        },
+        "caption": {
+          "default": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          }
+        },
+        "footnote": {
+          "default": {
+            "$value": "0",
+            "$type": "letterSpacing"
+          }
+        }
+      }
+    },
+    "textCase": {
+      "component": {
+        "default": {
+          "$value": "none",
+          "$type": "textCase"
+        }
+      },
+      "surface": {
+        "display": {
+          "$value": "none",
+          "$type": "textCase"
+        },
+        "title": {
+          "$value": "none",
+          "$type": "textCase"
+        },
+        "subtitle": {
+          "$value": "none",
+          "$type": "textCase"
+        },
+        "callout": {
+          "$value": "none",
+          "$type": "textCase"
+        },
+        "body": {
+          "$value": "none",
+          "$type": "textCase"
+        },
+        "caption": {
+          "$value": "none",
+          "$type": "textCase"
+        },
+        "footnote": {
+          "$value": "none",
+          "$type": "textCase"
+        },
+        "code": {
+          "$value": "none",
+          "$type": "textCase"
+        }
+      }
+    },
+    "dimension": {
+      "component": {
+        "spacing": {
+          "0_25": {
+            "$value": "{config.dimension.spacing.base} * 0.25",
+            "$type": "dimension"
+          },
+          "0_5": {
+            "$value": "{config.dimension.spacing.base} * 0.5",
+            "$type": "dimension"
+          },
+          "0_75": {
+            "$value": "{config.dimension.spacing.base} * 0.75",
+            "$type": "dimension"
+          },
+          "1": {
+            "$value": "{config.dimension.spacing.base}",
+            "$type": "dimension"
+          },
+          "1_25": {
+            "$value": "{config.dimension.spacing.base} * 1.25",
+            "$type": "dimension"
+          },
+          "1_5": {
+            "$value": "{config.dimension.spacing.base} * 1.5",
+            "$type": "dimension"
+          },
+          "1_75": {
+            "$value": "{config.dimension.spacing.base} * 1.75",
+            "$type": "dimension"
+          },
+          "2": {
+            "$value": "{config.dimension.spacing.base} * 2",
+            "$type": "dimension"
+          },
+          "2_25": {
+            "$value": "{config.dimension.spacing.base} * 2.25",
+            "$type": "dimension"
+          },
+          "2_5": {
+            "$value": "{config.dimension.spacing.base} * 2.5",
+            "$type": "dimension"
+          },
+          "3": {
+            "$value": "{config.dimension.spacing.base} * 3",
+            "$type": "dimension"
+          },
+          "3_5": {
+            "$value": "{config.dimension.spacing.base} * 3.5",
+            "$type": "dimension"
+          },
+          "3_75": {
+            "$value": "{config.dimension.spacing.base} * 3.75",
+            "$type": "dimension"
+          },
+          "4": {
+            "$value": "{config.dimension.spacing.base} * 4",
+            "$type": "dimension"
+          },
+          "4_25": {
+            "$value": "{config.dimension.spacing.base} * 4.25",
+            "$type": "dimension"
+          },
+          "4_5": {
+            "$value": "{config.dimension.spacing.base} * 4.5",
+            "$type": "dimension"
+          },
+          "5": {
+            "$value": "{config.dimension.spacing.base} * 5",
+            "$type": "dimension"
+          },
+          "5_25": {
+            "$value": "{config.dimension.spacing.base} * 5.25",
+            "$type": "dimension"
+          },
+          "5_5": {
+            "$value": "{config.dimension.spacing.base} * 5.5",
+            "$type": "dimension"
+          },
+          "5_75": {
+            "$value": "{config.dimension.spacing.base} * 5.75",
+            "$type": "dimension"
+          },
+          "6": {
+            "$value": "{config.dimension.spacing.base} * 6",
+            "$type": "dimension"
+          },
+          "6_5": {
+            "$value": "{config.dimension.spacing.base} * 6.5",
+            "$type": "dimension"
+          },
+          "6_75": {
+            "$value": "{config.dimension.spacing.base} * 6.75",
+            "$type": "dimension"
+          },
+          "7": {
+            "$value": "{config.dimension.spacing.base} * 7",
+            "$type": "dimension"
+          },
+          "7_5": {
+            "$value": "{config.dimension.spacing.base} * 7.5",
+            "$type": "dimension"
+          },
+          "8": {
+            "$value": "{config.dimension.spacing.base} * 8",
+            "$type": "dimension"
+          },
+          "9": {
+            "$value": "{config.dimension.spacing.base} * 9",
+            "$type": "dimension"
+          },
+          "10": {
+            "$value": "{config.dimension.spacing.base} * 10",
+            "$type": "dimension"
+          },
+          "11": {
+            "$value": "{config.dimension.spacing.base} * 11",
+            "$type": "dimension"
+          },
+          "12": {
+            "$value": "{config.dimension.spacing.base} * 12",
+            "$type": "dimension"
+          },
+          "14": {
+            "$value": "{config.dimension.spacing.base} * 14",
+            "$type": "dimension"
+          },
+          "16": {
+            "$value": "{config.dimension.spacing.base} * 16",
+            "$type": "dimension"
+          },
+          "20": {
+            "$value": "{config.dimension.spacing.base} * 20",
+            "$type": "dimension"
+          },
+          "24": {
+            "$value": "{config.dimension.spacing.base} * 24",
+            "$type": "dimension"
+          },
+          "28": {
+            "$value": "{config.dimension.spacing.base} * 28",
+            "$type": "dimension"
+          },
+          "30": {
+            "$value": "{config.dimension.spacing.base} * 30",
+            "$type": "dimension"
+          },
+          "36": {
+            "$value": "{config.dimension.spacing.base} * 36",
+            "$type": "dimension"
+          },
+          "48": {
+            "$value": "{config.dimension.spacing.base} * 48",
+            "$type": "dimension"
+          },
+          "60": {
+            "$value": "{config.dimension.spacing.base} * 60",
+            "$type": "dimension"
+          }
+        },
+        "radius": {
+          "round": {
+            "$value": "9999px",
+            "$type": "dimension"
+          },
+          "compact": {
+            "sm": {
+              "$value": "{config.dimension.radius.base} * 1.5",
+              "$type": "dimension"
+            },
+            "md": {
+              "$value": "{config.dimension.radius.base} * 1.75",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "{config.dimension.radius.base} * 2",
+              "$type": "dimension"
+            },
+            "xl": {
+              "$value": "{config.dimension.radius.base} * 2.25",
+              "$type": "dimension"
             }
           },
-          "saturation": {
-            "default": {
-              "value": "0%",
-              "type": "other"
+          "default": {
+            "xs": {
+              "$value": "{config.dimension.radius.base} * 2.5",
+              "$type": "dimension"
             },
-            "translucent": {
-              "value": "0%",
-              "type": "other"
-            }
-          },
-          "darken": {
-            "default": {
-              "value": "0.1",
-              "type": "other"
+            "sm": {
+              "$value": "{config.dimension.radius.base} * 3",
+              "$type": "dimension"
             },
-            "hover": {
-              "value": "0.1",
-              "type": "other"
+            "md": {
+              "$value": "{config.dimension.radius.base} * 3.5",
+              "$type": "dimension"
             },
-            "active": {
-              "value": "0.2",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.06",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.08",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.1",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.04",
-                "type": "other"
-              }
+            "lg": {
+              "$value": "{config.dimension.radius.base} * 4",
+              "$type": "dimension"
             },
-            "border": {
-              "default": {
-                "value": "0.08",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.12",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.08",
-                "type": "other"
-              }
+            "xl": {
+              "$value": "{config.dimension.radius.base} * 4.5",
+              "$type": "dimension"
             },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
+            "2xl": {
+              "$value": "{config.dimension.radius.base} * 5",
+              "$type": "dimension"
             }
           }
         },
-        "accent": {
-          "hue": {
-            "default": {
-              "value": "220",
-              "type": "other"
-            }
+        "border": {
+          "default": {
+            "$value": "2px",
+            "$type": "dimension"
           },
-          "saturation": {
+          "thin": {
+            "$value": "1px",
+            "$type": "dimension"
+          }
+        },
+        "outline": {
+          "focus": {
             "default": {
-              "value": "3%",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "3%",
-              "type": "other"
+              "$value": "0.25rem",
+              "$type": "dimension"
             }
-          },
-          "darken": {
+          }
+        }
+      },
+      "surface": {
+        "padding": {
+          "container": {
             "default": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.2",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.06",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.08",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.1",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.04",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.12",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.14",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.06",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "0.8",
-              "type": "other"
+              "$value": "{app.dimension.component.spacing.2}",
+              "$type": "dimension"
             }
           }
         },
-        "primary": {
-          "hue": {
+        "radius": {
+          "sm": {
             "default": {
-              "value": "220",
-              "type": "other"
+              "$value": "{config.dimension.spacing.base} * 7",
+              "$type": "dimension"
+            },
+            "inset": {
+              "$value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container.default}",
+              "$type": "dimension"
             }
           },
-          "saturation": {
+          "md": {
             "default": {
-              "value": "3%",
-              "type": "other"
+              "$value": "{config.dimension.spacing.base} * 8",
+              "$type": "dimension"
             },
-            "translucent": {
-              "value": "3%",
-              "type": "other"
+            "inset": {
+              "$value": "{app.dimension.surface.radius.md.default} - {app.dimension.surface.padding.container.default}",
+              "$type": "dimension"
             }
           },
-          "darken": {
+          "lg": {
             "default": {
-              "value": "0.1",
-              "type": "other"
+              "$value": "{config.dimension.spacing.base} * 9",
+              "$type": "dimension"
             },
-            "hover": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.2",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.06",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.08",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.1",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.04",
-                "type": "other"
-              },
-              "amp": {
-                "value": "0.1",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.12",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.14",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.06",
-                "type": "other"
-              },
-              "amp": {
-                "value": "0.16",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.8",
-              "type": "other"
+            "inset": {
+              "$value": "{app.dimension.surface.radius.lg.default} - {app.dimension.surface.padding.container.default}",
+              "$type": "dimension"
             }
           }
         },
-        "info": {
-          "hue": {
-            "default": {
-              "value": "220",
-              "type": "other"
-            }
-          },
-          "saturation": {
-            "default": {
-              "value": "100%",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "100%",
-              "type": "other"
-            }
-          },
-          "darken": {
-            "default": {
-              "value": "0.08",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.08",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.16",
-              "type": "other"
-            },
-            "focus": {
-              "value": "0.24",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.24",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.32",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.24",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.32",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.4",
-                "type": "other"
-              }
-            },
-            "focusRing": {
-              "default": {
-                "value": "{app.config.color.info.alpha.bg.active} - 0.08",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            }
-          }
-        },
-        "success": {
-          "hue": {
-            "default": {
-              "value": "155",
-              "type": "other"
-            }
-          },
-          "saturation": {
-            "default": {
-              "value": "100%",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "80%",
-              "type": "other"
-            }
-          },
-          "darken": {
-            "default": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.2",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.24",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.32",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.4",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.4",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.48",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.56",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            }
-          }
-        },
-        "warning": {
-          "hue": {
-            "default": {
-              "value": "40",
-              "type": "other"
-            }
-          },
-          "saturation": {
-            "default": {
-              "value": "100%",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "90%",
-              "type": "other"
-            }
-          },
-          "darken": {
-            "default": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.1",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.2",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.32",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.4",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.48",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.48",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.56",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.64",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            }
-          }
-        },
-        "danger": {
-          "hue": {
-            "default": {
-              "value": "15",
-              "type": "other"
-            }
-          },
-          "saturation": {
-            "default": {
-              "value": "100%",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "100%",
-              "type": "other"
-            }
-          },
-          "darken": {
-            "default": {
-              "value": "0.08",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.08",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.12",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.24",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.32",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.08",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.32",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.4",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.48",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            }
+        "border": {
+          "default": {
+            "$value": "2px",
+            "$type": "dimension"
           }
         }
       }
