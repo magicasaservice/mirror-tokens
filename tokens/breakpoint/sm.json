@@ -4,43 +4,55 @@
       "surface": {
         "display": {
           "sm": {
-            "$value": "{app.fontSize.surface.body.md} * 4",
+            "$value": "3rem",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{app.fontSize.surface.display.sm} + 1rem",
+            "$value": "4rem",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{app.fontSize.surface.display.md} + 1rem",
+            "$value": "5rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "6rem",
             "$type": "fontSizes"
           }
         },
         "title": {
           "sm": {
-            "$value": "{app.fontSize.surface.body.md} * 1.25",
+            "$value": "1.25rem",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{app.fontSize.surface.title.sm} + 0.25rem",
+            "$value": "1.5rem",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{app.fontSize.surface.title.md} + 0.25rem",
+            "$value": "1.75rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "2rem",
             "$type": "fontSizes"
           }
         },
         "subtitle": {
           "sm": {
-            "$value": "{app.fontSize.surface.body.md} + 0.125rem",
+            "$value": "1.125rem",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "{app.fontSize.surface.subtitle.sm} + 0.125rem",
+            "$value": "1.375rem",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "{app.fontSize.surface.subtitle.md} + 0.125rem",
+            "$value": "1.625rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "1.875rem",
             "$type": "fontSizes"
           }
         }
@@ -50,14 +62,18 @@
       "surface": {
         "display": {
           "sm": {
-            "$value": "-0.05rem",
+            "$value": "0rem",
             "$type": "letterSpacing"
           },
           "md": {
-            "$value": "-0.1rem",
+            "$value": "-0.05rem",
             "$type": "letterSpacing"
           },
           "lg": {
+            "$value": "-0.1rem",
+            "$type": "letterSpacing"
+          },
+          "xl": {
             "$value": "-0.15rem",
             "$type": "letterSpacing"
           }
