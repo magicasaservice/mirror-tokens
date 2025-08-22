@@ -219,6 +219,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.grey.solid.12}"
               }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.black.translucent.3}"
+              }
             }
           }
         },
@@ -333,6 +339,12 @@
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.grey.solid.8}"
+              }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.grey.translucent.3}"
               }
             }
           }
@@ -449,6 +461,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.blue.solid.12}"
               }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.6}"
+              }
             }
           }
         },
@@ -563,6 +581,12 @@
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.red.solid.12}"
+              }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.6}"
               }
             }
           }
@@ -679,6 +703,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.green.solid.12}"
               }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.6}"
+              }
             }
           }
         },
@@ -794,6 +824,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.yellow.solid.12}"
               }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.6}"
+              }
             }
           }
         },
@@ -908,6 +944,12 @@
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.solid.12}"
+              }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.6}"
               }
             }
           }
@@ -1103,6 +1145,21 @@
                     "modify": {
                       "type": "alpha",
                       "value": "0.32",
+                      "space": "oklch"
+                    }
+                  }
+                }
+              }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onLight.default}",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.24",
                       "space": "oklch"
                     }
                   }
