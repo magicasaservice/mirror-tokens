@@ -408,15 +408,14 @@
         "dragged": {
           "$value": [
             {
-              "x": "0",
-              "y": "{app.dimension.component.spacing.1_5}",
-              "blur": "1rem",
-              "spread": "0",
               "color": "{app.color.surface.shadow.strong}",
-              "type": "dropShadow"
+              "offsetX": "0px",
+              "offsetY": "{app.dimension.component.spacing.1_5}",
+              "blur": "1rem",
+              "spread": "0px"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         }
       }
     }

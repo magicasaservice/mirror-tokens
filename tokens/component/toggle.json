@@ -434,28 +434,26 @@
           "default": {
             "$value": [
               {
-                "x": "0",
-                "y": "{app.dimension.component.spacing.0_25}",
-                "blur": "0.125rem",
-                "spread": "0",
                 "color": "{app.color.surface.shadow.default}",
-                "type": "dropShadow"
+                "offsetX": "0px",
+                "offsetY": "{app.dimension.component.spacing.0_25}",
+                "blur": "0.125rem",
+                "spread": "0px"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           },
           "pressed": {
             "$value": [
               {
-                "x": "0",
-                "y": "{app.dimension.component.spacing.0_25}",
-                "blur": "0.125rem",
-                "spread": "0",
                 "color": "{app.color.surface.shadow.strong}",
-                "type": "dropShadow"
+                "offsetX": "0px",
+                "offsetY": "{app.dimension.component.spacing.0_25}",
+                "blur": "0.125rem",
+                "spread": "0px"
               }
             ],
-            "$type": "boxShadow"
+            "$type": "shadow"
           }
         }
       },
