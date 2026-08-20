@@ -1,0 +1,310 @@
+{
+  "app": {
+    "color": {
+      "surface": {
+        "bg": {
+          "low": {
+            "$value": "{config.color.palette.ground.solid.2}",
+            "$type": "color"
+          },
+          "base": {
+            "$value": "{config.color.palette.grey.solid.15}",
+            "$type": "color"
+          },
+          "high": {
+            "$value": "{config.color.palette.grey.solid.14}",
+            "$type": "color"
+          },
+          "higher": {
+            "$value": "{config.color.palette.grey.solid.13}",
+            "$type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "$value": "{config.color.palette.grey.translucent.3}",
+            "$type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "$value": "{config.color.palette.grey.solid.1}",
+            "$type": "color"
+          },
+          "muted": {
+            "$value": "{config.color.palette.white.translucent.7}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{config.color.palette.white.translucent.3}",
+            "$type": "color"
+          },
+          "inverted": {
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color"
+          },
+          "link": {
+            "default": {
+              "$value": "{config.color.palette.blue.solid.4}",
+              "$type": "color"
+            },
+            "hover": {
+              "$value": "{config.color.palette.blue.solid.5}",
+              "$type": "color"
+            },
+            "active": {
+              "$value": "{config.color.palette.blue.solid.6}",
+              "$type": "color"
+            }
+          }
+        }
+      },
+      "component": {
+        "primary": {
+          "bg": {
+            "solid": {
+              "default": {
+                "$value": "{config.color.palette.grey.solid.1}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{config.color.palette.grey.solid.2}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{config.color.palette.grey.solid.3}",
+                "$type": "color"
+              }
+            },
+            "inverted": {
+              "default": {
+                "$value": "{config.color.palette.grey.solid.14}",
+                "$type": "color"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$value": "{config.color.palette.grey.solid.1}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{config.color.palette.grey.solid.2}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{config.color.palette.grey.solid.3}",
+                "$type": "color"
+              }
+            },
+            "muted": {
+              "default": {
+                "$value": "{config.color.palette.white.translucent.7}",
+                "$type": "color"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$value": "{config.color.palette.white.translucent.3}",
+                "$type": "color"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$value": "{config.color.palette.ground.solid.2}",
+                "$type": "color"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$value": "{config.color.palette.grey.solid.1}",
+                "$type": "color"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$value": "{config.color.palette.grey.solid.1}",
+                "$type": "color"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "fg": {
+            "muted": {
+              "default": {
+                "$value": "{config.color.palette.grey.translucent.8}",
+                "$type": "color"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$value": "{config.color.palette.grey.translucent.6}",
+                "$type": "color"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$value": "{config.color.palette.ground.solid.2}",
+                "$type": "color"
+              }
+            }
+          }
+        },
+        "accent": {
+          "fg": {
+            "muted": {
+              "default": {
+                "$value": "{config.color.palette.blue.translucent.8}",
+                "$type": "color"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$value": "{config.color.palette.blue.solid.1}",
+                "$type": "color"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$value": "{config.color.palette.blue.solid.1}",
+                "$type": "color"
+              }
+            }
+          }
+        },
+        "danger": {
+          "fg": {
+            "muted": {
+              "default": {
+                "$value": "{config.color.palette.red.translucent.8}",
+                "$type": "color"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$value": "{config.color.palette.red.solid.1}",
+                "$type": "color"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$value": "{config.color.palette.red.solid.1}",
+                "$type": "color"
+              }
+            }
+          }
+        },
+        "success": {
+          "fg": {
+            "muted": {
+              "default": {
+                "$value": "{config.color.palette.green.translucent.8}",
+                "$type": "color"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$value": "{config.color.palette.green.solid.1}",
+                "$type": "color"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$value": "{config.color.palette.green.solid.1}",
+                "$type": "color"
+              }
+            }
+          }
+        },
+        "warning": {
+          "fg": {
+            "muted": {
+              "default": {
+                "$value": "{config.color.palette.yellow.translucent.8}",
+                "$type": "color"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$value": "{config.color.palette.yellow.solid.1}",
+                "$type": "color"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$value": "{config.color.palette.yellow.solid.1}",
+                "$type": "color"
+              }
+            }
+          }
+        },
+        "neutral": {
+          "bg": {
+            "solid": {
+              "default": {
+                "$value": "{config.color.palette.neutral.solid.1}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{config.color.palette.neutral.solid.2}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{config.color.palette.neutral.solid.3}",
+                "$type": "color"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$value": "{config.color.palette.neutral.solid.1}",
+                "$type": "color"
+              },
+              "hover": {
+                "$value": "{config.color.palette.neutral.solid.2}",
+                "$type": "color"
+              },
+              "active": {
+                "$value": "{config.color.palette.neutral.solid.3}",
+                "$type": "color"
+              }
+            },
+            "muted": {
+              "default": {
+                "$value": "{config.color.palette.neutral.translucent.10}",
+                "$type": "color"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$value": "{config.color.palette.neutral.translucent.8}",
+                "$type": "color"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$value": "{config.color.palette.ground.solid.2}",
+                "$type": "color"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$value": "{config.color.palette.neutral.solid.1}",
+                "$type": "color"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$value": "{config.color.palette.neutral.solid.1}",
+                "$type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
