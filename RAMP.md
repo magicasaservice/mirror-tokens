@@ -253,6 +253,10 @@ against `theme/dark/application.css`, foreground on `surface.bg.base`.
 
 ## What the ladder costs
 
+> Superseded for the four chromatic hues by "The v1 parity retune" at the end of
+> this file. The three costs below are what prompted it. The section is kept
+> because the retune only makes sense against what it replaced.
+
 Holding the ladder is not free, and one group pays most of it.
 
 **`warning` loses its brightness.** v1 puts `warning.bg.solid.default` at
@@ -338,3 +342,159 @@ put white ink on a white page.
 **`chromaScale` is still inert.** It is declared on the dark source entry
 because the config accepts it. Nothing reads it, because the chroma envelope is
 authored into the ramps. Either drop the property or find it a home.
+
+## The v1 parity retune
+
+The ladder shipped, and against v1 the result read muted. Measured on
+`bg.solid`, every hue had lost between a fifth and a third of its chroma, and
+`warning` had lost a quarter of its lightness on top of that:
+
+| hue       | v1                     | ladder                    |
+| --------- | ---------------------- | ------------------------- |
+| `accent`  | `oklch(0.56 0.26 264)` | `oklch(0.627 0.183 264)`  |
+| `success` | `oklch(0.65 0.20 151)` | `oklch(0.6028 0.157 151)` |
+| `danger`  | `oklch(0.65 0.23 33.84)` | `oklch(0.6407 0.185 33.84)` |
+| `warning` | `oklch(0.87 0.175 90)` | `oklch(0.6205 0.104 90)`  |
+
+### What v1 was actually doing
+
+v1's authored chroma is not a chroma. Put each of its four solids through the
+sRGB hull and the authored number turns out to sit on or just past the
+boundary, so what reaches the screen is the hull itself:
+
+| hue       | authored `C` | sRGB hull at that `L` | rendered |
+| --------- | -----------: | --------------------: | -------: |
+| `accent`  |        0.260 |                 0.242 |    0.242 |
+| `success` |        0.200 |                 0.175 |    0.175 |
+| `danger`  |        0.230 |                 0.235 |    0.230 |
+| `warning` |        0.175 |                 0.168 |    0.168 |
+
+That is the uniformity we were asked to get back. v1 is not uniform in
+contrast, and its solids read anywhere between 1.32:1 and 4.41:1 against the
+page ground. It is uniform in _vividness_: every hue is as saturated as the
+display can render it, and the eye reads that as one family long before it
+reads a contrast ratio.
+
+### The chroma rule
+
+**Chroma is the sRGB hull at the step's own `L` and `H`, floored to three
+decimal places.** No damping constant, no mirrored `min()`. Flooring rather
+than rounding is what keeps every authored step inside sRGB.
+
+The mirrored envelope is dropped for the four chromatic hues, and it is worth
+being exact about why, because chroma symmetry is a real rule and this is a
+narrowing of it rather than a repeal. Symmetry exists so a light-mode tint does
+not become a dark-mode saturated fill when a token flips from step `n` to step
+`16 − n`. The four chromatic ramps barely flip. Their solid families are
+authored once and read the same in both modes, exactly as v1 had them, and the
+only mirrored pair any of them uses is `1 / 15`, on `fg.onMuted` and
+`fg.onSubtle`. Those two are the darkest ink and the lightest ink, which is a
+pair of opposites rather than a tint and a fill, and holding one chroma across
+them buys nothing. So the envelope was paying full price on all fifteen steps
+to protect one pair that did not want protecting.
+
+`grey`, `neutral` and `stone` are untouched. They do flip, wholesale, and they
+carry at most `C 0.010`, so symmetry there is both load-bearing and free.
+
+A side effect worth having: nothing in the palette leaves sRGB any more. The
+old `red` steps 1 to 5 and `green` steps 8 to 15 sat outside it and were
+gamut-mapped by the browser, which made the invariant exact on a P3 display and
+approximate on an sRGB one. Authored at the hull, every step renders the same
+everywhere.
+
+### The solid family sits per hue, not per index
+
+One step index cannot serve every hue, because hues reach the hull at different
+lightnesses. Blue is vivid when it is dark, yellow only reads as yellow when it
+is light, and asking both to be step 7 is what turned `warning` into a mustard.
+
+Each group's solid family takes the three consecutive steps whose lightness
+matches v1's, and the numbers below are the whole of the design decision:
+
+| group     | ramp     | steps  | `L`                  | `C`                 |
+| --------- | -------- | -----: | -------------------- | ------------------- |
+| `accent`  | `blue`   | 8/9/10 | 0.5676 0.5168 0.4623 | 0.237 0.269 0.268   |
+| `success` | `green`  |  6/7/8 | 0.68 0.62 0.5676     | 0.182 0.166 0.152   |
+| `danger`  | `red`    |  6/7/8 | 0.68 0.62 0.5676     | 0.210 0.223 0.204   |
+| `warning` | `yellow` |  3/4/5 | 0.87 0.85 0.83       | 0.167 0.173 0.169   |
+
+`surface.fg.link` and `focus.border` follow `accent` onto 8/9/10, because v1
+authored all three at the same value and they should not drift apart. In dark
+mode `surface.fg.link` moves from 4/5/6 to 5/6/7, which puts its default at
+`L 0.76` against v1's 0.78 instead of the 0.84 it had.
+
+### Yellow keeps its own spacing
+
+`yellow` is the one ramp whose `L` values leave the shared ladder. Its solid
+family wants 0.87, 0.85 and 0.83, and the shared ramp offers 0.88, 0.84 and
+0.76 at those indices, so the active state would have landed a long way down
+into gold. Steps 3 to 9 are re-spaced and the ramp rejoins the shared values at
+step 10:
+
+```
+0.96 0.92 0.87 0.85 0.83 0.76 0.68 0.60 0.53 0.4623 0.3934 0.3251 0.2889 0.2489 0.20
+```
+
+Nothing else reads those steps, and the two ends the rest of the system does
+read, 1 and 15, are unchanged.
+
+The re-spacing also settles `warning.fg.solid` without an exception. It stays
+at 7/8/9, which after the move is `L 0.68 / 0.60 / 0.53`, a dark gold that
+reads 2.58:1 in light and 6.25:1 in dark. v1 pointed that token at the bright
+yellow, where it read **1.32:1** and was not legible on the page ground in
+either mode. This is the one place the retune deliberately refuses to match v1,
+and it is the same defect the ladder was right to flag.
+
+### Translucent ink
+
+**Each chromatic translucent ramp is inked from the step its own group uses for
+`bg.solid.default`**, so `blue` 8, `red` 6, `green` 6 and `yellow` 3. The
+achromatic three keep step 8. The rule is the same one stated twice: ink from
+whichever step is mode-invariant, which is the flip's fixed point for a ramp
+that flips and the solid step for a family that does not.
+
+Inking `yellow` from step 8 was why a warning tint came out brown. At step 3 it
+composites to `#f4ead9` in light against v1's `#f3ece0`.
+
+The alpha ladder is untouched.
+
+### Where it lands
+
+`bg.solid`, both modes, against v1 as rendered:
+
+| group     | v1        | retuned   | ΔL     | ΔC     |
+| --------- | --------- | --------- | -----: | -----: |
+| `accent`  | `#2561ff` | `#2965ff` | +0.008 | −0.005 |
+| `success` | `#00ac53` | `#05b659` | +0.030 | +0.007 |
+| `danger`  | `#fc3f0c` | `#ff5732` | +0.030 | −0.020 |
+| `warning` | `#ffce2d` | `#ffce2f` | +0.000 | −0.001 |
+
+`warning` is exact. `accent` is inside a hundredth on both axes. `success` and
+`danger` sit 0.03 light of v1 because the shared ladder offers 0.68 and 0.62
+either side of v1's 0.65 and there is no step at 0.65; taking the lighter of
+the two reproduces v1's hover and active almost exactly, `#04a14e` against
+`#009d4c` and `#d43102` against `#d53000`, which is the pair that carries the
+interaction feel.
+
+`fg.onSolid` on `bg.solid`, unchanged across modes because the solids are:
+
+| group     | v1      | retuned |
+| --------- | ------: | ------: |
+| `accent`  |  4.95:1 |  4.78:1 |
+| `success` |  3.00:1 |  2.67:1 |
+| `danger`  |  3.59:1 |  3.16:1 |
+| `warning` | 14.11:1 | 14.11:1 |
+
+`success` and `danger` do not reach 4.5:1, and neither did v1. Reaching it
+means darkening both solids by roughly two steps, which is a different design
+from the one v1 had and not one to make by arithmetic. The lever is there if it
+is wanted: moving either group to 7/8/9 buys 3.39:1 and 4.04:1, and to 8/9/10
+buys 4.21:1 and 4.98:1, at the cost of the vividness this retune exists to
+restore.
+
+Ink on the composited overlays clears 4.5:1 everywhere except
+`warning.fg.onMuted` in dark, which reads 4.38:1. The cause is the overlay
+weight rather than the ink: dark `bg.muted` is a 24% overlay where v1 used 12%,
+which is the open question already recorded above about `bg.muted` and
+`border.subtle` landing heavier than v1's. Dropping dark `bg.muted` to
+`translucent.2` takes it to 6.89:1 whenever that decision gets made.
