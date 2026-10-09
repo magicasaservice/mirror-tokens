@@ -68,7 +68,7 @@ control.
 
 The `component` and `default` segments are dropped from every generated name,
 so that token compiles to `--app-color-primary-bg-solid-hover`. The
-[token overview](https://github.com/magicasaservice/mirror/blob/v2/apps/docs/content/1.tokens/0.overview.md)
+[token overview](https://github.com/magicasaservice/mirror/blob/main/apps/docs/content/1.tokens/0.overview.md)
 explains every segment of a path.
 
 ### Themes and breakpoints
@@ -108,7 +108,7 @@ the display letter spacing from 640px up. It needs no attribute.
 
 Brand themes are kept in the repository of the product that uses them, so this
 set stops at `dark` and `mono`. The
-[theming guide](https://github.com/magicasaservice/mirror/blob/v2/apps/docs/content/1.tokens/2.theming.md)
+[theming guide](https://github.com/magicasaservice/mirror/blob/main/apps/docs/content/1.tokens/2.theming.md)
 covers loading the compiled files and setting the attributes.
 
 ### `figma/type.json`
@@ -124,7 +124,7 @@ exported typography variables.
 
 If your own copy has no such file, set `figma.typography` to `false` in
 `mirror.config.ts` and the export skips text styles. The
-[Figma styles guide](https://github.com/magicasaservice/mirror/blob/v2/apps/docs/content/2.figma/1.styles.md)
+[Figma styles guide](https://github.com/magicasaservice/mirror/blob/main/apps/docs/content/2.figma/1.styles.md)
 covers the plugin that writes them into a Figma file.
 
 ## Typefaces
@@ -179,7 +179,7 @@ source: {
 
 To build from another ref for a single run without editing the file, pass it to
 `mirror tokens` as `--source github:magicasaservice/mirror-tokens#<ref>`. The
-[CLI reference](https://github.com/magicasaservice/mirror/blob/v2/apps/docs/content/0.overview/4.cli.md)
+[CLI reference](https://github.com/magicasaservice/mirror/blob/main/apps/docs/content/0.overview/4.cli.md)
 lists every argument.
 
 ## Starting your own set
@@ -219,7 +219,7 @@ targets: {
 That compiles `tokens/theme/brand.json` into
 `.maas/tokens/css/theme/brand/application.css`, which applies under
 `data-theme="brand"`. The
-[configuration guide](https://github.com/magicasaservice/mirror/blob/v2/apps/docs/content/1.tokens/1.configuration.md)
+[configuration guide](https://github.com/magicasaservice/mirror/blob/main/apps/docs/content/1.tokens/1.configuration.md)
 documents every key of a target.
 
 ## Found a bug?
